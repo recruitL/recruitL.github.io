@@ -1,5 +1,5 @@
 ---
-title: 分类
+title: **分类**
 feature_text: |
   A demo of Markdown and HTML includes
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/IMG_20231003_121919.jpg"
