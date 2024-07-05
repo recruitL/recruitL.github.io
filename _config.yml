@@ -22,7 +22,7 @@ exclude:
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
-# 2. Installed Gems
+# 2. Installed Gems # 插件依赖
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -39,15 +39,15 @@ paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+  username: recruitL # jekyll-seo-tag > Owners twitter username
+author: recruitL # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: David Darnes # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://twitter.com/DavidDarnes
     - https://www.facebook.com/daviddarnes
     - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+    - https://github.com/recruitL
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -56,9 +56,9 @@ social: # jekyll-seo-tag > social overrides
 # 4. Jekyll settings
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /2024/07/05/个人网站搭建/  # Permalink style (/YYYY/MM/DD/page-name/) # 永久链接样式
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: Asia/China # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
@@ -68,7 +68,7 @@ collections:
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
       Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -92,14 +92,14 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+lang: zh-CN # Set the site language
+title: "recruitL" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+description: "Personal website and blog by ecruitL" # Site description and default description, also used in jekyll-seo-tag
+url: "https://recruitL.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/recruitL"
+email: "yuanlong2024@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -121,22 +121,22 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Home
+- title: 主页
   url: /
-- title: Elements
+- title: 分类
   url: /elements/
-- title: Blog
+- title: 博客
   url: /blog/
-- title: Categories
+- title: 标签
   url: /categories/
-- title: Search
+- title: 网页搜索
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
+- title: 复刻
+  url: https://github.com/recruitL/recruitL.githuio
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Created by recriutL
+  url: 
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
