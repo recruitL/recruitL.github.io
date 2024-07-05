@@ -7,8 +7,6 @@ excerpt: ""
 aside: true
 ---
 
-# 网站内容
-
 ## 学习
 
 * 论文推导
