@@ -2,33 +2,34 @@
 layout: default
 ---
 
-{% include site-header.html %}
+{% include site-header.html %} <!-- 引入头部导航栏 -->
 
-<main class="main  container">
+<!-- 主体内容区域 -->
+<main class="main  container"> 
 
   <div class="content">
 
     <article class="article  article--page  typeset">
 
-      {% if paginator.posts %}
-        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-        <h1>{{ collectiondata.title }}</h1>
-        {{ collectiondata.description | markdownify }}
+      {% if paginator.posts %}  <!-- 检查是否有分页文章 -->
+        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}  <!-- 获取与当前页面集合标签匹配的集合数据 -->
+        <h1>{{ collectiondata.title }}</h1>  <!-- 显示集合的标题 -->
+        {{ collectiondata.description | markdownify }}  <!-- 显示集合的描述并将其转换为Markdown格式 -->
 
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+      {% else %}  <!-- 如果没有分页文章 -->
+        <h1>{{ page.title }}</h1>  <!-- 显示当前页面的标题 -->
+        {{ content }}  <!-- 显示当前页面的内容 -->
         
-      {% endif %}
+      {% endif %}  <!-- 结束if条件判断 -->
 
     </article>
 
-    {% include post-list.html %}
+    {% include post-list.html %}  <!-- 引入文章列表 -->
 
   </div>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}  <!-- 如果页面有侧边栏，则引入侧边栏 -->
 
 </main>
 
-{% include site-footer.html %}
+{% include site-footer.html %}  <!-- 引入页脚 -->

@@ -2,24 +2,24 @@
 layout: default
 ---
 
-{% include site-header.html %}
+{% include site-header.html %}  <!-- 包含网站头部 -->
 
-<main class="main  container">
+<main class="main  container">  <!-- 主内容容器 -->
 
-  <article class="article  article--post  content  typeset">
+  <article class="article  article--post  content  typeset">  <!-- 文章容器 -->
 
-    <h1>{{ page.title }}</h1>
-    {% include post-meta.html %}
-    {{ content }}
+    <h1>{{ page.title }}</h1>  <!-- 显示页面标题 -->
+    {% include post-meta.html %}  <!-- 包含文章元数据 -->
+    {{ content }}  <!-- 显示文章内容 -->
 
-    {% include nav-share.html %}
+    {% include nav-share.html %}  <!-- 包含分享导航 -->
 
-    {% include post-comments.html %}
+    {% include post-comments.html %}  <!-- 包含评论部分 -->
 
   </article>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}  <!-- 如果页面有侧边栏，则包含侧边栏内容 -->
 
 </main>
 
-{% include site-footer.html %}
+{% include site-footer.html %}  <!-- 包含网站底部 -->

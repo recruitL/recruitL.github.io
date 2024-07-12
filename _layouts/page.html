@@ -2,20 +2,20 @@
 layout: default
 ---
 
-{% include site-header.html %}
+{% include site-header.html %}  <!-- 包含网站头部文件 -->
 
-<main class="main  container">
+<main class="main  container">  <!-- 定义主容器 -->
 
-  <article class="article  article--page  content  typeset">
+  <article class="article  article--page  content  typeset">  <!-- 定义页面文章容器 -->
 
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>  <!-- 显示页面标题 -->
 
-    {{ content }}
+    {{ content }}  <!-- 显示页面内容 -->
 
   </article>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}  <!-- 如果页面有侧边栏，则包含侧边栏文件 -->
 
 </main>
 
-{% include site-footer.html %}
+{% include site-footer.html %}  <!-- 包含网站底部文件 -->
