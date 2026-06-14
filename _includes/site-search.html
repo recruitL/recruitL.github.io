@@ -1,7 +1,7 @@
 <div class="form  form--search">
   <form id="contact-form" action="">
-    <label class="label" for="search">Search term:</label>
-    <input class="input" id="search" type="search" name="search" placeholder="e.g. About us" autocomplete="off" />
+    <label class="label" for="search">搜索关键词：</label>
+    <input class="input" id="search" type="search" name="search" placeholder="例如：引力年会" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
         <!-- results go here -->
@@ -38,7 +38,7 @@
         </li>`;
     }).join('');
     if ((resultsArray.length == 0) || (this.value == '')) {
-      resultsList.innerHTML = `<p>Sorry, nothing was found</p>`;
+      resultsList.innerHTML = `<p>没有找到相关内容</p>`;
     } else {
       resultsList.innerHTML = html;
     }
@@ -55,4 +55,4 @@
     }
   });
 </script>
-<noscript>Please enable JavaScript to use the search form.</noscript>
+<noscript>请启用 JavaScript 使用搜索功能。</noscript>

@@ -1,7 +1,7 @@
 ---
 title: recruitL个人主页
 feature_text: |
-## 
+## recruitL
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: ""
 ---

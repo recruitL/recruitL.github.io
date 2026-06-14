@@ -1,7 +1,7 @@
 ---
-title: Thanks!
+title: 感谢
 indexing: false
 sitemap: false
 ---
 
-Thanks for getting in touch! We'll respond as soon as we can.
+感谢你的联系，我会尽快回复。

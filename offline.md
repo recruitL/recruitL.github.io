@@ -1,9 +1,9 @@
 ---
-title: Looks like you're offline
+title: 网络连接已断开
 indexing: false
 sitemap: false
 ---
 
-It appears that you've lost your network connection and this document doesn't exist on your device.
+当前网络连接不可用，并且这个页面没有离线缓存。
 
-Try either returning to the previous page, using the navigation to find your way back, or restore your network connection.
+请返回上一页、通过导航访问其他页面，或恢复网络连接后重试。
