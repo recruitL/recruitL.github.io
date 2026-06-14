@@ -21,7 +21,7 @@ excerpt: ""
   {% include icon.html id="email" title="Email" color="#d44638" %} <a href="mailto:shenglong@ucas.ac.cn">Email</a><br>
   {% include icon.html id="inspire" title="INSPIRE-HEP" color="#00e5ff" %} <a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a><br>
   {% include icon.html id="google-scholar" title="Google Scholar" color="#4285f4" %} <a href="https://scholar.google.com/citations?user=zDxt9_kAAAAJ&hl=zh-TW&authuser=1">Google Scholar</a><br>
-  {% include icon.html id="orcid" title="ORCID" color="#a6ce39" %} <a href="https://orcid.org/my-orcid?orcid=0009-0009-0163-2724">ORCID</a>
+  {% include icon.html id="orcid" title="ORCID" color="#a6ce39" %} <a href="https://orcid.org/0009-0009-0163-2724">ORCID</a>
 </p>
 
 ## 快捷入口
