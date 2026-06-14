@@ -16,11 +16,11 @@ excerpt: ""
 
 ## 学术主页
 
-* GitHub: [recruitL](https://github.com/recruitL)
-* Email: [yuanlong2024@gmail.com](mailto:yuanlong2024@gmail.com)
-* INSPIRE-HEP: 待补充
-* Google Scholar: 待补充
-* ORCID: 待补充
+* {% include icon.html id="github" title="GitHub" %} GitHub: [recruitL](https://github.com/recruitL)
+* {% include icon.html id="email" title="Email" %} Email: [shenglong@ucas.ac.cn](mailto:shenglong@ucas.ac.cn)
+* {% include icon.html id="inspire" title="INSPIRE-HEP" %} INSPIRE-HEP: [author profile](https://inspirehep.net/authors/2761677?ui-citation-summary=true)
+* {% include icon.html id="google-scholar" title="Google Scholar" %} Google Scholar: [citation profile](https://scholar.google.com/citations?user=zDxt9_kAAAAJ&hl=zh-TW&authuser=1)
+* {% include icon.html id="orcid" title="ORCID" %} ORCID: [0009-0009-0163-2724](https://orcid.org/my-orcid?orcid=0009-0009-0163-2724)
 
 ## 快捷入口
 
