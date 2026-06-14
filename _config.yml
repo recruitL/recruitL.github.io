@@ -60,7 +60,7 @@ timezone: Asia/Shanghai # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: 博客 # Needed for Siteleaf
+    title: 博客笔记 # Needed for Siteleaf
     output: true
     description: "所思所想" # The post list page content
     feature_text: |
@@ -120,16 +120,16 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: 主页
   url: /
-- title: 分类
-  url: /elements/
-- title: 博客
+- title: 代码库
+  url: /code/
+- title: 科研项目
+  url: /projects/
+- title: 学术会议
+  url: /conferences/
+- title: 博客笔记
   url: /blog/
-- title: 标签
-  url: /categories/
-- title: 网页搜索
+- title: 搜索
   url: /search/
-- title: 复刻
-  url: https://github.com/recruitL/recruitL.github.io
 
 navigation_footer:
 - title: Created by recruitL
