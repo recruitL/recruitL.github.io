@@ -92,7 +92,7 @@ aside: true
     <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
     <div class="activity-news__body">
       <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="/2024/04/19/annual/">2024 引力年会</a>，湖南·衡阳（<a href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">会议官网</a>）。</p>
+      <p><a class="activity-news__title" href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">2024 引力年会</a>，湖南·衡阳。</p>
     </div>
   </article>
 </div>
