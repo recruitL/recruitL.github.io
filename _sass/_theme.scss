@@ -336,11 +336,6 @@ a .icon {
   }
 }
 
-.activity-note {
-  color: #2a7ae2;
-  font-style: italic;
-}
-
 .activity-calendar {
   margin-bottom: 1rem;
   max-width: 28rem;
@@ -419,32 +414,6 @@ a .icon {
   &__blank {
     background: $codeBackgroundColour;
   }
-  &__events {
-    display: flex;
-    flex-direction: column;
-    gap: .25rem;
-    margin-top: .5rem;
-    a {
-      background: none;
-      color: $linkColour;
-      display: inline-flex;
-      gap: .35rem;
-      line-height: inherit;
-      text-shadow: none;
-      &:hover,
-      &:focus {
-        background: none;
-        color: $hoverColour;
-      }
-    }
-    .activity-icon {
-      margin-top: .2rem;
-    }
-  }
-}
-
-.activity-list {
-  margin-top: .8rem;
 }
 
 .activity-news {

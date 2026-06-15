@@ -9,10 +9,6 @@ aside: true
 
 这里整理学术会议、报告活动、资料链接和相关记录。
 
-## 活动
-
-<p class="activity-note">整理与学术活动有关的会议及报告信息，分享一些有用的网站和资料入口。</p>
-
 ## 活动万年历
 
 <div class="activity-calendar" data-calendar>
@@ -60,7 +56,6 @@ aside: true
     </thead>
     <tbody data-calendar-body></tbody>
   </table>
-  <div class="activity-calendar__events" data-calendar-events></div>
 </div>
 
 ## 活动记录
@@ -125,7 +120,6 @@ aside: true
   const body = root.querySelector("[data-calendar-body]");
   const yearInput = root.querySelector("[data-calendar-year]");
   const monthSelect = root.querySelector("[data-calendar-month]");
-  const eventLinks = root.querySelector("[data-calendar-events]");
   const today = new Date();
   let viewYear = today.getFullYear();
   let viewMonth = today.getMonth();
@@ -145,13 +139,11 @@ aside: true
   const activityEvents = Array.from(document.querySelectorAll("[data-activity-start]"))
     .map(item => {
       const heading = item.querySelector(".activity-news__title, strong");
-      const kind = item.dataset.activityKind === "talk" ? "talk" : "event";
       return {
         start: item.dataset.activityStart,
         end: item.dataset.activityEnd || item.dataset.activityStart,
         title: item.dataset.activityTitle || (heading ? heading.textContent.trim() : "活动"),
-        anchor: item.id,
-        kind
+        anchor: item.id
       };
     })
     .filter(event => event.start && event.anchor);
@@ -167,14 +159,6 @@ aside: true
       eventsByDate.set(key, list);
     }
   });
-
-  const renderEventLinks = () => {
-    eventLinks.innerHTML = activityEvents.map(event => {
-      const endText = event.end && event.end !== event.start ? ` 至 ${event.end}` : "";
-      const label = event.kind === "talk" ? "小型会议" : "会议";
-      return `<a class="activity-calendar__event-link" href="#${event.anchor}"><span class="activity-icon activity-icon--${event.kind}" aria-label="${label}" role="img"></span><span>${event.start}${endText}：${escapeHtml(event.title)}</span></a>`;
-    }).join("");
-  };
 
   const renderCalendar = () => {
     const firstDay = new Date(viewYear, viewMonth, 1);
@@ -257,7 +241,6 @@ aside: true
     renderCalendar();
   });
 
-  renderEventLinks();
   renderCalendar();
 })();
 </script>
