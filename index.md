@@ -16,24 +16,56 @@ excerpt: ""
 
 ## 学术主页
 
-<p>
-  {% include icon.html id="github" title="GitHub" color="#181717" %} <a href="https://github.com/recruitL">GitHub</a><br>
-  {% include icon.html id="email" title="Email" color="#d44638" %} <a href="mailto:shenglong@ucas.ac.cn">Email</a><br>
-  {% include icon.html id="inspire" title="INSPIRE-HEP" color="#00e5ff" %} <a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a><br>
-  {% include icon.html id="google-scholar" title="Google Scholar" color="#4285f4" %} <a href="https://scholar.google.com/citations?user=zDxt9_kAAAAJ&hl=zh-TW&authuser=1">Google Scholar</a><br>
-  {% include icon.html id="orcid" title="ORCID" color="#a6ce39" %} <a href="https://orcid.org/0009-0009-0163-2724">ORCID</a>
-</p>
+<div class="profile-links">
+  <a href="https://github.com/recruitL">{% include icon.html id="github" title="GitHub" color="#181717" %}<span>GitHub</span></a>
+  <a href="mailto:shenglong@ucas.ac.cn">{% include icon.html id="email" title="Email" color="#d44638" %}<span>Email</span></a>
+  <a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">{% include icon.html id="inspire" title="INSPIRE-HEP" color="#00e5ff" %}<span>INSPIRE-HEP</span></a>
+  <a href="https://scholar.google.com/citations?user=zDxt9_kAAAAJ&hl=zh-TW&authuser=1">{% include icon.html id="google-scholar" title="Google Scholar" color="#4285f4" %}<span>Google Scholar</span></a>
+  <a href="https://orcid.org/0009-0009-0163-2724">{% include icon.html id="orcid" title="ORCID" color="#a6ce39" %}<span>ORCID</span></a>
+</div>
 
 ## 快捷入口
 
-{% include button.html text="代码库" link="/code/" color="#0366d6" %}
-{% include button.html text="科研项目" link="/projects/" color="#05bf85" %}
-{% include button.html text="学术会议" link="/conferences/" color="#6f42c1" %}
-{% include button.html text="博客笔记" link="/blog/" color="#d73a49" %}
+<div class="home-entry-grid">
+  <a class="home-entry home-entry--code" href="/code/">
+    <strong>代码库</strong>
+    <span>数值计算、数据处理、论文复现和个人工具。</span>
+  </a>
+  <a class="home-entry home-entry--project" href="/projects/">
+    <strong>科研项目</strong>
+    <span>研究方向、项目进展、相关资料和阶段性总结。</span>
+  </a>
+  <a class="home-entry home-entry--conference" href="/conferences/">
+    <strong>学术会议</strong>
+    <span>参会记录、会议链接、报告材料和会议信息整理。</span>
+  </a>
+  <a class="home-entry home-entry--note" href="/blog/">
+    <strong>博客笔记</strong>
+    <span>论文阅读、学习记录、技术笔记和阶段总结。</span>
+  </a>
+</div>
 
-## 内容规划
+## 近期动态
 
-* 代码库：数值计算、数据处理、论文复现和个人工具。
-* 科研项目：研究方向、项目进展、相关资料和阶段性总结。
-* 学术会议：参会记录、会议链接、报告材料和会议信息整理。
-* 博客笔记：论文阅读、学习记录、技术笔记和阶段总结。
+<div class="timeline">
+  <div class="timeline-item">
+    <span class="timeline-date">近期</span>
+    <span class="timeline-tag timeline-tag--code">代码库</span>
+    <p><a href="/code/">py-sc</a> 已整理为课程型数值计算代码库，当前重点是第二章“数据插值”。</p>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-date">2024-07</span>
+    <span class="timeline-tag timeline-tag--note">博客笔记</span>
+    <p><a href="/2024/07/12/General/">一周总结</a> 记录外部资源和 Effective One Body 学习材料。</p>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-date">2024-04</span>
+    <span class="timeline-tag timeline-tag--conference">学术会议</span>
+    <p><a href="/2024/04/19/annual/">2024 引力年会</a> 记录引力与相对论天体物理相关会议信息。</p>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-date">持续更新</span>
+    <span class="timeline-tag timeline-tag--project">科研项目</span>
+    <p><a href="/projects/">科研项目页</a> 将按项目沉淀研究目标、推导记录、代码链接和阶段总结。</p>
+  </div>
+</div>

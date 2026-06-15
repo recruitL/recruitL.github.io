@@ -51,7 +51,7 @@ body {
   background-size: cover;
   background-position: center;
   .container {
-    min-height: 35vh;
+    min-height: 24vh;
     max-width: 60%;
     @include flex-direction(column);
     @include justify-content(center);
@@ -217,6 +217,129 @@ a .icon {
   width: 1.1em;
   height: 1.1em;
   fill: CurrentColor;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .8rem;
+  margin-bottom: .8rem;
+  a {
+    align-items: center;
+    border-bottom: 1px solid $captionColour;
+    display: inline-flex;
+    gap: .25rem;
+    padding-bottom: .1rem;
+  }
+}
+
+.home-entry-grid {
+  display: grid;
+  gap: .6rem;
+  grid-template-columns: 1fr;
+  margin-bottom: 1rem;
+  @include breakpoint(break-1) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.home-entry {
+  border-left: .25rem solid $accentColour;
+  box-shadow: inset 0 0 0 1px $codeBackgroundColour;
+  display: block;
+  padding: .7rem .8rem;
+  text-shadow: none;
+  strong,
+  span {
+    display: block;
+  }
+  span {
+    color: $bodyColour;
+  }
+  &--code {
+    border-color: #0366d6;
+  }
+  &--project {
+    border-color: #05bf85;
+  }
+  &--conference {
+    border-color: #6f42c1;
+  }
+  &--note {
+    border-color: #d73a49;
+  }
+}
+
+.timeline {
+  border-left: 2px solid $codeBackgroundColour;
+  margin-bottom: 1rem;
+  padding-left: .8rem;
+}
+
+.timeline-item {
+  margin-bottom: .8rem;
+  position: relative;
+  &:before {
+    background: $accentColour;
+    border-radius: 50%;
+    content: "";
+    height: .5rem;
+    left: -1.1rem;
+    position: absolute;
+    top: .45rem;
+    width: .5rem;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.timeline-date,
+.timeline-tag {
+  display: inline-block;
+  font-size: .78rem;
+  line-height: 1.4;
+  margin-bottom: .2rem;
+}
+
+.timeline-date {
+  color: $captionColour;
+  margin-right: .3rem;
+}
+
+.timeline-tag {
+  background: $codeBackgroundColour;
+  color: $headingColour;
+  padding: .08rem .35rem;
+  &--code {
+    color: #0366d6;
+  }
+  &--project {
+    color: #008000;
+  }
+  &--conference {
+    color: #6f42c1;
+  }
+  &--note {
+    color: #d73a49;
+  }
+}
+
+.site-table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  width: 100%;
+  th,
+  td {
+    border: 1px solid $codeBackgroundColour;
+    padding: .45rem .55rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: $featureBackgroundColour;
+    color: $headingColour;
+  }
 }
 
 // Media content
