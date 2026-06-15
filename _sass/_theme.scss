@@ -260,7 +260,7 @@ a .icon {
     border-color: #0366d6;
   }
   &--activity {
-    border-color: #6f42c1;
+    border-color: #0ea5e9;
   }
   &--note {
     border-color: #d73a49;
@@ -312,7 +312,7 @@ a .icon {
     color: #0366d6;
   }
   &--activity {
-    color: #6f42c1;
+    color: #0ea5e9;
   }
   &--note {
     color: #d73a49;
@@ -394,7 +394,7 @@ a .icon {
     font-size: .82rem;
   }
   a {
-    background: #6f42c1;
+    background: #0ea5e9;
     color: $white;
     display: block;
     line-height: 1.85rem;
@@ -409,7 +409,7 @@ a .icon {
     box-shadow: inset 0 0 0 2px $focusColour;
   }
   &__has-event {
-    background: #f6f0ff;
+    background: #e0f2fe;
   }
   &__blank {
     background: $codeBackgroundColour;
@@ -469,7 +469,7 @@ a .icon {
 
 .activity-icon--event,
 .activity-news__item[data-activity-kind="event"] .activity-news__body > .activity-icon {
-  background: #1f8acb;
+  background: #0ea5e9;
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .25);
   height: 1.45rem;
