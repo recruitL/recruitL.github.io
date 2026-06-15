@@ -98,6 +98,21 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="conference-2025-gravitational-wave-physics"
+    data-activity-start="2025-10-12"
+    data-activity-end="2025-10-20"
+    data-activity-title="彭桓武理论物理创新研究中心“2025引力波物理研讨会”"
+    data-activity-kind="talk"
+  >
+    <div class="activity-news__date">2025-10-12 至 2025-10-20</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.itp.ac.cn/event/347/">彭桓武理论物理创新研究中心“2025引力波物理研讨会”</a>，浙江·淳安。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2025-gr"
     data-activity-start="2025-04-18"
     data-activity-end="2025-04-23"
