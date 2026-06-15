@@ -60,7 +60,7 @@ timezone: Asia/Shanghai # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: 博客笔记 # Needed for Siteleaf
+    title: 博客 # Needed for Siteleaf
     output: true
     description: "所思所想" # The post list page content
     feature_text: |
@@ -122,11 +122,9 @@ navigation_header:
   url: /
 - title: 代码库
   url: /code/
-- title: 科研项目
-  url: /projects/
-- title: 学术会议
-  url: /conferences/
-- title: 博客笔记
+- title: 活动等
+  url: /activities/
+- title: 博客
   url: /blog/
 - title: 搜索
   url: /search/

@@ -3,14 +3,14 @@ title: recruitL个人主页
 feature_text: |
   ## recruitL
 
-  个人简介、代码库、科研项目与学术会议记录
+  个人简介、代码库、活动记录与博客
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: ""
 ---
 
 ## 个人简介
 
-这里是 recruitL 的个人网站，用于整理科研学习、代码实现、项目进展和学术会议记录。
+这里是 recruitL 的个人网站，用于整理科研学习、代码实现、活动记录和博客。
 
 主要关注方向包括引力、相对论天体物理、数值计算和论文复现。后续可以在这里补充更完整的个人经历、研究方向、教育背景和联系方式。
 
@@ -31,16 +31,12 @@ excerpt: ""
     <strong>代码库</strong>
     <span>数值计算、数据处理、论文复现和个人工具。</span>
   </a>
-  <a class="home-entry home-entry--project" href="/projects/">
-    <strong>科研项目</strong>
-    <span>研究方向、项目进展、相关资料和阶段性总结。</span>
-  </a>
-  <a class="home-entry home-entry--conference" href="/conferences/">
-    <strong>学术会议</strong>
-    <span>参会记录、会议链接、报告材料和会议信息整理。</span>
+  <a class="home-entry home-entry--activity" href="/activities/">
+    <strong>活动等</strong>
+    <span>学术会议、报告活动、资料链接和相关记录。</span>
   </a>
   <a class="home-entry home-entry--note" href="/blog/">
-    <strong>博客笔记</strong>
+    <strong>博客</strong>
     <span>论文阅读、学习记录、技术笔记和阶段总结。</span>
   </a>
 </div>
@@ -55,17 +51,12 @@ excerpt: ""
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
-    <span class="timeline-tag timeline-tag--note">博客笔记</span>
+    <span class="timeline-tag timeline-tag--note">博客</span>
     <p><a href="/2024/07/12/General/">一周总结</a> 记录外部资源和 Effective One Body 学习材料。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-04</span>
-    <span class="timeline-tag timeline-tag--conference">学术会议</span>
+    <span class="timeline-tag timeline-tag--activity">活动等</span>
     <p><a href="/2024/04/19/annual/">2024 引力年会</a> 记录引力与相对论天体物理相关会议信息。</p>
-  </div>
-  <div class="timeline-item">
-    <span class="timeline-date">持续更新</span>
-    <span class="timeline-tag timeline-tag--project">科研项目</span>
-    <p><a href="/projects/">科研项目页</a> 将按项目沉淀研究目标、推导记录、代码链接和阶段总结。</p>
   </div>
 </div>

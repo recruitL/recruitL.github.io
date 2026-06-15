@@ -239,7 +239,7 @@ a .icon {
   grid-template-columns: 1fr;
   margin-bottom: 1rem;
   @include breakpoint(break-1) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -259,10 +259,7 @@ a .icon {
   &--code {
     border-color: #0366d6;
   }
-  &--project {
-    border-color: #05bf85;
-  }
-  &--conference {
+  &--activity {
     border-color: #6f42c1;
   }
   &--note {
@@ -314,10 +311,7 @@ a .icon {
   &--code {
     color: #0366d6;
   }
-  &--project {
-    color: #008000;
-  }
-  &--conference {
+  &--activity {
     color: #6f42c1;
   }
   &--note {
