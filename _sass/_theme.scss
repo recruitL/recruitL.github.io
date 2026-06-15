@@ -442,6 +442,116 @@ a .icon {
   margin-top: .8rem;
 }
 
+.activity-news {
+  border-top: 2px solid $captionColour;
+  margin-bottom: 1rem;
+  padding-top: .9rem;
+  &__legend {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem 1.1rem;
+    margin-bottom: 1rem;
+  }
+  &__legend-item {
+    align-items: center;
+    color: $headingColour;
+    display: inline-flex;
+    font-size: .92rem;
+    gap: .3rem;
+    line-height: 1.2;
+  }
+  &__item {
+    margin-bottom: 1rem;
+    scroll-margin-top: 5rem;
+  }
+  &__date {
+    color: $captionColour;
+    font-size: .82rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .12rem;
+  }
+  &__body {
+    align-items: flex-start;
+    display: flex;
+    gap: .35rem;
+    line-height: 1.5;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    font-weight: 700;
+  }
+}
+
+.activity-icon {
+  display: inline-block;
+  flex: 0 0 auto;
+  position: relative;
+  vertical-align: middle;
+}
+
+.activity-icon--event,
+.activity-news__item[data-activity-kind="event"] .activity-news__body > .activity-icon {
+  background: #1f8acb;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .25);
+  height: 1.45rem;
+  width: 1.45rem;
+  &:before {
+    border: 2px solid $white;
+    border-radius: .12rem;
+    content: "";
+    height: .72rem;
+    left: .34rem;
+    position: absolute;
+    top: .36rem;
+    width: .76rem;
+  }
+  &:after {
+    background: $white;
+    box-shadow: 0 .22rem 0 $white;
+    content: "";
+    height: .09rem;
+    left: .48rem;
+    position: absolute;
+    top: .62rem;
+    width: .48rem;
+  }
+}
+
+.activity-icon--talk,
+.activity-news__item[data-activity-kind="talk"] .activity-news__body > .activity-icon {
+  border: 3px solid $headingColour;
+  border-radius: 50%;
+  height: 1.02rem;
+  margin-top: .08rem;
+  width: 1.45rem;
+  &:before {
+    background: $backgroundColour;
+    bottom: -.28rem;
+    content: "";
+    height: .36rem;
+    position: absolute;
+    right: .04rem;
+    transform: rotate(24deg);
+    width: .48rem;
+  }
+  &:after {
+    border-bottom: 3px solid $headingColour;
+    border-right: 3px solid $headingColour;
+    bottom: -.2rem;
+    content: "";
+    height: .3rem;
+    position: absolute;
+    right: .08rem;
+    transform: rotate(24deg);
+    width: .38rem;
+  }
+}
+
 .activity-more {
   color: $captionColour;
   font-style: italic;

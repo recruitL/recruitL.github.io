@@ -63,28 +63,43 @@ aside: true
   <div class="activity-calendar__events" data-calendar-events></div>
 </div>
 
-<div class="timeline activity-list">
-  <div
-    class="timeline-item"
+## 活动记录
+
+<div class="activity-news">
+  <div class="activity-news__legend" aria-label="活动类型图例">
+    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--talk" aria-hidden="true"></span>小型会议</span>
+    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--event" aria-hidden="true"></span>会议</span>
+  </div>
+
+  <article
+    class="activity-news__item"
     id="conference-2024-black-hole-imaging"
     data-activity-start="2024-11-08"
     data-activity-end="2024-11-12"
     data-activity-title="2024年黑洞图像学术研讨会"
+    data-activity-kind="talk"
   >
-    <p><strong>2024-11-08 至 2024-11-12</strong>，2024年黑洞图像学术研讨会，湖南·长沙。</p>
-    <p><a href="https://indico.ihep.ac.cn/event/23590/">会议官网</a></p>
-  </div>
+    <div class="activity-news__date">2024-11-08 至 2024-11-12</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.ihep.ac.cn/event/23590/">2024年黑洞图像学术研讨会</a>，湖南·长沙。</p>
+    </div>
+  </article>
 
-  <div
-    class="timeline-item"
+  <article
+    class="activity-news__item"
     id="conference-2024-gr"
     data-activity-start="2024-04-19"
     data-activity-end="2024-04-24"
     data-activity-title="2024 引力年会"
+    data-activity-kind="event"
   >
-    <p><strong>2024-04-19 至 2024-04-24</strong>，2024 引力年会，湖南·衡阳。</p>
-    <p><a href="/2024/04/19/annual/">查看会议记录</a> / <a href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">会议官网</a></p>
-  </div>
+    <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="/2024/04/19/annual/">2024 引力年会</a>，湖南·衡阳（<a href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">会议官网</a>）。</p>
+    </div>
+  </article>
 </div>
 
 <p class="activity-more">更多会议记录会按时间线倒序追加。</p>
@@ -129,7 +144,7 @@ aside: true
 
   const activityEvents = Array.from(document.querySelectorAll("[data-activity-start]"))
     .map(item => {
-      const heading = item.querySelector("strong");
+      const heading = item.querySelector(".activity-news__title, strong");
       return {
         start: item.dataset.activityStart,
         end: item.dataset.activityEnd || item.dataset.activityStart,
