@@ -336,6 +336,76 @@ a .icon {
   }
 }
 
+.activity-note {
+  color: #2a7ae2;
+  font-style: italic;
+}
+
+.activity-calendar {
+  margin-bottom: 1rem;
+  max-width: 28rem;
+  &__header {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem .8rem;
+    justify-content: space-between;
+    margin-bottom: .35rem;
+    span {
+      color: $captionColour;
+      font-size: .82rem;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  th,
+  td {
+    border: 1px solid $captionColour;
+    height: 2.15rem;
+    padding: .15rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    background: $featureBackgroundColour;
+    color: $headingColour;
+    font-size: .82rem;
+  }
+  a {
+    background: #6f42c1;
+    color: $white;
+    display: block;
+    line-height: 1.85rem;
+    text-shadow: none;
+    &:hover,
+    &:focus {
+      background: $headingColour;
+      color: $white;
+    }
+  }
+  &__blank {
+    background: $codeBackgroundColour;
+  }
+}
+
+.activity-list {
+  margin-top: .8rem;
+}
+
+.activity-more {
+  color: $captionColour;
+  font-style: italic;
+}
+
+.activity-links {
+  li {
+    margin-bottom: .25rem;
+  }
+}
+
 // Media content
 img {
   max-width: 100%;
