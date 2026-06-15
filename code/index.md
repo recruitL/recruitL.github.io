@@ -20,6 +20,14 @@ aside: true
 * 科研辅助脚本
 * 网站和工具项目
 
-## 待整理
+## 项目列表
 
-后续可以在这里按项目列出仓库名称、用途、语言、状态和文档链接。
+### py-sc
+
+Python 数值计算代码库，按书籍章节组织代码和示例。当前骨架包含第二章“数据插值”，覆盖多项式插值、分段线性插值和自然三次样条插值。
+
+{% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
+
+* 本地路径：`/Users/yl/Desktop/research/github_recruitL/py-sc`
+* GitHub：[recruitL/py-sc](https://github.com/recruitL/py-sc)
+* 当前章节：Chapter 2 - Data Interpolation
