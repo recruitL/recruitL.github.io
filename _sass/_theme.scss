@@ -427,13 +427,18 @@ a .icon {
     a {
       background: none;
       color: $linkColour;
-      display: inline;
+      display: inline-flex;
+      gap: .35rem;
       line-height: inherit;
+      text-shadow: none;
       &:hover,
       &:focus {
         background: none;
         color: $hoverColour;
       }
+    }
+    .activity-icon {
+      margin-top: .2rem;
     }
   }
 }

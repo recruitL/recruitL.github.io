@@ -145,11 +145,13 @@ aside: true
   const activityEvents = Array.from(document.querySelectorAll("[data-activity-start]"))
     .map(item => {
       const heading = item.querySelector(".activity-news__title, strong");
+      const kind = item.dataset.activityKind === "talk" ? "talk" : "event";
       return {
         start: item.dataset.activityStart,
         end: item.dataset.activityEnd || item.dataset.activityStart,
         title: item.dataset.activityTitle || (heading ? heading.textContent.trim() : "活动"),
-        anchor: item.id
+        anchor: item.id,
+        kind
       };
     })
     .filter(event => event.start && event.anchor);
@@ -169,7 +171,8 @@ aside: true
   const renderEventLinks = () => {
     eventLinks.innerHTML = activityEvents.map(event => {
       const endText = event.end && event.end !== event.start ? ` 至 ${event.end}` : "";
-      return `<a href="#${event.anchor}">${event.start}${endText}：${escapeHtml(event.title)}</a>`;
+      const label = event.kind === "talk" ? "小型会议" : "会议";
+      return `<a class="activity-calendar__event-link" href="#${event.anchor}"><span class="activity-icon activity-icon--${event.kind}" aria-label="${label}" role="img"></span><span>${event.start}${endText}：${escapeHtml(event.title)}</span></a>`;
     }).join("");
   };
 
