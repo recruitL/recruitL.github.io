@@ -66,14 +66,23 @@ aside: true
 <div class="timeline activity-list">
   <div
     class="timeline-item"
+    id="conference-2024-black-hole-imaging"
+    data-activity-start="2024-11-08"
+    data-activity-end="2024-11-12"
+    data-activity-title="2024年黑洞图像学术研讨会"
+  >
+    <p><strong>2024-11-08 至 2024-11-12</strong>，2024年黑洞图像学术研讨会，湖南·长沙。</p>
+    <p><a href="https://indico.ihep.ac.cn/event/23590/">会议官网</a></p>
+  </div>
+
+  <div
+    class="timeline-item"
     id="conference-2024-gr"
     data-activity-start="2024-04-19"
     data-activity-end="2024-04-24"
     data-activity-title="2024 引力年会"
   >
-    <span class="timeline-date">2024-04-19 至 2024-04-24</span>
-    <span class="timeline-tag timeline-tag--activity">会议</span>
-    <p><strong>2024 引力年会</strong>，中国物理学会引力与相对论天体物理分会学术年会暨第六届伽利略-徐光启国际会议，湖南衡阳。</p>
+    <p><strong>2024-04-19 至 2024-04-24</strong>，2024 引力年会，湖南·衡阳。</p>
     <p><a href="/2024/04/19/annual/">查看会议记录</a> / <a href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">会议官网</a></p>
   </div>
 </div>
