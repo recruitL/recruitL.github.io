@@ -17,6 +17,6 @@ aside: true
 
 ### py-sc
 
-Python 数值计算代码库，按书籍章节组织代码和示例。当前骨架包含第二章“数据插值”，覆盖多项式插值、分段线性插值和自然三次样条插值。
+Python 数值计算课程型代码库，按书籍章节组织理论笔记、Notebook、示例脚本和可复用实现。当前第二章“数据插值”已建立教学入口，覆盖多项式插值、分段线性插值和自然三次样条插值。
 
 {% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
