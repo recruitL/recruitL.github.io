@@ -68,6 +68,21 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="conference-2026-icgac16"
+    data-activity-start="2026-08-10"
+    data-activity-end="2026-08-14"
+    data-activity-title="XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-08-10 至 2026-08-14</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://tianqin.sysu.edu.cn/en/ICGAC16-home">XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)</a>，广东·深圳。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-gr"
     data-activity-start="2026-04-17"
     data-activity-end="2026-04-22"
