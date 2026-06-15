@@ -83,6 +83,21 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="talk-2026-hnfnu-gravitational-wave-two-body-dynamics"
+    data-activity-start="2026-06-11"
+    data-activity-end="2026-06-11"
+    data-activity-title="引力波源两体动力学建模：有效单体理论与引力自力方法"
+    data-activity-kind="talk"
+  >
+    <div class="activity-news__date">2026-06-11 20:00-21:00</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://slx.hnfnu.edu.cn/info/1088/16340.htm">引力波源两体动力学建模：有效单体理论与引力自力方法</a>，腾讯会议。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-gr"
     data-activity-start="2026-04-17"
     data-activity-end="2026-04-22"
