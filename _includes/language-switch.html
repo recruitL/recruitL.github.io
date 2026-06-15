@@ -1,4 +1,15 @@
-<nav class="language-switch" aria-label="{{ include.label | default: 'Language' }}">
-  <span class="language-switch__item  language-switch__item--current">{{ include.current }}</span>
-  <a class="language-switch__item" href="{{ include.alternate_url | relative_url }}">{{ include.alternate }}</a>
+{% assign current_lang = page.lang | default: site.lang | downcase %}
+{% if current_lang == "en" %}
+  {% assign current_label = "English" %}
+  {% assign alternate_label = "中文" %}
+  {% assign alternate_url = page.lang_pair | default: "/" %}
+{% else %}
+  {% assign current_label = "中文" %}
+  {% assign alternate_label = "English" %}
+  {% assign alternate_url = page.lang_pair | default: "/en/" %}
+{% endif %}
+
+<nav class="language-switch{% if include.class %} {{ include.class }}{% endif %}" aria-label="{{ include.label | default: 'Language switch' }}">
+  <span class="language-switch__item  language-switch__item--current">{{ current_label }}</span>
+  <a class="language-switch__item" href="{{ alternate_url | relative_url }}">{{ alternate_label }}</a>
 </nav>

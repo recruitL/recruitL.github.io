@@ -1,6 +1,7 @@
 ---
 title: recruitL个人主页
 lang: zh-CN
+lang_pair: /en/
 feature_text: |
   ## recruitL
 
@@ -10,8 +11,6 @@ excerpt: ""
 ---
 
 ## 个人简介
-
-{% include language-switch.html current="中文" alternate="English" alternate_url="/en/" label="语言切换" %}
 
 这里是 recruitL 的个人网站，用于整理科研学习、代码实现、活动记录和博客。
 

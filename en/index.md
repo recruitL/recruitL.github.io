@@ -1,6 +1,7 @@
 ---
 title: recruitL Home
 lang: en
+lang_pair: /
 feature_text: |
   ## recruitL
 
@@ -10,8 +11,6 @@ excerpt: ""
 ---
 
 ## Profile
-
-{% include language-switch.html current="English" alternate="中文" alternate_url="/" label="Language switch" %}
 
 This is recruitL's personal website for organizing research notes, code implementations, academic activities, and blog posts.
 
@@ -30,15 +29,15 @@ My current interests include gravitation, relativistic astrophysics, numerical c
 ## Quick Links
 
 <div class="home-entry-grid">
-  <a class="home-entry home-entry--code" href="/code/">
+  <a class="home-entry home-entry--code" href="/en/code/">
     <strong>Code</strong>
     <span>Numerical computation, data processing, paper reproduction, and personal tools.</span>
   </a>
-  <a class="home-entry home-entry--activity" href="/activities/">
+  <a class="home-entry home-entry--activity" href="/en/activities/">
     <strong>Activities</strong>
     <span>Academic conferences, invited talks, useful links, and activity records.</span>
   </a>
-  <a class="home-entry home-entry--note" href="/blog/">
+  <a class="home-entry home-entry--note" href="/en/blog/">
     <strong>Blog</strong>
     <span>Paper reading notes, study logs, technical notes, and periodic summaries.</span>
   </a>
@@ -50,16 +49,16 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   <div class="timeline-item">
     <span class="timeline-date">Recent</span>
     <span class="timeline-tag timeline-tag--code">Code</span>
-    <p><a href="/code/">py-sc</a> is organized as a course-style numerical computation repository, currently focusing on chapter 2, data interpolation.</p>
+    <p><a href="/en/code/">py-sc</a> is organized as a course-style numerical computation repository, currently focusing on chapter 2, data interpolation.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2026-06</span>
     <span class="timeline-tag timeline-tag--activity">Activities</span>
-    <p><a href="/activities/">Activities</a> now include conferences, talks, and a calendar-linked activity timeline.</p>
+    <p><a href="/en/activities/">Activities</a> now include conferences, talks, and a calendar-linked activity timeline.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
     <span class="timeline-tag timeline-tag--note">Blog</span>
-    <p><a href="/2024/07/12/General/">Weekly summary</a> records external resources and Effective One Body study materials.</p>
+    <p><a href="/en/2024/07/12/General/">Weekly summary</a> records external resources and Effective One Body study materials.</p>
   </div>
 </div>

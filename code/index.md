@@ -1,5 +1,7 @@
 ---
 title: 代码库
+lang: zh-CN
+lang_pair: /en/code/
 feature_text: |
   代码实现、论文复现和个人工具整理
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"

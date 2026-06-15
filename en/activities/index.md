@@ -1,71 +1,71 @@
 ---
-title: 活动等
-lang: zh-CN
-lang_pair: /en/activities/
+title: Activities
+lang: en
+lang_pair: /activities/
 feature_text: |
-  会议记录、报告活动和相关资料整理
+  Conference records, invited talks, and useful academic resources
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
-excerpt: "活动入口"
+excerpt: "Activities"
 aside: true
 ---
 
-这里整理学术会议、报告活动、资料链接和相关记录。
+This page organizes academic conferences, invited talks, useful links, and related records.
 
-## 活动万年历
+## Activity Calendar
 
 <div class="activity-calendar" data-calendar>
   <div class="activity-calendar__toolbar">
-    <button type="button" data-calendar-prev aria-label="上一月">上一月</button>
+    <button type="button" data-calendar-prev aria-label="Previous month">Previous</button>
     <label>
-      年份
+      Year
       <input type="number" min="1900" max="9999" step="1" data-calendar-year>
     </label>
     <label>
-      月份
+      Month
       <select data-calendar-month>
-        <option value="0">1 月</option>
-        <option value="1">2 月</option>
-        <option value="2">3 月</option>
-        <option value="3">4 月</option>
-        <option value="4">5 月</option>
-        <option value="5">6 月</option>
-        <option value="6">7 月</option>
-        <option value="7">8 月</option>
-        <option value="8">9 月</option>
-        <option value="9">10 月</option>
-        <option value="10">11 月</option>
-        <option value="11">12 月</option>
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
       </select>
     </label>
-    <button type="button" data-calendar-today>今天</button>
-    <button type="button" data-calendar-next aria-label="下一月">下一月</button>
+    <button type="button" data-calendar-today>Today</button>
+    <button type="button" data-calendar-next aria-label="Next month">Next</button>
   </div>
   <div class="activity-calendar__header">
     <strong data-calendar-title></strong>
-    <span>有活动的日期可点击并跳转到对应条目</span>
+    <span>Dates with activities are clickable and jump to the corresponding record</span>
   </div>
-  <table aria-label="活动万年历">
+  <table aria-label="Activity calendar">
     <thead>
       <tr>
-        <th>一</th>
-        <th>二</th>
-        <th>三</th>
-        <th>四</th>
-        <th>五</th>
-        <th>六</th>
-        <th>日</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
       </tr>
     </thead>
     <tbody data-calendar-body></tbody>
   </table>
 </div>
 
-## 活动记录
+## Activity Records
 
 <div class="activity-news">
-  <div class="activity-news__legend" aria-label="活动类型图例">
-    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--talk" aria-hidden="true"></span>小型会议</span>
-    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--event" aria-hidden="true"></span>会议</span>
+  <div class="activity-news__legend" aria-label="Activity type legend">
+    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--talk" aria-hidden="true"></span>Talk / workshop</span>
+    <span class="activity-news__legend-item"><span class="activity-icon activity-icon--event" aria-hidden="true"></span>Conference</span>
   </div>
 
   <article
@@ -76,10 +76,10 @@ aside: true
     data-activity-title="XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)"
     data-activity-kind="event"
   >
-    <div class="activity-news__date">2026-08-10 至 2026-08-14</div>
+    <div class="activity-news__date">2026-08-10 to 2026-08-14</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://tianqin.sysu.edu.cn/en/ICGAC16-home">XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)</a>，广东·深圳。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://tianqin.sysu.edu.cn/en/ICGAC16-home">XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)</a>, Shenzhen, Guangdong.</p>
     </div>
   </article>
 
@@ -88,13 +88,13 @@ aside: true
     id="talk-2026-hnfnu-gravitational-wave-two-body-dynamics"
     data-activity-start="2026-06-11"
     data-activity-end="2026-06-11"
-    data-activity-title="引力波源两体动力学建模：有效单体理论与引力自力方法"
+    data-activity-title="Modeling Two-Body Dynamics of Gravitational-Wave Sources: Effective-One-Body Theory and Gravitational Self-Force Method"
     data-activity-kind="talk"
   >
     <div class="activity-news__date">2026-06-11 20:00-21:00</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://slx.hnfnu.edu.cn/info/1088/16340.htm">引力波源两体动力学建模：有效单体理论与引力自力方法</a>，腾讯会议。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://slx.hnfnu.edu.cn/info/1088/16340.htm">Modeling Two-Body Dynamics of Gravitational-Wave Sources: Effective-One-Body Theory and Gravitational Self-Force Method</a>, Tencent Meeting.</p>
     </div>
   </article>
 
@@ -103,13 +103,13 @@ aside: true
     id="conference-2026-gr"
     data-activity-start="2026-04-17"
     data-activity-end="2026-04-22"
-    data-activity-title="2026 引力年会"
+    data-activity-title="2026 Gravitational Annual Meeting"
     data-activity-kind="event"
   >
-    <div class="activity-news__date">2026-04-17 至 2026-04-22</div>
+    <div class="activity-news__date">2026-04-17 to 2026-04-22</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://s.31url.cn/bRlrl9jl">2026 引力年会</a>，海南·海口。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://s.31url.cn/bRlrl9jl">2026 Gravitational Annual Meeting</a>, Haikou, Hainan.</p>
     </div>
   </article>
 
@@ -118,13 +118,13 @@ aside: true
     id="conference-2025-gravitational-wave-physics"
     data-activity-start="2025-10-12"
     data-activity-end="2025-10-20"
-    data-activity-title="彭桓武理论物理创新研究中心“2025引力波物理研讨会”"
+    data-activity-title="Peng Huanwu Theoretical Physics Innovation Research Center 2025 Gravitational Wave Physics Workshop"
     data-activity-kind="talk"
   >
-    <div class="activity-news__date">2025-10-12 至 2025-10-20</div>
+    <div class="activity-news__date">2025-10-12 to 2025-10-20</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://indico.itp.ac.cn/event/347/">彭桓武理论物理创新研究中心“2025引力波物理研讨会”</a>，浙江·淳安。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.itp.ac.cn/event/347/">Peng Huanwu Theoretical Physics Innovation Research Center 2025 Gravitational Wave Physics Workshop</a>, Chun'an, Zhejiang.</p>
     </div>
   </article>
 
@@ -133,13 +133,13 @@ aside: true
     id="conference-2025-gr"
     data-activity-start="2025-04-18"
     data-activity-end="2025-04-23"
-    data-activity-title="2025 引力年会"
+    data-activity-title="2025 Gravitational Annual Meeting"
     data-activity-kind="event"
   >
-    <div class="activity-news__date">2025-04-18 至 2025-04-23</div>
+    <div class="activity-news__date">2025-04-18 to 2025-04-23</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://gr25.kust.edu.cn/">2025 引力年会</a>，云南·昆明。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://gr25.kust.edu.cn/">2025 Gravitational Annual Meeting</a>, Kunming, Yunnan.</p>
     </div>
   </article>
 
@@ -148,13 +148,13 @@ aside: true
     id="conference-2024-black-hole-imaging"
     data-activity-start="2024-11-08"
     data-activity-end="2024-11-12"
-    data-activity-title="2024年黑洞图像学术研讨会"
+    data-activity-title="2024 Black Hole Imaging Workshop"
     data-activity-kind="talk"
   >
-    <div class="activity-news__date">2024-11-08 至 2024-11-12</div>
+    <div class="activity-news__date">2024-11-08 to 2024-11-12</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="https://indico.ihep.ac.cn/event/23590/">2024年黑洞图像学术研讨会</a>，湖南·长沙。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.ihep.ac.cn/event/23590/">2024 Black Hole Imaging Workshop</a>, Changsha, Hunan.</p>
     </div>
   </article>
 
@@ -163,36 +163,40 @@ aside: true
     id="conference-2024-gr"
     data-activity-start="2024-04-19"
     data-activity-end="2024-04-24"
-    data-activity-title="2024 引力年会"
+    data-activity-title="2024 Gravitational Annual Meeting"
     data-activity-kind="event"
   >
-    <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
+    <div class="activity-news__date">2024-04-19 to 2024-04-24</div>
     <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">2024 引力年会</a>，湖南·衡阳。</p>
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">2024 Gravitational Annual Meeting</a>, Hengyang, Hunan.</p>
     </div>
   </article>
 </div>
 
-<p class="activity-more">更多会议记录会按时间线倒序追加。</p>
+<p class="activity-more">More conference records will be appended in reverse chronological order.</p>
 
-## 网站分享
+## Useful Links
 
 <ol class="activity-links">
-  <li><a href="https://www.ligo.org/">LIGO</a>：引力波观测与科普资料入口。</li>
-  <li><a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a>：高能物理与引力相关文献、作者和引用信息。</li>
-  <li><a href="https://arxiv.org/">arXiv</a>：论文预印本检索和订阅。</li>
+  <li><a href="https://www.ligo.org/">LIGO</a>: gravitational-wave observations and outreach resources.</li>
+  <li><a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a>: literature, author, and citation records in high-energy physics and gravitation.</li>
+  <li><a href="https://arxiv.org/">arXiv</a>: preprint search and subscriptions.</li>
 </ol>
 
-## 归档方式
+## Archive Policy
 
-后续活动记录按年份维护，优先保留日期、地点、主题、个人角色和资料链接。首页只展示近期动态，活动页负责长期归档。
+Activity records are maintained by year, with dates, locations, topics, personal roles, and resource links prioritized. The home page shows only recent updates, while this page serves as the long-term archive.
 
 <script>
 (() => {
   const root = document.querySelector("[data-calendar]");
   if (!root) return;
 
+  const monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
   const title = root.querySelector("[data-calendar-title]");
   const body = root.querySelector("[data-calendar-body]");
   const yearInput = root.querySelector("[data-calendar-year]");
@@ -219,7 +223,7 @@ aside: true
       return {
         start: item.dataset.activityStart,
         end: item.dataset.activityEnd || item.dataset.activityStart,
-        title: item.dataset.activityTitle || (heading ? heading.textContent.trim() : "活动"),
+        title: item.dataset.activityTitle || (heading ? heading.textContent.trim() : "Activity"),
         anchor: item.id
       };
     })
@@ -245,7 +249,7 @@ aside: true
     let day = 1;
     let html = "";
 
-    title.textContent = `${viewYear} 年 ${viewMonth + 1} 月`;
+    title.textContent = `${monthNames[viewMonth]} ${viewYear}`;
     yearInput.value = viewYear;
     monthSelect.value = viewMonth;
 

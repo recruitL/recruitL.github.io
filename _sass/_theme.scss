@@ -243,6 +243,13 @@ a .icon {
   padding: .15rem;
 }
 
+.language-switch--nav {
+  margin: .4rem 0 0;
+  @include breakpoint(break-1) {
+    margin: .35rem 0 0;
+  }
+}
+
 .language-switch__item {
   border-bottom: 0;
   color: $bodyColour;
