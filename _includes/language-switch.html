@@ -1,0 +1,4 @@
+<nav class="language-switch" aria-label="{{ include.label | default: 'Language' }}">
+  <span class="language-switch__item  language-switch__item--current">{{ include.current }}</span>
+  <a class="language-switch__item" href="{{ include.alternate_url | relative_url }}">{{ include.alternate }}</a>
+</nav>

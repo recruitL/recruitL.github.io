@@ -1,7 +1,12 @@
-{% if site.navigation_header %}
+{% assign navigation = site.navigation_header %}
+{% if page.lang == "en" and site.navigation_header_en %}
+  {% assign navigation = site.navigation_header_en %}
+{% endif %}
+
+{% if navigation %}
 <nav class="nav  nav--header">
   <ul class="list  list--nav">
-    {% for item in site.navigation_header %}
+    {% for item in navigation %}
 
       {% if item.url contains '://' %}
         {% assign url = item.url %}
