@@ -68,6 +68,36 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="conference-2026-gr"
+    data-activity-start="2026-04-17"
+    data-activity-end="2026-04-22"
+    data-activity-title="2026 引力年会"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-04-17 至 2026-04-22</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://s.31url.cn/bRlrl9jl">2026 引力年会</a>，海南·海口。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
+    id="conference-2025-gr"
+    data-activity-start="2025-04-18"
+    data-activity-end="2025-04-23"
+    data-activity-title="2025 引力年会"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2025-04-18 至 2025-04-23</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://gr25.kust.edu.cn/">2025 引力年会</a>，云南·昆明。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2024-black-hole-imaging"
     data-activity-start="2024-11-08"
     data-activity-end="2024-11-12"
