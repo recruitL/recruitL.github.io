@@ -43,6 +43,10 @@ excerpt: ""
   </a>
 </div>
 
+## 活动万年历
+
+{% include activity-calendar.html activity_path="/activities/" %}
+
 ## 近期动态
 
 <div class="timeline">

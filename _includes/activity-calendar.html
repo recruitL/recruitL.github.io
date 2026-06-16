@@ -1,0 +1,230 @@
+{% assign calendar_lang = include.lang | default: page.lang | default: site.lang | downcase %}
+{% assign is_en = false %}
+{% if calendar_lang == "en" %}
+  {% assign is_en = true %}
+{% endif %}
+{% assign activity_path = include.activity_path | default: "/activities/" %}
+
+<div class="activity-calendar" data-calendar data-calendar-locale="{{ calendar_lang }}">
+  <div class="activity-calendar__toolbar">
+    <button type="button" data-calendar-prev aria-label="{% if is_en %}Previous month{% else %}上一月{% endif %}">{% if is_en %}Previous{% else %}上一月{% endif %}</button>
+    <label>
+      {% if is_en %}Year{% else %}年份{% endif %}
+      <input type="number" min="1900" max="9999" step="1" data-calendar-year>
+    </label>
+    <label>
+      {% if is_en %}Month{% else %}月份{% endif %}
+      <select data-calendar-month>
+        {% if is_en %}
+          <option value="0">January</option>
+          <option value="1">February</option>
+          <option value="2">March</option>
+          <option value="3">April</option>
+          <option value="4">May</option>
+          <option value="5">June</option>
+          <option value="6">July</option>
+          <option value="7">August</option>
+          <option value="8">September</option>
+          <option value="9">October</option>
+          <option value="10">November</option>
+          <option value="11">December</option>
+        {% else %}
+          <option value="0">1 月</option>
+          <option value="1">2 月</option>
+          <option value="2">3 月</option>
+          <option value="3">4 月</option>
+          <option value="4">5 月</option>
+          <option value="5">6 月</option>
+          <option value="6">7 月</option>
+          <option value="7">8 月</option>
+          <option value="8">9 月</option>
+          <option value="9">10 月</option>
+          <option value="10">11 月</option>
+          <option value="11">12 月</option>
+        {% endif %}
+      </select>
+    </label>
+    <button type="button" data-calendar-today>{% if is_en %}Today{% else %}今天{% endif %}</button>
+    <button type="button" data-calendar-next aria-label="{% if is_en %}Next month{% else %}下一月{% endif %}">{% if is_en %}Next{% else %}下一月{% endif %}</button>
+  </div>
+  <div class="activity-calendar__header">
+    <strong data-calendar-title></strong>
+    <span>{% if is_en %}Dates with activities jump to the corresponding record{% else %}有活动的日期可点击并跳转到对应条目{% endif %}</span>
+  </div>
+  <table aria-label="{% if is_en %}Activity calendar{% else %}活动万年历{% endif %}">
+    <thead>
+      <tr>
+        {% if is_en %}
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        {% else %}
+          <th>一</th>
+          <th>二</th>
+          <th>三</th>
+          <th>四</th>
+          <th>五</th>
+          <th>六</th>
+          <th>日</th>
+        {% endif %}
+      </tr>
+    </thead>
+    <tbody data-calendar-body></tbody>
+  </table>
+  <div class="activity-calendar__events" hidden>
+    {% for event in site.data.activities %}
+      {% if is_en %}
+        {% assign event_title = event.title_en | default: event.title_zh %}
+      {% else %}
+        {% assign event_title = event.title_zh | default: event.title_en %}
+      {% endif %}
+      {% assign event_href = activity_path | append: "#" | append: event.id | relative_url %}
+      <span
+        data-calendar-event
+        data-activity-start="{{ event.start }}"
+        data-activity-end="{{ event.end | default: event.start }}"
+        data-activity-title="{{ event_title | escape }}"
+        data-activity-href="{{ event_href }}"
+      ></span>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+(() => {
+  document.querySelectorAll("[data-calendar]").forEach(root => {
+    const isEnglish = (root.dataset.calendarLocale || "").toLowerCase() === "en";
+    const monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    const title = root.querySelector("[data-calendar-title]");
+    const body = root.querySelector("[data-calendar-body]");
+    const yearInput = root.querySelector("[data-calendar-year]");
+    const monthSelect = root.querySelector("[data-calendar-month]");
+    const today = new Date();
+    let viewYear = today.getFullYear();
+    let viewMonth = today.getMonth();
+
+    const escapeHtml = value => String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+    const pad = value => String(value).padStart(2, "0");
+    const keyOf = date => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+    const parseDate = value => {
+      const [year, month, day] = value.split("-").map(Number);
+      return new Date(year, month - 1, day);
+    };
+
+    const activityEvents = Array.from(root.querySelectorAll("[data-calendar-event]"))
+      .map(item => ({
+        start: item.dataset.activityStart,
+        end: item.dataset.activityEnd || item.dataset.activityStart,
+        title: item.dataset.activityTitle || (isEnglish ? "Activity" : "活动"),
+        href: item.dataset.activityHref
+      }))
+      .filter(event => event.start && event.href);
+
+    const eventsByDate = new Map();
+    activityEvents.forEach(event => {
+      const start = parseDate(event.start);
+      const end = parseDate(event.end || event.start);
+      for (let date = new Date(start); date <= end; date.setDate(date.getDate() + 1)) {
+        const key = keyOf(date);
+        const list = eventsByDate.get(key) || [];
+        list.push(event);
+        eventsByDate.set(key, list);
+      }
+    });
+
+    const renderCalendar = () => {
+      const firstDay = new Date(viewYear, viewMonth, 1);
+      const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+      const leadingBlankDays = (firstDay.getDay() + 6) % 7;
+      const todayKey = keyOf(today);
+      let day = 1;
+      let html = "";
+
+      title.textContent = isEnglish ? `${monthNames[viewMonth]} ${viewYear}` : `${viewYear} 年 ${viewMonth + 1} 月`;
+      yearInput.value = viewYear;
+      monthSelect.value = viewMonth;
+
+      for (let row = 0; row < 6; row += 1) {
+        html += "<tr>";
+        for (let column = 0; column < 7; column += 1) {
+          const cellIndex = row * 7 + column;
+          if (cellIndex < leadingBlankDays || day > daysInMonth) {
+            html += '<td class="activity-calendar__blank"></td>';
+            continue;
+          }
+
+          const date = new Date(viewYear, viewMonth, day);
+          const dateKey = keyOf(date);
+          const dateEvents = eventsByDate.get(dateKey) || [];
+          const classes = [];
+          if (dateKey === todayKey) classes.push("activity-calendar__today");
+          if (dateEvents.length > 0) classes.push("activity-calendar__has-event");
+          const classAttr = classes.length ? ` class="${classes.join(" ")}"` : "";
+
+          if (dateEvents.length > 0) {
+            const labels = escapeHtml(dateEvents.map(event => event.title).join(" / "));
+            html += `<td${classAttr}><a href="${dateEvents[0].href}" title="${labels}">${day}</a></td>`;
+          } else {
+            html += `<td${classAttr}>${day}</td>`;
+          }
+          day += 1;
+        }
+        html += "</tr>";
+        if (day > daysInMonth) break;
+      }
+
+      body.innerHTML = html;
+    };
+
+    root.querySelector("[data-calendar-prev]").addEventListener("click", () => {
+      viewMonth -= 1;
+      if (viewMonth < 0) {
+        viewMonth = 11;
+        viewYear -= 1;
+      }
+      renderCalendar();
+    });
+
+    root.querySelector("[data-calendar-next]").addEventListener("click", () => {
+      viewMonth += 1;
+      if (viewMonth > 11) {
+        viewMonth = 0;
+        viewYear += 1;
+      }
+      renderCalendar();
+    });
+
+    root.querySelector("[data-calendar-today]").addEventListener("click", () => {
+      viewYear = today.getFullYear();
+      viewMonth = today.getMonth();
+      renderCalendar();
+    });
+
+    yearInput.addEventListener("change", () => {
+      const nextYear = Number(yearInput.value);
+      if (Number.isInteger(nextYear) && nextYear >= 1900 && nextYear <= 9999) {
+        viewYear = nextYear;
+        renderCalendar();
+      }
+    });
+
+    monthSelect.addEventListener("change", () => {
+      viewMonth = Number(monthSelect.value);
+      renderCalendar();
+    });
+
+    renderCalendar();
+  });
+})();
+</script>

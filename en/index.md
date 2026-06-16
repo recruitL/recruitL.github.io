@@ -43,6 +43,10 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   </a>
 </div>
 
+## Activity Calendar
+
+{% include activity-calendar.html lang="en" activity_path="/en/activities/" %}
+
 ## Recent Updates
 
 <div class="timeline">
