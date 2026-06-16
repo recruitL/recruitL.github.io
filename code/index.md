@@ -35,9 +35,3 @@ aside: true
 </table>
 
 {% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-
-## 整理方式
-
-* 每个仓库保留用途、状态、依赖环境和入口文档。
-* 科研相关代码优先补充复现路径、测试数据和参考文献。
-* 教程型代码按章节维护，避免脚本散落在博客正文里。

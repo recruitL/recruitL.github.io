@@ -35,9 +35,3 @@ This page organizes public repositories, experiment scripts, paper reproduction 
 </table>
 
 {% include button.html text="View py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-
-## Organization
-
-* Each repository keeps its purpose, current status, dependencies, and entry documentation.
-* Research-related code should include reproduction paths, test data, and references when possible.
-* Tutorial-style code is maintained by chapter, rather than scattered through blog posts.
