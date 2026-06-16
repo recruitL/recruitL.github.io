@@ -23,7 +23,6 @@ aside: true
       <th>仓库</th>
       <th>方向</th>
       <th>状态</th>
-      <th>链接</th>
     </tr>
   </thead>
   <tbody>
@@ -31,14 +30,9 @@ aside: true
       <td><strong>py-sc</strong></td>
       <td>Python 数值计算课程型代码库</td>
       <td>第二章“数据插值”第一轮系统建设完成</td>
-      <td><a href="https://github.com/recruitL/py-sc">GitHub</a></td>
     </tr>
   </tbody>
 </table>
-
-## py-sc
-
-py-sc 按书籍章节组织理论笔记、Notebook、示例脚本和可复用实现。当前第二章“数据插值”覆盖插值基本形式、Lagrange/Newton 插值、Runge 现象、Chebyshev 节点、分段线性插值和自然三次样条插值，并保留 Hermite、PCHIP、B 样条与二维插值的后续扩展入口。
 
 {% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
 

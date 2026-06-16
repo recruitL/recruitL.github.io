@@ -376,6 +376,10 @@ a .icon {
     background: $featureBackgroundColour;
     color: $headingColour;
   }
+  th:first-child,
+  td:first-child {
+    white-space: nowrap;
+  }
 }
 
 .activity-calendar {

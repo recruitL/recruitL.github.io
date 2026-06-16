@@ -23,7 +23,6 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <th>Repository</th>
       <th>Area</th>
       <th>Status</th>
-      <th>Link</th>
     </tr>
   </thead>
   <tbody>
@@ -31,14 +30,9 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <td><strong>py-sc</strong></td>
       <td>Course-style Python numerical computation repository</td>
       <td>First systematic pass of chapter 2, data interpolation, is complete</td>
-      <td><a href="https://github.com/recruitL/py-sc">GitHub</a></td>
     </tr>
   </tbody>
 </table>
-
-## py-sc
-
-py-sc organizes theoretical notes, notebooks, example scripts, and reusable implementations by book chapter. The current chapter 2 coverage includes interpolation basics, Lagrange/Newton interpolation, the Runge phenomenon, Chebyshev nodes, piecewise linear interpolation, and natural cubic spline interpolation, with later entry points reserved for Hermite interpolation, PCHIP, B-splines, and two-dimensional interpolation.
 
 {% include button.html text="View py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
 
