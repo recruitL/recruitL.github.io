@@ -49,7 +49,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已扩充第三章“函数逼近与曲线拟合”的理论讲义，补充投影观点、正交多项式、最小二乘、Padé 和 Fourier/FFT 框架。</p>
+    <p><a href="/code/">py-sc</a> 已继续扩充第二章“数据插值”，补充 PCHIP、B 样条、二维插值和切比雪夫微分矩阵入口。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
