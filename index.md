@@ -2,10 +2,6 @@
 title: recruitL个人主页
 lang: zh-CN
 lang_pair: /en/
-feature_text: |
-  ## recruitL
-
-  个人简介、代码库、活动记录与博客
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: ""
 ---

@@ -2,10 +2,6 @@
 title: recruitL Home
 lang: en
 lang_pair: /
-feature_text: |
-  ## recruitL
-
-  Profile, code repositories, academic activities, and blog notes
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: ""
 ---

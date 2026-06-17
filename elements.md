@@ -1,7 +1,5 @@
 ---
 title: 分类
-feature_text: |
-  按主题整理学习、会议和资源内容
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/IMG_20231003_121919.jpg"
 excerpt: ""
 aside: true

@@ -2,8 +2,6 @@
 title: 活动等
 lang: zh-CN
 lang_pair: /en/activities/
-feature_text: |
-  会议记录、报告活动和相关资料整理
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 excerpt: "活动入口"
 aside: true

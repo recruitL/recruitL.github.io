@@ -2,8 +2,6 @@
 title: Code
 lang: en
 lang_pair: /code/
-feature_text: |
-  Code implementations, paper reproduction, and personal tools
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: "Code index"
 aside: true

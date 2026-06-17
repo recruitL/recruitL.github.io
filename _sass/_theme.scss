@@ -44,18 +44,13 @@ body {
 }
 
 .feature {
+  min-height: 24vh;
   padding-bottom: .4rem;
   margin-bottom: 1.6rem;
   text-align: center;
   background: $featureBackgroundColour;
   background-size: cover;
   background-position: center;
-  .container {
-    min-height: 24vh;
-    max-width: 60%;
-    @include flex-direction(column);
-    @include justify-content(center);
-  }
 }
 
 .logo {

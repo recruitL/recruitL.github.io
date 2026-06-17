@@ -2,8 +2,6 @@
 title: Activities
 lang: en
 lang_pair: /activities/
-feature_text: |
-  Conference records, invited talks, and useful academic resources
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 excerpt: "Activities"
 aside: true

@@ -2,8 +2,6 @@
 title: Blog
 lang: en
 lang_pair: /blog/
-feature_text: |
-  Paper reading notes, study logs, technical notes, and periodic summaries
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 excerpt: "Blog index"
 ---
