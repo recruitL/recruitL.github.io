@@ -53,7 +53,7 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   <div class="timeline-item">
     <span class="timeline-date">Recent</span>
     <span class="timeline-tag timeline-tag--code">Code</span>
-    <p><a href="/en/code/">py-sc</a> is organized as a course-style numerical computation repository, currently focusing on chapter 2, data interpolation.</p>
+    <p><a href="/en/code/">py-sc</a> now includes the first pass of chapter 3, function approximation and curve fitting, covering Chebyshev/Legendre approximation, least squares fitting, and Padé approximation.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2026-06</span>

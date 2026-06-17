@@ -53,7 +53,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已整理为课程型数值计算代码库，当前重点是第二章“数据插值”。</p>
+    <p><a href="/code/">py-sc</a> 已更新第三章“函数逼近与曲线拟合”第一轮材料，覆盖 Chebyshev/Legendre 逼近、最小二乘拟合和 Padé 逼近。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>

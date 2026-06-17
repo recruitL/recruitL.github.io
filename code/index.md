@@ -29,7 +29,7 @@ aside: true
     <tr>
       <td><strong>py-sc</strong></td>
       <td>Python 数值计算课程型代码库</td>
-      <td>第二章“数据插值”第一轮系统建设完成</td>
+      <td>第二章“数据插值”已完成第一轮建设；第三章“函数逼近与曲线拟合”已建立第一轮材料</td>
     </tr>
   </tbody>
 </table>
