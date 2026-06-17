@@ -27,7 +27,7 @@ This page organizes public repositories, experiment scripts, paper reproduction 
     <tr>
       <td><strong>py-sc</strong></td>
       <td>Course-style Python numerical computation repository</td>
-      <td>Chapter 2, data interpolation, has a first systematic pass; chapter 3, function approximation and curve fitting, now has first-pass materials</td>
+      <td>Chapter 2, data interpolation, has a first systematic pass; chapter 3, function approximation and curve fitting, now has expanded theory notes</td>
     </tr>
   </tbody>
 </table>

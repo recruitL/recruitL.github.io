@@ -49,7 +49,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已更新第三章“函数逼近与曲线拟合”第一轮材料，覆盖 Chebyshev/Legendre 逼近、最小二乘拟合和 Padé 逼近。</p>
+    <p><a href="/code/">py-sc</a> 已扩充第三章“函数逼近与曲线拟合”的理论讲义，补充投影观点、正交多项式、最小二乘、Padé 和 Fourier/FFT 框架。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
