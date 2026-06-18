@@ -49,7 +49,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已新增第四章“数值积分”，覆盖 Newton-Cotes、Romberg、自适应 Simpson、Gauss-Legendre、离散数据积分和 Monte Carlo 框架。</p>
+    <p><a href="/code/">py-sc</a> 已新增第五章“数值微分”，覆盖有限差分、离散数据微分、Richardson 外推、样条微分和二阶微分实验。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
