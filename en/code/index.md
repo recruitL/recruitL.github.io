@@ -27,7 +27,7 @@ This page organizes public repositories, experiment scripts, paper reproduction 
     <tr>
       <td><strong>py-sc</strong></td>
       <td>Course-style Python numerical computation repository</td>
-      <td>Chapter 2, data interpolation, now covers PCHIP, B-splines, two-dimensional interpolation, and the Chebyshev differentiation matrix entry point; chapter 3 has expanded theory notes</td>
+      <td>Chapters 2 and 3 now provide systematic notes on interpolation and approximation; chapter 4 adds numerical integration with Newton-Cotes, Romberg, adaptive Simpson, Gauss-Legendre, discrete-data integration, and a Monte Carlo framework</td>
     </tr>
   </tbody>
 </table>

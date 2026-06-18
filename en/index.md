@@ -49,7 +49,7 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   <div class="timeline-item">
     <span class="timeline-date">Recent</span>
     <span class="timeline-tag timeline-tag--code">Code</span>
-    <p><a href="/en/code/">py-sc</a> now expands chapter 2, data interpolation, with PCHIP, B-splines, two-dimensional interpolation, and the Chebyshev differentiation matrix entry point.</p>
+    <p><a href="/en/code/">py-sc</a> now adds chapter 4, numerical integration, covering Newton-Cotes, Romberg, adaptive Simpson, Gauss-Legendre, discrete-data integration, and a Monte Carlo framework.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2026-06</span>

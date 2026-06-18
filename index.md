@@ -49,7 +49,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已继续扩充第二章“数据插值”，补充 PCHIP、B 样条、二维插值和切比雪夫微分矩阵入口。</p>
+    <p><a href="/code/">py-sc</a> 已新增第四章“数值积分”，覆盖 Newton-Cotes、Romberg、自适应 Simpson、Gauss-Legendre、离散数据积分和 Monte Carlo 框架。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>
