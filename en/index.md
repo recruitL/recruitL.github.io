@@ -49,7 +49,7 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   <div class="timeline-item">
     <span class="timeline-date">Recent</span>
     <span class="timeline-tag timeline-tag--code">Code</span>
-    <p><a href="/en/code/">py-sc</a> now adds chapter 5, numerical differentiation, covering finite differences, discrete-data differentiation, Richardson extrapolation, spline differentiation, and second-derivative experiments.</p>
+    <p><a href="/en/code/">py-sc</a> now adds chapter 6, direct methods for linear systems, covering Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, and QR factorization.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2026-06</span>

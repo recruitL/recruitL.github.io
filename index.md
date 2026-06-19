@@ -49,7 +49,7 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已新增第五章“数值微分”，覆盖有限差分、离散数据微分、Richardson 外推、样条微分和二阶微分实验。</p>
+    <p><a href="/code/">py-sc</a> 已新增第六章“解线性方程组的直接方法”，覆盖高斯消元、LU/PLU、Cholesky、LDL^T、追赶法和 QR 分解。</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2024-07</span>

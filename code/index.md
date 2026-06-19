@@ -27,7 +27,7 @@ aside: true
     <tr>
       <td><strong>py-sc</strong></td>
       <td>Python 数值计算课程型代码库</td>
-      <td>第二章“数据插值”、第三章“函数逼近与曲线拟合”和第四章“数值积分”已建立系统讲义；第五章“数值微分”已新增有限差分、离散数据微分、Richardson 外推、样条微分和二阶微分实验</td>
+      <td>第二章至第五章已建立系统讲义；第六章“解线性方程组的直接方法”已新增高斯消元、LU/PLU、Cholesky、LDL^T、追赶法、QR 分解和稳定性实验</td>
     </tr>
   </tbody>
 </table>

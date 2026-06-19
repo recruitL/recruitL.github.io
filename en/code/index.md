@@ -27,7 +27,7 @@ This page organizes public repositories, experiment scripts, paper reproduction 
     <tr>
       <td><strong>py-sc</strong></td>
       <td>Course-style Python numerical computation repository</td>
-      <td>Chapters 2, 3, and 4 now provide systematic notes on interpolation, approximation, and numerical integration; chapter 5 adds numerical differentiation with finite differences, discrete-data differentiation, Richardson extrapolation, spline differentiation, and second-derivative experiments</td>
+      <td>Chapters 2 through 5 now provide systematic notes; chapter 6 adds direct methods for linear systems, including Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, QR factorization, and stability experiments</td>
     </tr>
   </tbody>
 </table>
