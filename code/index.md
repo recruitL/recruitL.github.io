@@ -9,10 +9,6 @@ aside: true
 
 这里整理公开代码、实验脚本、论文复现和个人工具。
 
-## GitHub
-
-{% include button.html text="访问 GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
-
 ## 项目列表
 
 <table class="site-table">
@@ -36,7 +32,3 @@ aside: true
     </tr>
   </tbody>
 </table>
-
-{% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-{% include button.html text="查看 AIRobort" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
-{% include button.html text="AIRobort 项目页" link="/AIRobort/" color="#555555" %}

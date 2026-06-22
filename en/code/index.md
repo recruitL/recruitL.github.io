@@ -9,10 +9,6 @@ aside: true
 
 This page organizes public repositories, experiment scripts, paper reproduction work, and personal tools.
 
-## GitHub
-
-{% include button.html text="Visit GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
-
 ## Projects
 
 <table class="site-table">
@@ -36,7 +32,3 @@ This page organizes public repositories, experiment scripts, paper reproduction 
     </tr>
   </tbody>
 </table>
-
-{% include button.html text="View py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-{% include button.html text="View AIRobort" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
-{% include button.html text="AIRobort Page" link="/en/AIRobort/" color="#555555" %}
