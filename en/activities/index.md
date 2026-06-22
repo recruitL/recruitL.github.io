@@ -131,6 +131,8 @@ This page organizes academic conferences, invited talks, useful links, and relat
   <li><a href="https://www.ligo.org/">LIGO</a>: gravitational-wave observations and outreach resources.</li>
   <li><a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a>: literature, author, and citation records in high-energy physics and gravitation.</li>
   <li><a href="https://arxiv.org/">arXiv</a>: preprint search and subscriptions.</li>
+  <li><a href="https://codingpets.com/">CodingPets</a>: online tools and data-analysis resources.</li>
+  <li><a href="https://github.com/Rath-Team/OpenRath">OpenRath</a>: an open-source project for data analysis, exploration, and visualization.</li>
 </ol>
 
 ## Archive Policy

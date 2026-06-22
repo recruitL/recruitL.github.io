@@ -131,6 +131,8 @@ aside: true
   <li><a href="https://www.ligo.org/">LIGO</a>：引力波观测与科普资料入口。</li>
   <li><a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a>：高能物理与引力相关文献、作者和引用信息。</li>
   <li><a href="https://arxiv.org/">arXiv</a>：论文预印本检索和订阅。</li>
+  <li><a href="https://codingpets.com/">CodingPets</a>：在线工具与数据分析相关资源入口。</li>
+  <li><a href="https://github.com/Rath-Team/OpenRath">OpenRath</a>：开源数据分析、探索和可视化项目。</li>
 </ol>
 
 ## 归档方式
