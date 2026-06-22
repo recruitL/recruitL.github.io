@@ -29,7 +29,13 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <td>Course-style Python numerical computation repository</td>
       <td>Chapters 2 through 5 now provide systematic notes; chapter 6 adds direct methods for linear systems, including Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, QR factorization, and stability experiments</td>
     </tr>
+    <tr>
+      <td><strong><a href="/en/AIRobort/">AIRobort</a></strong></td>
+      <td>App design repository</td>
+      <td>Organizes AIRobort app design, interface, and interaction materials</td>
+    </tr>
   </tbody>
 </table>
 
 {% include button.html text="View py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
+{% include button.html text="View AIRobort Page" link="/en/AIRobort/" color="#0366d6" %}
