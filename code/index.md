@@ -12,6 +12,7 @@ aside: true
 ## GitHub
 
 {% include button.html text="访问 GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
+{% include button.html text="访问 AIRobort 仓库" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
 
 ## 项目列表
 
@@ -25,12 +26,12 @@ aside: true
   </thead>
   <tbody>
     <tr>
-      <td><strong>py-sc</strong></td>
+      <td><strong><a href="https://github.com/recruitL/py-sc">py-sc</a></strong></td>
       <td>Python 数值计算课程型代码库</td>
       <td>第二章至第五章已建立系统讲义；第六章“解线性方程组的直接方法”已新增高斯消元、LU/PLU、Cholesky、LDL^T、追赶法、QR 分解和稳定性实验</td>
     </tr>
     <tr>
-      <td><strong><a href="/AIRobort/">AIRobort</a></strong></td>
+      <td><strong><a href="https://github.com/recruitL/AIRobort">AIRobort</a></strong></td>
       <td>App 设计仓库</td>
       <td>整理 AIRobort 的应用设计、界面与交互相关内容</td>
     </tr>
@@ -38,4 +39,5 @@ aside: true
 </table>
 
 {% include button.html text="查看 py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-{% include button.html text="查看 AIRobort 页面" link="/AIRobort/" color="#0366d6" %}
+{% include button.html text="查看 AIRobort" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
+{% include button.html text="AIRobort 项目页" link="/AIRobort/" color="#555555" %}

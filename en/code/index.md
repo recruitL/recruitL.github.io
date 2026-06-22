@@ -12,6 +12,7 @@ This page organizes public repositories, experiment scripts, paper reproduction 
 ## GitHub
 
 {% include button.html text="Visit GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
+{% include button.html text="Visit AIRobort Repository" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
 
 ## Projects
 
@@ -25,12 +26,12 @@ This page organizes public repositories, experiment scripts, paper reproduction 
   </thead>
   <tbody>
     <tr>
-      <td><strong>py-sc</strong></td>
+      <td><strong><a href="https://github.com/recruitL/py-sc">py-sc</a></strong></td>
       <td>Course-style Python numerical computation repository</td>
       <td>Chapters 2 through 5 now provide systematic notes; chapter 6 adds direct methods for linear systems, including Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, QR factorization, and stability experiments</td>
     </tr>
     <tr>
-      <td><strong><a href="/en/AIRobort/">AIRobort</a></strong></td>
+      <td><strong><a href="https://github.com/recruitL/AIRobort">AIRobort</a></strong></td>
       <td>App design repository</td>
       <td>Organizes AIRobort app design, interface, and interaction materials</td>
     </tr>
@@ -38,4 +39,5 @@ This page organizes public repositories, experiment scripts, paper reproduction 
 </table>
 
 {% include button.html text="View py-sc" icon="github" link="https://github.com/recruitL/py-sc" color="#0366d6" %}
-{% include button.html text="View AIRobort Page" link="/en/AIRobort/" color="#0366d6" %}
+{% include button.html text="View AIRobort" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
+{% include button.html text="AIRobort Page" link="/en/AIRobort/" color="#555555" %}
