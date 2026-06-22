@@ -30,5 +30,10 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <td>App design repository</td>
       <td>Organizes AIRobort app design, interface, and interaction materials</td>
     </tr>
+    <tr>
+      <td><strong><a href="https://github.com/recruitL/HUNNUthesismodel">HUNNUthesismodel</a></strong></td>
+      <td>HUNNU thesis model repository</td>
+      <td>Adds the HUNNUthesismodel repository entry for thesis model, formatting, and related materials</td>
+    </tr>
   </tbody>
 </table>

@@ -30,5 +30,10 @@ aside: true
       <td>App 设计仓库</td>
       <td>整理 AIRobort 的应用设计、界面与交互相关内容</td>
     </tr>
+    <tr>
+      <td><strong><a href="https://github.com/recruitL/HUNNUthesismodel">HUNNUthesismodel</a></strong></td>
+      <td>HUNNU 论文模板/模型仓库</td>
+      <td>收录 HUNNUthesismodel 仓库入口，便于访问论文模板、排版模型和相关材料</td>
+    </tr>
   </tbody>
 </table>
