@@ -12,7 +12,6 @@ This page organizes public repositories, experiment scripts, paper reproduction 
 ## GitHub
 
 {% include button.html text="Visit GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
-{% include button.html text="Visit AIRobort Repository" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
 
 ## Projects
 

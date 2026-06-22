@@ -12,7 +12,6 @@ aside: true
 ## GitHub
 
 {% include button.html text="访问 GitHub" icon="github" link="https://github.com/recruitL" color="#0366d6" %}
-{% include button.html text="访问 AIRobort 仓库" icon="github" link="https://github.com/recruitL/AIRobort" color="#0366d6" %}
 
 ## 项目列表
 
