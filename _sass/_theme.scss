@@ -585,27 +585,15 @@ a .icon {
   margin: .5rem 0 1.1rem;
 
   a {
-    background: #eef6f8;
-    border: 1px solid #c8dee4;
+    background: #f5f7f6;
+    border: 1px solid #d7e1de;
     border-radius: 5px;
-    color: #26525d;
+    color: #3f514d;
     font-size: .78rem;
     font-weight: 700;
     line-height: 1.2;
     padding: .28rem .48rem;
     text-decoration: none;
-  }
-
-  a:nth-child(2n) {
-    background: #f3f0e6;
-    border-color: #d9cfaa;
-    color: #5b4e24;
-  }
-
-  a:nth-child(3n) {
-    background: #eef4ea;
-    border-color: #c8dabc;
-    color: #365527;
   }
 }
 
@@ -684,7 +672,6 @@ a .icon {
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.2;
-  text-transform: uppercase;
 }
 
 .resource-category__eyebrow {
@@ -709,7 +696,7 @@ a .icon {
 .resource-card {
   background: #ffffff;
   border: 1px solid #dfe8e6;
-  border-left: 4px solid var(--card-accent, var(--resource-accent, #0284c7));
+  border-left: 4px solid var(--resource-accent, #0284c7);
   border-radius: 6px;
   color: $bodyColour;
   display: grid;
@@ -721,7 +708,7 @@ a .icon {
 
   &:hover,
   &:focus {
-    border-color: var(--card-accent, var(--resource-accent, #0284c7));
+    border-color: var(--resource-accent, #0284c7);
     box-shadow: 0 .24rem .8rem rgba(36, 46, 43, .11);
     transform: translateY(-1px);
   }
@@ -740,64 +727,11 @@ a .icon {
 }
 
 .resource-card__tag {
-  background: var(--card-soft, var(--resource-soft, #eef7fb));
-  color: var(--card-accent, var(--resource-accent, #0284c7));
+  background: #f5f7f6;
+  border: 1px solid #d7e1de;
+  color: #465754;
   padding: .18rem .32rem;
   width: fit-content;
-}
-
-.resource-card--catalog,
-.resource-card--reference {
-  --card-accent: #0284c7;
-  --card-soft: #eef7fb;
-}
-
-.resource-card--alert,
-.resource-card--detector {
-  --card-accent: #a8473d;
-  --card-soft: #f8eeee;
-}
-
-.resource-card--code,
-.resource-card--analysis {
-  --card-accent: #3f7f4f;
-  --card-soft: #eef6ee;
-}
-
-.resource-card--waveform,
-.resource-card--visual,
-.resource-card--method {
-  --card-accent: #8a5b12;
-  --card-soft: #f7f1e6;
-}
-
-.resource-card--learn,
-.resource-card--course,
-.resource-card--publication {
-  --card-accent: #5c6f9f;
-  --card-soft: #f0f2f8;
-}
-
-.resource-card--outreach,
-.resource-card--people,
-.resource-card--career {
-  --card-accent: #7b6540;
-  --card-soft: #f3f0e6;
-}
-
-.resource-card--institute,
-.resource-card--math,
-.resource-card--paper,
-.resource-card--qa {
-  --card-accent: #6c5b7b;
-  --card-soft: #f3eff6;
-}
-
-.resource-card--ai,
-.resource-card--collab,
-.resource-card--index {
-  --card-accent: #5c6d24;
-  --card-soft: #f1f5e8;
 }
 
 @media (max-width: 720px) {
