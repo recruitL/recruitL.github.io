@@ -127,95 +127,163 @@ This page organizes academic conferences, invited talks, useful links, and relat
 
 ## Useful Links
 
-### Gravitational-wave Data, Events, and Observing
+<div class="resource-index" aria-label="Useful link categories">
+  <a href="#links-data">Data & observing</a>
+  <a href="#links-software">Waveforms & software</a>
+  <a href="#links-inference">Inference</a>
+  <a href="#links-outreach">Outreach</a>
+  <a href="#links-people">Institutes</a>
+  <a href="#links-math">Math notes</a>
+  <a href="#links-tools">AI & tools</a>
+</div>
 
-<ol class="activity-links">
-  <li><a href="https://gwosc.org/">GW Open Science Center</a>: public gravitational-wave data, event catalogs, and tutorials.</li>
-  <li><a href="https://data.black-holes.org/simulations/index.html">SXS Catalog</a>: SXS numerical-relativity simulations and waveform catalog, merging the separate waveform subpage.</li>
-  <li><a href="https://ccrgpages.rit.edu/~RITCatalog/">RIT Catalog</a>: RIT numerical-relativity simulations and waveform catalog.</li>
-  <li><a href="https://einstein.gatech.edu/catalog/">Georgia Tech Binary Black Hole Simulations</a>: binary-black-hole simulation catalog.</li>
-  <li><a href="https://gracedb.ligo.org/superevents/public/O4/">GraceDB Public Alerts</a>: public LVK O4 candidate-event alerts.</li>
-  <li><a href="https://ligo.org/detections/">LIGO Detections</a>: confirmed detections from the LIGO Scientific Collaboration.</li>
-  <li><a href="https://observing.docs.ligo.org/plan/">IGWN Observing Plans</a>: observing schedules and run status.</li>
-</ol>
+<div class="resource-board">
+  <section class="resource-category resource-category--data" id="links-data">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Core entry points</span>
+      <div>
+        <h3>Gravitational-wave Data, Events, and Observing</h3>
+        <p>Long-lived catalogs, public alerts, and observing plans. The SXS waveform subpage is folded into the main SXS catalog.</p>
+      </div>
+      <span class="resource-category__count">7 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--catalog" href="https://gwosc.org/"><span class="resource-card__tag">Open data</span><strong>GW Open Science Center</strong><span>Public gravitational-wave data, event catalogs, and tutorials.</span></a>
+      <a class="resource-card resource-card--catalog" href="https://data.black-holes.org/simulations/index.html"><span class="resource-card__tag">NR catalog</span><strong>SXS Catalog</strong><span>SXS numerical-relativity simulations and waveform catalog.</span></a>
+      <a class="resource-card resource-card--catalog" href="https://ccrgpages.rit.edu/~RITCatalog/"><span class="resource-card__tag">NR catalog</span><strong>RIT Catalog</strong><span>RIT numerical-relativity simulations and waveform catalog.</span></a>
+      <a class="resource-card resource-card--catalog" href="https://einstein.gatech.edu/catalog/"><span class="resource-card__tag">NR catalog</span><strong>Georgia Tech BBH</strong><span>Binary-black-hole simulation catalog.</span></a>
+      <a class="resource-card resource-card--alert" href="https://gracedb.ligo.org/superevents/public/O4/"><span class="resource-card__tag">Live events</span><strong>GraceDB Public Alerts</strong><span>Public LVK O4 candidate-event alerts.</span></a>
+      <a class="resource-card resource-card--alert" href="https://ligo.org/detections/"><span class="resource-card__tag">Detections</span><strong>LIGO Detections</strong><span>Confirmed detections from the LIGO Scientific Collaboration.</span></a>
+      <a class="resource-card resource-card--alert" href="https://observing.docs.ligo.org/plan/"><span class="resource-card__tag">Observing</span><strong>IGWN Observing Plans</strong><span>Observing schedules and run status.</span></a>
+    </div>
+  </section>
 
-### Waveform Models, Numerical Relativity, and Software
+  <section class="resource-category resource-category--software" id="links-software">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Working stack</span>
+      <div>
+        <h3>Waveform Models, Numerical Relativity, and Software</h3>
+        <p>Installation pages, API pages, and module subpages are folded back into their parent project entries.</p>
+      </div>
+      <span class="resource-category__count">9 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--code" href="https://www.black-holes.org/code/SpEC.html"><span class="resource-card__tag">NR code</span><strong>SpEC</strong><span>Spectral Einstein Code project entry.</span></a>
+      <a class="resource-card resource-card--waveform" href="https://teobresums.bitbucket.io/"><span class="resource-card__tag">EOB</span><strong>TEOBResumS</strong><span>EOB waveform model and code entry.</span></a>
+      <a class="resource-card resource-card--code" href="https://petsc.org/release/install/"><span class="resource-card__tag">HPC</span><strong>PETSc</strong><span>Installation and documentation for the parallel scientific-computing library.</span></a>
+      <a class="resource-card resource-card--index" href="https://compact-binaries.org/software"><span class="resource-card__tag">Directory</span><strong>Compact Binaries Software</strong><span>Software directory for compact-binary work.</span></a>
+      <a class="resource-card resource-card--analysis" href="https://pycbc.org/"><span class="resource-card__tag">GW analysis</span><strong>PyCBC</strong><span>Software for data analysis, signal searches, and parameter studies.</span></a>
+      <a class="resource-card resource-card--waveform" href="https://waveforms.docs.ligo.org/software/pyseobnr/"><span class="resource-card__tag">SEOBNR</span><strong>pyseobnr</strong><span>Python documentation for SEOBNR waveform models.</span></a>
+      <a class="resource-card resource-card--analysis" href="https://github.com/gwpy/gwpy"><span class="resource-card__tag">Python</span><strong>GWpy</strong><span>Python toolkit for gravitational-wave data processing.</span></a>
+      <a class="resource-card resource-card--waveform" href="https://scri.readthedocs.io/en/latest/"><span class="resource-card__tag">Fluxes</span><strong>scri</strong><span>Documentation for asymptotic radiation and flux calculations.</span></a>
+      <a class="resource-card resource-card--code" href="https://github.com/mikekatz04/EOBGPU"><span class="resource-card__tag">GPU</span><strong>EOBGPU</strong><span>GPU-accelerated EOB waveform project.</span></a>
+    </div>
+  </section>
 
-<ol class="activity-links">
-  <li><a href="https://www.black-holes.org/code/SpEC.html">SpEC</a>: Spectral Einstein Code project entry.</li>
-  <li><a href="https://teobresums.bitbucket.io/">TEOBResumS</a>: EOB waveform model and code entry.</li>
-  <li><a href="https://petsc.org/release/install/">PETSc</a>: installation and documentation entry for the parallel scientific-computing library.</li>
-  <li><a href="https://compact-binaries.org/software">Compact Binaries Software</a>: software directory for compact-binary work.</li>
-  <li><a href="https://pycbc.org/">PyCBC</a>: software for gravitational-wave data analysis, signal searches, and parameter studies.</li>
-  <li><a href="https://waveforms.docs.ligo.org/software/pyseobnr/">pyseobnr</a>: Python documentation for SEOBNR waveform models, merging installation and API subpages.</li>
-  <li><a href="https://github.com/gwpy/gwpy">GWpy</a>: Python toolkit for gravitational-wave data processing.</li>
-  <li><a href="https://scri.readthedocs.io/en/latest/">scri</a>: Python documentation for asymptotic gravitational radiation and flux calculations, merging flux subpages.</li>
-  <li><a href="https://github.com/mikekatz04/EOBGPU">EOBGPU</a>: GPU-accelerated EOB waveform project.</li>
-</ol>
+  <section class="resource-category resource-category--inference" id="links-inference">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Inference chain</span>
+      <div>
+        <h3>Data Analysis and Parameter Estimation</h3>
+        <p>Reusable frameworks, tutorials, and workshop materials; specific notebook subpages are not expanded separately.</p>
+      </div>
+      <span class="resource-category__count">5 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--analysis" href="https://github.com/bilby-dev/bilby"><span class="resource-card__tag">Inference</span><strong>bilby</strong><span>Unified framework for stochastic sampling and gravitational-wave inference.</span></a>
+      <a class="resource-card resource-card--analysis" href="https://github.com/CosmoStatGW/gwfast"><span class="resource-card__tag">Fisher</span><strong>gwfast</strong><span>Fisher-information Python package for detector networks.</span></a>
+      <a class="resource-card resource-card--learn" href="https://avivajpeyi.github.io/gw_pe_tutorial/workshop_notebook.html"><span class="resource-card__tag">Tutorial</span><strong>Parameter Estimation Tutorial</strong><span>Gravitational-wave parameter-estimation teaching notebook.</span></a>
+      <a class="resource-card resource-card--learn" href="https://github.com/GregoryAshton/GWParameterEstimationWorkshop2020/tree/master"><span class="resource-card__tag">Workshop</span><strong>GW PE Workshop 2020</strong><span>Workshop materials for parameter estimation.</span></a>
+      <a class="resource-card resource-card--visual" href="https://espei.org/how-to/recipes/mcmc-corner-plots/"><span class="resource-card__tag">Visualization</span><strong>MCMC Corner Plots</strong><span>Reference for MCMC corner-plot visualization.</span></a>
+    </div>
+  </section>
 
-### Data Analysis and Parameter Estimation
+  <section class="resource-category resource-category--outreach" id="links-outreach">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Reading levels</span>
+      <div>
+        <h3>Outreach, Reviews, and Detectors</h3>
+        <p>From public introductions to detector overviews, useful for fast background checks or sharing with non-specialists.</p>
+      </div>
+      <span class="resource-category__count">8 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--outreach" href="https://www.ligo.org/"><span class="resource-card__tag">Portal</span><strong>LIGO</strong><span>Gravitational-wave observations and outreach resources.</span></a>
+      <a class="resource-card resource-card--outreach" href="https://www.ligo.caltech.edu/page/what-are-gw"><span class="resource-card__tag">Intro</span><strong>What are Gravitational Waves?</strong><span>LIGO Lab introduction to gravitational waves.</span></a>
+      <a class="resource-card resource-card--outreach" href="https://spaceplace.nasa.gov/gravitational-waves/en/"><span class="resource-card__tag">Students</span><strong>NASA Space Place</strong><span>Public and student-friendly explanation.</span></a>
+      <a class="resource-card resource-card--outreach" href="https://astrobites.org/2023/11/08/guide-to-gravitational-waves/"><span class="resource-card__tag">Guide</span><strong>Astrobites GW Guide</strong><span>Overview of gravitational-wave observing.</span></a>
+      <a class="resource-card resource-card--outreach" href="https://astrobites.org/2024/08/28/gwmem/"><span class="resource-card__tag">Memory</span><strong>GW Memory</strong><span>Outreach article on gravitational-wave memory.</span></a>
+      <a class="resource-card resource-card--outreach" href="https://www.advancedsciencenews.com/understanding-gravitational-waves-ripples-in-spacetime-explained/"><span class="resource-card__tag">Concepts</span><strong>Understanding GWs</strong><span>Conceptual review of gravitational waves.</span></a>
+      <a class="resource-card resource-card--detector" href="https://www.einstein-online.info/en/spotlight/3-generation-gw-detectors/"><span class="resource-card__tag">Detectors</span><strong>Third-generation Detectors</strong><span>Introduction to third-generation detectors.</span></a>
+      <a class="resource-card resource-card--reference" href="https://en.wikipedia.org/wiki/Gravitational_wave"><span class="resource-card__tag">Index</span><strong>Wikipedia: Gravitational Wave</strong><span>General concept index.</span></a>
+    </div>
+  </section>
 
-<ol class="activity-links">
-  <li><a href="https://github.com/bilby-dev/bilby">bilby</a>: unified framework for stochastic sampling and gravitational-wave inference.</li>
-  <li><a href="https://github.com/CosmoStatGW/gwfast">gwfast</a>: Fisher-information Python package for gravitational-wave detector networks.</li>
-  <li><a href="https://avivajpeyi.github.io/gw_pe_tutorial/workshop_notebook.html">Parameter Estimation Tutorial</a>: gravitational-wave parameter-estimation teaching notebook.</li>
-  <li><a href="https://github.com/GregoryAshton/GWParameterEstimationWorkshop2020/tree/master">GW Parameter Estimation Workshop 2020</a>: workshop materials for parameter estimation.</li>
-  <li><a href="https://espei.org/how-to/recipes/mcmc-corner-plots/">MCMC Corner Plots</a>: reference for MCMC corner-plot visualization.</li>
-</ol>
+  <section class="resource-category resource-category--people" id="links-people">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">People and places</span>
+      <div>
+        <h3>Researchers, Institutes, and Courses</h3>
+        <p>Institutes, research pages, publications, and teaching material grouped at the same level.</p>
+      </div>
+      <span class="resource-category__count">8 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--institute" href="https://www.ego-gw.it/"><span class="resource-card__tag">Institute</span><strong>European Gravitational Observatory</strong><span>Entry point for the observatory hosting Virgo.</span></a>
+      <a class="resource-card resource-card--detector" href="https://sci.esa.int/web/lisa"><span class="resource-card__tag">Space GW</span><strong>ESA LISA</strong><span>ESA overview of the LISA space-based mission.</span></a>
+      <a class="resource-card resource-card--institute" href="https://www.aei.mpg.de/obs-rel-cos?c=2784"><span class="resource-card__tag">AEI</span><strong>Observational Relativity and Cosmology</strong><span>AEI department focused on observational consequences of GR.</span></a>
+      <a class="resource-card resource-card--publication" href="https://www.aei.mpg.de/585292/publications-by-the-department"><span class="resource-card__tag">Publications</span><strong>AEI ACR Publications</strong><span>Publication list for the AEI ACR department.</span></a>
+      <a class="resource-card resource-card--people" href="https://raj-physics.github.io/#research"><span class="resource-card__tag">Profile</span><strong>Raj Patil</strong><span>Research page on gravity, relativity, and black holes.</span></a>
+      <a class="resource-card resource-card--publication" href="https://iphysresearch.github.io/blog/mypublication/"><span class="resource-card__tag">Publications</span><strong>He Wang Publications</strong><span>Publications on gravitational waves, data analysis, and ML.</span></a>
+      <a class="resource-card resource-card--course" href="https://duetosymmetry.com/teaching/2020-spring-phys-402/"><span class="resource-card__tag">Course</span><strong>Leo C. Stein: EM II</strong><span>Electromagnetism course materials.</span></a>
+      <a class="resource-card resource-card--career" href="https://www.astrobetter.com/wiki/tiki-index.php?page=Rumor+Mill"><span class="resource-card__tag">Academic jobs</span><strong>AstroBetter Rumor Mill</strong><span>Astronomy jobs and academic-move information.</span></a>
+    </div>
+  </section>
 
-### Outreach, Reviews, and Detectors
+  <section class="resource-category resource-category--math" id="links-math">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Derivation references</span>
+      <div>
+        <h3>Mathematics, General Relativity, and Technical Notes</h3>
+        <p>Formula references, special functions, and technical Q&amp;A. Duplicate Stack Exchange threads are represented by one physics entry.</p>
+      </div>
+      <span class="resource-category__count">14 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--reference" href="https://inspirehep.net/authors/2761677?ui-citation-summary=true"><span class="resource-card__tag">Literature</span><strong>INSPIRE-HEP</strong><span>Literature, author, and citation records in HEP and gravitation.</span></a>
+      <a class="resource-card resource-card--reference" href="https://arxiv.org/"><span class="resource-card__tag">Preprints</span><strong>arXiv</strong><span>Preprint search and subscriptions.</span></a>
+      <a class="resource-card resource-card--paper" href="https://arxiv.org/abs/2412.12831"><span class="resource-card__tag">Paper</span><strong>SEOBNRv5EHM Eccentric Dynamics</strong><span>Paper on eccentric aligned-spin EOB waveform dynamics.</span></a>
+      <a class="resource-card resource-card--math" href="https://github.com/DrAndrewSpiers/NP-and-GHP-Formalisms-for-2nd-order-Teukolsky"><span class="resource-card__tag">Teukolsky</span><strong>NP and GHP Formalisms</strong><span>Notes and code for second-order Teukolsky formalism work.</span></a>
+      <a class="resource-card resource-card--qa" href="https://mathematica.stackexchange.com/questions/291464/metric-pertubation-in-xact"><span class="resource-card__tag">xAct</span><strong>Metric Perturbation in xAct</strong><span>xAct metric-perturbation Q&amp;A.</span></a>
+      <a class="resource-card resource-card--qa" href="https://physics.stackexchange.com/questions/506086/counting-independent-components-of-the-riemann-curvature-tensor"><span class="resource-card__tag">GR Q&amp;A</span><strong>Riemann Tensor Components</strong><span>Riemann-tensor component-counting Q&amp;A.</span></a>
+      <a class="resource-card resource-card--math" href="https://zhuanlan.zhihu.com/p/623843985"><span class="resource-card__tag">Chinese note</span><strong>Teukolsky Equation Notes</strong><span>Chinese notes on the Teukolsky equation.</span></a>
+      <a class="resource-card resource-card--paper" href="https://pages.jh.edu/eberti2/posts/black-hole-spectroscopy-from-theory-to-experiment/"><span class="resource-card__tag">Review</span><strong>Black Hole Spectroscopy</strong><span>Emanuele Berti's review from theory to experiment.</span></a>
+      <a class="resource-card resource-card--math" href="https://dlmf.nist.gov/31.12"><span class="resource-card__tag">Special fn.</span><strong>DLMF: Heun Equation</strong><span>Reference for confluent Heun forms.</span></a>
+      <a class="resource-card resource-card--math" href="https://mathworld.wolfram.com/Dilogarithm.html"><span class="resource-card__tag">Special fn.</span><strong>MathWorld: Dilogarithm</strong><span>Reference for the dilogarithm.</span></a>
+      <a class="resource-card resource-card--math" href="https://mathworld.wolfram.com/DeltaFunction.html"><span class="resource-card__tag">Distribution</span><strong>MathWorld: Delta Function</strong><span>Reference for the Dirac delta function.</span></a>
+      <a class="resource-card resource-card--method" href="https://zhuanlan.zhihu.com/p/25645273"><span class="resource-card__tag">Method</span><strong>Digitizing Curves from Figures</strong><span>Chinese tutorial for extracting data points from paper figures.</span></a>
+      <a class="resource-card resource-card--math" href="https://zhuanlan.zhihu.com/p/504659705"><span class="resource-card__tag">Polylog</span><strong>Li Polylogarithm Exercises</strong><span>Chinese notes on polylogarithm exercises.</span></a>
+      <a class="resource-card resource-card--math" href="https://zhuanlan.zhihu.com/p/53781596"><span class="resource-card__tag">Polylog</span><strong>Polylogarithm in Statistical Physics</strong><span>Chinese notes on polylogarithms in statistical physics.</span></a>
+    </div>
+  </section>
 
-<ol class="activity-links">
-  <li><a href="https://www.ligo.org/">LIGO</a>: gravitational-wave observations and outreach resources.</li>
-  <li><a href="https://www.ligo.caltech.edu/page/what-are-gw">What are Gravitational Waves?</a>: LIGO Lab introduction to gravitational waves.</li>
-  <li><a href="https://spaceplace.nasa.gov/gravitational-waves/en/">NASA Space Place: Gravitational Waves</a>: public and student-friendly explanation.</li>
-  <li><a href="https://astrobites.org/2023/11/08/guide-to-gravitational-waves/">Astrobites Guide to Gravitational Waves</a>: overview of gravitational-wave observing.</li>
-  <li><a href="https://astrobites.org/2024/08/28/gwmem/">Astrobites: Gravitational Wave Memory</a>: outreach article on gravitational-wave memory.</li>
-  <li><a href="https://www.advancedsciencenews.com/understanding-gravitational-waves-ripples-in-spacetime-explained/">Advanced Science News: Understanding Gravitational Waves</a>: conceptual review of gravitational waves.</li>
-  <li><a href="https://www.einstein-online.info/en/spotlight/3-generation-gw-detectors/">Einstein-Online: Third-generation GW Detectors</a>: introduction to third-generation detectors.</li>
-  <li><a href="https://en.wikipedia.org/wiki/Gravitational_wave">Wikipedia: Gravitational Wave</a>: general concept index.</li>
-</ol>
-
-### Researchers, Institutes, and Courses
-
-<ol class="activity-links">
-  <li><a href="https://www.ego-gw.it/">European Gravitational Observatory</a>: entry point for the European gravitational-wave observatory hosting Virgo.</li>
-  <li><a href="https://sci.esa.int/web/lisa">ESA LISA</a>: ESA overview of the LISA space-based gravitational-wave mission.</li>
-  <li><a href="https://www.aei.mpg.de/obs-rel-cos?c=2784">AEI Observational Relativity and Cosmology</a>: AEI department focused on observational consequences of general relativity.</li>
-  <li><a href="https://www.aei.mpg.de/585292/publications-by-the-department">AEI ACR Publications</a>: publication list for the AEI ACR department.</li>
-  <li><a href="https://raj-physics.github.io/#research">Raj Patil</a>: research page on gravity, relativity, and black holes.</li>
-  <li><a href="https://iphysresearch.github.io/blog/mypublication/">He Wang Publications</a>: publications on gravitational waves, data analysis, and machine learning.</li>
-  <li><a href="https://duetosymmetry.com/teaching/2020-spring-phys-402/">Leo C. Stein: Electromagnetism II</a>: electromagnetism course materials.</li>
-  <li><a href="https://www.astrobetter.com/wiki/tiki-index.php?page=Rumor+Mill">AstroBetter Rumor Mill</a>: astronomy jobs and academic-move information.</li>
-</ol>
-
-### Mathematics, General Relativity, and Technical Notes
-
-<ol class="activity-links">
-  <li><a href="https://inspirehep.net/authors/2761677?ui-citation-summary=true">INSPIRE-HEP</a>: literature, author, and citation records in high-energy physics and gravitation.</li>
-  <li><a href="https://arxiv.org/">arXiv</a>: preprint search and subscriptions.</li>
-  <li><a href="https://arxiv.org/abs/2412.12831">SEOBNRv5EHM Eccentric Dynamics Paper</a>: paper on eccentric aligned-spin EOB waveform dynamics.</li>
-  <li><a href="https://github.com/DrAndrewSpiers/NP-and-GHP-Formalisms-for-2nd-order-Teukolsky">NP and GHP Formalisms for 2nd-order Teukolsky</a>: notes and code for second-order Teukolsky formalism work.</li>
-  <li><a href="https://mathematica.stackexchange.com/questions/291464/metric-pertubation-in-xact">Metric Perturbation in xAct</a>: xAct metric-perturbation Q&amp;A.</li>
-  <li><a href="https://physics.stackexchange.com/questions/506086/counting-independent-components-of-the-riemann-curvature-tensor">Riemann Tensor Independent Components</a>: Riemann-tensor component-counting Q&amp;A, merging the duplicate Math Stack Exchange thread.</li>
-  <li><a href="https://zhuanlan.zhihu.com/p/623843985">Teukolsky Equation Notes</a>: Chinese notes on the Teukolsky equation.</li>
-  <li><a href="https://pages.jh.edu/eberti2/posts/black-hole-spectroscopy-from-theory-to-experiment/">Black Hole Spectroscopy</a>: Emanuele Berti's review from theory to experiment.</li>
-  <li><a href="https://dlmf.nist.gov/31.12">DLMF: Confluent Forms of Heun's Equation</a>: reference for confluent Heun forms.</li>
-  <li><a href="https://mathworld.wolfram.com/Dilogarithm.html">MathWorld: Dilogarithm</a>: reference for the dilogarithm.</li>
-  <li><a href="https://mathworld.wolfram.com/DeltaFunction.html">MathWorld: Delta Function</a>: reference for the Dirac delta function.</li>
-  <li><a href="https://zhuanlan.zhihu.com/p/25645273">Digitizing Curves from Figures</a>: Chinese tutorial for extracting data points from paper figures.</li>
-  <li><a href="https://zhuanlan.zhihu.com/p/504659705">Li Polylogarithm Exercises</a>: Chinese notes on polylogarithm exercises.</li>
-  <li><a href="https://zhuanlan.zhihu.com/p/53781596">Polylogarithm in Statistical Physics</a>: Chinese notes on polylogarithms in statistical physics.</li>
-</ol>
-
-### General Tools, AI, and Collaboration
-
-<ol class="activity-links">
-  <li><a href="https://codingpets.com/">CodingPets</a>: animated status pets and workspace companions for OpenAI Codex.</li>
-  <li><a href="https://github.com/Rath-Team/OpenRath">OpenRath</a>: open-source framework for dynamic multi-agent workflows.</li>
-  <li><a href="https://instaboard.app/">Instaboard</a>: live collaborative visual board.</li>
-  <li><a href="https://zh.d2l.ai/">Dive into Deep Learning</a>: Chinese deep-learning textbook.</li>
-</ol>
+  <section class="resource-category resource-category--tools" id="links-tools">
+    <div class="resource-category__header">
+      <span class="resource-category__eyebrow">Workflow extras</span>
+      <div>
+        <h3>General Tools, AI, and Collaboration</h3>
+        <p>Not part of the gravitational-wave stack directly, but useful for development, collaboration, learning, and multi-agent workflows.</p>
+      </div>
+      <span class="resource-category__count">4 items</span>
+    </div>
+    <div class="resource-grid">
+      <a class="resource-card resource-card--ai" href="https://codingpets.com/"><span class="resource-card__tag">Codex</span><strong>CodingPets</strong><span>Animated status pets and workspace companions for OpenAI Codex.</span></a>
+      <a class="resource-card resource-card--ai" href="https://github.com/Rath-Team/OpenRath"><span class="resource-card__tag">Multi-agent</span><strong>OpenRath</strong><span>Open-source framework for dynamic multi-agent workflows.</span></a>
+      <a class="resource-card resource-card--collab" href="https://instaboard.app/"><span class="resource-card__tag">Collaboration</span><strong>Instaboard</strong><span>Live collaborative visual board.</span></a>
+      <a class="resource-card resource-card--learn" href="https://zh.d2l.ai/"><span class="resource-card__tag">Textbook</span><strong>Dive into Deep Learning</strong><span>Chinese deep-learning textbook.</span></a>
+    </div>
+  </section>
+</div>
 
 ## Archive Policy
 
