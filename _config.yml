@@ -21,6 +21,8 @@ exclude:
 - Gemfile.lock
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
+- config
+- scripts
 
 # 2. Installed Gems # 插件依赖
 plugins:
@@ -122,6 +124,8 @@ navigation_header:
   url: /code/
 - title: 活动等
   url: /activities/
+- title: 论文日报
+  url: /papers/
 - title: 博客
   url: /blog/
 - title: 搜索

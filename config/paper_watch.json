@@ -1,0 +1,245 @@
+{
+  "site_url": "https://recruitl.github.io",
+  "timezone": "Asia/Shanghai",
+  "lookback_days": 2,
+  "minimum_score": 16,
+  "max_papers": 45,
+  "ai_max_papers": 20,
+  "openai_model": "gpt-4o-mini",
+  "email": {
+    "subject_prefix": "Paper Watch",
+    "from_name": "recruitL Paper Watch"
+  },
+  "arxiv": {
+    "endpoint": "https://export.arxiv.org/api/query",
+    "request_pause_seconds": 3.2,
+    "queries": [
+      {
+        "name": "arXiv gr-qc",
+        "source_kind": "arxiv_core",
+        "query": "cat:gr-qc",
+        "max_results": 90
+      },
+      {
+        "name": "arXiv GW/compact related",
+        "source_kind": "arxiv_related",
+        "query": "cat:astro-ph.HE OR cat:hep-th OR cat:hep-ph",
+        "max_results": 55
+      },
+      {
+        "name": "arXiv AI radar",
+        "source_kind": "ai_radar",
+        "query": "cat:cs.AI OR cat:cs.CL OR cat:cs.LG",
+        "max_results": 35
+      }
+    ]
+  },
+  "rss_sources": [
+    {
+      "name": "Nature",
+      "source_kind": "journal_general",
+      "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "name": "Science",
+      "source_kind": "journal_general",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+    },
+    {
+      "name": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "url": "https://feeds.aps.org/rss/recent/prl.xml"
+    },
+    {
+      "name": "Living Reviews in Relativity",
+      "source_kind": "journal_review",
+      "url": "https://link.springer.com/search.rss?facet-journal-id=41114&sortOrder=newestFirst"
+    }
+  ],
+  "crossref_sources": [
+    {
+      "name": "Nature",
+      "source_kind": "journal_general",
+      "issn": "1476-4687",
+      "rows": 20
+    },
+    {
+      "name": "Science",
+      "source_kind": "journal_general",
+      "issn": "1095-9203",
+      "rows": 20
+    },
+    {
+      "name": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "issn": "1079-7114",
+      "rows": 30
+    },
+    {
+      "name": "Living Reviews in Relativity",
+      "source_kind": "journal_review",
+      "issn": "1433-8351",
+      "rows": 10
+    }
+  ],
+  "source_weights": {
+    "arxiv_core": 28,
+    "arxiv_related": 12,
+    "journal_physics": 18,
+    "journal_review": 20,
+    "journal_general": 6,
+    "ai_radar": 10
+  },
+  "topic_groups": [
+    {
+      "name": "compact_binary_modeling",
+      "label": "致密双星建模",
+      "priority": "core",
+      "score": 30,
+      "title_boost": 12,
+      "keywords": [
+        "compact binary",
+        "binary black hole",
+        "binary neutron star",
+        "neutron star binary",
+        "post-minkowskian",
+        "post minkowskian",
+        "post-newtonian",
+        "post newtonian",
+        "self-force",
+        "self force",
+        "gravitational self-force",
+        "effective-one-body",
+        "effective one body",
+        "EOB",
+        "EOBNR",
+        "numerical relativity",
+        "NR waveform",
+        "waveform model",
+        "waveform modelling",
+        "waveform modeling",
+        "surrogate waveform",
+        "inspiral",
+        "merger",
+        "ringdown",
+        "precession",
+        "eccentricity"
+      ]
+    },
+    {
+      "name": "gw_observatories",
+      "label": "LVK/LISA/引力波观测",
+      "priority": "core",
+      "score": 24,
+      "title_boost": 10,
+      "keywords": [
+        "LIGO",
+        "Virgo",
+        "KAGRA",
+        "LVK",
+        "LISA",
+        "TianQin",
+        "Taiji",
+        "Einstein Telescope",
+        "Cosmic Explorer",
+        "gravitational-wave",
+        "gravitational wave",
+        "stochastic gravitational wave",
+        "standard siren",
+        "parameter estimation",
+        "population inference"
+      ]
+    },
+    {
+      "name": "qnms",
+      "label": "QNM/黑洞扰动",
+      "priority": "core",
+      "score": 26,
+      "title_boost": 12,
+      "keywords": [
+        "quasinormal",
+        "quasi-normal",
+        "QNM",
+        "QNMs",
+        "black hole spectroscopy",
+        "ringdown",
+        "Regge-Wheeler",
+        "Zerilli",
+        "Teukolsky",
+        "Kerr perturbation",
+        "no-hair",
+        "echoes"
+      ]
+    },
+    {
+      "name": "grqc_secondary",
+      "label": "gr-qc 相关方向",
+      "priority": "related",
+      "score": 15,
+      "title_boost": 5,
+      "keywords": [
+        "black hole thermodynamics",
+        "holography",
+        "cosmology",
+        "inflation",
+        "dark matter",
+        "dark energy",
+        "modified gravity",
+        "scalar tensor",
+        "general relativity",
+        "quantum gravity",
+        "AdS",
+        "de Sitter",
+        "singularity",
+        "cosmic censorship"
+      ]
+    },
+    {
+      "name": "astro_hep_related",
+      "label": "天文/高能相关",
+      "priority": "related",
+      "score": 12,
+      "title_boost": 5,
+      "keywords": [
+        "gamma-ray burst",
+        "GRB",
+        "kilonnova",
+        "supernova",
+        "active galactic nucleus",
+        "AGN",
+        "pulsar",
+        "magnetar",
+        "high energy",
+        "multi-messenger",
+        "neutrino",
+        "dark matter"
+      ]
+    },
+    {
+      "name": "ai_news",
+      "label": "AI/知识库/模型架构",
+      "priority": "ai",
+      "score": 18,
+      "title_boost": 8,
+      "keywords": [
+        "large language model",
+        "LLM",
+        "retrieval augmented generation",
+        "retrieval-augmented generation",
+        "RAG",
+        "knowledge base",
+        "knowledge graph",
+        "AI agent",
+        "agentic",
+        "model architecture",
+        "reasoning model",
+        "tool use",
+        "scientific discovery",
+        "foundation model",
+        "transformer",
+        "mixture of experts",
+        "MoE"
+      ]
+    }
+  ]
+}
