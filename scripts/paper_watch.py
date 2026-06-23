@@ -61,8 +61,10 @@ class Paper:
     priority: str = "watch"
     area: str = "related"
     tags: list[str] = dataclasses.field(default_factory=list)
+    noise_tags: list[str] = dataclasses.field(default_factory=list)
     matched_keywords: list[str] = dataclasses.field(default_factory=list)
     analysis: dict[str, str] = dataclasses.field(default_factory=dict)
+    ai_blocked: bool = False
 
 
 def load_config(path: Path) -> dict[str, Any]:
@@ -422,8 +424,10 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
     for paper in papers:
         score = int(source_weights.get(paper.source_kind, 0))
         tags: list[str] = []
+        noise_tags: list[str] = []
         matched_keywords: list[str] = []
         group_priorities: list[str] = []
+        ai_blocked = False
         text = f"{paper.title} {paper.abstract} {' '.join(paper.categories)}".casefold()
         title_text = paper.title.casefold()
 
@@ -444,6 +448,21 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
             matched_keywords.extend(hits[:5])
             group_priorities.append(group.get("priority", "related"))
 
+        for group in config.get("negative_topic_groups", []):
+            exempt_hits = [
+                kw for kw in group.get("exempt_keywords", [])
+                if keyword_in_text(kw, text)
+            ]
+            if exempt_hits:
+                continue
+            hits = [kw for kw in group.get("keywords", []) if keyword_in_text(kw, text)]
+            if len(hits) < int(group.get("min_hits", 1)):
+                continue
+            score -= int(group.get("penalty", 0))
+            noise_tags.append(group.get("label", group["name"]))
+            matched_keywords.extend(hits[:5])
+            ai_blocked = ai_blocked or bool(group.get("ai_block", False))
+
         if "core" in group_priorities and score >= 58:
             priority = "must-read"
         elif "ai" in group_priorities and score >= 36:
@@ -462,11 +481,16 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
         else:
             area = "related"
 
+        if ai_blocked and priority in {"must-read", "recommended", "ai-news"}:
+            priority = "related" if score >= int(config.get("minimum_score", 16)) else "watch"
+
         paper.score = score
         paper.priority = priority
         paper.area = area
         paper.tags = list(dict.fromkeys(tags))
+        paper.noise_tags = list(dict.fromkeys(noise_tags))
         paper.matched_keywords = list(dict.fromkeys(matched_keywords))
+        paper.ai_blocked = ai_blocked
         paper.analysis = fallback_analysis(paper)
     return sorted(papers, key=lambda item: (item.score, item.updated or item.published or dt.datetime.min.replace(tzinfo=dt.timezone.utc)), reverse=True)
 
@@ -477,6 +501,8 @@ def fallback_analysis(paper: Paper) -> dict[str, str]:
         summary = "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。"
     matched = "、".join(paper.tags[:4]) if paper.tags else "来源优先级"
     why = f"匹配关注项：{matched}。"
+    if paper.noise_tags:
+        why += f" 低信号规则命中：{'、'.join(paper.noise_tags)}，默认不调用 AI。"
     if paper.source_kind == "arxiv_core":
         why += " 这是 gr-qc 每日新增或更新条目。"
     if paper.source_kind == "journal_review":
@@ -522,8 +548,13 @@ def maybe_apply_ai(
         return
 
     max_items = int(config.get("ai_max_papers", 20))
+    ai_priorities = set(config.get("ai_priorities", ["must-read", "recommended", "ai-news"]))
+    candidates = [
+        paper for paper in papers
+        if not paper.ai_blocked and paper.priority in ai_priorities
+    ]
     analyzed = 0
-    for paper in papers[:max_items]:
+    for paper in candidates[:max_items]:
         try:
             result = analyze_with_openai(paper, config, api_key)
             if result:
@@ -532,7 +563,8 @@ def maybe_apply_ai(
         except Exception as exc:  # noqa: BLE001
             statuses.append({"source": f"OpenAI analysis: {paper.uid}", "ok": False, "error": str(exc)})
             break
-    statuses.append({"source": "OpenAI analysis", "ok": True, "count": analyzed})
+    skipped = len(papers) - len(candidates)
+    statuses.append({"source": "OpenAI analysis", "ok": True, "count": analyzed, "skipped": skipped})
 
 
 def analyze_with_openai(paper: Paper, config: dict[str, Any], api_key: str) -> dict[str, str]:
@@ -621,8 +653,10 @@ def paper_to_dict(paper: Paper, tz: dt.tzinfo) -> dict[str, Any]:
         "priority": paper.priority,
         "area": paper.area,
         "tags": paper.tags,
+        "noise_tags": paper.noise_tags,
         "matched_keywords": paper.matched_keywords,
         "analysis": paper.analysis,
+        "ai_blocked": paper.ai_blocked,
     }
 
 
@@ -644,15 +678,17 @@ def paper_from_dict(data: dict[str, Any]) -> Paper:
         priority=data.get("priority", "watch"),
         area=data.get("area", "related"),
         tags=list(data.get("tags", [])),
+        noise_tags=list(data.get("noise_tags", [])),
         matched_keywords=list(data.get("matched_keywords", [])),
         analysis=dict(data.get("analysis", {})),
+        ai_blocked=bool(data.get("ai_blocked", False)),
     )
 
 
 def keep_rendered_papers(papers: list[Paper], config: dict[str, Any], limit: int | None) -> list[Paper]:
     threshold = int(config.get("minimum_score", 16))
     max_papers = int(limit or config.get("max_papers", 45))
-    kept = [paper for paper in papers if paper.score >= threshold or paper.source_kind == "arxiv_core"]
+    kept = [paper for paper in papers if paper.score >= threshold]
     return kept[:max_papers]
 
 

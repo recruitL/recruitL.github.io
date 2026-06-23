@@ -5,6 +5,7 @@
   "minimum_score": 16,
   "max_papers": 45,
   "ai_max_papers": 20,
+  "ai_priorities": ["must-read", "recommended", "ai-news"],
   "openai_model": "gpt-4o-mini",
   "email": {
     "subject_prefix": "Paper Watch",
@@ -90,6 +91,70 @@
     "journal_general": 6,
     "ai_radar": 10
   },
+  "negative_topic_groups": [
+    {
+      "name": "toy_spacetime_gw_phenomenology",
+      "label": "玩具时空/GW phenomenology",
+      "penalty": 95,
+      "min_hits": 2,
+      "ai_block": true,
+      "keywords": [
+        "Freund-Nambu",
+        "Freund - Nambu",
+        "Janis-Newman-Winicour",
+        "Janis - Newman - Winicour",
+        "magnetically charged black hole",
+        "quintessence background",
+        "surrounded by quintessence",
+        "nonlinear electrodynamics",
+        "naked singularity",
+        "test particle dynamics",
+        "timelike geodesics",
+        "periodic timelike motion",
+        "periodic orbits",
+        "zoom-whirl taxonomy",
+        "exact spherically symmetric",
+        "numerical kludge"
+      ],
+      "exempt_keywords": [
+        "post-minkowskian",
+        "post-newtonian",
+        "self-force",
+        "effective-one-body",
+        "EOB",
+        "numerical relativity",
+        "surrogate waveform",
+        "GWTC",
+        "LVK"
+      ]
+    },
+    {
+      "name": "weak_gw_signatures_framing",
+      "label": "弱 GW 术语包装",
+      "penalty": 45,
+      "min_hits": 3,
+      "ai_block": true,
+      "keywords": [
+        "gravitational wave phenomenology",
+        "gravitational wave signatures",
+        "test particle",
+        "effective potential",
+        "innermost stable circular orbit",
+        "marginally bound orbit",
+        "zoom-whirl"
+      ],
+      "exempt_keywords": [
+        "LVK",
+        "LIGO",
+        "Virgo",
+        "KAGRA",
+        "GWTC",
+        "parameter estimation",
+        "population inference",
+        "waveform model"
+      ]
+    }
+  ],
   "topic_groups": [
     {
       "name": "compact_binary_modeling",
@@ -146,7 +211,6 @@
         "gravitational wave",
         "stochastic gravitational wave",
         "standard siren",
-        "parameter estimation",
         "population inference"
       ]
     },

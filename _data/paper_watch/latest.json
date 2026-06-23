@@ -1,11 +1,11 @@
 {
   "date": "2026-06-23",
-  "generated_at": "2026-06-23 15:59 CST",
+  "generated_at": "2026-06-23 16:12 CST",
   "window": "2026-06-22 00:00 至 2026-06-24 00:00 Asia/Shanghai",
   "counts": {
-    "must-read": 15,
-    "recommended": 10,
-    "related": 17,
+    "must-read": 12,
+    "recommended": 11,
+    "related": 19,
     "ai-news": 3
   },
   "source_statuses": [
@@ -47,7 +47,7 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 16
+      "count": 14
     },
     {
       "source": "Science Crossref",
@@ -74,51 +74,6 @@
   "report_path": "/papers/2026-06-23/",
   "papers": [
     {
-      "uid": "arxiv:2606.23635v1",
-      "title": "Equatorial Periodic Orbits and Gravitational Wave Phenomenology around Spherically-symmetric vacuum solution in Freund-Nambu scalar-tensor gravity",
-      "authors": [
-        "Dhruba Jyoti Gogoi",
-        "Jyatsnasree Bora",
-        "Himanshu Chaudhary",
-        "M. Yousaf",
-        "G. Mustafa"
-      ],
-      "abstract": "We investigate test particle dynamics and gravitational wave (GW) phenomenology in an exact spherically symmetric vacuum solution of Freund - Nambu scalar - tensor gravity. This framework generalizes the Janis - Newman - Winicour (JNW) naked singularity via a geometric non - linear coupling $q$ and a direct scalar - particle coupling $g_s$. We demonstrate that these parameters systematically modify the Innermost Stable Circular Orbit (ISCO) - which shifts inward for $g_s > 0$ - and the Marginally Bound Orbit (MBO). Furthermore, we classify bound periodic trajectories to isolate extreme zoom - whirl orbits exhibiting intense periapsis precession. By applying the Numerical Kludge method to Extreme Mass - Ratio Inspirals (EMRIs), we reveal that scalar - tensor corrections induce a macroscopic temporal dephasing in high - frequency GW bursts, even when the orbit's spatial topology is preserved. These unique phase shifts offer a robust diagnostic signature for future space-based observatories like LISA to probe the strong - field regime and constrain scalar - tensor extensions of general relativity.",
-      "url": "https://arxiv.org/abs/2606.23635v1",
-      "source": "arXiv GW/compact related, arXiv gr-qc",
-      "source_kind": "arxiv_core",
-      "published": "2026-06-23T01:25:39+08:00",
-      "updated": "2026-06-23T01:25:39+08:00",
-      "categories": [
-        "gr-qc",
-        "hep-th"
-      ],
-      "doi": "",
-      "journal": "arXiv",
-      "score": 121,
-      "priority": "must-read",
-      "area": "core",
-      "tags": [
-        "致密双星建模",
-        "LVK/LISA/引力波观测",
-        "gr-qc 相关方向"
-      ],
-      "matched_keywords": [
-        "inspiral",
-        "precession",
-        "LISA",
-        "gravitational wave",
-        "general relativity",
-        "singularity"
-      ],
-      "analysis": {
-        "zh_summary": "We investigate test particle dynamics and gravitational wave (GW) phenomenology in an exact spherically symmetric vacuum solution of Freund - Nambu scalar - tensor gravity.",
-        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
-        "method_or_signal": "inspiral, precession, LISA, gravitational wave, general relativity, singularity",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
-    },
-    {
       "uid": "arxiv:2606.22580v1",
       "title": "Extended parameterized spin expansion formalism for ringdown analysis with GW250114",
       "authors": [
@@ -144,6 +99,7 @@
         "致密双星建模",
         "QNM/黑洞扰动"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "ringdown"
       ],
@@ -152,43 +108,8 @@
         "why_relevant": "匹配关注项：致密双星建模、QNM/黑洞扰动。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "ringdown",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
-    },
-    {
-      "uid": "arxiv:2606.23021v1",
-      "title": "Periodic Timelike Motion and Gravitational Wave Signatures around a Magnetically Charged Black Hole Surrounded by Quintessence",
-      "authors": [
-        "R. H. Ali"
-      ],
-      "abstract": "We investigate timelike geodesics and gravitational wave signatures of periodic motion around a static magnetically charged black hole arising from nonlinear electrodynamics and immersed in a quintessence background. We analyze the effective potential for massive particles, determine the marginally bound and innermost stable circular orbits, and classify the resulting bound trajectories using the zoom-whirl taxonomy $(\\mathit{z},\\mathit{w},\\mathit{v})$. We show that the quintessence parameter $c_q$ systematically shifts the orbital radii, conserved quantities, and turning-point structure associated with representative periodic families. We then model the gravitational radiation emitted by periodic extreme-mass-ratio inspirals within the numerical kludge approximation. The resulting waveforms exhibit the characteristic burst-like structure of zoom-whirl motion, while variations in the quintessence coupling parameter modify the phase evolution, burst timing, and harmonic content of the signal. The corresponding Fourier spectra display a discrete comb-like structure, and the characteristic strain is concentrated in the millihertz band relevant for space-based detectors such as LISA. These results indicate that a quintessence background can leave systematic imprints on periodic orbit dynamics and on the associated time and frequency-domain gravitational wave observables.",
-      "url": "https://arxiv.org/abs/2606.23021v1",
-      "source": "arXiv gr-qc",
-      "source_kind": "arxiv_core",
-      "published": "2026-06-22T16:34:40+08:00",
-      "updated": "2026-06-22T16:34:40+08:00",
-      "categories": [
-        "gr-qc"
-      ],
-      "doi": "",
-      "journal": "arXiv",
-      "score": 102,
-      "priority": "must-read",
-      "area": "core",
-      "tags": [
-        "致密双星建模",
-        "LVK/LISA/引力波观测"
-      ],
-      "matched_keywords": [
-        "inspiral",
-        "LISA",
-        "gravitational wave"
-      ],
-      "analysis": {
-        "zh_summary": "We investigate timelike geodesics and gravitational wave signatures of periodic motion around a static magnetically charged black hole arising from nonlinear electrodynamics and immersed in a quintessence background.",
-        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
-        "method_or_signal": "inspiral, LISA, gravitational wave",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23447v1",
@@ -216,6 +137,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational-wave",
         "cosmology",
@@ -227,7 +149,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational-wave, cosmology, dark matter, general relativity",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23418v1",
@@ -255,6 +178,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational wave",
         "stochastic gravitational wave",
@@ -266,49 +190,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational wave, stochastic gravitational wave, dark matter, general relativity",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
-    },
-    {
-      "uid": "arxiv:2606.23563v1",
-      "title": "Unifying the Dark Sector with the New Generalized Chaplygin Gas: Observational Constraints",
-      "authors": [
-        "Abdulla Al Mamon",
-        "Andronikos Paliathanasis",
-        "Subhajit Saha"
-      ],
-      "abstract": "In light of recent cosmological observations, we examine a generalized Chaplygin gas model with a redshift-dependent exponent as a framework for describing the dark energy and dark matter content of the Universe. Specifically, we treat this fluid as a single unified component and test it against late-time background observational data. We employ Type Ia supernova data, cosmic chronometers, and baryon acoustic oscillations from the second data release of the Dark Energy Spectroscopic Instrument. We perform a Bayesian analysis for parameter estimation and compare the model with $Λ$CDM. We find that the generalized Chaplygin gas provides systematically higher values of the combined likelihood; nevertheless, once the larger number of free parameters is taken into account, both the Bayesian evidence and the Akaike Information Criterion suggest that the model is statistically indistinguishable from $Λ$CDM.",
-      "url": "https://arxiv.org/abs/2606.23563v1",
-      "source": "arXiv GW/compact related, arXiv gr-qc",
-      "source_kind": "arxiv_core",
-      "published": "2026-06-23T00:31:07+08:00",
-      "updated": "2026-06-23T00:31:07+08:00",
-      "categories": [
-        "astro-ph.CO",
-        "gr-qc",
-        "hep-th"
-      ],
-      "doi": "10.1002/prop.70127",
-      "journal": "arXiv",
-      "score": 91,
-      "priority": "must-read",
-      "area": "core",
-      "tags": [
-        "LVK/LISA/引力波观测",
-        "gr-qc 相关方向",
-        "天文/高能相关"
-      ],
-      "matched_keywords": [
-        "parameter estimation",
-        "dark matter",
-        "dark energy",
-        "supernova"
-      ],
-      "analysis": {
-        "zh_summary": "In light of recent cosmological observations, we examine a generalized Chaplygin gas model with a redshift-dependent exponent as a framework for describing the dark energy and dark matter content of the Universe.",
-        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
-        "method_or_signal": "parameter estimation, dark matter, dark energy, supernova",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23056v1",
@@ -336,6 +219,7 @@
         "LVK/LISA/引力波观测",
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational-wave",
         "gravitational wave",
@@ -347,7 +231,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational-wave, gravitational wave, modified gravity, general relativity",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23305v1",
@@ -379,6 +264,7 @@
         "致密双星建模",
         "LVK/LISA/引力波观测"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "binary black hole",
         "gravitational wave"
@@ -388,7 +274,8 @@
         "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测。",
         "method_or_signal": "binary black hole, gravitational wave",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23415v1",
@@ -424,6 +311,7 @@
       "tags": [
         "LVK/LISA/引力波观测"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "LIGO",
         "Virgo",
@@ -435,7 +323,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "LIGO, Virgo, Einstein Telescope, gravitational wave",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23273v1",
@@ -462,6 +351,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter"
       ],
@@ -470,7 +360,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "dark matter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23035v1",
@@ -496,6 +387,7 @@
       "tags": [
         "LVK/LISA/引力波观测"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational-wave",
         "gravitational wave"
@@ -505,7 +397,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational-wave, gravitational wave",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22979v1",
@@ -539,6 +432,7 @@
       "tags": [
         "LVK/LISA/引力波观测"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "LISA",
         "gravitational-wave"
@@ -548,7 +442,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "LISA, gravitational-wave",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22679v1",
@@ -577,6 +472,7 @@
         "QNM/黑洞扰动",
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "quasinormal",
         "holography",
@@ -587,7 +483,8 @@
         "why_relevant": "匹配关注项：QNM/黑洞扰动、gr-qc 相关方向。",
         "method_or_signal": "quasinormal, holography, AdS",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22985v1",
@@ -618,6 +515,7 @@
       "tags": [
         "LVK/LISA/引力波观测"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational-wave"
       ],
@@ -626,7 +524,50 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational-wave",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2606.23563v1",
+      "title": "Unifying the Dark Sector with the New Generalized Chaplygin Gas: Observational Constraints",
+      "authors": [
+        "Abdulla Al Mamon",
+        "Andronikos Paliathanasis",
+        "Subhajit Saha"
+      ],
+      "abstract": "In light of recent cosmological observations, we examine a generalized Chaplygin gas model with a redshift-dependent exponent as a framework for describing the dark energy and dark matter content of the Universe. Specifically, we treat this fluid as a single unified component and test it against late-time background observational data. We employ Type Ia supernova data, cosmic chronometers, and baryon acoustic oscillations from the second data release of the Dark Energy Spectroscopic Instrument. We perform a Bayesian analysis for parameter estimation and compare the model with $Λ$CDM. We find that the generalized Chaplygin gas provides systematically higher values of the combined likelihood; nevertheless, once the larger number of free parameters is taken into account, both the Bayesian evidence and the Akaike Information Criterion suggest that the model is statistically indistinguishable from $Λ$CDM.",
+      "url": "https://arxiv.org/abs/2606.23563v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-06-23T00:31:07+08:00",
+      "updated": "2026-06-23T00:31:07+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "10.1002/prop.70127",
+      "journal": "arXiv",
+      "score": 67,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter",
+        "dark energy",
+        "supernova"
+      ],
+      "analysis": {
+        "zh_summary": "In light of recent cosmological observations, we examine a generalized Chaplygin gas model with a redshift-dependent exponent as a framework for describing the dark energy and dark matter content of the Universe.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "dark matter, dark energy, supernova",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23450v1",
@@ -653,6 +594,7 @@
       "tags": [
         "致密双星建模"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "binary black hole"
       ],
@@ -661,7 +603,8 @@
         "why_relevant": "匹配关注项：致密双星建模。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "binary black hole",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23307v1",
@@ -691,6 +634,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "inflation",
         "dark matter"
@@ -700,7 +644,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "inflation, dark matter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22642v1",
@@ -730,6 +675,7 @@
         "LVK/LISA/引力波观测",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "gravitational-wave",
         "gravitational wave",
@@ -740,7 +686,8 @@
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测、天文/高能相关。",
         "method_or_signal": "gravitational-wave, gravitational wave, neutrino",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23522v1",
@@ -769,6 +716,7 @@
       "tags": [
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "holography",
         "de Sitter"
@@ -778,7 +726,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "holography, de Sitter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23624v1",
@@ -806,6 +755,7 @@
       "tags": [
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "de Sitter"
       ],
@@ -814,7 +764,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "de Sitter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23518v1",
@@ -842,6 +793,7 @@
       "tags": [
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "inflation"
       ],
@@ -850,7 +802,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "inflation",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23484v1",
@@ -879,6 +832,7 @@
       "tags": [
         "gr-qc 相关方向"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "de Sitter"
       ],
@@ -887,7 +841,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "de Sitter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23457v1",
@@ -915,6 +870,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter",
         "neutrino"
@@ -924,7 +880,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
         "method_or_signal": "dark matter, neutrino",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23620v1",
@@ -954,6 +911,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter"
       ],
@@ -962,7 +920,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
         "method_or_signal": "dark matter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23178v1",
@@ -993,6 +952,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter"
       ],
@@ -1001,7 +961,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
         "method_or_signal": "dark matter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22814v1",
@@ -1036,6 +997,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter"
       ],
@@ -1044,7 +1006,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
         "method_or_signal": "dark matter",
         "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22619v1",
@@ -1074,6 +1037,7 @@
       "tags": [
         "致密双星建模"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "merger"
       ],
@@ -1082,7 +1046,8 @@
         "why_relevant": "匹配关注项：致密双星建模。",
         "method_or_signal": "merger",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23488v1",
@@ -1108,6 +1073,7 @@
         "gr-qc 相关方向",
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "dark matter",
         "active galactic nucleus"
@@ -1117,7 +1083,8 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
         "method_or_signal": "dark matter, active galactic nucleus",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23664v1",
@@ -1144,6 +1111,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "LLM",
         "agentic"
@@ -1153,7 +1121,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "LLM, agentic",
         "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23607v1",
@@ -1180,6 +1149,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "transformer"
       ],
@@ -1188,7 +1158,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "transformer",
         "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23591v1",
@@ -1216,6 +1187,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "LLM"
       ],
@@ -1224,7 +1196,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "LLM",
         "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23552v1",
@@ -1249,13 +1222,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "We study the quantum dynamics of the dynamical region of the Reissner--Nordström geometry using a minisuperspace reduction and affine quantization, which is naturally suited for positive-definite geometrical variables.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23529v1",
@@ -1282,13 +1257,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "We prove the Riemannian positive mass theorem in all dimensions for asymptotically flat $L^\\infty$-metrics with subcritical singular sets.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23446v1",
@@ -1314,13 +1291,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "We study future-pointing timelike solutions of the Lorentz force equation in the sub-extremal Kerr--Newman spacetime, with special attention to the time-machine region $\\mathfrak T$, where the axial Killing field $\\partial_φ$ is timelike.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23389v1",
@@ -1345,13 +1324,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "We study the production of spin-$1/2$ particle-antiparticle pairs in curved spacetimes with nontrivial dependence on more than one coordinate.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22855v1",
@@ -1376,13 +1357,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "In our recent paper arXiv:2509.00552, we used a stringy model for quantum space-time foam to suggest that the so-induced subluminal Lorentz violation~(LV) for photons would not lead to experimentally unacceptable changes in the developments of particle showers initiated by cosmic $γ$-rays in the Earth's atmosphere, in contrast to other approaches to LV.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22849v1",
@@ -1409,13 +1392,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "An outstanding problem in the framework of conformal thermodynamics concerns the interpretation of variations in the central charge $C$.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22810v1",
@@ -1440,13 +1425,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "Witten's conformal boundary condition \\cite{Witten:2018lgb} provides an elliptic boundary-value problem for the finite-boundary perturbative Euclidean gravitational path integral: one fixes the boundary conformal class and the mean curvature, while the trace-free extrinsic curvature is left free as the conjugate response.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22675v1",
@@ -1472,13 +1459,15 @@
       "priority": "related",
       "area": "core",
       "tags": [],
+      "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "We consider Bianchi IX dynamics of a Universe filled with a massless phantom field.",
         "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "arXiv gr-qc",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23476v1",
@@ -1505,6 +1494,7 @@
       "tags": [
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "supernova",
         "pulsar",
@@ -1515,7 +1505,8 @@
         "why_relevant": "匹配关注项：天文/高能相关。",
         "method_or_signal": "supernova, pulsar, neutrino",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23590v1",
@@ -1543,6 +1534,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "large language model",
         "LLM",
@@ -1553,7 +1545,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "large language model, LLM, transformer",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.22898v1",
@@ -1582,6 +1575,7 @@
       "tags": [
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "supernova",
         "neutrino"
@@ -1591,7 +1585,8 @@
         "why_relevant": "匹配关注项：天文/高能相关。",
         "method_or_signal": "supernova, neutrino",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23676v1",
@@ -1623,6 +1618,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "large language model",
         "LLM"
@@ -1632,7 +1628,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "large language model, LLM",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23671v1",
@@ -1659,6 +1656,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "large language model",
         "LLM"
@@ -1668,7 +1666,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "large language model, LLM",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23668v1",
@@ -1695,6 +1694,7 @@
       "tags": [
         "AI/知识库/模型架构"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "large language model",
         "LLM"
@@ -1704,7 +1704,8 @@
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "large language model, LLM",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
     },
     {
       "uid": "arxiv:2606.23156v1",
@@ -1733,6 +1734,7 @@
       "tags": [
         "天文/高能相关"
       ],
+      "noise_tags": [],
       "matched_keywords": [
         "pulsar"
       ],
@@ -1741,7 +1743,81 @@
         "why_relevant": "匹配关注项：天文/高能相关。",
         "method_or_signal": "pulsar",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      }
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2606.22879v1",
+      "title": "Testing the Generalization and Domain Stability of Compact Feature Representations for Photometric Supernova Classification",
+      "authors": [
+        "Anurag Garg"
+      ],
+      "abstract": "Photometric classification of supernovae increasingly requires models that are not only accurate within a single survey but also robust to changes in cadence, noise properties, filter coverage, and survey domain. We investigate the generalization and domain stability of a compact 16-feature representation for Type Ia supernova classification. The feature set consists of physically interpretable descriptors of brightness, color, variability, and temporal evolution. Using the Supernova Photometric Classification Challenge (SPCC) dataset as the reference domain, we confirm that a compact XGBoost classifier achieves strong within-survey performance, reaching an F1 score of 0.844 and a PR-AUC of 0.928 on a held-out test set. We then evaluate robustness under alternative classifiers, repeated resampling, feature perturbations, missing-band proxies, shortened temporal coverage, and cross-survey transfer to PLAsTiCC. The compact representation remains stable under resampling and moderate perturbations, but direct SPCC$\\rightarrow$PLAsTiCC transfer produces a substantial performance degradation. Class-conditional centroid analysis shows that the SPCC and PLAsTiCC Type Ia populations occupy different regions of the compact feature space. The cross-survey Ia centroid shift exceeds the Ia/non-Ia separation within either survey, indicating that the transfer gap is driven primarily by feature-space domain shift rather than classifier instability. These results show that compact physically interpretable features are robust within a survey and useful for diagnostic analysis, but are not automatically survey-invariant. Cross-survey deployment therefore requires feature harmonization, domain adaptation, or restriction to a smaller set of survey-stable features.",
+      "url": "https://arxiv.org/abs/2606.22879v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-06-22T13:44:24+08:00",
+      "updated": "2026-06-22T13:44:24+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "supernova"
+      ],
+      "analysis": {
+        "zh_summary": "Photometric classification of supernovae increasingly requires models that are not only accurate within a single survey but also robust to changes in cadence, noise properties, filter coverage, and survey domain.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "supernova",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2606.23687v1",
+      "title": "Randomized YaRN Improves Length Generalization for Long-Context Reasoning",
+      "authors": [
+        "Manas Mehta",
+        "Fangcong Yin",
+        "Greg Durrett"
+      ],
+      "abstract": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training. However, such LLMs still struggle to further generalize to very long sequences. We propose Randomized YaRN, a training method that improves length generalization by combining YaRN-based positional extrapolation with randomized positional encoding and a length curriculum. During training on short context data, tokens are assigned YaRN positional encodings sampled from a larger position range, exposing the model to out-of-distribution positional representations even on short-context inputs. We evaluate Randomized YaRN on two challenging long-context reasoning benchmarks, BABILong and Multi-Round Coreference Resolution (MRCR). When training on data with <8K context, Randomized YaRN consistently improves reasoning performance on context lengths from 16K to 128K and outperforms standard fine-tuning, with the largest gains appearing at far out-of-distribution lengths. Our results suggest that progressively exposing models to OOD positional distributions provides an effective recipe for generalizable long-context reasoning.",
+      "url": "https://arxiv.org/abs/2606.23687v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-06-23T01:59:53+08:00",
+      "updated": "2026-06-23T01:59:53+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
     }
   ]
 }
