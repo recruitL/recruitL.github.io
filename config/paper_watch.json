@@ -6,6 +6,11 @@
   "max_papers": 45,
   "ai_max_papers": 20,
   "ai_priorities": ["must-read", "recommended", "ai-news"],
+  "blocked_title_patterns": [
+    "Equatorial Periodic Orbits and Gravitational Wave Phenomenology around Spherically-symmetric vacuum solution in Freund-Nambu scalar-tensor gravity",
+    "Periodic Timelike Motion and Gravitational Wave Signatures around a Magnetically Charged Black Hole Surrounded by Quintessence",
+    "Polarization States and Effective Stress Energy Tensor of Gravitational Waves in Metric $f(R)$ Gravity"
+  ],
   "openai_model": "gpt-4o-mini",
   "email": {
     "subject_prefix": "Paper Watch",
@@ -152,6 +157,38 @@
         "parameter estimation",
         "population inference",
         "waveform model"
+      ]
+    },
+    {
+      "name": "low_signal_modified_gravity_gw_framing",
+      "label": "低信号修正引力/GW 包装",
+      "penalty": 95,
+      "min_hits": 3,
+      "ai_block": true,
+      "keywords": [
+        "metric f(R)",
+        "f(R) gravity",
+        "polarization states",
+        "effective stress energy tensor",
+        "effective stress--energy tensor",
+        "linearized approximation",
+        "Minkowski spacetime",
+        "breathing mode",
+        "longitudinal",
+        "potential observational signatures",
+        "current and future gravitational-wave detectors"
+      ],
+      "exempt_keywords": [
+        "LVK",
+        "LIGO",
+        "Virgo",
+        "KAGRA",
+        "GWTC",
+        "parameter estimation",
+        "Bayesian",
+        "data release",
+        "waveform model",
+        "numerical relativity"
       ]
     }
   ],

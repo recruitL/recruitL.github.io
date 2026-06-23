@@ -1,11 +1,11 @@
 {
   "date": "2026-06-23",
-  "generated_at": "2026-06-23 16:12 CST",
+  "generated_at": "2026-06-23 16:17 CST",
   "window": "2026-06-22 00:00 至 2026-06-24 00:00 Asia/Shanghai",
   "counts": {
-    "must-read": 12,
+    "must-read": 11,
     "recommended": 11,
-    "related": 19,
+    "related": 20,
     "ai-news": 3
   },
   "source_statuses": [
@@ -47,7 +47,7 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 14
+      "count": 16
     },
     {
       "source": "Science Crossref",
@@ -189,47 +189,6 @@
         "zh_summary": "The gravitational production of dark matter from stochastic gravitational waves requires the produced fermion to acquire a mass by unspecified late-time physics.",
         "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
         "method_or_signal": "gravitational wave, stochastic gravitational wave, dark matter, general relativity",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "arxiv:2606.23056v1",
-      "title": "Polarization States and Effective Stress Energy Tensor of Gravitational Waves in Metric $f(R)$ Gravity",
-      "authors": [
-        "Sakshi Srivastava",
-        "Utkal Keshari Dash",
-        "Murli Manohar Verma"
-      ],
-      "abstract": "We investigate the polarization properties and effective stress--energy tensor of gravitational waves in metric $f(R)$ gravity within the linearized approximation around Minkowski spacetime. Owing to the additional scalar degree of freedom inherent in the theory, gravitational waves exhibit polarization states beyond the two tensor modes predicted by general relativity. Using the electric components of the linearized Riemann tensor, we derive explicit expressions for the polarization amplitudes and show that a massless scalar field excites a transverse breathing mode, whereas a massive scalar field generates both breathing and longitudinal responses through a single propagating scalar excitation. Employing the Isaacson high-frequency averaging formalism, we further derive the effective stress--energy tensor and demonstrate that both tensor and scalar perturbations contribute to the total gravitational-wave energy density. The energy transport associated with the massive scalar mode is reduced by its subluminal group velocity, leading to a frequency-dependent suppression of the scalar energy flux. These results establish a unified connection between gravitational-wave polarization and energy transport in metric $f(R)$ gravity and provide potential observational signatures for testing modified gravity with current and future gravitational-wave detectors.",
-      "url": "https://arxiv.org/abs/2606.23056v1",
-      "source": "arXiv gr-qc",
-      "source_kind": "arxiv_core",
-      "published": "2026-06-22T17:08:54+08:00",
-      "updated": "2026-06-22T17:08:54+08:00",
-      "categories": [
-        "gr-qc"
-      ],
-      "doi": "",
-      "journal": "arXiv",
-      "score": 89,
-      "priority": "must-read",
-      "area": "core",
-      "tags": [
-        "LVK/LISA/引力波观测",
-        "gr-qc 相关方向"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "gravitational-wave",
-        "gravitational wave",
-        "modified gravity",
-        "general relativity"
-      ],
-      "analysis": {
-        "zh_summary": "We investigate the polarization properties and effective stress--energy tensor of gravitational waves in metric $f(R)$ gravity within the linearized approximation around Minkowski spacetime.",
-        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
-        "method_or_signal": "gravitational-wave, gravitational wave, modified gravity, general relativity",
         "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
       },
       "ai_blocked": false
@@ -1815,6 +1774,48 @@
         "zh_summary": "Large language models (LLMs) are typically pretrained on short sequences and then extended to work on longer sequences with additional training.",
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
         "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2606.23679v1",
+      "title": "Semantic Browsing: Controllable Diversity for Image Generation",
+      "authors": [
+        "Sara Dorfman",
+        "Maya Vishnevsky",
+        "Omer Dahary",
+        "Or Patashnik",
+        "Daniel Cohen-Or"
+      ],
+      "abstract": "Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations rather than meaningful design choices. This motivates a new variant of the diversity task where structure is enforced on the generated samples. We introduce a method for controlled diversity that enables Semantic Browsing, where users can navigate structured image galleries and experience creative exploration through a systematic traversal of meaningful, interpretable axes of variation. Achieving this level of semantic control requires a deep understanding of the scene. We exploit the fact that recent text-to-image models are trained on elaborated captions, effectively decoupling semantic decision-making from pixel generation. This enables a paradigm shift: instead of relying on stochastic variation within the text-to-image model, we induce diversity directly at the text level. By leveraging rich textual representations, we allow a Vision Language Model (VLM) to operate on the full scene context. To overcome the generic outputs typical of standard VLMs, we employ an agentic workflow that explicitly enforces structured variation attuned to the original prompt. We demonstrate that our method produces diverse and navigable design spaces where every variation corresponds to a specific, user-understandable semantic decision.",
+      "url": "https://arxiv.org/abs/2606.23679v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-06-23T01:59:17+08:00",
+      "updated": "2026-06-23T01:59:17+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "agentic"
+      ],
+      "analysis": {
+        "zh_summary": "Modern text-to-image models excel in visual fidelity and prompt adherence.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "agentic",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
       },
       "ai_blocked": false

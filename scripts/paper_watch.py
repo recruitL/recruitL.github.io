@@ -436,6 +436,16 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
         if paper.source_kind == "journal_review":
             score += 8
 
+        blocked_title_hits = [
+            pattern for pattern in config.get("blocked_title_patterns", [])
+            if keyword_in_text(pattern, title_text)
+        ]
+        if blocked_title_hits:
+            score = min(score, int(config.get("minimum_score", 16)) - 1)
+            noise_tags.append("显式屏蔽标题")
+            matched_keywords.extend(blocked_title_hits[:3])
+            ai_blocked = True
+
         for group in config.get("topic_groups", []):
             hits = [kw for kw in group.get("keywords", []) if keyword_in_text(kw, text)]
             if not hits:
@@ -462,6 +472,10 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
             noise_tags.append(group.get("label", group["name"]))
             matched_keywords.extend(hits[:5])
             ai_blocked = ai_blocked or bool(group.get("ai_block", False))
+
+        if blocked_title_hits:
+            score = min(score, int(config.get("minimum_score", 16)) - 1)
+            ai_blocked = True
 
         if "core" in group_priorities and score >= 58:
             priority = "must-read"
