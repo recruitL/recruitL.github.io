@@ -31,8 +31,10 @@ except ImportError:  # pragma: no cover - GitHub Actions uses modern Python.
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "paper_watch.json"
+DEFAULT_PREFERENCES = ROOT / "config" / "paper_preferences.json"
 DATA_DIR = ROOT / "_data" / "paper_watch"
 PAPERS_DIR = ROOT / "papers"
+REVIEWS_DIR = ROOT / "_paper_reviews"
 HISTORY_PATH = DATA_DIR / "history.json"
 LATEST_PATH = DATA_DIR / "latest.json"
 USER_AGENT = "recruitL-paper-watch/0.1 (https://recruitl.github.io)"
@@ -68,6 +70,22 @@ class Paper:
 
 
 def load_config(path: Path) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def load_preferences(config: dict[str, Any]) -> dict[str, Any]:
+    configured = config.get("preferences_path")
+    path = ROOT / configured if configured else DEFAULT_PREFERENCES
+    if not path.exists():
+        return {
+            "keep_title_patterns": [],
+            "reject_title_patterns": [],
+            "block_title_patterns": [],
+            "keyword_weights": {},
+            "tag_weights": {},
+            "feedback_history": [],
+        }
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
 
@@ -419,7 +437,7 @@ def keyword_in_text(keyword: str, text: str) -> bool:
     return needle in text
 
 
-def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
+def score_papers(papers: list[Paper], config: dict[str, Any], preferences: dict[str, Any]) -> list[Paper]:
     source_weights = config.get("source_weights", {})
     for paper in papers:
         score = int(source_weights.get(paper.source_kind, 0))
@@ -436,10 +454,30 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
         if paper.source_kind == "journal_review":
             score += 8
 
+        keep_title_hits = [
+            pattern for pattern in preferences.get("keep_title_patterns", [])
+            if keyword_in_text(pattern, title_text)
+        ]
+        reject_title_hits = [
+            pattern for pattern in preferences.get("reject_title_patterns", [])
+            if keyword_in_text(pattern, title_text)
+        ]
         blocked_title_hits = [
             pattern for pattern in config.get("blocked_title_patterns", [])
             if keyword_in_text(pattern, title_text)
+        ] + [
+            pattern for pattern in preferences.get("block_title_patterns", [])
+            if keyword_in_text(pattern, title_text)
         ]
+        if keep_title_hits:
+            score += 80
+            tags.append("人工保留")
+            matched_keywords.extend(keep_title_hits[:3])
+        if reject_title_hits:
+            score -= 80
+            noise_tags.append("人工拒绝")
+            matched_keywords.extend(reject_title_hits[:3])
+            ai_blocked = True
         if blocked_title_hits:
             score = min(score, int(config.get("minimum_score", 16)) - 1)
             noise_tags.append("显式屏蔽标题")
@@ -472,6 +510,13 @@ def score_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
             noise_tags.append(group.get("label", group["name"]))
             matched_keywords.extend(hits[:5])
             ai_blocked = ai_blocked or bool(group.get("ai_block", False))
+
+        for keyword, weight in preferences.get("keyword_weights", {}).items():
+            if keyword_in_text(keyword, text):
+                score += int(weight)
+                matched_keywords.append(keyword)
+        for tag in tags:
+            score += int(preferences.get("tag_weights", {}).get(tag, 0))
 
         if blocked_title_hits:
             score = min(score, int(config.get("minimum_score", 16)) - 1)
@@ -706,6 +751,60 @@ def keep_rendered_papers(papers: list[Paper], config: dict[str, Any], limit: int
     return kept[:max_papers]
 
 
+def keep_review_papers(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
+    review_config = config.get("review", {})
+    threshold = int(review_config.get("min_score", 0))
+    max_candidates = int(review_config.get("max_candidates", 80))
+    return [paper for paper in papers if paper.score >= threshold and not paper.ai_blocked][:max_candidates]
+
+
+def review_id(index: int) -> str:
+    return f"P{index:03d}"
+
+
+def review_to_dict(papers: list[Paper], tz: dt.tzinfo) -> list[dict[str, Any]]:
+    rows = []
+    for index, paper in enumerate(papers, start=1):
+        rows.append({"review_id": review_id(index), **paper_to_dict(paper, tz)})
+    return rows
+
+
+def render_review(papers: list[Paper], metadata: dict[str, Any], tz: dt.tzinfo) -> str:
+    lines = [
+        f"# Paper Watch Review {metadata['date']}",
+        "",
+        f"- 生成时间：{metadata['generated_at']}",
+        f"- 时间窗口：{metadata['window']}",
+        f"- 候选数：{len(papers)}",
+        "",
+        "回复格式建议：`keep P001 P004 P009; reject P002 P007; block P003`。",
+        "",
+        "说明：`keep` 会提高相似条目的权重，`reject` 会降权，`block` 会把标题加入显式屏蔽并禁止 AI 分析。",
+        "",
+    ]
+    for index, paper in enumerate(papers, start=1):
+        paper_id = review_id(index)
+        date = paper.updated or paper.published
+        date_text = date.astimezone(tz).strftime("%Y-%m-%d %H:%M") if date else "date unknown"
+        tags = " / ".join(paper.tags) if paper.tags else "untagged"
+        noise = f" | low-signal: {' / '.join(paper.noise_tags)}" if paper.noise_tags else ""
+        authors = format_authors(paper.authors)
+        lines.extend(
+            [
+                f"- [ ] **{paper_id}** `{paper.priority}` `score {paper.score}` {paper.title}",
+                f"  - 链接：{paper.url}",
+                f"  - 来源：{paper.source} | {date_text} | {tags}{noise}",
+            ]
+        )
+        if authors:
+            lines.append(f"  - 作者：{authors}")
+        if paper.matched_keywords:
+            lines.append(f"  - 信号：{', '.join(paper.matched_keywords[:8])}")
+        lines.append(f"  - 摘要：{first_sentence(paper.abstract, max_chars=260)}")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def render_report(
     papers: list[Paper],
     metadata: dict[str, Any],
@@ -853,7 +952,8 @@ def render_index(history: list[dict[str, Any]], latest: dict[str, Any], config: 
     if latest:
         date = latest.get("date", "")
         count = latest.get("total_papers", 0)
-        lines.append(f'<p><strong>最新日报：</strong><a href="/papers/{html.escape(date)}/">{html.escape(date)}</a>，收录 {count} 条。</p>')
+        review_count = latest.get("total_review_candidates", 0)
+        lines.append(f'<p><strong>最新日报：</strong><a href="/papers/{html.escape(date)}/">{html.escape(date)}</a>，收录 {count} 条；批阅候选 {review_count} 条。</p>')
     lines.extend(
         [
             "</section>",
@@ -883,7 +983,7 @@ def render_index(history: list[dict[str, Any]], latest: dict[str, Any], config: 
             "",
             "## 自动化",
             "",
-            "GitHub Actions 会按计划运行 `scripts/paper_watch.py`。如果仓库配置了 `OPENAI_API_KEY`，日报会包含模型生成的中文分析；否则使用关键词和来源权重生成可运行的基础版本。",
+            "GitHub Actions 会按计划运行 `scripts/paper_watch.py`。脚本同时生成 `_paper_reviews/YYYY-MM-DD.md` 批阅清单和公开日报。你可以用 `scripts/paper_feedback.py` 写入 keep/reject/block 反馈，再重新生成日报。",
             "",
         ]
     )
@@ -908,12 +1008,14 @@ def read_history() -> list[dict[str, Any]]:
 def write_outputs(
     report_date: dt.date,
     papers: list[Paper],
+    review_papers: list[Paper],
     metadata: dict[str, Any],
     config: dict[str, Any],
     tz: dt.tzinfo,
 ) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     PAPERS_DIR.mkdir(parents=True, exist_ok=True)
+    REVIEWS_DIR.mkdir(parents=True, exist_ok=True)
 
     report_path = PAPERS_DIR / f"{report_date.isoformat()}.md"
     report_path.write_text(render_report(papers, metadata, config, tz), encoding="utf-8")
@@ -921,10 +1023,22 @@ def write_outputs(
     latest = {
         **metadata,
         "total_papers": len(papers),
+        "total_review_candidates": len(review_papers),
         "report_path": f"/papers/{report_date.isoformat()}/",
+        "review_path": f"_paper_reviews/{report_date.isoformat()}.md",
         "papers": [paper_to_dict(paper, tz) for paper in papers],
     }
     LATEST_PATH.write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    review_path = REVIEWS_DIR / f"{report_date.isoformat()}.md"
+    review_path.write_text(render_review(review_papers, metadata, tz), encoding="utf-8")
+    review_json_path = DATA_DIR / f"review_{report_date.isoformat()}.json"
+    review_json = {
+        **metadata,
+        "review_path": str(review_path.relative_to(ROOT)),
+        "candidates": review_to_dict(review_papers, tz),
+    }
+    review_json_path.write_text(json.dumps(review_json, ensure_ascii=False, indent=2), encoding="utf-8")
 
     history = [item for item in read_history() if item.get("date") != report_date.isoformat()]
     history.append(
@@ -932,8 +1046,10 @@ def write_outputs(
             "date": report_date.isoformat(),
             "generated_at": metadata["generated_at"],
             "total_papers": len(papers),
+            "total_review_candidates": len(review_papers),
             "counts": metadata["counts"],
             "report_path": f"/papers/{report_date.isoformat()}/",
+            "review_path": f"_paper_reviews/{report_date.isoformat()}.md",
         }
     )
     history = sorted(history, key=lambda item: item.get("date", ""), reverse=True)[:120]
@@ -1027,9 +1143,11 @@ def main() -> int:
     start_utc, end_utc = build_window(report_date, tz, lookback_days)
     statuses: list[dict[str, Any]] = []
 
+    preferences = load_preferences(config)
     raw_papers = collect_all(config, start_utc, end_utc, statuses)
-    scored = score_papers(raw_papers, config)
+    scored = score_papers(raw_papers, config, preferences)
     rendered = keep_rendered_papers(scored, config, args.limit)
+    review_papers = keep_review_papers(scored, config)
     maybe_apply_ai(rendered, config, args.no_ai, statuses)
 
     generated_at = dt.datetime.now(tz).strftime("%Y-%m-%d %H:%M %Z")
@@ -1046,12 +1164,12 @@ def main() -> int:
     }
 
     if args.dry_run:
-        print(json.dumps({**metadata, "total_papers": len(rendered)}, ensure_ascii=False, indent=2))
+        print(json.dumps({**metadata, "total_papers": len(rendered), "total_review_candidates": len(review_papers)}, ensure_ascii=False, indent=2))
         for paper in rendered[:15]:
             print(f"- [{paper.priority} {paper.score}] {paper.title} ({paper.source})")
         return 0
 
-    write_outputs(report_date, rendered, metadata, config, tz)
+    write_outputs(report_date, rendered, review_papers, metadata, config, tz)
     if args.email:
         send_email(metadata, rendered, config)
     print(f"Rendered {len(rendered)} papers for {report_date.isoformat()}.")
