@@ -279,10 +279,11 @@ aside: true
         <h3>通用工具、AI 与协作</h3>
         <p>不直接属于引力波主线，但用于开发、协作、学习和多智能体工作流。</p>
       </div>
-      <span class="resource-category__count">5 项</span>
+      <span class="resource-category__count">6 项</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--ai" href="https://codingpets.com/"><span class="resource-card__tag">Codex</span><strong>CodingPets</strong><span>OpenAI Codex 的动画状态宠物和工作区 companion 资源。</span></a>
+      <a class="resource-card resource-card--ai" href="https://petdex.dev/zh"><span class="resource-card__tag">宠物索引</span><strong>Petdex</strong><span>Codex 公共动画宠物图库，可预览状态并用命令安装。</span></a>
       <a class="resource-card resource-card--ai" href="https://github.com/Rath-Team/OpenRath"><span class="resource-card__tag">多智能体</span><strong>OpenRath</strong><span>动态多智能体工作流的开源框架。</span></a>
       <a class="resource-card resource-card--collab" href="https://instaboard.app/"><span class="resource-card__tag">协作</span><strong>Instaboard</strong><span>多人协作的实时可视化白板。</span></a>
       <a class="resource-card resource-card--collab" href="https://www.ventoy.net/cn/"><span class="resource-card__tag">启动盘</span><strong>Ventoy</strong><span>开源多系统启动 U 盘工具，支持直接启动 ISO/WIM/IMG/VHD(x)/EFI。</span></a>

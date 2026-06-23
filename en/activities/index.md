@@ -279,10 +279,11 @@ This page organizes academic conferences, invited talks, useful links, and relat
         <h3>General Tools, AI, and Collaboration</h3>
         <p>Not part of the gravitational-wave stack directly, but useful for development, collaboration, learning, and multi-agent workflows.</p>
       </div>
-      <span class="resource-category__count">5 items</span>
+      <span class="resource-category__count">6 items</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--ai" href="https://codingpets.com/"><span class="resource-card__tag">Codex</span><strong>CodingPets</strong><span>Animated status pets and workspace companions for OpenAI Codex.</span></a>
+      <a class="resource-card resource-card--ai" href="https://petdex.dev/zh"><span class="resource-card__tag">Pet index</span><strong>Petdex</strong><span>Public animated Codex pet gallery with previews and command-line installation.</span></a>
       <a class="resource-card resource-card--ai" href="https://github.com/Rath-Team/OpenRath"><span class="resource-card__tag">Multi-agent</span><strong>OpenRath</strong><span>Open-source framework for dynamic multi-agent workflows.</span></a>
       <a class="resource-card resource-card--collab" href="https://instaboard.app/"><span class="resource-card__tag">Collaboration</span><strong>Instaboard</strong><span>Live collaborative visual board.</span></a>
       <a class="resource-card resource-card--collab" href="https://www.ventoy.net/cn/"><span class="resource-card__tag">Boot USB</span><strong>Ventoy</strong><span>Open-source multiboot USB tool for directly booting ISO/WIM/IMG/VHD(x)/EFI files.</span></a>
