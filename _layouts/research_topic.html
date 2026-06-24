@@ -1,0 +1,158 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+{% assign topic = site.data.research_topics.topics | where: "slug", page.topic_slug | first %}
+
+<main class="main container research-page">
+  <div class="content">
+    {% if topic %}
+      <article class="article article--page typeset research-topic">
+        <header class="research-hero">
+          <p class="research-kicker">研究方向知识库</p>
+          <h1>{{ topic.title }}</h1>
+          <p class="research-summary">{{ topic.summary }}</p>
+          <div class="research-badges">
+            {% if topic.status %}<span class="research-badge">状态：{{ topic.status }}</span>{% endif %}
+            {% for tag in topic.tags %}
+              <span class="research-badge">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </header>
+
+        {% if topic.pipeline and topic.pipeline.size > 0 %}
+          <section class="research-section">
+            <h2>技术主线</h2>
+            <ol class="research-pipeline">
+              {% for item in topic.pipeline %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ol>
+          </section>
+        {% endif %}
+
+        {% if topic.timeline and topic.timeline.size > 0 %}
+          <section class="research-section">
+            <h2>时间线</h2>
+            <div class="research-timeline">
+              {% for event in topic.timeline %}
+                <article class="research-timeline-item">
+                  <span class="research-year">{{ event.year }}</span>
+                  <div>
+                    <h3>{{ event.title }}</h3>
+                    <p>{{ event.detail }}</p>
+                  </div>
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        {% if topic.categories and topic.categories.size > 0 %}
+          <section class="research-section">
+            <h2>技术分类</h2>
+            <div class="research-card-grid">
+              {% for category in topic.categories %}
+                <article class="research-card">
+                  <h3>{{ category.name }}</h3>
+                  <p>{{ category.description }}</p>
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        {% if topic.selected_papers and topic.selected_papers.size > 0 %}
+          <section class="research-section">
+            <h2>代表文献</h2>
+            <div class="research-list">
+              {% for paper in topic.selected_papers %}
+                <article class="research-list-item">
+                  <h3>
+                    {% if paper.arxiv %}
+                      <a href="https://arxiv.org/abs/{{ paper.arxiv }}">{{ paper.title }}</a>
+                    {% else %}
+                      {{ paper.title }}
+                    {% endif %}
+                  </h3>
+                  <p class="research-meta">{{ paper.authors }} · {{ paper.year }}{% if paper.ai_rating %} · AI {{ paper.ai_rating }}{% endif %}</p>
+                  <p>{{ paper.role }}</p>
+                  {% if paper.status %}<p class="research-status">{{ paper.status }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        {% if topic.codebases and topic.codebases.size > 0 %}
+          <section class="research-section">
+            <h2>代码库入口</h2>
+            <div class="research-card-grid">
+              {% for codebase in topic.codebases %}
+                <article class="research-card">
+                  <h3><a href="{{ codebase.url }}">{{ codebase.name }}</a></h3>
+                  <p>{{ codebase.role }}</p>
+                  {% if codebase.status %}<p class="research-status">{{ codebase.status }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        <section class="research-section research-two-column">
+          <div>
+            <h2>与我当前工作的关系</h2>
+            <p>{{ topic.relation_to_my_work | default: "建设中。" }}</p>
+          </div>
+          <div>
+            <h2>AI 初评与人工校验</h2>
+            <p><strong>AI 初评：</strong>{{ topic.ai_status | default: "建设中。" }}</p>
+            <p><strong>人工校验：</strong>{{ topic.human_status | default: "建设中。" }}</p>
+          </div>
+        </section>
+
+        {% if topic.data_links and topic.data_links.size > 0 %}
+          <section class="research-section">
+            <h2>数据入口</h2>
+            <div class="research-link-row">
+              {% for link in topic.data_links %}
+                <a class="research-button" href="{{ link.url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        {% if topic.topic_links and topic.topic_links.size > 0 %}
+          <section class="research-section">
+            <h2>知识库入口</h2>
+            <div class="research-link-row">
+              {% for link in topic.topic_links %}
+                <a class="research-button research-button-secondary" href="{{ link.url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
+        {% if topic.next_steps and topic.next_steps.size > 0 %}
+          <section class="research-section">
+            <h2>下一步</h2>
+            <ul class="research-next-steps">
+              {% for item in topic.next_steps %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      </article>
+    {% else %}
+      <article class="article article--page typeset research-topic">
+        <h1>研究方向建设中</h1>
+        <p>未在 `_data/research_topics.yml` 中找到 slug 为 `{{ page.topic_slug }}` 的方向。</p>
+      </article>
+    {% endif %}
+  </div>
+</main>
+
+{% include site-footer.html %}

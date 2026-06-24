@@ -1,0 +1,337 @@
+# Canonical display data source for recruitL.github.io research pages.
+#
+# The personal site should sync this file into:
+# recruitL.github.io/_data/research_topics.yml
+#
+# Do not manually hard-code research pages in the personal site Markdown.
+# Update this source file first, then run the site's sync and generation scripts.
+#
+# This is a compact front-end display index. Full notes and CSV datasets remain
+# in the surrounding research-links topic, paper, codebase, and roadmap files.
+schema_version: 1
+source:
+  repository: https://github.com/recruitL/research-links
+  expected_path: data/site/research_topics.yml
+  local_path: ../research-links/data/site/research_topics.yml
+  policy: "This site keeps a compact display index only; full CSV tables remain in research-links."
+
+topics:
+  - slug: eob
+    order: 10
+    title: "有效单体理论（Effective-One-Body, EOB）"
+    short_title: "EOB"
+    status: active
+    summary: "从两体动力学的有效哈密顿量出发，把 PN/PM、重求和波形、NR 校准、GSF 约束和 IMR 波形模型组织成一条可复现的研究链。"
+    relation_to_my_work: "当前重点是理解 pySEOBNR/SEOBNRv5 的哈密顿量、辐射通量和校准参数如何耦合，并评估替换或诊断部分动力学模块的可行性。"
+    ai_status: "B：中心性高，代码相关性强；仍需逐条人工校验元数据、公式和实现位置。"
+    human_status: "部分校验：pySEOBNR 使用路径已熟悉，文献注释仍在补全。"
+    data_links:
+      - label: "EOB 代表论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/eob_selected.csv"
+      - label: "EOB 时间线 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/eob_timeline.csv"
+      - label: "EOB 代码库 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/codebases/eob_codebases.csv"
+    topic_links:
+      - label: "research-links/EOB 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/eob"
+      - label: "EOB roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/eob-from-origin-to-current.md"
+    tags: [EOB, PN, PM, NR, GSF, waveform, IMR]
+    pipeline:
+      - "有效哈密顿量：把真实两体问题映射到有效一体问题。"
+      - "重求和波形：factorized/resummed multipolar waveform 与通量结构。"
+      - "NR 校准：用数值相对论修正自由参数、merger-ringdown 和模型误差。"
+      - "GSF/规范不变量：用小质量比极限约束 EOB potentials 和 flux。"
+      - "代码实现：pySEOBNR、LALSimulation、TEOBResumS 与验证数据。"
+    timeline:
+      - year: 1998
+        title: "EOB 初始形式"
+        detail: "Buonanno-Damour 建立 EOB 映射和有效哈密顿量，是后续 EOB waveform 的起点。"
+      - year: 2000
+        title: "Inspiral-plunge 过渡"
+        detail: "EOB 被用于连接准圆 inspiral 与 plunge，为完整 coalescence 建模提供动力学框架。"
+      - year: 2008
+        title: "Factorized/resummed 波形"
+        detail: "多极波形的重求和结构成为现代 EOB 波形构造的核心技术。"
+      - year: 2009
+        title: "NR 校准阶段"
+        detail: "EOBNR 与数值相对论波形比较和校准，推动模型进入高精度 IMR 建模。"
+      - year: 2012
+        title: "GSF 约束 EOB potentials"
+        detail: "GSF 信息开始系统进入 EOB potentials 与规范不变量比较。"
+      - year: 2016
+        title: "SEOBNRv4"
+        detail: "面向探测器时代的非进动自旋模型，是 LVK 波形族的重要节点。"
+      - year: 2023
+        title: "SEOBNRv5"
+        detail: "更高效率和精度的现代 SEOBNR 基础，与 pySEOBNR 直接相关。"
+    categories:
+      - name: "EOB foundation / Hamiltonian / PN-PM"
+        description: "有效哈密顿量、PN/PM 信息吸收、坐标/规范选择和保守动力学。"
+      - name: "resummation / flux / factorized waveform"
+        description: "多极波形因子化、rho_lm、tail factor、通量重求和和环绕轨道极限。"
+      - name: "NR calibration / EOBNR / SEOBNR / TEOBResumS"
+        description: "将自由参数、merger-ringdown 拼接和误差控制与 NR 波形对齐。"
+      - name: "GSF / gauge-invariant comparison / EOB potentials"
+        description: "用红移、ISCO shift、binding energy、flux 等规范不变量约束小质量比极限。"
+      - name: "generic orbit / EMRI / EOB-Teukolsky"
+        description: "偏心、散射、任意轨道和 Teukolsky/BHPT flux 与 EOB 的桥接。"
+    selected_papers:
+      - title: "Effective one-body approach to general relativistic two-body dynamics"
+        authors: "A. Buonanno; T. Damour"
+        year: 1998
+        arxiv: "gr-qc/9811091"
+        role: "EOB 映射和有效哈密顿量的奠基文献。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Improved resummation of post-Newtonian multipolar waveforms from circularized compact binaries"
+        authors: "T. Damour; A. Nagar; M. Trias"
+        year: 2008
+        arxiv: "0811.2069"
+        role: "factorized/resummed multipolar waveform 的关键来源。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Gravitational self-force and the effective-one-body formalism between the innermost stable circular orbit and the light ring"
+        authors: "A. Akcay et al."
+        year: 2012
+        arxiv: "1209.0964"
+        role: "GSF 信息约束 EOB potentials 的代表节点。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Laying the foundation of the effective-one-body waveform models SEOBNRv5"
+        authors: "G. Pompili et al."
+        year: 2023
+        arxiv: "2303.18039"
+        role: "现代 SEOBNRv5/pySEOBNR 路线的核心入口。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+    codebases:
+      - name: "pySEOBNR"
+        url: "https://git.ligo.org/waveforms/software/pyseobnr"
+        role: "SEOBNRv5 波形生成与诊断，是当前代码阅读和实验的主入口。"
+        status: "active; local familiarity high"
+      - name: "LALSuite / LALSimulation"
+        url: "https://git.ligo.org/lscsoft/lalsuite"
+        role: "LVK 生产级波形实现和交叉验证基准。"
+        status: "active; high engineering overhead"
+      - name: "TEOBResumS"
+        url: "https://bitbucket.org/eob_ihes/teobresums"
+        role: "另一条 resummed EOB 波形族，适合比较 resummation 和 tides/generic orbit 选择。"
+        status: "needs current repository verification"
+    next_steps:
+      - "把 pySEOBNR 中 Hamiltonian、flux、waveform mode、calibration 参数的调用链整理成代码库笔记。"
+      - "为每篇 selected paper 补一页中文 paper note，区分 AI 初评和人工校验。"
+      - "建立 EOB-GSF 规范不变量比较表，标出哪些量可用于当前工作验证。"
+
+  - slug: gsf
+    order: 20
+    title: "引力自力（Gravitational Self-Force, GSF）"
+    short_title: "GSF"
+    status: active
+    summary: "围绕 MiSaTaQuWa、Detweiler-Whiting 分解、一阶/二阶自力、规范不变量和 EMRI 波形，把 GSF 与 EOB、BHPT 和 LISA 建模连接起来。"
+    relation_to_my_work: "主要作为 EOB potentials、flux 修正和小质量比极限校验的理论来源。"
+    ai_status: "B：理论深度高，EOB 关联明确；实现链条和规范问题需要人工校验。"
+    human_status: "seed 阶段：已列核心综述和奠基文献，尚未展开公式级笔记。"
+    data_links:
+      - label: "GSF 论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/gsf_candidates.csv"
+      - label: "GSF 代码库 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/codebases/gsf_codebases.csv"
+    topic_links:
+      - label: "research-links/GSF 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/gsf"
+      - label: "GSF roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/gsf-from-mi-sa-ta-qu-wa-to-second-order.md"
+    tags: [GSF, BHPT, EMRI, gauge-invariant, LISA]
+    pipeline:
+      - "MiSaTaQuWa/Quinn-Wald：小质量体在弯曲时空中的辐射反作用方程。"
+      - "正则化与有效源：把奇异场从物理自力中分离。"
+      - "规范不变量：红移、ISCO shift、spin-precession、binding energy 等。"
+      - "二阶 GSF：面向精密 EMRI 和 EOB 小质量比修正。"
+      - "与 EOB/BHPT 连接：potentials、flux、Teukolsky 数据和波形校验。"
+    timeline:
+      - year: 1996
+        title: "MiSaTaQuWa / Quinn-Wald"
+        detail: "GSF 方程的基础形式建立。"
+      - year: 2003
+        title: "Detweiler-Whiting 分解"
+        detail: "正则场与奇异场分解成为现代 GSF 计算的重要语言。"
+      - year: 2010
+        title: "规范不变量比较"
+        detail: "红移等不变量开始作为 GSF、PN、EOB 之间的桥梁。"
+      - year: 2018
+        title: "现代 GSF 综述"
+        detail: "Barack-Pound 综述系统整理自力、辐射反作用和二阶问题。"
+    categories:
+      - name: "foundations / regularization"
+        description: "MiSaTaQuWa、Quinn-Wald、Detweiler-Whiting、mode-sum 与 effective source。"
+      - name: "gauge-invariant comparison"
+        description: "为 EOB potentials 和 PN/PM 结果提供小质量比校验量。"
+      - name: "second-order GSF"
+        description: "面向 LISA/EMRI 精密相位的二阶自力和波形建模。"
+      - name: "EOB-informed GSF / GSF-informed EOB"
+        description: "在小质量比极限中互相校准 conservative dynamics 与 radiation reaction。"
+    selected_papers:
+      - title: "Gravitational Radiation Reaction to a Particle Motion"
+        authors: "Y. Mino; M. Sasaki; T. Tanaka"
+        year: 1996
+        arxiv: "gr-qc/9606018"
+        role: "MiSaTaQuWa 方程基础来源之一。"
+        status: "selected seed"
+        ai_rating: A
+      - title: "An axiomatic approach to electromagnetic and gravitational radiation reaction of particles in curved spacetime"
+        authors: "T. C. Quinn; R. M. Wald"
+        year: 1996
+        arxiv: "gr-qc/9610053"
+        role: "辐射反作用的公理化推导。"
+        status: "selected seed"
+        ai_rating: A
+      - title: "Self-force and radiation reaction in general relativity"
+        authors: "L. Barack; A. Pound"
+        year: 2018
+        arxiv: "1805.10385"
+        role: "现代 GSF 综述入口。"
+        status: "selected seed"
+        ai_rating: A
+    codebases:
+      - name: "Black Hole Perturbation Toolkit"
+        url: "https://bhptoolkit.org"
+        role: "BHPT/GSF 工具和参考资料入口。"
+        status: "active portal"
+    next_steps:
+      - "补齐 Detweiler-Whiting、mode-sum、effective-source 的公式级笔记。"
+      - "把可用于 EOB potentials 的规范不变量整理成表格。"
+      - "标注哪些 GSF 结果已进入 SEOBNRv5 或相关现代 EOB 模型。"
+
+  - slug: bhpt
+    order: 30
+    title: "黑洞微扰理论（Black-Hole Perturbation Theory, BHPT）"
+    short_title: "BHPT"
+    status: seed
+    summary: "以 Teukolsky、Regge-Wheeler-Zerilli、Sasaki-Nakamura 和 flux 计算为主线，为 GSF、EMRI 和 EOB-Teukolsky 连接提供背景。"
+    relation_to_my_work: "用于理解小质量比 flux、ringdown 边界条件和 EOB-Teukolsky 框架。"
+    ai_status: "C/B：方向相关但站点条目仍是 seed。"
+    human_status: "待校验。"
+    data_links:
+      - label: "BHPT 论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/bhpt_candidates.csv"
+      - label: "BHPT roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/bhpt-to-gsf.md"
+    topic_links:
+      - label: "research-links/BHPT 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/bhpt"
+    tags: [BHPT, Teukolsky, EMRI, flux]
+    pipeline:
+      - "扰动方程与边界条件。"
+      - "频域/时域 flux 计算。"
+      - "与 GSF 正则化和 EOB radiation reaction 的连接。"
+    categories:
+      - name: "Teukolsky / flux"
+        description: "Kerr 背景上的辐射通量和波形计算。"
+      - name: "RWZ / Schwarzschild"
+        description: "Schwarzschild 背景上的规范、源项和波形提取。"
+    selected_papers: []
+    codebases:
+      - name: "Black Hole Perturbation Toolkit"
+        url: "https://bhptoolkit.org"
+        role: "BHPT 工具入口。"
+        status: "active portal"
+    next_steps:
+      - "从 BHPT-to-GSF roadmap 补代表文献和方法图。"
+
+  - slug: qnm
+    order: 40
+    title: "拟正规模（Quasinormal Modes, QNMs）"
+    short_title: "QNM"
+    status: seed
+    summary: "整理 ringdown、复频率谱、计算方法和与 IMR 波形 merger-ringdown 拼接的关系。"
+    relation_to_my_work: "用于理解 EOB merger-ringdown、final black hole 参数和模式选择。"
+    ai_status: "C：先作为方法入口，后续需补文献和代码。"
+    human_status: "待校验。"
+    data_links:
+      - label: "QNM 论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_candidates.csv"
+      - label: "QNM roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/qnm-methods.md"
+    topic_links:
+      - label: "research-links/QNM 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/qnm"
+    tags: [QNM, ringdown, IMR]
+    pipeline:
+      - "频域边界条件与谱问题。"
+      - "Leaver/continued fraction、WKB、数值 shooting 等计算方法。"
+      - "EOB/NR 中 merger-ringdown 模式选择和拼接。"
+    categories:
+      - name: "QNM methods"
+        description: "不同计算方法的适用区间和误差来源。"
+      - name: "ringdown modeling"
+        description: "与 IMR 波形后段和 final black hole 参数估计相关。"
+    selected_papers: []
+    codebases:
+      - name: "Black Hole Perturbation Toolkit"
+        url: "https://bhptoolkit.org"
+        role: "QNM 相关资源入口。"
+        status: "active portal"
+    next_steps:
+      - "补 QNM 方法路线图和 EOB ringdown 连接。"
+
+  - slug: pm-eft
+    order: 50
+    title: "后闵可夫斯基与有效场论（PM / EFT）"
+    short_title: "PM/EFT"
+    status: seed
+    summary: "整理散射振幅、PM 动力学、EFT 方法和向 EOB potentials 映射的技术链。"
+    relation_to_my_work: "用于理解 EOB Hamiltonian 的高阶输入和散射/偏心推广。"
+    ai_status: "C/B：与 EOB 动力学相关，但目前是 seed。"
+    human_status: "待校验。"
+    data_links:
+      - label: "PM/EFT 论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/pm_eft_candidates.csv"
+      - label: "PM-to-EOB roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/pm-to-eob.md"
+    topic_links:
+      - label: "research-links/PM-EFT 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/pm-eft"
+    tags: [PM, EFT, scattering, EOB]
+    pipeline:
+      - "散射角和保守动力学。"
+      - "PM/PN 信息向 EOB potentials 映射。"
+      - "与偏心、双曲和 generic orbit EOB 的连接。"
+    categories:
+      - name: "scattering to EOB"
+        description: "从散射可观测量提取 EOB 动力学信息。"
+    selected_papers: []
+    codebases: []
+    next_steps:
+      - "补代表文献和与 EOB Hamiltonian 的映射表。"
+
+  - slug: lisa
+    order: 60
+    title: "LISA 波形建模"
+    short_title: "LISA"
+    status: seed
+    summary: "以 EMRI、长时标相位精度、GSF/BHPT/EOB 混合建模为核心，整理 LISA 相关波形需求。"
+    relation_to_my_work: "作为 GSF、BHPT 和 EOB-Teukolsky 的应用牵引。"
+    ai_status: "C：目前保留方向入口。"
+    human_status: "待校验。"
+    data_links:
+      - label: "LISA 论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/lisa_candidates.csv"
+      - label: "LISA waveform roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/lisa-waveform-modeling.md"
+    topic_links:
+      - label: "research-links/LISA 总览"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/lisa"
+    tags: [LISA, EMRI, GSF, BHPT]
+    pipeline:
+      - "EMRI 精密相位需求。"
+      - "一阶/二阶 GSF 与 adiabatic/self-consistent waveform。"
+      - "数据分析速度与物理精度之间的折中。"
+    categories:
+      - name: "EMRI waveform"
+        description: "长时标、高精度、小质量比波形建模。"
+    selected_papers: []
+    codebases: []
+    next_steps:
+      - "从 LISA roadmap 提取代表文献、代码和开放问题。"

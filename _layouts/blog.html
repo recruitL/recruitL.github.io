@@ -24,6 +24,28 @@ layout: default
 
     </article>
 
+    {% assign research_topics = site.data.research_topics.topics | sort: "order" %}
+    {% if research_topics and research_topics.size > 0 %}
+      <section class="section typeset tree-section research-tree" aria-labelledby="research-tree-title">
+        <h2 id="research-tree-title">研究</h2>
+        <p class="research-tree-intro">这里从 research-links 的轻量索引自动生成，只展示方向脉络、代表条目和入口链接；完整文献与代码库数据仍维护在 research-links。</p>
+        <ul class="tree">
+          <li>
+            <span class="tree-node">研究方向</span>
+            <ul>
+              {% for topic in research_topics %}
+                <li>
+                  <a href="{{ '/research/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+                  {% if topic.status %}<span class="research-badge">{{ topic.status }}</span>{% endif %}
+                  {% if topic.summary %}<p class="research-tree-summary">{{ topic.summary }}</p>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </section>
+    {% endif %}
+
     {% include post-list.html %}  <!-- 引入文章列表 -->
 
   </div>
