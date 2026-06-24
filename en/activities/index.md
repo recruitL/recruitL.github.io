@@ -107,20 +107,6 @@ This page organizes academic conferences, invited talks, useful links, and relat
     </div>
   </article>
 
-  <article
-    class="activity-news__item"
-    id="conference-2024-gr"
-    data-activity-start="2024-04-19"
-    data-activity-end="2024-04-24"
-    data-activity-title="2024 Gravitational Annual Meeting"
-    data-activity-kind="event"
-  >
-    <div class="activity-news__date">2024-04-19 to 2024-04-24</div>
-    <div class="activity-news__body">
-      <span class="activity-icon" aria-label="Activity type" role="img"></span>
-      <p><a class="activity-news__title" href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">2024 Gravitational Annual Meeting</a>, Hengyang, Hunan.</p>
-    </div>
-  </article>
 </div>
 
 <p class="activity-more">More conference records will be appended in reverse chronological order.</p>

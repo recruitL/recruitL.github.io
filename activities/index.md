@@ -107,20 +107,6 @@ aside: true
     </div>
   </article>
 
-  <article
-    class="activity-news__item"
-    id="conference-2024-gr"
-    data-activity-start="2024-04-19"
-    data-activity-end="2024-04-24"
-    data-activity-title="2024 引力年会"
-    data-activity-kind="event"
-  >
-    <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
-    <div class="activity-news__body">
-      <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><a class="activity-news__title" href="http://meeting2024.usc.edu.cn/Meeting/conferences/gr24/home_1.php">2024 引力年会</a>，湖南·衡阳。</p>
-    </div>
-  </article>
 </div>
 
 <p class="activity-more">更多会议记录会按时间线倒序追加。</p>

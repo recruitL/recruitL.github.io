@@ -61,9 +61,4 @@ My current interests include gravitation, relativistic astrophysics, numerical c
     <span class="timeline-tag timeline-tag--activity">Activities</span>
     <p><a href="/en/activities/">Activities</a> now include conferences, talks, and a calendar-linked activity timeline.</p>
   </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2024-07</span>
-    <span class="timeline-tag timeline-tag--note">Blog</span>
-    <p><a href="/en/2024/07/12/General/">Weekly summary</a> records external resources and Effective One Body study materials.</p>
-  </div>
 </div>

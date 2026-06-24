@@ -56,14 +56,4 @@ excerpt: ""
     <span class="timeline-tag timeline-tag--code">代码库</span>
     <p><a href="/code/">py-sc</a> 已新增第六章“解线性方程组的直接方法”，覆盖高斯消元、LU/PLU、Cholesky、LDL^T、追赶法和 QR 分解。</p>
   </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2024-07</span>
-    <span class="timeline-tag timeline-tag--note">博客</span>
-    <p><a href="/2024/07/12/General/">一周总结</a> 记录外部资源和 Effective One Body 学习材料。</p>
-  </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2024-04</span>
-    <span class="timeline-tag timeline-tag--activity">活动等</span>
-    <p><a href="/2024/04/19/annual/">2024 引力年会</a> 记录引力与相对论天体物理相关会议信息。</p>
-  </div>
 </div>
