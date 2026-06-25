@@ -244,37 +244,173 @@ topics:
     order: 40
     title: "拟正规模（Quasinormal Modes, QNMs）"
     short_title: "QNM"
-    status: seed
-    summary: "整理 ringdown、复频率谱、计算方法和与 IMR 波形 merger-ringdown 拼接的关系。"
-    relation_to_my_work: "用于理解 EOB merger-ringdown、final black hole 参数和模式选择。"
-    ai_status: "C：先作为方法入口，后续需补文献和代码。"
-    human_status: "待校验。"
+    status: active
+    summary: "整理 ringdown、复频率谱、QNM 计算方法，并新增 EP、谱不稳定、pseudospectrum、VAM/TTM 的专题入口。"
+    relation_to_my_work: "用于理解 EOB merger-ringdown、overtone 提取、EP 附近标准 QNM 展开的风险，以及半开放 SdS/VAM-TTM 的可复现谱问题。"
+    ai_status: "B：QNM EP/VAM-TTM 子方向已完成 AI 初筛；主线文献高度相关但仍需逐篇人工校验。"
+    human_status: "待校验：EP/VAM-TTM 条目已建，所有新文献仍标记 human_checked=no。"
     data_links:
       - label: "QNM 论文 CSV"
         url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_candidates.csv"
+      - label: "QNM EP/VAM-TTM 候选 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_candidates.csv"
+      - label: "QNM EP/VAM-TTM 精选 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_selected.csv"
       - label: "QNM roadmap"
         url: "https://github.com/recruitL/research-links/blob/main/roadmaps/qnm-methods.md"
     topic_links:
       - label: "research-links/QNM 总览"
         url: "https://github.com/recruitL/research-links/tree/main/topics/qnm"
-    tags: [QNM, ringdown, IMR]
+      - label: "QNM EP / 谱不稳定 / VAM-TTM"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/qnm-ep-vam-ttm"
+      - label: "QNM EP/VAM-TTM roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/qnm-ep-vam-ttm.md"
+    tags: [QNM, ringdown, IMR, EP, pseudospectrum, VAM, TTM]
     pipeline:
       - "频域边界条件与谱问题。"
       - "Leaver/continued fraction、WKB、数值 shooting 等计算方法。"
       - "EOB/NR 中 merger-ringdown 模式选择和拼接。"
+      - "pseudospectrum / condition number：判断 QNM/TTM 根的谱稳定性。"
+      - "exceptional point / avoided crossing：跟踪分支、模式交换和 Puiseux 标度。"
+      - "VAM/TTM：比较 total transmission、virtual absorption 与 QNM 边界条件。"
     categories:
       - name: "QNM methods"
         description: "不同计算方法的适用区间和误差来源。"
       - name: "ringdown modeling"
         description: "与 IMR 波形后段和 final black hole 参数估计相关。"
-    selected_papers: []
+      - name: "EP / avoided crossing / resonance"
+        description: "QNM 模式接近、分支交换、exceptional point 和时间域共振激发。"
+      - name: "pseudospectrum / spectral instability"
+        description: "非自伴谱的稳定性诊断、condition number 和物理意义。"
+      - name: "VAM / TTM"
+        description: "virtual absorption、total transmission modes 和 reflectionless 边界条件。"
+    selected_papers:
+      - title: "Resonant Excitation of Quasinormal Modes of Black Holes"
+        authors: "Hayato Motohashi"
+        year: 2024
+        arxiv: "2407.15191"
+        role: "把 avoided crossing 与 EP 附近的共振激发联系起来。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Black hole quasinormal mode resonances"
+        authors: "Yiqiu Yang; Emanuele Berti; Nicola Franchini"
+        year: 2025
+        arxiv: "2504.06072"
+        role: "QNM EP、Riemann surface 分支和 time-domain resonance 的直接框架。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Quasinormal modes of Schwarzschild-de Sitter black holes in semi-open systems"
+        authors: "Liang-Bi Wu; Libo Xie; Li-Ming Cao; Ming-Fei Ji; Yu-Sen Zhou"
+        year: 2025
+        arxiv: "2512.06903"
+        role: "半开放 SdS 系统中复反射率、二阶 EP 和 Puiseux 标度。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Pseudospectrum and (in)stability of black hole total transmission modes"
+        authors: "Yu-Sen Zhou; Ming-Fei Ji; Liang-Bi Wu; Li-Ming Cao"
+        year: 2025
+        arxiv: "2512.16372"
+        role: "用 pseudospectrum 和 condition number 研究 TTM 谱稳定性。"
+        status: "selected; needs human annotation"
+        ai_rating: A
     codebases:
       - name: "Black Hole Perturbation Toolkit"
         url: "https://bhptoolkit.org"
         role: "QNM 相关资源入口。"
         status: "active portal"
     next_steps:
-      - "补 QNM 方法路线图和 EOB ringdown 连接。"
+      - "为 `arXiv:2407.15191`、`arXiv:2504.06072` 和 `arXiv:2512.06903` 写中文 paper note。"
+      - "优先复现半开放 SdS 的 EP、模式交换和 Puiseux 标度。"
+      - "检查 VAM/TTM 是否有公开代码或可从论文公式快速重建。"
+
+  - slug: qnm-ep-vam-ttm
+    order: 41
+    title: "QNM EP / 谱不稳定 / VAM-TTM"
+    short_title: "QNM EP"
+    status: active
+    summary: "聚焦黑洞 QNM 的 exceptional points、avoided crossing、pseudospectrum 谱不稳定、半开放 SdS、virtual absorption modes 和 total transmission modes。"
+    relation_to_my_work: "这是当前 SdS EP/VAM-TTM 线的网页入口，用来跟踪哪些 EP/TTM 根数值可信、哪些 ringdown 模式需要超出标准 QNM 展开来解释。"
+    ai_status: "B/A：主线文献高度集中且 2024 后快速升温；AI 初评只用于排序，公式和复现结论仍需人工校验。"
+    human_status: "待校验：文献元数据已用 arXiv 核对，技术判断尚未逐篇人工审读。"
+    data_links:
+      - label: "候选论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_candidates.csv"
+      - label: "精选论文 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_selected.csv"
+      - label: "时间线 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_timeline.csv"
+      - label: "技术分类 CSV"
+        url: "https://github.com/recruitL/research-links/blob/main/data/papers/qnm_ep_vam_ttm_categories.csv"
+    topic_links:
+      - label: "research-links/QNM EP 专题"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/qnm-ep-vam-ttm"
+      - label: "QNM EP/VAM-TTM roadmap"
+        url: "https://github.com/recruitL/research-links/blob/main/roadmaps/qnm-ep-vam-ttm.md"
+      - label: "QNM 总入口"
+        url: "https://github.com/recruitL/research-links/tree/main/topics/qnm"
+    tags: [QNM, EP, ringdown, pseudospectrum, SdS, VAM, TTM]
+    pipeline:
+      - "pseudospectrum：把 QNM/TTM 看成非自伴算子谱，检查谱点对扰动的敏感性。"
+      - "EP / avoided crossing：追踪模式分支、Riemann surface、模式交换和 Puiseux 标度。"
+      - "ringdown resonance：判断 EP 附近本征函数近合并如何改变时间域 QNM 提取。"
+      - "semi-open SdS：用复反射率作为可控参数，复现二阶 EP 和 VAM。"
+      - "VAM / TTM：比较 total absorption、total transmission 和 QNM 边界条件。"
+    categories:
+      - name: "pseudospectrum / spectral instability"
+        description: "Jaramillo-Macedo-Al Sheikh 之后的非自伴谱稳定性语言。"
+      - name: "EP / avoided crossing / resonance"
+        description: "QNM 模式接近、Riemann surface 分支、exceptional point 和共振激发。"
+      - name: "Ringdown extraction"
+        description: "EP 附近是否需要修正标准 damped sinusoid 叠加。"
+      - name: "Semi-open SdS"
+        description: "复反射率、模式交换、Puiseux 标度和半开放边界。"
+      - name: "VAM / TTM"
+        description: "virtual absorption、total transmission modes、condition number 和谱稳定性。"
+    selected_papers:
+      - title: "Resonant Excitation of Quasinormal Modes of Black Holes"
+        authors: "Hayato Motohashi"
+        year: 2024
+        arxiv: "2407.15191"
+        role: "把 QNM avoided crossing 与 EP 附近的共振激发联系起来。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Black hole quasinormal mode resonances"
+        authors: "Yiqiu Yang; Emanuele Berti; Nicola Franchini"
+        year: 2025
+        arxiv: "2504.06072"
+        role: "直接讨论 QNM EP、Riemann surface 分支和时间域 resonance。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Quasinormal modes of Schwarzschild-de Sitter black holes in semi-open systems"
+        authors: "Liang-Bi Wu; Libo Xie; Li-Ming Cao; Ming-Fei Ji; Yu-Sen Zhou"
+        year: 2025
+        arxiv: "2512.06903"
+        role: "当前 SdS EP 线核心文献：复反射率、二阶 EP、模式交换和 Puiseux 标度。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Total absorption of tailored incoming signals by black holes"
+        authors: "Furkan Tuncer; Vitor Cardoso; Rodrigo Panosso Macedo; Thomas F. M. Spieksma"
+        year: 2025
+        arxiv: "2509.19451"
+        role: "VAM/TTM 主线入口，讨论 tailored incoming signal 的 total absorption。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+      - title: "Pseudospectrum and (in)stability of black hole total transmission modes"
+        authors: "Yu-Sen Zhou; Ming-Fei Ji; Liang-Bi Wu; Li-Ming Cao"
+        year: 2025
+        arxiv: "2512.16372"
+        role: "用 pseudospectrum 和 condition number 判断 TTM 谱稳定性。"
+        status: "selected; needs human annotation"
+        ai_rating: A
+    codebases:
+      - name: "Black Hole Perturbation Toolkit"
+        url: "https://bhptoolkit.org"
+        role: "BHPT/QNM 背景工具入口；不是 EP/VAM-TTM 专用复现代码。"
+        status: "reference portal"
+    next_steps:
+      - "写 `arXiv:2512.06903` 的中文 paper note，先抽出可复现的 EP 定位流程。"
+      - "确认 SdS EP/VAM-TTM 相关论文是否公开代码。"
+      - "建立最小 spectral toy model，复现 branch exchange 和 Puiseux 标度。"
 
   - slug: pm-eft
     order: 50

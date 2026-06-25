@@ -4,7 +4,7 @@ title: '拟正规模（Quasinormal Modes, QNMs）'
 topic_slug: 'qnm'
 auto_generated: true
 permalink: /research/qnm/
-description: '整理 ringdown、复频率谱、计算方法和与 IMR 波形 merger-ringdown 拼接的关系。'
+description: '整理 ringdown、复频率谱、QNM 计算方法，并新增 EP、谱不稳定、pseudospectrum、VAM/TTM 的专题入口。'
 ---
 
 <!-- AUTO-GENERATED: research-topic-page -->
