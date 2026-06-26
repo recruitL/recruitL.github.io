@@ -62,9 +62,26 @@
       "url": "https://feeds.aps.org/rss/recent/prl.xml"
     },
     {
+      "name": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "source_kind": "journal_highlight",
+      "url": "https://feeds.aps.org/rss/recent/prlsuggestions.xml",
+      "include_subjects": [
+        "Cosmology, Astrophysics, and Gravitation",
+        "Particles and Fields"
+      ]
+    },
+    {
       "name": "Living Reviews in Relativity",
       "source_kind": "journal_review",
       "url": "https://link.springer.com/search.rss?facet-journal-id=41114&sortOrder=newestFirst"
+    }
+  ],
+  "html_sources": [
+    {
+      "name": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "source_kind": "journal_highlight",
+      "parser": "aps_highlights",
+      "url": "https://journals.aps.org/prl/highlights?page=2&toc_section%5B%5D=cosmology-astrophysics-and-gravitation&toc_section%5B%5D=particles-and-fields"
     }
   ],
   "crossref_sources": [
@@ -97,6 +114,7 @@
     "arxiv_core": 28,
     "arxiv_related": 12,
     "journal_physics": 18,
+    "journal_highlight": 24,
     "journal_review": 20,
     "journal_general": 6,
     "ai_radar": 10

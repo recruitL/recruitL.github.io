@@ -42,7 +42,6 @@ ATOM_NS = {
     "atom": "http://www.w3.org/2005/Atom",
     "arxiv": "http://arxiv.org/schemas/atom",
 }
-DC_NS = "{http://purl.org/dc/elements/1.1/}"
 
 
 @dataclasses.dataclass
@@ -134,7 +133,14 @@ def parse_datetime(value: Any) -> dt.datetime | None:
             try:
                 parsed = email.utils.parsedate_to_datetime(text)
             except (TypeError, ValueError):
-                return None
+                for fmt in ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y"):
+                    try:
+                        parsed = dt.datetime.strptime(text, fmt)
+                        break
+                    except ValueError:
+                        parsed = None
+                if parsed is None:
+                    return None
     else:
         return None
     if parsed.tzinfo is None:
@@ -197,9 +203,39 @@ def request_json(url: str, timeout: int = 30) -> dict[str, Any]:
     return json.loads(request_bytes(url, timeout=timeout).decode("utf-8"))
 
 
+def request_html(url: str, timeout: int = 30) -> str:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        charset = response.headers.get_content_charset() or "utf-8"
+        return response.read().decode(charset, errors="replace")
+
+
 def xml_text(node: ET.Element, path: str, ns: dict[str, str] | None = None) -> str:
     found = node.find(path, ns or {})
     return clean_text(found.text if found is not None else "")
+
+
+def tag_local_name(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
+
+
+def child_text_by_local(node: ET.Element, *names: str) -> str:
+    wanted = set(names)
+    for child in list(node):
+        if tag_local_name(child.tag) in wanted:
+            return clean_text(" ".join(child.itertext()))
+    return ""
+
+
+def absolute_url(base_url: str, href: str) -> str:
+    return urllib.parse.urljoin(base_url, html.unescape(href))
 
 
 def fetch_arxiv(
@@ -286,6 +322,8 @@ def fetch_rss(
             items = root.findall("./channel/item")
             if not items and root.tag.endswith("feed"):
                 items = root.findall("atom:entry", ATOM_NS)
+            if not items:
+                items = root.findall(".//{http://purl.org/rss/1.0/}item")
             count = 0
             for item in items:
                 if item.tag.endswith("entry"):
@@ -301,17 +339,41 @@ def fetch_rss(
                         xml_text(author, "atom:name", ATOM_NS)
                         for author in item.findall("atom:author", ATOM_NS)
                     ]
+                    categories = [
+                        clean_text(node.attrib.get("term", ""))
+                        for node in item.findall("atom:category", ATOM_NS)
+                        if clean_text(node.attrib.get("term", ""))
+                    ]
                 else:
                     title = xml_text(item, "title")
                     abstract = xml_text(item, "description")
                     link = xml_text(item, "link")
                     published = parse_datetime(xml_text(item, "pubDate"))
+                    if not title:
+                        title = child_text_by_local(item, "title")
+                    if not abstract:
+                        abstract = child_text_by_local(item, "description")
+                    if not link:
+                        link = child_text_by_local(item, "link")
+                    if published is None:
+                        published = parse_datetime(child_text_by_local(item, "date", "pubDate"))
                     creators = [
                         clean_text(child.text)
                         for child in list(item)
-                        if child.tag == f"{DC_NS}creator" and clean_text(child.text)
+                        if tag_local_name(child.tag) == "creator" and clean_text(child.text)
                     ]
                     authors = creators
+                    categories = [
+                        clean_text(" ".join(child.itertext()))
+                        for child in list(item)
+                        if tag_local_name(child.tag) in {"category", "subject", "section"}
+                        and clean_text(" ".join(child.itertext()))
+                    ]
+                include_subjects = [clean_text(subject).casefold() for subject in source.get("include_subjects", [])]
+                if include_subjects:
+                    category_text = " | ".join(categories).casefold()
+                    if not any(subject in category_text for subject in include_subjects):
+                        continue
                 paper = Paper(
                     uid=normalize_id(link or f"{source_name}:{title}"),
                     title=title,
@@ -322,6 +384,7 @@ def fetch_rss(
                     source_kind=source.get("source_kind", "rss"),
                     published=published,
                     updated=published,
+                    categories=categories,
                     journal=source_name,
                 )
                 if title and is_recent(paper, start_utc, end_utc):
@@ -395,6 +458,122 @@ def fetch_crossref(
         except Exception as exc:  # noqa: BLE001
             statuses.append({"source": f"{source_name} Crossref", "ok": False, "error": str(exc)})
     return papers
+
+
+def fetch_html_sources(
+    config: dict[str, Any],
+    start_utc: dt.datetime,
+    end_utc: dt.datetime,
+    statuses: list[dict[str, Any]],
+) -> list[Paper]:
+    papers: list[Paper] = []
+    for source in config.get("html_sources", []):
+        source_name = source["name"]
+        try:
+            html_text = request_html(source["url"], timeout=int(source.get("timeout", 30)))
+            if "challenge-platform" in html_text or "Just a moment" in html_text:
+                raise ValueError("blocked by Cloudflare challenge")
+            if source.get("parser") == "aps_highlights":
+                parsed = parse_aps_highlights(html_text, source)
+            else:
+                raise ValueError(f"unknown html parser: {source.get('parser')}")
+
+            count = 0
+            allow_undated = bool(source.get("allow_undated", False))
+            for paper in parsed:
+                if paper.published is None and not allow_undated:
+                    continue
+                if is_recent(paper, start_utc, end_utc):
+                    papers.append(paper)
+                    count += 1
+            statuses.append({"source": f"{source_name} HTML", "ok": True, "count": count})
+        except Exception as exc:  # noqa: BLE001
+            statuses.append({"source": f"{source_name} HTML", "ok": False, "error": str(exc)})
+    return papers
+
+
+def parse_aps_highlights(html_text: str, source: dict[str, Any]) -> list[Paper]:
+    base_url = source["url"]
+    papers: list[Paper] = []
+    seen: set[str] = set()
+    link_pattern = re.compile(
+        r"<a\b[^>]*href=[\"']([^\"']*/prl/(?:abstract|featured-article)/10\.1103/[^\"']+)[\"'][^>]*>(.*?)</a>",
+        flags=re.I | re.S,
+    )
+    for match in link_pattern.finditer(html_text):
+        href, raw_title = match.groups()
+        title = clean_text(raw_title)
+        if not title or title.casefold() in {"abstract", "full text", "pdf", "references"}:
+            continue
+        url = absolute_url(base_url, href)
+        doi_match = re.search(r"10\.1103/[^?#\"'<\s]+", html.unescape(href))
+        doi = doi_match.group(0).rstrip("/") if doi_match else ""
+        key = normalize_id(f"doi:{doi}" if doi else url)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        context = html_text[max(0, match.start() - 1400): min(len(html_text), match.end() + 2600)]
+        published = parse_aps_date(context)
+        abstract = parse_aps_summary(context, raw_title)
+        authors = parse_aps_authors(context)
+        papers.append(
+            Paper(
+                uid=key,
+                title=title,
+                authors=authors,
+                abstract=abstract,
+                url=url,
+                source=source["name"],
+                source_kind=source.get("source_kind", "journal_highlight"),
+                published=published,
+                updated=published,
+                doi=doi,
+                journal="Physical Review Letters",
+            )
+        )
+    return papers
+
+
+def parse_aps_date(context: str) -> dt.datetime | None:
+    datetime_match = re.search(r"<time\b[^>]*datetime=[\"']([^\"']+)[\"']", context, flags=re.I)
+    if datetime_match:
+        return parse_datetime(datetime_match.group(1))
+    for pattern in (
+        r"Published\s+([A-Z][a-z]+\s+\d{1,2},\s+\d{4})",
+        r"Publication date\s*[:\-]?\s*([A-Z][a-z]+\s+\d{1,2},\s+\d{4})",
+        r"([A-Z][a-z]+\s+\d{1,2},\s+\d{4})",
+    ):
+        match = re.search(pattern, context)
+        if match:
+            parsed = parse_datetime(clean_text(match.group(1)))
+            if parsed is not None:
+                return parsed
+    return None
+
+
+def parse_aps_summary(context: str, raw_title: str) -> str:
+    text = clean_text(context)
+    title = clean_text(raw_title)
+    if title and title in text:
+        text = text.split(title, 1)[-1]
+    text = re.sub(r"\b(Abstract|PDF|Full Text|References|Supplemental Material)\b", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return first_sentence(text, max_chars=420)
+
+
+def parse_aps_authors(context: str) -> list[str]:
+    for pattern in (
+        r"<span[^>]+class=[\"'][^\"']*authors?[^\"']*[\"'][^>]*>(.*?)</span>",
+        r"<div[^>]+class=[\"'][^\"']*authors?[^\"']*[\"'][^>]*>(.*?)</div>",
+    ):
+        match = re.search(pattern, context, flags=re.I | re.S)
+        if not match:
+            continue
+        text = clean_text(match.group(1))
+        text = re.sub(r"^By\s+", "", text, flags=re.I)
+        return [author.strip() for author in re.split(r",|\band\b", text) if author.strip()][:8]
+    return []
 
 
 def deduplicate(papers: list[Paper]) -> list[Paper]:
@@ -1120,6 +1299,7 @@ def collect_all(
     papers: list[Paper] = []
     papers.extend(fetch_arxiv(config, start_utc, end_utc, statuses))
     papers.extend(fetch_rss(config, start_utc, end_utc, statuses))
+    papers.extend(fetch_html_sources(config, start_utc, end_utc, statuses))
     papers.extend(fetch_crossref(config, start_utc, end_utc, statuses))
     return deduplicate(papers)
 
