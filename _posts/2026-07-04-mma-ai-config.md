@@ -12,13 +12,14 @@ tags:
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
 excerpt: "一份经过脱敏的 Mathematica 15 AI 配置流程：先分清内置 AI Assistant、外部 AI 调用本地 Wolfram，以及 Notebook 内直连模型 API。"
 aside: true
+share: false
 ---
 
 这是一份可以公开保存的 MMA 15 / Wolfram Language 15 AI 配置流程。原始配置记录里涉及本机路径、账号状态、代理端口、API key 和客户端授权截图；下面统一改成通用占位写法，只保留配置思路、代码骨架和测试方法。
 
 <!-- more -->
 
-## 先分清三类 AI 配置
+## 1. 总览：先分清三类 AI 配置
 
 MMA 15 里的 AI 不只是一件事，至少要分成三层：
 
@@ -30,7 +31,7 @@ MMA 15 里的 AI 不只是一件事，至少要分成三层：
 
 我的实际建议是：普通问答仍然用 AI App；MMA 里配置 AI 的价值，是把它变成 Notebook 内部的代码解释器、错误诊断器和公式说明器。
 
-## 路线 A：先检查 Wolfram 官方 AI Access
+## 2. 路线 A：先检查 Wolfram 官方 AI Access
 
 Wolfram 官方说明里，Version 15 开始，活跃的 Mathematica / Wolfram\|One 订阅会包含 AI Access Basic；AI Assistant 会用 LLM 把自然语言输入转成可执行的 Wolfram Language。官方的设置入口是：
 
@@ -39,19 +40,27 @@ macOS: Wolfram / Settings / AI Settings / Services
 其他系统: Edit / Preferences / AI Settings / Services
 ```
 
+### 2.1 服务商：配置外部 API
+
 如果你用的是官方 Chatbook / Chat Notebook，而不是本文后面的本地 HTTP 封装，那么 API 服务商入口就在 **AI 设置 -> 服务商**。这里可以选择直接连接服务商，例如 DeepSeek，并设置默认模型。
 
 ![Wolfram AI 设置中的服务商页，直接连接服务商处选择 DeepSeek 和模型。](/assets/images/mma-ai-config/provider-api-settings.png)
 
 这张图里的重点是下面的 **直接连接服务商**，不是上面的 Wolfram AI Access 订阅卡片。DeepSeek / OpenAI / OpenRouter 这类服务商通常需要你自己的 API key，模型费用也按外部服务商规则走。
 
+### 2.2 角色：不要选 Wolfram AI Assistant
+
 如果你决定暂时使用官方 Chatbook 气泡界面，那么 **角色** 标签里建议保持普通聊天角色，并把 LLM 服务商设为 DeepSeek / OpenAI 等外部服务商。不要把角色或入口切到 Wolfram AI Assistant / Wolfram AI Access，除非你确实有对应订阅；否则很容易再次进入 Wolfram 自家 AI Access / Cloud 登录流程。
 
 ![Wolfram AI 设置中的角色页，角色保持普通聊天人，LLM 服务商选择 DeepSeek。](/assets/images/mma-ai-config/role-not-wolfram-ai.png)
 
+### 2.3 工具：启用 LLM 可调用能力
+
 在 **工具** 标签里，可以管理 LLM 能调用的工具，例如文档检索、WolframAlpha、Wolfram Language 代码执行、网页抓取和网页搜索等。需要安装更多工具时，可以点 **LLM 工具库**，它指向 Wolfram 官方的 [LLM Tool Repository](https://resources.wolframcloud.com/LLMToolRepository?ChannelID=5a7929e0-d26d-4d29-9928-4ed9e8cb9c60)。这个页面是 Wolfram 提供的 LLM 工具接口集合，用来给 LLM 增加可调用的工具能力。
 
 ![Wolfram AI 设置中的工具页，可以启用文档检索、WolframAlpha、Wolfram Language Evaluator 和网页工具。](/assets/images/mma-ai-config/llm-tools-settings.png)
+
+### 2.4 Cell style：区分代码、文本和聊天输入
 
 Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell 是可执行代码、普通文字、标题，还是 Chatbook 相关的聊天输入。
 
@@ -77,6 +86,8 @@ Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell
 问官方 Chatbook 一个问题 -> ChatInput
 给官方 Chatbook 设定长期角色 -> ChatSystemInput
 ```
+
+### 2.5 最小测试：确认官方 AI Access 可用
 
 进入后登录 Wolfram Account，再开一个新 Notebook 测试 Assistant。
 
@@ -107,13 +118,17 @@ URLRead["https://www.wolfram.com"]
 
 官方 `LLMFunction` 和 `LLMConfiguration` 走的是 Wolfram 的 LLM 功能体系，需要认证、计费或可用订阅，以及网络连接。
 
-## 路线 B：让外部 AI 调用本地 Wolfram
+## 3. 路线 B：让外部 AI 调用本地 Wolfram
 
 这和 AI Assistant 是反方向的配置。AI Assistant 是“你在 MMA 里问 AI”；Local MCP 是“外部 AI 调用本地 Wolfram 来算东西”。
+
+### 3.1 MCP 服务入口
 
 ![Wolfram 面向 AI 的服务设置页，已配置 Claude Code、Claude Desktop 和 Codex CLI。](/assets/images/mma-ai-config/mcp-settings.png)
 
 图中这个“面向 AI 的服务”页面就是 Local MCP / agent tools 的入口。这里配置的是外部 AI 环境能否访问本地 Wolfram，以及授予计算工具还是研发工具权限。
+
+### 3.2 权限和测试
 
 典型授权可以这样分：
 
@@ -132,18 +147,23 @@ URLRead["https://www.wolfram.com"]
 
 安全上要保守一点：不信任的客户端不要给 Development Tools；含 API key、未公开论文数据、审稿材料的目录，不要随便让 agent 读写。只想让 AI 做数学计算时，优先给 Computation Tools。
 
-## 路线 C：在 `init.m` 里直连自己的模型 API
+## 4. 路线 C：在 `init.m` 里直连自己的模型 API
 
 如果 Wolfram Chatbook / Notebook Assistant 订阅或稳定性不合适，可以把 Mathematica 当成普通 HTTP 客户端，直接调用自己的模型 API。这个路线不依赖 `ServiceConnect["DeepSeek"]`，也不需要把 key 发给 Wolfram Cloud。
 
-后续实测后，边界可以说得更清楚：
+### 4.1 先判断哪些链路会触发 Cloud
 
-| 用法 | 是否走 Wolfram Cloud / ServiceConnect | 适合场景 |
-|---|---:|---|
-| 右侧官方 Chatbook / AI Assistant 气泡界面 | 可能会 | 普通聊天；接受登录 Wolfram Cloud 时使用 |
-| `LLMSynthesize` + `ServiceConnect["DeepSeek"]` | 可能会 | 想用 Wolfram 官方 LLM 框架时使用 |
-| 本文的 `AskDeepSeek` / `DeepSeekChat` / `AskGLM` | 不会 | 公式解释、报错诊断、批处理和科研 notebook 工作流 |
-| 本文的 `DeepSeekBubbleChat[]` 本地面板 | 不会 | 想要图形聊天界面，但不想接 Wolfram Cloud |
+后续实测后，边界可以这样分：
+
+**可能走 Wolfram Cloud / ServiceConnect 的链路：**
+
+- 右侧官方 Chatbook / AI Assistant 气泡界面：适合普通聊天；前提是接受登录 Wolfram Cloud。
+- `LLMSynthesize` + `ServiceConnect["DeepSeek"]`：适合想使用 Wolfram 官方 LLM 框架时；它属于官方服务连接体系。
+
+**不会走 Wolfram Cloud 的链路：**
+
+- 本文的 `AskDeepSeek` / `DeepSeekChat` / `AskGLM`：适合公式解释、报错诊断、批处理和科研 notebook 工作流。
+- 本文的 `DeepSeekBubbleChat[]` 本地面板：适合想要图形聊天界面，但不想接 Wolfram Cloud。
 
 也就是说，**可以直接在 Mathematica 里用 chatbot，但不要把它接到 Wolfram 官方 Chatbook / Wolfram AI 体系上**。想彻底避开 Wolfram Cloud 弹窗，就走本文的 HTTP 封装和本地聊天面板。
 
@@ -155,7 +175,7 @@ URLRead["https://www.wolfram.com"]
 - 请求 JSON 用 `ExportByteArray[..., "RawJSON"]`，避免中文被错误编码；
 - 返回 JSON 用 `ImportByteArray[..., "RawJSON"]`，再从 `choices[[1]].message.content` 取文本。
 
-### 1. 保存 API key
+### 4.2 保存 API key
 
 先在 Mathematica 里创建私有目录：
 
@@ -197,7 +217,7 @@ FileExistsQ /@ {
 {True, True}
 ```
 
-### 2. 写入脱敏版 `init.m`
+### 4.3 写入脱敏版 `init.m`
 
 `init.m` 的位置用 Wolfram 自己的变量拼出来，不写具体用户名：
 
@@ -697,7 +717,7 @@ ExplainMMAError[
 Print["Loaded direct LLM API wrappers: GLM + DeepSeek."];
 ```
 
-### 3. 重启后测试
+### 4.4 重启后测试
 
 重启 Mathematica，先确认配置被加载：
 
@@ -741,7 +761,7 @@ DeepSeekBubbleChat[]
 
 它会弹出一个小窗口，包含模型选择、输入框、发送按钮和上下文清空按钮。这个面板不是 Wolfram 官方右侧 Chatbook，底层仍然调用本文的 `DeepSeekChat[...]`，所以不会触发 Wolfram Cloud 登录流程。
 
-## 为什么这比直接用 App 有用
+## 5. 为什么这比直接用 App 有用
 
 如果只是问概念，直接用 ChatGPT / Claude / DeepSeek App 更方便。MMA 内接 AI 的优势是它能嵌进计算流：
 
@@ -773,9 +793,9 @@ AskDeepSeekShow[
 
 这才是 MMA 里配置 AI 的主要价值。
 
-## 常见问题
+## 6. 常见问题
 
-### `ServiceConnect["DeepSeek"]` 总是引导 Wolfram Cloud 登录怎么办？
+### 6.1 `ServiceConnect["DeepSeek"]` 总是引导 Wolfram Cloud 登录怎么办？
 
 如果只是想用自己的 DeepSeek API key，可以不用 `ServiceConnect`，直接按上面的 `HTTPRequest` 方式调用 API。`ServiceConnect` 是 Wolfram 官方服务连接体系，适合走官方认证流程；直连 API 更适合自己控制 key、模型名和错误处理。
 
@@ -838,7 +858,7 @@ CurrentValue[
 
 如果坚持用官方右侧气泡 Chatbook，同时还把服务商设为 DeepSeek，那么最现实的做法是登录一次 Wolfram Cloud；不然它可能反复尝试同步 cloud-stored connections。这个登录弹窗不是 `Off[ServiceConnect::warnnosync]` 能彻底解决的；`Off[...]` 只能隐藏 warning，不能阻止登录流程。
 
-### Chatbook 修复后还能直接用吗？
+### 6.2 Chatbook 修复后还能直接用吗？
 
 可以。后续实测里，执行过类似：
 
@@ -858,7 +878,7 @@ PacletInstall["Wolfram/Chatbook"];
 | 科研表达式、代码、报错诊断 | `AskDeepSeek` / `AskGLM` / `ExplainMMAError` |
 | 想要图形界面但不想登录 Cloud | `DeepSeekBubbleChat[]` |
 
-### 只登录 Wolfram Cloud、不订阅 Wolfram AI Access 有什么影响？
+### 6.3 只登录 Wolfram Cloud、不订阅 Wolfram AI Access 有什么影响？
 
 影响不大，但要分清：
 
@@ -870,7 +890,7 @@ PacletInstall["Wolfram/Chatbook"];
 
 需要注意的是：如果你在官方 Chatbook / ServiceConnect 里保存 DeepSeek API key，这个连接配置可能进入 Wolfram 的 connection 管理系统，是否同步到 Wolfram Cloud 取决于你当时的保存选项和登录状态。介意 key 保存位置或科研内容流向时，优先用本文的本地 key 文件和 `HTTPRequest` 封装。
 
-### 返回中文乱码怎么办？
+### 6.4 返回中文乱码怎么办？
 
 优先检查请求体是否用字节方式导出：
 
@@ -880,7 +900,7 @@ ExportByteArray[body, "RawJSON"]
 
 不要先 `ExportString` 再塞给 HTTP body。中文请求在 Wolfram 里被错误转码时，模型会收到乱码，回答自然会不对。
 
-### 模型说自己不是我指定的版本，是否说明路由错了？
+### 6.5 模型说自己不是我指定的版本，是否说明路由错了？
 
 不一定。模型的自我介绍不可靠。判断实际路由要看 API 返回里的 `model` 字段：
 
@@ -888,11 +908,11 @@ ExportByteArray[body, "RawJSON"]
 GLMInspect["只输出 OK", "glm-4-flash"]["ReturnedModel"]
 ```
 
-### 没有 LLM Kit 是否还能用 Local MCP？
+### 6.6 没有 LLM Kit 是否还能用 Local MCP？
 
 Wolfram 官方 Local MCP 页面说明 Local MCP 面向已安装的 Wolfram 应用，Version 15 可直接开始使用，并且 Q&A 写明不需要额外订阅。LLM Kit 或 AI Access 的订阅边界主要影响 Wolfram 自己的 AI Assistant / Chat Notebook / LLM 功能，不要把它和外部 AI 调用本地 Wolfram 的 MCP 链路混在一起。
 
-## 安全边界
+## 7. 安全边界
 
 - 不要把 API key 写进 `init.m` 或 Git 仓库；
 - 如果 key 曾经发到聊天窗口或公开页面，直接去平台重置；
@@ -900,7 +920,7 @@ Wolfram 官方 Local MCP 页面说明 Local MCP 面向已安装的 Wolfram 应�
 - 只需要计算时给外部客户端 Computation Tools，确实要改代码时再给 Development Tools；
 - 公开教程里不要出现真实用户名、真实本机路径、真实代理端口、真实账号状态截图。
 
-## 参考
+## 8. 参考
 
 - [Wolfram AI Assistant](https://www.wolfram.com/ai-assistant/)
 - [Wolfram AI Access Subscriptions](https://www.wolfram.com/ai-access/)

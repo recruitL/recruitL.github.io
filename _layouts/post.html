@@ -12,7 +12,9 @@ layout: default
     {% include post-meta.html %}  <!-- 包含文章元数据 -->
     {{ content }}  <!-- 显示文章内容 -->
 
-    {% include nav-share.html %}  <!-- 包含分享导航 -->
+    {% unless page.share == false %}
+      {% include nav-share.html %}  <!-- 包含分享导航 -->
+    {% endunless %}
 
     {% include post-comments.html %}  <!-- 包含评论部分 -->
 
