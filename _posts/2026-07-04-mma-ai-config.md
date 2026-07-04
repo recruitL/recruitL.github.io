@@ -72,6 +72,10 @@ URLRead["https://www.wolfram.com"]
 
 这和 AI Assistant 是反方向的配置。AI Assistant 是“你在 MMA 里问 AI”；Local MCP 是“外部 AI 调用本地 Wolfram 来算东西”。
 
+![Wolfram 面向 AI 的服务设置页，已配置 Claude Code、Claude Desktop 和 Codex CLI。](/assets/images/mma-ai-config/mcp-settings.png)
+
+图中这个“面向 AI 的服务”页面就是 Local MCP / agent tools 的入口。这里配置的是外部 AI 环境能否访问本地 Wolfram，以及授予计算工具还是研发工具权限。
+
 典型授权可以这样分：
 
 | 客户端类型 | 推荐权限 | 原因 |
