@@ -45,6 +45,39 @@ macOS: Wolfram / Settings / AI Settings / Services
 
 这张图里的重点是下面的 **直接连接服务商**，不是上面的 Wolfram AI Access 订阅卡片。DeepSeek / OpenAI / OpenRouter 这类服务商通常需要你自己的 API key，模型费用也按外部服务商规则走。
 
+如果你决定暂时使用官方 Chatbook 气泡界面，那么 **角色** 标签里建议保持普通聊天角色，并把 LLM 服务商设为 DeepSeek / OpenAI 等外部服务商。不要把角色或入口切到 Wolfram AI Assistant / Wolfram AI Access，除非你确实有对应订阅；否则很容易再次进入 Wolfram 自家 AI Access / Cloud 登录流程。
+
+![Wolfram AI 设置中的角色页，角色保持普通聊天人，LLM 服务商选择 DeepSeek。](/assets/images/mma-ai-config/role-not-wolfram-ai.png)
+
+在 **工具** 标签里，可以管理 LLM 能调用的工具，例如文档检索、WolframAlpha、Wolfram Language 代码执行、网页抓取和网页搜索等。需要安装更多工具时，可以点 **LLM 工具库**，它指向 Wolfram 官方的 [LLM Tool Repository](https://resources.wolframcloud.com/LLMToolRepository?ChannelID=5a7929e0-d26d-4d29-9928-4ed9e8cb9c60)。这个页面是 Wolfram 提供的 LLM 工具接口集合，用来给 LLM 增加可调用的工具能力。
+
+![Wolfram AI 设置中的工具页，可以启用文档检索、WolframAlpha、Wolfram Language Evaluator 和网页工具。](/assets/images/mma-ai-config/llm-tools-settings.png)
+
+Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell 是可执行代码、普通文字、标题，还是 Chatbook 相关的聊天输入。
+
+![Wolfram Notebook 工具栏里的单元样式菜单，包含 Input、NaturalLanguageInput、ChatInput、ChatSystemInput 等样式。](/assets/images/mma-ai-config/cell-style-menu.png)
+
+最常用的区分是：
+
+| 样式 | 用途 | 什么时候用 |
+|---|---|---|
+| `Input` | Wolfram Language 可执行输入 | 写 `Series`、`NDSolve`、`FullSimplify` 等代码 |
+| `Text` / `CodeText` | 普通说明文字 | 给 notebook 写解释、步骤、注释，不执行 |
+| `NaturalLanguageInput` | Wolfram 自然语言输入 | 让 Wolfram 尝试把自然语言转成 Wolfram Language |
+| `ChatInput` | Chatbook 的用户聊天输入 | 使用官方 Chatbook 时，把问题发给当前 LLM |
+| `ChatSystemInput` | Chatbook 的系统提示词 | 给同一段聊天设定角色，比如“你是 Wolfram Language 专家” |
+| `SideChat` | 侧边栏聊天相关样式 | 主要由 Chatbook 前端生成，通常不需要手动选 |
+| `ChatBlockDivider` / `ChatDelimiter` | 聊天块分隔 | 用于 Chatbook 内部分隔对话轮次，一般不要手动改 |
+
+实际使用时可以这么记：
+
+```text
+写代码并让 Kernel 执行 -> Input
+写普通笔记说明 -> Text 或 CodeText
+问官方 Chatbook 一个问题 -> ChatInput
+给官方 Chatbook 设定长期角色 -> ChatSystemInput
+```
+
 进入后登录 Wolfram Account，再开一个新 Notebook 测试 Assistant。
 
 在 Wolfram Language 里可以先检查：
@@ -82,10 +115,6 @@ URLRead["https://www.wolfram.com"]
 
 图中这个“面向 AI 的服务”页面就是 Local MCP / agent tools 的入口。这里配置的是外部 AI 环境能否访问本地 Wolfram，以及授予计算工具还是研发工具权限。
 
-在同一个设置页的 **工具** 标签里，可以管理 LLM 能调用的工具，例如文档检索、WolframAlpha、Wolfram Language 代码执行、网页抓取和网页搜索等。需要安装更多工具时，可以点 **LLM 工具库**，它指向 Wolfram 官方的 [LLM Tool Repository](https://resources.wolframcloud.com/LLMToolRepository?ChannelID=5a7929e0-d26d-4d29-9928-4ed9e8cb9c60)。这个页面是 Wolfram 提供的 LLM 工具接口集合，用来给 LLM 增加可调用的工具能力。
-
-![Wolfram AI 设置中的工具页，可以启用文档检索、WolframAlpha、Wolfram Language Evaluator 和网页工具。](/assets/images/mma-ai-config/llm-tools-settings.png)
-
 典型授权可以这样分：
 
 | 客户端类型 | 推荐权限 | 原因 |
@@ -117,10 +146,6 @@ URLRead["https://www.wolfram.com"]
 | 本文的 `DeepSeekBubbleChat[]` 本地面板 | 不会 | 想要图形聊天界面，但不想接 Wolfram Cloud |
 
 也就是说，**可以直接在 Mathematica 里用 chatbot，但不要把它接到 Wolfram 官方 Chatbook / Wolfram AI 体系上**。想彻底避开 Wolfram Cloud 弹窗，就走本文的 HTTP 封装和本地聊天面板。
-
-如果你决定暂时使用官方 Chatbook 气泡界面，那么 **角色** 标签里建议保持普通聊天角色，并把 LLM 服务商设为 DeepSeek / OpenAI 等外部服务商。不要把角色或入口切到 Wolfram AI Assistant / Wolfram AI Access，除非你确实有对应订阅；否则很容易再次进入 Wolfram 自家 AI Access / Cloud 登录流程。
-
-![Wolfram AI 设置中的角色页，角色保持普通聊天人，LLM 服务商选择 DeepSeek。](/assets/images/mma-ai-config/role-not-wolfram-ai.png)
 
 关键原则：
 
@@ -747,35 +772,6 @@ AskDeepSeekShow[
 ```
 
 这才是 MMA 里配置 AI 的主要价值。
-
-## Cell Style 按键怎么用
-
-Wolfram Notebook 里顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell 是可执行代码、普通文字、标题，还是 Chatbook 相关的聊天输入。第四张图里展开的就是这个菜单。
-
-![Wolfram Notebook 工具栏里的单元样式菜单，包含 Input、NaturalLanguageInput、ChatInput、ChatSystemInput 等样式。](/assets/images/mma-ai-config/cell-style-menu.png)
-
-最常用的区分是：
-
-| 样式 | 用途 | 什么时候用 |
-|---|---|---|
-| `Input` | Wolfram Language 可执行输入 | 写 `Series`、`NDSolve`、`FullSimplify` 等代码 |
-| `Text` / `CodeText` | 普通说明文字 | 给 notebook 写解释、步骤、注释，不执行 |
-| `NaturalLanguageInput` | Wolfram 自然语言输入 | 让 Wolfram 尝试把自然语言转成 Wolfram Language |
-| `ChatInput` | Chatbook 的用户聊天输入 | 使用官方 Chatbook 时，把问题发给当前 LLM |
-| `ChatSystemInput` | Chatbook 的系统提示词 | 给同一段聊天设定角色，比如“你是 Wolfram Language 专家” |
-| `SideChat` | 侧边栏聊天相关样式 | 主要由 Chatbook 前端生成，通常不需要手动选 |
-| `ChatBlockDivider` / `ChatDelimiter` | 聊天块分隔 | 用于 Chatbook 内部分隔对话轮次，一般不要手动改 |
-
-实际使用时可以这么记：
-
-```text
-写代码并让 Kernel 执行 -> Input
-写普通笔记说明 -> Text 或 CodeText
-问官方 Chatbook 一个问题 -> ChatInput
-给官方 Chatbook 设定长期角色 -> ChatSystemInput
-```
-
-如果你走本文的本地 HTTP 封装，`AskDeepSeek[...]`、`DeepSeekChat[...]` 和 `DeepSeekBubbleChat[]` 不依赖这些 Chatbook cell style。它们只是普通 Wolfram Language 函数，可以在 `Input` cell 里运行。
 
 ## 常见问题
 
