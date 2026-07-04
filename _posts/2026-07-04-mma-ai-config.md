@@ -97,10 +97,22 @@ URLRead["https://www.wolfram.com"]
 
 如果 Wolfram Chatbook / Notebook Assistant 订阅或稳定性不合适，可以把 Mathematica 当成普通 HTTP 客户端，直接调用自己的模型 API。这个路线不依赖 `ServiceConnect["DeepSeek"]`，也不需要把 key 发给 Wolfram Cloud。
 
+后续实测后，边界可以说得更清楚：
+
+| 用法 | 是否走 Wolfram Cloud / ServiceConnect | 适合场景 |
+|---|---:|---|
+| 右侧官方 Chatbook / AI Assistant 气泡界面 | 可能会 | 普通聊天；接受登录 Wolfram Cloud 时使用 |
+| `LLMSynthesize` + `ServiceConnect["DeepSeek"]` | 可能会 | 想用 Wolfram 官方 LLM 框架时使用 |
+| 本文的 `AskDeepSeek` / `DeepSeekChat` / `AskGLM` | 不会 | 公式解释、报错诊断、批处理和科研 notebook 工作流 |
+| 本文的 `DeepSeekBubbleChat[]` 本地面板 | 不会 | 想要图形聊天界面，但不想接 Wolfram Cloud |
+
+也就是说，**可以直接在 Mathematica 里用 chatbot，但不要把它接到 Wolfram 官方 Chatbook / Wolfram AI 体系上**。想彻底避开 Wolfram Cloud 弹窗，就走本文的 HTTP 封装和本地聊天面板。
+
 关键原则：
 
 - API key 放在 `$UserBaseDirectory/Private/` 下面；
 - `init.m` 只保存读取 key 的逻辑，不保存真实 key；
+- `init.m` 里不要启动时调用 `CloudConnect`、`ServiceConnect`、`LLMConfiguration` 或 `LLMSynthesize`；
 - 请求 JSON 用 `ExportByteArray[..., "RawJSON"]`，避免中文被错误编码；
 - 返回 JSON 用 `ImportByteArray[..., "RawJSON"]`，再从 `choices[[1]].message.content` 取文本。
 
@@ -478,10 +490,29 @@ DeepSeekChat[
 ];
 
 
-ClearAll[AIShow, AskGLMShow, AskDeepSeekShow, ExplainMMAError];
+ClearAll[
+  AITextNormalize, AIShow,
+  AskGLMShow, AskDeepSeekShow,
+  DeepSeekBubbleChat, ExplainMMAError
+];
+
+AITextNormalize[s_String] := StringReplace[
+  s,
+  {
+    "\\n" -> "\n",
+    "\\t" -> "\t",
+    "\r\n" -> "\n",
+    "```mathematica" -> "",
+    "```wolfram" -> "",
+    "```wl" -> "",
+    "```" -> ""
+  }
+];
+
+AITextNormalize[x_] := ToString[x, InputForm];
 
 AIShow[s_String, style_String: "Text"] := (
-  CellPrint[Cell[StringReplace[s, {"\\n" -> "\n", "\\t" -> "\t"}], style]];
+  CellPrint[Cell[AITextNormalize[s], style]];
   Null
 );
 
@@ -505,6 +536,103 @@ AskDeepSeekShow[
   "请用适合 Wolfram Notebook Text 单元显示的纯文本回答。不要使用 Markdown 代码围栏。\n\n" <> prompt,
   model,
   temperature
+];
+
+DeepSeekBubbleChat[] := CreatePalette[
+  DynamicModule[
+    {
+      input = "",
+      model = "deepseek-chat",
+      busy = False,
+      msgs = {}
+    },
+    Column[
+      {
+        Row[
+          {
+            Style["DeepSeek Local Chat", 16, Bold],
+            Spacer[20],
+            "模型：",
+            PopupMenu[
+              Dynamic[model],
+              {
+                "deepseek-chat" -> "deepseek-chat",
+                "deepseek-reasoner" -> "deepseek-reasoner"
+              }
+            ]
+          }
+        ],
+        Dynamic[
+          Pane[
+            Column[
+              Flatten @ Map[
+                {
+                  Framed[
+                    Style[#["User"], 14],
+                    Background -> RGBColor[0.93, 0.97, 1.0],
+                    FrameStyle -> RGBColor[0.70, 0.85, 0.95],
+                    RoundingRadius -> 8,
+                    ImageMargins -> List[List[80, 5], List[5, 5]],
+                    FrameMargins -> 10
+                  ],
+                  Framed[
+                    Style[AITextNormalize[#["Assistant"]], 14],
+                    Background -> RGBColor[0.96, 0.96, 0.96],
+                    FrameStyle -> RGBColor[0.85, 0.85, 0.85],
+                    RoundingRadius -> 8,
+                    ImageMargins -> List[List[5, 80], List[5, 12]],
+                    FrameMargins -> 10
+                  ]
+                } &,
+                msgs
+              ],
+              Spacings -> 0.8
+            ],
+            {520, 420},
+            Scrollbars -> True
+          ]
+        ],
+        Dynamic[If[busy, Style["正在发送...", Gray], ""]],
+        Row[
+          {
+            InputField[
+              Dynamic[input],
+              String,
+              FieldSize -> {45, 3},
+              ContinuousAction -> False
+            ],
+            Button[
+              "发送",
+              If[StringTrim[input] =!= "",
+                busy = True;
+                Module[{q = input, ans},
+                  input = "";
+                  ans = DeepSeekChat[q, model];
+                  AppendTo[msgs, <|"User" -> q, "Assistant" -> ans|>];
+                ];
+                busy = False;
+              ],
+              Method -> "Queued",
+              ImageSize -> {70, 50}
+            ]
+          }
+        ],
+        Row[
+          {
+            Button["清空窗口", msgs = {};],
+            Button[
+              "清空上下文",
+              DeepSeekClear[];
+              msgs = {};
+            ]
+          }
+        ]
+      },
+      Spacings -> 1
+    ]
+  ],
+  WindowTitle -> "DeepSeek Local Chat",
+  WindowSize -> {620, 620}
 ];
 
 ExplainMMAError[
@@ -566,6 +694,14 @@ ExplainMMAError[HoldForm[Series[x, {x, 1}]]]
 
 这里用 `HoldForm` 是为了把错误输入交给诊断函数，而不是先让它在 Notebook 里直接报错。
 
+如果不想只敲函数，也可以打开本地图形聊天面板：
+
+```wl
+DeepSeekBubbleChat[]
+```
+
+它会弹出一个小窗口，包含模型选择、输入框、发送按钮和上下文清空按钮。这个面板不是 Wolfram 官方右侧 Chatbook，底层仍然调用本文的 `DeepSeekChat[...]`，所以不会触发 Wolfram Cloud 登录流程。
+
 ## 为什么这比直接用 App 有用
 
 如果只是问概念，直接用 ChatGPT / Claude / DeepSeek App 更方便。MMA 内接 AI 的优势是它能嵌进计算流：
@@ -603,6 +739,97 @@ AskDeepSeekShow[
 ### `ServiceConnect["DeepSeek"]` 总是引导 Wolfram Cloud 登录怎么办？
 
 如果只是想用自己的 DeepSeek API key，可以不用 `ServiceConnect`，直接按上面的 `HTTPRequest` 方式调用 API。`ServiceConnect` 是 Wolfram 官方服务连接体系，适合走官方认证流程；直连 API 更适合自己控制 key、模型名和错误处理。
+
+要真正避开 Wolfram Cloud 弹窗，重点是两条：
+
+```text
+不要在 init.m 启动时运行 ServiceConnect / CloudConnect / LLMConfiguration / LLMSynthesize
+不要把右侧官方 Chatbook 的默认服务商设成 DeepSeek 后又要求它不登录 Wolfram Cloud
+```
+
+可以用下面这段检查 `init.m` 是否还有会触发 Wolfram Cloud 的语句：
+
+```wl
+init = FileNameJoin[{$UserBaseDirectory, "Kernel", "init.m"}];
+
+Select[
+  StringSplit[Import[init, "Text"], "\n"],
+  StringContainsQ[
+    #,
+    "ServiceConnect" | "CloudConnect" | "LLMConfiguration" | "LLMSynthesize"
+  ] &
+]
+```
+
+如果返回空列表，说明 `init.m` 基本干净。之后使用：
+
+```wl
+AskDeepSeek["只输出 OK"]
+DeepSeekChat["继续解释"]
+DeepSeekBubbleChat[]
+```
+
+这些都不会走 Wolfram Cloud。
+
+如果弹窗仍出现，通常是官方 Chatbook 自己保存了 DeepSeek / ServiceConnect 设置。可以软重置前端里的 Chatbook 设置：
+
+```wl
+CurrentValue[
+  $FrontEndSession,
+  {PrivateFrontEndOptions, "InterfaceSettings", "ChatbookSettings"}
+] = Inherited;
+
+CurrentValue[
+  $FrontEndSession,
+  {PrivateFrontEndOptions, "InterfaceSettings", "AIAssistant"}
+] = Inherited;
+
+CurrentValue[
+  $FrontEndSession,
+  {PrivateFrontEndOptions, "InterfaceSettings", "LLM"}
+] = Inherited;
+
+CurrentValue[
+  $FrontEndSession,
+  {PrivateFrontEndOptions, "InterfaceSettings", "Chatbook"}
+] = Inherited;
+```
+
+然后彻底重启 Wolfram。
+
+如果坚持用官方右侧气泡 Chatbook，同时还把服务商设为 DeepSeek，那么最现实的做法是登录一次 Wolfram Cloud；不然它可能反复尝试同步 cloud-stored connections。这个登录弹窗不是 `Off[ServiceConnect::warnnosync]` 能彻底解决的；`Off[...]` 只能隐藏 warning，不能阻止登录流程。
+
+### Chatbook 修复后还能直接用吗？
+
+可以。后续实测里，执行过类似：
+
+```wl
+PacletSiteUpdate /@ PacletSites[];
+PacletUninstall /@ PacletFind["Wolfram/Chatbook"];
+PacletInstall["Wolfram/Chatbook"];
+```
+
+之后官方 Chatbook 可能恢复正常。但这只修复 Chatbook paclet / 前端状态，不改变它和 Wolfram Cloud / ServiceConnect 的关系。
+
+所以最稳的分工是：
+
+| 用法 | 推荐处理 |
+|---|---|
+| 普通气泡聊天 | 官方 Chatbook + DeepSeek，接受登录 Wolfram Cloud |
+| 科研表达式、代码、报错诊断 | `AskDeepSeek` / `AskGLM` / `ExplainMMAError` |
+| 想要图形界面但不想登录 Cloud | `DeepSeekBubbleChat[]` |
+
+### 只登录 Wolfram Cloud、不订阅 Wolfram AI Access 有什么影响？
+
+影响不大，但要分清：
+
+```text
+登录 Wolfram Cloud != 订阅 Wolfram AI Access
+```
+
+只登录 Wolfram Cloud，通常只是让 Wolfram 能保存或同步 service connection，减少官方 Chatbook 反复弹登录窗口。它不会自动给你 Wolfram AI Access 订阅，也不等于开始使用 Wolfram 自家的 AI 额度。
+
+需要注意的是：如果你在官方 Chatbook / ServiceConnect 里保存 DeepSeek API key，这个连接配置可能进入 Wolfram 的 connection 管理系统，是否同步到 Wolfram Cloud 取决于你当时的保存选项和登录状态。介意 key 保存位置或科研内容流向时，优先用本文的本地 key 文件和 `HTTPRequest` 封装。
 
 ### 返回中文乱码怎么办？
 
