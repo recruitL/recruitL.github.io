@@ -32,7 +32,7 @@ MMA 15 里的 AI 不只是一件事，至少要分成三层：
 
 ## 路线 A：先检查 Wolfram 官方 AI Access
 
-Wolfram 官方说明里，Version 15 开始，活跃的 Mathematica / Wolfram|One 订阅会包含 AI Access Basic；AI Assistant 会用 LLM 把自然语言输入转成可执行的 Wolfram Language。官方的设置入口是：
+Wolfram 官方说明里，Version 15 开始，活跃的 Mathematica / Wolfram\|One 订阅会包含 AI Access Basic；AI Assistant 会用 LLM 把自然语言输入转成可执行的 Wolfram Language。官方的设置入口是：
 
 ```text
 macOS: Wolfram / Settings / AI Settings / Services
