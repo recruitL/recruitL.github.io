@@ -147,11 +147,140 @@ URLRead["https://www.wolfram.com"]
 
 安全上要保守一点：不信任的客户端不要给 Development Tools；含 API key、未公开论文数据、审稿材料的目录，不要随便让 agent 读写。只想让 AI 做数学计算时，优先给 Computation Tools。
 
-## 4. 路线 C：在 `init.m` 里直连自己的模型 API
+## 4. 网络配置与修复：先保证 Kernel 能联网
+
+Wolfram 的 AI Assistant、Chatbook、`LLMFunction`、`ServiceConnect`、Paclet 更新和本文的 HTTP 封装，最终都会落到 Mathematica Kernel 的网络能力上。浏览器、终端或 Codex 能联网，不等于 Mathematica 图形 App 里的 Kernel 一定能联网。
+
+### 4.1 先在普通 Notebook 里测网络
+
+不要先测 Chatbook 气泡界面。先开一个普通 input cell，按顺序跑：
+
+```wl
+URLRead["https://www.baidu.com"]
+URLRead["https://www.wolfram.com"]
+URLRead["https://api.deepseek.com"]
+```
+
+判断方式：
+
+- `baidu.com` 成功、`api.deepseek.com` 失败：多半是代理分流或 DeepSeek 域名规则问题；
+- 三个都失败：Mathematica Kernel 网络整体没通；
+- Wolfram 成功、DeepSeek 失败：优先查 DeepSeek 域名是否被错误直连或错误代理；
+- DeepSeek 成功，但 Chatbook 失败：再看 Chatbook paclet、模型资源或 Wolfram Cloud 登录状态。
+
+如果看到：
+
+```text
+URLRead::ssl
+URLFetch::ssl
+libcurl error (35): TLS connect error
+```
+
+这通常不是 API key 问题，而是 Mathematica Kernel 到目标站点的 HTTPS/TLS 连接失败。
+
+### 4.2 macOS 代理不要只看终端
+
+macOS 图形 App 启动的 Mathematica 不一定继承终端里的 `HTTP_PROXY` / `HTTPS_PROXY` 环境变量。也就是说，浏览器、`curl` 或 Codex 能走代理，不代表 Wolfram Kernel 也走了同一条网络。
+
+更稳的做法是让代理客户端开启：
+
+```text
+System Proxy: ON
+TUN Mode: ON
+```
+
+然后彻底重启 Mathematica 和 WolframKernel，再重新测试：
+
+```wl
+URLRead["https://api.deepseek.com"]
+```
+
+如果必须从终端临时启动，可以用占位写法，不要把真实代理端口写进公开配置：
+
+```bash
+export HTTP_PROXY=http://<PROXY_HOST>:<PROXY_PORT>
+export HTTPS_PROXY=http://<PROXY_HOST>:<PROXY_PORT>
+export ALL_PROXY=socks5h://<PROXY_HOST>:<PROXY_PORT>
+open -a Mathematica
+```
+
+这个办法在 macOS GUI App 上不一定稳定，优先级低于系统代理 / TUN。
+
+### 4.3 网络通了以后再修 Chatbook / Paclet
+
+如果先前出现过 `all-MiniLM-L6-v2 could not be found`、ChatbookInternal error、SemanticSearch 模型缺失，先不要急着重装所有东西。很多时候是首次下载模型或 paclet 时 SSL 失败，导致资源没装完整。
+
+网络测通后，先更新 paclet 站点：
+
+```wl
+PacletSiteUpdate /@ PacletSites[]
+```
+
+再检查相关 paclet：
+
+```wl
+PacletFind["Wolfram/Chatbook"]
+PacletFind["Wolfram/LLMFunctions"]
+PacletFind["Wolfram/SemanticSearch"]
+PacletFind["Wolfram/Embeddings"]
+```
+
+必要时重装 Chatbook 和 LLMFunctions：
+
+```wl
+PacletInstall["Wolfram/Chatbook", ForceVersionInstall -> True]
+PacletInstall["Wolfram/LLMFunctions", ForceVersionInstall -> True]
+```
+
+这一步应放在网络修复之后。否则 paclet 重装本身也会继续失败。
+
+### 4.4 旧连接和 MCP 干扰要分开排查
+
+如果以前输错过 DeepSeek key，Wolfram 可能复用旧 service connection。可以先看：
+
+```wl
+ServiceConnections[]
+```
+
+再断开后重连：
+
+```wl
+ServiceDisconnect["DeepSeek"]
+ServiceConnect["DeepSeek"]
+```
+
+如果 `ServiceDisconnect["DeepSeek"]` 不认，macOS 里可以到钥匙串搜索并删除旧的 Wolfram / DeepSeek / WolframConnector 凭据，再重新连接。
+
+Chatbook 启动时如果同时部署 MCP / AgentTools，报错会混在一起。排查 DeepSeek 时，可以先在 **面向 AI 的服务** 页面临时禁用 Claude Code、Claude Desktop、Codex CLI 等 MCP 客户端，只测试：
+
+```wl
+URLRead["https://api.deepseek.com"]
+LLMFunction["只输出 OK", LLMConfiguration["DeepSeek", "Model" -> "deepseek-chat"]][]
+```
+
+DeepSeek 和 Chatbook 都稳定后，再逐个启用 MCP。
+
+### 4.5 推荐排查顺序
+
+最省时间的顺序是：
+
+```text
+1. URLRead 测 baidu / wolfram / deepseek
+2. 修系统代理、TUN 或 TLS 问题
+3. ServiceConnect["DeepSeek"]
+4. LLMFunction + LLMConfiguration["DeepSeek"]
+5. PacletSiteUpdate 和 Chatbook paclet 修复
+6. 打开官方 Chatbook
+7. 最后再启用 Local MCP / AgentTools
+```
+
+不要反过来先折腾 Chatbook UI。底层网络没通时，DeepSeek API、模型下载、Chatbook 和 MCP 都会一起失败。
+
+## 5. 路线 C：在 `init.m` 里直连自己的模型 API
 
 如果 Wolfram Chatbook / Notebook Assistant 订阅或稳定性不合适，可以把 Mathematica 当成普通 HTTP 客户端，直接调用自己的模型 API。这个路线不依赖 `ServiceConnect["DeepSeek"]`，也不需要把 key 发给 Wolfram Cloud。
 
-### 4.1 先判断哪些链路会触发 Cloud
+### 5.1 先判断哪些链路会触发 Cloud
 
 后续实测后，边界可以这样分：
 
@@ -175,7 +304,7 @@ URLRead["https://www.wolfram.com"]
 - 请求 JSON 用 `ExportByteArray[..., "RawJSON"]`，避免中文被错误编码；
 - 返回 JSON 用 `ImportByteArray[..., "RawJSON"]`，再从 `choices[[1]].message.content` 取文本。
 
-### 4.2 保存 API key
+### 5.2 保存 API key
 
 先在 Mathematica 里创建私有目录：
 
@@ -217,7 +346,7 @@ FileExistsQ /@ {
 {True, True}
 ```
 
-### 4.3 写入脱敏版 `init.m`
+### 5.3 写入脱敏版 `init.m`
 
 `init.m` 的位置用 Wolfram 自己的变量拼出来，不写具体用户名：
 
@@ -238,8 +367,8 @@ FileNameJoin[{$UserBaseDirectory, "Kernel", "init.m"}]
 
 (* Optional proxy. Uncomment and edit only when needed.
 $DefaultProxyRules["UseProxy"] = Manual;
-$DefaultProxyRules["HTTP"] = {"127.0.0.1", 7890};
-$DefaultProxyRules["HTTPS"] = {"127.0.0.1", 7890};
+$DefaultProxyRules["HTTP"] = {"<PROXY_HOST>", <PROXY_PORT>};
+$DefaultProxyRules["HTTPS"] = {"<PROXY_HOST>", <PROXY_PORT>};
 $DefaultProxyRules["Socks"] = None;
 *)
 
@@ -717,7 +846,7 @@ ExplainMMAError[
 Print["Loaded direct LLM API wrappers: GLM + DeepSeek."];
 ```
 
-### 4.4 重启后测试
+### 5.4 重启后测试
 
 重启 Mathematica，先确认配置被加载：
 
@@ -761,7 +890,7 @@ DeepSeekBubbleChat[]
 
 它会弹出一个小窗口，包含模型选择、输入框、发送按钮和上下文清空按钮。这个面板不是 Wolfram 官方右侧 Chatbook，底层仍然调用本文的 `DeepSeekChat[...]`，所以不会触发 Wolfram Cloud 登录流程。
 
-## 5. 为什么这比直接用 App 有用
+## 6. 为什么这比直接用 App 有用
 
 如果只是问概念，直接用 ChatGPT / Claude / DeepSeek App 更方便。MMA 内接 AI 的优势是它能嵌进计算流：
 
@@ -793,9 +922,9 @@ AskDeepSeekShow[
 
 这才是 MMA 里配置 AI 的主要价值。
 
-## 6. 常见问题
+## 7. 常见问题
 
-### 6.1 `ServiceConnect["DeepSeek"]` 总是引导 Wolfram Cloud 登录怎么办？
+### 7.1 `ServiceConnect["DeepSeek"]` 总是引导 Wolfram Cloud 登录怎么办？
 
 如果只是想用自己的 DeepSeek API key，可以不用 `ServiceConnect`，直接按上面的 `HTTPRequest` 方式调用 API。`ServiceConnect` 是 Wolfram 官方服务连接体系，适合走官方认证流程；直连 API 更适合自己控制 key、模型名和错误处理。
 
@@ -858,7 +987,7 @@ CurrentValue[
 
 如果坚持用官方右侧气泡 Chatbook，同时还把服务商设为 DeepSeek，那么最现实的做法是登录一次 Wolfram Cloud；不然它可能反复尝试同步 cloud-stored connections。这个登录弹窗不是 `Off[ServiceConnect::warnnosync]` 能彻底解决的；`Off[...]` 只能隐藏 warning，不能阻止登录流程。
 
-### 6.2 Chatbook 修复后还能直接用吗？
+### 7.2 Chatbook 修复后还能直接用吗？
 
 可以。后续实测里，执行过类似：
 
@@ -878,7 +1007,7 @@ PacletInstall["Wolfram/Chatbook"];
 | 科研表达式、代码、报错诊断 | `AskDeepSeek` / `AskGLM` / `ExplainMMAError` |
 | 想要图形界面但不想登录 Cloud | `DeepSeekBubbleChat[]` |
 
-### 6.3 只登录 Wolfram Cloud、不订阅 Wolfram AI Access 有什么影响？
+### 7.3 只登录 Wolfram Cloud、不订阅 Wolfram AI Access 有什么影响？
 
 影响不大，但要分清：
 
@@ -890,7 +1019,7 @@ PacletInstall["Wolfram/Chatbook"];
 
 需要注意的是：如果你在官方 Chatbook / ServiceConnect 里保存 DeepSeek API key，这个连接配置可能进入 Wolfram 的 connection 管理系统，是否同步到 Wolfram Cloud 取决于你当时的保存选项和登录状态。介意 key 保存位置或科研内容流向时，优先用本文的本地 key 文件和 `HTTPRequest` 封装。
 
-### 6.4 返回中文乱码怎么办？
+### 7.4 返回中文乱码怎么办？
 
 优先检查请求体是否用字节方式导出：
 
@@ -900,7 +1029,7 @@ ExportByteArray[body, "RawJSON"]
 
 不要先 `ExportString` 再塞给 HTTP body。中文请求在 Wolfram 里被错误转码时，模型会收到乱码，回答自然会不对。
 
-### 6.5 模型说自己不是我指定的版本，是否说明路由错了？
+### 7.5 模型说自己不是我指定的版本，是否说明路由错了？
 
 不一定。模型的自我介绍不可靠。判断实际路由要看 API 返回里的 `model` 字段：
 
@@ -908,11 +1037,11 @@ ExportByteArray[body, "RawJSON"]
 GLMInspect["只输出 OK", "glm-4-flash"]["ReturnedModel"]
 ```
 
-### 6.6 没有 LLM Kit 是否还能用 Local MCP？
+### 7.6 没有 LLM Kit 是否还能用 Local MCP？
 
 Wolfram 官方 Local MCP 页面说明 Local MCP 面向已安装的 Wolfram 应用，Version 15 可直接开始使用，并且 Q&A 写明不需要额外订阅。LLM Kit 或 AI Access 的订阅边界主要影响 Wolfram 自己的 AI Assistant / Chat Notebook / LLM 功能，不要把它和外部 AI 调用本地 Wolfram 的 MCP 链路混在一起。
 
-## 7. 安全边界
+## 8. 安全边界
 
 - 不要把 API key 写进 `init.m` 或 Git 仓库；
 - 如果 key 曾经发到聊天窗口或公开页面，直接去平台重置；
@@ -920,7 +1049,7 @@ Wolfram 官方 Local MCP 页面说明 Local MCP 面向已安装的 Wolfram 应�
 - 只需要计算时给外部客户端 Computation Tools，确实要改代码时再给 Development Tools；
 - 公开教程里不要出现真实用户名、真实本机路径、真实代理端口、真实账号状态截图。
 
-## 8. 参考
+## 9. 参考
 
 - [Wolfram AI Assistant](https://www.wolfram.com/ai-assistant/)
 - [Wolfram AI Access Subscriptions](https://www.wolfram.com/ai-access/)
