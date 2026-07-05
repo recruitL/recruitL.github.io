@@ -949,6 +949,44 @@ pre code {
 
 // Sassline overrides
 .typeset {
+  > table {
+    border: 1px solid #bfd4d0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    margin: .4rem 0 1.2rem;
+    max-width: 100%;
+    overflow-x: auto;
+    width: 100%;
+
+    th,
+    td {
+      border: 1px solid #bfd4d0;
+      padding: .55rem .7rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    thead th {
+      background: #e8f4f7;
+      border-bottom: 2px solid #8fb8c0;
+      color: $headingColour;
+      font-weight: 700;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: $backgroundColour;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f4f8f7;
+    }
+
+    tbody tr:hover {
+      background: #eef8fb;
+    }
+  }
+
   a > code {
     text-shadow: none;
   }
