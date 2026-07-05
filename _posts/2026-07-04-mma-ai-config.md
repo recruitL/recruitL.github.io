@@ -48,19 +48,87 @@ macOS: Wolfram / Settings / AI Settings / Services
 
 这张图里的重点是下面的 **直接连接服务商**，不是上面的 Wolfram AI Access 订阅卡片。DeepSeek / OpenAI / OpenRouter 这类服务商通常需要你自己的 API key，模型费用也按外部服务商规则走。
 
-### 2.2 角色：不要选 Wolfram AI Assistant
+### 2.2 Ollama 本地中转：把第三方 API 包装成 Chatbook 模型
+
+如果你用的是 GLM / Z.ai / BigModel 这类 **OpenAI-compatible** 接口，要注意 Wolfram 的 OpenAI 服务商面板通常只让你填 API key，不一定给你改 Base URL 的入口。OpenRouter 可以绕一层，但那走的是 OpenRouter 的账户和额度，不是你自己的第三方 API key。
+
+更稳的做法是把第三方 API 包装成一个本机 Ollama-compatible 服务：
+
+```text
+Wolfram Chatbook
+-> Ollama provider
+-> http://127.0.0.1:11434
+-> 第三方 OpenAI-compatible /chat/completions
+```
+
+这样 Wolfram 仍然选择 **Ollama** 服务商，本机 `127.0.0.1:11434` 负责把 `/api/chat`、`/api/generate`、`/api/tags` 等请求转发给上游模型。完整代理代码不要放进网页正文，已经单独放到脱敏模板里：
+
+- [查看 Ollama -> OpenAI-compatible 代理模板](/assets/docs/mma-ai-config/ollama-openai-compatible-proxy.md)
+
+启动时只用占位符，不要把真实 key 写进 Markdown、截图、Git 仓库或 `init.m`：
+
+```bash
+cd ~/glm_ollama_proxy
+source .venv/bin/activate
+
+export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
+export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
+export GLM_MODEL="<UPSTREAM_MODEL>"
+export LOCAL_MODEL_NAME="glm:latest"
+
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11434
+```
+
+`GLM_BASE_URL` 写服务商文档或后台给出的 OpenAI-compatible base URL，不要写到 `/chat/completions`，模板会自动拼接。`uvicorn` 绑定到 `127.0.0.1` 即可，不要暴露到公网。
+
+先用终端测试：
+
+```bash
+curl http://127.0.0.1:11434/api/tags
+
+curl http://127.0.0.1:11434/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "glm:latest",
+    "stream": false,
+    "messages": [
+      {"role": "user", "content": "只回答 GLM_PROXY_TEST"}
+    ]
+  }'
+```
+
+再回 Wolfram 里测 Ollama：
+
+```wl
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11434}];
+Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
+ServiceExecute["Ollama", "TestConnection"]
+
+ServiceExecute[
+  "Ollama",
+  "ChatService",
+  {"Model" -> "glm:latest",
+   "Messages" -> {<|"Role" -> "User", "Content" -> "只回答 GLM_PROXY_TEST"|>}}
+]
+```
+
+如果终端能看到 `POST /api/chat ... 200 OK`，并且返回内容包含 `GLM_PROXY_TEST`，说明链路已经通了。Wolfram 偶尔提示 `PresencePenalty` 不被 Ollama 支持，这通常只是参数被忽略的警告，不代表代理失败。
+
+如果之前在聊天记录、截图或终端日志里贴过真实 API key，应当去服务商后台删除旧 key，重新生成一个。
+
+### 2.3 角色：不要选 Wolfram AI Assistant
 
 如果你决定暂时使用官方 Chatbook 气泡界面，那么 **角色** 标签里建议保持普通聊天角色，并把 LLM 服务商设为 DeepSeek / OpenAI 等外部服务商。不要把角色或入口切到 Wolfram AI Assistant / Wolfram AI Access，除非你确实有对应订阅；否则很容易再次进入 Wolfram 自家 AI Access / Cloud 登录流程。
 
 ![Wolfram AI 设置中的角色页，角色保持普通聊天人，LLM 服务商选择 DeepSeek。](/assets/images/mma-ai-config/role-not-wolfram-ai.png)
 
-### 2.3 工具：启用 LLM 可调用能力
+### 2.4 工具：启用 LLM 可调用能力
 
 在 **工具** 标签里，可以管理 LLM 能调用的工具，例如文档检索、WolframAlpha、Wolfram Language 代码执行、网页抓取和网页搜索等。需要安装更多工具时，可以点 **LLM 工具库**，它指向 Wolfram 官方的 [LLM Tool Repository](https://resources.wolframcloud.com/LLMToolRepository?ChannelID=5a7929e0-d26d-4d29-9928-4ed9e8cb9c60)。这个页面是 Wolfram 提供的 LLM 工具接口集合，用来给 LLM 增加可调用的工具能力。
 
 ![Wolfram AI 设置中的工具页，可以启用文档检索、WolframAlpha、Wolfram Language Evaluator 和网页工具。](/assets/images/mma-ai-config/llm-tools-settings.png)
 
-### 2.4 Cell style：区分代码、文本和聊天输入
+### 2.5 Cell style：区分代码、文本和聊天输入
 
 Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell 是可执行代码、普通文字、标题，还是 Chatbook 相关的聊天输入。
 
@@ -87,7 +155,7 @@ Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell
 给官方 Chatbook 设定长期角色 -> ChatSystemInput
 ```
 
-### 2.5 最小测试：确认官方 AI Access 可用
+### 2.6 最小测试：确认官方 AI Access 可用
 
 进入后登录 Wolfram Account，再开一个新 Notebook 测试 Assistant。
 
