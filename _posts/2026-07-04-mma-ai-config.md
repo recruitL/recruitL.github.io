@@ -57,11 +57,11 @@ macOS: Wolfram / Settings / AI Settings / Services
 ```text
 Wolfram Chatbook
 -> Ollama provider
--> http://127.0.0.1:11434
+-> http://127.0.0.1:11435
 -> 第三方 OpenAI-compatible /chat/completions
 ```
 
-这样 Wolfram 仍然选择 **Ollama** 服务商，本机 `127.0.0.1:11434` 负责把 `/api/chat`、`/api/generate`、`/api/tags` 等请求转发给上游模型。完整代理代码不要放进网页正文，已经单独放到脱敏模板里：
+这样 Wolfram 仍然选择 **Ollama** 服务商，本机 `127.0.0.1:11435` 负责把 `/api/chat`、`/api/generate`、`/api/tags` 等请求转发给上游模型。这里建议用 `11435`，因为 `11434` 是真实 Ollama 的默认端口，容易被 Ollama App、Wolfram 的 `UseLocalOllama` 或后台服务重新占走。完整代理代码不要放进网页正文，已经单独放到脱敏模板里：
 
 - [查看 Ollama -> OpenAI-compatible 代理模板](/assets/docs/mma-ai-config/ollama-openai-compatible-proxy.md)
 
@@ -76,7 +76,7 @@ export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
 export GLM_MODEL="<UPSTREAM_MODEL>"
 export LOCAL_MODEL_NAME="glm:latest"
 
-uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11434
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
 ```
 
 `GLM_BASE_URL` 写服务商文档或后台给出的 OpenAI-compatible base URL，不要写到 `/chat/completions`，模板会自动拼接。`uvicorn` 绑定到 `127.0.0.1` 即可，不要暴露到公网。
@@ -84,9 +84,9 @@ uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11434
 先用终端测试：
 
 ```bash
-curl http://127.0.0.1:11434/api/tags
+curl http://127.0.0.1:11435/api/tags
 
-curl http://127.0.0.1:11434/api/chat \
+curl http://127.0.0.1:11435/api/chat \
   -H "Content-Type: application/json" \
   -d '{
     "model": "glm:latest",
@@ -100,7 +100,7 @@ curl http://127.0.0.1:11434/api/chat \
 再回 Wolfram 里测 Ollama：
 
 ```wl
-Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11434}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
 Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
 ServiceExecute["Ollama", "TestConnection"]
 
@@ -113,6 +113,95 @@ ServiceExecute[
 ```
 
 如果终端能看到 `POST /api/chat ... 200 OK`，并且返回内容包含 `GLM_PROXY_TEST`，说明链路已经通了。Wolfram 偶尔提示 `PresencePenalty` 不被 Ollama 支持，这通常只是参数被忽略的警告，不代表代理失败。
+
+#### Clash TUN 之后真实 Ollama 抢端口的 debug
+
+如果关闭再打开 Clash TUN 后，原来可用的代理突然返回：
+
+```text
+model 'glm:latest' not found
+```
+
+优先不要改 Python 代码。这个错误通常不是上游 GLM / Z.ai / BigModel 返回的，而是 Wolfram 又连到了 **真实 Ollama**。真实 Ollama 会检查本机是否真的有 `glm:latest` 模型；本文的 Python 代理不会检查这个名字，而是直接转发到 `GLM_MODEL`。
+
+先查端口：
+
+```bash
+lsof -i :11434
+lsof -i :11435
+```
+
+理想状态是：
+
+```text
+11434 -> ollama 可以存在，不管它
+11435 -> Python / uvicorn 必须存在
+```
+
+如果 `11434` 里看到 `ollama ... LISTEN`，同时 `11435` 没有 `Python` / `uvicorn`，说明真实 Ollama 抢回了默认端口，而你的 GLM 代理没有跑。Clash TUN 本身不是“启动 Ollama”的直接原因，但它会刷新 DNS、系统代理、路由、loopback 访问和已有 TCP 连接；Wolfram / Chatbook / ServiceConnection 重新探测本地 Ollama 时，可能触发 Ollama App、Login Item、`launchctl` agent、`ServiceExecute["Ollama", "Start"]` 或 `ServiceExecute["Ollama", "UseLocalOllama"]`，从而把真实 Ollama 拉起来。
+
+所以代理模式下不要运行：
+
+```wl
+ServiceExecute["Ollama", "Start"]
+ServiceExecute["Ollama", "UseLocalOllama"]
+```
+
+只设置 IP 和端口：
+
+```wl
+SetEnvironment["NO_PROXY" -> "localhost,127.0.0.1,::1"];
+SetEnvironment["no_proxy" -> "localhost,127.0.0.1,::1"];
+
+Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
+
+{
+  ServiceExecute["Ollama", "GetOllamaIP"],
+  ServiceExecute["Ollama", "GetOllamaPort"],
+  ServiceExecute["Ollama", "TestConnection"]
+}
+```
+
+如果 `GetOllamaPort` 返回 `11434`，说明 Wolfram 又指回真实 Ollama 了，重新设为 `11435`。
+
+Clash TUN 改写 DNS 时，可以在系统层修 DNS 和本地绕过规则：
+
+```bash
+sudo networksetup -setdnsservers Wi-Fi 223.5.5.5 119.29.29.29 8.8.8.8 1.1.1.1
+networksetup -getdnsservers Wi-Fi
+networksetup -setproxybypassdomains Wi-Fi localhost 127.0.0.1 ::1 "*.local"
+```
+
+但 DNS 修复不能防止真实 Ollama 抢端口。最稳的固定方案是：
+
+```text
+真实 Ollama: 允许占 11434
+GLM 代理: 固定跑 11435
+Wolfram Ollama service: 固定指向 127.0.0.1:11435
+```
+
+可以把启动命令保存成 `~/glm_ollama_proxy/start.sh`：
+
+```bash
+#!/bin/bash
+cd ~/glm_ollama_proxy
+source .venv/bin/activate
+
+export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
+export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
+export GLM_MODEL="<UPSTREAM_MODEL>"
+export LOCAL_MODEL_NAME="glm:latest"
+
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
+```
+
+以后启动只需要：
+
+```bash
+chmod +x ~/glm_ollama_proxy/start.sh
+~/glm_ollama_proxy/start.sh
+```
 
 如果之前在聊天记录、截图或终端日志里贴过真实 API key，应当去服务商后台删除旧 key，重新生成一个。
 

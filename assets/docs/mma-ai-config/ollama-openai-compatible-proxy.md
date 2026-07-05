@@ -13,7 +13,7 @@
 ```text
 Wolfram Chatbook
 -> Ollama provider
--> http://127.0.0.1:11434
+-> http://127.0.0.1:11435
 -> 第三方 OpenAI-compatible /chat/completions
 ```
 
@@ -489,17 +489,17 @@ export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
 export GLM_MODEL="<UPSTREAM_MODEL>"
 export LOCAL_MODEL_NAME="glm:latest"
 
-uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11434
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
 ```
 
-如果端口被真正的 Ollama 占用，先退出 Ollama App，或换一个端口并在 Wolfram 里同步设置端口。不要把 `uvicorn` 绑定到 `0.0.0.0` 暴露给公网。
+这里推荐 `11435`，避免和真实 Ollama 默认端口 `11434` 抢占。如果确认本机没有真实 Ollama，也可以用 `11434`；但只要安装过 Ollama App 或运行过 Wolfram 的 `UseLocalOllama`，建议固定用 `11435`。不要把 `uvicorn` 绑定到 `0.0.0.0` 暴露给公网。
 
 ## 4. 终端测试
 
 新开一个终端：
 
 ```bash
-curl http://127.0.0.1:11434/api/tags
+curl http://127.0.0.1:11435/api/tags
 ```
 
 应该看到 `glm:latest` 一类的本地模型名。
@@ -507,7 +507,7 @@ curl http://127.0.0.1:11434/api/tags
 继续测试聊天：
 
 ```bash
-curl http://127.0.0.1:11434/api/chat \
+curl http://127.0.0.1:11435/api/chat \
   -H "Content-Type: application/json" \
   -d '{
     "model": "glm:latest",
@@ -525,7 +525,7 @@ curl http://127.0.0.1:11434/api/chat \
 在 Mathematica / Wolfram Language 中：
 
 ```wl
-Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11434}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
 Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
 ServiceExecute["Ollama", "TestConnection"]
 ```
@@ -549,17 +549,113 @@ POST /api/chat ... 200 OK
 
 说明 Wolfram 已经访问本地代理。模型显示名可以和 `LOCAL_MODEL_NAME` 不完全一致，因为代理最终调用的上游模型由 `GLM_MODEL` 决定。
 
-## 6. 常见问题
+## 6. Clash TUN / 真 Ollama 抢端口排查
+
+如果 Clash TUN 关掉又打开后，Wolfram 突然返回：
+
+```text
+model 'glm:latest' not found
+```
+
+通常说明 Wolfram 没有打到这个 Python 代理，而是打到了真实 Ollama。真实 Ollama 默认监听 `11434`，并且会检查本机是否真的安装了 `glm:latest` 模型；本代理不会检查客户端传来的模型名，而是转发到环境变量里的 `GLM_MODEL`。
+
+先查端口：
+
+```bash
+lsof -i :11434
+lsof -i :11435
+```
+
+理想状态：
+
+```text
+11434 -> ollama 可以存在
+11435 -> Python / uvicorn 必须存在
+```
+
+如果看到：
+
+```text
+ollama ... LISTEN localhost:11434
+```
+
+这不一定是错，只要 Wolfram 指向 `11435`。如果 `11435` 没有 `Python` / `uvicorn`，说明代理没跑。
+
+代理模式下不要运行：
+
+```wl
+ServiceExecute["Ollama", "Start"]
+ServiceExecute["Ollama", "UseLocalOllama"]
+```
+
+这些命令可能启动真正的本地 Ollama。代理模式只需要设置端口和 IP：
+
+```wl
+SetEnvironment["NO_PROXY" -> "localhost,127.0.0.1,::1"];
+SetEnvironment["no_proxy" -> "localhost,127.0.0.1,::1"];
+
+Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
+
+{
+  ServiceExecute["Ollama", "GetOllamaIP"],
+  ServiceExecute["Ollama", "GetOllamaPort"],
+  ServiceExecute["Ollama", "TestConnection"]
+}
+```
+
+如果 `GetOllamaPort` 返回 `11434`，说明 Wolfram 又指回真实 Ollama 了，重新设置为 `11435`。
+
+Clash TUN 可能会刷新 DNS、系统代理、路由、loopback 访问和已有 TCP 连接。DNS 被改写时可以修复：
+
+```bash
+sudo networksetup -setdnsservers Wi-Fi 223.5.5.5 119.29.29.29 8.8.8.8 1.1.1.1
+networksetup -getdnsservers Wi-Fi
+networksetup -setproxybypassdomains Wi-Fi localhost 127.0.0.1 ::1 "*.local"
+```
+
+但 DNS 修复不能防止真实 Ollama 抢 `11434`。最稳结构是：
+
+```text
+真实 Ollama: 11434
+GLM proxy: 11435
+Wolfram Ollama service: 127.0.0.1:11435
+```
+
+可以把启动命令保存成 `~/glm_ollama_proxy/start.sh`：
+
+```bash
+#!/bin/bash
+cd ~/glm_ollama_proxy
+source .venv/bin/activate
+
+export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
+export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
+export GLM_MODEL="<UPSTREAM_MODEL>"
+export LOCAL_MODEL_NAME="glm:latest"
+
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
+```
+
+然后执行：
+
+```bash
+chmod +x ~/glm_ollama_proxy/start.sh
+~/glm_ollama_proxy/start.sh
+```
+
+## 7. 常见问题
 
 | 现象 | 判断 | 处理 |
 |---|---|---|
-| `curl /api/tags` 不通 | 本地代理没有启动或端口不对 | 检查 `uvicorn` 是否还在运行，确认端口是 `11434` |
+| `curl /api/tags` 不通 | 本地代理没有启动或端口不对 | 检查 `uvicorn` 是否还在运行，确认端口是 `11435` |
 | `curl /api/chat` 报上游错误 | 服务商 API 参数不对 | 检查 `GLM_BASE_URL`、`GLM_MODEL`、`GLM_API_KEY`，不要把 base URL 写到 `/chat/completions` |
+| `model 'glm:latest' not found` | Wolfram 打到了真实 Ollama | 查 `lsof -i :11434` 和 `lsof -i :11435`，让代理固定跑 `11435`，并在 Wolfram 里 `SetOllamaPort -> 11435` |
 | Wolfram 提示 `PresencePenalty` 不支持 | 通常只是参数忽略警告 | 只要终端显示 `POST /api/chat ... 200 OK`，先看返回内容是否正常 |
 | Wolfram 红框但终端是 `200 OK` | Chatbook 前端期望的字段可能更多 | 看是否调用了 `/api/show`、`/api/generate`、`/api/ps`，必要时补兼容端点 |
 | 终端一关就不能用了 | 代理进程被关闭 | 保持 `uvicorn` 终端运行，或写本机启动脚本 |
 
-## 7. 安全提醒
+## 8. 安全提醒
 
 - 真实 API key 只放在本机环境变量或私有密钥文件中。
 - 不要把真实 key 写进 Markdown、Notebook、`init.m`、Git 仓库、截图或聊天记录。
