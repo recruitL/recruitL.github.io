@@ -6,7 +6,7 @@ permalink: /papers/
 
 <section class="paper-watch-home">
 <p>这里自动汇总 gr-qc、致密双星建模、LVK/LISA、QNM、相关天文/高能方向，以及 AI/知识库方向的论文与新闻线索。</p>
-<p><strong>最新日报：</strong><a href="/papers/2026-06-25/">2026-06-25</a>，收录 45 条；批阅候选 80 条。</p>
+<p><strong>最新日报：</strong><a href="/papers/2026-07-07/">2026-07-07</a>，收录 21 条；批阅候选 29 条。</p>
 </section>
 
 ## 关注范围
@@ -18,6 +18,18 @@ permalink: /papers/
 ## 历史日报
 
 <ul class="paper-history">
+<li><a href="/papers/2026-07-07/">2026-07-07</a> <span>21 条，2026-07-07 06:32 CST</span></li>
+<li><a href="/papers/2026-07-06/">2026-07-06</a> <span>21 条，2026-07-07 06:31 CST</span></li>
+<li><a href="/papers/2026-07-05/">2026-07-05</a> <span>0 条，2026-07-07 06:31 CST</span></li>
+<li><a href="/papers/2026-07-04/">2026-07-04</a> <span>25 条，2026-07-07 06:30 CST</span></li>
+<li><a href="/papers/2026-07-03/">2026-07-03</a> <span>45 条，2026-07-07 06:30 CST</span></li>
+<li><a href="/papers/2026-07-02/">2026-07-02</a> <span>45 条，2026-07-07 06:29 CST</span></li>
+<li><a href="/papers/2026-07-01/">2026-07-01</a> <span>45 条，2026-07-07 06:28 CST</span></li>
+<li><a href="/papers/2026-06-30/">2026-06-30</a> <span>45 条，2026-07-07 06:28 CST</span></li>
+<li><a href="/papers/2026-06-29/">2026-06-29</a> <span>35 条，2026-07-07 06:27 CST</span></li>
+<li><a href="/papers/2026-06-28/">2026-06-28</a> <span>0 条，2026-07-07 06:26 CST</span></li>
+<li><a href="/papers/2026-06-27/">2026-06-27</a> <span>34 条，2026-07-07 06:26 CST</span></li>
+<li><a href="/papers/2026-06-26/">2026-06-26</a> <span>45 条，2026-07-07 06:25 CST</span></li>
 <li><a href="/papers/2026-06-25/">2026-06-25</a> <span>45 条，2026-06-26 09:16 CST</span></li>
 <li><a href="/papers/2026-06-24/">2026-06-24</a> <span>45 条，2026-06-24 11:42 CST</span></li>
 <li><a href="/papers/2026-06-23/">2026-06-23</a> <span>45 条，2026-06-23 16:36 CST</span></li>

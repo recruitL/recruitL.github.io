@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-07-07 06:26 CST",
+  "window": "2026-06-27 00:00 至 2026-06-29 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science RSS",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 500: Server Error"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-06-28.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "doi:10.1126/science.adu5501",
+      "title": "A native sulfur deposit in Gale crater, Mars",
+      "authors": [
+        "Scott J. VanBommel",
+        "Jeff A. Berger",
+        "Penelope L. King",
+        "William E. Dietrich",
+        "Ralf Gellert",
+        "Lucy M. Thompson",
+        "Ashwin R. Vasavada",
+        "Alexander B. Bryk"
+      ],
+      "abstract": "Martian rocks are known to contain sulfur-bearing species, including sulfates and sulfides. These compounds record a sulfur cycle that operated over Mars’ geological evolution. We used the Curiosity rover to investigate a deposit of light-toned stones in Gediz Vallis, within Gale crater on Mars. We find that the stones are composed of native sulfur. The sulfur deposit appears to have formed in place, within a sinuous entrenched canyon cut into the floor of Gediz Vallis. The presence of native sulfur implies that a sulfur enrichment pathway involving buoyant subsurface fluids operated on ancient Mars. We propose that the primary source of this sulfur was magmatic vapor, which cooled in the near subsurface cryosphere and was released by decompression during the erosion of Gediz Vallis.",
+      "url": "https://doi.org/10.1126/science.adu5501",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-28T08:00:00+08:00",
+      "updated": "2026-06-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.adu5501",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Martian rocks are known to contain sulfur-bearing species, including sulfates and sulfides.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}

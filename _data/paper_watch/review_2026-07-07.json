@@ -79,12 +79,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 21,
-  "total_review_candidates": 29,
-  "report_path": "/papers/2026-07-07/",
   "review_path": "_paper_reviews/2026-07-07.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/n6p4-ftgq",
       "title": "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset",
       "authors": [
@@ -125,6 +123,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/blyb-lqv6",
       "title": "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses",
       "authors": [
@@ -166,6 +165,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "doi:10.1103/n6p4-ftgq",
       "title": "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset",
       "authors": [
@@ -204,6 +204,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "doi:10.1103/zjcp-ssrw",
       "title": "Scattering Amplitudes and Conservative Binary Dynamics at O ( G 5 ) without Self-Force Truncation",
       "authors": [
@@ -246,6 +247,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "doi:10.1103/blyb-lqv6",
       "title": "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses",
       "authors": [
@@ -281,6 +283,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "doi:10.1103/24g1-k5p2",
       "title": "Gravitational Scattering of Solitonic Boson Stars: Analytics vs Numerics",
       "authors": [
@@ -317,6 +320,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "doi:10.1103/2hrd-vv2q",
       "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
       "authors": [
@@ -351,6 +355,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "doi:10.1103/811n-z924",
       "title": "Erratum: Two-loop four-graviton scattering amplitudes [Phys. Rev. Lett. 124, 211601 (2020)]",
       "authors": [
@@ -380,6 +385,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "doi:10.1103/z9nd-rprp",
       "title": "Quantifying and minimizing dissipation in a nonequilibrium phase transition",
       "authors": [
@@ -409,6 +415,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "doi:10.1103/dyyz-ddyg",
       "title": "Collapse and revival of exciton-polaritons in a single nanocavity revealed by ultrafast nonlinear microscopy",
       "authors": [
@@ -438,6 +445,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "doi:10.1103/lss3-jym7",
       "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
       "authors": [
@@ -470,6 +478,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "doi:10.1103/m7ds-n1cf",
       "title": "Freeness Reined in by a Single Qubit",
       "authors": [
@@ -502,6 +511,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "doi:10.1103/54vv-lgc7",
       "title": "Combination of Measurements of C P Properties of Higgs Boson Interactions with Vector Bosons Using Proton-Proton Collisions at s = 13 TeV with the ATLAS Detector",
       "authors": [
@@ -538,6 +548,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "doi:10.1103/1rj5-2wvr",
       "title": "Searches for charged-lepton-flavor violation in χ b J ( 1 P ) decays",
       "authors": [
@@ -567,6 +578,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "doi:10.1103/tv26-7r8g",
       "title": "Higher-Order QCD Corrections to Top-Quark Pair Production in Association with a Jet",
       "authors": [
@@ -602,6 +614,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "doi:10.1103/ktfc-l4yt",
       "title": "Europium valence in pressurized EuO",
       "authors": [
@@ -631,6 +644,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "doi:10.1103/3z14-zzj7",
       "title": "Deformation-potential-driven photostriction in layered ferroelectrics",
       "authors": [
@@ -660,6 +674,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "doi:10.1103/gbbj-hpqk",
       "title": "Single-Nucleon Transfer on Unstable Cu 59 Probes the NiCu Cycle in Astrophysical X-Ray Bursts",
       "authors": [
@@ -696,6 +711,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "doi:10.1103/ngxy-z1d3",
       "title": "Dynamic heterogeneity and stretched exponential distributions in cargo transport within living cells",
       "authors": [
@@ -725,6 +741,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "doi:10.1103/837t-68bf",
       "title": "Analytically continuing the randomized measurement toolbox",
       "authors": [
@@ -754,6 +771,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "doi:10.1103/21ts-5d39",
       "title": "P T -Symmetric Magnon Lasing and Antilasing",
       "authors": [
@@ -783,6 +801,243 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "https://www.nature.com/articles/d41586-026-02096-1",
+      "title": "From cloning to gene-editing: the enduring legacy of Dolly the sheep",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02096-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "https://www.nature.com/articles/d41586-026-01358-2",
+      "title": "Universities are relying on AI-detection software to catch cheating. How well do the programs work?",
+      "authors": [
+        "Anna McKie"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-01358-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "https://www.nature.com/articles/d41586-026-02087-2",
+      "title": "Deep-sea oddities and boatloads of other new species — June’s best science images",
+      "authors": [
+        "Miryam Naddaf",
+        "Dhruv Shenai"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02087-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "https://www.nature.com/articles/d41586-026-02099-y",
+      "title": "The rise of computer chips — and the race to control them",
+      "authors": [
+        "Chris Stokel-Walker"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02099-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "https://www.nature.com/articles/d41586-026-02097-0",
+      "title": "Time to give hydration breaks the red card? What science says about keeping cool",
+      "authors": [
+        "Harry Brown"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02097-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-02099-y",
+      "title": "The rise of computer chips — and the race to control them",
+      "authors": [
+        "Chris Stokel-Walker"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02099-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02099-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-01358-2",
+      "title": "Universities are relying on AI-detection software to catch cheating. How well do the programs work?",
+      "authors": [
+        "Anna McKie"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01358-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01358-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02096-1",
+      "title": "From cloning to gene-editing: the enduring legacy of Dolly the sheep",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02096-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-06T08:00:00+08:00",
+      "updated": "2026-07-06T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02096-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }

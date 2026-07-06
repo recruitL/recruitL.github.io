@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-07 06:31 CST",
+  "window": "2026-07-04 00:00 至 2026-07-06 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science RSS",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-07-05.md",
+  "candidates": []
+}

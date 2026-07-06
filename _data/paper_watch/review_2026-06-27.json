@@ -1,0 +1,1463 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-07-07 06:26 CST",
+  "window": "2026-06-26 00:00 至 2026-06-28 00:00 Asia/Shanghai",
+  "counts": {
+    "recommended": 1,
+    "related": 33
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science RSS",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 13
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 21
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-06-27.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "http://link.aps.org/doi/10.1103/rj3x-133s",
+      "title": "Profile and Dynamics of Antiferromagnetic Domain Walls under Spin-Orbit Torque",
+      "authors": [
+        "G. Theodorou and S. Komineas"
+      ],
+      "abstract": "Author(s): G. Theodorou and S. Komineas Domain walls in antiferromagnets under spin-polarized current present dynamics that is not observed in ferromagnets and it is tunable by the current polarization. Propagating walls are obtained for an in-plane polarization and precessional dynamics is obtained for perpendicular polarization. We obta… [Phys. Rev. Lett. 136, 256710] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/rj3x-133s",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 48,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "致密双星建模"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "precession"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): G.",
+        "why_relevant": "匹配关注项：致密双星建模。",
+        "method_or_signal": "precession",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
+      "authors": [
+        "Zhen Cao et al. (LHAASO Collaboration)"
+      ],
+      "abstract": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 136, 251002] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Cosmology, Astrophysics, and Gravitation"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 33,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "cosmology"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): Zhen Cao et al.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "cosmology",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "http://link.aps.org/doi/10.1103/n8xv-kygx",
+      "title": "Dissipative Phase Transition of Interacting Nonreciprocal Fermions",
+      "authors": [
+        "Rafael D. Soares, Matteo Brunelli, and Marco Schirò"
+      ],
+      "abstract": "Author(s): Rafael D. Soares, Matteo Brunelli, and Marco Schirò While nonreciprocal couplings are ubiquitous in classical systems, their impact on quantum many-body criticality and entanglement remains largely unexplored. Using exact numerical simulations, we study an interacting fermionic chain subject to nonreciprocal gain and loss. We show that the interplay … [Phys. Rev. Lett. 136, 250403] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/n8xv-kygx",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Rafael D.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "http://link.aps.org/doi/10.1103/4w7y-kjzk",
+      "title": "Continuous Time Crystals as a $\\mathcal{P}\\mathcal{T}$ Symmetric State and the Emergence of Critical Exceptional Points",
+      "authors": [
+        "Yuma Nakanishi, Ryo Hanai, and Tomohiro Sasamoto"
+      ],
+      "abstract": "Author(s): Yuma Nakanishi, Ryo Hanai, and Tomohiro Sasamoto Continuous time-translation symmetry is often spontaneously broken in open quantum systems, and the condition for their emergence has been actively investigated. However, there are only a few cases in which its condition for appearance has been fully elucidated. In this Letter, we show that a Lindbl… [Phys. Rev. Lett. 136, 250404] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/4w7y-kjzk",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Yuma Nakanishi, Ryo Hanai, and Tomohiro Sasamoto Continuous time-translation symmetry is often spontaneously broken in open quantum systems, and the condition for their emergence has been actively investigated.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "http://link.aps.org/doi/10.1103/94cc-zdbl",
+      "title": "Crystalline Spectral Form Factors",
+      "authors": [
+        "Dmitrii A. Trunin and David A. Huse"
+      ],
+      "abstract": "Author(s): Dmitrii A. Trunin and David A. Huse We investigate crystallinelike behavior of the spectral form factor in unitary quantum systems with extremely strong eigenvalue repulsion. Using a low-temperature Coulomb gas as a model of repulsive eigenvalues, we derive the Debye-Waller factor suppressing periodic oscillations of the spectral form… [Phys. Rev. Lett. 136, 250405] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/94cc-zdbl",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Dmitrii A.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "http://link.aps.org/doi/10.1103/6fcg-2zns",
+      "title": "Superbunching from Coherently Driven Atoms in a Waveguide",
+      "authors": [
+        "Zeidan Zeidan, Therese Karmstrand, Maryam Khanahmadi, and Göran Johansson"
+      ],
+      "abstract": "Author(s): Zeidan Zeidan, Therese Karmstrand, Maryam Khanahmadi, and Göran Johansson We investigate the scattered field from $N$ identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional waveguide. For atoms separated by the drive wavelength, increasing the number of atoms suppresses transmission while enhancing photon bunching. Transmission becomes a… [Phys. Rev. Lett. 136, 250803] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/6fcg-2zns",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Zeidan Zeidan, Therese Karmstrand, Maryam Khanahmadi, and Göran Johansson We investigate the scattered field from $N$ identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional waveguide.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "http://link.aps.org/doi/10.1103/qtst-bdmt",
+      "title": "Pattern Formation during Melting of Lamellar Eutectics",
+      "authors": [
+        "Rahul Nellissery Rajan, Rajesh Kumari Rajendran, Guillaume Boussinot, Kamal Sbargoud, Sabine Bottin-Rousseau, and Silvère Akamatsu"
+      ],
+      "abstract": "Author(s): Rahul Nellissery Rajan, Rajesh Kumari Rajendran, Guillaume Boussinot, Kamal Sbargoud, Sabine Bottin-Rousseau, and Silvère Akamatsu A rich diversity of patterns emerge during melting of a two-phase eutectic solid. [Phys. Rev. Lett. 136, 256301] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/qtst-bdmt",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Rahul Nellissery Rajan, Rajesh Kumari Rajendran, Guillaume Boussinot, Kamal Sbargoud, Sabine Bottin-Rousseau, and Silvère Akamatsu A rich diversity of patterns emerge during melting of a two-phase eutectic solid.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "http://link.aps.org/doi/10.1103/vzrc-5m39",
+      "title": "Real-Space Dynamic Electron Correlation in Beryllium",
+      "authors": [
+        "Rudra B. Bista, Yuya Shinohara, Wojciech Dmowski, Chae Woo Ryu, Jung Ho Kim, Mary Upton, Hlynur Gretarsson, Martin Sundermann, and Takeshi Egami"
+      ],
+      "abstract": "Author(s): Rudra B. Bista, Yuya Shinohara, Wojciech Dmowski, Chae Woo Ryu, Jung Ho Kim, Mary Upton, Hlynur Gretarsson, Martin Sundermann, and Takeshi Egami The size of the exchange-correlation hole in beryllium is about 2 Å, but it extends up to about 5 Å at the plasmon excitation energy, demonstrating that electron correlations are affected significantly by electron dynamics. [Phys. Rev. Lett. 136, 256402] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/vzrc-5m39",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Rudra B.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "http://link.aps.org/doi/10.1103/8k84-ntqz",
+      "title": "Many-Body Perturbation Theory for Driven Dissipative Quasiparticle Flows and Fluctuations",
+      "authors": [
+        "Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek"
+      ],
+      "abstract": "Author(s): Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek We present a unified many-body perturbation theory for open quantum systems that treats dissipation, correlations, and external driving on equal footing. Using a Keldysh-Lindblad formalism, we introduce a diagrammatic treatment of dissipative interaction lines representing quasiparticle flows and fl… [Phys. Rev. Lett. 136, 256403] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/8k84-ntqz",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek We present a unified many-body perturbation theory for open quantum systems that treats dissipation, correlations, and external driving on equal footing.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "http://link.aps.org/doi/10.1103/zdyq-3m9x",
+      "title": "Ferromagnetism versus Antiferromagnetism in Narrow-Band Systems: Competition between Quantum Geometry and Band Dispersion",
+      "authors": [
+        "Haoyu Hu, Oskar Vafek, Kristjan Haule, and B. Andrei Bernevig"
+      ],
+      "abstract": "Author(s): Haoyu Hu, Oskar Vafek, Kristjan Haule, and B. Andrei Bernevig Magnetism in narrow-band systems arises from the interplay between electronic correlations, quantum geometry, and band dispersion. In particular, both ferro and antiferro magnets are known to occur as ground states of (different) models featuring narrow bands. This poses the question of which is fav… [Phys. Rev. Lett. 136, 256505] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/zdyq-3m9x",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Haoyu Hu, Oskar Vafek, Kristjan Haule, and B.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "http://link.aps.org/doi/10.1103/8bp8-g8g4",
+      "title": "Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints",
+      "authors": [
+        "Tianhong Lu and Luiz H. Santos"
+      ],
+      "abstract": "Author(s): Tianhong Lu and Luiz H. Santos Transition-metal dichalcogenides (TMDs) uniquely combine topological electronic states realized without external magnetic fields with a strong optical response arising from long-lived excitons. Motivated by this confluence, we investigate an interacting fermion-boson system formed by coupling an exc… [Phys. Rev. Lett. 136, 256605] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/8bp8-g8g4",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Tianhong Lu and Luiz H.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "http://link.aps.org/doi/10.1103/db9j-jc1k",
+      "title": "Synthetic Spatiotemporal Plasmonic Vortices on Chip",
+      "authors": [
+        "Qian Chen, Shuoshuo Zhang, Guoyu Xian, Haoqiang Hu, Xiaohua Wu, Xiaofei Wu, Jer-Shing Huang, Chen-Bin Huang, Jin-Hui Zhong, Yuquan Zhang, Xiaocong Yuan, Changjun Min, and Yanan Dai"
+      ],
+      "abstract": "Author(s): Qian Chen, Shuoshuo Zhang, Guoyu Xian, Haoqiang Hu, Xiaohua Wu, Xiaofei Wu, Jer-Shing Huang, Chen-Bin Huang, Jin-Hui Zhong, Yuquan Zhang, Xiaocong Yuan, Changjun Min, and Yanan Dai Spatiotemporal vortices are polychromatic modes that intertwine orbital angular momentum in space and time. Here, we introduce a new class of such vortices, “spatiotemporal plasmonic vortices,” carrying nontrivial topological spin textures. They are generated by chronotopic interference of temporall… [Phys. Rev. Lett. 136, 256903] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/db9j-jc1k",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Qian Chen, Shuoshuo Zhang, Guoyu Xian, Haoqiang Hu, Xiaohua Wu, Xiaofei Wu, Jer-Shing Huang, Chen-Bin Huang, Jin-Hui Zhong, Yuquan Zhang, Xiaocong Yuan, Changjun Min, and Yanan Dai Spatiotemporal vortices are polychromatic modes that intertwine orbital angular momentum in space and time.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "http://link.aps.org/doi/10.1103/q415-4knr",
+      "title": "Revisiting the Ratchet Principle: When Hidden Conservation Laws Prevent Directed Currents in Stochastic Systems",
+      "authors": [
+        "Jessica Metzger, Sunghan Ro, and Julien Tailleur"
+      ],
+      "abstract": "Author(s): Jessica Metzger, Sunghan Ro, and Julien Tailleur The emergence of nonequilibrium currents has attracted a lot of attention. The “ratchet principle” identifies the violation of any form of parity and time-reversal symmetries as the necessary conditions for the emergence of such currents. Here we study active and passive systems with asymmetric spat… [Phys. Rev. Lett. 136, 257102] Published Fri Jun 26, 2026",
+      "url": "http://link.aps.org/doi/10.1103/q415-4knr",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T18:00:00+08:00",
+      "updated": "2026-06-26T18:00:00+08:00",
+      "categories": [
+        "Statistical Physics; Classical, Nonlinear, and Complex Systems",
+        "Statistical Physics; Classical, Nonlinear, and Complex Systems"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Jessica Metzger, Sunghan Ro, and Julien Tailleur The emergence of nonequilibrium currents has attracted a lot of attention.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1103/vzrc-5m39",
+      "title": "Real-Space Dynamic Electron Correlation in Beryllium",
+      "authors": [
+        "Rudra B. Bista",
+        "Yuya Shinohara",
+        "Wojciech Dmowski",
+        "Chae Woo Ryu",
+        "Jung Ho Kim",
+        "Mary Upton",
+        "Hlynur Gretarsson",
+        "Martin Sundermann"
+      ],
+      "abstract": "Electron correlation in solids has a major impact on material properties. However, it has been studied mainly by theory, with very limited direct experimental investigations. Here, we demonstrate that dynamic electron correlation function can be experimentally measured using inelastic x-ray scattering on polycrystalline beryllium. The data are expressed as the energy-resolved dynamic pair-distribution function. Our results confirm the size of the exchange-correlation hole as ∼ 2 Å , consistent with theoretical expectations. However, at the plasmon energy of ∼ 21 eV , the exchange-correlation hole is extended up to 4–5 Å, suggesting a unique influence of the dynamic plasmon state.",
+      "url": "https://doi.org/10.1103/vzrc-5m39",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vzrc-5m39",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Electron correlation in solids has a major impact on material properties.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "doi:10.1103/4w7y-kjzk",
+      "title": "Continuous Time Crystals as a P T Symmetric State and the Emergence of Critical Exceptional Points",
+      "authors": [
+        "Yuma Nakanishi",
+        "Ryo Hanai",
+        "Tomohiro Sasamoto"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4w7y-kjzk",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/4w7y-kjzk",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "doi:10.1103/4ydv-bc75",
+      "title": "Experimental demonstration of dynamical similarity of the preseeded magneto-Rayleigh-Taylor instability in scaled Z-pinch implosions",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4ydv-bc75",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/4ydv-bc75",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "doi:10.1103/n8xv-kygx",
+      "title": "Dissipative Phase Transition of Interacting Nonreciprocal Fermions",
+      "authors": [
+        "Rafael D. Soares",
+        "Matteo Brunelli",
+        "Marco Schirò"
+      ],
+      "abstract": "While nonreciprocal couplings are ubiquitous in classical systems, their impact on quantum many-body criticality and entanglement remains largely unexplored. Using exact numerical simulations, we study an interacting fermionic chain subject to nonreciprocal gain and loss. We show that the interplay between dissipation and interactions drives a dissipative phase transition, marked by the opening of a many-body gap and a crossover from power law to exponential relaxation. The weakly interacting regime displays nonreciprocal signatures, including nonzero currents and directional charge accumulation reminiscent of the skin effect. Notably, despite this localization, quantum trajectories exhibit volume-law entanglement. Finally, reciprocity is dynamically restored above a critical interaction strength.",
+      "url": "https://doi.org/10.1103/n8xv-kygx",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/n8xv-kygx",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "While nonreciprocal couplings are ubiquitous in classical systems, their impact on quantum many-body criticality and entanglement remains largely unexplored.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "doi:10.1103/8bp8-g8g4",
+      "title": "Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints",
+      "authors": [
+        "Tianhong Lu",
+        "Luiz H. Santos"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8bp8-g8g4",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8bp8-g8g4",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "doi:10.1103/lf8d-26b6",
+      "title": "Coexistence and tunability of orbital and spin Hall effects in RuO 2",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/lf8d-26b6",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/lf8d-26b6",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "doi:10.1103/mkk2-hbq5",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
+      "authors": [
+        "Zhen Cao",
+        "F. Aharonian",
+        "Y. X. Bai",
+        "Y. W. Bao",
+        "D. Bastieri",
+        "X. J. Bi",
+        "Y. J. Bi",
+        "W. Bian"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/mkk2-hbq5",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/mkk2-hbq5",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "doi:10.1103/fr7x-555s",
+      "title": "Higher Josephson harmonics in a tunable double-junction transmon qubit",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/fr7x-555s",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/fr7x-555s",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1103/hh65-rgwv",
+      "title": "How zonal fields suppress reversed shear Alfvén eigenmode in tokamak plasmas",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/hh65-rgwv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/hh65-rgwv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1103/db9j-jc1k",
+      "title": "Synthetic Spatiotemporal Plasmonic Vortices on Chip",
+      "authors": [
+        "Qian Chen",
+        "Shuoshuo Zhang",
+        "Guoyu Xian",
+        "Haoqiang Hu",
+        "Xiaohua Wu",
+        "Xiaofei Wu",
+        "Jer-Shing Huang",
+        "Chen-Bin Huang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/db9j-jc1k",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/db9j-jc1k",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1103/xd7q-2kf9",
+      "title": "Overcoming the speed-fidelity trade-off in fast CZ gates via cyclic control",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/xd7q-2kf9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/xd7q-2kf9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1103/8lw2-352q",
+      "title": "Microscopic theory of a fluctuation-induced dynamical crossover in supercooled liquids",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8lw2-352q",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8lw2-352q",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1103/jn4z-j1ll",
+      "title": "Kapitza pendulum route to supercurrent tunnel diodes",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/jn4z-j1ll",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/jn4z-j1ll",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1103/8k84-ntqz",
+      "title": "Many-Body Perturbation Theory for Driven Dissipative Quasiparticle Flows and Fluctuations",
+      "authors": [
+        "Thomas Blommel",
+        "Enrico Perfetto",
+        "Gianluca Stefanucci",
+        "Vojtech Vlcek"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8k84-ntqz",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8k84-ntqz",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1103/zdyq-3m9x",
+      "title": "Ferromagnetism versus Antiferromagnetism in Narrow-Band Systems: Competition between Quantum Geometry and Band Dispersion",
+      "authors": [
+        "Haoyu Hu",
+        "Oskar Vafek",
+        "Kristjan Haule",
+        "B. Andrei Bernevig"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/zdyq-3m9x",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/zdyq-3m9x",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1103/6fcg-2zns",
+      "title": "Superbunching from Coherently Driven Atoms in a Waveguide",
+      "authors": [
+        "Zeidan Zeidan",
+        "Therese Karmstrand",
+        "Maryam Khanahmadi",
+        "Göran Johansson"
+      ],
+      "abstract": "We investigate the scattered field from N identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional waveguide. For atoms separated by the drive wavelength, increasing the number of atoms suppresses transmission while enhancing photon bunching. Transmission becomes a superbunched ( N + 1 )-photon scattering process that is predominantly incoherent. Remarkably, we find that transmission occurs through a process where all N atoms are excited, enabling novel heralded multiphoton state generation with applications in long-distance entanglement and quantum metrology.",
+      "url": "https://doi.org/10.1103/6fcg-2zns",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/6fcg-2zns",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We investigate the scattered field from N identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional waveguide.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "doi:10.1103/mnth-3g9n",
+      "title": "Dynamical orbital angular momentum induced by circularly polarized phonons",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/mnth-3g9n",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/mnth-3g9n",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "doi:10.1103/rj3x-133s",
+      "title": "Profile and Dynamics of Antiferromagnetic Domain Walls under Spin-Orbit Torque",
+      "authors": [
+        "G. Theodorou",
+        "S. Komineas"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/rj3x-133s",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/rj3x-133s",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "doi:10.1103/q415-4knr",
+      "title": "Revisiting the Ratchet Principle: When Hidden Conservation Laws Prevent Directed Currents in Stochastic Systems",
+      "authors": [
+        "Jessica Metzger",
+        "Sunghan Ro",
+        "Julien Tailleur"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/q415-4knr",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/q415-4knr",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "doi:10.1103/94cc-zdbl",
+      "title": "Crystalline Spectral Form Factors",
+      "authors": [
+        "Dmitrii A. Trunin",
+        "David A. Huse"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/94cc-zdbl",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/94cc-zdbl",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "doi:10.1103/qtst-bdmt",
+      "title": "Pattern Formation during Melting of Lamellar Eutectics",
+      "authors": [
+        "Rahul Nellissery Rajan",
+        "Rajesh Kumari Rajendran",
+        "Guillaume Boussinot",
+        "Kamal Sbargoud",
+        "Sabine Bottin-Rousseau",
+        "Silvère Akamatsu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/qtst-bdmt",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/qtst-bdmt",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "doi:10.1038/d41586-026-01924-8",
+      "title": "Inside the new political screening that’s stalling NIH grants",
+      "authors": [
+        "Max Kozlov"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01924-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01924-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "doi:10.1038/d41586-026-02055-w",
+      "title": "The poetry of twilight and the awe-inspiring magic of eclipses: Books in brief",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02055-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02055-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "doi:10.1038/d41586-026-02043-0",
+      "title": "I study World Cup penalty shoot-outs: they say a lot about the psychology of performance under pressure",
+      "authors": [
+        "Geir Jordet"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02043-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02043-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "doi:10.1038/d41586-026-01794-0",
+      "title": "The surprising career parallels between footballers and researchers",
+      "authors": [
+        "Sarah Blackford"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01794-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01794-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "doi:10.1038/d41586-026-02035-0",
+      "title": "Dementia risk in middle-aged people linked to a blood protein",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02035-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02035-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "doi:10.1038/d41586-026-02046-x",
+      "title": "Europe’s record heatwave: does the continent have a new climate?",
+      "authors": [
+        "Edward Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02046-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02046-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "doi:10.1038/d41586-026-01976-w",
+      "title": "CRISPR’s next act: the companies editing the epigenome to treat disease",
+      "authors": [
+        "Roxanne Khamsi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01976-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01976-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "doi:10.1038/d41586-026-02065-8",
+      "title": "Daily briefing: Ovaries start a second job after menopause",
+      "authors": [
+        "Flora Graham"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02065-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02065-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "doi:10.1038/d41586-026-02059-6",
+      "title": "Briefing Chat: What tickling a chimpanzee can tell us about the evolution of speech",
+      "authors": [
+        "Nick Petrić Howe",
+        "Maren Hunsberger"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02059-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-06-26T08:00:00+08:00",
+      "updated": "2026-06-26T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02059-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
