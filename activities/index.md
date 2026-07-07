@@ -64,6 +64,21 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="conference-2026-black-hole-imaging-lanzhou"
+    data-activity-start="2026-07-21"
+    data-activity-end="2026-07-24"
+    data-activity-title="2026黑洞图像学术研讨会暨兰州大学物理学院80周年院庆系列会议"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-07-21 至 2026-07-24</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><span class="activity-news__title">2026黑洞图像学术研讨会暨兰州大学物理学院80周年院庆系列会议</span>，兰州大学逸夫科学馆二楼报告厅。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="talk-2026-hnfnu-gravitational-wave-two-body-dynamics"
     data-activity-start="2026-06-11"
     data-activity-end="2026-06-11"

@@ -64,6 +64,21 @@ This page organizes academic conferences, invited talks, useful links, and relat
 
   <article
     class="activity-news__item"
+    id="conference-2026-black-hole-imaging-lanzhou"
+    data-activity-start="2026-07-21"
+    data-activity-end="2026-07-24"
+    data-activity-title="2026 Black Hole Imaging Workshop and Lanzhou University School of Physical Science and Technology 80th Anniversary Meeting"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-07-21 to 2026-07-24</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><span class="activity-news__title">2026 Black Hole Imaging Workshop and Lanzhou University School of Physical Science and Technology 80th Anniversary Meeting</span>, second-floor lecture hall, Yifu Science Hall, Lanzhou University.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="talk-2026-hnfnu-gravitational-wave-two-body-dynamics"
     data-activity-start="2026-06-11"
     data-activity-end="2026-06-11"
