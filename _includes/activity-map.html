@@ -1,0 +1,200 @@
+{% assign map_lang = include.lang | default: page.lang | default: site.lang | downcase %}
+{% assign is_en = false %}
+{% if map_lang == "en" %}
+  {% assign is_en = true %}
+{% endif %}
+{% assign activity_path = include.activity_path | default: "/activities/" %}
+
+<section class="activity-map" aria-labelledby="activity-map-title-{{ map_lang | slugify }}">
+  <div class="activity-map__header">
+    <div>
+      <p class="activity-map__eyebrow">{% if is_en %}Activity map{% else %}活动地图{% endif %}</p>
+      <h2 id="activity-map-title-{{ map_lang | slugify }}">{% if is_en %}Conference Locations{% else %}会议地点{% endif %}</h2>
+      <p>{% if is_en %}Physical meeting venues are marked on the map; each marker links back to the corresponding record below.{% else %}线下会议地点标注在地图中，每个标记可对应到下方活动记录。{% endif %}</p>
+    </div>
+    <div class="activity-map__legend" aria-label="{% if is_en %}Map marker status{% else %}地图标记状态{% endif %}">
+      <span><i class="activity-map__dot activity-map__dot--upcoming" aria-hidden="true"></i>{% if is_en %}Upcoming{% else %}未开始{% endif %}</span>
+      <span><i class="activity-map__dot activity-map__dot--active" aria-hidden="true"></i>{% if is_en %}Ongoing{% else %}进行中{% endif %}</span>
+      <span><i class="activity-map__dot activity-map__dot--past" aria-hidden="true"></i>{% if is_en %}Past{% else %}已结束{% endif %}</span>
+    </div>
+  </div>
+
+  <div class="activity-map__layout">
+    <div
+      class="activity-map__canvas"
+      id="activity-map-{{ map_lang | slugify }}"
+      data-activity-map
+      data-activity-map-locale="{{ map_lang }}"
+      aria-label="{% if is_en %}Map of conference locations{% else %}会议地点地图{% endif %}"
+    >
+      <p class="activity-map__loading">{% if is_en %}Loading map...{% else %}地图加载中...{% endif %}</p>
+    </div>
+
+    <ol class="activity-map__list">
+      {% for event in site.data.activities %}
+        {% if event.latitude and event.longitude %}
+          {% if is_en %}
+            {% assign event_title = event.title_en | default: event.title_zh %}
+            {% assign event_location = event.location_en | default: event.location_zh %}
+            {% assign event_venue = event.venue_en | default: event.venue_zh | default: event_location %}
+          {% else %}
+            {% assign event_title = event.title_zh | default: event.title_en %}
+            {% assign event_location = event.location_zh | default: event.location_en %}
+            {% assign event_venue = event.venue_zh | default: event.venue_en | default: event_location %}
+          {% endif %}
+          {% assign activity_href = activity_path | append: "#" | append: event.id | relative_url %}
+          {% capture event_date %}{{ event.start }}{% if event.end and event.end != event.start %}{% if is_en %} to {% else %} 至 {% endif %}{{ event.end }}{% endif %}{% endcapture %}
+          <li
+            data-activity-map-item
+            data-activity-id="{{ event.id }}"
+            data-activity-title="{{ event_title | escape }}"
+            data-activity-start="{{ event.start }}"
+            data-activity-end="{{ event.end | default: event.start }}"
+            data-activity-date="{{ event_date | strip | escape }}"
+            data-activity-location="{{ event_location | escape }}"
+            data-activity-venue="{{ event_venue | escape }}"
+            data-activity-href="{{ activity_href }}"
+            data-activity-url="{{ event.url | default: '' | escape }}"
+            data-activity-lat="{{ event.latitude }}"
+            data-activity-lng="{{ event.longitude }}"
+          >
+            <a href="{{ activity_href }}">
+              <span class="activity-map__list-date">{{ event_date | strip }}</span>
+              <strong>{{ event_title }}</strong>
+              <span>{{ event_venue }}</span>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+(() => {
+  const parseDate = value => {
+    if (!value) return null;
+    const [datePart] = String(value).split(" ");
+    const [year, month, day] = datePart.split("-").map(Number);
+    if (!year || !month || !day) return null;
+    return new Date(year, month - 1, day);
+  };
+
+  const currentDate = () => {
+    const now = new Date();
+    return new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  };
+
+  const statusOf = (startValue, endValue) => {
+    const start = parseDate(startValue);
+    const end = parseDate(endValue || startValue);
+    const today = currentDate();
+    if (!start) return "past";
+    if (today < start) return "upcoming";
+    if (end && today <= end) return "active";
+    return "past";
+  };
+
+  const escapeHtml = value => String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+  const applyActivityStatuses = () => {
+    document.querySelectorAll(".activity-news__item").forEach(item => {
+      const status = statusOf(item.dataset.activityStart, item.dataset.activityEnd);
+      item.dataset.activityStatus = status;
+    });
+
+    document.querySelectorAll("[data-activity-map-item]").forEach(item => {
+      const status = statusOf(item.dataset.activityStart, item.dataset.activityEnd);
+      item.dataset.activityStatus = status;
+    });
+  };
+
+  const markerIcon = (status, index) => L.divIcon({
+    className: `activity-map__marker activity-map__marker--${status}`,
+    html: `<span>${index + 1}</span>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -14]
+  });
+
+  const initMaps = () => {
+    applyActivityStatuses();
+
+    if (!window.L) return;
+
+    document.querySelectorAll("[data-activity-map]").forEach(mapElement => {
+      if (mapElement.dataset.activityMapReady === "true") return;
+      mapElement.dataset.activityMapReady = "true";
+
+      const section = mapElement.closest(".activity-map");
+      const items = Array.from(section.querySelectorAll("[data-activity-map-item]"));
+      const map = L.map(mapElement, {
+        scrollWheelZoom: false,
+        worldCopyJump: true
+      });
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18
+      }).addTo(map);
+
+      const bounds = [];
+      items.forEach((item, index) => {
+        const lat = Number(item.dataset.activityLat);
+        const lng = Number(item.dataset.activityLng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+        const status = item.dataset.activityStatus || statusOf(item.dataset.activityStart, item.dataset.activityEnd);
+        const title = item.dataset.activityTitle || "";
+        const venue = item.dataset.activityVenue || item.dataset.activityLocation || "";
+        const date = item.dataset.activityDate || "";
+        const href = item.dataset.activityHref || `#${item.dataset.activityId}`;
+        const marker = L.marker([lat, lng], {
+          icon: markerIcon(status, index),
+          title
+        }).addTo(map);
+
+        marker.bindPopup(`
+          <div class="activity-map__popup">
+            <a href="${escapeHtml(href)}">${escapeHtml(title)}</a>
+            <span>${escapeHtml(date)}</span>
+            <small>${escapeHtml(venue)}</small>
+          </div>
+        `);
+
+        marker.on("click", () => {
+          section.querySelectorAll("[data-activity-map-item]").forEach(node => node.classList.remove("is-selected"));
+          item.classList.add("is-selected");
+        });
+
+        item.addEventListener("mouseenter", () => {
+          marker.openPopup();
+          map.panTo([lat, lng], { animate: true, duration: 0.35 });
+        });
+
+        bounds.push([lat, lng]);
+      });
+
+      if (bounds.length > 0) {
+        map.fitBounds(bounds, { padding: [24, 24], maxZoom: 5 });
+      } else {
+        map.setView([35.8617, 104.1954], 4);
+      }
+
+      setTimeout(() => map.invalidateSize(), 0);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initMaps);
+  } else {
+    initMaps();
+  }
+})();
+</script>

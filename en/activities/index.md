@@ -5,9 +5,12 @@ lang_pair: /activities/
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 excerpt: "Activities"
 aside: true
+leaflet_map: true
 ---
 
 This page organizes academic conferences, invited talks, useful links, and related records.
+
+{% include activity-map.html lang="en" activity_path="/en/activities/" %}
 
 ## Activity Records
 

@@ -35,6 +35,9 @@
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
 
+    {% if page.leaflet_map == true %}
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    {% endif %}
     {% if site.css_inline == true %}
       <!-- 如果设置为内联CSS，则包含内联样式文件 -->
       {% include site-styles.html %}

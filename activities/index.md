@@ -5,9 +5,12 @@ lang_pair: /en/activities/
 feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
 excerpt: "活动入口"
 aside: true
+leaflet_map: true
 ---
 
 这里整理学术会议、报告活动、资料链接和相关记录。
+
+{% include activity-map.html lang="zh-CN" activity_path="/activities/" %}
 
 ## 活动记录
 
