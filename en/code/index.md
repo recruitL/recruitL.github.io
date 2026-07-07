@@ -24,7 +24,7 @@ This page organizes public repositories, experiment scripts, paper reproduction 
     <tr>
       <td><strong><a href="https://github.com/recruitL/py-sc">py-sc</a></strong></td>
       <td>Course-style Python numerical computation repository</td>
-      <td>Chapters 2 through 5 now provide systematic notes; chapter 6 adds direct methods for linear systems, including Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, QR factorization, and stability experiments</td>
+      <td>Chapters 2 through 13 now provide course-style notes; chapter 13 adds numerical optimization, including one-dimensional search, Nelder-Mead, Powell, gradient/Newton methods, DFP/BFGS, simulated annealing, genetic algorithms, and ant colony optimization</td>
       <td><a href="https://github.com/recruitL/py-sc">Course code and notes</a></td>
     </tr>
     <tr>

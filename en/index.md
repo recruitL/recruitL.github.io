@@ -54,7 +54,7 @@ My current interests include gravitation, relativistic astrophysics, numerical c
   <div class="timeline-item">
     <span class="timeline-date">Recent</span>
     <span class="timeline-tag timeline-tag--code">Code</span>
-    <p><a href="/en/code/">py-sc</a> now adds chapter 6, direct methods for linear systems, covering Gaussian elimination, LU/PLU, Cholesky, LDLT, Thomas algorithm, and QR factorization.</p>
+    <p><a href="/en/code/">py-sc</a> now reaches chapter 13, numerical optimization, covering one-dimensional search, derivative-free optimization, gradient/Newton methods, quasi-Newton methods, and heuristic algorithms.</p>
   </div>
   <div class="timeline-item">
     <span class="timeline-date">2026-06</span>

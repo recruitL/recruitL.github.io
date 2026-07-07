@@ -24,7 +24,7 @@ aside: true
     <tr>
       <td><strong><a href="https://github.com/recruitL/py-sc">py-sc</a></strong></td>
       <td>Python 数值计算课程型代码库</td>
-      <td>第二章至第五章已建立系统讲义；第六章“解线性方程组的直接方法”已新增高斯消元、LU/PLU、Cholesky、LDL^T、追赶法、QR 分解和稳定性实验</td>
+      <td>第二章至第十三章已建立课程型讲义；最新补全第十三章“数值优化”，覆盖单变量搜索、Nelder-Mead、Powell、梯度/Newton、DFP/BFGS、模拟退火、遗传算法和蚁群算法</td>
       <td><a href="https://github.com/recruitL/py-sc">课程代码与讲义</a></td>
     </tr>
     <tr>

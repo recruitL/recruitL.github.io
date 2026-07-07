@@ -54,6 +54,6 @@ excerpt: ""
   <div class="timeline-item">
     <span class="timeline-date">近期</span>
     <span class="timeline-tag timeline-tag--code">代码库</span>
-    <p><a href="/code/">py-sc</a> 已新增第六章“解线性方程组的直接方法”，覆盖高斯消元、LU/PLU、Cholesky、LDL^T、追赶法和 QR 分解。</p>
+    <p><a href="/code/">py-sc</a> 已补全至第十三章“数值优化”，覆盖单变量搜索、无导数优化、梯度/Newton、拟 Newton 和启发式算法。</p>
   </div>
 </div>

@@ -1,0 +1,53 @@
+name: Paper Watch
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:20 Asia/Shanghai.
+    - cron: "20 22 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-paper-watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate daily paper watch
+        run: python scripts/paper_watch.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+
+      - name: Commit report
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain papers _data/paper_watch)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers _data/paper_watch
+          git commit -m "Update paper watch report"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Send email reminder
+        run: python scripts/paper_watch.py --email-only
+        env:
+          PAPER_WATCH_SITE_URL: https://recruitl.github.io
+          PAPER_WATCH_EMAIL_TO: ${{ secrets.PAPER_WATCH_EMAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
