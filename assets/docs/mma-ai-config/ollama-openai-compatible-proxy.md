@@ -24,13 +24,11 @@ Wolfram Chatbook
 
 ## 1. 文件分工
 
-| 文件 | 是否必须 | 作用 |
-|---|---:|---|
-| `~/glm_ollama_proxy/glm_ollama_proxy.py` | 是 | 本机 Ollama-compatible HTTP 服务，把 `/api/chat`、`/api/generate`、`/api/tags` 转给上游 OpenAI-compatible API。 |
-| `~/glm_ollama_proxy/.env` | 是 | 保存上游 Base URL、API key、模型名、可选 Clash HTTP 代理。这个文件不要提交到 Git。 |
-| `~/glm_ollama_proxy/start.sh` | 是 | 固定启动代理，检查 `11435` 是否已经被占用。 |
-| `$UserBaseDirectory/Kernel/init.m` | 是 | 让 Wolfram 启动后固定把 Ollama service 指向 `127.0.0.1:11435`。 |
-| `~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist` | 可选 | 让 macOS 登录后自动拉起代理。 |
+- **`~/glm_ollama_proxy/glm_ollama_proxy.py`**：必须。本机 Ollama-compatible HTTP 服务，把 `/api/chat`、`/api/generate`、`/api/tags` 转给上游 OpenAI-compatible API。
+- **`~/glm_ollama_proxy/.env`**：必须。保存上游 Base URL、API key、模型名、可选 Clash HTTP 代理。这个文件不要提交到 Git。
+- **`~/glm_ollama_proxy/start.sh`**：必须。固定启动代理，检查 `11435` 是否已经被占用。
+- **`$UserBaseDirectory/Kernel/init.m`**：必须。让 Wolfram 启动后固定把 Ollama service 指向 `127.0.0.1:11435`。
+- **`~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist`**：可选。让 macOS 登录后自动拉起代理；公开时要替换用户名和本机路径。
 
 `init.m` 不负责启动 Python 代理；它只告诉 Wolfram 去哪里找 Ollama-compatible 服务。Python 代理要由 `start.sh` 或 launchd 启动。
 

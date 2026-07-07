@@ -189,13 +189,11 @@ Wolfram Ollama service: 固定指向 127.0.0.1:11435
 
 7 月 7 日后续 debug 的最终结论是：不要把所有逻辑塞进 Notebook，也不要每次手动运行一串 `SetEnvironment` 和 `SetOllamaPort`。稳定方案应该拆成五个文件：
 
-| 文件 | 作用 | 是否公开 |
-|---|---|---|
-| `glm_ollama_proxy.py` | 本机 Ollama-compatible HTTP 代理，负责转发 `/api/chat`、`/api/generate`、`/api/tags` | 可以用脱敏模板公开 |
-| `.env` | 上游 Base URL、API key、模型名、可选 Clash HTTP 代理 | 不公开，不进 Git |
-| `start.sh` | 启动代理、检查 `11435` 是否被占用 | 可以公开脱敏版 |
-| `$UserBaseDirectory/Kernel/init.m` | 只让 Wolfram 固定指向 `127.0.0.1:11435` | 可以公开脱敏版 |
-| launchd plist | macOS 登录后自动启动代理 | 可选，公开时替换用户名 |
+- **`glm_ollama_proxy.py`**：本机 Ollama-compatible HTTP 代理，负责转发 `/api/chat`、`/api/generate`、`/api/tags`。可以用脱敏模板公开。
+- **`.env`**：保存上游 Base URL、API key、模型名和可选 Clash HTTP 代理。不公开，不进 Git。
+- **`start.sh`**：启动代理，并检查 `11435` 是否已经被占用。可以公开脱敏版。
+- **`$UserBaseDirectory/Kernel/init.m`**：只让 Wolfram 固定指向 `127.0.0.1:11435`。可以公开脱敏版。
+- **launchd plist**：macOS 登录后自动启动代理。可选；公开时必须替换用户名和本机路径。
 
 完整文件模板在这里：
 
