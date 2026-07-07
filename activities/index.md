@@ -19,6 +19,21 @@ aside: true
 
   <article
     class="activity-news__item"
+    id="conference-2026-new-horizons-for-psi"
+    data-activity-start="2026-08-24"
+    data-activity-end="2026-08-28"
+    data-activity-title="2nd New Horizons for Psi Workshop"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-08-24 至 2026-08-28</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.ictp-ap.ucas.ac.cn/event/3/">2nd New Horizons for Psi Workshop</a>，北京。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-icgac16"
     data-activity-start="2026-08-10"
     data-activity-end="2026-08-14"
@@ -29,6 +44,21 @@ aside: true
     <div class="activity-news__body">
       <span class="activity-icon" aria-label="活动类型" role="img"></span>
       <p><a class="activity-news__title" href="https://tianqin.sysu.edu.cn/en/ICGAC16-home">XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)</a>，广东·深圳。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
+    id="conference-2026-six-physical-societies"
+    data-activity-start="2026-07-25"
+    data-activity-end="2026-07-29"
+    data-activity-title="新疆、甘肃、宁夏、天津、吉林、浙江六省市区物理学会2026年联合学术年会"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-07-25 至 2026-07-29</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><a class="activity-news__title" href="https://mp.weixin.qq.com/s/pTBe9cqplv4RRfzZrX7bpQ">新疆、甘肃、宁夏、天津、吉林、浙江六省市区物理学会2026年联合学术年会</a>，新疆·乌鲁木齐。</p>
     </div>
   </article>
 

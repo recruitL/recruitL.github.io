@@ -19,6 +19,21 @@ This page organizes academic conferences, invited talks, useful links, and relat
 
   <article
     class="activity-news__item"
+    id="conference-2026-new-horizons-for-psi"
+    data-activity-start="2026-08-24"
+    data-activity-end="2026-08-28"
+    data-activity-title="2nd New Horizons for Psi Workshop"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-08-24 to 2026-08-28</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.ictp-ap.ucas.ac.cn/event/3/">2nd New Horizons for Psi Workshop</a>, Beijing, China.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-icgac16"
     data-activity-start="2026-08-10"
     data-activity-end="2026-08-14"
@@ -29,6 +44,21 @@ This page organizes academic conferences, invited talks, useful links, and relat
     <div class="activity-news__body">
       <span class="activity-icon" aria-label="Activity type" role="img"></span>
       <p><a class="activity-news__title" href="https://tianqin.sysu.edu.cn/en/ICGAC16-home">XVI International Conference on Gravitation, Astrophysics and Cosmology (ICGAC16)</a>, Shenzhen, Guangdong.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
+    id="conference-2026-six-physical-societies"
+    data-activity-start="2026-07-25"
+    data-activity-end="2026-07-29"
+    data-activity-title="2026 Joint Annual Academic Meeting of the Physical Societies of Xinjiang, Gansu, Ningxia, Tianjin, Jilin, and Zhejiang"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-07-25 to 2026-07-29</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://mp.weixin.qq.com/s/pTBe9cqplv4RRfzZrX7bpQ">2026 Joint Annual Academic Meeting of the Physical Societies of Xinjiang, Gansu, Ningxia, Tianjin, Jilin, and Zhejiang</a>, Urumqi, Xinjiang.</p>
     </div>
   </article>
 
