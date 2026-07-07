@@ -109,6 +109,21 @@ This page organizes academic conferences, invited talks, useful links, and relat
 
   <article
     class="activity-news__item"
+    id="conference-2025-black-hole-imaging-yangzhou"
+    data-activity-start="2025-12-20"
+    data-activity-end="2025-12-23"
+    data-activity-title="2025 Black Hole Imaging Workshop"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2025-12-20 to 2025-12-23</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><a class="activity-news__title" href="https://indico.ihep.ac.cn/event/26948/">2025 Black Hole Imaging Workshop</a>, Courtyard by Marriott Yangzhou, Yangzhou, Jiangsu.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2025-gravitational-wave-physics"
     data-activity-start="2025-10-12"
     data-activity-end="2025-10-20"
