@@ -4,22 +4,37 @@
 
 适用场景：
 
-- Wolfram Chatbook 支持 Ollama；
-- Wolfram 的 OpenAI 服务商面板不能改 Base URL；
-- 你想使用自己的 GLM / Z.ai / BigModel 等第三方 API key，而不是走 Wolfram AI Access 或 OpenRouter 账户。
+- Wolfram Chatbook 支持 Ollama，但第三方服务商面板不能改 Base URL；
+- 你想使用自己的 GLM / Z.ai / BigModel / OpenAI-compatible API key；
+- 你不想把 Notebook 的普通聊天链路接到 Wolfram AI Access / Wolfram Cloud 弹窗上；
+- Clash TUN 或真实 Ollama 会把默认 `11434` 端口重新占走。
 
-链路：
+稳定链路如下：
 
 ```text
 Wolfram Chatbook
--> Ollama provider
--> http://127.0.0.1:11435
--> 第三方 OpenAI-compatible /chat/completions
+-> Wolfram Ollama ServiceConnection
+-> 127.0.0.1:11435
+-> glm_ollama_proxy.py
+-> optional Clash HTTP proxy
+-> third-party OpenAI-compatible /chat/completions
 ```
 
-本文只保留占位符。不要把真实 API key、个人目录、账单信息、服务商截图或后台 URL 写进公开仓库。
+本文只保留占位符。不要把真实 API key、个人目录、账单信息、服务商后台 URL、账号状态截图或真实代理地址写进公开仓库。
 
-## 1. 创建目录和环境
+## 1. 文件分工
+
+| 文件 | 是否必须 | 作用 |
+|---|---:|---|
+| `~/glm_ollama_proxy/glm_ollama_proxy.py` | 是 | 本机 Ollama-compatible HTTP 服务，把 `/api/chat`、`/api/generate`、`/api/tags` 转给上游 OpenAI-compatible API。 |
+| `~/glm_ollama_proxy/.env` | 是 | 保存上游 Base URL、API key、模型名、可选 Clash HTTP 代理。这个文件不要提交到 Git。 |
+| `~/glm_ollama_proxy/start.sh` | 是 | 固定启动代理，检查 `11435` 是否已经被占用。 |
+| `$UserBaseDirectory/Kernel/init.m` | 是 | 让 Wolfram 启动后固定把 Ollama service 指向 `127.0.0.1:11435`。 |
+| `~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist` | 可选 | 让 macOS 登录后自动拉起代理。 |
+
+`init.m` 不负责启动 Python 代理；它只告诉 Wolfram 去哪里找 Ollama-compatible 服务。Python 代理要由 `start.sh` 或 launchd 启动。
+
+## 2. 创建目录和环境
 
 ```bash
 mkdir -p ~/glm_ollama_proxy
@@ -30,9 +45,39 @@ source .venv/bin/activate
 pip install fastapi uvicorn requests
 ```
 
-## 2. 代理代码
+## 3. `.env`
 
-保存为 `~/glm_ollama_proxy/glm_ollama_proxy.py`。
+保存为 `~/glm_ollama_proxy/.env`：
+
+```bash
+export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
+export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
+export GLM_MODEL="<UPSTREAM_MODEL>"
+export LOCAL_MODEL_NAME="glm:latest"
+
+# Optional. Use this only when Python requests to the upstream API must go through Clash.
+# Example shape: http://<CLASH_HTTP_HOST>:<CLASH_HTTP_PORT>
+export GLM_HTTPS_PROXY="<CLASH_HTTP_PROXY_URL>"
+
+# Keep local Wolfram -> proxy traffic on loopback. Do not send localhost through Clash.
+export NO_PROXY="localhost,127.0.0.1,::1"
+export no_proxy="localhost,127.0.0.1,::1"
+
+# Optional debug request logging inside the local proxy.
+export DEBUG_LOG="0"
+```
+
+权限建议收紧：
+
+```bash
+chmod 600 ~/glm_ollama_proxy/.env
+```
+
+`GLM_BASE_URL` 写服务商文档或后台给出的 OpenAI-compatible base URL，不要写到 `/chat/completions`，代理代码会自动拼接。`GLM_HTTPS_PROXY` 只在 Python 到上游 API 出现 TLS / SSL EOF / 直连不稳定时启用；如果直连稳定，可以删掉这一行或留空。
+
+## 4. `glm_ollama_proxy.py`
+
+保存为 `~/glm_ollama_proxy/glm_ollama_proxy.py`：
 
 ```python
 import json
@@ -43,18 +88,43 @@ from typing import Any, Dict, List, Optional
 import requests
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, StreamingResponse
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 app = FastAPI(title="OpenAI-Compatible Ollama Proxy")
 
 
-# Environment configuration.
 UPSTREAM_API_KEY = os.environ.get("GLM_API_KEY", "").strip()
 UPSTREAM_BASE_URL = os.environ.get("GLM_BASE_URL", "").rstrip("/")
 UPSTREAM_MODEL = os.environ.get("GLM_MODEL", "<UPSTREAM_MODEL>").strip()
-
-# Model name exposed to Wolfram/Ollama-compatible clients.
 LOCAL_MODEL_NAME = os.environ.get("LOCAL_MODEL_NAME", "glm:latest").strip()
+UPSTREAM_PROXY = os.environ.get("GLM_HTTPS_PROXY", "").strip()
+DEBUG_LOG = os.environ.get("DEBUG_LOG", "0").strip().lower() in {
+    "1",
+    "true",
+    "yes",
+    "on",
+}
+
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    if not DEBUG_LOG:
+        return await call_next(request)
+
+    body = await request.body()
+    print("---- INCOMING REQUEST ----")
+    print(request.method, request.url.path)
+    print(body.decode("utf-8", errors="replace")[:2000])
+
+    async def receive():
+        return {"type": "http.request", "body": body}
+
+    request = Request(request.scope, receive)
+    response = await call_next(request)
+    print("---- RESPONSE STATUS ----", response.status_code)
+    return response
 
 
 def now_iso() -> str:
@@ -62,15 +132,15 @@ def now_iso() -> str:
 
 
 def ollama_done_fields() -> Dict[str, Any]:
-    # Some clients expect these fields even when the proxy cannot measure them.
+    # Some clients use these duration/count fields as a rough success signal.
     return {
         "done_reason": "stop",
-        "total_duration": 1,
-        "load_duration": 1,
-        "prompt_eval_count": 0,
-        "prompt_eval_duration": 1,
+        "total_duration": 1000000000,
+        "load_duration": 1000000,
+        "prompt_eval_count": 1,
+        "prompt_eval_duration": 1000000,
         "eval_count": 1,
-        "eval_duration": 1,
+        "eval_duration": 1000000,
     }
 
 
@@ -121,9 +191,29 @@ def openai_params_from_ollama_body(body: Dict[str, Any]) -> Dict[str, Any]:
     if body.get("max_tokens") is not None:
         params["max_tokens"] = body["max_tokens"]
 
-    # Wolfram may pass unsupported parameters such as PresencePenalty.
-    # Ollama services ignore unsupported parameters; the proxy follows that behavior.
     return params
+
+
+def build_session() -> requests.Session:
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=0.8,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["POST"]),
+        raise_on_status=False,
+    )
+
+    adapter = HTTPAdapter(max_retries=retry)
+    session = requests.Session()
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+
+    # Do not accidentally inherit shell or GUI proxy variables. The only upstream
+    # proxy used by this service is GLM_HTTPS_PROXY from .env.
+    session.trust_env = False
+    return session
 
 
 def call_upstream_chat(
@@ -145,15 +235,23 @@ def call_upstream_chat(
     }
     payload.update(openai_params_from_ollama_body(body or {}))
 
-    return requests.post(
+    proxies = None
+    if UPSTREAM_PROXY:
+        proxies = {"http": UPSTREAM_PROXY, "https": UPSTREAM_PROXY}
+
+    session = build_session()
+    return session.post(
         url,
         headers={
             "Authorization": f"Bearer {UPSTREAM_API_KEY}",
             "Content-Type": "application/json",
+            "Connection": "close",
+            "User-Agent": "glm-ollama-proxy/0.1",
         },
         json=payload,
         stream=stream,
-        timeout=300,
+        timeout=(10, 300),
+        proxies=proxies,
     )
 
 
@@ -201,6 +299,7 @@ def root():
         "service": "openai-compatible-ollama-proxy",
         "local_model": LOCAL_MODEL_NAME,
         "upstream_model": UPSTREAM_MODEL,
+        "upstream_proxy": "enabled" if UPSTREAM_PROXY else "disabled",
     }
 
 
@@ -251,8 +350,10 @@ async def show(request: Request):
             "quantization_level": "proxy",
         },
         "model_info": {
-            "general.architecture": "openai-compatible-proxy",
+            "general.architecture": "glm",
             "general.file_type": 0,
+            "glm.context_length": 131072,
+            "llama.context_length": 131072,
         },
         "capabilities": ["completion", "tools"],
     }
@@ -476,37 +577,183 @@ async def api_generate(request: Request):
     return StreamingResponse(event_stream(), media_type="application/x-ndjson")
 ```
 
-## 3. 启动代理
+## 5. `start.sh`
 
-`GLM_BASE_URL` 写服务商文档或后台提供的 OpenAI-compatible base URL，不要写到 `/chat/completions`，代理会自动拼接。
+保存为 `~/glm_ollama_proxy/start.sh`：
 
 ```bash
-cd ~/glm_ollama_proxy
+#!/bin/bash
+set -e
+
+cd "$HOME/glm_ollama_proxy"
+
 source .venv/bin/activate
 
-export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
-export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
-export GLM_MODEL="<UPSTREAM_MODEL>"
-export LOCAL_MODEL_NAME="glm:latest"
+if [ -f .env ]; then
+  source .env
+else
+  echo "Missing .env"
+  exit 1
+fi
 
-uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
+PORT="${GLM_PROXY_PORT:-11435}"
+
+echo "[1/4] Checking local proxy config..."
+echo "  GLM_BASE_URL=$GLM_BASE_URL"
+echo "  GLM_MODEL=$GLM_MODEL"
+echo "  LOCAL_MODEL_NAME=$LOCAL_MODEL_NAME"
+echo "  GLM_HTTPS_PROXY=${GLM_HTTPS_PROXY:-<empty>}"
+echo "  GLM_API_KEY=<hidden>"
+
+echo "[2/4] Checking port $PORT..."
+if lsof -i :"$PORT" | grep -q LISTEN; then
+  echo "Port $PORT is already occupied:"
+  lsof -i :"$PORT"
+  echo
+  echo "If the listener is python/uvicorn, the proxy may already be running."
+  echo "If the listener is real Ollama, stop it or move this proxy to another port."
+  exit 1
+fi
+
+echo "[3/4] Starting proxy on 127.0.0.1:$PORT..."
+uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port "$PORT"
 ```
 
-这里推荐 `11435`，避免和真实 Ollama 默认端口 `11434` 抢占。如果确认本机没有真实 Ollama，也可以用 `11434`；但只要安装过 Ollama App 或运行过 Wolfram 的 `UseLocalOllama`，建议固定用 `11435`。不要把 `uvicorn` 绑定到 `0.0.0.0` 暴露给公网。
+启动：
 
-## 4. 终端测试
+```bash
+chmod +x ~/glm_ollama_proxy/start.sh
+~/glm_ollama_proxy/start.sh
+```
 
-新开一个终端：
+如果你确定永远不想让真实 Ollama 运行，可以在手动启动前执行：
+
+```bash
+pkill ollama 2>/dev/null || true
+```
+
+不建议把 `pkill ollama` 放进 launchd 的 `KeepAlive` 脚本里，否则自动重启时会反复杀掉真实 Ollama。
+
+## 6. `init.m`
+
+`init.m` 里只放 Wolfram 侧的固定指向，不放 API key，也不启动 Python 代理。
+
+在 Wolfram Language 里先查看位置：
+
+```wl
+FileNameJoin[{$UserBaseDirectory, "Kernel", "init.m"}]
+```
+
+然后把下面内容放进去：
+
+```wl
+SetEnvironment["NO_PROXY" -> "localhost,127.0.0.1,::1"];
+SetEnvironment["no_proxy" -> "localhost,127.0.0.1,::1"];
+
+Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
+
+Quiet@Needs["LLMServices`"];
+Off[ChatSubmit::llmunsupported];
+Off[LLMServices`ChatSubmit::llmunsupported];
+```
+
+不要把下面这些测试调用放进 `init.m`：
+
+```wl
+ServiceExecute["Ollama", "ChatService", ...]
+LLMFunction[...]
+ServiceConnect[...]
+CloudConnect[...]
+```
+
+`init.m` 应该轻量、可重复加载、没有外部副作用。
+
+## 7. 可选：launchd 自动启动
+
+保存为 `~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist`，把 `<USER>` 换成本机用户名：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.example.glm-ollama-proxy</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/&lt;USER&gt;/glm_ollama_proxy/start.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/&lt;USER&gt;/glm_ollama_proxy</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/&lt;USER&gt;/glm_ollama_proxy/proxy.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/&lt;USER&gt;/glm_ollama_proxy/proxy.err.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>
+```
+
+加载：
+
+```bash
+launchctl unload ~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist 2>/dev/null || true
+launchctl load ~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist
+```
+
+新式 `launchctl` 也可以这样：
+
+```bash
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.example.glm-ollama-proxy.plist
+launchctl enable gui/$(id -u)/com.example.glm-ollama-proxy
+launchctl kickstart -k gui/$(id -u)/com.example.glm-ollama-proxy
+```
+
+看日志：
+
+```bash
+tail -f ~/glm_ollama_proxy/proxy.out.log
+tail -f ~/glm_ollama_proxy/proxy.err.log
+```
+
+## 8. 健康检查
+
+先查端口：
+
+```bash
+lsof -i :11434
+lsof -i :11435
+```
+
+理想结构：
+
+```text
+11434 -> 真实 Ollama 可以存在
+11435 -> Python / uvicorn 必须存在
+```
+
+终端测本地代理：
 
 ```bash
 curl http://127.0.0.1:11435/api/tags
-```
 
-应该看到 `glm:latest` 一类的本地模型名。
-
-继续测试聊天：
-
-```bash
 curl http://127.0.0.1:11435/api/chat \
   -H "Content-Type: application/json" \
   -d '{
@@ -518,21 +765,15 @@ curl http://127.0.0.1:11435/api/chat \
   }'
 ```
 
-如果返回内容里有 `GLM_PROXY_TEST`，说明本地代理到上游 API 的链路已经通了。
-
-## 5. Wolfram 测试
-
-在 Mathematica / Wolfram Language 中：
+Wolfram 里测：
 
 ```wl
-Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
-Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
-ServiceExecute["Ollama", "TestConnection"]
-```
+{
+  ServiceExecute["Ollama", "GetOllamaIP"],
+  ServiceExecute["Ollama", "GetOllamaPort"],
+  ServiceExecute["Ollama", "TestConnection"]
+}
 
-再测试聊天：
-
-```wl
 ServiceExecute[
   "Ollama",
   "ChatService",
@@ -541,45 +782,33 @@ ServiceExecute[
 ]
 ```
 
-如果 Wolfram 设置页没有显示 `glm:latest`，但终端日志里已经出现：
+如果终端能返回 `GLM_PROXY_TEST`，Wolfram 也打到 `127.0.0.1:11435`，代理链路就是通的。
 
-```text
-POST /api/chat ... 200 OK
-```
+## 9. Clash TUN / SSL EOF / 真实 Ollama 抢端口
 
-说明 Wolfram 已经访问本地代理。模型显示名可以和 `LOCAL_MODEL_NAME` 不完全一致，因为代理最终调用的上游模型由 `GLM_MODEL` 决定。
+### 9.1 `model 'glm:latest' not found`
 
-## 6. Clash TUN / 真 Ollama 抢端口排查
+这个错误通常不是上游 OpenAI-compatible API 返回的，而是 Wolfram 打到了真实 Ollama。真实 Ollama 会检查本机是否真的有 `glm:latest` 模型；本文代理不会检查这个名字，而是转发到 `GLM_MODEL`。
 
-如果 Clash TUN 关掉又打开后，Wolfram 突然返回：
-
-```text
-model 'glm:latest' not found
-```
-
-通常说明 Wolfram 没有打到这个 Python 代理，而是打到了真实 Ollama。真实 Ollama 默认监听 `11434`，并且会检查本机是否真的安装了 `glm:latest` 模型；本代理不会检查客户端传来的模型名，而是转发到环境变量里的 `GLM_MODEL`。
-
-先查端口：
+处理：
 
 ```bash
 lsof -i :11434
 lsof -i :11435
 ```
 
-理想状态：
+如果 `11435` 没有 `python` / `uvicorn`，先启动代理。如果 Wolfram 里：
 
-```text
-11434 -> ollama 可以存在
-11435 -> Python / uvicorn 必须存在
+```wl
+ServiceExecute["Ollama", "GetOllamaPort"]
 ```
 
-如果看到：
+返回 `11434`，重新设为：
 
-```text
-ollama ... LISTEN localhost:11434
+```wl
+Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
+Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
 ```
-
-这不一定是错，只要 Wolfram 指向 `11435`。如果 `11435` 没有 `Python` / `uvicorn`，说明代理没跑。
 
 代理模式下不要运行：
 
@@ -588,25 +817,36 @@ ServiceExecute["Ollama", "Start"]
 ServiceExecute["Ollama", "UseLocalOllama"]
 ```
 
-这些命令可能启动真正的本地 Ollama。代理模式只需要设置端口和 IP：
+这些命令可能启动真正的本地 Ollama。
 
-```wl
-SetEnvironment["NO_PROXY" -> "localhost,127.0.0.1,::1"];
-SetEnvironment["no_proxy" -> "localhost,127.0.0.1,::1"];
+### 9.2 Python 到上游出现 SSL EOF
 
-Quiet@ServiceExecute["Ollama", "SetOllamaIP", {"IP" -> "127.0.0.1"}];
-Quiet@ServiceExecute["Ollama", "SetOllamaPort", {"Port" -> 11435}];
+如果本地代理能收到请求，但 Python 到上游 API 报类似：
 
-{
-  ServiceExecute["Ollama", "GetOllamaIP"],
-  ServiceExecute["Ollama", "GetOllamaPort"],
-  ServiceExecute["Ollama", "TestConnection"]
-}
+```text
+SSLEOFError
+HTTPSConnectionPool
+Max retries exceeded
 ```
 
-如果 `GetOllamaPort` 返回 `11434`，说明 Wolfram 又指回真实 Ollama 了，重新设置为 `11435`。
+先确认 Clash HTTP 代理本身能打到上游：
 
-Clash TUN 可能会刷新 DNS、系统代理、路由、loopback 访问和已有 TCP 连接。DNS 被改写时可以修复：
+```bash
+curl -x <CLASH_HTTP_PROXY_URL> -v \
+  <OPENAI_COMPATIBLE_BASE_URL>/chat/completions
+```
+
+如果这里能返回 `401`、`403` 或服务商格式的认证错误，说明代理和 TLS 是通的，只是没有带 API key。然后把同一个代理地址写入 `.env`：
+
+```bash
+export GLM_HTTPS_PROXY="<CLASH_HTTP_PROXY_URL>"
+```
+
+本文代码会用 `requests.Session()`、`Retry`、`HTTPAdapter`、`session.trust_env = False`、显式 `proxies=...`、`Connection: close` 和 `User-Agent` 来绕开 Python requests 直连时的 SSL EOF 抖动。
+
+### 9.3 Clash TUN 改写 DNS
+
+Clash TUN 会刷新 DNS、系统代理、路由、loopback 访问和旧 TCP 连接。必要时可以修系统 DNS 和本地绕过：
 
 ```bash
 sudo networksetup -setdnsservers Wi-Fi 223.5.5.5 119.29.29.29 8.8.8.8 1.1.1.1
@@ -614,7 +854,7 @@ networksetup -getdnsservers Wi-Fi
 networksetup -setproxybypassdomains Wi-Fi localhost 127.0.0.1 ::1 "*.local"
 ```
 
-但 DNS 修复不能防止真实 Ollama 抢 `11434`。最稳结构是：
+但 DNS 修复不能防止真实 Ollama 抢 `11434`。最稳结构仍然是：
 
 ```text
 真实 Ollama: 11434
@@ -622,42 +862,25 @@ GLM proxy: 11435
 Wolfram Ollama service: 127.0.0.1:11435
 ```
 
-可以把启动命令保存成 `~/glm_ollama_proxy/start.sh`：
-
-```bash
-#!/bin/bash
-cd ~/glm_ollama_proxy
-source .venv/bin/activate
-
-export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
-export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
-export GLM_MODEL="<UPSTREAM_MODEL>"
-export LOCAL_MODEL_NAME="glm:latest"
-
-uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
-```
-
-然后执行：
-
-```bash
-chmod +x ~/glm_ollama_proxy/start.sh
-~/glm_ollama_proxy/start.sh
-```
-
-## 7. 常见问题
+## 10. 常见问题
 
 | 现象 | 判断 | 处理 |
 |---|---|---|
-| `curl /api/tags` 不通 | 本地代理没有启动或端口不对 | 检查 `uvicorn` 是否还在运行，确认端口是 `11435` |
-| `curl /api/chat` 报上游错误 | 服务商 API 参数不对 | 检查 `GLM_BASE_URL`、`GLM_MODEL`、`GLM_API_KEY`，不要把 base URL 写到 `/chat/completions` |
-| `model 'glm:latest' not found` | Wolfram 打到了真实 Ollama | 查 `lsof -i :11434` 和 `lsof -i :11435`，让代理固定跑 `11435`，并在 Wolfram 里 `SetOllamaPort -> 11435` |
-| Wolfram 提示 `PresencePenalty` 不支持 | 通常只是参数忽略警告 | 只要终端显示 `POST /api/chat ... 200 OK`，先看返回内容是否正常 |
-| Wolfram 红框但终端是 `200 OK` | Chatbook 前端期望的字段可能更多 | 看是否调用了 `/api/show`、`/api/generate`、`/api/ps`，必要时补兼容端点 |
-| 终端一关就不能用了 | 代理进程被关闭 | 保持 `uvicorn` 终端运行，或写本机启动脚本 |
+| `curl /api/tags` 不通 | 本地代理没有启动或端口不对 | 运行 `~/glm_ollama_proxy/start.sh`，确认 `lsof -i :11435` 是 `python` / `uvicorn`。 |
+| `curl /api/chat` 报上游错误 | 服务商 API 参数或网络不对 | 检查 `GLM_BASE_URL`、`GLM_MODEL`、`GLM_API_KEY`、`GLM_HTTPS_PROXY`。 |
+| `model 'glm:latest' not found` | Wolfram 打到了真实 Ollama | 让代理固定跑 `11435`，并在 Wolfram 里 `SetOllamaPort -> 11435`。 |
+| `Port 11435 is already occupied` 且占用者是 `python` | 代理可能已经在运行 | 不要重复启动；直接用 `curl /api/chat` 测。 |
+| `Port 11435 is already occupied` 且占用者是 `ollama` | 端口被真实 Ollama 占了 | 停掉真实 Ollama，或给代理换端口并同步改 Wolfram 端口。 |
+| Python 报 `session is not defined` | 代码只局部替换过 | 直接用本文完整 `call_upstream_chat` 和 `build_session`。 |
+| Python 报 `DEBUG_LOG is not defined` | middleware 里用了未定义变量 | 确认文件顶部有 `DEBUG_LOG = ...`。 |
+| Wolfram 提示 `PresencePenalty` 不支持 | 通常只是参数忽略警告 | 只要终端显示 `POST /api/chat ... 200 OK`，先看返回内容是否正常。 |
+| 终端一关就不能用了 | 代理进程被关闭 | 用 `start.sh` 常驻，或用 launchd 登录启动。 |
+| `.env` 里 key 泄露 | 密钥已经不可信 | 立刻去服务商后台删除旧 key，重新生成，并确认 `.env` 权限是 `600`。 |
 
-## 8. 安全提醒
+## 11. 安全提醒
 
-- 真实 API key 只放在本机环境变量或私有密钥文件中。
-- 不要把真实 key 写进 Markdown、Notebook、`init.m`、Git 仓库、截图或聊天记录。
-- 如果 key 曾经贴进公开或半公开对话，应当删除旧 key 并重建。
-- 本地代理只绑定 `127.0.0.1`，不要对公网开放。
+- 真实 API key 只放在 `.env` 或本机私有密钥文件中；
+- 不要把真实 key 写进 Markdown、Notebook、`init.m`、Git 仓库、截图或聊天记录；
+- 如果 key 曾经贴进公开或半公开对话，应当删除旧 key 并重建；
+- 本地代理只绑定 `127.0.0.1`，不要对公网开放；
+- 公开教程里不要出现真实用户名、真实本机路径、真实代理地址或真实账号状态截图。

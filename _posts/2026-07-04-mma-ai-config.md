@@ -181,43 +181,79 @@ GLM 代理: 固定跑 11435
 Wolfram Ollama service: 固定指向 127.0.0.1:11435
 ```
 
-可以把启动命令保存成 `~/glm_ollama_proxy/start.sh`：
-
-```bash
-#!/bin/bash
-cd ~/glm_ollama_proxy
-source .venv/bin/activate
-
-export GLM_BASE_URL="<OPENAI_COMPATIBLE_BASE_URL>"
-export GLM_API_KEY="<THIRD_PARTY_API_KEY>"
-export GLM_MODEL="<UPSTREAM_MODEL>"
-export LOCAL_MODEL_NAME="glm:latest"
-
-uvicorn glm_ollama_proxy:app --host 127.0.0.1 --port 11435
-```
-
-以后启动只需要：
-
-```bash
-chmod +x ~/glm_ollama_proxy/start.sh
-~/glm_ollama_proxy/start.sh
-```
+启动脚本建议使用下一节的 `.env + start.sh` 版本。这样 API key 只在本机 `.env` 里，脚本也能先检查 `11435` 是否已经被代理或真实 Ollama 占用。
 
 如果之前在聊天记录、截图或终端日志里贴过真实 API key，应当去服务商后台删除旧 key，重新生成一个。
 
-### 2.3 角色：不要选 Wolfram AI Assistant
+### 2.3 最终固化：五个文件分工
+
+7 月 7 日后续 debug 的最终结论是：不要把所有逻辑塞进 Notebook，也不要每次手动运行一串 `SetEnvironment` 和 `SetOllamaPort`。稳定方案应该拆成五个文件：
+
+| 文件 | 作用 | 是否公开 |
+|---|---|---|
+| `glm_ollama_proxy.py` | 本机 Ollama-compatible HTTP 代理，负责转发 `/api/chat`、`/api/generate`、`/api/tags` | 可以用脱敏模板公开 |
+| `.env` | 上游 Base URL、API key、模型名、可选 Clash HTTP 代理 | 不公开，不进 Git |
+| `start.sh` | 启动代理、检查 `11435` 是否被占用 | 可以公开脱敏版 |
+| `$UserBaseDirectory/Kernel/init.m` | 只让 Wolfram 固定指向 `127.0.0.1:11435` | 可以公开脱敏版 |
+| launchd plist | macOS 登录后自动启动代理 | 可选，公开时替换用户名 |
+
+完整文件模板在这里：
+
+- [Ollama -> OpenAI-compatible 代理完整模板](/assets/docs/mma-ai-config/ollama-openai-compatible-proxy.md)
+
+稳定后的日常链路是：
+
+```text
+Chatbook
+-> Wolfram Ollama ServiceConnection
+-> 127.0.0.1:11435
+-> glm_ollama_proxy.py
+-> 可选 Clash HTTP proxy
+-> 第三方 OpenAI-compatible API
+```
+
+这里的关键边界是：
+
+- `init.m` 只保存 Wolfram 端口和本地绕过规则，不放 API key，也不调用 `ChatService`；
+- Python 代理由 `start.sh` 或 launchd 启动，不由 `init.m` 启动；
+- `.env` 权限设成 `600`，并且永远不要提交到 Git；
+- `GLM_HTTPS_PROXY` 只在 Python requests 到上游出现 SSL EOF / TLS 抖动时启用；
+- 如果 `11435` 已被 `python` / `uvicorn` 占用，通常说明代理已经在跑，不要重复启动；
+- 如果 `model 'glm:latest' not found`，大概率是 Wolfram 又打到了真实 Ollama，而不是上游模型坏了。
+
+后续最小健康检查固定成四步：
+
+```bash
+lsof -i :11435
+curl http://127.0.0.1:11435/api/tags
+curl http://127.0.0.1:11435/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"model":"glm:latest","stream":false,"messages":[{"role":"user","content":"只回答 GLM_PROXY_TEST"}]}'
+```
+
+```wl
+{
+  ServiceExecute["Ollama", "GetOllamaIP"],
+  ServiceExecute["Ollama", "GetOllamaPort"],
+  ServiceExecute["Ollama", "TestConnection"]
+}
+```
+
+只要终端返回 `GLM_PROXY_TEST`，Wolfram 的端口又是 `11435`，路线 A 的本地代理链路就基本闭合。
+
+### 2.4 角色：不要选 Wolfram AI Assistant
 
 如果你决定暂时使用官方 Chatbook 气泡界面，那么 **角色** 标签里建议保持普通聊天角色，并把 LLM 服务商设为 DeepSeek / OpenAI 等外部服务商。不要把角色或入口切到 Wolfram AI Assistant / Wolfram AI Access，除非你确实有对应订阅；否则很容易再次进入 Wolfram 自家 AI Access / Cloud 登录流程。
 
 ![Wolfram AI 设置中的角色页，角色保持普通聊天人，LLM 服务商选择 DeepSeek。](/assets/images/mma-ai-config/role-not-wolfram-ai.png)
 
-### 2.4 工具：启用 LLM 可调用能力
+### 2.5 工具：启用 LLM 可调用能力
 
 在 **工具** 标签里，可以管理 LLM 能调用的工具，例如文档检索、WolframAlpha、Wolfram Language 代码执行、网页抓取和网页搜索等。需要安装更多工具时，可以点 **LLM 工具库**，它指向 Wolfram 官方的 [LLM Tool Repository](https://resources.wolframcloud.com/LLMToolRepository?ChannelID=5a7929e0-d26d-4d29-9928-4ed9e8cb9c60)。这个页面是 Wolfram 提供的 LLM 工具接口集合，用来给 LLM 增加可调用的工具能力。
 
 ![Wolfram AI 设置中的工具页，可以启用文档检索、WolframAlpha、Wolfram Language Evaluator 和网页工具。](/assets/images/mma-ai-config/llm-tools-settings.png)
 
-### 2.5 Cell style：区分代码、文本和聊天输入
+### 2.6 Cell style：区分代码、文本和聊天输入
 
 Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell 是可执行代码、普通文字、标题，还是 Chatbook 相关的聊天输入。
 
@@ -244,7 +280,7 @@ Notebook 顶部工具栏的 **单元的样式** 下拉菜单，决定当前 cell
 给官方 Chatbook 设定长期角色 -> ChatSystemInput
 ```
 
-### 2.6 最小测试：确认官方 AI Access 可用
+### 2.7 最小测试：确认官方 AI Access 可用
 
 进入后登录 Wolfram Account，再开一个新 Notebook 测试 Assistant。
 
