@@ -145,11 +145,14 @@ body {
     max-width: 34%;
     margin-left: 4%;
     @include flex(1, 0, auto);
-    opacity: 0.5;
+    opacity: .72;
     transition: opacity .1s;
     .section {
       position: sticky;
-      top: 0;
+      top: 1rem;
+    }
+    .section--post-toc ~ .section {
+      position: static;
     }
     &--left {
       margin-left: 0;
@@ -164,6 +167,110 @@ body {
 
 .section {
   margin: 0;
+}
+
+.aside .section + .section {
+  margin-top: 1.1rem;
+}
+
+.post-toc {
+  background: #f7faf9;
+  border: 1px solid #d7e1de;
+  border-radius: 6px;
+  margin: .75rem 0 1.15rem;
+  padding: .7rem .8rem;
+}
+
+.post-toc[hidden] {
+  display: none !important;
+}
+
+.post-toc--aside {
+  display: none;
+  margin-top: 0;
+}
+
+.post-toc__title {
+  color: $headingColour;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 .45rem;
+}
+
+.typeset .post-toc__title {
+  font-size: 14px;
+  line-height: 1.25;
+  margin: 0 0 .45rem;
+}
+
+.post-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.typeset .post-toc__list {
+  margin: 0;
+  padding: 0;
+}
+
+.post-toc__item,
+.typeset .post-toc__item {
+  counter-increment: none;
+  margin: 0 0 .12rem;
+
+  &:before {
+    content: none;
+    display: none;
+  }
+}
+
+.post-toc__item--level-3 {
+  padding-left: .7rem;
+}
+
+.post-toc__link {
+  border-left: 2px solid transparent;
+  color: #40524e;
+  display: block;
+  font-size: 13px;
+  line-height: 1.35;
+  padding: .18rem .35rem;
+  text-decoration: none;
+}
+
+.typeset .post-toc__link {
+  background-image: none;
+  text-shadow: none;
+}
+
+.post-toc__link:hover,
+.post-toc__link:focus {
+  background: #eef8f6;
+  border-left-color: #8fb8c0;
+  color: #0b7fab;
+}
+
+.post-toc__link.is-active {
+  border-left-color: #0f766e;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+.article--post h2[id],
+.article--post h3[id] {
+  scroll-margin-top: 1rem;
+}
+
+@include breakpoint(break-1) {
+  .has-post-toc-aside .post-toc--inline {
+    display: none;
+  }
+
+  .has-post-toc-aside .post-toc--aside {
+    display: block;
+  }
 }
 
 
