@@ -586,7 +586,13 @@ a .icon {
     li {
       border-left: 4px solid #8f9f9b;
       border-bottom: 1px solid #e5ecea;
+      counter-increment: none;
       margin: 0;
+
+      &:before {
+        content: none;
+        display: none;
+      }
 
       &[data-activity-status="upcoming"] {
         border-left-color: #0f9f8f;

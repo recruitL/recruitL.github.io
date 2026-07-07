@@ -30,7 +30,7 @@
       <p class="activity-map__loading">{% if is_en %}Loading map...{% else %}地图加载中...{% endif %}</p>
     </div>
 
-    <ol class="activity-map__list">
+    <ul class="activity-map__list">
       {% for event in site.data.activities %}
         {% if event.latitude and event.longitude %}
           {% if is_en %}
@@ -66,7 +66,7 @@
           </li>
         {% endif %}
       {% endfor %}
-    </ol>
+    </ul>
   </div>
 </section>
 
