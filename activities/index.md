@@ -181,7 +181,22 @@ leaflet_map: true
     <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
     <div class="activity-news__body">
       <span class="activity-icon" aria-label="活动类型" role="img"></span>
-      <p><span class="activity-news__title">引力与相对论天体物理分会2024年学术年会暨第六届伽利略-徐光启国际会议</span>，衡阳林隐假日酒店。会议由中国物理学会引力与相对论天体物理分会与国际相对论天体物理中心主办，南华大学承办，共有来自国内外相关科研单位的700余名学者参加，设置1个主会场和7个分会场，组织23个大会特邀报告和约300个分会场报告。</p>
+      <p><span class="activity-news__title">引力与相对论天体物理分会2024年学术年会暨第六届伽利略-徐光启国际会议</span>，湖南·衡阳，衡阳林隐假日酒店。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
+    id="conference-2023-gr"
+    data-activity-start="2023-04-21"
+    data-activity-end="2023-04-25"
+    data-activity-title="引力与相对论天体物理分会2023年学术年会"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2023-04-21 至 2023-04-25</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><span class="activity-news__title">引力与相对论天体物理分会2023年学术年会</span>，重庆，重庆融汇丽笙酒店。</p>
     </div>
   </article>
 

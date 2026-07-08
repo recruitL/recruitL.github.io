@@ -181,7 +181,22 @@ This page organizes academic conferences, invited talks, useful links, and relat
     <div class="activity-news__date">2024-04-19 to 2024-04-24</div>
     <div class="activity-news__body">
       <span class="activity-icon" aria-label="Activity type" role="img"></span>
-      <p><span class="activity-news__title">2024 Annual Meeting of the Division of Gravitation and Relativistic Astrophysics and the 6th Galileo-Xu Guangqi International Meeting</span>, Lin Yin Holiday Hotel, Hengyang. The meeting was hosted by the Division of Gravitation and Relativistic Astrophysics of the Chinese Physical Society and the International Center for Relativistic Astrophysics Network, organized by the University of South China, and attended by more than 700 scholars from related research institutions. It included one plenary venue, seven parallel venues, 23 invited plenary talks, and about 300 parallel-session talks.</p>
+      <p><span class="activity-news__title">2024 Annual Meeting of the Division of Gravitation and Relativistic Astrophysics and the 6th Galileo-Xu Guangqi International Meeting</span>, Lin Yin Holiday Hotel, Hengyang, Hunan.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
+    id="conference-2023-gr"
+    data-activity-start="2023-04-21"
+    data-activity-end="2023-04-25"
+    data-activity-title="2023 Annual Meeting of the Division of Gravitation and Relativistic Astrophysics"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2023-04-21 to 2023-04-25</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><span class="activity-news__title">2023 Annual Meeting of the Division of Gravitation and Relativistic Astrophysics</span>, Chongqing Ronghui Radisson Hotel, Chongqing.</p>
     </div>
   </article>
 
