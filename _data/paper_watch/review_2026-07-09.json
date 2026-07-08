@@ -80,12 +80,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 45,
-  "total_review_candidates": 80,
-  "report_path": "/papers/2026-07-09/",
   "review_path": "_paper_reviews/2026-07-09.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "arxiv:2607.03575v2",
       "title": "SGN: A python framework for stream-processing pipelines",
       "authors": [
@@ -135,6 +133,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "arxiv:2607.06441v1",
       "title": "Starting inflation in asymptotically flat spacetimes",
       "authors": [
@@ -173,6 +172,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "doi:10.1103/yxld-zwpq",
       "title": "Quantum-Error-Correction-Inspired Noise Mitigation for Wavelike Dark Matter Searches with Quantum Sensors",
       "authors": [
@@ -209,6 +209,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "arxiv:2607.06467v1",
       "title": "Linearized Horndeski Theory with a Potential in the Solar System Regime",
       "authors": [
@@ -244,6 +245,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "arxiv:2607.06447v1",
       "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
       "authors": [
@@ -293,6 +295,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "arxiv:2607.06527v1",
       "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
       "authors": [
@@ -332,6 +335,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "arxiv:2607.06482v1",
       "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
       "authors": [
@@ -373,6 +377,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "arxiv:2607.06507v1",
       "title": "DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation",
       "authors": [
@@ -419,6 +424,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "arxiv:2607.06503v1",
       "title": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
       "authors": [
@@ -460,6 +466,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "arxiv:2607.06461v1",
       "title": "WordVoice: Explicit and Decoupled Multi-Dimensional Word-Level Control for LLM-Based TTS",
       "authors": [
@@ -504,6 +511,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "arxiv:2607.06452v1",
       "title": "From Voting to Agent Collaboration: Answer-Type-Aware LLM Pipelines for BioASQ 14b",
       "authors": [
@@ -546,6 +554,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "arxiv:2607.06519v1",
       "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
       "authors": [
@@ -587,6 +596,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "arxiv:2607.06504v1",
       "title": "RMISC: A Large-scale Real-world Multivariate Corpus for Time Series Foundation Models",
       "authors": [
@@ -626,6 +636,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "arxiv:2607.06436v1",
       "title": "Observationally Constrained Cosmological model in $f(Q,\\mathcal{L}_{m})$ Gravity with $H(z)$ parameterization",
       "authors": [
@@ -660,6 +671,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "https://www.nature.com/articles/s41586-026-10742-x",
       "title": "Large language models can predict the results of social science experiments",
       "authors": [
@@ -696,6 +708,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "https://www.nature.com/articles/s41586-026-10689-z",
       "title": "Universal cell embedding provides a foundation model for cell biology",
       "authors": [
@@ -734,6 +747,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "doi:10.1038/s41586-026-10742-x",
       "title": "Large language models can predict the results of social science experiments",
       "authors": [
@@ -770,6 +784,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "arxiv:2607.06458v1",
       "title": "Exact 1D Nonlinear Solutions for Proton-Driven Plasma Wakefields: Benchmarking Against AWAKE Data Envelopes",
       "authors": [
@@ -809,6 +824,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "arxiv:2607.06493v1",
       "title": "Holographic Tests of the $μ$ Ensemble",
       "authors": [
@@ -847,6 +863,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "arxiv:2607.06565v1",
       "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
       "authors": [
@@ -890,6 +907,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "arxiv:2607.06546v1",
       "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
       "authors": [
@@ -931,6 +949,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "arxiv:2607.06544v1",
       "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
       "authors": [
@@ -970,6 +989,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "arxiv:2607.06523v1",
       "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
       "authors": [
@@ -1011,6 +1031,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "arxiv:2607.06481v1",
       "title": "Prompt-Adapter Context Routing for Parameter-Efficient Multi-Shot Long Video Extrapolation",
       "authors": [
@@ -1053,6 +1074,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "arxiv:2607.06566v1",
       "title": "The Chiral Random-Matrix Ensemble of the Type-IIB Axion--Dilaton Wormhole Partition Function",
       "authors": [
@@ -1088,6 +1110,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "arxiv:2607.06513v1",
       "title": "Interplay of CPT-Violating and CPT-Conserving Lorentz Invariance Violation at DUNE",
       "authors": [
@@ -1127,6 +1150,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "doi:10.1103/wfy7-zbwf",
       "title": "Pair-breaking and dimensionality in spin-orbit coupled superconductors",
       "authors": [
@@ -1156,6 +1180,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "doi:10.1103/p5d8-548h",
       "title": "Comment on “Photoinduced Dynamics and Momentum Distribution of Chiral Charge Density Waves in 1 T − TiSe 2 ”",
       "authors": [
@@ -1192,6 +1217,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "doi:10.1103/5rsv-mb6x",
       "title": "Precision spectroscopy of the fine and hyperfine structures of high molecular Rydberg-Stark states: Metrology of molecular hydrogen ions",
       "authors": [
@@ -1221,6 +1247,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "doi:10.1103/qv9w-x78v",
       "title": "Signature of chiral superconducting order parameter evidenced in mesoscopic superconductors",
       "authors": [
@@ -1250,6 +1277,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "doi:10.1103/jxjx-c8r1",
       "title": "Photoelectron chiral dichroism induced by lasers without helicity via chiral hole wavepackets",
       "authors": [
@@ -1279,6 +1307,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P032",
       "uid": "doi:10.1103/46n3-pryp",
       "title": "Tailoring Pure Valley-Zeeman Spin-Orbit Coupling in WSe 2 -Encapsulated Monolayer Graphene",
       "authors": [
@@ -1315,6 +1344,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P033",
       "uid": "doi:10.1103/hm32-h8q3",
       "title": "Experimental evidence for coronal mass ejection suppression in strong stellar magnetic fields",
       "authors": [
@@ -1344,6 +1374,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P034",
       "uid": "doi:10.1103/6qcc-wdtx",
       "title": "Quantum Geometric Fluctuation-Dissipation Relation for Nonlinear Transport",
       "authors": [
@@ -1378,6 +1409,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P035",
       "uid": "doi:10.1103/dmv6-7gdv",
       "title": "Observation of the Doubly Charmed Baryon Ξ c c + with the LHCb Run 3 Detector",
       "authors": [
@@ -1414,6 +1446,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P036",
       "uid": "doi:10.1103/zqg5-gzbq",
       "title": "Origin of spin stripes in bilayer nickelate La 3 Ni 2 O 7",
       "authors": [
@@ -1443,6 +1476,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P037",
       "uid": "doi:10.1103/jcrm-953w",
       "title": "Third-order nonlinear transport in a percolative two-dimensional superconductor",
       "authors": [
@@ -1472,6 +1506,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P038",
       "uid": "doi:10.1103/24g9-yn9d",
       "title": "Comprehensive Analysis of the B 0 → K * 0 μ + μ − Decay",
       "authors": [
@@ -1508,6 +1543,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P039",
       "uid": "doi:10.1103/q2cc-stbr",
       "title": "Qiu et al. Reply",
       "authors": [
@@ -1544,6 +1580,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P040",
       "uid": "doi:10.1103/bqzh-gy4n",
       "title": "Exponential Linewidth Narrowing and Enhancement of Sensitivity in Ramsey Interferometry with an Optically Thick Ensemble of Atoms",
       "authors": [
@@ -1577,6 +1614,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P041",
       "uid": "doi:10.1103/dkm5-xt6d",
       "title": "Fusion suppression in super heavy element 263 Bh formation via 54 Cr + 209 Bi",
       "authors": [
@@ -1606,6 +1644,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P042",
       "uid": "doi:10.1103/mzgp-2lzb",
       "title": "Strain-tuned nodal superconductivity in the charge-ordered kagome metal CsV 3 Sb 5",
       "authors": [
@@ -1635,6 +1674,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P043",
       "uid": "doi:10.1103/hrxh-y5dl",
       "title": "Probing the quantum geometry of correlated metals using optical conductivity",
       "authors": [
@@ -1664,6 +1704,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P044",
       "uid": "doi:10.1103/mnwt-svrf",
       "title": "Regge Trajectories from the Adjoint Sector of Matrix Quantum Mechanics",
       "authors": [
@@ -1695,6 +1736,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P045",
       "uid": "doi:10.1103/t3bt-m431",
       "title": "Experimental evidence of Kelvin-wave turbulence along a vortex core",
       "authors": [
@@ -1720,6 +1762,1214 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1103/k23j-c9y7",
+      "title": "High-energy-density plasma nanorod by collisionless absorption of ultrafast laser pulse inside dielectrics",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/k23j-c9y7",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/k23j-c9y7",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1103/fhwd-lmgk",
+      "title": "Curved odd elasticity",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/fhwd-lmgk",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/fhwd-lmgk",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1103/rkz9-xps2",
+      "title": "Diffusion Equation is Compatible with Special Relativity",
+      "authors": [
+        "L. Gavassino"
+      ],
+      "abstract": "Because of its parabolic character, the diffusion equation exhibits instantaneous spatial spreading and becomes unstable when Lorentz boosted. According to the conventional interpretation, these features reflect a fundamental incompatibility with special relativity. In this Letter, we show that this interpretation is incorrect by demonstrating that any smooth and sufficiently localized solution of the diffusion equation is the particle density of an exact solution of the relativistic Vlasov-Fokker-Planck equation. This establishes the existence of a causal, stable, and thermodynamically consistent relativistic kinetic theory whose hydrodynamic sector is governed by diffusion at all wavelengths. We further demonstrate that the standard arguments for instability arise from considering solutions that admit no counterpart in kinetic theory and that apparent violations of causality disappear once signals are defined in terms of the underlying microscopic data.",
+      "url": "https://doi.org/10.1103/rkz9-xps2",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/rkz9-xps2",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Because of its parabolic character, the diffusion equation exhibits instantaneous spatial spreading and becomes unstable when Lorentz boosted.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "doi:10.1103/dvj7-9thf",
+      "title": "Minimal Trade-Off and Optimal Measurement for Multiparameter Quantum Estimation",
+      "authors": [
+        "Lingna Wang",
+        "Hongzhen Chen",
+        "Haidong Yuan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/dvj7-9thf",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/dvj7-9thf",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "doi:10.1103/ncm8-3fmh",
+      "title": "Diffusion in two-dimensional hyperuniform media",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ncm8-3fmh",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ncm8-3fmh",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "doi:10.1103/tppy-pdds",
+      "title": "Universal valley filtering via uniform dissipation and velocity contrast",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/tppy-pdds",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/tppy-pdds",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "doi:10.1103/bp6k-8zmd",
+      "title": "High-efficiency loading of 2,400 ytterbium atoms in optical tweezer arrays",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/bp6k-8zmd",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/bp6k-8zmd",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "doi:10.1103/9hkk-chws",
+      "title": "Decoupled-Subspace-Induced Flat Bands in a Photonic Superlattice",
+      "authors": [
+        "Guoxia Yang",
+        "Jiayi Zhang",
+        "Siyan Jiang",
+        "Anwen Jiang",
+        "Chenying Huang",
+        "Yihe Li",
+        "Haojie Li",
+        "Xiaoran Zhang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/9hkk-chws",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/9hkk-chws",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "doi:10.1103/zhs1-rv1k",
+      "title": "Unified First-Principles Formula for Time-Resolved ARPES Spectra of Coherent and Incoherent Excitons beyond the Dilute Limit",
+      "authors": [
+        "Gianluca Stefanucci",
+        "Enrico Perfetto"
+      ],
+      "abstract": "Despite major experimental progresses in time-resolved and angle-resolved photoemission spectroscopy, a quantitative, microscopic framework for interpreting exciton-induced modifications of electronic band structures—applicable even beyond the low-density limit—is still lacking. Here, we close this gap by introducing a unified approach that links the dynamics of coherent and incoherent excitons to distinct and experimentally observable excitonic sidebands. Our central result is a general, first-principles formula for time-resolved photoemission spectra, applicable across a broad range of temperatures, excitation densities, and pump-probe delays. This advance provides a predictive tool for quantitatively tracking excitonic dynamics in complex materials.",
+      "url": "https://doi.org/10.1103/zhs1-rv1k",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/zhs1-rv1k",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Despite major experimental progresses in time-resolved and angle-resolved photoemission spectroscopy, a quantitative, microscopic framework for interpreting exciton-induced modifications of electronic band structures—applicable even beyond the low-density limit—is still lacking.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "doi:10.1103/5pr6-5fmd",
+      "title": "Quantum droplets in a resonant Bose-Fermi mixture",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/5pr6-5fmd",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/5pr6-5fmd",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "arxiv:2607.06562v1",
+      "title": "Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects",
+      "authors": [
+        "Tirth D. Surti",
+        "Martijn S. S. L. Oei",
+        "Anthony C. S. Readhead",
+        "Andrew G. Sullivan"
+      ],
+      "abstract": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer. This relative simplicity makes them attractive targets to study the launching and evolution of relativistic jets. We use radio surveys and spatially resolved VLBA observations to estimate the minimum energies and magnetic field strengths of a subset of edge-brightened CSOs (CSO-2s). These are necessary to test models of CSO-2 formation via stellar capture and evolution via synchrotron cooling. By treating the observed X-ray emission of CSO-2s as inverse Compton emission from synchrotron and external photon fields, we estimate a mean departure from the minimum energy magnetic field strengths of ${\\sim}2\\times$, suggesting that CSO-2 lobes are close to minimum energy. Typical lobal minimum energy magnetic field strengths of $20$ mG suggest that once the jets shut off, luminous CSO-2s should fade at GHz frequencies within ${\\sim}10^{3}$ years. We find that CSO-2 minimum energies are systematically larger than previously estimated. If luminous CSO-2s result from tidal disruption events, a majority would require the capture of massive stars $>1 \\ M_{\\odot}$ assuming jet launching efficiencies less than $100\\%$.",
+      "url": "https://arxiv.org/abs/2607.06562v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-08T01:59:21+08:00",
+      "updated": "2026-07-08T01:59:21+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "10.3847/1538-4357/ae78c5",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Compact symmetric objects (CSOs) are subkiloparsec radio sources with two-sided emission about a core resulting from jets that are not relativistically beamed towards the observer.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "arxiv:2607.06538v1",
+      "title": "Predictions for $b$-baryon lifetimes at NNLO-QCD",
+      "authors": [
+        "Alexander Lenz",
+        "Maria Laura Piscopo",
+        "Aleksey V. Rusov"
+      ],
+      "abstract": "Motivated by recent and forthcoming experimental progress, we provide updated predictions for the total decay rates of $b$-baryons, their lifetime ratios and their lifetimes normalised to that of the $B^0_d$ meson within the framework of the heavy quark expansion (HQE). We include, for the first time, next-to-next-to-leading-order QCD corrections to the free $b$-quark decay, which significantly reduce the theoretical uncertainties in the total decay rates. In addition, we also include, for the first time, the complete next-to-leading-order QCD corrections to the dimension-five contributions. While these corrections have only a minor effect on the total decay rates, they induce a sizeable shift in the lifetime ratios, improving the agreement between HQE predictions and experimental data. Overall, we find excellent agreement between the HQE predictions and current experimental measurements for both total decay rates and lifetime ratios within the quoted uncertainties.",
+      "url": "https://arxiv.org/abs/2607.06538v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-08T01:42:09+08:00",
+      "updated": "2026-07-08T01:42:09+08:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Motivated by recent and forthcoming experimental progress, we provide updated predictions for the total decay rates of $b$-baryons, their lifetime ratios and their lifetimes normalised to that of the $B^0_d$ meson within the framework of the heavy quark expansion (HQE).",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "arxiv:2607.06498v1",
+      "title": "Effective Lagrangian of a fermion field in a nontrivial topology under magnetic effects",
+      "authors": [
+        "Emerson B. S. Corrêa",
+        "Michelli S. R. Sarges",
+        "Airton H. G. Rodrigues",
+        "Carlos A. Bahia"
+      ],
+      "abstract": "We have investigated a fermionic system from the perspective of an effective quantum field theory defined on a nontrivial topology in the presence of an external magnetic field. Using the proper-time representation, we obtained one-loop expressions for the corresponding effective Lagrangian, taking into account all Landau levels in the propagator. We also computed the significant boundary-induced contributions to the system's magnetization. To verify the reliability of our results, we examined the limit of zero temperature and infinite spatial extent, which correctly reproduces the celebrated Schwinger result.",
+      "url": "https://arxiv.org/abs/2607.06498v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-08T00:59:32+08:00",
+      "updated": "2026-07-08T00:59:32+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We have investigated a fermionic system from the perspective of an effective quantum field theory defined on a nontrivial topology in the presence of an external magnetic field.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "arxiv:2607.06486v1",
+      "title": "Abelian 2-Form Gauge Theory: Basic Canonical Brackets and Nilpotency Property of Noether (Anti-)BRST Charges",
+      "authors": [
+        "R. P. Malik"
+      ],
+      "abstract": "Within the framework of Becchi-Rouet-Stora-Tyutin (BRST) formalism, we invoke the beauty of the basic canonical (anti)commutators to prove the nilpotency property of the Noether (anti-)BRST charges for the D-dimensional BRST-quantized version of the free Abelian 2-form gauge theory which is endowed with a non-trivial Curci-Ferrari (CF) type restriction. In this proof, we use only the theoretical strength of the Gauss divergence theorem. We demonstrate that, under the off-shell nilpotent (anti-)BRST symmetry transformations, the Noether conserved (anti-)BRST charges are not invariant and they are also found to be not off-shell nilpotent (if we exploit the standard relationship between the continuous symmetry transformations and their generators as the Noether conserved charges). However, these charges become (anti-)BRST invariant and nilpotent if we use (i) the appropriate equations of motion at suitable places, and (ii) the Gauss divergence theorem. We derive the consistently modified versions of the Noether (anti-)BRST charges which are invariant under the off-shell nilpotent (anti-)BRST transformations. We prove the (anti-)BRST invariance of these modified versions of charges by using the basic canonical (anti)commutators, too. We discuss the physicality criteria w.r.t. (i) the conserved Noether (anti-)BRST charges, and (ii) the modified (anti-)BRST invariant versions of the Noether (anti-)BRST charges. We prove the superiority of the latter over the former (in view of the consistency with the Dirac quantization conditions for the gauge theories).",
+      "url": "https://arxiv.org/abs/2607.06486v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-08T00:46:59+08:00",
+      "updated": "2026-07-08T00:46:59+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Within the framework of Becchi-Rouet-Stora-Tyutin (BRST) formalism, we invoke the beauty of the basic canonical (anti)commutators to prove the nilpotency property of the Noether (anti-)BRST charges for the D-dimensional BRST-quantized version of the free Abelian 2-form gauge theory which is endowed with a non-trivial Curci-Ferrari (CF) type restriction.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "arxiv:2607.06542v1",
+      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
+      "authors": [
+        "Ramon Ferrer-i-Cancho",
+        "Catherine Hobaiter",
+        "Thore Bergman",
+        "Morgan Gustison"
+      ],
+      "abstract": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human languages, an unsupervised parser can be evaluated because some gold standard is usually available or can be created. For other species, a gold standard is unknown. Thus one may conclude that it is impossible to determine the accuracy of an unsupervised parser and, consequently, dependency parsing is unfeasible in other species. However, here we apply recent advances in network science to demonstrate that the proportion of correct edges retrieved by a parser must be high for the sequences of vocalizations or gestures that non-human primates produce due to the fast decay of the sequence length distribution. In contrast, human language sequences lack that property. Therefore, evaluation without a gold standard is feasible in non-human primates but a hard problem in humans.",
+      "url": "https://arxiv.org/abs/2607.06542v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:47:26+08:00",
+      "updated": "2026-07-08T01:47:26+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Dependency parsing consists of finding a tree representation for a sequence.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "arxiv:2607.06540v1",
+      "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+      "authors": [
+        "Zhenyu Liu",
+        "Yunxin Li",
+        "Xuanyu Zhang",
+        "Qixun Teng",
+        "Shenyuan Jiang",
+        "Haolan Chen",
+        "Minjun Zhao",
+        "Fanbo Meng",
+        "Yu Xu",
+        "Yancheng He",
+        "Baotian Hu",
+        "Haizhou Li",
+        "Min Zhang"
+      ],
+      "abstract": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community. Despite notable progress, recent endeavors are fundamentally constrained by severe modality interference, which causes substantial knowledge degradation and compromises semantic integrity -- ultimately making full-duplex SLMs feel unnatural and unintelligent. In this paper, through an exhaustive fine-grained analysis of model optimization dynamics, we uncover the root cause of such performance degradation, revealing that modality interference arises from inherent gradient conflicts between acoustic and semantic modeling when the two modalities are forced to share a deep parameter space. Guided by this key insight, we introduce Lychee-FD, a native end-to-end full-duplex framework designed to mitigate modality interference. Importantly, we propose a hierarchical parameter separation strategy that decouples conflicting modalities in deep layers while preserving cross-modality coherence via a dedicated semantic alignment channel. Extensive experiments on multiple full-duplex benchmarks demonstrate that our method significantly advances the state of the art, yielding substantial improvements in both speech intelligence (+7.4% on Spoken QA) and full-duplex interaction fluidity (+28.5% on FullDuplexBench 1.5) without compromising inference efficiency. To the best of our knowledge, this work is the first to achieve two key advances: 1) uncovering and elucidating the root cause of modality interference in full-duplex SLMs, and 2) designing an elegant hierarchical model together with a practical solution for seamless, high-performance, native intelligent full-duplex SLMs.",
+      "url": "https://arxiv.org/abs/2607.06540v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:43:36+08:00",
+      "updated": "2026-07-08T01:43:36+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "arxiv:2607.06532v1",
+      "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+      "authors": [
+        "Xiaolei Guo",
+        "Chenyu Zhou",
+        "Jianghao Lin",
+        "Dongdong Ge"
+      ],
+      "abstract": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure that solvers and learned policies rely on. Existing general generators usually choose their generation unit from a formulation template, summary statistics, local graph edits, or blocks found after recombination. These units do not explicitly record how a local part of the MILP is coupled to the rest of the instance. We propose GraphBU, a graph-native generator whose basic unit is a local subproblem plus its interface. The method promotes coupling nodes into master constraints or boundary variables and uses the resulting block units for compatibility-checked replacement. The analysis focuses on the properties needed by this construction: promotion separates interfaces, replacement can preserve feasibility under an interface-slack condition, and the graph construction is invariant to row-column permutations. On MILP instances generation, this unit keeps graph statistics close to the source family, preserves feasibility on most datasets, and improves downstream Predict-and-Search training. Genrated by GraphBU, The average graph-statistical similarity was approximately 0.934, the average feasibility was approximately 96.7%, and the average increase in the main index of downstream PS was approximately 8.0%.",
+      "url": "https://arxiv.org/abs/2607.06532v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:39:06+08:00",
+      "updated": "2026-07-08T01:39:06+08:00",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "arxiv:2607.06531v1",
+      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+      "authors": [
+        "Ghassen Marrakchi",
+        "Basarab Matei"
+      ],
+      "abstract": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. To address this inflexibility, we propose the Large Cancer Assistant (LCA), a model-agnostic, post-hoc orchestration framework designed for scalable clinical decision support. - Methods: The LCA is mathematically formalized as a 7-tuple architecture grounded in the principle of Algorithmic Impermeability, ensuring the orchestration logic remains strictly independent of underlying black-box AI models. We introduce the Entry Theory, leveraging Geometric Deep Learning (GDL) to standardize multimodal patient data along distinct structural and medical axes. The system dynamically orchestrates data via a Cancer Switching Module and intentionally isolates the core AI execution from volatile hospital IT infrastructures by outputting a Standardized Intermediate Payload (SIP). - Results: A Proof of Concept (PoC) validated the orchestration logic across four technical scenarios. The framework executed a nominal flow with negligible orchestration overhead. It empirically demonstrated algorithmic impermeability by maintaining an invariant routing projection during AI model swaps, and it validated strict failure-safety by achieving a 100\\% recall rate in generating targeted Supplementary Data Requests (SDR) under injected data anomalies. Multi-protocol execution capability was also successfully verified. - Conclusion: By structurally decoupling multimodal ingestion from feature inference, the LCA provides a highly adaptable and modular orchestration foundation. The SIP establishes a clear architectural boundary, natively setting the stage for downstream Electronic Medical Record (EMR) interoperability as an independent future paradigm.",
+      "url": "https://arxiv.org/abs/2607.06531v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:38:47+08:00",
+      "updated": "2026-07-08T01:38:47+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "arxiv:2607.06529v1",
+      "title": "Life Style Levels: Neighborhood Delineation using Geospatial Data",
+      "authors": [
+        "Srivatsa Kulkarni",
+        "Debarag Banerjee"
+      ],
+      "abstract": "Fine-scale socioeconomic information is often unavailable across rapidly ur-banizing regions of the developing world, like India, limiting the ability to delineate intra-urban variations in affluence and deprivation. This study pro-poses a scalable, grid-based urban delineation framework using building morphology derived from open-source satellite imagery. Urban areas across 59 Indian cities and towns are partitioned into high-resolution spatial grids and characterized using interpretable morphological indicators, which are combined into a transparent, rule-based scoring framework to delineate areas with contrasting levels of urban affluence. The resulting classifications are validated through ground-level Google Street View observations, revealing a sharp contrast between the grid classes which are consistent with the ex-pected effects of the lifestyle affluence indicators. We further investigate density-based clustering of building footprints in Mumbai to identify dense urban settlements, demonstrating that the resulting clusters exhibit substan-tial spatial overlap with known informal settlements across the city. Finally, we conduct an exploratory analysis mapping consumer loan delinquency across the derived affluence classes. By relying entirely on publicly available geospatial data, the proposed framework provides a scalable, interpretable, and cost-effective approach for granular urban affluence mapping across In-dian cities.",
+      "url": "https://arxiv.org/abs/2607.06529v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:37:03+08:00",
+      "updated": "2026-07-08T01:37:03+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Fine-scale socioeconomic information is often unavailable across rapidly ur-banizing regions of the developing world, like India, limiting the ability to delineate intra-urban variations in affluence and deprivation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "arxiv:2607.06522v1",
+      "title": "Bridging Physical Reasoning and Task Generalization via Visual Action Outcome Reasoning Alignment",
+      "authors": [
+        "Han-Jun Ko",
+        "Jr-Jen Chen",
+        "Haobo Yuan",
+        "Hsin-Ying Lee",
+        "Tiancheng Shen",
+        "Ming-Hsuan Yang",
+        "Yu-Chiang Frank Wang"
+      ],
+      "abstract": "Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments. Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment between the model's reasoning and actions. We present VAORA (Visual Action Outcome Reasoning Alignment), a novel reward design that directly addresses both issues. VAORA introduces two complementary rewards: Visual Alignment Reward, which anchors VLM reasoning to the visual context independent of the agent action itself, and Visual-Action Alignment Reward, which grounds reasoning in the visual outcome induced by the model's action. Together, these rewards suppress hallucinated CoT and reduce the gap between reasoning and behavior. To improve training stability, we further employ smooth, dense rewards by estimating success probabilities using a pre-trained in-domain expert agent. Experiments on PHYRE and Virtual Tool support our performances across novel-task and unseen-environment settings, confirming that grounded and generalizable physical intelligence can be induced through VAORA.",
+      "url": "https://arxiv.org/abs/2607.06522v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:27:59+08:00",
+      "updated": "2026-07-08T01:27:59+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "arxiv:2607.06514v1",
+      "title": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games",
+      "authors": [
+        "Chase McDonald",
+        "Nathan Tsang",
+        "Wesley N. Kerr"
+      ],
+      "abstract": "We present FootsiesGym, an open-source environment for learning in a non-trivial two-player, zero-sum, imperfect-information game. Built on HiFight's minimalist 2D fighting game Footsies, it isolates the cyclic, non-transitive strategic interactions of fighting game neutral play while remaining simple enough for efficient analysis. We provide a vectorized simulator that enables high-throughput training on standard hardware, making the environment accessible and reproducible. We describe the design of the environment, benchmark several reinforcement learning algorithms, and discuss open research directions it enables. The code is available at https://github.com/como-research/FootsiesGym.",
+      "url": "https://arxiv.org/abs/2607.06514v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:18:44+08:00",
+      "updated": "2026-07-08T01:18:44+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We present FootsiesGym, an open-source environment for learning in a non-trivial two-player, zero-sum, imperfect-information game.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P067",
+      "uid": "arxiv:2607.06505v1",
+      "title": "Industry Classification of GitHub Repositories Using the North American Industry Classification System (NAICS)",
+      "authors": [
+        "Kevin Xu",
+        "Alexander Quispe"
+      ],
+      "abstract": "GitHub hosts hundreds of millions of public repositories, but the platform exposes no native mapping from repositories to standardized industry sectors. This gap limits empirical work on the geography of innovation, the industrial composition of open-source production, and the diffusion of new technologies across economic sectors. We present NAICS-GH, a publicly released corpus of 6,588 GitHub repositories drawn from source pools covering the United States, the European Union, and Australia, each labeled with a 2-digit sector from the North American Industry Classification System (NAICS 2022). Labels are produced by a retrieve-and-verify pipeline that combines BAAI/bge-large-en embeddings, FAISS retrieval, and GPT-4.1 rubric scoring. The pipeline narrows about 1.37 million source repositories to 31,178 candidate repository-sector pairs and retains 6,588 high-confidence labels with score at least 8. Re-running the retrieval pipeline end to end reproduces the candidate set to within 0.03 percent. On a 2,421-repository human-validated random sample, the released labels attain 96.98 percent precision, with Wilson 95 percent confidence interval [96.23, 97.59]. We benchmark six pretrained encoders on the released corpus; RoBERTa-large reaches 86.45 percent F1 and 86.35 percent accuracy on a held-out 20 percent test set. The dataset, Croissant metadata, pipeline code, prompts, and fine-tuned checkpoint are released under CC-BY-4.0 and MIT licenses.",
+      "url": "https://arxiv.org/abs/2607.06505v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T01:06:32+08:00",
+      "updated": "2026-07-08T01:06:32+08:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "GitHub hosts hundreds of millions of public repositories, but the platform exposes no native mapping from repositories to standardized industry sectors.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P068",
+      "uid": "arxiv:2607.06497v1",
+      "title": "EntroPath: Maximum Entropy Path Ensemble Embedding for Manifold Learning",
+      "authors": [
+        "Przemysław Rola"
+      ],
+      "abstract": "We introduce EntroPath, a manifold learning method that recovers geodesic geometry from data graphs through ensembles of diffusion paths. Many existing graph-based embeddings rely either on locally normalised random walks or on shortest-path distances. The former can concentrate diffusion in densely sampled regions, while the latter are sensitive to spurious shortcut edges in the graph. EntroPath instead builds its dissimilarities from the maximum entropy random walk (MERW), which aggregates the full ensemble of k-step paths between points rather than relying on any single trajectory. We show that the resulting free-energy dissimilarity converges to squared geodesic distance in the short-time limit, via Varadhan's heat-kernel formula. The diffusion depth k interpolates smoothly between local neighbourhood structure and global manifold geometry, and the symmetrised kernel admits an exact Gram factorisation connecting EntroPath to kernel methods. We further provide scalable extensions via landmark projection and diffusion-potential pseudotime. Across synthetic manifolds and single-cell benchmarks, EntroPath consistently matches or outperforms diffusion- and shortest-path-based methods, while remaining competitive with neighbourhood-preserving embeddings (UMAP, t-SNE) on local-structure metrics. Its gains are most pronounced on manifolds with non-uniform sampling density and well-separated branching trajectories, where path-ensemble diffusion more faithfully preserves the underlying geodesic geometry.",
+      "url": "https://arxiv.org/abs/2607.06497v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:58:00+08:00",
+      "updated": "2026-07-08T00:58:00+08:00",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We introduce EntroPath, a manifold learning method that recovers geodesic geometry from data graphs through ensembles of diffusion paths.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P069",
+      "uid": "arxiv:2607.06495v1",
+      "title": "Pitwall: Faithful Natural-Language Race-Strategy Briefings from a Calibrated Real-Time Monte Carlo Engine",
+      "authors": [
+        "Juan S. Santillana"
+      ],
+      "abstract": "Live sports commentary is grounded generation under a deadline: statements concern real, named athletes, the grounding state changes every few seconds, and no reference text exists at generation time. We present Pitwall, a production system that generates natural-language Formula 1 strategy briefings in English, Spanish, and Portuguese, treating faithfulness as an architectural property rather than an aspiration: every published sentence is decomposed into typed factual claims (positions, gaps, tyres, pace, overtakes, race control) and each claim is verified against the probabilistic race state that prompted it. The same verifier gates the fine-tuning data: of 3,045 model-written targets, only the 81.9% whose every claim is state-supported are retained, the rest falling back to a provably faithful template, so the generator never sees an ungrounded target. Verification is meaningful because of the grounding substrate: a vectorized Monte Carlo engine (N=2,000 per-lap race continuations) calibrated on 126 races (2018-2024) and validated on fully held-out 2025-2026 seasons (winner-in-top-3 90.3% over 155 backtests; held-out Brier 0.0745). A recurring finding spans both halves of the system: virtues trade off and must be gated separately. In simulation, calibration-optimal is not decision-optimal; in generation, fine-tuning on richer targets buys vividness that collapses into hallucination when the grounding state is sparse -- a failure a four-base replication traces to base-model instruction adherence, not scale, and that sparse-context auditing removes from the production model. End-to-end operation -- live timing to verified trilingual briefings -- was confirmed at two consecutive live Grands Prix (Austria and Britain, 2026); at Silverstone a timestamped probability trace, committed to disk before the outcome was known, locked onto the eventual winner ten laps before the flag.",
+      "url": "https://arxiv.org/abs/2607.06495v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:55:39+08:00",
+      "updated": "2026-07-08T00:55:39+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "stat.AP"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Live sports commentary is grounded generation under a deadline: statements concern real, named athletes, the grounding state changes every few seconds, and no reference text exists at generation time.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P070",
+      "uid": "arxiv:2607.06489v1",
+      "title": "Multi-Agent Deep Reinforcement Learning for Multi Objective Battery Management in Dairy Farms",
+      "authors": [
+        "Marcos Eduardo Cruz Victorio",
+        "Karl Mason"
+      ],
+      "abstract": "The dairy industry in Ireland has a large potential for the integration of renewable energy and the reduction of carbon emissions. However, researchers of distributed generation control are mainly focused on residential and commercial applications. To contribute to the effective integration of renewable energy in the dairy sector, this paper presents a multi-objective optimisation control system based on differential evolution and multi agent Deep Reinforcement Learning. The proposed control is organised in two layers: the upper layer uses dynamic pricing, and the lower layer is based on multi-agent reinforcement learning for battery management. This paper also simulates the electrical response of the proposed control system in a rural distribution circuit. The simulation results show that the proposed control framework can improve profits from energy arbitrage up to 18% compared to using Rule-based models, increase the use of distributed generation without significantly increasing cost, and comply with the Irish grid code in terms of voltage variation.",
+      "url": "https://arxiv.org/abs/2607.06489v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:48:27+08:00",
+      "updated": "2026-07-08T00:48:27+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The dairy industry in Ireland has a large potential for the integration of renewable energy and the reduction of carbon emissions.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P071",
+      "uid": "arxiv:2607.06485v1",
+      "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
+      "authors": [
+        "Cong Su",
+        "Jiaju Han",
+        "Xuemeng Sun",
+        "Chengyin Hu",
+        "Qike Zhang",
+        "Jiujiang Guo",
+        "Yiwei Wei",
+        "Jiahuan Long"
+      ],
+      "abstract": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior. A lightweight generator synthesizes a single input-agnostic perturbation regularized toward physically plausible airflow patterns. Optimized on one surrogate CLIP model, it attains a mean zero-shot scene-classification attack success rate (ASR, the fraction of samples whose top-1 class changes) of 48.5% across five diverse CLIP backbones, far exceeding four IR-specific physical baselines (27.7--37.0%). Applied to six state-of-the-art VLMs, it cuts scene-classification accuracy by up to 38.2% relative, yet paradoxically makes some models more confident in their IR analysis, confabulating the perturbation as genuine thermal evidence such as temperature gradients and convection. Ablations show the airflow prior raises physical plausibility at no measurable cost to attack success. Together with a benchmark spanning eleven models and four tasks, these findings expose critical vulnerabilities in the rapidly expanding IR VLM ecosystem.",
+      "url": "https://arxiv.org/abs/2607.06485v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:46:46+08:00",
+      "updated": "2026-07-08T00:46:46+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P072",
+      "uid": "arxiv:2607.06484v1",
+      "title": "Assessing the Operational Impact of Poisoning Attacks over Augmented 3D Point Cloud Public Datasets for Connected and Autonomous Vehicles",
+      "authors": [
+        "Marwan Lazrag",
+        "Badis Hammi",
+        "Lorena Gonzalez-Manzano",
+        "Joaquin Garcia-Alfaro"
+      ],
+      "abstract": "Poisoning attacks against public datasets lead to major concerns, such as (i) misclassification of perceived objects when the poisoned data is used for training and (ii) embedding of backdoors that may eventually be triggered later on, when specific conditions in the system apply over the learned models. Its impact over data augmentation models is unclear. While data augmentation reduces the likelihood of poisoning attack success, some valid questions remain. Is data augmentation affecting the impact of poisoning attacks? can it increase the number of poisoned samples or injected backdoors? We explore in this paper some of these questions. We assess the effects of augmenting poisoned 3D point cloud datasets and validate that poisoning is able to evade the sanitizing nature of augmentation techniques when using the concrete case of Generative Adversarial Network (GAN) techniques to exemplify the case of data augmentation processing. We also validate that poisoning propagates over the augmented datasets and perturbs the decision made by general-purpose classifiers, in the end. All the experimental material (including tools, datasets, and classifiers) is publicly available, to facilitate reproducibility and to foster further research in the topic.",
+      "url": "https://arxiv.org/abs/2607.06484v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:46:16+08:00",
+      "updated": "2026-07-08T00:46:16+08:00",
+      "categories": [
+        "cs.CR",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Poisoning attacks against public datasets lead to major concerns, such as (i) misclassification of perceived objects when the poisoned data is used for training and (ii) embedding of backdoors that may eventually be triggered later on, when specific conditions in the system apply over the learned models.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P073",
+      "uid": "arxiv:2607.06479v1",
+      "title": "A Physics-Informed Neural Network Framework for Elastodynamic Wave Propagation in Bimaterial Systems",
+      "authors": [
+        "Sonal Ankush Chibire",
+        "Jenn-Terng Gau",
+        "Bo Zhang"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) provide a promising framework for solving partial differential equations while embedding the underlying physical laws directly into the learning process. This study presents a PINN-based framework for modeling transient elastodynamic wave propagation in bimaterial systems governed by the axisymmetric equations of linear elasticity. A steel-aluminum specimen representative of a Split Hopkinson Pressure Bar configuration is considered, and the governing elastodynamic equations, together with the corresponding initial, boundary, and interface conditions, are incorporated directly into the network through a physics-informed loss function. High-fidelity finite-element simulations performed using ANSYS Workbench Explicit Dynamics are used for validation and as supplementary data constraints during training. The proposed framework accurately predicts wave transmission and reflection across the bimaterial interface and reproduces axial and radial displacement histories, face-averaged responses, and the dominant stress and strain evolution with close agreement to the finite-element solutions. The trained network further demonstrates the ability to predict wave responses at previously unseen time instants and for modified material properties without requiring additional finite-element simulations, providing a continuous surrogate model for elastodynamic analysis. Mesh-sensitivity studies confirm numerical robustness, while additional material combinations demonstrate the generality of the proposed methodology. The results show that integrating physics-informed neural networks with explicit finite-element analysis provides an accurate and computationally efficient framework for elastodynamic wave propagation in heterogeneous solids, offering an effective surrogate modeling approach for high-rate solid mechanics and impact engineering applications.",
+      "url": "https://arxiv.org/abs/2607.06479v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:34:55+08:00",
+      "updated": "2026-07-08T00:34:55+08:00",
+      "categories": [
+        "cs.AI",
+        "math-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Physics-informed neural networks (PINNs) provide a promising framework for solving partial differential equations while embedding the underlying physical laws directly into the learning process.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P074",
+      "uid": "arxiv:2607.06472v1",
+      "title": "Provable learning separation for predicting time-evolution of quantum many-body systems",
+      "authors": [
+        "Rahul Bandyopadhyay",
+        "Riccardo Molteni",
+        "Jens Eisert",
+        "Vedran Dunjko",
+        "Sofiene Jerbi"
+      ],
+      "abstract": "Given that quantum computers are naturally suited to simulate the behavior of quantum many-body systems, an immediate question arises: can one formulate physically motivated quantum machine learning (QML) tasks that exhibit learning separations? We address this problem by studying the learnability of quantum many-body dynamics from the perspective of probably approximately correct (PAC)-learning. Concretely, we devise a supervised learning problem where the training set consists of specifications of randomized stabilizer probe states, evolution times sampled uniformly from a polynomially large time interval $[0,T]$, coupled with expectation values of certain observables evaluated on the resulting time-evolved state under an unknown Hamiltonian. For this learning task, we provide an efficient quantum procedure whose training phase learns the underlying Hamiltonian from short-time training samples, and whose deployment phase combines Hamiltonian simulation with the classical shadows protocol to perform inference on a newly given data point. By contrast, the existence of $O(\\mathsf{poly}(n))$-time instances ensures classical hardness: by embedding a $\\mathsf{BQP}$-complete computation into the polynomially long time-dynamics of a low-intersection variant of the Feynman-Kitaev clock Hamiltonian construction, we show that, for a certain family of input distributions, no randomized classical polynomial-time algorithm can fulfill our learning condition, unless $\\mathsf{BQP}\\subseteq\\mathsf{P/poly}$. Furthermore, we show that the classically hard instance maintains quantum learnability. We also give an interpretation of our results in learning-assisted certified quantum simulation. Taken together, our results demonstrate a rigorous learning separation for a natural ML task based on Hamiltonian evolution, while building connections between quantum learning theory, quantum simulation, and QML.",
+      "url": "https://arxiv.org/abs/2607.06472v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:30:09+08:00",
+      "updated": "2026-07-08T00:30:09+08:00",
+      "categories": [
+        "quant-ph",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Given that quantum computers are naturally suited to simulate the behavior of quantum many-body systems, an immediate question arises: can one formulate physically motivated quantum machine learning (QML) tasks that exhibit learning separations?",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P075",
+      "uid": "arxiv:2607.06445v1",
+      "title": "Analysis-by-Proxy: Localization Signals in VLMs Operating as Condition Encoders",
+      "authors": [
+        "Yoav Baron",
+        "Sara Dorfman",
+        "Roni Paiss",
+        "Daniel Cohen-Or",
+        "Or Patashnik"
+      ],
+      "abstract": "Vision-Language Models (VLMs) are increasingly utilized as the conditioning backbone for diffusion-based image editing due to their remarkable multimodal reasoning capabilities. While standalone VLMs demonstrate strong localization capabilities, editing pipelines frequently struggle to maintain this accuracy, particularly in complex, multi-entity scenes. In this work, we investigate this performance gap, hypothesizing that it stems from treating the VLM as a condition encoder. In this role, the model is restricted to a single forward pass, preventing the autoregressive generation process for which it was optimized, thereby failing to fully expose its capabilities. To investigate whether this spatial understanding persists when the VLM is used as a condition encoder, we introduce Analysis-by-Proxy. In this framework, we train a lightweight, interpretable proxy model on the VLM's intermediate representations using an auxiliary localization task. By analyzing the VLM through this proxy, we uncover the specific VLM representations that encode localization information. Our findings expose a fundamental mismatch between how spatial knowledge is represented within a VLM condition encoder and how it is extracted by current editing pipelines. We reveal that under single-pass constraints, the localization signal does not reliably propagate to the predefined layer configurations commonly used for conditioning. Instead, this crucial signal remains hidden within intermediate representations, at locations that vary depending on the input prompt. Using our introduced Analysis-by-Proxy framework, we reveal the fundamental failures of existing condition extraction strategies in editing pipelines, opening the door to more principled design of conditioning architectures.",
+      "url": "https://arxiv.org/abs/2607.06445v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:11:13+08:00",
+      "updated": "2026-07-08T00:11:13+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Vision-Language Models (VLMs) are increasingly utilized as the conditioning backbone for diffusion-based image editing due to their remarkable multimodal reasoning capabilities.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P076",
+      "uid": "arxiv:2607.06435v1",
+      "title": "Finding H. pylori in the Fine Print: Evidence-Linked Multi-Agent Case Finding from Gastric Biopsy Reports",
+      "authors": [
+        "Yufan Wang",
+        "Anit Kumar Sahu",
+        "Yan Fei Ng",
+        "Daniel Kang",
+        "Shayan Vassef",
+        "Soorya Ram Shimgekar",
+        "Koustuv Saha",
+        "Piyum Zonooz",
+        "Navin Kumar",
+        "Chee Leong Cheng",
+        "Li Yan Khor"
+      ],
+      "abstract": "Data from Singapore indicated that about 31% of the population had evidence of Helicobacter pylori infection. Persistent H. pylori infection is associated with chronic active gastritis and peptic ulcer disease, and its eradication is key to gastric cancer prevention. However, evidence supporting \\textit{H. pylori} positivity and H. pylori-associated gastritis may be distributed across heterogeneous coded and free-text report fields and may require contextual interpretation of assertion and negation, limiting keyword search, and making manual review difficult to scale. We conducted a retrospective pilot evaluation of the Nimblemind Multi-Agent System (nMAS), a field-name-driven, evidence-linked extraction workflow, using 54 de-identified gastric biopsy pathology reports from a large healthcare system in Singapore. Four clinician-scoped binary fields were evaluated: gastric/stomach biopsy, biopsy status, H. pylori positivity, and H. pylori-associated gastritis. Across 216 feature-case decisions, nMAS correctly classified 213, corresponding to 98.61% overall accuracy. A separately implemented UMA-style MiniMax M2.5 comparator produced similar aggregate and per-field classification metrics. Although predictive performance was similar, nMAS maintained unified report-level outputs with supporting source sentences; the demonstrated contribution is therefore workflow integration and traceability rather than predictive superiority. Under an illustrative, unmeasured scenario, reviewing 1,000 reports at five minutes per manual review versus five seconds per evidence-linked verification would reduce review time from 83.3 to 1.4 staff-hours, corresponding to 81.9 staff-hours and about USD~6,100 in potential staff-time value. Larger multi-institutional studies should evaluate evidence-span correctness, clinician verification time, and generalizability.",
+      "url": "https://arxiv.org/abs/2607.06435v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-08T00:05:00+08:00",
+      "updated": "2026-07-08T00:05:00+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Data from Singapore indicated that about 31% of the population had evidence of Helicobacter pylori infection.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P077",
+      "uid": "https://www.nature.com/articles/d41586-026-02141-z",
+      "title": "Nukes in space? Orbital detector could sniff out warheads",
+      "authors": [
+        "Benjamin Thompson",
+        "Nick Petrić Howe"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02141-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P078",
+      "uid": "https://www.nature.com/articles/s41586-026-10725-y",
+      "title": "Observation of Floquet rotational super-radiance",
+      "authors": [
+        "Hadiseh Nasari",
+        "Hady Moussa",
+        "Yoshiaki Kasahara",
+        "Arno Thielens",
+        "Andrea Alù"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10725-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P079",
+      "uid": "https://www.nature.com/articles/s41586-026-10796-x",
+      "title": "In vivo feasibility study of humanoid robots in surgery",
+      "authors": [
+        "Zekai Liang",
+        "Nikita Thareja",
+        "Peihan Zhang",
+        "Calvin Joyce",
+        "Soofiyan Atar",
+        "Florian Richter",
+        "Garth Jacobsen",
+        "Shanglei Liu",
+        "Ryan Broderick",
+        "Michael Yip"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10796-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P080",
+      "uid": "https://www.nature.com/articles/s41586-026-10732-z",
+      "title": "Single-phase gradient-solvation-electrolyte-stabilized Li metal batteries",
+      "authors": [
+        "Wujie Yang",
+        "Jianfeng Cai",
+        "Aoyuan Chen",
+        "Xiang Li",
+        "Ping He",
+        "Haoshen Zhou"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10732-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-08T08:00:00+08:00",
+      "updated": "2026-07-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
