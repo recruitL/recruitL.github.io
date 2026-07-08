@@ -1,5 +1,5 @@
-<h3>Related posts</h3>
-<ul class="list  list--posts">
+{% assign has_related = false %}
+{% capture related_posts %}
   {% for page in site.related_posts limit: 3 %}
     {% assign has_related = true %}
     <li class="item  item--post">
@@ -12,8 +12,13 @@
       </article>
     </li>
   {% endfor %}
+{% endcapture %}
 
-  {% if has_related != true %}
-    <p>There are no related posts</p>
-  {% endif %}
-</ul>
+{% if has_related == true %}
+  <section class="section  section--related-posts  post-related">
+    <h3>Related posts</h3>
+    <ul class="list  list--posts">
+      {{ related_posts }}
+    </ul>
+  </section>
+{% endif %}
