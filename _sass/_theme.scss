@@ -136,6 +136,12 @@ body {
   }
 }
 
+.article--post.content {
+  @include breakpoint(break-1) {
+    width: 64%;
+  }
+}
+
 .share .button {
   margin-right: .3rem;
 }
@@ -162,6 +168,13 @@ body {
     &:hover {
       opacity: 1;
     }
+  }
+}
+
+.article--post + .aside--left {
+  @include breakpoint(break-1) {
+    margin-right: 3%;
+    max-width: 28%;
   }
 }
 
