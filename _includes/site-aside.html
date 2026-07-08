@@ -2,7 +2,7 @@
 
   {% if page.layout == "post" %}
     <section class="section  section--post-toc">
-      {% include post-toc.html variant="aside" %}
+      {% include post-toc.html variant="aside" min=2 max_level=2 %}
     </section>
 
   {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}

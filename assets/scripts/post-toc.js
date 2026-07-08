@@ -54,12 +54,22 @@
     text: heading.textContent.trim()
   }));
 
+  let hasVisibleToc = false;
+  let hasVisibleAsideToc = false;
+
   tocContainers.forEach(container => {
     const list = container.querySelector("[data-post-toc-list]");
     if (!list) return;
 
+    const maxLevel = Number(container.dataset.postTocMaxLevel) || Infinity;
+    const containerEntries = entries.filter(entry => entry.level <= maxLevel);
+    const containerMinItems = Number(container.dataset.postTocMin) || 4;
+    if (containerEntries.length < containerMinItems) {
+      return;
+    }
+
     list.innerHTML = "";
-    entries.forEach(entry => {
+    containerEntries.forEach(entry => {
       const item = document.createElement("li");
       item.className = `post-toc__item post-toc__item--level-${entry.level}`;
 
@@ -68,16 +78,26 @@
       link.href = `#${encodeURIComponent(entry.id)}`;
       link.textContent = entry.text;
       link.dataset.postTocLink = entry.id;
+      link.dataset.postTocLevel = entry.level;
+      link.title = entry.text;
 
       item.append(link);
       list.append(item);
     });
 
     container.hidden = false;
+    hasVisibleToc = true;
+    if (container.classList.contains("post-toc--aside")) {
+      hasVisibleAsideToc = true;
+    }
   });
 
+  if (!hasVisibleToc) {
+    return;
+  }
+
   document.documentElement.classList.add("has-post-toc");
-  if (tocContainers.some(container => container.classList.contains("post-toc--aside"))) {
+  if (hasVisibleAsideToc) {
     document.documentElement.classList.add("has-post-toc-aside");
   }
 

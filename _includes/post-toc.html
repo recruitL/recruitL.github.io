@@ -11,11 +11,12 @@
   class="post-toc post-toc--{{ toc_variant }}"
   data-post-toc
   data-post-toc-min="{{ include.min | default: 4 }}"
+  {% if include.max_level %}data-post-toc-max-level="{{ include.max_level }}"{% endif %}
   hidden
   aria-labelledby="post-toc-title-{{ toc_variant }}"
 >
   {% if toc_variant == "aside" %}
-    <h3 id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h3>
+    <h3 class="post-toc__title" id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h3>
   {% else %}
     <h2 class="post-toc__title" id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h2>
   {% endif %}
