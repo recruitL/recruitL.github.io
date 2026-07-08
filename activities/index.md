@@ -170,6 +170,21 @@ leaflet_map: true
     </div>
   </article>
 
+  <article
+    class="activity-news__item"
+    id="conference-2024-gr-galileo-xu"
+    data-activity-start="2024-04-19"
+    data-activity-end="2024-04-24"
+    data-activity-title="引力与相对论天体物理分会2024年学术年会暨第六届伽利略-徐光启国际会议"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2024-04-19 至 2024-04-24</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><span class="activity-news__title">引力与相对论天体物理分会2024年学术年会暨第六届伽利略-徐光启国际会议</span>，衡阳林隐假日酒店。会议由中国物理学会引力与相对论天体物理分会与国际相对论天体物理中心主办，南华大学承办，共有来自国内外相关科研单位的700余名学者参加，设置1个主会场和7个分会场，组织23个大会特邀报告和约300个分会场报告。</p>
+    </div>
+  </article>
+
 </div>
 
 <p class="activity-more">更多会议记录会按时间线倒序追加。</p>
