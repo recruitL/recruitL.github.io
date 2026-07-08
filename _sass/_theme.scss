@@ -199,8 +199,12 @@ body {
 }
 
 .post-toc--aside {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
   display: none;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .post-toc__title {
@@ -269,6 +273,50 @@ body {
   border-left-color: #0f766e;
   color: #0f766e;
   font-weight: 700;
+}
+
+.post-toc--aside .post-toc__item,
+.typeset .post-toc--aside .post-toc__item {
+  margin: 0 0 .1rem;
+}
+
+.post-toc--aside .post-toc__item--level-3 {
+  padding-left: .85rem;
+}
+
+.post-toc--aside .post-toc__link {
+  border-left: 0;
+  color: $bodyColour;
+  display: inline;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+.typeset .post-toc--aside .post-toc__link {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $linkColour 50%);
+  background-position: 0 93%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.15rem;
+  text-shadow: 0.1rem 0 $backgroundColour,
+               0.15rem 0 $backgroundColour,
+              -0.1rem 0 $backgroundColour,
+              -0.15rem 0 $backgroundColour;
+}
+
+.post-toc--aside .post-toc__link:hover,
+.post-toc--aside .post-toc__link:focus {
+  background: transparent;
+  color: $hoverColour;
+}
+
+.typeset .post-toc--aside .post-toc__link:hover,
+.typeset .post-toc--aside .post-toc__link:focus {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $hoverColour 50%);
+}
+
+.post-toc--aside .post-toc__link.is-active {
+  color: $headingColour;
 }
 
 .article--post h2[id],

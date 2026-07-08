@@ -14,6 +14,10 @@
   hidden
   aria-labelledby="post-toc-title-{{ toc_variant }}"
 >
-  <h2 class="post-toc__title" id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h2>
+  {% if toc_variant == "aside" %}
+    <h3 id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h3>
+  {% else %}
+    <h2 class="post-toc__title" id="post-toc-title-{{ toc_variant }}">{{ toc_title }}</h2>
+  {% endif %}
   <ul class="post-toc__list" data-post-toc-list></ul>
 </nav>
