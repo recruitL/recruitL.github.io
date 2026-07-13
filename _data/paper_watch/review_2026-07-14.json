@@ -77,12 +77,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 31,
-  "total_review_candidates": 49,
-  "report_path": "/papers/2026-07-14/",
   "review_path": "_paper_reviews/2026-07-14.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/3gg8-wgdr",
       "title": "Volume-Law Protection of Metrological Advantage",
       "authors": [
@@ -115,6 +113,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/3pqk-qr64",
       "title": "Edge of Safety: Charge-Charge Correlation in the Back-to-Back Limit",
       "authors": [
@@ -147,6 +146,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "doi:10.1103/8gx2-rbns",
       "title": "Balancing information and dissipation with partially observed fluctuating signals",
       "authors": [
@@ -176,6 +176,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "doi:10.1103/khwm-xzvw",
       "title": "Boundary criticality at the Nishimori multicritical point",
       "authors": [
@@ -205,6 +206,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "doi:10.1103/ntfh-mk9d",
       "title": "Hidden Density-Wave Instability in the Trimer Ruthenate Ba 4 Ru 3 O 10",
       "authors": [
@@ -241,6 +243,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "doi:10.1103/cpfx-c9h9",
       "title": "Chiral high-harmonic generation via subcycle symmetry engineering",
       "authors": [
@@ -270,6 +273,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "doi:10.1103/jmsx-2g8l",
       "title": "Electronic reconstruction at the quasicrystal-moiré crossover in twisted bilayer graphene",
       "authors": [
@@ -299,6 +303,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "doi:10.1103/xlvk-k52x",
       "title": "Unlocking static polarization and strain density waves in perovskites by softening a hidden antiferrodistortive tilt gradient mode",
       "authors": [
@@ -328,6 +333,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "doi:10.1103/rj2s-tfnc",
       "title": "Odd Elasticity in Disordered Chiral Active Materials",
       "authors": [
@@ -359,6 +365,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "doi:10.1103/3gg8-wgdr",
       "title": "Volume-Law Protection of Metrological Advantage",
       "authors": [
@@ -390,6 +397,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "doi:10.1103/3pqk-qr64",
       "title": "Edge of Safety: Charge-Charge Correlation in the Back-to-Back Limit",
       "authors": [
@@ -422,6 +430,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "doi:10.1103/s4q4-v7rm",
       "title": "Direct measurement of diffusion coefficients: Evidence for diffusive stochastic heating in collisionless plasmas",
       "authors": [
@@ -451,6 +460,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "doi:10.1103/39t1-94yh",
       "title": "Non-Hermitian anomalous scaling engineering",
       "authors": [
@@ -480,6 +490,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "doi:10.1103/5j5t-sfnc",
       "title": "Highly anisotropic charge dynamics and spectral weight redistribution in the trilayer nickelate La 4 Ni 3 O 10",
       "authors": [
@@ -509,6 +520,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "doi:10.1103/2xsn-rgx3",
       "title": "Nonmonotonicity of transverse momentum correlations in Au + Au collisions at RHIC",
       "authors": [
@@ -538,6 +550,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "doi:10.1103/gcpg-wf17",
       "title": "Symmetric Localization of ν t o t = 4 / 3 Fractional Topological Insulator Edges",
       "authors": [
@@ -568,6 +581,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "doi:10.1103/6qrr-3646",
       "title": "Perturbative anomalous exponents from Kolmogorov multipliers",
       "authors": [
@@ -597,6 +611,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "doi:10.1103/7hjs-rx8d",
       "title": "Pushy Random Walk: A Minimal Model for Transport in Deformable Media",
       "authors": [
@@ -629,6 +644,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "doi:10.1103/rj4r-2vrf",
       "title": "Direct Observation of Energy Transport Dynamics and High Thermal Conductance across Single Solid-Molecule Junctions",
       "authors": [
@@ -661,6 +677,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "doi:10.1103/7q31-xxsd",
       "title": "Topological and trivial valence-bond orders in higher-spin Kitaev models",
       "authors": [
@@ -690,6 +707,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "doi:10.1103/9d2s-4gf7",
       "title": "Stimulated Magnonic Frequency Combs",
       "authors": [
@@ -726,6 +744,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "doi:10.1103/wd91-v58h",
       "title": "Planckian Bound on Quantum Dynamical Entropy",
       "authors": [
@@ -755,6 +774,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "doi:10.1103/gjf6-25xy",
       "title": "Charged excitations made neutral: N-centered ensemble density functional theory of Fukui functions",
       "authors": [
@@ -784,6 +804,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "doi:10.1103/fm8m-kz13",
       "title": "Energy gap of quantum spin glasses: A projection quantum monte carlo study",
       "authors": [
@@ -813,6 +834,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "doi:10.1103/nvtc-jw59",
       "title": "Does hot QCD have a conformal manifold in the chiral limit?",
       "authors": [
@@ -842,6 +864,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "doi:10.1103/yvn5-v3qq",
       "title": "Detecting Solenoidal Plasma Turbulence via Laser Polarization Rotation",
       "authors": [
@@ -872,6 +895,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "doi:10.1103/9n96-whkp",
       "title": "Reptation and Beyond: Neutron Spin Echo Experiments Verify the Fundamental Predictions of the Cooperative-Dynamics Generalized Langevin Equation Theory",
       "authors": [
@@ -906,6 +930,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "doi:10.1103/ydjj-6r9l",
       "title": "Collinear p-wave magnetism and hidden orbital ferrimagnetism",
       "authors": [
@@ -935,6 +960,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "doi:10.1103/lm3h-c5f5",
       "title": "Thermal Operations from Informational Equilibrium",
       "authors": [
@@ -968,6 +994,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "doi:10.1103/1wyj-nrgk",
       "title": "Signatures of Altermagnetism in BiFeO 3",
       "authors": [
@@ -1004,6 +1031,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "doi:10.1103/p4s9-9smn",
       "title": "Connecting Magic Dynamics in Thermofield Double States to Spectral Form Factors",
       "authors": [
@@ -1030,6 +1058,617 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "https://www.nature.com/articles/s41586-026-10869-x",
+      "title": "Perovskite–organic tandem solar cells with a photo-transformable stabilizer",
+      "authors": [
+        "Ruihan Wu",
+        "Shucheng Qin",
+        "Tianwei Zou",
+        "Xin Jiang",
+        "Senyao Wang",
+        "Siyu Zhuang",
+        "Hongyu Li",
+        "Yiyang Wang",
+        "Siguang Li",
+        "Minchao Liu",
+        "Yishun Feng",
+        "Yufei Gong",
+        "Haozhe He",
+        "Peiwen Liao",
+        "Yu Chen",
+        "Jinyuan Zhang",
+        "Xiaojun Li",
+        "Lei Meng",
+        "Yongfang Li"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10869-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "https://www.nature.com/articles/s41586-026-10855-3",
+      "title": "Author Correction: OR7A10 GPCR engineering boosts CAR-NK therapy against solid tumours",
+      "authors": [
+        "Luojia Yang",
+        "Paul A. Renauer",
+        "Kaiyuan Tang",
+        "Josh Saskin",
+        "Liqun Zhou",
+        "Charles Zou",
+        "Seok-Hoon Lee",
+        "Madison Fox",
+        "Samuel Johnson-Noya",
+        "Benedict Weiss",
+        "Stephanie Deng",
+        "Paris Fang",
+        "Binfan Chen",
+        "Giacomo Sferruzza",
+        "Saba Fooladi",
+        "Kai Zhao",
+        "Daniel Park",
+        "Feifei Zhang",
+        "Jiayi Tu",
+        "Jing Chen",
+        "Jennifer Moliterno",
+        "Murat Gunel",
+        "Lei Peng",
+        "Sidi Chen"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10855-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "https://www.nature.com/articles/d41586-026-02121-3",
+      "title": "Tall and small trees are equally vulnerable to drought",
+      "authors": [
+        "Holly Smith"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02121-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "https://www.nature.com/articles/d41586-026-02152-w",
+      "title": "Rights for rivers and ice cream for all: top reads for the summer holidays",
+      "authors": [
+        "Moriba Jah",
+        "Seema Mundoli",
+        "Blaise Agüera y Arcas",
+        "Fyodor Urnov",
+        "Eddy Keming Chen",
+        "Maia Chankseliani",
+        "Heidi J. Larson",
+        "Doreen Ramogola-Masire",
+        "Nathaniel J. Dominy",
+        "Patience Kiyuka"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02152-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "https://www.nature.com/articles/d41586-026-01339-5",
+      "title": "How voluntary work can boost your career in science",
+      "authors": [
+        "Jacqui Thornton"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-01339-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "https://www.nature.com/articles/d41586-026-02153-9",
+      "title": "The rise of evidence-based medicine and the ‘mavericks’ who championed it",
+      "authors": [
+        "Peter John"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02153-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "https://www.nature.com/articles/d41586-026-02151-x",
+      "title": "Epigenetic editing makes its mark",
+      "authors": [
+        "Amber Dance"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02151-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "https://www.nature.com/articles/d41586-026-01654-x",
+      "title": "This microbiologist endured a four-year court battle over COVID-19 tests",
+      "authors": [
+        "Anne Gulland"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-01654-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "https://www.nature.com/articles/d41586-026-02173-5",
+      "title": "First ‘true sugar’ molecule found in space — offering hints to life’s origins",
+      "authors": [
+        "Jenna Ahart"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02173-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "doi:10.1038/s41586-026-10855-3",
+      "title": "Author Correction: OR7A10 GPCR engineering boosts CAR-NK therapy against solid tumours",
+      "authors": [
+        "Luojia Yang",
+        "Paul A. Renauer",
+        "Kaiyuan Tang",
+        "Josh Saskin",
+        "Liqun Zhou",
+        "Charles Zou",
+        "Seok-Hoon Lee",
+        "Madison Fox"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10855-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10855-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "doi:10.1038/d41586-026-02121-3",
+      "title": "Tall and small trees are equally vulnerable to drought",
+      "authors": [
+        "Holly Smith"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02121-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02121-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "doi:10.1038/d41586-026-01654-x",
+      "title": "This microbiologist endured a four-year court battle over COVID-19 tests",
+      "authors": [
+        "Anne Gulland"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01654-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01654-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "doi:10.1038/d41586-026-01339-5",
+      "title": "How voluntary work can boost your career in science",
+      "authors": [
+        "Jacqui Thornton"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01339-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01339-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "doi:10.1038/d41586-026-02151-x",
+      "title": "Epigenetic editing makes its mark",
+      "authors": [
+        "Amber Dance"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02151-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02151-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1038/s41586-026-10869-x",
+      "title": "Perovskite–organic tandem solar cells with a photo-transformable stabilizer",
+      "authors": [
+        "Ruihan Wu",
+        "Shucheng Qin",
+        "Tianwei Zou",
+        "Xin Jiang",
+        "Senyao Wang",
+        "Siyu Zhuang",
+        "Hongyu Li",
+        "Yiyang Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10869-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10869-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1038/d41586-026-02153-9",
+      "title": "The rise of evidence-based medicine and the ‘mavericks’ who championed it",
+      "authors": [
+        "Peter John"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02153-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02153-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1038/d41586-026-02152-w",
+      "title": "Rights for rivers and ice cream for all: top reads for the summer holidays",
+      "authors": [
+        "Moriba Jah",
+        "Seema Mundoli",
+        "Blaise Agüera y Arcas",
+        "Fyodor Urnov",
+        "Eddy Keming Chen",
+        "Maia Chankseliani",
+        "Heidi J. Larson",
+        "Doreen Ramogola-Masire"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02152-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02152-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "doi:10.1038/d41586-026-02173-5",
+      "title": "First ‘true sugar’ molecule found in space — offering hints to life’s origins",
+      "authors": [
+        "Jenna Ahart"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02173-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-07-13T08:00:00+08:00",
+      "updated": "2026-07-13T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02173-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
