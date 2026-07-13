@@ -6,7 +6,7 @@ permalink: /en/AIRobort/
 redirect_from:
 - /en/airobort/
 - /en/code/airobort/
-feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
+feature_image: "/document/picture/1300_400.jpg"
 excerpt: "AIRobort app design repository"
 aside: true
 ---

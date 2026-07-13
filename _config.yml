@@ -66,7 +66,7 @@ collections:
     title: 博客 # Needed for Siteleaf
     output: true
     description: "所思所想" # The post list page content
-    feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/3a3101dd7047ff7f.jpg"
+    feature_image: "/document/picture/3a3101dd7047ff7f.jpg"
 
 # 6. Jekyll collections settings
 defaults:
@@ -162,7 +162,5 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
 # TIP: Try to keep the number of urls as low to reduce the performance cost
 #      If multiple fonts can be requested in a single url opt for this
 fonts:
-  preconnect_urls:
-    - https://fonts.gstatic.com
-  font_urls:
-    - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
+  preconnect_urls: []
+  font_urls: []

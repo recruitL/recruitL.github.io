@@ -6,7 +6,7 @@ layout: default
 
 {% assign topic = site.data.research_topics.topics | where: "slug", page.topic_slug | first %}
 
-<main class="main container research-page">
+<main class="main container research-page" id="main-content">
   <div class="content">
     {% if topic %}
       <article class="article article--page typeset research-topic">

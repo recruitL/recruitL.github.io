@@ -1,3 +1,9 @@
-<a class="logo" href="{{ site.baseurl }}/">
-  <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title | append: ' logo' }}"/>
+{% assign home_url = "/" %}
+{% if page.lang == "en" %}{% assign home_url = "/en/" %}{% endif %}
+<a class="logo" href="{{ home_url | relative_url }}" aria-label="{{ site.title }} home">
+  <img src="{{ site.baseurl }}{{ site.logo }}" alt=""/>
+  <span class="logo__text">
+    <strong>{{ site.title }}</strong>
+    <small>{% if page.lang == "en" %}Research · Code · Notes{% else %}研究 · 代码 · 笔记{% endif %}</small>
+  </span>
 </a>

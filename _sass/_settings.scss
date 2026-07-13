@@ -1,21 +1,21 @@
 // Background colours
-$backgroundColour: #ffffff !default;
-$codeBackgroundColour: #fafafa !default;
-$featureBackgroundColour: #f9fafa !default;
-$accentColour: #38bdf8 !default;
+$backgroundColour: #f7f6f2 !default;
+$codeBackgroundColour: #eeece6 !default;
+$featureBackgroundColour: #e8efed !default;
+$accentColour: #0f766e !default;
 
 // Text colours
-$headingColour: #242e2b !default;
-$bodyColour: #384743 !default;
-$linkColour: #0284c7 !default;
-$hoverColour: #0369a1 !default;
-$focusColour: #0ea5e9 !default;
-$captionColour: #a8adac !default;
+$headingColour: #17211f !default;
+$bodyColour: #34413e !default;
+$linkColour: #0b6f68 !default;
+$hoverColour: #084f4b !default;
+$focusColour: #0f766e !default;
+$captionColour: #68736f !default;
 $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: "Georgia, serif",
+  font-family: '"Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -23,7 +23,7 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Source Serif 4", "Noto Serif SC", "Songti SC", Georgia, serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75

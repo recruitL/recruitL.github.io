@@ -4,11 +4,14 @@ layout: default
 
 {% include site-header.html %}  <!-- 包含网站头部 -->
 
-<main class="main  container">  <!-- 主内容容器 -->
+<main class="main  container" id="main-content">  <!-- 主内容容器 -->
 
   <article class="article  article--post  content  typeset">  <!-- 文章容器 -->
 
-    <h1>{{ page.title }}</h1>  <!-- 显示页面标题 -->
+    <header class="page-heading page-heading--post">
+      <span class="page-heading__index">{% if page.lang == "en" %}Research note{% else %}研究笔记{% endif %}</span>
+      <h1>{{ page.title }}</h1>
+    </header>
     {% include post-meta.html %}  <!-- 包含文章元数据 -->
     {% include post-toc.html variant="inline" %}
     {{ content }}  <!-- 显示文章内容 -->

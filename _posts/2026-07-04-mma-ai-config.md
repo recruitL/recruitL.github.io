@@ -9,7 +9,7 @@ tags:
 - AI
 - LLM
 - MCP
-feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
+feature_image: "/document/picture/1300_400.jpg"
 excerpt: "一份经过脱敏的 Mathematica 15 AI 配置流程：先分清内置 AI Assistant、外部 AI 调用本地 Wolfram，以及 Notebook 内直连模型 API。"
 aside: true
 share: false

@@ -1,6 +1,6 @@
 ---
 title: 分类
-feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/IMG_20231003_121919.jpg"
+feature_image: "/document/picture/IMG_20231003_121919.jpg"
 excerpt: ""
 aside: true
 ---

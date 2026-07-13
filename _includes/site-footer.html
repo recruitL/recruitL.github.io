@@ -1,9 +1,13 @@
 <footer class="footer">
-  <div class="container">
-    <div class="copyright  typeset">
+  <div class="container footer__inner">
+    <div class="footer__identity typeset">
+      <strong>{{ site.title }}</strong>
+      <p>{% if page.lang == "en" %}An open notebook for gravitation, computation, and research practice.{% else %}关于引力、计算与科研实践的开放笔记。{% endif %}</p>
       <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
     </div>
-
-    {% include nav-footer.html %}
+    <div class="footer__links">
+      {% include nav-social.html %}
+      {% include nav-footer.html %}
+    </div>
   </div>
 </footer>

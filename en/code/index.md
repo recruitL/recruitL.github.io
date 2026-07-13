@@ -2,7 +2,7 @@
 title: Code
 lang: en
 lang_pair: /code/
-feature_image: "https://raw.githubusercontent.com/recruitL/recruitL.github.io/main/document/picture/1300_400.jpg"
+feature_image: "/document/picture/1300_400.jpg"
 excerpt: "Code index"
 aside: true
 ---

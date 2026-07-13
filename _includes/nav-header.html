@@ -4,8 +4,13 @@
 {% endif %}
 
 {% if navigation %}
-<nav class="nav  nav--header">
-  <ul class="list  list--nav">
+<nav class="nav nav--header" aria-label="{% if page.lang == 'en' %}Primary navigation{% else %}主导航{% endif %}">
+  <button class="button button--nav" type="button" aria-expanded="false" aria-controls="primary-navigation">
+    <span>{% if page.lang == "en" %}Menu{% else %}菜单{% endif %}</span>
+    {% include icon.html id="nav" title="Menu" %}
+  </button>
+  <div class="nav__panel" id="primary-navigation">
+  <ul class="list list--nav">
     {% for item in navigation %}
 
       {% if item.url contains '://' %}
@@ -14,47 +19,48 @@
         {% assign url = item.url | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
+      {% assign is_current = false %}
+      {% if item.url == page.url %}{% assign is_current = true %}{% endif %}
+      {% if item.url != "/" and item.url != "/en/" and page.url contains item.url %}{% assign is_current = true %}{% endif %}
+      <li class="item item--nav{% if is_current %} item--current{% endif %}">
+        <a href="{{ url }}"{% if is_current %} aria-current="page"{% endif %}>{{ item.title }}</a>
       </li>
     {% endfor %}
   </ul>
-  <button class="button  button--nav" aria-label="Menu toggle">
-    {% include icon.html id="nav" title="Menu" %}
-  </button>
   {% include language-switch.html class="language-switch--nav" %}
+  </div>
 </nav>
 {% else %}
   {% include nav-default.html %}
 {% endif %}
 
 <script type="text/javascript">
-  // Get list and button
-  const navList = document.querySelector('.header .list--nav')
-  const button  = document.querySelector('.header .button--nav')
+  (() => {
+    const header = document.querySelector('[data-site-header]');
+    const button = header && header.querySelector('.button--nav');
+    const panel = header && header.querySelector('.nav__panel');
+    if (!button || !panel) return;
 
-  // Hide nav and apply toggle
-  const collapseNav = () => {
-    if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-    } else {
-      navList.removeAttribute('style')
-    }
+    const closeMenu = () => {
+      button.setAttribute('aria-expanded', 'false');
+      header.classList.remove('nav-is-open');
+    };
 
-    button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
-      if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight')
-      } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
+    button.addEventListener('click', () => {
+      const isOpen = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!isOpen));
+      header.classList.toggle('nav-is-open', !isOpen);
+    });
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        closeMenu();
+        button.focus();
       }
-    }
-  }
+    });
 
-  collapseNav()
-
-  // Check on resize if to collapse nav
-  window.addEventListener('resize', () => {
-    collapseNav()
-  })
+    window.matchMedia('(min-width: 760px)').addEventListener('change', event => {
+      if (event.matches) closeMenu();
+    });
+  })();
 </script>

@@ -5,6 +5,7 @@
 {% endif %}
 
 {% if feature_image %}
-  <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
+  <div class="feature" style="background-image: url({{ feature_image }})" aria-hidden="true">
+    <span class="feature__line"></span>
   </div>
 {% endif %}

@@ -5,7 +5,7 @@ layout: default
 {% include site-header.html %} <!-- 引入头部导航栏 -->
 
 <!-- 主体内容区域 -->
-<main class="main  container"> 
+<main class="main  container" id="main-content">
 
   <div class="content">
 
@@ -13,11 +13,11 @@ layout: default
 
       {% if paginator.posts %}  <!-- 检查是否有分页文章 -->
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}  <!-- 获取与当前页面集合标签匹配的集合数据 -->
-        <h1>{{ collectiondata.title }}</h1>  <!-- 显示集合的标题 -->
+        <header class="page-heading"><span class="page-heading__index">/ journal</span><h1>{{ collectiondata.title }}</h1></header>
         {{ collectiondata.description | markdownify }}  <!-- 显示集合的描述并将其转换为Markdown格式 -->
 
       {% else %}  <!-- 如果没有分页文章 -->
-        <h1>{{ page.title }}</h1>  <!-- 显示当前页面的标题 -->
+        <header class="page-heading"><span class="page-heading__index">/ journal</span><h1>{{ page.title }}</h1></header>
         {{ content }}  <!-- 显示当前页面的内容 -->
         
       {% endif %}  <!-- 结束if条件判断 -->
