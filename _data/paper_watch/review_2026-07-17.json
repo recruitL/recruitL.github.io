@@ -80,12 +80,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 45,
-  "total_review_candidates": 80,
-  "report_path": "/papers/2026-07-17/",
   "review_path": "_paper_reviews/2026-07-17.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "arxiv:2607.10889v2",
       "title": "Post-Newtonian N-Body Dynamics in Extended Theories of Gravity",
       "authors": [
@@ -123,6 +121,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "arxiv:2607.13992v1",
       "title": "DARK-HIDE: Dark matter versus hidden dimensions in black hole images",
       "authors": [
@@ -160,6 +159,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "doi:10.1103/65gz-dcjz",
       "title": "Extending Ground-Based Gravitational-Wave Sensitivity to 5 Hz",
       "authors": [
@@ -203,6 +203,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "arxiv:2607.14042v1",
       "title": "Negative shocks versus static patch holography",
       "authors": [
@@ -243,6 +244,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "arxiv:2607.14012v1",
       "title": "Temporal Entanglement from Twist Correlators in 2d Conformal Field Theory and Holography",
       "authors": [
@@ -286,6 +288,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "doi:10.1103/jvqf-njpj",
       "title": "Searches for light dark matter and evidence of coherent elastic neutrino-nucleus scattering of solar neutrinos with the LUX-ZEPLIN (LZ) experiment",
       "authors": [
@@ -321,6 +324,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "doi:10.1103/98cx-7t43",
       "title": "No cosmological constraints on dark photon dark matter from resonant conversion: Impact of nonlinear plasma dynamics",
       "authors": [
@@ -355,6 +359,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "doi:10.1103/x38l-5dqc",
       "title": "Search for dark matter annihilation and decay with H α line emission",
       "authors": [
@@ -389,6 +394,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "arxiv:2607.14079v1",
       "title": "Entropy release from Minkowski breaking in regular Schwarzschild black holes",
       "authors": [
@@ -429,6 +435,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "doi:10.1103/lbj8-qqm6",
       "title": "Search for Sub-GeV Dark Particles in η → π 0 + Invisible Decay",
       "authors": [
@@ -470,6 +477,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "arxiv:2607.14049v1",
       "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
       "authors": [
@@ -513,6 +521,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "doi:10.1103/853m-z97v",
       "title": "Conformal defects and Goldstone Bosons in anti–de Sitter space",
       "authors": [
@@ -546,6 +555,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "arxiv:2607.14046v1",
       "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
       "authors": [
@@ -586,6 +596,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "arxiv:2607.14072v1",
       "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
       "authors": [
@@ -624,6 +635,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "arxiv:2607.14056v1",
       "title": "Acoustic Firewalls: Analogue Gravity Perspective on the AMPS Paradox",
       "authors": [
@@ -660,6 +672,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "arxiv:2607.14051v1",
       "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
       "authors": [
@@ -700,6 +713,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "arxiv:2607.14037v1",
       "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
       "authors": [
@@ -739,6 +753,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "arxiv:2607.13998v1",
       "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
       "authors": [
@@ -779,6 +794,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "arxiv:2607.14044v1",
       "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
       "authors": [
@@ -817,6 +833,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "arxiv:2607.14040v1",
       "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
       "authors": [
@@ -853,6 +870,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "arxiv:2607.14086v1",
       "title": "Leveraging unlabelled data for generalizable neural population decoding",
       "authors": [
@@ -893,6 +911,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "arxiv:2607.14070v1",
       "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
       "authors": [
@@ -934,6 +953,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "arxiv:2607.14018v1",
       "title": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth",
       "authors": [
@@ -970,6 +990,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "arxiv:2607.14006v1",
       "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
       "authors": [
@@ -1008,6 +1029,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "arxiv:2607.13988v1",
       "title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
       "authors": [
@@ -1050,6 +1072,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "arxiv:2607.13978v1",
       "title": "Music-to-Dance Generation via Atomic Movements",
       "authors": [
@@ -1092,6 +1115,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "arxiv:2607.13991v1",
       "title": "The Origin of Multi-TeV Gamma-rays in LHAASO J0341+5258 via Cosmic Ray Illumination of Molecular Clouds",
       "authors": [
@@ -1133,6 +1157,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "doi:10.1103/gl65-17z7",
       "title": "Quantum entanglement of XY-type spin dimers on the Shastry-Sutherland lattice",
       "authors": [
@@ -1162,6 +1187,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "doi:10.1103/ltgt-kbj7",
       "title": "Photoinduced Switching of Magnetization in the Epsilon-Near-Zero Regime",
       "authors": [
@@ -1196,6 +1222,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "doi:10.1103/77n6-slpf",
       "title": "Experimental Demonstration of Calibration-Free Non-Markovian Noise Suppression",
       "authors": [
@@ -1229,6 +1256,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "doi:10.1103/9wv9-359m",
       "title": "Shape-based morpho-elasticity for jellyfish regeneration",
       "authors": [
@@ -1258,6 +1286,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P032",
       "uid": "doi:10.1103/msqr-kq8p",
       "title": "Engineering Quantum Noise Interference with Squeezed Vacuum in Dissipative Optomechanics",
       "authors": [
@@ -1291,6 +1320,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P033",
       "uid": "doi:10.1103/b6df-fg97",
       "title": "Dynamical Pathway to Radiative Divertor Driven by Transient X-Point Vortex in Tokamaks",
       "authors": [
@@ -1327,6 +1357,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P034",
       "uid": "doi:10.1103/lllj-4k5y",
       "title": "Synchronized Aharonov-Bohm Motifs via Engineered Dissipation",
       "authors": [
@@ -1357,6 +1388,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P035",
       "uid": "doi:10.1103/lk5d-8qb5",
       "title": "Ellipticity-Controlled Bright-Dark Coherence Transition in Monolayer WSe 2",
       "authors": [
@@ -1392,6 +1424,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P036",
       "uid": "doi:10.1103/8l6h-b89b",
       "title": "Quantized Chern-Simons axion coupling in anomalous Floquet systems",
       "authors": [
@@ -1421,6 +1454,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P037",
       "uid": "doi:10.1103/jln4-jg5c",
       "title": "Synchronization Driven Reciprocity Breaking",
       "authors": [
@@ -1452,6 +1486,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P038",
       "uid": "doi:10.1103/xxb4-7zc8",
       "title": "Crust Glass Formation Reveals the Neutron Star Birth Properties in IGR J17480-2446",
       "authors": [
@@ -1482,6 +1517,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P039",
       "uid": "doi:10.1103/35c1-ylnx",
       "title": "Stringent constraints on spin-spin-velocity-dependent exotic interactions with a levitated magnet force sensor",
       "authors": [
@@ -1511,6 +1547,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P040",
       "uid": "doi:10.1103/j7nh-jzdd",
       "title": "Emergence of charge- 4 e superconductivity from 2D nematic superconductors",
       "authors": [
@@ -1540,6 +1577,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P041",
       "uid": "doi:10.1103/4y5t-mh92",
       "title": "Lattice deformation induced higher-order hybrid topology",
       "authors": [
@@ -1569,6 +1607,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P042",
       "uid": "doi:10.1103/m9p9-z6hl",
       "title": "What is the maximum density of microwave control lines in a superconducting quantum computer?",
       "authors": [
@@ -1598,6 +1637,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P043",
       "uid": "doi:10.1103/w6t7-9txs",
       "title": "Coupling free electrons to a trapped-ion quantum computer",
       "authors": [
@@ -1627,6 +1667,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P044",
       "uid": "doi:10.1103/1rdk-5zzk",
       "title": "Uncovering hidden entanglement in twin beams",
       "authors": [
@@ -1656,6 +1697,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P045",
       "uid": "doi:10.1103/sgm7-181s",
       "title": "Correlators are simpler than wavefunctions",
       "authors": [
@@ -1681,6 +1723,1125 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1103/q81l-xfkx",
+      "title": "Anomaly in Canonical Semiclassical Gravity",
+      "authors": [
+        "Viqar Husain",
+        "Irfan Javed"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/q81l-xfkx",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/q81l-xfkx",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1103/nz6v-xxrv",
+      "title": "Probing ground-state degeneracies of a strongly interacting Fermi-Hubbard model with superconducting correlations",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/nz6v-xxrv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/nz6v-xxrv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1103/y1nh-1b82",
+      "title": "Measurements of Z -boson pair entanglement in decays of Higgs bosons at the ATLAS experiment",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/y1nh-1b82",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/y1nh-1b82",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "doi:10.1103/qhvs-pfkq",
+      "title": "Layer Edelstein effect",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/qhvs-pfkq",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/qhvs-pfkq",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "doi:10.1103/hhtt-ffgg",
+      "title": "Microscopic Evidence for a Zhang-Rice Triplet State in the van der Waals Antiferromagnet, NiPS 3",
+      "authors": [
+        "Beom Hyun Kim",
+        "Youjin Lee",
+        "Junik Hwang",
+        "Junghyun Kim",
+        "Je-Geun Park",
+        "Seung-Ho Baek"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/hhtt-ffgg",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/hhtt-ffgg",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "doi:10.1103/3v91-5pzf",
+      "title": "Directional Photocurrent Generated by Quantum Interference Control",
+      "authors": [
+        "Yiming Gong",
+        "Kai Wang",
+        "Steven T. Cundiff"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/3v91-5pzf",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-16T08:00:00+08:00",
+      "updated": "2026-07-16T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/3v91-5pzf",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "arxiv:2607.14077v1",
+      "title": "Renormalizing a three-flavor lattice calculation of the two-photon contribution to $K_L\\toμ^+μ^-$",
+      "authors": [
+        "En-Hung Chao",
+        "Norman Christ",
+        "Ceran Hu"
+      ],
+      "abstract": "The Standard Model prediction for the rare $K_L\\toμ^+μ^-$ decay depends critically on the long-distance contribution coming from the exchange of two photons. Such a contribution can be computed using lattice QCD and an effective three-flavor theory including only the $u$, $d$ and $s$ quarks, provided terms falling as the inverse square of the omitted charm quark mass, $1/m_c^2$ are neglected. Because of the missing Glashow-Iliopoulos-Maiani cancelation, this three-flavor theory contains additional low-energy constants that depend on $m_c$. Here we show how these constants can be determined from a practical four-flavor lattice QCD calculation performed on a small volume with $u$ and $d$ quark masses that are heavier than physical.",
+      "url": "https://arxiv.org/abs/2607.14077v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-16T01:49:14+08:00",
+      "updated": "2026-07-16T01:49:14+08:00",
+      "categories": [
+        "hep-lat",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The Standard Model prediction for the rare $K_L\\toμ^+μ^-$ decay depends critically on the long-distance contribution coming from the exchange of two photons.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "arxiv:2607.14058v1",
+      "title": "Towards compressed baryonic matter densities: D meson diffusion",
+      "authors": [
+        "Dani Rose J Marattukalam",
+        "Manpreet Kaur",
+        "Arvind Kumar",
+        "Sabyasachi Ghosh"
+      ],
+      "abstract": "We study the spatial diffusion coefficient and the momentum transport coefficients of D mesons through a dense nuclear medium in the relaxation time approximation of the kinetic theory. The in medium modifications of the D meson transport properties are computed in the chiral SU(3) hadronic model. Relaxation time is estimated using dilute and degenerate gas approximations for low and high baryonic densities, respectively. We have noticed that relaxation time and spatial diffusion of D meson decrease rapidly in the low density dilute gas domain and mildly in the high density degenerate gas domain. The detailed result of the present work on D meson diffusion is quite contemporary and important towards the compressed baryonic matter densities which can be assessed in future heavy ion collision experiments.",
+      "url": "https://arxiv.org/abs/2607.14058v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-16T01:29:11+08:00",
+      "updated": "2026-07-16T01:29:11+08:00",
+      "categories": [
+        "nucl-th",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We study the spatial diffusion coefficient and the momentum transport coefficients of D mesons through a dense nuclear medium in the relaxation time approximation of the kinetic theory.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "arxiv:2607.14020v1",
+      "title": "Resurgent Lambert series from Feynman and beyond",
+      "authors": [
+        "David Broadhurst",
+        "Daniele Dorigoni"
+      ],
+      "abstract": "Lambert series of the form $\\sum_{n>0}a(n)q^n/(1-q^n)$ are ubiquitous in mathematical physics. In particular, 2-loop sunrise and 3-loop banana Feynman diagrams yield Lambert series with $a(n)$ of the form $χ(n)/n^s$ where $χ(n)$ is a Dirichlet character. Resurgence concerns the singular limit as $|q|$ approaches 1. In the Feynman cases we can control this limit, obtaining rapidly convergent expressions, since the Lambert series are iterated integrals of holomorphic Eisenstein series twisted by a character. We generalize this result, to include modular resurgent structures found in topological-string observables.",
+      "url": "https://arxiv.org/abs/2607.14020v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-16T00:52:52+08:00",
+      "updated": "2026-07-16T00:52:52+08:00",
+      "categories": [
+        "hep-th",
+        "math.NT"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Lambert series of the form $\\sum_{n>0}a(n)q^n/(1-q^n)$ are ubiquitous in mathematical physics.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "arxiv:2607.14081v1",
+      "title": "Linear Independent Component Analysis via Optimal Transport",
+      "authors": [
+        "Ashutosh Jha",
+        "Michel Besserve",
+        "Simon Buchholz"
+      ],
+      "abstract": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy optimization is intractable, they rely on proxy contrast functions, such as fourth-order cumulants, and parametric log-likelihoods. We propose instead to measure non-Gaussianity using the squared Wasserstein distance $W_2^2$ to a standard Gaussian. We prove that the Wasserstein distance between a standard normal distribution and linear projections of the data is maximized when the projection recovers an independent component. Based on this observation, we propose the OT-ICA algorithm which finds this projection by gradient-based optimization. Empirical evaluation on simulated data shows that OT-ICA outperforms proxy-based methods for different distributions of the latent variables. Application to EEG artifact removal and econometric price discovery confirm OT-ICA can be used for applied ICA tasks without distributional assumptions.",
+      "url": "https://arxiv.org/abs/2607.14081v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T01:56:11+08:00",
+      "updated": "2026-07-16T01:56:11+08:00",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "arxiv:2607.14041v1",
+      "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
+      "authors": [
+        "Zhan Chen",
+        "Jiqiao Ma",
+        "Chih-wen Kuo"
+      ],
+      "abstract": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning process as domain specialists and uses a lightweight page-level image classifier to dispatch pages by visual style. When the checkpoint pool lacks a suitable specialist, we train an additional expert for that domain. On three frozen test sets, the routed system matches the selected specialist for each style at two-decimal precision: 0.30 percent CER on regular script, 1.57 percent on memorials, and 4.83 percent on running script. The router achieves 99.3 percent page-level domain accuracy and matches the domain-label oracle at the same precision. Two of the three selected specialists were not trained specifically for their final domain; only the running-script expert was trained with that domain as its target. We report the evaluation protocol, router design, and per-page predictions to make the comparison reproducible.",
+      "url": "https://arxiv.org/abs/2607.14041v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T01:12:37+08:00",
+      "updated": "2026-07-16T01:12:37+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "arxiv:2607.14024v1",
+      "title": "Improving Wind and Solar Power Prediction with Efficient Wrapper-based Feature Selection: An Empirical Study",
+      "authors": [
+        "Daniel Grillmeyer",
+        "Marius Hadry",
+        "Michael Stenger",
+        "Vanessa Borst",
+        "Veronika Lesch",
+        "Samuel Kounev"
+      ],
+      "abstract": "With rising global energy demand and growing awareness of climate change and its impacts, the share of renewable energies in the global energy mix continues to grow. Unlike conventional power generation, the output of renewable energy sources cannot be controlled as consistently due to their dependence on environmental conditions. Therefore, reliable prediction of current and future energy production is essential. In this paper, we report findings from two structured literature reviews on real-world renewable energy prediction tasks: wind turbine power curve modeling and photovoltaic power prediction. For the former, we conducted a comprehensive literature review ourselves, while for the latter, we synthesize the key findings regarding frequently selected input features based on an existing survey. Across both domains, our analysis reveals that despite the large number of available monitoring and environmental variables, only limited or unsystematic methods for feature selection exist. To address this gap, we propose Cluster-based Sequential Feature Selection (CSFS), a novel, model-agnostic, clustering-based wrapper method for automatic, efficient, and reliable feature selection in renewable energy prediction pipelines. To support reproducibility and reuse, we provide an open-source implementation of CSFS on GitHub. We empirically evaluate the proposed approach on both use cases and compare it with established feature selection techniques such as wrapper-based sequential feature selection (SFS), filter-based methods, and Random Forest's embedded feature importance. The results show that the wrapper-based methods overall provide better-performing selections of features. CSFS achieves a predictive performance comparable to SFS while reducing computational cost by an average of 21%.",
+      "url": "https://arxiv.org/abs/2607.14024v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:55:42+08:00",
+      "updated": "2026-07-16T00:55:42+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "With rising global energy demand and growing awareness of climate change and its impacts, the share of renewable energies in the global energy mix continues to grow.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "arxiv:2607.14008v1",
+      "title": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points",
+      "authors": [
+        "Mustafa Emre Gürsoy",
+        "Stefan Uhlich",
+        "Ryoga Matsuo",
+        "Yağız Gençer",
+        "Arun Venkitaraman",
+        "Chia-Yu Hsieh",
+        "Andrea Bonetti",
+        "Eisaku Ohbuchi",
+        "Lorenzo Servadei"
+      ],
+      "abstract": "In this paper, we introduce Lighthouse RL, a sample-efficient reinforcement learning (RL) approach for analog circuit sizing. Traditional methods lack generalization across different performance targets, while standard RL approaches waste resources exploring unpromising regions. Our method addresses these inefficiencies through a strategic reset strategy that initializes episodes from high-performing configurations discovered during training, called \"lighthouses\". These states, which are closer to the target objectives, guide exploration toward promising regions. When compared to RL and Bayesian optimization methods from the literature, we demonstrate the effectiveness of our approach on a 2D benchmark problem and on two analog circuits, showing significant improvements in sample efficiency (up to 1.72x faster), optimization performance (100% vs. 0-87% success rate), generalization (75% vs. 0-50% extrapolation success), and objective maximization. This efficiency is particularly valuable for computationally expensive black-box optimization problems, and our reset strategy can be used as a plug-and-play enhancement for any RL-based optimization approach.",
+      "url": "https://arxiv.org/abs/2607.14008v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:37:57+08:00",
+      "updated": "2026-07-16T00:37:57+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AR"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "In this paper, we introduce Lighthouse RL, a sample-efficient reinforcement learning (RL) approach for analog circuit sizing.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "arxiv:2607.14004v1",
+      "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+      "authors": [
+        "Wenxiao Wang",
+        "Priyatham Kattakinda",
+        "Soheil Feizi"
+      ],
+      "abstract": "Most reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method. This does not test the setting that matters for deployed agents, where optimization is applied recursively as new failures and new tasks appear over time. The central question this raises is whether optimizer-driven gains compound: after an agent has been optimized once, can it be optimized again on newly arrived tasks without eroding the gains the first round produced? We study this question with a two-phase continual-learning evaluation built from hard tasks in Terminal-Bench 2.0, comparing three approaches to agent-harness optimization (GEPA, Meta Harness, and RELAI's Verifiable Continual Learning, RELAI-VCL) under identical optimization budgets. All three methods improve over the baseline agent in the conventional, static, single-phase setting. However, once new tasks are introduced, the methods diverge sharply: GEPA's optimized agent transfers below the unoptimized baseline, Meta Harness transfers well but fails to improve further once given a second optimization budget, and RELAI-VCL is the only method that both transfers positively to unseen tasks and continues improving after those tasks are folded into the optimization objective, reaching the highest pass rate at every evaluated stage and the highest lifelong average pass rate overall (76.4% vs. 66.0% for GEPA, 64.6% for Meta Harness, and 58.7% for the baseline). Our key observation was that optimization gains compounded only when regression control was built into the optimization loop, providing an inductive bias against shortcut solutions that fail to generalize.",
+      "url": "https://arxiv.org/abs/2607.14004v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:36:04+08:00",
+      "updated": "2026-07-16T00:36:04+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Most reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "arxiv:2607.14001v1",
+      "title": "Lyapunov Exponent as Physics-Informed Dense Reward: RL Discovery of Stabilization Beyond the Kapitza Pendulum",
+      "authors": [
+        "Slava Andrejev"
+      ],
+      "abstract": "We suggest using the Lyapunov characteristic exponent (LCE) as a dense reward signal for the reinforcement learning problem of stabilizing the inverted pendulum with vertical motion. With LCE, the agent not only successfully found the oscillatory motion known as the Kapitza pendulum but also damped the pendulum's pivoting, leaving it in a strictly upright position.",
+      "url": "https://arxiv.org/abs/2607.14001v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:29:20+08:00",
+      "updated": "2026-07-16T00:29:20+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We suggest using the Lyapunov characteristic exponent (LCE) as a dense reward signal for the reinforcement learning problem of stabilizing the inverted pendulum with vertical motion.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "arxiv:2607.13984v1",
+      "title": "Multimodal Empirical Bayes Variational Autoencoders for Joint Longitudinal and Time-to-Event Modeling",
+      "authors": [
+        "Anders Sjöberg",
+        "Nils Olsson",
+        "Marcus Baaz",
+        "Mats Jirstrand"
+      ],
+      "abstract": "Longitudinal tumor measurements, dropout information, and genetic covariates provide complementary information about treatment response, but integrating these data sources within a single population modeling framework remains challenging. We extend the empirical Bayes variational autoencoder (EB-VAE) framework to joint longitudinal and time-to-event modeling and evaluate it on tumor growth data. The framework represents inter-individual variability using latent individual effects regularized by a covariate-conditioned empirical Bayes prior, while a decoder maps these latent effects to tumor-volume trajectories. To account for informative dropout, the decoder was augmented with a hazard model, yielding joint predictions of tumor growth and time to dropout. We further compared fully neural and hybrid semi-mechanistic decoder formulations and incorporated genomic covariates through a genetics-conditioned prior adaptation. The hybrid decoder recovered treatment-effect parameters broadly consistent with previously reported nonlinear mixed-effects estimates, while achieving prior predictive performance comparable to the neural decoder. The joint model reproduced both tumor-volume distributions and dropout patterns in held-out individuals, and genetic conditioning improved individual-level prior predictions in both cutaneous melanoma and breast cancer experiments. Stability selection identified several biologically plausible genetic indicators, including alterations in BRAF, NRAS, NF1, and MDM2. These results demonstrate that EB-VAE provides a flexible probabilistic framework for combining neural dynamics, mechanistic structure, time-to-event modeling, and high-dimensional covariates in pharmacometric applications.",
+      "url": "https://arxiv.org/abs/2607.13984v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:13:14+08:00",
+      "updated": "2026-07-16T00:13:14+08:00",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Longitudinal tumor measurements, dropout information, and genetic covariates provide complementary information about treatment response, but integrating these data sources within a single population modeling framework remains challenging.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "arxiv:2607.13977v1",
+      "title": "Constraint-Aware Counterfactual Editing for Aspect-Based Sentiment Analysis",
+      "authors": [
+        "S M Rafiuddin",
+        "Vamsi Krishna Pavuluri",
+        "Atriya Sen"
+      ],
+      "abstract": "Aspect-Based Sentiment Analysis (ABSA) requires models to identify sentiment toward specific aspects rather than relying on the global polarity of a sentence. This makes counterfactual evaluation especially challenging: a valid counterfactual should flip the sentiment of one target aspect while preserving the sentiment of all non-target aspects, semantic meaning, fluency, and factual consistency. Existing counterfactual generation methods often focus on sentence-level label flipping and may produce edits that are fluent but aspect-invalid, semantically drifting, or contradictory. To address this limitation, we propose CAVE-ABSA, a Constraint-Aware Validated Editing framework for generating and validating aspect-level counterfactuals. CAVE-ABSA localizes the opinion span associated with the target aspect, performs controlled counterfactual rewriting, refines candidates through a repair module, and filters them using aspect-level verification, semantic similarity, AMR-guided structural preservation, edit minimality, fluency, and contradiction detection. The framework is designed to construct validated counterfactual ABSA datasets for robustness evaluation and data augmentation. By explicitly separating generation from validation, CAVE-ABSA provides a principled approach for producing meaningful aspect-local counterfactuals and for testing whether ABSA models truly rely on aspect-grounded sentiment reasoning.",
+      "url": "https://arxiv.org/abs/2607.13977v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-16T00:03:44+08:00",
+      "updated": "2026-07-16T00:03:44+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Aspect-Based Sentiment Analysis (ABSA) requires models to identify sentiment toward specific aspects rather than relying on the global polarity of a sentence.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx2989?af=r",
+      "title": "Cross-cohort analysis of expression and splicing quantitative trait loci in TOPMed",
+      "authors": [
+        "Peter Orchard, Thomas W. Blackwell, Linda Kachuri, Peter J. Castaldi, Michael H. Cho, Stephanie A. Christenson, Peter Durda, Stacey Gabriel, Craig P. Hersh, Scott Huntsman, Seungyong Hwang, Roby Joehanes, Mari Johnson, Xingnan Li, Honghuang Lin, Ching-Ti Liu, Yongmei Liu, Angel C. Y. Mak, Ani W. Manichaikul, David T. Paik, Aabida Saferali, Joshua D. Smith, Kent D. Taylor, Russell P. Tracy, Jiongming Wang, Mingqiang Wang, Joshua S. Weinstock, Jeffrey Weiss, Heather E. Wheeler, Ying Zhou, Sebastian Zöllner, Joseph C. Wu, Luisa Mestroni, Sharon Graw, Matthew R. G. Taylor, Victor E. Ortega, W. Craig Johnson, Weiniu Gan, Goncalo Abecasis, Deborah A. Nickerson, Namrata Gupta, Kristin Ardlie, Prescott G. Woodruff, Russell P. Bowler, Deborah A. Meyers, Alex Reiner, Charles Kooperberg, Elad Ziv, Ramachandran S. Vasan, Martin G. Larson, L. Adrienne Cupples, Edwin K. Silverman, Stephen S. Rich, Nancy Heard-Costa, Hua Tang, Jerome I. Rotter, Albert V. Smith, Daniel Levy, NHLBI TOPMed Consortium Multi-Omics Working Group, NHLBI TOPMed Consortium§, François Aguet, Laura J. Scott, Laura M. Raffield, Stephen C. J. ParkerNamiko Abe, Laura Almasy, Seth Ament, Pramod Anugu, Paul Auer, Dimitrios Avramopoulos, Adithya Balasubramanian, R. Graham Barr, Lucas Barwick, Terri Beaty, Diane Becker, Lewis Becker, Amber Beitelshees, Takis Benos, Marcos Bezerra, Joshua Bis, Jennifer Brody, Ulrich Broeckel, Jai Broome, Karen Bunting, Erin Buth, Vincent Carey, Cara Carty, Richard Casaburi, Mark Chaffin, Christy Chang, Yi-Cheng Chang, Sameer Chavan, Bo-Juen Chen, Wei-Min Chen, Seung Hoan Choi, Lee-Ming Chuang, Ren-Hua Chung, Matthew Conomos, Elaine Cornell, Carolyn Crandall, James Crapo, Jeffrey Curtis, Coleen Damcott, Sean David, Lisa de las Fuentes, Paul de Vries, Ranjan Deka, Dawn DeMeo, Scott Devine, Huyen Dinh, Harsha Doddapaneni, Qing Duan, Ravi Duggirala, Charles Eaton, Lynette Ekunwe, Adel El Boueiz, Leslie Emery, Charles Farber, Jesse Farek, Nora Franceschini, Chris Frazar, Mao Fu, Stephanie M. Fullerton, Lucinda Fulton, Shanshan Gao, Yan Gao, Margery Gass, Heather Geiger, Auyon Ghosh, Chris Gignoux, David Glahn, Stephanie Gogarten, Da-Wei Gong, Harald Goring, Daniel Grine, C. Charles Gu, Yue Guan, Michael Hall, Yi Han, Daniel Harris, Ben Heavner, David Herrington, Brian Hobbs, Elliott Hong, Karin Hoth, Chao (Agnes) Hsiung, Jianhong Hu, Yi-Jen Hung, Haley Huston, Chii Min Hwu, Rebecca Jackson, Deepti Jain, Jill Johnsen, Rich Johnston, Kimberly Jones, Michael Kessler, Alyna Khan, Ziad Khan, Wonji Kim, John Kimoff, Greg Kinney, Holly Kramer, Christoph Lange, Ethan Lange, Cathy Laurie, Cecelia Laurie, Meryl LeBoff, Sandra Lee, Wen-Jane Lee, David Levine, Joshua Lewis, Yun Li, Xihong Lin, Simin Liu, Yu Liu, Barry Make, Alisa Manning, JoAnn Manson, Lisa Martin, Melissa Marton, Susan Mathai, Susanne May, Patrick McArdle, Merry-Lynn McDonald, Sean McFarland, Daniel McGoldrick, Caitlin McHugh, Hao Mei, James Meigs, Vipin Menon, Nancy Min, Matt Moll, Zeineen Momin, May Montasser, Josyf C Mychaleckyj, Rakhi Naik, Take Naseri, Pradeep Natarajan, Sarah C. Nelson, Bonnie Neltner, Caitlin Nessner, Osuji Nkechinyere, Jeff O'Connell, Tim O’Connor, Heather Ochs-Balcom, Geoffrey Okwuonu, James Pankow, Cora Parker, Gina Peloso, Juan Manuel Peralta, Marco Perez, James Perry, Ulrike Peters, Lawrence S Phillips, Toni Pollin, Julia Powers Becker, Meher Preethi Boorgula, Bruce Psaty, Dandi Qiao, Nicholas Rafaels, Mahitha Rajendran, Laura Rasmussen-Torvik, Aakrosh Ratan, Robert Reed, Elizabeth Regan, Muagututi‘a Sefuiva Reupena, Rebecca Robillard, Carolina Roselli, Ingo Ruczinski, Alexi Runnels, Pamela Russell, Kathleen Ryan, Ester Cerdeira Sabino, Shabnam Salimi, Sejal Salvi, Steven Salzberg, Kevin Sandow, Jireh Santibanez, Karen Schwander, Frank Sciurba, Frédéric Sériès, Amol Shetty, Aniket Shetty, Brian Silver, Robert Skomro, Tanja Smith, Sylvia Smoller, Beverly Snively, Adrienne M. Stilp, Garrett Storm, Elizabeth Streeten, Jessica Lasky Su, Yun Ju Sung, Jody Sylvia, Adam Szpiro, Margaret Taub, Simeon Taylor, Timothy A. Thornton, Machiko Threlkeld, Lesley Tinker, David Tirschwell, Hemant Tiwari, Catherine Tong, Michael Tsai, Dhananjay Vaidya, Tarik Walker, Robert Wallace, Avram Walts, Fei Fei Wang, Heming Wang, Karol Watson, Jennifer Watt, Lu-Chen Weng, Jennifer Wessel, Kayleen Williams, Carla Wilson, James Wilson, Lara Winterkorn, Quenna Wong, Baojun Wu, Huichun Xu, Lisa Yanek, Ivana Yang, Seyedeh Maryam Zekavat, Snow Xueyan Zhao, Wei Zhao, Xiaofeng Zhu"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx2989?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx8675?af=r",
+      "title": "A transcriptional biosensor reveals mechanisms of α-ketoglutarate signaling to chromatin",
+      "authors": [
+        "Alex C. Sternisha, Haocheng Li, Kumar Gajendra, Yi Xiao, Xin Zhao, Jeffrey I. Traylor, Lei Guo, Ji Hyung Jun, Morgan Fleishman, Tracey Shipman, Vinesh T. Puliyappadamba, Pranita Kaphle, Qing Ouyang, Michael Schmidt, Diana D. Shi, Milan R. Savani, Alexander C.-Y. Tsai, Joyce H. Lee, Ruth Gordillo, Javier Garcia-Bermudez, Yoon Jung Kim, Shih-Chia Tso, Chad A. Brautigam, Lauren G. Zacharias, Thomas P. Mathews, Lin Xu, John G. Doench, Vidyasagar Koduri, Kalil G. Abdullah, Michalis Agathocleous, Laura A. Banaszynski, Ralph J. DeBerardinis, Eric M. Morrow, Samuel K. McBrayer"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx8675?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx9264?af=r",
+      "title": "Direct interaction of Vδ7 TCRs with IL17RA drives the differentiation of TH1-like γδT cells",
+      "authors": [
+        "Kewei Ye, Nimmy Francis, Josefine Dunst, Amanda Borgenstam, Iris Rocamonde-Lago‡, Stefanie Köhler‡, Yuanyuan You, Anatoly Dubnovitsky, Anja Kramer, Fanxi Meng, Valentin Zollner, Lisa Vogg, Tomás J. Ryan, Ken-ichi Hanada, Tommy Regen, Ari Waisman, Vivianne Malmström, Erik Benson, Jan Kisielow, Thomas Krey, Thomas H. Winkler, Leo Hanke, Taras Kreslavsky"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9264?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeb3661?af=r",
+      "title": "Tracing the origins of St Helena’s liberated Africans",
+      "authors": [
+        "Xueye Wang, Judy Watson, Helena Bennett, Andrew Pearson, Geoff M. Nowell, Joanne Peterkin, Kate Robson Brown, Alistair Pike, Jason Laffoon, Vicky M. Oelze, Hannes Schroeder"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb3661?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P067",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aed5665?af=r",
+      "title": "Cyclic sealing and drainage on an oceanic transform fault",
+      "authors": [
+        "Hao Yang, Lingling Ye, Haijiang Zhang"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed5665?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P068",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aea3075?af=r",
+      "title": "Restored clearance of senescent neutrophils by tissue-resident macrophages limits organ aging",
+      "authors": [
+        "Yuting Jessy Tan, Travis E. Conley, Fuwen Yao, Fernando J. García-Marqués, Damilola E. Akinyemi, Van Vuong Dinh, Qian Wang, Abel Bermudez, Jieun Kim, Julia A. Belk, Oliver Soehnlein, Sharon J. Pitteri, Katrin I. Andreasson"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aea3075?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P069",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ady1678?af=r",
+      "title": "Dendritic cells control tertiary lymphoid structure development and maintenance in cancer",
+      "authors": [
+        "Raphaël Mattiuz, Jesse Boumelha, Emmanouil Aerakis, Jessica Le Berichel, Pauline Hamon, Laszlo Halasz, Abishek Vaidya, Brian Y. Soong, Emir Radkevich, Hye Mi Kim, Matthew D. Park, Romain Donne, Leanna Troncoso, Rachel A. Kaplan, Clotilde Hennequin, Isaias Hernández-Verdin, Lucía López, Frederika Rentzeperis, Darwin D’Souza, Medard Ernest Kaiza, Ian P. MacFawn, Meriem Belabed, Guillaume Mestrallet, Etienne Humblin, Raphaël Merand, Samarth Hegde, Jean-Christophe Lone, Giorgio Ioannou, Sinem Ozbey, Igor Figueiredo, Alexander Tepper, Hajer Merarda, Nadine Serhan, Maximilian M. Schaefer, Jinping An, Ray A. Ohara, Erika Nemeth, Simon Goldstein, Amanda M. Reid, Moataz Noureddine, Alexandra Tabachnikova, Giulia Maria Piperno, Maria Tsoumakidou, Jalal Ahmed, Alexandros D. Polydorides, Nina Bhardwaj, Amaia Lujambio, Zhihong Chen, Edgar Gonzalez Kozlova, Seunghee Kim-Schulze, Joshua D. Brody, Michael Schotsaert, Christine Moussion, Sacha Gnjatic, Vladimir Roudko, Florent Ginhoux, Kenneth M. Murphy, Catherine Sautès-Fridman, Wolf Herman Fridman, Brian D. Brown, Thomas U. Marron, Federica Benvenuti, Jason G. Cyster, Hélène Salmon, Tullia C. Bruno, Nikhil S. Joshi, Alice O. Kamphorst, Miriam Merad"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady1678?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P070",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aej7555?af=r",
+      "title": "Erratum for the Research Article “Elastic ice microfibers”",
+      "authors": [],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej7555?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P071",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aej4257?af=r",
+      "title": "Advancing science by designing for surprise",
+      "authors": [
+        "James Evans Casey Petroff Gary King"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej4257?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T15:00:00+08:00",
+      "updated": "2026-07-16T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P072",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx3027?af=r",
+      "title": "Surface-dominant transport in Weyl semimetal NbAs nanowires for next-generation interconnects",
+      "authors": [
+        "Yeryun Cheon, Mehrdad T. Kiani, Yi-Hsin Tu, Sushant Kumar, Nghiep Khoan Duong, Jiyoung Kim, Lingcheng Kong, Quynh P. Sam, Han Wang, Satya K. Kushwaha, Nicholas Ng, Seng Huat Lee, Sam Kielar, Chen Li, Amelia Schaeffer, Jack D. Coyle, Dimitrios Koumoulis, Saif Siddique, Zhiqiang Mao, Gangtae Jin, Zhiting Tian, Ravishankar Sundararaman, Hsin Lin, Gengchiau Liang, Ching-Tzu Chen, Judy J. Cha"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 272-279, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx3027?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 272-279, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P073",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aea9413?af=r",
+      "title": "Production and spectroscopy of cold radioactive molecules",
+      "authors": [
+        "Chandler J. Conn, Phelan Yu, Madison I. Howard, Yuxi Yang, Chaoqun Zhang, Arian Jadbabaie, Aikaterini Gorou, Alyssa N. Gaiser, Timothy C. Steimle, Lan Cheng, Nicholas R. Hutzler"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 319-323, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aea9413?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 319-323, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P074",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeb2344?af=r",
+      "title": "Drying of the Aral Sea reshapes the anthropogenic carbon inventory of Central Asia",
+      "authors": [
+        "Rafael Marcé, Daniel Diaz de-Quijano, Sofía Rodríguez-Gómez, Enrique Moreno-Ostos, Makhambet Mukhtar, Björn Wissel, Zoraida Quiñones-Rivera, Carolina Olid, Santiago Giralt, Joan Pere Casas-Ruiz, Georgiy Kirillin, Daniel Mercado-Bettín, Valentí Rodellas, Jordi Ibáñez-Insa, Núria Catalán"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 300-305, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb2344?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 300-305, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P075",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aed6019?af=r",
+      "title": "Geometrically driven reversible solid-liquid phase transition at the atomic scale",
+      "authors": [
+        "Wenjun Cui, Cheng Qian, Weixiao Lin, Zefan Xue, Zhencui Ge, Wen Zhao, Gustaaf Van Tendeloo, Jinsong Wu, Feng Ding, Xiahan Sang, Zhengyi Fu"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 280-286, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed6019?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 280-286, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P076",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aed6123?af=r",
+      "title": "Structure and evolution-guided design of minimal RNA-guided nucleases",
+      "authors": [
+        "Petr Skopintsev, Isabel Esain-Garcia, Evan C. DeTurk, Peter H. Yoon, Zehan Zhou, Trevor Weiss, Maris Kamalu, Ajit Chamraj, Kenneth J. Loi, Conner J. Langeberg, Ron S. Boger, Hunter Nisonoff, Hannah M. Karp, Lin-Xing Chen, Honglue Shi, Kamakshi Vohra, Jillian F. Banfield, Jamie H. D. Cate, Steven E. Jacobsen, Jennifer A. Doudna"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 313-318, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed6123?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 313-318, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P077",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aee3453?af=r",
+      "title": "Performance trade-offs define a fundamental dental dichotomy in mammals",
+      "authors": [
+        "Narimane Chatar, Melvin Vankelst, Alejandro Pérez-Ramos, Tahlia I. Pollock, Davide Tamagnini, Margot Michaud, Levi Yoder Raskin, Z. Jack Tseng"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 265-271, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee3453?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 265-271, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P078",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aef1969?af=r",
+      "title": "Spatiotemporally homogeneous crystallization for ambient scalable perovskite photovoltaics",
+      "authors": [
+        "Binlou Gao, Yang Zhong, Xiao Luo, Jiacheng He, Junxi Guo, Xueying Wang, Yikun Liu, Licheng Tan, Yiwang Chen"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 287-293, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef1969?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 287-293, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P079",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeh9302?af=r",
+      "title": "Parallel independent voltage computing along dendrites of CA3 pyramidal neurons",
+      "authors": [
+        "Asako Noguchi, Satoshi Terada, George N. Zakka, Cliodhna O’Toole, Luke Reynolds, Michelle Ann Land, Balázs J. Rózsa, François St-Pierre, Attila Losonczy"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 306-312, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh9302?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 306-312, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P080",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeg6638?af=r",
+      "title": "Robust single-electron memory with quantum states manipulation",
+      "authors": [
+        "Chunsen Liu, Yutong Xiang, Chong Wang, Peng Zhou"
+      ],
+      "abstract": "Science, Volume 393, Issue 6808, Page 294-299, July 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeg6638?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-07-16T14:00:06+08:00",
+      "updated": "2026-07-16T14:00:06+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6808, Page 294-299, July 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
