@@ -80,12 +80,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 45,
-  "total_review_candidates": 80,
-  "report_path": "/papers/2026-07-18/",
   "review_path": "_paper_reviews/2026-07-18.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "arxiv:2607.15219v1",
       "title": "Cosmic string gravitational wave backgrounds at LISA: II. Reconstruction of conventional signals over astrophysical foregrounds",
       "authors": [
@@ -130,6 +128,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "arxiv:2607.15170v1",
       "title": "Nonlinear Gravitational Wave Interactions in an Expanding Universe",
       "authors": [
@@ -168,6 +167,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "arxiv:2607.15279v1",
       "title": "Particle production from bubble collisions",
       "authors": [
@@ -210,6 +210,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "doi:10.1103/262r-xh1p",
       "title": "Adiabatic hydrodynamization and quasinormal modes of nonthermal attractors",
       "authors": [
@@ -243,6 +244,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "arxiv:2607.15261v1",
       "title": "Relativistic time-commutative dynamics with $κ$-plane noncommutativity",
       "authors": [
@@ -282,6 +284,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "arxiv:2607.15253v1",
       "title": "Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search",
       "authors": [
@@ -321,6 +324,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "arxiv:2607.15247v1",
       "title": "AutoSynthesis: An agentic system for automated meta-analysis",
       "authors": [
@@ -360,6 +364,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "arxiv:2607.15178v1",
       "title": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
       "authors": [
@@ -400,6 +405,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "arxiv:2607.15176v1",
       "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
       "authors": [
@@ -439,6 +445,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
       "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
       "authors": [
@@ -475,6 +482,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
       "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
       "authors": [
@@ -511,6 +519,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "arxiv:2607.15251v1",
       "title": "New exact bispectrum shapes in multifield inflation",
       "authors": [
@@ -546,6 +555,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "arxiv:2607.15218v1",
       "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
       "authors": [
@@ -588,6 +598,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "arxiv:2607.15216v1",
       "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
       "authors": [
@@ -629,6 +640,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "arxiv:2607.15202v1",
       "title": "Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation",
       "authors": [
@@ -674,6 +686,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "arxiv:2607.15167v1",
       "title": "Spectral study of the outburst decay of the accreting millisecond X-ray pulsar SRGA J144459.2-604207",
       "authors": [
@@ -709,6 +722,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "arxiv:2607.15277v1",
       "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
       "authors": [
@@ -747,6 +761,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "arxiv:2607.15275v1",
       "title": "RoboTTT: Context Scaling for Robot Policies",
       "authors": [
@@ -794,6 +809,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "arxiv:2607.15272v1",
       "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
       "authors": [
@@ -836,6 +852,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "arxiv:2607.15263v1",
       "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
       "authors": [
@@ -874,6 +891,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "arxiv:2607.15257v1",
       "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
       "authors": [
@@ -923,6 +941,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "arxiv:2607.15254v1",
       "title": "teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data",
       "authors": [
@@ -960,6 +979,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "arxiv:2607.15205v1",
       "title": "MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization",
       "authors": [
@@ -1005,6 +1025,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "arxiv:2607.15200v1",
       "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
       "authors": [
@@ -1045,6 +1066,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "arxiv:2607.15190v1",
       "title": "Can We Trust Item Response Theory for AI Evaluation?",
       "authors": [
@@ -1084,6 +1106,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "arxiv:2607.15175v1",
       "title": "Linear representations of grammaticality in neural language models",
       "authors": [
@@ -1120,6 +1143,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "arxiv:2607.15236v1",
       "title": "Analytical and Numerical Study of Quartic Nonlinear Electrodynamics in Holographic Fermion Systems",
       "authors": [
@@ -1157,6 +1181,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
       "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
       "authors": [
@@ -1189,6 +1214,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
       "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
       "authors": [
@@ -1221,6 +1247,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "http://link.aps.org/doi/10.1103/kbfj-btly",
       "title": "Hidden Chiral Ferroelectricity in ${\\mathrm{AgNbO}}_{3}$ Perovskite",
       "authors": [
@@ -1253,6 +1280,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
       "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
       "authors": [
@@ -1285,6 +1313,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P032",
       "uid": "http://link.aps.org/doi/10.1103/n715-5r2y",
       "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
       "authors": [
@@ -1317,6 +1346,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P033",
       "uid": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
       "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
       "authors": [
@@ -1349,6 +1379,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P034",
       "uid": "http://link.aps.org/doi/10.1103/vf43-sxwq",
       "title": "Harnessing Spin-Texture Dynamics for Low-Noise, High-Sensitivity Magnetic Sensors",
       "authors": [
@@ -1381,6 +1412,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P035",
       "uid": "http://link.aps.org/doi/10.1103/yvhp-1sm6",
       "title": "Emergent Trion Resonance Driven by Lattice Reconstruction in a Moiré Superlattice",
       "authors": [
@@ -1413,6 +1445,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P036",
       "uid": "http://link.aps.org/doi/10.1103/245v-mgsb",
       "title": "Probing Dielectric Screening in van der Waals Heterostructures via Pressure-Tuned Exciton Rydberg Series",
       "authors": [
@@ -1445,6 +1478,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P037",
       "uid": "http://link.aps.org/doi/10.1103/jkn8-h939",
       "title": "Experimental Evidence for Strong Emergent Correlations between Particles in a Switching Trap",
       "authors": [
@@ -1477,6 +1511,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P038",
       "uid": "http://link.aps.org/doi/10.1103/h48q-1s1c",
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "authors": [
@@ -1509,6 +1544,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P039",
       "uid": "doi:10.1103/hl44-cn9m",
       "title": "Giant spin-electric coupling in heterometallic porphyrin dimers",
       "authors": [
@@ -1538,6 +1574,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P040",
       "uid": "doi:10.1103/h48q-1s1c",
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "authors": [
@@ -1567,6 +1604,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P041",
       "uid": "doi:10.1103/fm3n-sy3f",
       "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
       "authors": [
@@ -1598,6 +1636,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P042",
       "uid": "doi:10.1103/wqwf-3cbl",
       "title": "Magnetization of electronic ground states in frustrated superstable graphs",
       "authors": [
@@ -1627,6 +1666,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P043",
       "uid": "doi:10.1103/n715-5r2y",
       "title": "Antiferromagnetism and Stripe Channel Order in the SU ( N ) -Symmetric Two-Channel Kondo Lattice Model",
       "authors": [
@@ -1658,6 +1698,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P044",
       "uid": "doi:10.1103/j9hv-7cfg",
       "title": "Topological states enabled by non-local nonlinearity in synthetic dimensions",
       "authors": [
@@ -1687,6 +1728,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P045",
       "uid": "doi:10.1103/6w3p-8ym2",
       "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
       "authors": [
@@ -1714,6 +1756,1240 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1103/pfkh-4x7j",
+      "title": "Midair single-sided acoustic levitation in high-pressure regions of zero-order Bessel beams",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/pfkh-4x7j",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/pfkh-4x7j",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1103/q3v9-rjm9",
+      "title": "Quantum sensing of gravitational frame-dragging with a superfluid 4 He gyrometer",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/q3v9-rjm9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/q3v9-rjm9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1103/ktz2-7yd5",
+      "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
+      "authors": [
+        "F. Gómez-Ortiz",
+        "S. Mamoudou Taganga",
+        "Emma E. McCabe",
+        "A. H. Romero",
+        "E. Bousquet"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ktz2-7yd5",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ktz2-7yd5",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "doi:10.1103/zbxv-vtq8",
+      "title": "Kinetic kagome magnetism: From self-trapping RVB polarons to semiclassical correlations",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/zbxv-vtq8",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/zbxv-vtq8",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "doi:10.1103/kbfj-btly",
+      "title": "Hidden Chiral Ferroelectricity in AgNbO 3 Perovskite",
+      "authors": [
+        "Ying Song",
+        "Lingzhi Cao",
+        "Jinming Zhai",
+        "Zhilong Yang",
+        "Yali Yang",
+        "Laurent Bellaiche",
+        "Jiangang He"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/kbfj-btly",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/kbfj-btly",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "doi:10.1103/hjpy-sx8w",
+      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
+      "authors": [
+        "Yan-Song Zhu",
+        "Hou-Ji Shao",
+        "Yu-Xuan Wang",
+        "De-Zhi Zhu",
+        "Hao-Nan Sun",
+        "Si-Yuan Chen",
+        "Chi Zhang",
+        "Xing-Can Yao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/hjpy-sx8w",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/hjpy-sx8w",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "doi:10.1103/g1rn-czgb",
+      "title": "Competition between geometrical frustration and the Kondo effect in CePdAl revealed by high-resolution magnetization",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/g1rn-czgb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/g1rn-czgb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "doi:10.1103/yvhp-1sm6",
+      "title": "Emergent Trion Resonance Driven by Lattice Reconstruction in a Moiré Superlattice",
+      "authors": [
+        "Zhida Liu",
+        "Haonan Wang",
+        "Xiaohui Liu",
+        "Yue Ni",
+        "Hongtao Yan",
+        "Frank Y. Gao",
+        "Saba Arash",
+        "Hyunsue Kim"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/yvhp-1sm6",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/yvhp-1sm6",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "doi:10.1103/vf43-sxwq",
+      "title": "Harnessing Spin-Texture Dynamics for Low-Noise, High-Sensitivity Magnetic Sensors",
+      "authors": [
+        "Kang Wang",
+        "Teng Xu",
+        "Meng Shi",
+        "Xinxiang Sun",
+        "Yizhou Liu",
+        "Huali Yang",
+        "Run-Wei Li",
+        "Haifeng Du"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/vf43-sxwq",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vf43-sxwq",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "doi:10.1103/jkn8-h939",
+      "title": "Experimental Evidence for Strong Emergent Correlations between Particles in a Switching Trap",
+      "authors": [
+        "Marco Biroli",
+        "Sergio Ciliberto",
+        "Manas Kulkarni",
+        "Satya N. Majumdar",
+        "Artyom Petrosyan",
+        "Grégory Schehr"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/jkn8-h939",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/jkn8-h939",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "doi:10.1103/sdrk-3m4t",
+      "title": "Observation of hexagonal close-packed water ice at conditions in ice giant planetary interiors",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/sdrk-3m4t",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/sdrk-3m4t",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "doi:10.1103/245v-mgsb",
+      "title": "Probing Dielectric Screening in van der Waals Heterostructures via Pressure-Tuned Exciton Rydberg Series",
+      "authors": [
+        "Shalini Badola",
+        "Adlen Smiri",
+        "Thomas Pelini",
+        "Aditi Moghe",
+        "Tristan Riccardi",
+        "Amit Pawbake",
+        "Kenji Watanabe",
+        "Takashi Taniguchi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/245v-mgsb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/245v-mgsb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "doi:10.1103/ksxq-1l4q",
+      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
+      "authors": [
+        "Dmitry Zverevich",
+        "Alex Levchenko",
+        "Ilya Esterlis"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ksxq-1l4q",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ksxq-1l4q",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "doi:10.1103/xxxk-y6yp",
+      "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
+      "authors": [
+        "Takashi Hara",
+        "Tatsuhiko Koike"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/xxxk-y6yp",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-07-17T08:00:00+08:00",
+      "updated": "2026-07-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/xxxk-y6yp",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "arxiv:2607.15276v1",
+      "title": "Locality of deep thermalisation through the lens of entanglement teleportation",
+      "authors": [
+        "Saptarshi Mandal",
+        "Alan Sherry",
+        "Sthitadhi Roy"
+      ],
+      "abstract": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement. We study the notion of locality, or lack thereof, in this phenomenon by considering a subsystem partitioned into two disjoint subregions which remain causally disconnected at all times under unitary dynamics. We show that the onset of deep thermalisation in this geometry is fundamentally bounded by measurement-induced entanglement teleportation between the subregions. While measurements on the environment generate entanglement across the disconnected partitions -- suggesting an apparent non-locality -- we demonstrate that generic locally interacting systems exhibit an emergent locality. Specifically, the timescales for both deep thermalisation and entanglement teleportation scale logarithmically with the distance separating the subregions. Exceptions to this include special circuits where the randomness of the measurement outcomes is perfectly transmitted to the ensemble of states of the subsystem, conditioned on the outcomes; in such cases the timescale for deep thermalisation is finite leading to genuine non-locality.",
+      "url": "https://arxiv.org/abs/2607.15276v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T01:59:16+08:00",
+      "updated": "2026-07-17T01:59:16+08:00",
+      "categories": [
+        "quant-ph",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Deep thermalisation characterises the emergence of universal quantum state ensembles on subsystems due to projective measurements on their complement.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "arxiv:2607.15245v1",
+      "title": "When will T Coronae Borealis next erupt as a nova? Constraints from recurrence, orbital phase, and accretion-state evolution",
+      "authors": [
+        "Songpeng Pei",
+        "Xiaowan Zhang",
+        "Renzhi Su",
+        "Ziwei Ou",
+        "Yongzhi Cai",
+        "Qiang Li",
+        "Yu Liu",
+        "Xiaoqin Ren",
+        "Taozhi Yang"
+      ],
+      "abstract": "T Coronae Borealis (T CrB) is the nearest symbiotic recurrent nova and is now intensively monitored for its next eruption. We combine three constraints on the eruption time: historical recurrence, orbital phase, and recent accretion-state evolution. Conditioning on no eruption by 2026 July 11, the three effective historical intervals give illustrative survival-conditioned probabilities of 30.2\\% for the rest of 2026 and 56.9\\% within the following year; these are empirical indicators, not physical prediction probabilities. The four adopted historical eruption phases do not select a unique ignition phase, but form two loose pairs near $φ\\simeq0.44$ and $φ\\simeq0.62$, used here only as monitoring windows. The 1946 pre-eruption dip is difficult to explain by either a pure accretion-rate decline or standard dust extinction, and may have involved both accretion restructuring and source-dependent obscuration. If the renewed 2026 decline is the true pre-1946 analogue, an eruption around 2026 December remains plausible. Conversely, if post-2024 brightness remains below the 2014--2023 high state, an accretion-deficit estimate gives an earliest lower limit near 2029 May. The data therefore support conditional monitoring windows, not a unique date. These are conditional diagnostic scenarios rather than competing point predictions; the eventual eruption epoch will test their underlying assumptions.",
+      "url": "https://arxiv.org/abs/2607.15245v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T01:44:08+08:00",
+      "updated": "2026-07-17T01:44:08+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "T Coronae Borealis (T CrB) is the nearest symbiotic recurrent nova and is now intensively monitored for its next eruption.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "arxiv:2607.15214v1",
+      "title": "Next-to-next-to-leading order QCD corrections to pion (kaon)-induced exclusive Drell-Yan process",
+      "authors": [
+        "Yu Jia",
+        "Bernard Pire",
+        "Qin-Tao Song",
+        "Guang Tang",
+        "Zhe-Yu Wang"
+      ],
+      "abstract": "The high-energy pion and kaon beams proposed for future experiments at J-PARC offer a unique opportunity to investigate exclusive Drell-Yan processes induced by pions or kaons, which correspond to inverse deeply virtual meson production with $M=π,K$. To facilitate precise comparisons between theoretical predictions and forthcoming experimental data, we calculate the next-to-next-to-leading order (NNLO) QCD corrections to the processes $π^- p\\to γ^*(\\to l^+l^-) + n$ and $K^- p\\to γ^*(\\to l^+l^-) + Λ$. Our calculations are performed within the generalized parton distribution (GPD) factorization framework, accurate to leading twist in the generalized Bjorken limit ($Q^2\\gg |t|,\\,Λ_{\\rm QCD}^2$). We find that the NNLO QCD corrections are substantial and positive; therefore, their inclusion is imperative for reliable theoretical predictions in confrontation with future experiments.",
+      "url": "https://arxiv.org/abs/2607.15214v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T01:18:00+08:00",
+      "updated": "2026-07-17T01:18:00+08:00",
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-lat",
+        "nucl-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The high-energy pion and kaon beams proposed for future experiments at J-PARC offer a unique opportunity to investigate exclusive Drell-Yan processes induced by pions or kaons, which correspond to inverse deeply virtual meson production with $M=π,K$.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "arxiv:2607.15212v1",
+      "title": "Magnetic corrections to the fermionic Casimir effect with Lorentz symmetry violation and a compactified extra dimension",
+      "authors": [
+        "Andrea Erdas"
+      ],
+      "abstract": "In this work I study the effect of a magnetic field on the Casimir effect due to a massive, charged fermion field that violates Lorentz invariance in an aether-like manner while maintaining CPT, in a space with one toroidally compactified extra dimension. I take the fermion field to obey MIT bag boundary conditions on two identical square parallel plates. I do this investigation using the zeta function technique that enables me to calculate the Casimir energy and pressure in the presence of a constant magnetic field perpendicular to the plates. I examine the cases of timelike Lorentz violation, of spacelike Lorentz violation in the direction of the magnetic field, of spacelike Lorentz violation in the direction perpendicular to the magnetic field, and of spacelike Lorentz violation in the direction of the compactified extra dimension. In all scenarios, I find simple and accurate analytic expressions of the magnetic field dependent Casimir energy and pressure.",
+      "url": "https://arxiv.org/abs/2607.15212v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T01:13:01+08:00",
+      "updated": "2026-07-17T01:13:01+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "In this work I study the effect of a magnetic field on the Casimir effect due to a massive, charged fermion field that violates Lorentz invariance in an aether-like manner while maintaining CPT, in a space with one toroidally compactified extra dimension.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "arxiv:2607.15191v1",
+      "title": "Massive On-shell Splitting Functions in Spinor-Helicity Formalism",
+      "authors": [
+        "Yi-Ning Wang",
+        "Chao Wu",
+        "Jiang-Hao Yu"
+      ],
+      "abstract": "Collinear splitting functions govern parton evolution, parton showers, and resummation at high-energy colliders. While on-shell spinor-helicity methods have successfully yielded massless QCD splitting functions, a complete on-shell construction for massive particles, systematically incorporating finite-mass effects, is less developed. We present an on-shell constructive formalism for massive collinear splitting functions based on Soper-Weinberg collinear spinors, whose transformation properties follow from a light-front Galilean subgroup of the Poincaré group. Decomposing massive momenta and spinors with respect to fixed lightlike vectors $n$ and $\\bar n$ makes the expansion in the alignment regime $m<p_T\\ll p_+$ manifest. The leading-order structures are matched to massless three-point amplitudes, while an additional Higgs momentum along $\\bar n$ probes the subleading spinor components and relates them to massless four-point amplitudes. We derive the complete set of leading and subleading massive splitting functions for all Standard Model particles and establish a systematic matching dictionary between massless and massive coupling coefficients at both the three- and four-point levels. Higher-point splitting functions are obtained through the recursive bootstrap relation with a universal substitution rule as a consequence of the Galilean symmetry. This constructive framework extends naturally to effective field theory operators and higher perturbative orders, providing a flexible computational tool for precision collider physics and parton shower development.",
+      "url": "https://arxiv.org/abs/2607.15191v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T00:47:43+08:00",
+      "updated": "2026-07-17T00:47:43+08:00",
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Collinear splitting functions govern parton evolution, parton showers, and resummation at high-energy colliders.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "arxiv:2607.15188v1",
+      "title": "One more radiative-recoil correction to the Lamb shift in muonium",
+      "authors": [
+        "Michael I. Eides",
+        "Valery A. Shelyuto"
+      ],
+      "abstract": "We calculate radiative-recoil contribution of order $Z^2α(Zα)^5(m/M)^2m$ to the Lamb shift in muonium. This correction is due to insertion of radiative photons in the heavy line in the two-photon exchange diagrams. Our calculations are inspired by a new round of precise $1S-2S$ and $2S-2P$ experiments currently in progress.",
+      "url": "https://arxiv.org/abs/2607.15188v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T00:39:40+08:00",
+      "updated": "2026-07-17T00:39:40+08:00",
+      "categories": [
+        "physics.atom-ph",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We calculate radiative-recoil contribution of order $Z^2α(Zα)^5(m/M)^2m$ to the Lamb shift in muonium.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "arxiv:2607.15187v1",
+      "title": "Type I/II Vortex Dynamics With Excited Normal Modes",
+      "authors": [
+        "Steffen Krusch",
+        "Morgan Rees",
+        "Thomas Winyard"
+      ],
+      "abstract": "We investigate the effects of excited normal modes on vortex dynamics in the Abelian Higgs model in the type I (static attraction) and type II (static repulsion) regimes. We demonstrate that shape normal modes compete with the static inter-vortex forces. This can result in excited type I (II) vortices repelling (attracting). In addition we observe the existence of spectral walls that prevent the formation (break up) of bound states in type I (II) systems. We study the long lived quasi-bound states and orbits induced by their competing forces and the effective centrifugal forces. Finally, we observe that the effect is strong enough to induce vortex-antivortex pairs to follow long-lived orbits.",
+      "url": "https://arxiv.org/abs/2607.15187v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-07-17T00:38:51+08:00",
+      "updated": "2026-07-17T00:38:51+08:00",
+      "categories": [
+        "hep-th",
+        "cond-mat.supr-con"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We investigate the effects of excited normal modes on vortex dynamics in the Abelian Higgs model in the type I (static attraction) and type II (static repulsion) regimes.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P067",
+      "uid": "arxiv:2607.15273v1",
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "authors": [
+        "Yushi Huang",
+        "Xiangxin Zhou",
+        "Jun Zhang",
+        "Liefeng Bo",
+        "Tianyu Pang"
+      ],
+      "abstract": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require reverse-process trajectories or likelihood estimation. However, applying such RL methods to MeanFlow remains underexplored. DiffusionNFT optimizes instantaneous velocities, whereas MeanFlow samples with average velocities. To bridge this gap, we introduce MeanFlowNFT. Inspired by the MeanFlow identity, which bridges average and instantaneous velocities, we construct an induced instantaneous-velocity predictor. We apply the DiffusionNFT objective to this predictor, making reward optimization well-defined for MeanFlow. Sampling remains based on the average velocity, preserving MeanFlow's fast few-step generation. We further prove that MeanFlowNFT inherits DiffusionNFT's strict policy-improvement guarantee. Experiments on image and video generation show that MeanFlowNFT consistently improves baselines. Moreover, it outperforms prior state-of-the-art RL-tuned few-step generators on most metrics ($6$ of $8$ on SD3.5-M), and can even surpass multi-step RL-tuned diffusion while using only a few sampling steps. For instance, on Wan 2.1, $4$-step MeanFlowNFT reaches a VBench score of $84.33$, surpassing $50$-step LongCat-Video RL ($82.57$).",
+      "url": "https://arxiv.org/abs/2607.15273v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:59:02+08:00",
+      "updated": "2026-07-17T01:59:02+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P068",
+      "uid": "arxiv:2607.15271v1",
+      "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+      "authors": [
+        "Baback Elmieh",
+        "Lynn Tsai",
+        "Zeman Li",
+        "Srinivas Kaza",
+        "Tiancheng Sun",
+        "Gabor Csapo",
+        "Ali Behrouz",
+        "Yuan Deng",
+        "Stephen Lombardi",
+        "Steven M. Seitz",
+        "Xuan Luo"
+      ],
+      "abstract": "Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating under strict real-time constraints. While Test-Time Training (TTT) offers a powerful memory mechanism, standard models mandate gradient-based memory updates at every frame to adapt to the changing motion in dynamic scenes. The computational cost of heavy memory updates precludes real-time application and can lead to instability over long contexts. Given that memory updates are more demanding than memory application and video content is largely redundant, we propose to decouple the frequencies of these two processes. Our approach performs periodic memory updates while applying the memory on a per-frame basis, using cross-view attention to manage deformations between the prior memory state and the current frame. To lock in the historical context, we introduce two critical mechanisms: an auxiliary Memory Loss that forces persistent internalization of the scene, and a Memory Caching strategy that regularizes active weights against catastrophic drift. Our method demonstrates real-time, state-of-the-art performance on scenes with dynamic human motion as well as minute-scale online memorization.",
+      "url": "https://arxiv.org/abs/2607.15271v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:58:18+08:00",
+      "updated": "2026-07-17T01:58:18+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating under strict real-time constraints.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P069",
+      "uid": "arxiv:2607.15267v1",
+      "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+      "authors": [
+        "Victoria Graf",
+        "Hannaneh Hajishirzi",
+        "Noah A. Smith",
+        "David Kohlbrenner",
+        "Kyle Lo"
+      ],
+      "abstract": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to measure whether malicious content is included after web crawling and data curation, we introduce HalfLife, a novel analysis for estimating adversarial content inclusion in web-crawl based LM training data. We use HalfLife to explore the feasibility of poisoning pretraining corpora at web scale through open discussion interfaces. Our analysis demonstrates the importance of estimating whether poison injections are included in pretraining data, and establishes third-party webpage content as a possible vector for attacking language model pretraining.",
+      "url": "https://arxiv.org/abs/2607.15267v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:56:05+08:00",
+      "updated": "2026-07-17T01:56:05+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P070",
+      "uid": "arxiv:2607.15265v1",
+      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "authors": [
+        "Mingfei Chen",
+        "Zijun Cui",
+        "Ruoke Zhang",
+        "Hyeonggon Ryu",
+        "Eli Shlizerman"
+      ],
+      "abstract": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose SceneBind Matching, a semantic-spatial matching scheme that integrates global scene similarity with object alignment, supporting cross-modal scene retrieval and object grounding. To train and evaluate SceneBind, we curate a novel real-world binaural audio-visual dataset with structured semantic and spatial annotations, and propose a training protocol for aligning semantic and spatial signals across modalities. SceneBind is compatible with large-scale pretrained semantic encoders, adds lightweight spatial modeling with only a few additional tokens. It achieves state-of-the-art scene and spatial retrieval while enabling strong zero-shot transfer to downstream tasks such as audio-visual localization.",
+      "url": "https://arxiv.org/abs/2607.15265v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:55:15+08:00",
+      "updated": "2026-07-17T01:55:15+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.MM",
+        "cs.SD"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P071",
+      "uid": "arxiv:2607.15258v1",
+      "title": "Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier",
+      "authors": [
+        "Arthur G. Bubolz",
+        "Abreu Quevedo",
+        "Giancarlo Lucca",
+        "Rafael A. Berri",
+        "Eduardo Borges",
+        "Bruno L. Dalmazo"
+      ],
+      "abstract": "The growing use of Bitcoin as a decentralized digital asset and investment tool has sparked strong interest in understanding its market behavior. This study presents a new approach to analyze Bitcoin market sentiment by combining on-chain and financial data with social media posts. Unlike models that aim to predict prices, this work focuses on explaining market sentiment using blockchain transactions, historical price data of Bitcoin, and daily Twitter sentiment classifications. The method merges sentiment trends with on-chain and financial metrics, normalized into a dataset for detailed market analysis. Multiple machine learning models were tested using cross-validation, with Gradient Boosting (XGBoost) emerging as the most reliable model for classifying sentiment, achieving an average F1-score of about 0.84. SHAP (SHapley Additive exPlanations), a game theory-based method for model interpretability, was used to quantify the contribution of on-chain features to the model's predictions, improving transparency. The results indicate that this data combination yields meaningful predictive signals and insights, supporting data-driven cryptocurrency analysis and future improvements with deep learning.",
+      "url": "https://arxiv.org/abs/2607.15258v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:52:26+08:00",
+      "updated": "2026-07-17T01:52:26+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The growing use of Bitcoin as a decentralized digital asset and investment tool has sparked strong interest in understanding its market behavior.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P072",
+      "uid": "arxiv:2607.15242v1",
+      "title": "Mutable Low-Rank Sketches for Retrain-Free Recommendation",
+      "authors": [
+        "Hector J. Garcia",
+        "Nick Clayton"
+      ],
+      "abstract": "A common bottleneck in two-stage recommendation is embedding staleness: when a user rates a new item, their embedding remains fixed until the next retrain cycle. We propose mutable sketches, which store each user's preferences in a KP-tree (a sparse segment tree with sum aggregation), fit a low-rank projection once, and recompute embeddings on-the-fly as ratings arrive. We prove that each new observation monotonically tightens the prediction error envelope (Theorem 1), a guarantee that FunkSVD and eALS lack. On KuaiRec, the mutable sketch achieves 0.810 RMSE at 1.8% data read vs. ALS 0.822 at 100%, with 8x faster per-batch updates. A new user receives personalized recommendations in <1 ms after their first rating, with no model retraining required. A comparison of sampling strategies across density regimes shows that the KP-tree's norm-proportional sampling provides 40-130% better item coverage on sparse data (<1% density), while uniform sampling suffices on dense matrices.",
+      "url": "https://arxiv.org/abs/2607.15242v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:39:38+08:00",
+      "updated": "2026-07-17T01:39:38+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "A common bottleneck in two-stage recommendation is embedding staleness: when a user rates a new item, their embedding remains fixed until the next retrain cycle.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P073",
+      "uid": "arxiv:2607.15241v1",
+      "title": "Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA",
+      "authors": [
+        "Sushant Gautam",
+        "Vajira Thambawita",
+        "Michael A. Riegler",
+        "Pål Halvorsen",
+        "Steven A. Hicks"
+      ],
+      "abstract": "Healthcare multimodal AI must combine visual and textual evidence while remaining reliable and interpretable. Using MediaEval Medico 2025 as a retrospective GI endoscopy case study, we analyze design choices across nine documented systems for question answering and explanation quality. Parameter-efficient adaptation of pretrained backbones provides strong challenge performance, but answer-level gains do not consistently translate into faithful and complete clinical reasoning. Methods enforcing structured reasoning and explicit grounding show more reliable behavior across heterogeneous question types, although the evidence is correlational rather than ablation-based. These results motivate evaluation beyond lexical overlap, standardized evidence-linked explanations, leakage-aware data governance, and lightweight robustness and calibration checks. The findings support trustworthy multimodal healthcare AI based on data fusion, explainability, and resilient evaluation.",
+      "url": "https://arxiv.org/abs/2607.15241v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:38:19+08:00",
+      "updated": "2026-07-17T01:38:19+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Healthcare multimodal AI must combine visual and textual evidence while remaining reliable and interpretable.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P074",
+      "uid": "arxiv:2607.15240v1",
+      "title": "TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations",
+      "authors": [
+        "Yazhi Zhang",
+        "Fuqiang Niu",
+        "Bowen Zhang"
+      ],
+      "abstract": "Political discourse has increasingly moved to short-video platforms, yet computational analysis of such content remains constrained by the scarcity of datasets that jointly preserve audiovisual information and hierarchical conversations. Here we present TikStance, a multimodal and context-aware dataset comprising 161 videos and 13,876 comments from TikTok, designed for stance detection in political discussions. The dataset covers three major political figures in the 2024 U.S. election cycle--Donald Trump, Joe Biden, and Kamala Harris--with content collected between September 2023 and January 2025. Each discussion unit links a host video and its metadata to a parent-linked comment tree, enabling stance analysis within both audiovisual and conversational context. Each item was independently labeled by three annotators using a three-class scheme (Favor, Against, None) for video-to-target and comment-to-target stance; items with disagreement were re-annotated, and the final Krippendorff's \\(α\\) reached 0.743, 0.723, and 0.722 for the Trump, Biden, and Harris subsets, respectively. Descriptive analysis further reveals target-dependent differences in stance distributions and conversational depth, with nested replies accounting for 23.3\\% of all comments. By combining multi-target coverage, hierarchical conversations, and reliable multi-level human annotations, TikStance supports research in multimodal stance detection, political communication, computational social science, and context-aware natural language processing.",
+      "url": "https://arxiv.org/abs/2607.15240v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:37:19+08:00",
+      "updated": "2026-07-17T01:37:19+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Political discourse has increasingly moved to short-video platforms, yet computational analysis of such content remains constrained by the scarcity of datasets that jointly preserve audiovisual information and hierarchical conversations.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P075",
+      "uid": "arxiv:2607.15238v1",
+      "title": "Language Identification via Compositional Data Analysis: A Linear-Time Classifier Based on Log-Ratio Geometry",
+      "authors": [
+        "Paul-Andrei Pogăcean",
+        "Sanda-Maria Avram"
+      ],
+      "abstract": "Language identification is commonly addressed using either neural architectures or statistical n-gram models. Neural approaches typically require substantial computational resources, whereas classical frequency-based methods offer efficient linear-time performance, but rely on distance metrics that are not always appropriate for compositional data. This work models character and bigram frequency distributions as compositional vectors constrained to the simplex and mapped via the centered log-ratio (CLR) transformation bijectively onto the $(D-1)$-dimensional zero-sum subspace of $\\mathbb{R}^D$, where Euclidean distances correspond to Aitchison distances. A pipeline is proposed, combining CLR-transformed unigram and bigram features with Laplace smoothing to address sparsity. The method is evaluated on six languages. Experimental results show that the proposed approach achieves robust accuracy across different text lengths, with strong performance for longer sequences. These findings indicate that compositional representations provide a deterministic and computationally efficient alternative for language identification, particularly in settings where interpretability and low resource consumption are essential.",
+      "url": "https://arxiv.org/abs/2607.15238v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:35:23+08:00",
+      "updated": "2026-07-17T01:35:23+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Language identification is commonly addressed using either neural architectures or statistical n-gram models.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P076",
+      "uid": "arxiv:2607.15232v1",
+      "title": "In-Place Tokenizer Expansion for Pre-trained LLMs",
+      "authors": [
+        "Jimmy T. H. Smith",
+        "Tarek Dakhran",
+        "Alberto Cabrera",
+        "Simon S. Lee",
+        "Paul Pak",
+        "Aditya Tadimeti",
+        "Tim Seyde",
+        "Maxime Labonne",
+        "Alexander Amini",
+        "Mathias Lechner"
+      ],
+      "abstract": "A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time. When those priorities shift, languages added later are split into many more tokens per word, which can raise latency, compute, and energy consumption for users of those languages. Cloud models can afford a broad vocabulary because the embedding and LM-head matrices are a small fraction of their parameters. On a compact model those matrices are a material share of per-token decode bandwidth, so on-device models ship small vocabularies and accept fragmentation outside a fixed language set. We present tokenizer expansion, an in-place recipe for upgrading a pre-trained model's tokenizer when the model producer controls its design. We continue the existing tokenizer's BPE merges on a multilingual corpus, so most source tokens carry over unchanged as single tokens and every new token has an exact decomposition into source tokens. We copy the carried-over embedding rows unchanged and initialize new rows as the mean of their source sub-token embeddings. A two-stage adaptation, embedding-only training then full-model continued pre-training, recovers source-checkpoint quality. We apply the recipe to a continued pre-trained checkpoint of LFM2-8B-A1B, an 8B-parameter Mixture-of-Experts model, to help produce LFM2.5-8B-A1B with a 128K tokenizer. The expanded tokenizer encodes Hindi and Vietnamese in roughly $2.4\\times$ and $2.6\\times$ fewer tokens than the source (up to $4.0\\times$ on Thai). Combining these reductions with the measured per-token cost of the larger vocabulary, we estimate a $2.2$-$3.7\\times$ per-character decode speedup for these languages across our reference devices. We release the model weights and the expanded tokenizer, and report the negative findings that shaped the recipe.",
+      "url": "https://arxiv.org/abs/2607.15232v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:32:38+08:00",
+      "updated": "2026-07-17T01:32:38+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P077",
+      "uid": "arxiv:2607.15229v1",
+      "title": "Data Driven Block Replacement Scheduling",
+      "authors": [
+        "Aniruddhan Ganesaraman",
+        "VIdyadhar Kulkarni"
+      ],
+      "abstract": "We develop data-driven algorithms for maintaining $N$ independent identical machines under a \\textit{block replacement policy}, in which each machine is replaced upon failure and all machines are jointly replaced at regular intervals of length $k$. The goal is to learn the cost-minimizing interval $k^*$ from operational data when the lifetime distribution is unknown. At each decision epoch, the operator selects $k \\in \\{1, 2, \\ldots, K\\}$, observes the resulting failure history (a mixture of complete and right-censored lifetimes) and incurs a per-unit-time cost governed by the renewal function. We formulate this as a stochastic multi-armed bandit and propose Hoeffding- and Bernstein-based lower-confidence-bound algorithms achieving $O(K \\log T)$ regret, matching the Lai--Robbins lower bound. Exploiting a nested observation property unique to block replacement, correlated variants attain $O((K-k^*)\\log T)$ regret and require only $O(1)$ direct pulls of suboptimal arms $k < k^*$. A complementary Kaplan--Meier renewal algorithm estimates the lifetime distribution nonparametrically from censored data, achieving almost-sure policy consistency and empirically near-zero incremental regret at long horizons. We additionally analyze two average-cost MDPs: a time-elapsed formulation establishing that block replacement is optimal within its policy class for any lifetime distribution, and an age-vector formulation proving a monotone threshold structure under increasing failure rate distributions and providing a gold-standard cost benchmark. Numerical experiments confirm the theoretical ordering and reveal structural cost gaps between optimal block and age-dependent replacement.",
+      "url": "https://arxiv.org/abs/2607.15229v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:31:15+08:00",
+      "updated": "2026-07-17T01:31:15+08:00",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.AP",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We develop data-driven algorithms for maintaining $N$ independent identical machines under a \\textit{block replacement policy}, in which each machine is replaced upon failure and all machines are jointly replaced at regular intervals of length $k$.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P078",
+      "uid": "arxiv:2607.15217v1",
+      "title": "NeuronSoup: Evolving Asynchronous, Shared-Neuron Temporal Graphs without Backpropagation",
+      "authors": [
+        "Subodh Kalia"
+      ],
+      "abstract": "We present NeuronSoup, a neural computation architecture that replaces synchronous layer-by-layer processing with asynchronous, delay-mediated signal propagation through a pool of shared neurons. Each path in the network routes a continuous-valued signal from one input neuron to one output neuron through a variable number of intermediate hidden neurons. Hidden neurons are physically shared across paths: when two paths pass through the same neuron, the second arrival encounters the accumulated state left by the first, producing constructive or destructive interference that depends on signal polarity and arrival timing. The entire architecture -- topology, weights, delays, and connectivity -- is co-evolved by a genetic algorithm operating on a flat real-valued genome of 14,602 genes. On 10-class MNIST digit classification using frozen ResNet18 features as input, the system evolves a network of 204 active paths through 266 hidden neurons (156 shared across multiple paths, with one neuron participating in 11 distinct paths) and achieves 85.9\\% test accuracy after 10,000 generations. The trained model occupies 115 KB. We argue that this architecture addresses fundamental limitations of current deep learning: it requires no differentiable computation graph, adapts its computation depth per-sample, and discovers lateral interactions between processing pathways that current architectures must engineer explicitly. We discuss why genetic algorithms are the correct optimization tool for this problem class, why CMA-ES fails at this scale, and how the architecture generalizes to arbitrary domains by substituting the encoder and output structure.",
+      "url": "https://arxiv.org/abs/2607.15217v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:18:59+08:00",
+      "updated": "2026-07-17T01:18:59+08:00",
+      "categories": [
+        "cs.NE",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We present NeuronSoup, a neural computation architecture that replaces synchronous layer-by-layer processing with asynchronous, delay-mediated signal propagation through a pool of shared neurons.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P079",
+      "uid": "arxiv:2607.15209v1",
+      "title": "Expanding the Lexicon of Ge'ez Based African Languages: A Comparative Study of Amharic and Tigrinya",
+      "authors": [
+        "Hailay Kidu Teklehaymanot",
+        "Debela Desalegn Yadeta",
+        "Wolfgang Nejdl"
+      ],
+      "abstract": "Multilingual pre-trained language models (PLMs) exhibit degraded performance on low-resource, non-Latin-script languages, driven by high out-of-vocabulary (OOV) rates and excessive subword fragmentation that result from Latin-script-centric tokenizer training. We introduce VEXMLM, a vocabulary-extended variant of XLM-R targeting the two highest-resource Ge'ez-script languages, Amharic and Tigrinya, and further evaluated on 17 additional low-resource African languages (19 total). We train a language-specific SentencePiece tokenizer on curated Amharic and Tigrinya monolingual corpora, extend XLM-R's vocabulary with 30,000 Ge'ez-script subwords derived from this tokenizer, and initialize their embeddings by averaging the embeddings of their constituent subwords under XLM-R's original tokenizer. VEXMLM is trained in two stages: (1) continued masked language modeling over the extended vocabulary on the curated corpora, and (2) supervised fine-tuning on question answering (QA), named entity recognition (NER), and sentiment analysis (SA). On Amharic/Tigrinya QA, VEXMLM achieves 87.0 EM /90.0 F1, versus 66.0 EM/78.0 F1 for XLM-R and 74.0 EM/ 78.0 F1 for Glot500. On SA, VEXMLM reaches 80.0\\% accuracy versus 77.0\\% (XLM-R) and 46.0\\% (Glot500). On NER, VEXMLM raises OOV-token entity accuracy from 81.4\\% to 94.3\\%, averaged over 11 of the 19 evaluated languages for which OOV analysis was possible. Our contributions are: (i) a vocabulary-extension and embedding-initialization procedure tailored to Ge'ez script; (ii) a two-stage training strategy under which vocabulary and continued-pretraining gains on Amharic/Tigrinya transfer to 17 typologically related, unaugmented African languages; and (iii) an evaluation spanning both intrinsic tokenization metrics (vocabulary coverage, fertility, OOV rate) and extrinsic task performance across all 19 languages.",
+      "url": "https://arxiv.org/abs/2607.15209v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:08:28+08:00",
+      "updated": "2026-07-17T01:08:28+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Multilingual pre-trained language models (PLMs) exhibit degraded performance on low-resource, non-Latin-script languages, driven by high out-of-vocabulary (OOV) rates and excessive subword fragmentation that result from Latin-script-centric tokenizer training.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P080",
+      "uid": "arxiv:2607.15208v1",
+      "title": "Delocalization of bias in unadjusted Hamiltonian Monte Carlo and underdamped Langevin",
+      "authors": [
+        "Yifan Chen",
+        "Xiaoou Cheng",
+        "Jonathan Niles-Weed",
+        "Jonathan Weare"
+      ],
+      "abstract": "Unadjusted samplers such as unadjusted Hamiltonian Monte Carlo and underdamped Langevin are well-known to be biased. Metropolis--Hastings adjustment has been conventionally incorporated into Hamiltonian Monte Carlo to eliminate the bias. However, this adjustment can significantly increase the iteration complexity due to the small step size required for reasonable Metropolis acceptance rates. In this work, we extend the \\emph{delocalization of bias} phenomenon, previously established for the overdamped Langevin algorithm, to these two unadjusted algorithms. We show that to control the $W_2$ bias of any $K$-dimensional marginal of a high-dimensional distribution, $O(\\sqrt{K})$ integration steps suffice up to $\\log d$ terms, assuming either weak or sparse interactions among variables. The discrete-time integrators here introduce technical difficulties beyond those of the overdamped setting, which we address through a broadly applicable matrix-polynomial framework that characterizes their propagators. Our result for the underdamped Langevin algorithm is valid for all large friction parameters, implying that the Leimkuhler-Matthews integrator for the overdamped Langevin dynamics also exhibits delocalization of bias.",
+      "url": "https://arxiv.org/abs/2607.15208v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-07-17T01:07:42+08:00",
+      "updated": "2026-07-17T01:07:42+08:00",
+      "categories": [
+        "stat.CO",
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Unadjusted samplers such as unadjusted Hamiltonian Monte Carlo and underdamped Langevin are well-known to be biased.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
