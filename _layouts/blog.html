@@ -42,6 +42,19 @@ layout: default
               {% endfor %}
             </ul>
           </li>
+          <li class="research-tree-briefing">
+            <a class="tree-node" href="{{ '/research-briefing/' | relative_url }}">研究每日简报</a>
+            <span class="research-badge">每天 09:00</span>
+            {% assign latest_briefing = site.research_briefings | sort: "date" | reverse | first %}
+            <p class="research-tree-summary">
+              面向当前研究主线的 5–8 条高信号论文、工具与学术动态；
+              {% if latest_briefing %}
+                最新一期：<a href="{{ latest_briefing.url | relative_url }}">{{ latest_briefing.date | date: "%Y-%m-%d" }}</a>。
+              {% else %}
+                首期正在生成。
+              {% endif %}
+            </p>
+          </li>
         </ul>
       </section>
     {% endif %}

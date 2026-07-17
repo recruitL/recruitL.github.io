@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main container" id="main-content">
+  <article class="article article--page content typeset research-briefing">
+    <header class="page-heading briefing-heading">
+      <span class="page-heading__index">/ 研究每日简报</span>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description | default: "面向当前研究主线的高信号论文、工具与学术动态。" }}</p>
+      <div class="briefing-meta">
+        <span>{{ page.date | date: "%Y-%m-%d" }}</span>
+        {% if page.generated_at %}<span>生成于 {{ page.generated_at }}</span>{% endif %}
+        {% if page.source_task %}<span>{{ page.source_task }}</span>{% endif %}
+      </div>
+    </header>
+
+    {{ content }}
+
+    <nav class="briefing-back" aria-label="研究每日简报归档">
+      <a href="{{ '/research-briefing/' | relative_url }}">返回全部简报</a>
+    </nav>
+  </article>
+</main>
+
+{% include site-footer.html %}

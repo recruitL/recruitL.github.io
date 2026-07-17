@@ -67,6 +67,11 @@ collections:
     output: true
     description: "所思所想" # The post list page content
     feature_image: "/document/picture/3a3101dd7047ff7f.jpg"
+  research_briefings:
+    title: 研究每日简报
+    output: true
+    permalink: /research-briefing/:name/
+    description: "围绕当前研究主线整理的每日高信号论文、工具与学术动态。"
 
 # 6. Jekyll collections settings
 defaults:
@@ -87,6 +92,14 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: ""
+      type: "research_briefings"
+    values:
+      layout: research_briefing
+      lang: zh-CN
+      share: false
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
