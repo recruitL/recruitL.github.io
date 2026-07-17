@@ -1,10 +1,10 @@
-name: Research Briefing
+name: Research Briefing (manual fallback)
 
 on:
   workflow_dispatch:
-  schedule:
-    # 09:00 Asia/Shanghai.
-    - cron: "0 1 * * *"
+
+# Daily publication is owned by the Codex project automation
+# "研究每日简报发布". This workflow remains as an API-backed manual fallback.
 
 permissions:
   contents: write
