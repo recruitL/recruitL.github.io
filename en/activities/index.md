@@ -209,7 +209,7 @@ This page organizes academic conferences, invited talks, useful links, and relat
         <h3>Gravitational-wave Data, Events, and Observing</h3>
         <p>Long-lived catalogs, public alerts, and observing plans. The SXS waveform subpage is folded into the main SXS catalog.</p>
       </div>
-      <span class="resource-category__count">7 items</span>
+      <span class="resource-category__count">6 items</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--catalog" href="https://gwosc.org/"><span class="resource-card__tag">Open data</span><strong>GW Open Science Center</strong><span>Public gravitational-wave data, event catalogs, and tutorials.</span></a>
@@ -343,7 +343,7 @@ This page organizes academic conferences, invited talks, useful links, and relat
         <h3>General Tools, AI, and Collaboration</h3>
         <p>Not part of the gravitational-wave stack directly, but useful for development, collaboration, learning, and multi-agent workflows.</p>
       </div>
-      <span class="resource-category__count">6 items</span>
+      <span class="resource-category__count">7 items</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--ai" href="https://codingpets.com/"><span class="resource-card__tag">Codex</span><strong>CodingPets</strong><span>Animated status pets and workspace companions for OpenAI Codex.</span></a>

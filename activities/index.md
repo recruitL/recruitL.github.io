@@ -209,7 +209,7 @@ leaflet_map: true
         <h3>引力波数据、事件与观测</h3>
         <p>优先放长期可复用的目录、事件警报和观测计划；SXS 只保留总目录，波形子页不再重复列出。</p>
       </div>
-      <span class="resource-category__count">7 项</span>
+      <span class="resource-category__count">6 项</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--catalog" href="https://gwosc.org/"><span class="resource-card__tag">开放数据</span><strong>GW Open Science Center</strong><span>公开引力波数据、事件目录和教程入口。</span></a>
@@ -343,7 +343,7 @@ leaflet_map: true
         <h3>通用工具、AI 与协作</h3>
         <p>不直接属于引力波主线，但用于开发、协作、学习和多智能体工作流。</p>
       </div>
-      <span class="resource-category__count">6 项</span>
+      <span class="resource-category__count">7 项</span>
     </div>
     <div class="resource-grid">
       <a class="resource-card resource-card--ai" href="https://codingpets.com/"><span class="resource-card__tag">Codex</span><strong>CodingPets</strong><span>OpenAI Codex 的动画状态宠物和工作区 companion 资源。</span></a>
