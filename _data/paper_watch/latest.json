@@ -1,8 +1,10 @@
 {
-  "date": "2026-08-03",
-  "generated_at": "2026-08-03 07:15 CST",
-  "window": "2026-08-02 00:00 至 2026-08-04 00:00 Asia/Shanghai",
-  "counts": {},
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04 07:30 CST",
+  "window": "2026-08-03 00:00 至 2026-08-05 00:00 Asia/Shanghai",
+  "counts": {
+    "related": 1
+  },
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
@@ -22,7 +24,7 @@
     {
       "source": "Nature RSS",
       "ok": true,
-      "count": 0
+      "count": 11
     },
     {
       "source": "Science RSS",
@@ -37,7 +39,7 @@
     {
       "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "Living Reviews in Relativity RSS",
@@ -52,22 +54,22 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 0
+      "count": 11
     },
     {
       "source": "Science Crossref",
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Physical Review Letters Crossref",
       "ok": true,
       "count": 0
     },
     {
-      "source": "Living Reviews in Relativity Crossref",
+      "source": "Physical Review Letters Crossref",
       "ok": false,
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
     },
     {
       "source": "OpenAI analysis",
@@ -75,9 +77,42 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 0,
-  "total_review_candidates": 0,
-  "report_path": "/papers/2026-08-03/",
-  "review_path": "_paper_reviews/2026-08-03.md",
-  "papers": []
+  "total_papers": 1,
+  "total_review_candidates": 23,
+  "report_path": "/papers/2026-08-04/",
+  "review_path": "_paper_reviews/2026-08-04.md",
+  "papers": [
+    {
+      "uid": "http://link.aps.org/doi/10.1103/rd63-hdwp",
+      "title": "Determination of Quark-Gluon-Quark Interference within the Proton",
+      "authors": [
+        "Alexey Vladimirov, Guillermo Portela, and Simone Rodini"
+      ],
+      "abstract": "Author(s): Alexey Vladimirov, Guillermo Portela, and Simone Rodini A proof-of-concept global QCD fit finds the quark-gluon-quark interference comparable in size to polarized quark density contributions, which suggests a more quantum nature of the proton than assumed. [Phys. Rev. Lett. 137, 061902] Published Mon Aug 03, 2026",
+      "url": "http://link.aps.org/doi/10.1103/rd63-hdwp",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "source_kind": "journal_highlight",
+      "published": "2026-08-03T18:00:00+08:00",
+      "updated": "2026-08-03T18:00:00+08:00",
+      "categories": [
+        "Particles and Fields",
+        "Particles and Fields"
+      ],
+      "doi": "",
+      "journal": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "score": 24,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Alexey Vladimirov, Guillermo Portela, and Simone Rodini A proof-of-concept global QCD fit finds the quark-gluon-quark interference comparable in size to polarized quark density contributions, which suggests a more quantum nature of the proton than assumed.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    }
+  ]
 }

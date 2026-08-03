@@ -1,0 +1,829 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04 07:30 CST",
+  "window": "2026-08-03 00:00 至 2026-08-05 00:00 Asia/Shanghai",
+  "counts": {
+    "related": 1
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-08-04.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "http://link.aps.org/doi/10.1103/rd63-hdwp",
+      "title": "Determination of Quark-Gluon-Quark Interference within the Proton",
+      "authors": [
+        "Alexey Vladimirov, Guillermo Portela, and Simone Rodini"
+      ],
+      "abstract": "Author(s): Alexey Vladimirov, Guillermo Portela, and Simone Rodini A proof-of-concept global QCD fit finds the quark-gluon-quark interference comparable in size to polarized quark density contributions, which suggests a more quantum nature of the proton than assumed. [Phys. Rev. Lett. 137, 061902] Published Mon Aug 03, 2026",
+      "url": "http://link.aps.org/doi/10.1103/rd63-hdwp",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "source_kind": "journal_highlight",
+      "published": "2026-08-03T18:00:00+08:00",
+      "updated": "2026-08-03T18:00:00+08:00",
+      "categories": [
+        "Particles and Fields",
+        "Particles and Fields"
+      ],
+      "doi": "",
+      "journal": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+      "score": 24,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Alexey Vladimirov, Guillermo Portela, and Simone Rodini A proof-of-concept global QCD fit finds the quark-gluon-quark interference comparable in size to polarized quark density contributions, which suggests a more quantum nature of the proton than assumed.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "https://www.nature.com/articles/s41586-026-10957-y",
+      "title": "Gasdermin D-mediated delivery of caspase inhibitors to suppress pyroptosis",
+      "authors": [
+        "Katarzyna M. Groborz",
+        "Melissa E. Truong",
+        "Irma Stowe",
+        "Katherine E. Wickliffe",
+        "Bettina Lee",
+        "Stefan Bauernfried",
+        "Robert S. Jones",
+        "Emile Plise",
+        "Elizabeth S. Levy",
+        "Ponien Kou",
+        "Wyne P. Lee",
+        "Juan Zhang",
+        "Hanna Budayeva",
+        "Christopher M. Rose",
+        "Julia Nguyen",
+        "Malgorzata Kalinka",
+        "Marcin Drag",
+        "Nobuhiko Kayagaki",
+        "Kim Newton",
+        "Marcin Poreba",
+        "Vishva M. Dixit"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10957-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "https://www.nature.com/articles/s41586-026-10943-4",
+      "title": "Author Correction: Maturation and circuit integration of transplanted human cortical organoids",
+      "authors": [
+        "Omer Revah",
+        "Felicity Gore",
+        "Kevin W. Kelley",
+        "Jimena Andersen",
+        "Noriaki Sakai",
+        "Xiaoyu Chen",
+        "Min-Yin Li",
+        "Fikri Birey",
+        "Xiao Yang",
+        "Nay L. Saw",
+        "Samuel W. Baker",
+        "Neal D. Amin",
+        "Shravanti Kulkarni",
+        "Rachana Mudipalli",
+        "Bianxiao Cui",
+        "Seiji Nishino",
+        "Gerald A. Grant",
+        "Juliet K. Knowles",
+        "Mehrdad Shamloo",
+        "John R. Huguenard",
+        "Karl Deisseroth",
+        "Sergiu P. Paşca"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10943-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "https://www.nature.com/articles/d41586-026-02339-1",
+      "title": "Sickle-cell disease linked to prematurely aged stem cells in mice",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02339-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "https://www.nature.com/articles/d41586-026-02372-0",
+      "title": "Venus’s rift valleys could be its secret to staying active",
+      "authors": [
+        "Katherine Skipper"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02372-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "https://www.nature.com/articles/d41586-026-02388-6",
+      "title": "Plans for nuclear-powered merchant ships must confront risks",
+      "authors": [
+        "Jihong Chen",
+        "Zheng Wan"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02388-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "https://www.nature.com/articles/d41586-026-02398-4",
+      "title": "Cancer-fighting antibodies with a one-two punch take aim at tumours",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02398-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "https://www.nature.com/articles/d41586-026-01850-9",
+      "title": "Science-backed tips on how to avoid distractions",
+      "authors": [
+        "Nikki Forrester"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-01850-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "https://www.nature.com/articles/d41586-026-01360-8",
+      "title": "‘A waste of time for all of us’: caught in the crossfire of the peer-review wars",
+      "authors": [
+        "Katarina Zimmer"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-01360-8",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "https://www.nature.com/articles/d41586-026-02436-1",
+      "title": "Controversial White House plan to overhaul US science funding faces Senate opposition",
+      "authors": [
+        "Dan Garisto"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02436-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "https://www.nature.com/articles/d41586-026-02387-7",
+      "title": "The secret relationships that govern life on Earth",
+      "authors": [
+        "Richard Schiffman"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02387-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "https://www.nature.com/articles/d41586-026-02083-6",
+      "title": "Want to get more from AI? Treat every prompt like an experiment",
+      "authors": [
+        "James M. Dewar"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02083-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "doi:10.1038/s41586-026-10943-4",
+      "title": "Author Correction: Maturation and circuit integration of transplanted human cortical organoids",
+      "authors": [
+        "Omer Revah",
+        "Felicity Gore",
+        "Kevin W. Kelley",
+        "Jimena Andersen",
+        "Noriaki Sakai",
+        "Xiaoyu Chen",
+        "Min-Yin Li",
+        "Fikri Birey"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10943-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10943-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1038/s41586-026-10957-y",
+      "title": "Gasdermin D-mediated delivery of caspase inhibitors to suppress pyroptosis",
+      "authors": [
+        "Katarzyna M. Groborz",
+        "Melissa E. Truong",
+        "Irma Stowe",
+        "Katherine E. Wickliffe",
+        "Bettina Lee",
+        "Stefan Bauernfried",
+        "Robert S. Jones",
+        "Emile Plise"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10957-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10957-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "doi:10.1038/d41586-026-02372-0",
+      "title": "Venus’s rift valleys could be its secret to staying active",
+      "authors": [
+        "Katherine Skipper"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02372-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02372-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "doi:10.1038/d41586-026-02339-1",
+      "title": "Sickle-cell disease linked to prematurely aged stem cells in mice",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02339-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02339-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "doi:10.1038/d41586-026-02083-6",
+      "title": "Want to get more from AI? Treat every prompt like an experiment",
+      "authors": [
+        "James M. Dewar"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02083-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02083-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "doi:10.1038/d41586-026-01360-8",
+      "title": "‘A waste of time for all of us’: caught in the crossfire of the peer-review wars",
+      "authors": [
+        "Katarina Zimmer"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01360-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01360-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "doi:10.1038/d41586-026-02388-6",
+      "title": "Plans for nuclear-powered merchant ships must confront risks",
+      "authors": [
+        "Jihong Chen",
+        "Zheng Wan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02388-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02388-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "doi:10.1038/d41586-026-01850-9",
+      "title": "Science-backed tips on how to avoid distractions",
+      "authors": [
+        "Nikki Forrester"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-01850-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-01850-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "doi:10.1038/d41586-026-02398-4",
+      "title": "Cancer-fighting antibodies with a one-two punch take aim at tumours",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02398-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02398-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1038/d41586-026-02436-1",
+      "title": "Controversial White House plan to overhaul US science funding faces Senate opposition",
+      "authors": [
+        "Dan Garisto"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02436-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02436-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1038/d41586-026-02387-7",
+      "title": "The secret relationships that govern life on Earth",
+      "authors": [
+        "Richard Schiffman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02387-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-03T08:00:00+08:00",
+      "updated": "2026-08-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02387-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
