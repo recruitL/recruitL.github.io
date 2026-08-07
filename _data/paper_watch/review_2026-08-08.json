@@ -80,12 +80,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 25,
-  "total_review_candidates": 51,
-  "report_path": "/papers/2026-08-08/",
   "review_path": "_paper_reviews/2026-08-08.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "arxiv:2608.06269v1",
       "title": "An \"inside-out\" approach to modeling supermassive black hole binary inspiral",
       "authors": [
@@ -127,6 +125,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "arxiv:2608.06224v1",
       "title": "A Neutron Star Hidden Inside a Black Hole",
       "authors": [
@@ -167,6 +166,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "arxiv:2608.06319v1",
       "title": "The Quantum Mechanics of Rare Events: From Quantum Walks to Stochastic Inflation",
       "authors": [
@@ -210,6 +210,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "arxiv:2608.06294v1",
       "title": "QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI for Cardiac Arrest Mortality Prediction",
       "authors": [
@@ -253,6 +254,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "arxiv:2608.06292v1",
       "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
       "authors": [
@@ -292,6 +294,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "arxiv:2608.06305v1",
       "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
       "authors": [
@@ -332,6 +335,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "arxiv:2608.06253v1",
       "title": "MetaboLLM: a metabolomics-specialized large language model for biochemical knowledge integration and predictive metabolite graph construction",
       "authors": [
@@ -371,6 +375,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "arxiv:2608.06353v1",
       "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
       "authors": [
@@ -410,6 +415,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "arxiv:2608.06310v1",
       "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
       "authors": [
@@ -457,6 +463,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "arxiv:2608.06259v1",
       "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
       "authors": [
@@ -495,6 +502,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "arxiv:2608.06366v1",
       "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
       "authors": [
@@ -544,6 +552,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "arxiv:2608.06346v1",
       "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
       "authors": [
@@ -592,6 +601,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "arxiv:2608.06312v1",
       "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
       "authors": [
@@ -634,6 +644,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "arxiv:2608.06301v1",
       "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
       "authors": [
@@ -678,6 +689,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "arxiv:2608.06300v1",
       "title": "Bias Analysis of L2 Speaking Assessment Systems Using Concept Activation Vectors",
       "authors": [
@@ -716,6 +728,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "arxiv:2608.06370v1",
       "title": "The Bitter Lesson of Tool Calling",
       "authors": [
@@ -754,6 +767,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "arxiv:2608.06362v1",
       "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
       "authors": [
@@ -795,6 +809,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "arxiv:2608.06347v1",
       "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
       "authors": [
@@ -832,6 +847,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "arxiv:2608.06331v1",
       "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
       "authors": [
@@ -874,6 +890,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "arxiv:2608.06329v1",
       "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
       "authors": [
@@ -912,6 +929,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "arxiv:2608.06296v1",
       "title": "On-Policy Self-Distillation without Any Supervision",
       "authors": [
@@ -952,6 +970,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "arxiv:2608.06283v1",
       "title": "The Tamed Subgradient Unadjusted Langevin Algorithm beyond Convexity",
       "authors": [
@@ -992,6 +1011,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "arxiv:2608.06265v1",
       "title": "Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints",
       "authors": [
@@ -1037,6 +1057,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "arxiv:2608.06376v1",
       "title": "A Tale of Two Compact Bosons",
       "authors": [
@@ -1074,6 +1095,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "arxiv:2608.06277v1",
       "title": "Holographic entanglement entropy with conformal boundary conditions",
       "authors": [
@@ -1108,6 +1130,906 @@
         "why_relevant": "匹配关注项：gr-qc 相关方向。",
         "method_or_signal": "AdS",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "arxiv:2608.06328v1",
+      "title": "A unified modeling of X-ray and gamma-ray spectro-polarimetric data: the case of Cygnus X-1",
+      "authors": [
+        "Tristan Bouchet",
+        "Thomas Siegert",
+        "Victoria Grinberg",
+        "Jérôme Rodriguez",
+        "Floriane Cangemi",
+        "Philippe Laurent",
+        "Joern Wilms"
+      ],
+      "abstract": "Recent X-ray and soft gamma-ray spectro-polarimetric observations of black hole X-ray binaries, such as Cygnus X-1, reveal discrepancies that challenge current models of accretion and high-energy emission. We present a general framework for broadband spectro-polarimetric modeling that simultaneously fits spectral and polarization data from independent instruments across different energy bands. The method robustly combines measurements with different energy binning and statistical significance while accounting for energy-dependent polarization mixing between model components. Applied to Cygnus X-1 over the 2 keV-2 MeV range, it provides an improved characterization of the soft gamma-ray hard-tail and constrains the optically thin synchrotron cutoff energy to $(3.9^{+0.6}_{-0.5}) \\times 10^{2}$ keV. We discuss the implications for non-thermal electron acceleration in the context of Bohm diffusion and synchrotron cooling, and propose a new explanation for the observed polarization misalignment based on magnetic field helicity and Doppler boosting. The framework is broadly applicable to multi-instrument spectro-polarimetric analyses.",
+      "url": "https://arxiv.org/abs/2608.06328v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T01:39:04+08:00",
+      "updated": "2026-08-07T01:39:04+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Recent X-ray and soft gamma-ray spectro-polarimetric observations of black hole X-ray binaries, such as Cygnus X-1, reveal discrepancies that challenge current models of accretion and high-energy emission.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "arxiv:2608.06289v1",
+      "title": "Nonlinear Compton scattering in a quantized pump field",
+      "authors": [
+        "Kenan Qu"
+      ],
+      "abstract": "We develop a fully quantized theory of nonlinear Compton scattering driven by a single-mode quantum field. Exact quantum-Volkov states retain pump depletion, back-action, and final-state correlations through displaced or squeezed-displaced Fock-state ladders. A finite Fock-state pump produces discrete photon-transfer edges and a terminal spectral cutoff. In the bright, weakly depleted regime, the exact theory reduces to a Wigner-function weighted-average of scattering probabilities evaluated at fixed complex field amplitudes, with ordinary and generalized Bessel functions describing the harmonic structure for circular and linear polarization, respectively. For squeezed coherent light, the squeezing angle controls the high-energy emission through photon-number fluctuations.",
+      "url": "https://arxiv.org/abs/2608.06289v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T01:14:54+08:00",
+      "updated": "2026-08-07T01:14:54+08:00",
+      "categories": [
+        "quant-ph",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We develop a fully quantized theory of nonlinear Compton scattering driven by a single-mode quantum field.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "arxiv:2608.06282v1",
+      "title": "Quantum Lifts of Noninteger Power Law Field Theories",
+      "authors": [
+        "Jarah Evslin",
+        "Hengyuan Guo",
+        "Stefano Bolognesi"
+      ],
+      "abstract": "Field theories whose potentials have noninteger power laws $α$ have found many applications, but are often claimed to have no lift to quantum field theory except as effective models. We define quantum lifts by expanding the classical potential in Hermite polynomials and then normal ordering at a mass scale shifted by a parameter $β$. We find that when $α>2$, for sufficiently large $β$, the vacuum state can be perturbatively expanded in usual Fock states. We apply this to the following problem. The $σ=4$ Pöschl-Teller model has a $φ^{5/2}$ potential. As the third derivative of the potential diverges in each vacuum, one expects the three point interactions to diverge in the vacuum. The model's kink has three shape modes and the least bound mode extends so far into the vacuum that its probability of being excited by radiation apparently diverges. We show that a deformation $β$ of order the meson mass or larger is sufficient to tame this divergence, although it nonetheless results in an excitation probability which is enhanced by a $β$-dependent fractional power of the inverse coupling.",
+      "url": "https://arxiv.org/abs/2608.06282v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T01:09:19+08:00",
+      "updated": "2026-08-07T01:09:19+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Field theories whose potentials have noninteger power laws $α$ have found many applications, but are often claimed to have no lift to quantum field theory except as effective models.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "arxiv:2608.06280v1",
+      "title": "GLSM monodromy on quantum period lattice of Calabi-Yau fourfold flops",
+      "authors": [
+        "Ban Lin"
+      ],
+      "abstract": "We establish an integral basis for the B-brane central charges of certain Calabi-Yau fourfold flops and derive exact expressions for their monodromies using the grade restriction rule and window categories of the associated gauged linear sigma models. The monodromy is interpreted as an EZ twist associated with the contraction of an exceptional surface onto a curve of conifold singularities. We further illustrate a decomposition of the EZ twist into spherical twists for families of splitting configurations of the sixtic Calabi-Yau fourfold and a complete intersection in grassmannian.",
+      "url": "https://arxiv.org/abs/2608.06280v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T01:07:47+08:00",
+      "updated": "2026-08-07T01:07:47+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We establish an integral basis for the B-brane central charges of certain Calabi-Yau fourfold flops and derive exact expressions for their monodromies using the grade restriction rule and window categories of the associated gauged linear sigma models.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "arxiv:2608.06278v1",
+      "title": "The plunging region of thin accretion discs across the black hole spin range",
+      "authors": [
+        "Jake Rule",
+        "Andrew Mummery",
+        "Steven Balbus",
+        "James M. Stone",
+        "Lizhong Zhang"
+      ],
+      "abstract": "We compute and test analytic models for the plunging region dynamics, thermodynamics, and magnetic fields against dedicated 3D global general relativistic magnetohydrodynamics (MHD) simulations of thin accretion discs around black holes across the spin range, using the code {\\tt ATHENAK}. We find that the dynamics of the plunging fluid closely resembles that of a gravity-dominated geodesic plunge, with the best agreement at low spins. Additionally, we find good agreement between the thermodynamic framework and the simulated quantities across the spin range. Finally, we develop a new model for the magnetic fields in the plunging region that assumes a fixed geodesic inflow, into which the magnetic fields are frozen. Overall, our simulations are in good concordance with this model, albeit with some discrepancies that suggest a degree of non-ideal MHD dissipation. In addition, we investigate how the MHD stresses in the plunging region depend on the black hole spin, interpreting our results through the lens of our flux-freezing model. We find that the magnitude of the stress increases as the black hole spin is increased in the prograde direction. This question is of particular importance for observers who wish to determine the black hole spin from X-ray measurements of the inner accretion disc, since a low-stress, high-spin solution is degenerate with a high-stress, low-spin solution. The spin-stress relationship that we report is approximately orthogonal to the contour of degenerate spin-stress pairings, indicating that the degeneracy is not fundamental. We show this explicitly for the case of M33 X-7.",
+      "url": "https://arxiv.org/abs/2608.06278v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T01:07:21+08:00",
+      "updated": "2026-08-07T01:07:21+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We compute and test analytic models for the plunging region dynamics, thermodynamics, and magnetic fields against dedicated 3D global general relativistic magnetohydrodynamics (MHD) simulations of thin accretion discs around black holes across the spin range, using the code {\\tt ATHENAK}.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "arxiv:2608.06258v1",
+      "title": "Approximate Quantum Error Correction at Chiral Topological Edges",
+      "authors": [
+        "Yuntai Song",
+        "Zejun Liu",
+        "Zhencheng Wang",
+        "Jong Yeon Lee",
+        "Bowen Shi"
+      ],
+      "abstract": "Topologically ordered phases naturally realize quantum error correction through nonlocal encoding of quantum information. More recently, conformal field theories have been shown to realize approximate quantum error-correcting codes, but such constructions generally require fine tuning to criticality. Here we introduce a family of approximate quantum error-correcting codes realized by the chiral edges of two-dimensional topologically ordered phases. The proposed encoding combines the robustness of a gapped topological bulk with the flexibility of gapless edge conformal field theories. To characterize its robustness, we study coherent-information loss under local erasure. We derive an exact expression relating coherent-information loss to relative entropy, reducing the recoverability problem to universal properties of the edge theory. This leads to power-law scaling of coherent-information loss with the size of the erased region. We further show that, for geometrically local erasures near one edge, the two-dimensional chiral edge code is at least as robust as the dimensionally reduced CFT code, and is strictly more robust in several representative examples. For Abelian code subspaces, we further construct a power-law-range recovery map supported on the erased region together with a power-law-range buffer; this recovery map depends only on the code subspace, not on the unknown encoded state. We provide numerical calculations for lattice realizations of compact free boson and Ising CFT examples that support the theoretical predictions of the power-law exponents.",
+      "url": "https://arxiv.org/abs/2608.06258v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T00:48:36+08:00",
+      "updated": "2026-08-07T00:48:36+08:00",
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Topologically ordered phases naturally realize quantum error correction through nonlocal encoding of quantum information.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "arxiv:2608.06244v1",
+      "title": "Isomorphic Emergence of Lorentz and Gauge Symmetries--A Constructive Interpretation Based on Continuum Mechanics",
+      "authors": [
+        "Ke-Xia Jiang"
+      ],
+      "abstract": "Lorentz symmetry and gauge symmetry constitute the mathematical cornerstones of modern physics, yet their ultimate physical origins remain elusive. From the standpoint of a constructive interpretation, this paper demonstrates that both symmetry structures can emerge isomorphically from a unified classical source: dynamical constraints on wave-packet excitations in a continuous elastic substrate medium (SM). Neither symmetry is posited as fundamental, nor does their emergence rely on quantization. Three core results are established. First, taking the transverse wave speed of a homogeneous, isotropic SM as the benchmark under a conventionalist synchronization scheme, Minkowski-type spacetime arises isomorphically, with Lorentz transformations as effective coordinate transformations between inertial frames. This reinterprets the Michelson--Morley null result: observers are composite wave-packet excitations, and medium-induced kinematic corrections are encoded in their measurement frameworks. Second, for wave packets endowed with $SU(N)$ intrinsic symmetry, the requirement of identity invariance drives the SM to spontaneously generate gauge fields. This requires invariant equivalence classes of intrinsic states under propagation, yielding gauge structures isomorphic to Yang-Mills theory. The gauge group $SU(N)$ is uniquely determined by the number of stable normal modes supported by the medium. Third, through the same conventionalist measurement protocols, inhomogeneous distributions of the SM emerge isomorphically as curved spacetime geometry, governed by Einstein-type field equations from variational extremization of the medium's deformation free energy. This paper advances a unified interpretive account of the physical origin underlying the mathematical structures of both Relativity and the Standard Model.",
+      "url": "https://arxiv.org/abs/2608.06244v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-07T00:29:48+08:00",
+      "updated": "2026-08-07T00:29:48+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Lorentz symmetry and gauge symmetry constitute the mathematical cornerstones of modern physics, yet their ultimate physical origins remain elusive.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "arxiv:2608.06377v1",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "authors": [
+        "Xian Sun",
+        "Wei Chow",
+        "Yingshuo Wang",
+        "Junhao Liu",
+        "Wei Gao",
+        "Qing Wu",
+        "Lingdong Kong"
+      ],
+      "abstract": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong failures and optimizes a standard Direct Preference Optimization (DPO) objective over matched preference pairs balanced equally across all four conditions, rather than over misleading items alone. Our approach substantially reduces SC2W on popular open-sourced models while preserving accuracy when the added context is clean, correct, or irrelevant. With this work, we argue that models should be judged on selective trust, not on resistance alone.",
+      "url": "https://arxiv.org/abs/2608.06377v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:59:58+08:00",
+      "updated": "2026-08-07T01:59:58+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "arxiv:2608.06364v1",
+      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+      "authors": [
+        "George Grispos",
+        "Sajda Qureshi"
+      ],
+      "abstract": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user awareness and control. Using an interpretive approach, the research combines the forensic analysis of selected Android applications with contextual document analysis to identify AI features and evaluate disclosure practices. The findings show that AI is widely implemented in the applications, yet transparency about its use remains limited. A socio-economic analysis of Nigeria further shows an increasing dependence on consumer digital platforms, moderate AI awareness, and uneven patterns of interaction. By providing empirical evidence on AI transparency and platform practices, this study advances understanding of individual digital sovereignty and highlights challenges for protecting user control in AI-driven digital environments.",
+      "url": "https://arxiv.org/abs/2608.06364v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:57:28+08:00",
+      "updated": "2026-08-07T01:57:28+08:00",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "arxiv:2608.06363v1",
+      "title": "An Optimal Agnostic PAC Algorithm",
+      "authors": [
+        "Markus Engelund Mathiasen",
+        "Jian Qian",
+        "Nikita Zhivotovskiy"
+      ],
+      "abstract": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<δ\\le 1/2$, with probability at least $1-δ$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}} +\\frac{d+\\log(1/δ)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Györfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996].",
+      "url": "https://arxiv.org/abs/2608.06363v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:57:25+08:00",
+      "updated": "2026-08-07T01:57:25+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DS",
+        "math.ST"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "arxiv:2608.06361v1",
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "authors": [
+        "Sarvesh Baskar",
+        "Zikui Cai",
+        "Shayan Shabihi",
+        "Anirudh Satheesh",
+        "Muhammad R. Islam",
+        "Udari Madhushani Sehwag",
+        "Tom Goldstein",
+        "Furong Huang"
+      ],
+      "abstract": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks, and categorical state transitions. Across 2,190 videos, we vary event count N and frequency F while holding rendering fixed. Each video includes an executable event trace for capability-surface estimation and timestamp-level evaluation. Our results reveal a staged temporal failure. At an 80% reliability threshold, Gemini 3.6 Flash reliably counts persistent state transitions up to 12 events at 0.5 and 1.0 Hz, yet demonstrates no reliable positive-count region for transient blinking events. Thus, event representation dictates whether a model initially accesses evidence -- a limitation that compounds as count and frequency increase. In the high-count, high-frequency regime, only 0.2% of final counts are correct and the model recovers just 18.1% of true events. To test if visual access is the primary bottleneck, we increase sampling rate. Although this boosts Bounce Ball accuracy from 19.6% to 29.3%, the reported sequence agrees with ground truth only 3.7% of the time. Extra frames can therefore inflate final scores without producing faithful event recovery. Different prompting strategies yield similarly limited gains, and real-world video evaluations show the same concentration of success at low event counts. Ultimately, trace-grounded profiling shifts video evaluation from aggregate accuracy metrics to a detailed diagnostic of where temporal reasoning fails.",
+      "url": "https://arxiv.org/abs/2608.06361v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:57:06+08:00",
+      "updated": "2026-08-07T01:57:06+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "arxiv:2608.06352v1",
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "authors": [
+        "Fanzhe Meng",
+        "Guoxin Chen",
+        "Jiale Zhao",
+        "Shuang Sun",
+        "Zhiyu Lin",
+        "Wayne Xin Zhao",
+        "Ruihua Song",
+        "Ji-Rong Wen",
+        "Kai Jia"
+      ],
+      "abstract": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate tasks through adversarial solver calibration. Multi-solver calibration targets disagreement within a heterogeneous solver pool, whereas contrastive solver calibration targets a designated strong-pass/weak-fail relation; both operationalize a solver-relative learnable zone anchored in demonstrated solvability. Using CalibForge, we construct 5,431 calibrated terminal tasks. Our ablations show that both strategies yield more effective supervision than authoring and validation alone or ordinary single-solver feedback. Models trained on the full collection achieve 32.58% and 47.57% on Terminal-Bench 2.0. The largest improvements over the corresponding base model reach 24.71 percentage points on Terminal-Bench 2.0, 27.68 points on SWE-bench Pro, and 30.04 points on Doc2Repo. Together, these results support solver-relative learnability as a practical target for constructing effective and transferable agent training data.",
+      "url": "https://arxiv.org/abs/2608.06352v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:53:18+08:00",
+      "updated": "2026-08-07T01:53:18+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "arxiv:2608.06351v1",
+      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+      "authors": [
+        "Jerzy Stefanowski"
+      ],
+      "abstract": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this problem are discussed. Finally it is related to the challenges of tracking the co-evolution of data, models, and explanations.\\footnote{This paper has been accepted for a publication in J.Nalepa (ed) Explainable AI in Space. Proceedings of EASi 2026 Workshop at IJCAI-ECAI 2026 Bremen, Springer CCIS vol 3107 (2016).}",
+      "url": "https://arxiv.org/abs/2608.06351v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:53:10+08:00",
+      "updated": "2026-08-07T01:53:10+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "arxiv:2608.06340v1",
+      "title": "Scalable estimation of VARMA models",
+      "authors": [
+        "Daniel Paulin",
+        "Victor Elvira"
+      ],
+      "abstract": "Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series. Yet their moving-average term captures with a few parameters what a pure autoregression matches only with many lags. We introduce an estimation framework that removes this computational barrier: each optimization iteration is independent of the series length $T$. The framework combines a partial-autocorrelation reparametrization that guarantees stationarity and invertibility by construction, Gaussian priors on the reparametrized coefficients with separate scales for diagonal and off-diagonal entries, and losses that depend on the data only through fixed-size sufficient statistics, evaluated by a Parseval (Fourier) identity at near-linear cost in the truncation length. This yields two point estimators: a regularized least-squares fit and a covariance-marginalized maximum-a-posteriori estimator. We prove that both recover the infinite-autoregressive representation of the true process at a near-parametric rate in fixed dimension, so the truncation introduces no asymptotic bias. The same machinery extends, at the same leading cost, to seasonal dynamics, exogenous regressors (VARMAX), and rolling-window refits. Empirically, the estimators stay close to the oracle forecast error from $d=10$ to $d=40$ (where classical conditional MLE returns non-invertible fits whose forecasts diverge) and match or beat VAR, Bayesian-VAR, component-wise ARMA, and sparse-VARMA baselines on retail-demand, meteorological, and air-quality data. This brings likelihood-based VARMA estimation, at a per-iteration cost independent of the series length, to the problem sizes where practitioners have so far relied on VAR models.",
+      "url": "https://arxiv.org/abs/2608.06340v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:49:58+08:00",
+      "updated": "2026-08-07T01:49:58+08:00",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "arxiv:2608.06337v1",
+      "title": "Optimal Rates for Learning with Monotone Adversaries",
+      "authors": [
+        "Anay Mehrotra"
+      ],
+      "abstract": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not exchangeable. Larsen, Pabbaraju, and Shetty, who introduced this model, showed that empirical risk minimization attains expected error $O((d/n)\\log(n/d))$ for classes of VC dimension $d$, and that every known optimal learner can be pushed away from the $Θ(d/n)$ rate, optimal for PAC learning. They asked whether the extra logarithm is an artifact of those particular algorithms or an inherent consequence of the lack of exchangeability. We show that this additional cost is inherent beyond VC dimension one. In the worst case over classes of VC dimension $d$ and over known finite insertion budgets, the minimax expected error is $Θ(1/n)$ at $d=1$ and $Θ((d/n)\\log(n/d))$ for $d\\geq 2$. The same rates hold with Littlestone dimension $d_{\\mathrm L}$ in place of $d$, so the clean online-to-batch rate $O(d_{\\mathrm L}/n)$ is unattainable as well. Thus, somewhat counterintuitively, adding correctly labeled examples can make learning harder by a logarithmic factor, even for classes that admit finite mistake bounds in online learning. The dimension-one upper bound is achieved by a simple improper learner whose analysis adapts the leave-one-out argument underlying the one-inclusion graph. All of our lower bounds are elementary and come from a single construction: an explicit class and prior on which two target hypothesis, which differ a point of nonnegligible mass, produce the same sample.",
+      "url": "https://arxiv.org/abs/2608.06337v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:45:32+08:00",
+      "updated": "2026-08-07T01:45:32+08:00",
+      "categories": [
+        "stat.ML",
+        "cs.DS",
+        "cs.LG",
+        "math.ST"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "A monotone adversary observes an i.i.d.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "arxiv:2608.06311v1",
+      "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+      "authors": [
+        "Zahra Khodakarami",
+        "Yue Li",
+        "Pulkit Khandelwal",
+        "John Detre",
+        "Sandhitsu Das",
+        "Christopher Brown",
+        "David Wolk",
+        "Paul Yushkevich"
+      ],
+      "abstract": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (SR) is a widely used method for recovering an isotropic volume from an anisotropic scan. Yet whether applying it prior to WMH segmentation preserves lesion content remains unknown: a model may erase small real lesions or hallucinate absent ones. We used 1-mm isotropic high-resolution (HR) FLAIR scans from 29 individuals in the ADNI cohort, each manually segmented for WMH by an expert. Then, we degraded each to simulated 3 and 5 mm through-plane acquisitions. Multi-contrast implicit neural representation (INR), a single-contrast self-supervised model (ECLARE), and cubic interpolation were used to upsample them onto the HR grid. WMH segmentation from a simulated thick slice and the original HR FLAIR set the floor and ceiling, respectively, for the per-lesion analysis. Of four WMH segmentation methods (WMH-SynthSeg, segcsvd, MARS-WMH, TrUE-Net), we ran the analysis under the most sensitive one to small lesions on HR (MARS-WMH) with the evaluation metrics of detection sensitivity, erasure rate (HR-detected lesions lost after reconstruction), and hallucination rate (predicted components absent from both the manual and HR segmentation). The dominant effect of SR was erasure of small real lesions, not hallucination, and it increased with slice thickness, though every reconstruction still improved lesion detection over the raw thick slice. ECLARE recovered small lesion signal best at both thicknesses, while the INR was no better than cubic interpolation.",
+      "url": "https://arxiv.org/abs/2608.06311v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:26:01+08:00",
+      "updated": "2026-08-07T01:26:01+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "arxiv:2608.06291v1",
+      "title": "BaKron: Efficient Quantization with Kronecker-Factored Hessians",
+      "authors": [
+        "Johann Birnick",
+        "Rayan Saab"
+      ],
+      "abstract": "We accelerate a family of algorithms for neural network quantization whose geometry is informed by any Kronecker-factored approximation of the Hessian. GPTQ-style adaptive rounding typically uses one-sided information derived from input activations. Two-sided Kronecker-factored Hessian approximations can additionally capture correlations across output coordinates, but applying GPTQ directly in the vectorized weight domain is computationally expensive. Building on the two-sided adaptive-rounding formulation used by BoA and YAQA, we introduce BaKron, an efficient solver that combines anti-diagonal parallelism with a recursive divide-and-conquer construction. For an $m\\times n$ weight matrix, BaKron uses $O(m+n)$ sequential steps while reducing the total work from $O(m^2n^2)$ to $O(mn(m+n))$. Thus, it matches the cubic scaling of GPTQ while exploiting richer curvature information. Moreover, BaKron is modular with respect to both the base quantizer and the Hessian estimator. We also provide practical benchmarks, consider a range of Hessians that BaKron can be called with, find an efficient technique to compute these Hessians, and evaluate the algorithm experimentally.",
+      "url": "https://arxiv.org/abs/2608.06291v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:15:37+08:00",
+      "updated": "2026-08-07T01:15:37+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We accelerate a family of algorithms for neural network quantization whose geometry is informed by any Kronecker-factored approximation of the Hessian.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "arxiv:2608.06288v1",
+      "title": "Surv-IPTB: An Attention-Based Model for Estimating Individual Probability of Treatment Benefit with Survival Data",
+      "authors": [
+        "Lev V. Utkin",
+        "Stanislav K. Kogan",
+        "Andrei V. Konstantinov"
+      ],
+      "abstract": "This work presents a novel attention-based framework for estimating the Individual Probability of Treatment Benefit (IPTB) in survival analysis contexts. The proposed model, called Surv-IPTB, directly quantifies the probability that a specific patient will experience extended survival time under treatment versus control. We reformulate IPTB estimation as a binary classification problem, leveraging pairwise patient comparisons across treatment and control cohorts. The framework incorporates a principled handling of right-censored observations through imprecise probability representations, where uncertain treatment effects are characterized by interval-valued probabilities. An attention mechanism with learnable query-key transformations enables flexible, data-driven aggregation of pairwise comparisons, while simultaneously learning soft class probabilities for censored cases. Through extensive experiments on synthetic datasets with complex nonlinear structures, including spiral, bell-shaped, and circular feature spaces, we demonstrate that our approach maintains robust performance across varying censoring rates and treatment effect strengths. The model consistently outperforms meta-learner baselines (T-learner and S-learner) equipped with random survival forests, Cox proportional hazards, and Beran estimators, particularly in challenging nonlinear scenarios where conventional methods exhibit significant degradation. The results establish the proposed attention-based framework as a scalable and statistically principled solution for personalized treatment benefit assessment in survival settings. The code implementing the model is publicly available.",
+      "url": "https://arxiv.org/abs/2608.06288v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:13:44+08:00",
+      "updated": "2026-08-07T01:13:44+08:00",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "This work presents a novel attention-based framework for estimating the Individual Probability of Treatment Benefit (IPTB) in survival analysis contexts.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "arxiv:2608.06276v1",
+      "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "authors": [
+        "Farzana Nasrin"
+      ],
+      "abstract": "Persistence diagrams (PDs) provide stable and interpretable summaries of multiscale topological structure. While substantial progress has been made in the statistical analysis of PDs, existing literature often treats diagrams as static objects and provide limited frameworks for probabilistic modeling and stochastic evolution on PD space. We introduce a reinforcement learning framework for stochastic dynamics on PD space, where diagrams evolve through topology aware local edit operations. The dynamics define controlled Markov processes on spaces of finite PDs with variable cardinality. We establish conditions under which the induced Markov chains are irreducible, aperiodic, and geometrically ergodic, implying the existence of unique stationary probability laws on PD space. To guide the dynamics toward scientifically relevant topological targets, we formulate objectives that encompass distribution matching, task specific topological statistics, and structure-preserving compression. The resulting rewards balance task specific distributional targets, diagram fidelity, and complexity reduction, and yield a framework for adaptive topological simplification and probabilistic modeling. Experiments on synthetic and neuroimaging PDs demonstrate that the proposed framework can preserve dominant topological structure while reducing diagram complexity.",
+      "url": "https://arxiv.org/abs/2608.06276v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:05:19+08:00",
+      "updated": "2026-08-07T01:05:19+08:00",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.AT"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Persistence diagrams (PDs) provide stable and interpretable summaries of multiscale topological structure.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "arxiv:2608.06270v1",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "authors": [
+        "Zhiheng Wang",
+        "Bo Peng",
+        "Lai Wei",
+        "Chaochao Lu"
+      ],
+      "abstract": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However, models using these operations often achieve only marginal or negative gains over direct inference at substantially higher token cost. They may also repeatedly crop irrelevant regions and fail on questions that direct inference answers correctly. We ask whether the returned visual evidence causally affects the answer. To answer this question, we formulate visual tool-use as a causal graph that separates observation-mediated paths from action-induced shortcuts. We then audit it through interventions at the three levels: policy (comparing tool-use with direct inference), trajectory (corrupting all observations during rollout), and step (counterfactually replacing one individual observation under a fixed prefix). Our step-level estimand, Visual Evidence Gain, isolates the contribution of each returned observation. Across six representative models and five fine-grained perception benchmarks, we uncover policy miscalibration with two failure modes. In Calling Without Looking, returned observations have no causal effect on the answer. In Looking Without Planning, observations are informative but the call schedule is incoherent. A trajectory-level diagnostic decomposes the policy-level accuracy gain and shows that the gain is concentrated in a Calibrated minority. We term this discrepancy the illusion of visual tool-use: despite aggregate accuracy gains, visual tool-use is not causally effective across a broad range of rollouts. The code is available at https://github.com/OpenCausaLab/CauAudit.",
+      "url": "https://arxiv.org/abs/2608.06270v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T01:01:08+08:00",
+      "updated": "2026-08-07T01:01:08+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "arxiv:2608.06264v1",
+      "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+      "authors": [
+        "Robin Trombetta",
+        "Carole Lartizien"
+      ],
+      "abstract": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a technique widely regarded as a way to improve model training. It includes simple transformations like spatial operations or intensity modifications, but also more advanced synthesis techniques. Their goal is to generate new realistic samples from an existing dataset to diversify the images used during training. Among them, several propose different mixing strategies to combine real samples. However, one of their major shortcomings is to yield limited variability in terms of generated lesion shapes and locations. In this work, we introduce a novel image synthesis method, called OTLesMix, that leverages Wasserstein barycenter and optimal transport plan to generate realistic and diverse samples. We evaluated our method on three brain lesion segmentation tasks, on which it improves the Dice score compared to a model trained without synthetic data by 2.9 to 6.6 points, and outperforms state-of-the-art mix-based methods.",
+      "url": "https://arxiv.org/abs/2608.06264v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T00:54:15+08:00",
+      "updated": "2026-08-07T00:54:15+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "arxiv:2608.06262v1",
+      "title": "Hypothesis Testing with Conditional Queries: Learnability and the Value of Interaction",
+      "authors": [
+        "Zonghuan Xu"
+      ],
+      "abstract": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses. We study this choice in a conditional-query model on a finite outcome space $\\mathcal{X}$ with $|\\mathcal{X}|=N$. We first ask which pairs of distribution classes can be reliably distinguished. We then ask how many additional queries are required to match an adaptive tester when all queried events must be fixed in advance. We show that learnability holds if and only if the two classes have positive separation in their pairwise conditional probabilities. When this separation is zero, the optimal worst-case error is exactly $1/2$ at every finite query budget. For any $T$-query adaptive policy and any $ρ\\in (0,1)$, we construct a randomized non-adaptive procedure using $O(N^2(T + \\log(1/ρ)))$ pair queries chosen before any response is observed. Its simulated transcript is within $ρ$ in total variation of the adaptive transcript, uniformly over all distributions in the model. We also construct a matching family with constant adaptive query complexity and $Ω_\\varepsilon(N^2)$ non-adaptive query complexity. Consequently, the worst-case fixed-error adaptivity gap is $Θ_\\varepsilon(N^2)$. Thus interaction can reduce the required number of tests by a quadratic factor, but the apparent exponential branching of an interactive evaluation does not yield an exponential query advantage.",
+      "url": "https://arxiv.org/abs/2608.06262v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-07T00:54:10+08:00",
+      "updated": "2026-08-07T00:54:10+08:00",
+      "categories": [
+        "cs.LG",
+        "math.ST"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "https://www.nature.com/articles/d41586-026-02488-3",
+      "title": "Briefing Chat: Is DNA repair the secret to a long life? Whales and mole rats offer tantalizing hints",
+      "authors": [
+        "Shamini Bundell",
+        "Nick Petrić Howe"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02488-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-07T08:00:00+08:00",
+      "updated": "2026-08-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "https://www.nature.com/articles/d41586-026-02462-z",
+      "title": "Universal vaccine for pneumococcal disease moves closer to reality",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02462-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-07T08:00:00+08:00",
+      "updated": "2026-08-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "doi:10.1038/d41586-026-02488-3",
+      "title": "Briefing Chat: Is DNA repair the secret to a long life? Whales and mole rats offer tantalizing hints",
+      "authors": [
+        "Shamini Bundell",
+        "Nick Petrić Howe"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02488-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-07T08:00:00+08:00",
+      "updated": "2026-08-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02488-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "doi:10.1038/d41586-026-02462-z",
+      "title": "Universal vaccine for pneumococcal disease moves closer to reality",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02462-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-07T08:00:00+08:00",
+      "updated": "2026-08-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02462-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
