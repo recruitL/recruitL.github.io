@@ -4,8 +4,11 @@
   {% assign feature_image = collectiondata.feature_image %}
 {% endif %}
 
-{% if feature_image %}
-  <div class="feature" style="background-image: url({{ feature_image }})" aria-hidden="true">
-    <span class="feature__line"></span>
+{% if feature_image and page.layout != "home" %}
+  <div class="feature" style="background-image: url({{ feature_image | relative_url }})" aria-hidden="true">
+    <div class="feature__frame">
+      <span class="feature__label">{% if page.lang == "en" %}Research atlas{% else %}研究图谱{% endif %}</span>
+      <span class="feature__line"></span>
+    </div>
   </div>
 {% endif %}

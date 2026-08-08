@@ -1,21 +1,21 @@
 // Background colours
-$backgroundColour: #f7f6f2 !default;
-$codeBackgroundColour: #eeece6 !default;
-$featureBackgroundColour: #e8efed !default;
-$accentColour: #0f766e !default;
+$backgroundColour: #f4f0e7 !default;
+$codeBackgroundColour: #e8e2d6 !default;
+$featureBackgroundColour: #102033 !default;
+$accentColour: #b45f25 !default;
 
 // Text colours
-$headingColour: #17211f !default;
-$bodyColour: #34413e !default;
-$linkColour: #0b6f68 !default;
-$hoverColour: #084f4b !default;
-$focusColour: #0f766e !default;
-$captionColour: #68736f !default;
+$headingColour: #102033 !default;
+$bodyColour: #384455 !default;
+$linkColour: #9b4f20 !default;
+$hoverColour: #713513 !default;
+$focusColour: #b45f25 !default;
+$captionColour: #626c76 !default;
 $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: '"Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  font-family: '"Inter", "SF Pro Text", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -23,14 +23,14 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: '"Source Serif 4", "Noto Serif SC", "Songti SC", Georgia, serif',
+  font-family: '"Iowan Old Style", "Source Serif 4", "Noto Serif SC", "Songti SC", Georgia, serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  font-family: "Menlo, monospace",
+  font-family: '"SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace',
   regular: 400,
   cap-height: 0.68
 ) !default;

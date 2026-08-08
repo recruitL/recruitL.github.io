@@ -4,7 +4,7 @@ layout: default
 
 {% include site-header.html %}  <!-- 包含网站头部文件 -->
 
-<main class="main  container" id="main-content">  <!-- 定义主容器 -->
+<main class="main  container{% if page.wide == true %}  main--wide{% endif %}" id="main-content">  <!-- 定义主容器 -->
 
   <article class="article  article--page  content  typeset">  <!-- 定义页面文章容器 -->
 

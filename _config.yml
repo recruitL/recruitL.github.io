@@ -111,6 +111,9 @@ url: "https://recruitl.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/recruitL"
 email: "shenglong@ucas.ac.cn"
+manifest:
+  theme_color: "#102033"
+  background_color: "#f4f0e7"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -136,7 +139,7 @@ navigation_header:
   url: /
 - title: 代码库
   url: /code/
-- title: 活动等
+- title: 活动
   url: /activities/
 - title: 论文日报
   url: /papers/
@@ -152,13 +155,15 @@ navigation_header_en:
   url: /en/code/
 - title: Activities
   url: /en/activities/
+- title: Paper Watch
+  url: /papers/
 - title: Blog
   url: /en/blog/
 - title: Search
   url: /en/search/
 
 navigation_footer:
-- title: Created by recruitL
+- title: Research atlas by recruitL
   url: 
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
