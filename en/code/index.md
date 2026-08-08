@@ -3,6 +3,7 @@ title: Code
 lang: en
 lang_pair: /code/
 feature_image: "/document/picture/1300_400.jpg"
+feature_overlay: light
 excerpt: "Code index"
 aside: true
 wide: true

@@ -3,6 +3,7 @@ title: 代码库
 lang: zh-CN
 lang_pair: /en/code/
 feature_image: "/document/picture/1300_400.jpg"
+feature_overlay: light
 excerpt: "代码库入口"
 aside: true
 wide: true
