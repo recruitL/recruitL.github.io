@@ -769,6 +769,34 @@ textarea:focus-visible {
   right: 1.2rem;
 }
 
+.home-entry--activity {
+  background-color: var(--ink-rich);
+  background-image:
+    linear-gradient(180deg, rgba(10, 21, 36, .42), rgba(10, 21, 36, .84)),
+    url("/assets/images/home/activity-mountains.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--paper);
+}
+
+.home-entry--activity > span:nth-of-type(2) {
+  color: rgba(252, 250, 245, .8);
+}
+
+.home-entry--activity .home-entry__number,
+.home-entry--activity i {
+  color: #f3c99f;
+}
+
+.home-entry--activity:hover,
+.home-entry--activity:focus {
+  background-color: var(--ink-rich);
+  background-image:
+    linear-gradient(180deg, rgba(10, 21, 36, .3), rgba(10, 21, 36, .72)),
+    url("/assets/images/home/activity-mountains.jpg");
+  color: #fff;
+}
+
 .home-research-grid {
   border-top: 1px solid var(--line-strong);
 }
