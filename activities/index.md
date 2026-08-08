@@ -2,7 +2,7 @@
 title: 活动等
 lang: zh-CN
 lang_pair: /en/activities/
-feature_image: "/document/picture/3a3101dd7047ff7f.jpg"
+feature_image: "/assets/images/home/activity-mountains.jpg"
 excerpt: "活动入口"
 aside: true
 leaflet_map: true

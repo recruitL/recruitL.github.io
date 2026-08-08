@@ -2,7 +2,7 @@
 title: Activities
 lang: en
 lang_pair: /activities/
-feature_image: "/document/picture/3a3101dd7047ff7f.jpg"
+feature_image: "/assets/images/home/activity-mountains.jpg"
 excerpt: "Activities"
 aside: true
 leaflet_map: true
