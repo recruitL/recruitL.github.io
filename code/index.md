@@ -47,5 +47,11 @@ wide: true
       <td data-label="状态">用于沉淀 EOB 从提出到发展的时间线、GSF 相关参考文献、综述、代码与项目入口</td>
       <td data-label="资料"><a href="https://github.com/recruitL/research-links/blob/main/topics/eob.md">EOB</a> / <a href="https://github.com/recruitL/research-links/blob/main/topics/gsf.md">GSF</a></td>
     </tr>
+    <tr>
+      <td data-label="仓库"><strong><a href="https://github.com/recruitL/codex-pets">codex-pets</a></strong></td>
+      <td data-label="方向">个人 Codex 宠物合集</td>
+      <td data-label="状态">收录个人制作的 Codex 动画宠物，首个角色为“伊轻舞”</td>
+      <td data-label="资料"><a href="https://github.com/recruitL/codex-pets">宠物资源</a></td>
+    </tr>
   </tbody>
 </table>

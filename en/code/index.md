@@ -47,5 +47,11 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <td data-label="Status">Collects EOB development timelines, GSF references, reviews, code links, and project entry points</td>
       <td data-label="Resources"><a href="https://github.com/recruitL/research-links/blob/main/topics/eob.md">EOB</a> / <a href="https://github.com/recruitL/research-links/blob/main/topics/gsf.md">GSF</a></td>
     </tr>
+    <tr>
+      <td data-label="Repository"><strong><a href="https://github.com/recruitL/codex-pets">codex-pets</a></strong></td>
+      <td data-label="Focus">Personal Codex pet collection</td>
+      <td data-label="Status">Collects custom animated Codex pets, beginning with Yi Qingwu</td>
+      <td data-label="Resources"><a href="https://github.com/recruitL/codex-pets">Pet assets</a></td>
+    </tr>
   </tbody>
 </table>
