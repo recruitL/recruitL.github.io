@@ -78,12 +78,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 13,
-  "total_review_candidates": 31,
-  "report_path": "/papers/2026-08-18/",
   "review_path": "_paper_reviews/2026-08-18.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/35c1-ylnx",
       "title": "Stringent Constraints on Spin-Spin-Velocity-Dependent Exotic Interactions with a Levitated Magnet Force Sensor",
       "authors": [
@@ -122,6 +120,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/ckyj-bbfl",
       "title": "Complete-Coverage Searches for Lorentz Violation in the Minimal Matter Sector",
       "authors": [
@@ -153,6 +152,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/g4l4-t4cv",
       "title": "Four-Loop Gluon Anomalous Dimension of General Lorentz Spin: Transcendental Part",
       "authors": [
@@ -185,6 +185,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/gymp-vp87",
       "title": "Evidence of Nuclear Geometry-Driven Anisotropic Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions at $\\sqrt{{s}_{\\mathrm{NN}}}=5.36\\text{ }\\text{ }\\mathrm{TeV}$",
       "authors": [
@@ -217,6 +218,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/26wx-tg6f",
       "title": "Observation of Long-Range Collective Flow in $\\mathrm{O}+\\mathrm{O}$ and $\\mathrm{Ne}+\\mathrm{Ne}$ Collisions and Implications for Nuclear Structure Studies",
       "authors": [
@@ -249,6 +251,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "http://link.aps.org/doi/10.1103/7gzt-ldn5",
       "title": "Deformation and Magicity in Heavy Actinides: First Observation of the Ground-State Rotational Band of $^{252}\\mathrm{Fm}$",
       "authors": [
@@ -281,6 +284,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "http://link.aps.org/doi/10.1103/9cyw-m5zr",
       "title": "Robust Two-Dimensional Surface Superconductivity and Vortex Lattice in the Weyl Semimetal $γ\\text{−}{\\mathrm{PtBi}}_{2}$",
       "authors": [
@@ -313,6 +317,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "http://link.aps.org/doi/10.1103/74ky-d71n",
       "title": "Quantized Spin Hall Effect in Three-Dimensional Nodal-Ring Semimetal: Geometric Scaling and Symmetry-Engineered Spin Response",
       "authors": [
@@ -345,6 +350,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "http://link.aps.org/doi/10.1103/jrtg-yf1q",
       "title": "Anomalous Hydrodynamic Fluctuations in the Quantum XXZ Spin Chain",
       "authors": [
@@ -377,6 +383,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/8l6h-b89b",
       "title": "Quantized Chern-Simons Axion Coupling in Anomalous Floquet Systems",
       "authors": [
@@ -409,6 +416,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "http://link.aps.org/doi/10.1103/4y5t-mh92",
       "title": "Lattice Deformation Induced Higher-Order Hybrid Topology",
       "authors": [
@@ -441,6 +449,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "http://link.aps.org/doi/10.1103/gl65-17z7",
       "title": "Quantum Entanglement of XY-Type Spin Dimers on the Shastry-Sutherland Lattice",
       "authors": [
@@ -473,6 +482,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "http://link.aps.org/doi/10.1103/fhwd-lmgk",
       "title": "Curved Odd Elasticity",
       "authors": [
@@ -501,6 +511,665 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "https://www.nature.com/articles/s41586-026-11006-4",
+      "title": "Positional isomerisation of pyridine via nitrogen transposition",
+      "authors": [
+        "Wonjun Choi",
+        "Hyewon Ju",
+        "Jiyong Park",
+        "Sungwoo Hong"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11006-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "https://www.nature.com/articles/s41586-026-11009-1",
+      "title": "Programmable remodelling of carbon–nitrogen connectivity in amines",
+      "authors": [
+        "James D. Robinson",
+        "François Richard",
+        "Kohl A. Ratkovich",
+        "Joseph M. Phelps",
+        "Matthew J. Gaunt"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11009-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "https://www.nature.com/articles/s41586-026-10995-6",
+      "title": "Author Correction: Synthetic vulnerabilities of mesenchymal subpopulations in pancreatic cancer",
+      "authors": [
+        "Giannicola Genovese",
+        "Alessandro Carugo",
+        "James Tepper",
+        "Frederick Scott Robinson",
+        "Liren Li",
+        "Maria Svelto",
+        "Luigi Nezi",
+        "Denise Corti",
+        "Rosalba Minelli",
+        "Piergiorgio Pettazzoni",
+        "Tony Gutschner",
+        "Chia-Chin Wu",
+        "Sahil Seth",
+        "Kadir Caner Akdemir",
+        "Elisabetta Leo",
+        "Samirkumar Amin",
+        "Marco Dal Molin",
+        "Haoqiang Ying",
+        "Lawrence N. Kwong",
+        "Simona Colla",
+        "Koichi Takahashi",
+        "Papia Ghosh",
+        "Virginia Giuliani",
+        "Florian Muller",
+        "Prasenjit Dey",
+        "Shan Jiang",
+        "Jill Garvey",
+        "Chang-Gong Liu",
+        "Jianhua Zhang",
+        "Timothy P. Heffernan",
+        "Carlo Toniatti",
+        "Jason B. Fleming",
+        "Michael G. Goggins",
+        "Laura D. Wood",
+        "Alessandro Sgambato",
+        "Abbas Agaimy",
+        "Anirban Maitra",
+        "Charles W. M. Roberts",
+        "Huamin Wang",
+        "Andrea Viale",
+        "Ronald A. DePinho",
+        "Giulio F. Draetta",
+        "Lynda Chin"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-10995-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "https://www.nature.com/articles/s41586-026-11010-8",
+      "title": "Defect passivation and optical management of triple-junction solar cells",
+      "authors": [
+        "Ye Xu",
+        "Zhijie Wang",
+        "Chen Deng",
+        "Lianlian Qi",
+        "Yi Mo",
+        "Qianqian Wang",
+        "Danni Yu",
+        "Yao Wang",
+        "Yifan Chen",
+        "Yiqin Tian",
+        "Pengcheng Zhao",
+        "Ming Luo",
+        "Dongrui Jiang",
+        "Haiyun Li",
+        "Xiaobing Ding",
+        "Rui Xia",
+        "Dongdong Yan",
+        "Pengcheng Ge",
+        "Delei Xin",
+        "Huifeng Yao",
+        "Shangqian Zhu",
+        "Kaihu Xian",
+        "Chengyue Zhou",
+        "Guangtao Yang",
+        "Li Yin",
+        "Yingguo Yang",
+        "Anurag Krishna",
+        "Wallace C. H. Choy",
+        "Pietro P. Altermatt",
+        "Jianlu Wang",
+        "Zhigang Xie",
+        "Xueling Zhang",
+        "Junhao Chu",
+        "Hong Zhang",
+        "Jifan Gao",
+        "Yifeng Chen"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11010-8",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "https://www.nature.com/articles/d41586-026-02532-2",
+      "title": "Too hot to sleep? How heatwaves at night affect our health",
+      "authors": [
+        "Pixin Gong",
+        "Li Lan",
+        "Ruiqi Guo",
+        "Shu Jiang",
+        "Zisheng Huang",
+        "Zhentao Wang",
+        "Yanbing Lin",
+        "Hui Xu"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02532-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "https://www.nature.com/articles/d41586-026-02530-4",
+      "title": "How the story of life and our planet unfolded — together",
+      "authors": [
+        "Dianne K. Newman"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02530-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "https://www.nature.com/articles/d41586-026-02526-0",
+      "title": "Universities must stop protecting bullies — or more people will leave science",
+      "authors": [
+        "Morteza Mahmoudi"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02526-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "https://www.nature.com/articles/d41586-026-02552-y",
+      "title": "First-of-its-kind narcolepsy drug opens door to new therapies for the brain",
+      "authors": [
+        "Amanda Heidt"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02552-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "https://www.nature.com/articles/d41586-026-02529-x",
+      "title": "Why AI systems are most useful as designers of new scientific tools",
+      "authors": [
+        "James Evans"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02529-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1038/s41586-026-11009-1",
+      "title": "Programmable remodelling of carbon–nitrogen connectivity in amines",
+      "authors": [
+        "James D. Robinson",
+        "François Richard",
+        "Kohl A. Ratkovich",
+        "Joseph M. Phelps",
+        "Matthew J. Gaunt"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11009-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11009-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1038/d41586-026-02530-4",
+      "title": "How the story of life and our planet unfolded — together",
+      "authors": [
+        "Dianne K. Newman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02530-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02530-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/s41586-026-11010-8",
+      "title": "Defect passivation and optical management of triple-junction solar cells",
+      "authors": [
+        "Ye Xu",
+        "Zhijie Wang",
+        "Chen Deng",
+        "Lianlian Qi",
+        "Yi Mo",
+        "Qianqian Wang",
+        "Danni Yu",
+        "Yao Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11010-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11010-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/d41586-026-02552-y",
+      "title": "First-of-its-kind narcolepsy drug opens door to new therapies for the brain",
+      "authors": [
+        "Amanda Heidt"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02552-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02552-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/s41586-026-11006-4",
+      "title": "Positional isomerisation of pyridine via nitrogen transposition",
+      "authors": [
+        "Wonjun Choi",
+        "Hyewon Ju",
+        "Jiyong Park",
+        "Sungwoo Hong"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11006-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11006-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-02526-0",
+      "title": "Universities must stop protecting bullies — or more people will leave science",
+      "authors": [
+        "Morteza Mahmoudi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02526-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02526-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02532-2",
+      "title": "Too hot to sleep? How heatwaves at night affect our health",
+      "authors": [
+        "Pixin Gong",
+        "Li Lan",
+        "Ruiqi Guo",
+        "Shu Jiang",
+        "Zisheng Huang",
+        "Zhentao Wang",
+        "Yanbing Lin",
+        "Hui Xu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02532-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02532-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "doi:10.1038/d41586-026-02529-x",
+      "title": "Why AI systems are most useful as designers of new scientific tools",
+      "authors": [
+        "James Evans"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02529-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02529-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "doi:10.1038/s41586-026-10995-6",
+      "title": "Author Correction: Synthetic vulnerabilities of mesenchymal subpopulations in pancreatic cancer",
+      "authors": [
+        "Giannicola Genovese",
+        "Alessandro Carugo",
+        "James Tepper",
+        "Frederick Scott Robinson",
+        "Liren Li",
+        "Maria Svelto",
+        "Luigi Nezi",
+        "Denise Corti"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10995-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-17T08:00:00+08:00",
+      "updated": "2026-08-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10995-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
