@@ -1,0 +1,2553 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20 06:45 CST",
+  "window": "2026-08-19 00:00 至 2026-08-21 00:00 Asia/Shanghai",
+  "counts": {
+    "must-read": 2,
+    "recommended": 2,
+    "ai-news": 8,
+    "related": 12
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 35
+    },
+    {
+      "source": "Nature RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-08-20.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "arxiv:2608.17943v1",
+      "title": "Gravitational Waves from Green's Function Decomposition for a Kerr black hole: I. Equatorial ISCO Plunge",
+      "authors": [
+        "Junquan Su",
+        "Neev Khera",
+        "Abhishek Chowdhuri",
+        "Marc Casals",
+        "Huan Yang"
+      ],
+      "abstract": "We present a decomposition of the Kerr Green's function in the time domain, motivated by the frequency-domain split previously studied in the Schwarzschild limit. We show that the identification of a quasinormal-mode contribution, a direct part, and a late-time tail is still available, where the split times are determined by the black hole spin and positions of the emitter and receiver. We have checked this Green's function with time-domain Teukolsky numerical simulations and find excellent agreement. We also apply this decomposed Green's function in the time domain to a model problem with a test particle plunging into a Kerr black hole. The dynamically excited direct wave and quasinormal modes are obtained by convoluting the Green's function with the particle's source term, which may be viewed as the first order in mass ratio of a spinning black hole ringdown.",
+      "url": "https://arxiv.org/abs/2608.17943v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-08-19T00:01:20+08:00",
+      "updated": "2026-08-19T00:01:20+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 130,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "LVK/LISA/引力波观测",
+        "QNM/黑洞扰动"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "ringdown",
+        "gravitational wave",
+        "quasinormal",
+        "Teukolsky"
+      ],
+      "analysis": {
+        "zh_summary": "We present a decomposition of the Kerr Green's function in the time domain, motivated by the frequency-domain split previously studied in the Schwarzschild limit.",
+        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、QNM/黑洞扰动。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "ringdown, gravitational wave, quasinormal, Teukolsky",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "arxiv:2608.17946v1",
+      "title": "Gravitational Compton scattering at the fifth post-Minkowskian order",
+      "authors": [
+        "Giacomo Brunello",
+        "Mario Meo",
+        "Sid Smith"
+      ],
+      "abstract": "Working in the Worldline Quantum Field Theory framework, we obtain the classical gravitational Compton amplitude through the fifth post-Minkowskian order, $\\mathcal{O}(G^5)$. At this order, the point-particle description must be supplemented by the leading static tidal operators. After removing lower-order iterations, we extract the corresponding $N$-matrix element and match it to black-hole perturbation theory. The matching fixes the static tidal Wilson coefficients to zero, providing confirmation of the vanishing static Love numbers of a Schwarzschild black hole.",
+      "url": "https://arxiv.org/abs/2608.17946v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-08-19T00:03:15+08:00",
+      "updated": "2026-08-19T00:03:15+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 78,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "post-minkowskian"
+      ],
+      "analysis": {
+        "zh_summary": "Working in the Worldline Quantum Field Theory framework, we obtain the classical gravitational Compton amplitude through the fifth post-Minkowskian order, $\\mathcal{O}(G^5)$.",
+        "why_relevant": "匹配关注项：致密双星建模。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "post-minkowskian",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "arxiv:2608.17964v1",
+      "title": "Evidence of self-organized criticality in the prompt emission of a bright gamma-ray burst",
+      "authors": [
+        "Wen-Long Zhang",
+        "Wen-Jun Tan",
+        "Hao-Tian Lan",
+        "Shuang-Xi Yi",
+        "Shao-Lin Xiong",
+        "Chen-Wei Wang",
+        "Shuang-Nan Zhang",
+        "C. Guidorzi",
+        "R. Maccary",
+        "R. Moradi",
+        "Cheng-Kui Li",
+        "Sheng-Lun Xie",
+        "Wang-Chen Xue",
+        "Jia-Cong Liu",
+        "Zheng-Hang Yu",
+        "Yue Wang",
+        "Peng Zhang",
+        "Yan-Qiu Zhang",
+        "Chao Zheng",
+        "Jin-Peng Zhang",
+        "Fa-Yin Wang"
+      ],
+      "abstract": "Gamma-ray bursts (GRBs) are the most energetic explosive events in the Universe, yet the physical mechanism of their prompt emission remains a mystery. Especially, it is unclear whether the energy dissipation mechanism in the GRB jet is dominated by kinetic energy or magnetic energy. Here, we studied the pulses in the prompt emission of the second brightest GRB to date, GRB 230307A, which was accurately measured by the Gravitational wave high-energy electromagnetic counterpart all-sky monitor (GECAM), with focus on the cumulative distributions of peak counts and duration of pulses as well as the waiting time between pulses. We find that these cumulative distributions show scale-invariant behavior, well consistent with the prediction of the self-organized criticality (SOC) theory. This is the first robust evidence of an SOC feature in the prompt emission of a single GRB. Moreover, the statistical properties of pulses in the prompt emission of GRB 230307A are very similar to those of solar flares. Our findings suggest that the prompt emission of GRB is powered by the dissipation of magnetic energy in the ultra-relativistic jet, supporting the Poynting-flux-dominated prompt models.",
+      "url": "https://arxiv.org/abs/2608.17964v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T00:18:52+08:00",
+      "updated": "2026-08-19T00:18:52+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 55,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational wave",
+        "gamma-ray burst",
+        "GRB"
+      ],
+      "analysis": {
+        "zh_summary": "Gamma-ray bursts (GRBs) are the most energetic explosive events in the Universe, yet the physical mechanism of their prompt emission remains a mystery.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、天文/高能相关。",
+        "method_or_signal": "gravitational wave, gamma-ray burst, GRB",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "arxiv:2608.18038v1",
+      "title": "Confining density functional approach to the QCD phase diagram at low temperatures and thermal twin stars",
+      "authors": [
+        "David Blaschke",
+        "Oleksii Ivanytskyi"
+      ],
+      "abstract": "We present a density functional-based equation of state for warm, dense nuclear matter with a transition to deconfined quark matter for applications to simulations of supernova explosions and neutron star mergers, but also for the cosmological evolution of Q-balls. For the quark matter equation of state, we employ a recently developed confining density functional approach while nuclear matter is described within a relativistic density functional model of the DD2 class. The phase transition is obtained by a Maxwell construction at constant entropy per baryon. We discuss the solutions of TOV equations for isentropic hybrid stars for the hybrid equation of state model DDf-SFM (DD2-$χ$CDF) without (with) color superconductivity and find that at finite temperatures above a critical value of entropy per baryon sequences of disconnected third family branches (\"thermal twin stars\") may appear for the DDf-SFM model, while they are absent for the color superconducting model and at $T=0$. We discuss the relation of this critical entropy per baryon to the Seidov criterion of gravitational instability for $T=0$ and find that it is a good guide. We suggest that the presence of thermal twin stars may be regarded as an indicator for the core-collapse supernova explodability of massive blue supergiant stars and thus serve as a new criterion for the reliability of hybrid equation of state models. By this argument, strong color superconductivity shall be excluded and it remains to be shown whether models with moderate diquark pairing could fulfill the thermal twin constraint. For the case of symmetric matter, we compare the resulting hybrid EOS with the flow constraint by Danielewicz et al. and find a a sensitivity of the onset density for deconfinement on the presence or absence of color superconductivity.",
+      "url": "https://arxiv.org/abs/2608.18038v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T01:32:19+08:00",
+      "updated": "2026-08-19T01:32:19+08:00",
+      "categories": [
+        "nucl-th",
+        "astro-ph.SR",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 54,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "merger",
+        "supernova"
+      ],
+      "analysis": {
+        "zh_summary": "We present a density functional-based equation of state for warm, dense nuclear matter with a transition to deconfined quark matter for applications to simulations of supernova explosions and neutron star mergers, but also for the cosmological evolution of Q-balls.",
+        "why_relevant": "匹配关注项：致密双星建模、天文/高能相关。",
+        "method_or_signal": "merger, supernova",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "arxiv:2608.17950v1",
+      "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
+      "authors": [
+        "Md. Faiyaz Abdullah Sayeedi"
+      ],
+      "abstract": "Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true semantic proximity due to routing artifacts like attention sinks. In this paper, we bypass attention weights to directly analyze the dynamic geometry of the hidden state manifold, proving that deep LLM latent spaces natively organize into Small-World networks. By sparsifying the continuous similarity matrices of long-context representations into unweighted graphs, we trace the connectivity between highly disjoint semantic anchors across two distinct architectures. Our findings reveal a sharp topological phase transition: while early syntactic layers remain entirely fractured, deep reasoning layers abruptly compress massive conceptual distances into highly navigable pathways strictly bounded by the \"Six Degrees of Separation\" limit (=< 6 semantic hops). Furthermore, we demonstrate the practical efficacy of this framework by applying it to zero-shot hallucination detection within Retrieval-Augmented Generation (RAG) using the RAGognize dataset. We show that factually grounded generations maintain structural integrity with their source context (approximately 3 hops), whereas hallucinations induce severe topological collapse. Ultimately, this work mathematically formalizes how transformers execute abstract reasoning and provides a novel, strictly geometric signature for evaluating factual reliability.",
+      "url": "https://arxiv.org/abs/2608.17950v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:05:25+08:00",
+      "updated": "2026-08-19T00:05:25+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 44,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM",
+        "retrieval-augmented generation",
+        "RAG",
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM, retrieval-augmented generation, RAG, transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "arxiv:2608.18058v1",
+      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "authors": [
+        "Daria Leshchikova",
+        "Valentina V. Kuskova",
+        "Dmitry Zaytsev",
+        "Valerii Klimov"
+      ],
+      "abstract": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We study this condition using two large-scale surveys of active users of a major dating platform (N=2,894 on generative profile features; N=2,617 on autonomous conversational agents, fielded in two languages). We develop a latent-variable measurement model of agent receptivity based on graded response models with latent regression, and show via model comparison that willingness to send and willingness to receive agent communication are distinct constructs: highly correlated (rho=0.92) but separable (Delta BIC=52), with partial measurement invariance across languages. The model quantifies a systematic delegation asymmetry: deploying one's own agent requires far lower receptivity (threshold -0.38) than engaging a counterpart's agent (+0.32; full engagement +1.39), and mean deployment propensity exceeds engagement propensity roughly threefold. Under a random-pairing counterfactual derived from stated receptivity, only 4-13% of directed dyads combine agent deployment with receiver engagement, with a pronounced gender-directional imbalance. Design counterfactuals quantify the levers: a reciprocity requirement cuts interaction volume by half or more by excluding nearly two-thirds of would-be deployment, while routing agent contacts on receive receptivity triples per-contact engagement, a lift that survives out-of-sample validation with the target item held out (AUC 0.88, 3.1x quartile lift under respondent-level cross-validation). We discuss implications for agentic recommender design, including disclosure, opt-in mechanics, and receptivity-aware matchmaking.",
+      "url": "https://arxiv.org/abs/2608.18058v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:51:16+08:00",
+      "updated": "2026-08-19T01:51:16+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM",
+        "agentic"
+      ],
+      "analysis": {
+        "zh_summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM, agentic",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "arxiv:2608.18027v1",
+      "title": "Chain-of-Experience for Continual LLM Improvement",
+      "authors": [
+        "Haoqin Tu",
+        "Yunhao Fang",
+        "Yizhong Wang",
+        "Cihang Xie",
+        "Shen Yan"
+      ],
+      "abstract": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate CoE with diverse feedback mechanisms, including model self-feedback and environmental signals such as correctness or public coding test pass rates, and evaluate across math, coding, and knowledge domains using 8 LLMs, including GPT-5, Gemini-2.5 Pro, Claude-4.5 Sonnet. Our study shows that leveraging iterative experience consistently outperforms feedback-free baselines, achieving substantial gains with self feedback alone, alongside a 5.6% overall improvement and 19% lower API cost across tasks and models. We further show that combining complementary feedback channels (e.g., model and correctness signals) yields additional gains, and that CoE delivers higher accuracy per token than existing test-time strategies. We observe a positive correlation between LLM base ability and improvement capacity, and show that models remain robust under weak or spurious feedback, with different feedback contributing to distinct improvement aspects and most gains emerging early in the iterations.",
+      "url": "https://arxiv.org/abs/2608.18027v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:22:54+08:00",
+      "updated": "2026-08-19T01:22:54+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "arxiv:2608.18017v1",
+      "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+      "authors": [
+        "Lu Xu",
+        "Xu Li",
+        "Linjiang Zheng",
+        "Fan Li",
+        "Riquan Zhang",
+        "Jiaxing Shang"
+      ],
+      "abstract": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable domain knowledge to translate them into operationally meaningful explanations. Large Language Models (LLMs), which excel at language reasoning, bring a promising solution to this issue. However, applying LLMs in this domain presents key challenges such as modal inconsistency, limited classification ability, scarcity of task-specific data for fine-tuning, and lack of domain knowledge. To overcome these challenges, we propose FlightLLM, a prior-guided semantic LLM-based approach for interpretable flight safety analysis. Specifically, we first perform feature engineering to address modal inconsistency, combining statistical descriptors with physically meaningful flight indicators. This representation is further processed by a Semantic Discretization module, which converts abstract numerical patterns into qualitative descriptions that are more compatible with language reasoning. In addition, since LLMs are not inherently strong classifiers, CatBoost is incorporated as a statistical expert, and its prediction results are injected into the prompt as prior guidance. A contrastive few-shot learning strategy is further adopted to compensate for limited data. Finally, we design structured prompts to embed aviation-specific knowledge into the inference process. Using hard landing, a representative risk event with complex causal mechanisms, as an anchor point, we evaluate FlightLLM on a dataset of 704 real-world A320 flight samples. Experimental results show that the proposed approach achieves competitive classification performance while generating direct and reasonable explanations for event causes.",
+      "url": "https://arxiv.org/abs/2608.18017v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:11:40+08:00",
+      "updated": "2026-08-19T01:11:40+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "arxiv:2608.18008v1",
+      "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+      "authors": [
+        "Christophe D. Hounwanou",
+        "John Emeka Eze",
+        "Yaé U. Gaba"
+      ],
+      "abstract": "Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger than what general LLM-as-reward approaches provide. We verify the result numerically on a small MDP under four potential configurations, including an adversarial one scaled to twenty times the base reward magnitude.",
+      "url": "https://arxiv.org/abs/2608.18008v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:55:46+08:00",
+      "updated": "2026-08-19T00:55:46+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "arxiv:2608.17948v1",
+      "title": "SIGMA: SHAP-Guided Implicit-Trajectory Generation for Metadata-Free LLM-Based AutoFE",
+      "authors": [
+        "Xuan Zheng",
+        "Kento Uchida",
+        "Shinichi Shirakawa"
+      ],
+      "abstract": "Recent research has leveraged Large Language Models (LLMs) to enhance Automated Feature Engineering (AutoFE) through semantic descriptions and trajectory-based prompting. However, there exist two challenges that limit their applicability and scalability in long-horizon optimization: (1) semantic metadata is unavailable in many practical settings, and (2) trajectory accumulation increases the risk of exceeding the context window, while without it, the generation process can become unstable, leading to becoming stuck in the local optima and a high duplicate rate of generated features. To this end, we propose a SHAP-enhanced Implicit-trajectory Generation for Metadata-free AutoFE (SIGMA), a scalable constant-context optimization framework. SIGMA leverages SHAP values to provide task-aware signals for guiding group feature generation instead of semantic information. In addition, we adopt an EXposed-feature Implicit Trajectory (EXIT) approach, where the exposed features in the prompt implicitly represent the trajectory. Empirical results demonstrate that SIGMA achieves performance comparable to the state-of-the-art (SOTA) LLM baselines with a nearly constant prompt length. Notably, EXIT significantly reduces the duplicate ratio of generated features from 37.2% to 6.8%. At the same time, SIGMA matches traditional SOTA performance with only 5.4 features on average, demonstrating substantial efficiency gains in feature utilization.",
+      "url": "https://arxiv.org/abs/2608.17948v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:04:18+08:00",
+      "updated": "2026-08-19T00:04:18+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Recent research has leveraged Large Language Models (LLMs) to enhance Automated Feature Engineering (AutoFE) through semantic descriptions and trajectory-based prompting.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "arxiv:2608.17994v1",
+      "title": "Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees",
+      "authors": [
+        "Sher Badshah",
+        "Ali Emami",
+        "Hassan Sajjad"
+      ],
+      "abstract": "Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challenge for reference-free LLM judging. In the absence of a reference answer, the judge evaluates factual correctness either through its parametric knowledge or through tool augmentation. Although the former enables efficient evaluation, the judge may hallucinate or lack sufficient evidence for its verdict. Conversely, tool augmentation can provide additional evidence but introduces extra computational cost and requires an appropriate mechanism to determine when and how that evidence should be used reliably. More importantly, neither approach alone provides formal control over the risk of accepted verdicts or guarantees their reliability at a specified level. We propose a risk-controlled framework that calibrates uncertainty thresholds on a held-out set so that the false discovery rate among accepted verdicts remains below a user-specified level~$α$ with high probability, using finite-sample Clopper--Pearson intervals. When the parametric mode is not sufficiently confident, the instance is routed to a retrieval-augmented mode, where the judge gathers web evidence and re-evaluates the instance under a second calibrated threshold. The finite-sample guarantee carries over to this two-threshold routing without additional assumptions. Across open-domain QA benchmarks and judges of varying scales, the framework maintains the target error rate while achieving substantially higher coverage than single-mode baselines.",
+      "url": "https://arxiv.org/abs/2608.17994v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:42:02+08:00",
+      "updated": "2026-08-19T00:42:02+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Using LLMs as judges has become standard practice for evaluating model outputs at scale.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "arxiv:2608.17978v1",
+      "title": "The Spin Angular Momentum and Black Hole Mass Components of Sagittarius A*",
+      "authors": [
+        "Ruth A. Daly"
+      ],
+      "abstract": "The dimensionless spin angular momentum, dimensionless spin function, and blackhole mass components of Sagittarius A* (Sgr A*) were obtained by Daly et al. (2024) by applying the outflow method to six independent sets of simultaneously or contemporaneously obtained X-ray and radio data. Here, results obtained for Sgr A* with the outflow method are reviewed. Consistent results were obtained with each data set. Set I (the preferred data set) indicates that Sgr A* has a dimensionless spin angular momentum $a_* = (0.90 ~\\pm~ 0.06)$ and a dimensionless spin function $F = (0.62 ~\\pm~ 0.10)$. The results are consistent with the value of $a_* = (0.93~\\pm~ 0.15)$ obtained with the outflow method applied to an independent data set (Daly 2019). The application of the outflow method to a weak compact radio source such as Sgr A* in its current state is most accurately determined with simultaneous or contemporaneous radio and X-ray measurements.",
+      "url": "https://arxiv.org/abs/2608.17978v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-08-19T00:29:10+08:00",
+      "updated": "2026-08-19T00:29:10+08:00",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The dimensionless spin angular momentum, dimensionless spin function, and blackhole mass components of Sagittarius A* (Sgr A*) were obtained by Daly et al.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "arxiv:2608.17957v1",
+      "title": "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+      "authors": [
+        "Nour Shaheen",
+        "Junwei Ma",
+        "Alex Labach",
+        "Frank Hutter",
+        "Valentin Thomas",
+        "Anthony L. Caterini"
+      ],
+      "abstract": "Tabular Foundation Models (TFMs) increasingly rely on in-context learning, where a model receives labelled examples at inference time and predicts labels for new inputs without updating its weights. Existing TFMs are typically trained on either massive synthetic corpora or very large collections of real datasets. In contrast, we show that surprisingly strong transfer can emerge from self-supervised pre-training on just a single real table. In this setting, we also find that tables tend to be either broadly useful or broadly poor regardless of downstream prediction task, and that the strongest predictor of usefulness is the number of features rather than the number of instances. This leads to a task-centric interpretation of tabular pre-training: the number and the quality of tasks are essential for the pre-training of TFMs. We show that the same task-centric perspective can help corpus design at scale: fine-grained column-level pre-processing consistently improves downstream performance, while no improvements are observed when we filter or deduplicate at the dataset level. Finally, we offer a new perspective for how TFMs generalize: we believe that tabular in-context generalization is largely retrieval-based, and good models are those that learn to identify relevant examples in the provided context and aggregate them well. The mechanics of TFMs have been relatively understudied; our task-centric, retrieval-based perspective offers a new framework to guide future model and corpus design.",
+      "url": "https://arxiv.org/abs/2608.17957v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:11:08+08:00",
+      "updated": "2026-08-19T00:11:08+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "foundation model"
+      ],
+      "analysis": {
+        "zh_summary": "Tabular Foundation Models (TFMs) increasingly rely on in-context learning, where a model receives labelled examples at inference time and predicts labels for new inputs without updating its weights.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "foundation model",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1038/s41586-026-10687-1",
+      "title": "Safety and security of large language models in healthcare",
+      "authors": [
+        "Jan Clusmann",
+        "Oscar Freyer",
+        "Max Ostermann",
+        "Dyke Ferber",
+        "Narmin Ghaffari Laleh",
+        "Lars Hilgers",
+        "Fiona R. Kolbinger",
+        "Carolin V. Schneider"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10687-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10687-1",
+      "journal": "Nature",
+      "score": 32,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "arxiv:2608.18033v1",
+      "title": "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+      "authors": [
+        "Emma Ceccherini",
+        "Daniel Lawson",
+        "Anjulika Salhan"
+      ],
+      "abstract": "Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst AI is increasingly being adopted across industries to automate tasks, including invoice categorisation, implementations built on in-house small language models (SLMs) can simultaneously reduce cost and improve data security, confidentiality, and interpretability. We investigate this approach by first analysing the pre-trained embedding geometry of a small sentence transformer (SBERT) and classic SLM (DeBERTa). The sentence-embedding space of this financial corpus is globally anisotropic but composed of locally isotropic clusters, extending prior token-level findings to sentence embeddings in a financial setting, and these clusters are strongly correlated with the vendor identity. SBERT fine-tuned on a single GPU reaches 0.96 accuracy on invoice classification, above both a zero-shot LLM and a vendor identity baseline, increasing performance for smaller, challenging categories and new clients. For this important generalisation problem, SBERT reaches 0.9 F1 with roughly 100 client-specific invoices, showing that an in-house SLM implementation is promising. Combining these results with geometric analysis shows that pre-trained embedding geometry is associated with classification performance and reveals a counterintuitive finding that a structured input that would help a human reader does not improve the SLM performance.",
+      "url": "https://arxiv.org/abs/2608.18033v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:28:01+08:00",
+      "updated": "2026-08-19T01:28:01+08:00",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM",
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM, transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "arxiv:2608.17981v1",
+      "title": "Recirculation",
+      "authors": [
+        "Michael C. Mozer",
+        "Shoaib Ahmed Siddiqui",
+        "Danny Sawyer",
+        "Sunny Sanyal",
+        "Rosanne Liu"
+      ],
+      "abstract": "We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks. Our approach incurs essentially no additional latency during generation, though it requires serial processing in the prefill phase. Motivated by the fundamental limitation that state updates in feedforward transformers are bounded by model depth, our technique, recirculation, introduces a specific form of recurrence that allows the model to act as a dynamical system and track belief states. We distinguish this technique from chain-of-thought computation---which is better reserved for complex inferences rather than basic state tracking---as well as from popular depth-recurrence techniques (looping) and the costly training of recurrent transformers. We also propose and evaluate an adaptive variant of recirculation which requires only light tuning of hyperparameters while freezing the original model weights. Relative to the off-the-shelf baseline, adaptive recirculation achieves remarkable gains on the Gemma3 family, including a 23% reduction in perplexity on a suite of datasets, a 21% increase in accuracy on GSM8k, and reliable improvements in accuracy on other downstream tasks. Our training-free approach succeeds by leveraging the model itself to inform architectural modifications, suggesting a route to architectural evolution guided by a trained network's properties rather than forced, arbitrary design choices.",
+      "url": "https://arxiv.org/abs/2608.17981v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:30:21+08:00",
+      "updated": "2026-08-19T00:30:21+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "foundation model",
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "foundation model, transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "arxiv:2608.18047v1",
+      "title": "Generalized Non-linear Bayesian Pulsar Timing with Enterprise",
+      "authors": [
+        "Andrew R. Kaiser",
+        "Jeffrey S. Hazboun",
+        "Maura A. McLaughlin",
+        "H. Thankful Cromartie",
+        "Emmanuel Fonseca",
+        "Joseph Simon",
+        "Stephen R. Taylor",
+        "Michele Vallisneri",
+        "Sarah J. Vigeland",
+        "Zaven Arzoumanian",
+        "Paul T. Baker",
+        "Harsha Blumer",
+        "Paul R. Brook",
+        "Ismael Cognard",
+        "Megan E. DeCesar",
+        "Paul B. Demorest",
+        "Timothy Dolch",
+        "F. Adam Dong",
+        "Justin A. Ellis",
+        "Robert D. Ferdman",
+        "Elizabeth C. Ferrara",
+        "William Fiore",
+        "Nate Garver-Daniels",
+        "Peter A. Gentile",
+        "Deborah C. Good",
+        "Lucas Guillemot",
+        "Ross J. Jennings",
+        "Megan L. Jones",
+        "David L. Kaplan",
+        "Victoria M. Kaspi",
+        "Matthew Kerr",
+        "Aida Yu. Kirichenko",
+        "Michael T. Lam",
+        "Duncan R. Lorimer",
+        "Jing Luo",
+        "Ryan S. Lynch",
+        "Alexander McEwen",
+        "James W. McKee",
+        "Natasha McMann",
+        "Bradley W. Meyers",
+        "Arun Naidu",
+        "Cherry Ng",
+        "David J. Nice",
+        "Aditya Parthasarathy",
+        "Timothy T. Pennucci",
+        "Benetge B. P. Perera",
+        "Nihan S. Pol",
+        "Henri A. Radovan",
+        "Scott M. Ransom",
+        "Paul S. Ray",
+        "Brent J. Shapiro-Albert",
+        "Renée Spiewak",
+        "Ingrid H. Stairs",
+        "Kevin Stovall",
+        "Joseph K. Swiggum",
+        "Chia Min Tan",
+        "Shriharsh P. Tendulkar",
+        "Haley M. Wahl",
+        "WeiWei Zhu"
+      ],
+      "abstract": "In this study, we use the Bayesian methods in the Enterprise package to examine the fully general parameterization of pulsar timing models in tandem with noise. We investigate four pulsars, PSR J1600$-$3053, PSR J2043+1711, PSR J0740+6620, and PSR J1640+2224, through the lens of Bayesian timing. These four are selected as they are well-studied, but exhibit interesting characteristics under the lens of Bayesian timing. Our new pulsar mass constraints (medians and 68\\% confidence intervals) for our fully general non-linear Bayesian timing models are $m_{\\mathrm{p}}=1.6(1)~\\mathrm{M}_{\\odot}$ for PSR J2043+1711 and $m_{\\mathrm{p}}=2.3^{+0.9}_{-0.7}~\\mathrm{M}_{\\odot}$ for PSR J1600$-$3053 both using the NANOGrav 12.5-yr data release, and $m_{\\mathrm{p}}=2.06(6)~\\mathrm{M}_{\\odot}$ for PSR J0740+6620 using the data from Fonseca, et al., 2021. We investigate the effects on placing physical priors on timing model parameters, including restricting the upper limit on the pulsar mass for PSR J1640+2224, which has a mass often estimated to be greater than $3~\\mathrm{M}_{\\odot}$. We find \\ark{that restricting the allowed sampling space of the pulsar mass for PSR J1640+2224 to} $m_{\\mathrm{p}}<3~\\mathrm{M}_{\\odot}$ results in a pulsar mass of $m_{\\mathrm{p}}=2.2(5)~\\mathrm{M}_{\\odot}$ for PSR J1640+2224 using the NANOGrav 12.5-yr data release. For the first time, we find evidence for intrinsic red noise in PSR J2043+1711. We show how fully general Bayesian timing can better model the interplay of the intrinsic noise and the timing parameters.",
+      "url": "https://arxiv.org/abs/2608.18047v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T01:41:44+08:00",
+      "updated": "2026-08-19T01:41:44+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "10.3847/1538-4357/ae99e3",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "pulsar"
+      ],
+      "analysis": {
+        "zh_summary": "In this study, we use the Bayesian methods in the Enterprise package to examine the fully general parameterization of pulsar timing models in tandem with noise.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "pulsar",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "arxiv:2608.18072v1",
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "authors": [
+        "Iryna Hartsock",
+        "Cesar Lam",
+        "Christopher Otteni",
+        "Aliya Qayyum",
+        "Robert Gatenby",
+        "Cyrillo Araujo",
+        "Ghulam Rasool"
+      ],
+      "abstract": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radiologists in 2023 and 2024. A multi-agent AI pipeline was developed to perform report structuring and quality assurance (QA). The system structured the report into standardized anatomical sections at the sentence level using regex rules and local large language models. It also detected mismatches between the Findings and Impression sections, or within sections; gender-anatomy conflicts; and undocumented communication of critical findings. Two board-certified radiologists independently evaluated a 45-report subset. Results: The multi-agent system structured the Findings sections of all reports (22,270 sentences) into a predefined anatomical format while retaining the original report content. The system flagged 90 (14.1%) reports, most commonly for section mismatches (80 reports, 12.5%). In the radiologist evaluation, both reviewers agreed that 31 (69%) were correctly restructured, 2 reports (4%) were incorrectly restructured, and disagreed on the remaining 12 reports (27%). Both reviewers agreed that no clinically important information was omitted and no fabricated content was introduced. Overall QA performance was rated as \"excellent\" or \"good\" in 84% of the evaluated reports, with the remaining reports rated as \"fair\". Conclusion: A locally deployed multi-agent AI system combined radiology report structuring and quality assurance within a single workflow. The system demonstrated favorable performance in radiologist evaluation. Such systems may support standardization of reporting and quality assurance in radiology practice.",
+      "url": "https://arxiv.org/abs/2608.18072v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:57:08+08:00",
+      "updated": "2026-08-19T01:57:08+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "arxiv:2608.18050v1",
+      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+      "authors": [
+        "Yining Hua",
+        "Hongbin Na",
+        "Yifan Zhou",
+        "Akshay Kalose",
+        "Cyrus Ayubcha",
+        "Levi Lian"
+      ],
+      "abstract": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly address this need through repository contracts for search, diffs, and tests, whereas an analogous contract is less explicit for PDFs, spreadsheets, slides, notebooks, and mixed-format project folders. We propose StagedWorkspace, a versioned workspace for knowledge-work agents. The workspace binds parsed records and review diffs to content hashes of the native files as they change. In fixed-harness ablations on OfficeQA Pro and APEX-Agents, dual parsed/native access has the highest point estimate for every tested model; relative to the more limiting single view, it improves OfficeQA Pass@1 by 8.3-12.1 points and APEX mean rubric score by 4.7-9.2 points. SW-AGENT scores 63.9% with Gemini 3.1 Pro on OfficeQA and 42.1 with GPT-5.4 Nano on APEX, compared with published same-model scores of 29.3% and 25.5, respectively. A paired review-axis ablation on 57 file-editing tasks further finds higher observed scores when diffs are visible. These results identify workspace state as an experimental variable in knowledge-work agents and motivate benchmarks that score evidence, staged edits, and submitted artifacts as explicit state transitions.",
+      "url": "https://arxiv.org/abs/2608.18050v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:44:18+08:00",
+      "updated": "2026-08-19T01:44:18+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AI agent"
+      ],
+      "analysis": {
+        "zh_summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "AI agent",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "arxiv:2608.18041v1",
+      "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+      "authors": [
+        "Hollis Robbins"
+      ],
+      "abstract": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase exists only between meanings: it determines how coactivated meanings combine, and it can reverse what a meaning contributes while that meaning stays fully present. A speaker can set phase in the signal through linguistic form; encounters install phase relations and history distributes them. Population averaging deletes history-indexed phase: agent-deindexed corpora identify the population marginal state and determine no individual or dyadic state, at any scale. The standard transformer has no explicit representation for phase in frozen inference, and the interpretability program measuring progress by monosemanticity is optimizing against it: the coexistence it treats as a defect is the condition of allusion, irony, and quotation. Six predictions test whether a suppressed meaning stays active, whether encounter order changes what a phrase does, whether marking the signal changes how a shared phrase is taken, and whether a model given a history is changed by it or only informed about it. The claim defended is the weak version: interpretation requires a second relational parameter, signed, persistent, and indexed to individuals and dyads. Quantum probability is one notation for the parameter; nothing in the formalism claims quantum processes in the brain. The strong version, that the quantum calculus constrains these phenomena as signed classical models do not, rests on an encounter-order constraint not yet derived. The architecture the theory calls for is a language model with agent-indexed, phase-bearing semantic states.",
+      "url": "https://arxiv.org/abs/2608.18041v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:34:25+08:00",
+      "updated": "2026-08-19T01:34:25+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Language has two parameters.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "arxiv:2608.17987v1",
+      "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+      "authors": [
+        "Yijie Xu",
+        "Chao Wang",
+        "Hui Xiong"
+      ],
+      "abstract": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation, and difficulty in modeling future ideological inclinations. To address these issues, we propose TSN4PI, a unified framework for tracking the evolution of political ideologies on social media. It includes two core modules. The PIDN uses large language models with style transfer and unsupervised domain adaptation to enable robust ideology detection and filter irrelevant content from noisy, cross-domain data. The PIPN employs temporal graph neural networks to predict future ideological shifts, enabling comprehensive analysis of ideology presence, intensity, and evolution. We release two large-scale datasets for noncommercial research use to facilitate further work. Extensive case studies on multiple platforms (X and Truth Social) validate the effectiveness of TSN4PI and provide empirical insights into political polarization and the evolution of online ideologies. Our findings offer a nuanced perspective, advancing both methodological development and empirical understanding in this field.",
+      "url": "https://arxiv.org/abs/2608.17987v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:33:32+08:00",
+      "updated": "2026-08-19T00:33:32+08:00",
+      "categories": [
+        "cs.SI",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "arxiv:2608.17979v1",
+      "title": "When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era",
+      "authors": [
+        "Lotta Kiefer",
+        "Brisca Balthes",
+        "Christoph Leiter",
+        "Yamen Ajjour",
+        "Elena Schmidt",
+        "Steffen Eger"
+      ],
+      "abstract": "Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks typically study these factors in isolation and focus predominantly on English, limiting our understanding of model robustness under realistic conditions. We introduce AVShift, the first German benchmark for systematically evaluating AV under multiple distribution shifts. AVShift comprises over 150,000 text pairs spanning three genres and 21 years, enabling controlled evaluation of cross-genre, temporal, and AI-era shifts within a unified framework. We benchmark representative feature-based, embedding-based, and LLM-based approaches. Our experiments show that fine-tuned LLMs generalize best across genres and benefit substantially from stylistically diverse training data. We further demonstrate that temporal drift is one of the strongest factors affecting AV, with performance degrading significantly as the time gap between documents increases. In contrast, we find no evidence of a measurable AI-era distribution shift within AVShift. Finally, our feature analysis reveals stylistic features that remain stable across genres, while their relative importance varies depending on the specific genre transition. We release AVShift and our code for future research.",
+      "url": "https://arxiv.org/abs/2608.17979v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:29:24+08:00",
+      "updated": "2026-08-19T00:29:24+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "arxiv:2608.17956v1",
+      "title": "An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models",
+      "authors": [
+        "Javier Aguilar Martín"
+      ],
+      "abstract": "In the Code World Model paradigm an LLM synthesizes an executable world model that a classical planner searches, and the model is accepted when it reproduces sampled transitions. We ask what that acceptance certifies in continuous control. We define the pipeline's danger as an expected risk and isolate its exact factor: the probability that N i.i.d. gate rollouts all miss a critical event of probability r is exactly (1-r)^N; an independent acceptance sample adds its budget to the exponent. On three hybrid instruments the accepted mode-blind model is exploited: the planner is pinned at the mode boundary at a regret of nearly the whole attainable return. We prove a localization budget, valid at boundary points: models with Lipschitz constant at most L differing by eta at a point disagree above tolerance eps on a region of volume at least kappa((eta-eps)/L)^(d+m); the discontinuous reset modes studied pay no such budget. With real LLM synthesis, GPT-5.x repairs an omitted 1D clamp in 105 of 111 mode-containing draws -- every attempt exact on 50 of 56 instrument-stream blocks (95% CI [0.781, 0.960]). On 2D regions no artifact recovers the rule (0/156); eight targeted interventions leave the failure in place, and positive controls locate it: a located rule is not induced, while given form and location the constants follow exactly. A version-space certificate proves identification is class-relative: at the widest dose the declared fit succeeds in 20/20 blocks and every sample-consistent circle is within tolerance in 18/20. We prove a class of entry rules exactly consistent with every sample yet harmless at play, so identifiability is a measurable property of the instrument. Re-scoring all 1034 artifacts on independent samples confirms acceptance certifies sample consistency and no more: where the gate is provably informative it covers about two percent of the exploited planner's queries.",
+      "url": "https://arxiv.org/abs/2608.17956v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:09:51+08:00",
+      "updated": "2026-08-19T00:09:51+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "In the Code World Model paradigm an LLM synthesizes an executable world model that a classical planner searches, and the model is accepted when it reproduces sampled transitions.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "arxiv:2608.17947v1",
+      "title": "Procedural Content Metageneration via Program Search and Continual Abstraction Discovery",
+      "authors": [
+        "Matthew Siper",
+        "Ahmed Khalifa",
+        "Julian Togelius"
+      ],
+      "abstract": "Large language models can generate executable programs, which makes it possible to search directly over procedural content generators rather than individual levels. We study this approach in Sokoban, Zelda, Dangerous Dave, and Lode Runner. Each run evolves complete Python generators through language-model mutation and crossover. We introduce Continual Abstraction Discovery, or CAD, which extracts reusable primitives from high-fitness programs into a run-specific helper module. A 2x2 experiment crosses CAD with access to a fixed hand-written domain API. The completed data set contains 160 complete runs, with at least ten 50-generation runs in every cell. CAD raises mean final best fitness in all eight domain and API comparisons. Across all CAD runs, learned libraries are adopted by most later programs and repeatedly rediscover validation, reachability, and structural utilities. These results support that discovering reusable primitives improves evolutionary program search for content generators.",
+      "url": "https://arxiv.org/abs/2608.17947v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:03:22+08:00",
+      "updated": "2026-08-19T00:03:22+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "Large language models can generate executable programs, which makes it possible to search directly over procedural content generators rather than individual levels.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "arxiv:2608.18073v1",
+      "title": "Analytic Continuation of Conformal Integrals in Momentum Space",
+      "authors": [
+        "Jonathan Gräfe",
+        "Prashanth Raman",
+        "Denis Werth"
+      ],
+      "abstract": "Conformal symmetry strongly constrains correlation functions. In momentum space, the conformal Ward identities are solved for three-point functions by integrals of a product of three Bessel functions (\"triple-$K$ integrals\"); more generally, integrals of this type (\"multiple-$K$ integrals\"), serve as the building blocks of a wide class of higher-point conformal correlators. These integrals belong to the class of generalised hypergeometric functions, and while their series representations are known in principle, none converges throughout the entire physical region of kinematic space selected by momentum conservation. In this work, we construct series representations adapted to exactly this physical domain. Using the method of brackets, which turns the evaluation of definite integrals into solving a linear system of algebraic equations, we derive various Lauricella-type series representations for multiple-$K$ integrals. For triple-$K$ integrals, conventionally expressed in terms of the Appell $F_4$ function whose series converges only outside the triangle-inequality region, we find instead a compact, two-branch series that converges throughout the entire physical region and for arbitrary scaling dimensions. We then extend this construction to general multiple-$K$ integrals: by introducing a new set of kinematic variables, we build an iterative series representation that converges for all physical kinematic configurations.",
+      "url": "https://arxiv.org/abs/2608.18073v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T01:57:18+08:00",
+      "updated": "2026-08-19T01:57:18+08:00",
+      "categories": [
+        "hep-th",
+        "math-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Conformal symmetry strongly constrains correlation functions.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "arxiv:2608.18030v1",
+      "title": "Three-qubit entanglement in the Bethe-Heitler process",
+      "authors": [
+        "Haotian Cao",
+        "Yuxun Guo",
+        "Yoshitaka Hatta",
+        "Jakob Schoenleber"
+      ],
+      "abstract": "The familiar Bethe-Heitler process on the proton target $e+p\\to e+p+γ$ is transformed into a laboratory for studying multiparticle entanglement. We discuss how bipartite and genuine tripartite entanglement between the final state electron, proton and photon are built up by successive $1\\to 2$ and $2\\to 2$ elementary interactions. We validate our argument by simulating events. Below 5 GeV center-of-mass energy, we identify more than 900 Greenberger-Horne-Zeilinger (GHZ) states and 1200 W states, each with a fidelty exceeding 99%.",
+      "url": "https://arxiv.org/abs/2608.18030v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T01:24:00+08:00",
+      "updated": "2026-08-19T01:24:00+08:00",
+      "categories": [
+        "quant-ph",
+        "hep-ph",
+        "nucl-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The familiar Bethe-Heitler process on the proton target $e+p\\to e+p+γ$ is transformed into a laboratory for studying multiparticle entanglement.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "arxiv:2608.18023v1",
+      "title": "Can $γγ$ collisions rival $e^-e^+$ in probing doubly charged Higgs bosons?",
+      "authors": [
+        "Abdesslam Arhrib",
+        "Rachid Benbrik",
+        "Mohammed Boukidi",
+        "Mohamed Chabab",
+        "Khalid Goure",
+        "Stefano Moretti"
+      ],
+      "abstract": "High-energy $γγ$ collisions, realizable as an operational mode of future lepton linear colliders such as the ILC and CLIC, provide a promising environment to probe extended Higgs sectors. We investigate the sensitivity of such colliders to doubly charged Higgs bosons within the 2-Higgs Doublet Model with type-II seesaw (2HDMcT). Focusing on the three-body production channels $γγ\\to H^{\\pm\\pm}H_1^{\\mp}H_1^{\\mp}$ and $γγ\\to H^{\\pm\\pm}H_1^{\\mp}W^{\\mp}$, we perform a parameter space scan consistent with theoretical constraints as well as current collider, flavor, and electroweak precision observables (EWPOs). We show that $γγ$ collisions can rival the discovery potential of the conventional $e^+e^-$ mode for probing doubly charged Higgs bosons through a $4\\ell+E_T^{miss}$ signature ($\\ell=e,μ$). Despite the reduced effective luminosity resulting from the photon spectrum, the significantly enhanced production cross sections, exceeding those in electron-positron collisions by more than one order of magnitude, compensate for this limitation. By performing a detailed signal-to-background analysis at center-of-mass energies of $\\sqrt{s}=830$ and $1245$ GeV, we demonstrate that a discovery significance at the $5σ$ level can be achieved for viable benchmark points (BPs).",
+      "url": "https://arxiv.org/abs/2608.18023v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-08-19T01:18:32+08:00",
+      "updated": "2026-08-19T01:18:32+08:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "High-energy $γγ$ collisions, realizable as an operational mode of future lepton linear colliders such as the ILC and CLIC, provide a promising environment to probe extended Higgs sectors.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "arxiv:2608.18076v1",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "authors": [
+        "Xingjian Wang",
+        "Zhao Wang",
+        "Taihang Hu",
+        "Jun Zheng",
+        "Qing Jin",
+        "Qinye Zhou",
+        "Zhengtao Wu",
+        "Yongchao Du",
+        "Zuan Gao",
+        "Chao Lin",
+        "Yefeng Shen",
+        "Xiaoli Xu",
+        "Zhengze Xu",
+        "Hao Yan",
+        "Yuhang Yu",
+        "Mingzhou Zhang",
+        "Mengting Chen"
+      ],
+      "abstract": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterogeneous supervision according to the dependencies among generative capabilities. We present a \\textbf{capability-driven data infrastructure} that couples capability-specific supervision construction with capability-aligned curriculum scheduling. Its three specialized yet interoperable data engines build complementary relational supervision for text-image grounding, inter-image transformation, and image-knowledge association, while caption experts align T2I and editing supervision across tasks and granularities. A multi-stage curriculum jointly evolves task composition, visual-concept distribution, data quality, and image resolution along the dependency order of capability acquisition, with capability-aware evaluation closing the loop through targeted retrieval, expert construction, and gap-aware resampling. At scale, the framework curates a 440M-image T2I corpus, 120M editing pairs, and over 27M image-entity pairs. With this infrastructure, we train multimodal diffusion models at two scales from scratch, with 3B and 6B sizes respectively. We conduct quantitative evaluation on CPI-Bench, along with qualitative evaluations across diverse text-to-image and editing scenarios. Experimental results present broad visual coverage, versatile rendering, and effective transfer across generative capabilities.",
+      "url": "https://arxiv.org/abs/2608.18076v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:59:01+08:00",
+      "updated": "2026-08-19T01:59:01+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "arxiv:2608.18066v1",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "authors": [
+        "Qinyuan Ye",
+        "Yu Li",
+        "Yada Pruksachatkun",
+        "Jiaxin Zhang",
+        "Chien-Sheng Wu"
+      ],
+      "abstract": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success. To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways.",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:55:07+08:00",
+      "updated": "2026-08-19T01:55:07+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "arxiv:2608.18062v1",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "authors": [
+        "Clara Meister"
+      ],
+      "abstract": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertility and compression rate to capture linguistically and structurally meaningful properties, e.g., UTF-8 character boundary integrity and digit place-value boundary alignment for mathematics. To validate whether these metrics are predictive of downstream model performance, we conduct controlled language model pretraining experiments, varying solely the tokenizers' training data mixture, pretokenization strategy, and training algorithm. We evaluate the resulting models on bits-per-byte (a tokenizer-agnostic version of perplexity) and several benchmarks, spanning linguistic understanding, mathematical reasoning, and code generation. Our experiments suggest that different intrinsic properties have different impacts on model abilities: information-theoretic metrics predict language modeling abilities (Spearman rho up to 0.80), while structure-sensitive metrics, such as those measuring digit and line-break handling, correlate with task accuracy. We hope TokEval enables more principled tokenizer evaluation, replacing pretraining sweeps with intrinsic measurement wherever the two agree.",
+      "url": "https://arxiv.org/abs/2608.18062v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:52:52+08:00",
+      "updated": "2026-08-19T01:52:52+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "arxiv:2608.18061v1",
+      "title": "The concentration game: Bayesian updating, regret, and information",
+      "authors": [
+        "Akshay Balsubramani"
+      ],
+      "abstract": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal payoff is the most a comparator can gain at fixed relative entropy from the prior, and the one-step constraint is an information budget on nature's move under the learner's mixed action. With the learner's move otherwise unrestricted, Gibbs/Bayes weights emerge as its unique Bellman equalizer -- the mixed action that makes the per-round loss independent of which direction nature moves -- with log-partition functions playing the role of value functions. The regret decomposes exactly into three parts: a per-round information loss reflecting the variation in observed outcomes, an additive retempering drift that accounts exactly for any change of measurement scale between rounds, and the information the comparator carries relative to the prior. The variance and bounded-range proxies that drive standard regret bounds are looser relaxations of this decomposition, which holds generally and governs them all. Both players' strategies are read off from the decomposition term by term, and repeated play yields an information-theoretic ledger of self-play in place of the usual quadratic-variation surrogate. The same comparator-class geometry accounts for the classical large-deviation bounds, and methods across bandits, posterior sampling, aggregation, and boosting are specializations of the one regret decomposition.",
+      "url": "https://arxiv.org/abs/2608.18061v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:52:26+08:00",
+      "updated": "2026-08-19T01:52:26+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.GT",
+        "math.PR",
+        "math.ST"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "arxiv:2608.18056v1",
+      "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
+      "authors": [
+        "Xiao Wang",
+        "Shun Ren Yang",
+        "Hui Nien Hung"
+      ],
+      "abstract": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybrid live--forecast vehicle rerouting framework that fuses live edge speeds with short-horizon forecasts under limited intervention scope. Building on dual-threshold congestion detection, calibrated upstream selection, and driver-tailored travel-time prediction, HLSR further introduces approaching-vehicle expansion, travel-time-weighted k-shortest-path generation, and a horizon-dependent hybrid live--forecast segment speed used in multi-cost route allocation.",
+      "url": "https://arxiv.org/abs/2608.18056v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:49:27+08:00",
+      "updated": "2026-08-19T01:49:27+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "arxiv:2608.18055v1",
+      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+      "authors": [
+        "Veronika Spieker",
+        "Wenqi Huang",
+        "Cemre Ariyurek",
+        "Liam Timms",
+        "Daniel Rueckert",
+        "Onur Afacan",
+        "Julia A. Schnabel",
+        "Sila Kurugol"
+      ],
+      "abstract": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not addressed the additional dimension of dynamic contrast. We propose a multi-dimensional, primitive based framework for dynamic contrast-enhanced MRI reconstruction that disentangles the underlying anatomy, the dynamic contrast enhancement, and residual motion into separate temporal basis functions, thereby enabling a geometrical interpretation of the representation. We show that this architecture achieves performance competitive with conventional reconstruction methods, both in reconstruction quality and in the accuracy of extracted aorta and kidney enhancement curves. The modular tier design extends naturally to additional dynamic factors and higher acceleration rates. Code available at https://github.com/compai-lab/ 2026-GaborDCE-spieker.",
+      "url": "https://arxiv.org/abs/2608.18055v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:48:22+08:00",
+      "updated": "2026-08-19T01:48:22+08:00",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG",
+        "eess.SP",
+        "physics.med-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "arxiv:2608.18040v1",
+      "title": "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization",
+      "authors": [
+        "Travis Zhang",
+        "Christian Belardi",
+        "Justin Lovelace",
+        "Jin Peng Zhou",
+        "Saebyeol Shin",
+        "Carla P. Gomes",
+        "Kilian Q. Weinberger"
+      ],
+      "abstract": "Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive. While much work has focused on efficient solvers and samplers, comparatively little attention has been paid to selecting the sampling timesteps themselves. A recent line of work optimizes theoretically derived surrogates for sample quality rather than the quality metric itself. We propose Optimizing Your Sampling (OYS), which instead treats timestep selection as a black-box optimization problem, optimizing the target metric directly with Bayesian optimization. OYS outperforms both the default schedules and those of Align Your Steps on text-to-image generation, and improves over the default schedules on inpainting and other image tasks, in both quantitative and human evaluations. OYS requires no additional training, is applicable even to distilled models, and improves both simple and sophisticated samplers such as Euler and DPM-Solver++. A 5-step OYS schedule retains 89%-94% of the quality of a 50-step schedule while reducing inference cost by 10x.",
+      "url": "https://arxiv.org/abs/2608.18040v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:33:00+08:00",
+      "updated": "2026-08-19T01:33:00+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "arxiv:2608.18036v1",
+      "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
+      "authors": [
+        "Mahdi Saberi",
+        "Yaşar Utku Alçalar",
+        "Merve Gülle",
+        "Chetan Shenoy",
+        "Mehmet Akçakaya"
+      ],
+      "abstract": "MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of practical settings where informative magnitude measurements can be obtained without additional scan time. In this work, we investigate the use of auxiliary k-space magnitude information for accelerated steady-state dynamic MRI reconstruction, and demonstrate strong consistency of k-space magnitudes across time-frames. Building on this observation, we propose $\\mathbb{C}+\\text{Mag}$, a magnitude-informed physics-driven deep learning reconstruction method. The proposed method employs an ADMM-based unrolling framework with a novel magnitude-aware data-fidelity formulation, where quadratically smoothed optimization and momentum-based updates are introduced to address the non-differentiability and non-convexity of the magnitude constraints. Experiments on retrospectively undersampled cine MRI and phase-contrast flow MRI datasets, as well as prospectively undersampled real-time cine MRI acquisitions, demonstrate improved artifact suppression, sharper anatomical recovery, and better preservation of phase information compared to conventional PD-DL methods, which is further supported through blinded expert reader evaluations.",
+      "url": "https://arxiv.org/abs/2608.18036v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:31:07+08:00",
+      "updated": "2026-08-19T01:31:07+08:00",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "physics.med-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "arxiv:2608.18026v1",
+      "title": "TabNSM: Neural Sparse Mixer for Tabular Regression",
+      "authors": [
+        "Ali Eslamian",
+        "Qiang Cheng"
+      ],
+      "abstract": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures. At its core, the Adaptive Sparse Interaction Module (ASIM) integrates foreground feature discovery, sparse local interaction encoding, and Feature-Token Mixing, providing near-linear complexity under fixed sparse configurations. For regression, TabNSM introduces three complementary components: a Multi-Stage Regression Head for progressive prediction refinement; GridLoss, an ordinal-aware soft-binning objective that incorporates target structure into representation learning; and RISE (Reweighted Instance Sampling by Error), a difficulty-aware sampling strategy based on loss-quantile bins. Across nine real-world regression benchmarks, TabNSM delivers strong predictive performance and practical scalability, with particularly consistent gains on high-dimensional and heterogeneous datasets. These results demonstrate that selective interaction modeling, structured regression supervision, and difficulty-aware sampling provide an effective and scalable approach to deep tabular regression.",
+      "url": "https://arxiv.org/abs/2608.18026v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:22:49+08:00",
+      "updated": "2026-08-19T01:22:49+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "arxiv:2608.18025v1",
+      "title": "Why GPT-Style Models Do Not Directly Transfer to Symbolic Music: Compression in the Wrong Coordinate System",
+      "authors": [
+        "Yi Wang"
+      ],
+      "abstract": "GPT-style models achieve strong performance by representing language with finite vocabularies of reusable discrete tokens. This success has motivated symbolic music tokenizations to treat recurring musical structures, such as chords, motifs, and phrases, as reusable units analogous to linguistic tokens. However, tokenization derives its advantage not from reusable combinations alone, but from compression: effective compression requires coordinates in which recurring regularities form stable and predictable conditional distributions. The key problem is therefore not to find larger musical combinations, but to discover the coordinate system in which musical facts become predictively compressible. We formulate the Effectiveness--Losslessness Framework and define tokenization as the construction of a predictively effective and relationally lossless coordinate system. The Predictive Effectiveness Principle defines the Fact--Token Boundary: decoupling and denesting construct coordinate interfaces that expose predictive regularities. The Relational Losslessness Principle defines the Token--State Boundary: tokenization stops before context-dependent relations are fixed, leaving their computation to model states. Controlled symbolic-music experiments validate these boundaries. Effective coordinate construction improves predictive compressibility, while fixed relational projections constrain contextual modeling. Sequence compaction alone does not guarantee predictive compression, while preserving contextual freedom allows higher-order musical organization to emerge without explicit structural labels. These results reveal why GPT-style models do not transfer directly across modalities: architectures transfer, but tokenization interfaces do not. Tokenization must discover effective representations while preserving the relational freedom from which contextual structure can emerge.",
+      "url": "https://arxiv.org/abs/2608.18025v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:20:12+08:00",
+      "updated": "2026-08-19T01:20:12+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "GPT-style models achieve strong performance by representing language with finite vocabularies of reusable discrete tokens.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "arxiv:2608.18021v1",
+      "title": "Revisiting WEASEL 2.0: Reproduction, Sensitivity, and an Adaptive Ensemble-Size Rule",
+      "authors": [
+        "Cian Higgins",
+        "Gerard Carrigan",
+        "Pinar Sungu Isiacik",
+        "Georgiana Ifrim"
+      ],
+      "abstract": "WEASEL 2.0 is a dictionary-based time series classifier that combines dilated sliding windows with a randomised hyperparameter ensemble and a fixed-size dense feature representation. Two of its hyperparameter choices, the maximum ensemble size and the maximum window size, are specified by simple thresholding rules whose chosen thresholds are not empirically justified in the original paper. In this work we reproduce WEASEL 2.0 on 114 UCR datasets, achieving a mean accuracy of 0.865 and median of 0.928, closely matching the published values (Wilcoxon signed-rank, p = 0.655). We then test the sensitivity of four design choices: the downstream classifier, the absence of feature weighting, the maximum window-size rule, and the maximum ensemble-size rule. The first three are robust to perturbation. The fourth is over-provisioned for long-series datasets, motivating an adaptive rule that sets the maximum ensemble size from series length and number of classes. Evaluated on fixed-length datasets, the adaptive rule reduces peak fit memory by a median of 37 MB (mean 395 MB) and fit time by a median of 0.4 s (mean 4 s), with a median accuracy change of 0% (mean -0.11%). Memory and time savings concentrate on long-series datasets where the original rule allocates the largest ensemble size.",
+      "url": "https://arxiv.org/abs/2608.18021v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:14:01+08:00",
+      "updated": "2026-08-19T01:14:01+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "WEASEL 2.0 is a dictionary-based time series classifier that combines dilated sliding windows with a randomised hyperparameter ensemble and a fixed-size dense feature representation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "arxiv:2608.18011v1",
+      "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+      "authors": [
+        "Eduardo Sánchez",
+        "Rita Berrada",
+        "Dan-Mircea Mirea",
+        "Sara Rajaee",
+        "Alexander Piperski",
+        "Ana Meta Dolinar",
+        "Boris Iomdin",
+        "Andrey Nikulin",
+        "Mariya Shmatova",
+        "Marzieh Fadaee",
+        "Julia Kreutzer"
+      ],
+      "abstract": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems of the International Linguistics Olympiad (IOL) 2026 Individual Contest, evaluated both automatically and, for the first time, by members of the official IOL Jury under the same rubrics applied to human contestants. The challenge drew 731 submissions from 46 teams under a strict compute budget (one T4, 30 mins). We additionally benchmark 15 unconstrained frontier and open models, with Claude Opus 4.8 earning a jury score equivalent to a gold medal, while both resource-constrained systems we submitted for jury grading scored in the range of the bottom 5% of contestants. Capability was not determined by scale: 14B submissions outperform models twice their size, and gains come from decoding and output-handling rather than model capacity. We also found that automatic metrics rank systems exactly as the jury does, but compress the scale, upscoring weak systems by ~13 points and understating strong ones. Our analysis shows that while frontier models might have prior knowledge about some of the problem languages, it does not significantly help them solve the linguistic reasoning tasks, leaving linguistic reasoning as a strong benchmarking proxy for generalizable reasoning skills.",
+      "url": "https://arxiv.org/abs/2608.18011v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T01:00:43+08:00",
+      "updated": "2026-08-19T01:00:43+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "arxiv:2608.18004v1",
+      "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+      "authors": [
+        "Yixuan Sun",
+        "Anirban Samaddar",
+        "Sandeep Madireddy"
+      ],
+      "abstract": "Probabilistic modeling of physical fields benefits from both a data-driven prior and known physical structure such as the governing equations. Energy-based models (EBMs) are a natural fit since energies compose additively, which enables augmenting physics information during inference. However, EBMs have been difficult to train and sample from due to the intractable partition function. We show in this work that flow matching models with a potential-induced velocity yield an explicit scalar energy at all transport times, whose gradient is exactly the converted learned score and which recovers the marginal negative log-density at the population optimum. The time-dependent energy functions are obtained purely from the matching regression objective on an independent linear Gaussian interpolation, without a variational form or additional MCMC steps, and the sampling retains the flow ODE. Access to the energy function from a trained model serves three roles: energy-corrected data generation, energy as a scoring function for out-of-distribution (OOD) detection, and energy compositional posterior sampling for inverse problems. In particular, we show the explicit energy permits general MCMC samplers in the predictor-corrector sampling framework, reducing PDE residual and spectral distance compared to the flow ODE baseline. Furthermore, we demonstrate utilizing the data energy and physics-based energy (e.g., PDE residuals) as complementary mechanisms to improve detection accuracy for OOD tasks. In addition, we explore the connection to MCMC-based inference for inverse problems by composing the energy with a quadratic observational likelihood that yields a posterior energy, used as an explicitly chosen family of inference-time targets.",
+      "url": "https://arxiv.org/abs/2608.18004v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:53:08+08:00",
+      "updated": "2026-08-19T00:53:08+08:00",
+      "categories": [
+        "cs.LG",
+        "physics.comp-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Probabilistic modeling of physical fields benefits from both a data-driven prior and known physical structure such as the governing equations.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "arxiv:2608.17997v1",
+      "title": "Traceable Trust for action-ready artificial intelligence in bioscience",
+      "authors": [
+        "Huayu Xin",
+        "Yizhi Cai",
+        "Mukilan Deivarajan Suresh",
+        "Gavin Michael Farrell",
+        "Iwona Gajda",
+        "Charlie Harrison",
+        "Conor Houghton",
+        "Mato Lagator",
+        "Yang Lu",
+        "Virginia Portillo",
+        "Reyer Zwiggelaar",
+        "Sebastian Lobentanzer"
+      ],
+      "abstract": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to guide laboratory action is a key juncture for trustworthy research and should follow a defined, reviewable process. We propose Traceable Trust as a proportionate assessment-and-design framework for this output-to-action boundary. It asks what evidence supports the output, what capability is being claimed, what agency has been delegated, what threshold authorises action, who can override it and how outcomes inform later decisions. We illustrate the framework through three case studies spanning ecosystem resources, project design and laboratory action. Together, the cases show how trust can be documented where AI outputs begin to shape scientific work.",
+      "url": "https://arxiv.org/abs/2608.17997v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:44:39+08:00",
+      "updated": "2026-08-19T00:44:39+08:00",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "arxiv:2608.17983v1",
+      "title": "Dual Co-Train: Cross-Dataset Ultrasound Tongue Segmentation Under Extreme Data Scarcity",
+      "authors": [
+        "Alisher Myrgyyassov",
+        "Zhen Song",
+        "Bruce Xiao Wang",
+        "Yu Sun",
+        "Min Ney Wong",
+        "Yihao Zhou",
+        "Yongping Zheng"
+      ],
+      "abstract": "Ultrasound tongue contour segmentation remains challenging under cross-dataset domain shift, where limited annotations, probe variability, and acquisition noise often degrade model generalization. We present a source-free domain adaptation framework for robust ultrasound tongue segmentation built on a lightweight UltraUNet backbone. Starting from a checkpoint pretrained on only five labeled source images, simulating an underfitted constrained source model, the proposed method adapts to a fully-unlabeled target domain by iteratively refining pseudo-labels, filtering unreliable masks with a contour-based quality-control module, and generating target-style synthetic image-mask pairs through a segmentation-guided conditional GAN. The student model is then trained on a mixture of clean pseudo-labeled target images, noisy pseudo-labels with consistency regularization, and synthetic samples, enabling closed-loop adaptation without access to source data. We evaluate the method on 12 source-target transfer pairs across eight ultrasound tongue imaging datasets, and conduct source-size scaling experiments and ablation studies. Across all comparisons, the proposed framework improves segmentation overlap and contour accuracy over the baselines, including supervised ones. These results suggest that task-specific pseudo-label refinement and synthetic target-style augmentation can substantially improve source-free adaptation for ultrasound tongue imaging.",
+      "url": "https://arxiv.org/abs/2608.17983v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:31:08+08:00",
+      "updated": "2026-08-19T00:31:08+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Ultrasound tongue contour segmentation remains challenging under cross-dataset domain shift, where limited annotations, probe variability, and acquisition noise often degrade model generalization.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "arxiv:2608.17971v1",
+      "title": "Evaluating and improving crop-yield forecasting methods during extreme drought",
+      "authors": [
+        "Shrey Gupta",
+        "Yi Ming",
+        "George Mohler"
+      ],
+      "abstract": "The impact of climate variability on food production has led to the creation of various forecasting models that uses machine learning (ML), numerical weather predictors (NWP) or a hybrid of ML-NWP models to identify structural and physical relationships between meteorological drivers and crop growth, in order to predict crop yield. Droughts, for example the 2012 Midwestern US (Corn Belt) drought, are extreme events that affect crop production and test the limits of these forecasting models. Using 16 meteorological drivers as predictors, we compare ML (non-deep learning) and deep learning forecasting models to predict the county-level corn yield for the extreme drought year, 2012. This forecasting problem is characterized by a dissimilarity between the feature distributions of the training and test data, where the meteorological conditions of the extreme drought year fall outside the range of historically observed values. Additionally, the dataset consists of spatial and temporal irregularities where counties with missing yields introduce spatial sparsity and the use of only a subset of daily values per year introduce temporal sparsity. To overcome this, we use sample weighting and feature selection as modifications to improve our forecasting models. These modifications lead to an improvement for ML models; however, the deep learning model VITA shows little to no improvement. While VITA outperforms the ML models with or without modifications, our current study sheds light on the effect of dissimilarity between train and test feature distributions on forecasting models, compares deep learning versus non-deep learning models, and introduces modifications that are effective for non-deep learning models.",
+      "url": "https://arxiv.org/abs/2608.17971v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:23:02+08:00",
+      "updated": "2026-08-19T00:23:02+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The impact of climate variability on food production has led to the creation of various forecasting models that uses machine learning (ML), numerical weather predictors (NWP) or a hybrid of ML-NWP models to identify structural and physical relationships between meteorological drivers and crop growth, in order to predict crop yield.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "arxiv:2608.17965v1",
+      "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+      "authors": [
+        "Bin Li",
+        "Dongdong Wang",
+        "Siyang Lu"
+      ],
+      "abstract": "Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently assign excessive confidence to incorrect predictions, particularly for anomalous logs under severe class imbalance. Moreover, confidence on erroneous predictions remains persistently high even when conventional calibration metrics indicate good calibration, creating a critical reliability gap for operational monitoring systems. To address this issue, we propose Log Reconstruction and Distance (LoRD), a lightweight post-hoc calibration framework for reliable log anomaly detection. LoRD learns prediction-route-specific reliability models from latent representations of correctly classified validation samples and estimates prediction reliability through route-wise reconstruction distances. Based on the estimated reliability, LoRD selectively recalibrates high-risk predictions to suppress overconfident errors while preserving reliable predictions. Extensive experiments on four large-scale log benchmark datasets and multiple language model-based detectors demonstrate that LoRD consistently improves confidence reliability and substantially reduces overconfident anomaly-related errors without sacrificing anomaly detection performance.",
+      "url": "https://arxiv.org/abs/2608.17965v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:19:45+08:00",
+      "updated": "2026-08-19T00:19:45+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "arxiv:2608.17959v1",
+      "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+      "authors": [
+        "Isidoro Tamassia",
+        "Lennert De Smet",
+        "Giuseppe Marra"
+      ],
+      "abstract": "State-of-the-art model-based reinforcement learning methods learn neural world models that allow policy improvement by planning in a latent space, without assumptions on the structure of the underlying environment. While expressive, these models are generally task-dependent: they learn uninterpretable latent representations that are tied to the training task and thus hard to generalize to new tasks. In this work, we present a novel world model formulation where the reward prediction only depends on a subset of structured, symbolic components of the whole latent state. Decoupling observation reconstruction and reward prediction allows us to learn world models that can adapt zero-shot, i.e. without further environment interactions, to new reward functions defined over the same symbolic state space. We discuss the main advantages and challenges of learning these neurosymbolic world models and demonstrate the strong generalisation properties of our approach over purely neural methods.",
+      "url": "https://arxiv.org/abs/2608.17959v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-08-19T00:12:40+08:00",
+      "updated": "2026-08-19T00:12:40+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "State-of-the-art model-based reinforcement learning methods learn neural world models that allow policy improvement by planning in a latent space, without assumptions on the structure of the underlying environment.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1038/s41586-026-10910-z",
+      "title": "Psychedelics align brain activity with context",
+      "authors": [
+        "Devon Stoliker",
+        "Leonardo Novelli",
+        "Moein Khajehnejad",
+        "Mana Biabani",
+        "Matthew D. Greaves",
+        "Tamrin Barta",
+        "Martin Williams",
+        "Sidhant Chopra"
+      ],
+      "abstract": "Abstract Psychedelics can profoundly alter consciousness by reorganizing brain connectivity 1,2 , producing acute experiences that shape lasting psychological change 3,4 . Psychedelic dynamics are commonly described as desynchronized or entropically disordered 5,6 , yet the brain organization underlying self-dissolving and boundary-dissolving experiences that participants often report 7 , and how context shapes that organization 8 , remain unresolved. To address this, we acquired the largest single-site psychedelic neuroimaging dataset to date. Sixty-two adults underwent functional magnetic resonance imaging (fMRI) and electroencephalography (EEG) during rest and naturalistic stimuli (meditation, music and movie), before and on the day of psilocybin administration (fMRI ~ 80 min post-dose; EEG ~ 150 min post-dose). Half ranked the experience among the most meaningful of their lives 7 . Here, using machine learning to represent the brain dynamics of each individual as low-dimensional trajectories, we show that psilocybin reorganizes brain activity into structured, context-sensitive patterns that co-vary with the quality of subjective experience, revealing a latent order missed by time-averaged measures. Networks that ordinarily segregate internal and external processing integrated, producing cohesive context-aligned trajectories in participants reporting the felt experience of being continuous with, rather than separate from, the environment, a state we refer to as embeddedness. The strength of this context alignment scaled with both the depth of self-dissolving and boundary-dissolving experience and the next-day mindset change. Our findings recast apparent disorder as latent organization aligned with context, linking neurobiology to subjective experience and behavioural change.",
+      "url": "https://doi.org/10.1038/s41586-026-10910-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10910-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Psychedelics can profoundly alter consciousness by reorganizing brain connectivity 1,2 , producing acute experiences that shape lasting psychological change 3,4 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1038/d41586-026-02410-x",
+      "title": "Delisted",
+      "authors": [
+        "Ximing Zhang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02410-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02410-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1038/d41586-026-02554-w",
+      "title": "Too much mate choice overwhelms frogs",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02554-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02554-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "doi:10.1038/s41586-026-10926-5",
+      "title": "Family genetic designs in MoBa provide insights into health and functioning",
+      "authors": [
+        "Elizabeth C. Corfield",
+        "Alexey A. Shadrin",
+        "Oleksandr Frei",
+        "Zillur Rahman",
+        "Bayram Cevdet Akdeniz",
+        "Tahir Tekin Filiz",
+        "Aihua Lin",
+        "Isabella Badini"
+      ],
+      "abstract": "Abstract Genome-wide association studies using large, population-based samples of unrelated individuals have discovered thousands of genetic associations with health and disease 1 . These studies can help explain genetic and environmental risks. However, increasing evidence suggests that population-based estimates, while precise, can also reflect confounding that affects their use and interpretation. This confounding can be overcome using data from genotyped family members, such as nuclear mother–father–child trios 2,3 . However, samples of genotyped families are rare 4–11 . Here we illustrate some of the advantages of familial data using the Norwegian Mother, Father and Child Cohort Study (MoBa), a population-based cohort of parents and offspring with extensive genotype data ( n ≈ 230,000) (ref. 3 ), along with broad and longitudinal phenotyping of health and functioning. We provide an overview of MoBa and describe the quality control of genotype data tailored to this extensively related sample. We then use trio data to illustrate how family-based genomic designs can identify distinct direct and indirect sources of genetic influence and structural confounding. As examples, we analyse children’s height, educational achievement, depressive symptoms and sleep duration. These demonstrations highlight MoBa as a broadly valuable resource for advancing understanding of health and functioning across the lifecourse and generations.",
+      "url": "https://doi.org/10.1038/s41586-026-10926-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10926-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Genome-wide association studies using large, population-based samples of unrelated individuals have discovered thousands of genetic associations with health and disease 1 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "doi:10.1038/s41586-026-10877-x",
+      "title": "Human brain organoids record the passage of time over multiple years",
+      "authors": [
+        "Irene Faravelli",
+        "Noelia Antón-Bolaños",
+        "Anqi Wei",
+        "Tyler Faits",
+        "Abhishek Sampath Kumar",
+        "Sophia Andreadis",
+        "Rahel Kastli",
+        "Marta Montero Crespo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10877-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10877-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "doi:10.1038/s41586-026-10777-0",
+      "title": "Artefacts in single-cell mtDNA analyses misinform phylogenies",
+      "authors": [
+        "Caleb A. Lareau",
+        "Michael Spencer Chapman",
+        "Livius Penter",
+        "Tal Nawy",
+        "Dana Pe’er",
+        "Leif S. Ludwig"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10777-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10777-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "doi:10.1038/d41586-026-02495-4",
+      "title": "AI tool lets researchers 'vibe code' in the quantum realm",
+      "authors": [
+        "Davide Castelvecchi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02495-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02495-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "doi:10.1038/d41586-026-02375-x",
+      "title": "Computational ‘gym’ trains AI models to control turbulence",
+      "authors": [
+        "Clara M. Velte"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02375-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02375-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "doi:10.1038/s41586-026-10933-6",
+      "title": "Synthesis of pyrroles from isoxazoles by an O-to-C skeletal edit",
+      "authors": [
+        "Abigail J. Bracken",
+        "Alexandra P. Lawrie",
+        "Isabella F. Romita",
+        "Mark D. Levin"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10933-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10933-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "doi:10.1038/s41586-026-10924-7",
+      "title": "An Icelandic pangenome reference",
+      "authors": [
+        "Guillaume Holley",
+        "Hannes P. Eggertsson",
+        "Snaedis Kristmundsdottir",
+        "Doruk Beyter",
+        "Astros Th Skuladottir",
+        "Kristjan H. S. Moore",
+        "Pall I. Olason",
+        "Arnaldur Gylfason"
+      ],
+      "abstract": "Abstract Reference bias is an issue that affects most genomic studies analysing short reads mapped to a reference genome 1,2 . It can be mitigated by mapping to multiple haplotypes represented in a pangenome 3–5 . Here we introduce two new methods to address reference bias: Emblask for pangenome construction and Weaver for mapping to pangenomes at scale. Emblask is a hybrid long- and short-read haplotype-resolved dual assembly pipeline for parent–offspring trio data. Using Emblask, we assembled 698 Icelandic haplotypes and added them to the Human Pangenome Reference Consortium (HPRC) pangenome 4 to construct an Icelandic pangenome reference (HPRC-ICE) including 51.41 million small variants. We mapped the short reads of 57,630 Icelanders to HPRC-ICE with Weaver and called 98.96 million variants, representing a 6.17% increase over mapping to a linear reference. We uncovered new variants in low-mappability regions, including a pathogenic single nucleotide polymorphism (SNP) in GBA1 that associates with early onset Parkinson’s disease and a missense SNP in CBS that is pathogenic for homocystinuria. We replicated the GBA1 association in the UK Biobank 6 with a targeted remapping of 429,193 British and Irish participants.",
+      "url": "https://doi.org/10.1038/s41586-026-10924-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10924-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Reference bias is an issue that affects most genomic studies analysing short reads mapped to a reference genome 1,2 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "doi:10.1038/d41586-026-02537-x",
+      "title": "Virus deploys a ‘loose cannon’ enzyme to overpower bacterial defences",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02537-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02537-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "doi:10.1038/s41586-026-10935-4",
+      "title": "Increasing CO2 levels fertilize C4 grass production",
+      "authors": [
+        "Kimberley J. Simpson",
+        "A. Carla Staver",
+        "James A. King",
+        "William J. Bond",
+        "Corli Coetsee",
+        "Nita C. M. Pallett",
+        "Adam F. A. Pellegrini",
+        "Sarah L. Raubenheimer"
+      ],
+      "abstract": "Abstract Rising atmospheric CO 2 concentrations are impacting the global terrestrial biosphere through indirect climate effects and direct effects on plant performance 1–3 . In tropical forests, long-term monitoring indicates a substantial CO 2 -driven carbon sink 4 . C 4 -grass-dominated tropical and subtropical savannas contribute approximately 30% of terrestrial net primary production 5 , and yet equivalent long-term analyses of CO 2 responses are lacking. Here we show a clear and consistent result across a meta-analysis of 70 CO 2 -addition experiments and 32 years of in situ field observations from southern Africa: CO 2 fertilization of wild C 4 grasses is widespread in dry conditions. In experiments, grasses reduced stomatal conductance under higher levels of CO 2 , limiting water loss while increasing carbon gain. In the field, improved water use efficiency translated into increased C 4 grass biomass production across three decades of observations. Finally, simulations via the Community Land Model 6 suggest that CO 2 fertilization of C 4 grass aboveground productivity may continue to increase under future conditions. Together, these results challenge the view that C 4 grasses are unresponsive to increasing levels of CO 2 , demonstrating instead that annual aboveground production of grasses in the field in southern Africa has increased by 28% over three decades (a CO 2 -driven increase of 75.1 g m −2 (95% confidence interval of 74.5–75.8 g m −2 ) or 0.37 tons C ha −1 of annual production). Although the fate of this carbon is uncertain (depending on feedbacks with fire, herbivory and woody vegetation), effects on the global carbon cycle may be profound.",
+      "url": "https://doi.org/10.1038/s41586-026-10935-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10935-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Rising atmospheric CO 2 concentrations are impacting the global terrestrial biosphere through indirect climate effects and direct effects on plant performance 1–3 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "doi:10.1038/s41586-026-10928-3",
+      "title": "Wake-activated neuronal populations that regulate sleep drive",
+      "authors": [
+        "William Joo",
+        "Clare Diester",
+        "Vassilis Bitsikas",
+        "Myrto Panopoulou",
+        "Amelia Hidalgo",
+        "Konstantinos Ntemos",
+        "Rodrigo C. G. Pena",
+        "Fabia Imhof"
+      ],
+      "abstract": "Abstract Prolonged wakefulness increases sleep drive and is normally compensated for by increased sleep 1–3 . This homeostatic regulation of sleep shapes our lives profoundly, but the underlying neural circuit mechanisms remain poorly understood. Here, we identify wake-activated neurons that regulate sleep drive in mice, using whole-brain activity mapping, targeted neuronal manipulations and electrophysiology. By comparing whole-brain responses to sleep deprivation, recovery sleep and circadian behaviour, we identify the anterior medial preoptic area and the median raphe as candidate regions that encode sleep deficit. Activating sleep-deprivation-responsive cells in these regions induces increases in sleep duration and intensity that resemble recovery sleep. Conversely, inhibiting deprivation-responsive cells reduces sleep and abolishes the increased sleep propensity usually observed during deprivation. Neurons in the median raphe that are responsive to sleep deprivation project to subcortical sleep-associated regions and act through the preoptic hypothalamus. These deprivation-sensitive cells include serotonergic neurons and a distinct population of GABAergic neurons, whose intrinsic excitability increases during sleep deprivation. Co-activation of GABAergic and serotonergic neurons synergistically promotes sleep, whereas co-inhibition chronically decreases sleep by nearly 70%. Remarkably, most mice survive despite this marked reduction in sleep, without the compensatory increases in sleep drive or the behavioural deficits typically associated with severe sleep deprivation. Together, these results define neuronal populations that are activated during wakefulness and are crucial for sleep drive.",
+      "url": "https://doi.org/10.1038/s41586-026-10928-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10928-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Prolonged wakefulness increases sleep drive and is normally compensated for by increased sleep 1–3 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "doi:10.1038/s41586-026-10934-5",
+      "title": "Pervasive phosphorylation by phage T7 kinase disarms bacterial defences",
+      "authors": [
+        "Tara Bartolec",
+        "Karin Mitosch",
+        "Clément Potel",
+        "Federico Corona",
+        "Alessio Ling Jie Yang",
+        "Nicolai Karcher",
+        "Mira Lea Burtscher",
+        "Alexandra Koumoutsi"
+      ],
+      "abstract": "Abstract Bacteria and bacteriophages are in a constant arms race to develop defence and anti-defence systems, respectively. Currently known phage-encoded anti-defence systems are specific to the activity of the targeted bacterial defence system. Here we identify a mechanism by which the T7 bacteriophage broadly counteracts bacterial defences using protein phosphorylation. Its kinase (T7K), which has been reported to redirect the function of a few host proteins 1–5 , is actually a hyperpromiscuous dual-specificity kinase that phosphorylates nearly all host and phage proteins during infection. The scale of phosphorylation vastly exceeds known phosphosites in Escherichia coli , has no sequence motif specificity and results in a higher proteome-wide phosphorylation density than mammalian cells with around 500 kinases. Stoichiometry analysis of phosphorylation sites revealed strong bias in T7K activity towards nucleic-acid-binding substrates mediated by its C-terminal DNA-binding domain. This highly stoichiometric phosphorylation enables the deactivation of DNA-targeting or DNA-containing bacterial defence systems. We provide mechanistic insights into how T7K weakens DNA-containing Retron-Eco9 through specific phosphorylation events, with single phosphomimetic mutations in key sites of the toxin abolishing defence. Moreover, by screening a large collection of E. coli strains, we provide evidence of broad anti-defence abilities of T7K in nature, as counteracted strains contain diverse bacterial defence systems. T7K homologues are found almost exclusively in phages, with hyperpromiscuous kinase activity probably being enabled by a divergent DFG-like motif in the catalytic centre.",
+      "url": "https://doi.org/10.1038/s41586-026-10934-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10934-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Bacteria and bacteriophages are in a constant arms race to develop defence and anti-defence systems, respectively.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "doi:10.1038/s41586-026-10938-1",
+      "title": "A global atmospheric methane record from a tropical ice core",
+      "authors": [
+        "Kara A. Lamantia",
+        "Lonnie G. Thompson",
+        "Mary E. Davis",
+        "Ben Riddell-Young",
+        "Ivo Strawson",
+        "Emilie Beaudon",
+        "Ellen Mosley-Thompson",
+        "Newton Nguyen"
+      ],
+      "abstract": "Abstract Tropical wetlands are widely considered the largest natural source of atmospheric methane (CH 4 ) 1–4 . However, uncertainties about wetland extent and CH 4 production have led to large variations in modelled CH 4 emission trends 2,3 . Most historical reconstructions rely on data from polar ice cores, which cannot fully resolve the tropical contribution 5,6 to the CH 4 budget. Here we present a 2,000-year record of atmospheric CH 4 concentrations from ice cores drilled from the South Peak summit of Nevado Huascarán (Summit Core A, SCA; −9.122° S, −77.605° W; 6,768 m asl). We find that the trends and magnitudes of our CH 4 record are broadly consistent with polar records 7 . Our δ 13 C-CH 4 measurements (from approximately 1530 CE to 1999 CE) align with isotope values 8 consistent with a dominant tropical CH 4 source. Integration of our record into an atmospheric four-box model suggests a sustained equatorial dominance of CH 4 source strength over the past two millennia. Our findings indicate that equatorial CH 4 emissions are higher than previous estimates based only on polar ice core data, supporting the long-standing hypothesis that low-latitude CH 4 emissions dominated pre-industrial (PI) CH 4 variability 5,6 . These results demonstrate the importance of tropical ice cores on the reconstruction of CH 4 variability and latitudinal distribution.",
+      "url": "https://doi.org/10.1038/s41586-026-10938-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10938-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Tropical wetlands are widely considered the largest natural source of atmospheric methane (CH 4 ) 1–4 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "doi:10.1038/d41586-026-02373-z",
+      "title": "Activity of solar-driven polymer catalysts unleashed to produce a potential green fuel",
+      "authors": [
+        "Filip Podjaski"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02373-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02373-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "doi:10.1038/s41586-026-10892-y",
+      "title": "A biased allosteric modulator is a molecular glue for β2AR dimerization",
+      "authors": [
+        "Jiemin Shen",
+        "Teja Nikhil Peddada",
+        "Konstantin E. Komolov",
+        "Francesco De Pascali",
+        "Alexander M. Garces",
+        "Haoqing Wang",
+        "Muhammad Ehsan",
+        "Pil Seok Chae"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10892-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10892-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "doi:10.1038/s41586-026-10900-1",
+      "title": "Asymmetric prefrontal representations for leader–follower dynamics",
+      "authors": [
+        "Yuan Cheng",
+        "Yusi Chen",
+        "Myungji Kwak",
+        "Ross P. Kempner",
+        "Rudramani Singha",
+        "Jared Winslow",
+        "Runqi Liu",
+        "Umais Khan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10900-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10900-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "doi:10.1038/d41586-026-02528-y",
+      "title": "Screening babies’ genomes could save lives. Here’s how it would work",
+      "authors": [
+        "Uzma Rentia"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02528-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-19T08:00:00+08:00",
+      "updated": "2026-08-19T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02528-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
