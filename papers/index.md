@@ -6,7 +6,7 @@ permalink: /papers/
 
 <section class="paper-watch-home">
 <p>这里自动汇总 gr-qc、致密双星建模、LVK/LISA、QNM、相关天文/高能方向，以及 AI/知识库方向的论文与新闻线索。</p>
-<p><strong>最新日报：</strong><a href="/papers/2026-08-20/">2026-08-20</a>，收录 24 条；批阅候选 64 条。</p>
+<p><strong>最新日报：</strong><a href="/papers/2026-08-21/">2026-08-21</a>，收录 34 条；批阅候选 80 条。</p>
 </section>
 
 ## 关注范围
@@ -18,6 +18,7 @@ permalink: /papers/
 ## 历史日报
 
 <ul class="paper-history">
+<li><a href="/papers/2026-08-21/">2026-08-21</a> <span>34 条，2026-08-21 06:48 CST</span></li>
 <li><a href="/papers/2026-08-20/">2026-08-20</a> <span>24 条，2026-08-20 06:45 CST</span></li>
 <li><a href="/papers/2026-08-19/">2026-08-19</a> <span>45 条，2026-08-19 06:44 CST</span></li>
 <li><a href="/papers/2026-08-18/">2026-08-18</a> <span>13 条，2026-08-18 06:44 CST</span></li>
