@@ -183,6 +183,39 @@ body {
   width: var(--sidebar-icon-size);
 }
 
+// A restrained semantic palette makes the navigation easier to scan without
+// turning the editorial shell into a decorative icon grid.
+.sidebar-row__icon .icon--home,
+.sidebar-row__icon .icon--orcid {
+  color: var(--icon-leaf);
+}
+
+.sidebar-row__icon .icon--search,
+.sidebar-row__icon .icon--code,
+.sidebar-row__icon .icon--google-scholar {
+  color: var(--icon-sky);
+}
+
+.sidebar-row__icon .icon--updates,
+.sidebar-row__icon .icon--activities,
+.sidebar-row__icon .icon--inspire {
+  color: var(--icon-amber);
+}
+
+.sidebar-row__icon .icon--research,
+.sidebar-row__icon .icon--blog {
+  color: var(--icon-plum);
+}
+
+.sidebar-row__icon .icon--papers,
+.sidebar-row__icon .icon--email {
+  color: var(--icon-rose);
+}
+
+.sidebar-row__icon .icon--briefing {
+  color: var(--icon-teal);
+}
+
 .sidebar-row__label {
   min-width: 0;
   overflow-wrap: anywhere;
