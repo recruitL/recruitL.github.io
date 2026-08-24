@@ -421,10 +421,10 @@ button.sidebar-section__toggle:focus {
 
 .research-home__hero-calendar {
   align-self: start;
-  background: color-mix(in srgb, var(--background) 94%, transparent);
-  border: 1px solid color-mix(in srgb, var(--surface-strong) 58%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 32%, transparent);
+  border: 1px solid color-mix(in srgb, var(--surface-strong) 28%, transparent);
   box-sizing: border-box;
-  color: var(--text-primary);
+  color: var(--surface-strong);
   justify-self: end;
   max-width: 34rem;
   padding: clamp(1rem, 2vw, 1.5rem);
@@ -434,6 +434,80 @@ button.sidebar-section__toggle:focus {
 .research-home__hero-calendar .activity-calendar {
   margin: 0;
   max-width: none;
+}
+
+.research-home__hero-calendar .activity-calendar__toolbar label,
+.research-home__hero-calendar .activity-calendar__header strong {
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar__header span {
+  color: color-mix(in srgb, var(--surface-strong) 74%, transparent);
+}
+
+.research-home__hero-calendar .activity-calendar__toolbar button {
+  background: color-mix(in srgb, var(--accent) 78%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-muted) 48%, transparent);
+  box-shadow: none;
+  color: var(--surface-strong);
+  text-shadow: none;
+}
+
+.research-home__hero-calendar .activity-calendar__toolbar button:hover,
+.research-home__hero-calendar .activity-calendar__toolbar button:focus {
+  background: var(--accent-dark);
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar__toolbar input,
+.research-home__hero-calendar .activity-calendar__toolbar select {
+  background: color-mix(in srgb, var(--ink-rich) 46%, transparent);
+  border: 1px solid color-mix(in srgb, var(--surface-strong) 42%, transparent);
+  color: var(--surface-strong);
+  color-scheme: dark;
+}
+
+.research-home__hero-calendar .activity-calendar__toolbar option {
+  background: var(--ink-rich);
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar th,
+.research-home__hero-calendar .activity-calendar td {
+  border-color: color-mix(in srgb, var(--surface-strong) 28%, transparent);
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar th {
+  background: color-mix(in srgb, var(--ink-rich) 58%, transparent);
+}
+
+.research-home__hero-calendar .activity-calendar td {
+  background: color-mix(in srgb, var(--ink-rich) 18%, transparent);
+}
+
+.research-home__hero-calendar .activity-calendar__blank {
+  background: color-mix(in srgb, var(--ink-rich) 34%, transparent);
+}
+
+.research-home__hero-calendar .activity-calendar__has-event {
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.research-home__hero-calendar .activity-calendar a {
+  background: color-mix(in srgb, var(--accent) 78%, transparent);
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar a:hover,
+.research-home__hero-calendar .activity-calendar a:focus {
+  background: var(--accent-dark);
+  color: var(--surface-strong);
+}
+
+.research-home__hero-calendar .activity-calendar__today {
+  outline: 2px solid var(--accent-muted);
+  outline-offset: -2px;
 }
 
 .typeset .research-home__kicker,
@@ -964,8 +1038,25 @@ button.sidebar-section__toggle:focus {
   }
 
   .research-home__hero-calendar {
+    background: var(--background);
     border-color: var(--border);
+    color: var(--text-primary);
     justify-self: start;
+  }
+
+  .research-home__hero-calendar .activity-calendar__toolbar label,
+  .research-home__hero-calendar .activity-calendar__header strong,
+  .research-home__hero-calendar .activity-calendar__header span,
+  .research-home__hero-calendar .activity-calendar td {
+    color: var(--text-primary);
+  }
+
+  .research-home__hero-calendar .activity-calendar__toolbar input,
+  .research-home__hero-calendar .activity-calendar__toolbar select {
+    background: var(--surface-strong);
+    border-color: var(--border);
+    color: var(--text-primary);
+    color-scheme: light;
   }
 
   .site-stage .research-home__intro h1,
