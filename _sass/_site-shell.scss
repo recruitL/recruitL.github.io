@@ -212,7 +212,8 @@ body {
   color: var(--icon-rose);
 }
 
-.sidebar-row__icon .icon--briefing {
+.sidebar-row__icon .icon--briefing,
+.sidebar-row__icon .icon--link {
   color: var(--icon-teal);
 }
 
