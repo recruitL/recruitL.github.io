@@ -7,11 +7,16 @@ excerpt: ""
 ---
 
 <header class="research-home__intro">
-  <div class="research-home__intro-inner">
-    <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
-    <h1>Tracing gravity through computation.</h1>
-    <p class="research-home__lead">This is recruitL's open research atlas: a place to follow questions, methods, and code across gravitation and relativistic astrophysics.</p>
-    <p class="research-home__summary">My current interests include gravitation, relativistic astrophysics, numerical computation, and reproducing methods from papers. The site serves both as a public research entry point and a searchable, reproducible record of work in progress.</p>
+  <div class="research-home__intro-grid">
+    <div class="research-home__intro-inner">
+      <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
+      <h1 class="research-home__title--english">Tracing gravity through computation.</h1>
+      <p class="research-home__lead">This is recruitL's open research atlas: a place to follow questions, methods, and code across gravitation and relativistic astrophysics.</p>
+      <p class="research-home__summary">My current interests include gravitation, relativistic astrophysics, numerical computation, and reproducing methods from papers. The site serves both as a public research entry point and a searchable, reproducible record of work in progress.</p>
+    </div>
+    <div class="research-home__hero-calendar">
+      {% include activity-calendar.html lang="en" activity_path="/en/activities/" %}
+    </div>
   </div>
 </header>
 
@@ -76,15 +81,4 @@ excerpt: ""
       <li><a href="/en/activities/"><strong>Activities</strong><span>Academic conferences, talks, and related records.</span><i aria-hidden="true">↗</i></a></li>
     </ul>
   </nav>
-</section>
-
-<section class="research-home__section research-home__calendar" aria-labelledby="home-calendar-title">
-  <header class="research-home__section-heading">
-    <p>04 / Schedule</p>
-    <div>
-      <h2 id="home-calendar-title">Activity calendar</h2>
-      <p>A time index of existing activity records.</p>
-    </div>
-  </header>
-  {% include activity-calendar.html lang="en" activity_path="/en/activities/" %}
 </section>

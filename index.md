@@ -7,11 +7,16 @@ excerpt: ""
 ---
 
 <header class="research-home__intro">
-  <div class="research-home__intro-inner">
-    <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
-    <h1>探索引力，以计算抵达。</h1>
-    <p class="research-home__lead">这里是 recruitL 的开放研究入口：沿着问题、方法和代码，记录对引力与相对论天体物理的持续探索。</p>
-    <p class="research-home__summary">主要关注引力、相对论天体物理、数值计算和论文复现。网站既面向同行与读者，也作为一份持续生长、可检索、可复现的个人研究地图。</p>
+  <div class="research-home__intro-grid">
+    <div class="research-home__intro-inner">
+      <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
+      <h1 class="research-home__title--personal">recruitL<span>个人网站</span></h1>
+      <p class="research-home__lead">这里是 recruitL 的开放研究入口：分享一些个人项目。</p>
+      <p class="research-home__summary">主要关注引力、相对论天体物理、数值计算和论文复现。网站既面向同行与读者，也作为一份持续生长、可检索、可复现的个人研究地图。</p>
+    </div>
+    <div class="research-home__hero-calendar">
+      {% include activity-calendar.html activity_path="/activities/" %}
+    </div>
   </div>
 </header>
 
@@ -76,15 +81,4 @@ excerpt: ""
       <li><a href="/activities/"><strong>活动</strong><span>学术会议、报告和相关资料记录。</span><i aria-hidden="true">↗</i></a></li>
     </ul>
   </nav>
-</section>
-
-<section class="research-home__section research-home__calendar" aria-labelledby="home-calendar-title">
-  <header class="research-home__section-heading">
-    <p>04 / Schedule</p>
-    <div>
-      <h2 id="home-calendar-title">活动万年历</h2>
-      <p>已有活动记录的时间索引。</p>
-    </div>
-  </header>
-  {% include activity-calendar.html activity_path="/activities/" %}
 </section>

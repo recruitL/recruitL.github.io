@@ -392,7 +392,6 @@ button.sidebar-section__toggle:focus {
   --hero-overlay-strong: color-mix(in srgb, var(--ink-rich) 82%, transparent);
   --hero-overlay-middle: color-mix(in srgb, var(--ink-rich) 66%, transparent);
   --hero-overlay-light: color-mix(in srgb, var(--ink-rich) 28%, transparent);
-  align-items: center;
   background-image:
     linear-gradient(90deg, var(--hero-overlay-strong) 0%, var(--hero-overlay-middle) 52%, var(--hero-overlay-light) 100%),
     url("/assets/images/home/activity-mountains.jpg");
@@ -401,16 +400,40 @@ button.sidebar-section__toggle:focus {
   background-size: cover;
   border-bottom: 1px solid var(--border-strong);
   box-sizing: border-box;
-  display: flex;
   margin-inline: calc(-1 * var(--page-gutter));
   max-width: none;
-  min-height: clamp(34rem, 72vh, 47rem);
-  padding: clamp(4.5rem, 9vw, 7rem) var(--page-gutter);
+  min-height: clamp(36rem, 72vh, 47rem);
+  padding: clamp(2.75rem, 5vw, 4.5rem) var(--page-gutter) clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.research-home__intro-grid {
+  align-items: start;
+  display: grid;
+  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(0, .95fr) minmax(25rem, 1.05fr);
+  width: 100%;
 }
 
 .research-home__intro-inner {
-  max-width: var(--reading-width);
+  max-width: 38rem;
   width: 100%;
+}
+
+.research-home__hero-calendar {
+  align-self: start;
+  background: color-mix(in srgb, var(--background) 94%, transparent);
+  border: 1px solid color-mix(in srgb, var(--surface-strong) 58%, transparent);
+  box-sizing: border-box;
+  color: var(--text-primary);
+  justify-self: end;
+  max-width: 34rem;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  width: 100%;
+}
+
+.research-home__hero-calendar .activity-calendar {
+  margin: 0;
+  max-width: none;
 }
 
 .typeset .research-home__kicker,
@@ -433,6 +456,15 @@ button.sidebar-section__toggle:focus {
   margin: var(--space-5) 0 var(--space-6);
   max-width: 12ch;
   text-shadow: 0 2px 18px color-mix(in srgb, var(--ink-rich) 28%, transparent);
+}
+
+.research-home__title--personal span {
+  display: block;
+}
+
+.site-stage .research-home__intro .research-home__title--english {
+  font-size: clamp(2.65rem, 4.2vw, 4.25rem);
+  max-width: 14ch;
 }
 
 .typeset .research-home__intro .research-home__kicker {
@@ -650,12 +682,6 @@ button.sidebar-section__toggle:focus {
   font-style: normal;
 }
 
-.research-home__calendar .activity-calendar {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--wide-content-width);
-}
-
 @media (max-width: 1180px) and (min-width: 960px) {
   .site-shell {
     grid-template-columns: var(--sidebar-width-compact) minmax(0, 1fr);
@@ -663,6 +689,18 @@ button.sidebar-section__toggle:focus {
 
   :root {
     --page-gutter: clamp(1.25rem, 3vw, 2.5rem);
+  }
+
+  .research-home__intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-home__intro-inner {
+    max-width: var(--reading-width);
+  }
+
+  .research-home__hero-calendar {
+    justify-self: start;
   }
 }
 
@@ -776,6 +814,18 @@ button.sidebar-section__toggle:focus {
     scroll-margin-top: 4.75rem;
   }
 
+  .research-home__intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-home__intro-inner {
+    max-width: var(--reading-width);
+  }
+
+  .research-home__hero-calendar {
+    justify-self: start;
+  }
+
   .no-js .site-sidebar {
     border-bottom: 1px solid var(--border-strong);
     border-right: 0;
@@ -817,8 +867,33 @@ button.sidebar-section__toggle:focus {
       url("/assets/images/home/activity-mountains.jpg");
     background-position: 56% center;
     min-height: auto;
-    padding-bottom: 4.5rem;
-    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 2.75rem;
+  }
+
+  .research-home__intro-grid {
+    gap: var(--space-8);
+  }
+
+  .research-home__hero-calendar {
+    padding: var(--space-3);
+  }
+
+  .research-home__hero-calendar .activity-calendar__header span {
+    display: none;
+  }
+
+  .research-home__hero-calendar .activity-calendar__toolbar {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .research-home__hero-calendar .activity-calendar__toolbar > button:first-child,
+  .research-home__hero-calendar .activity-calendar__toolbar > label {
+    grid-column: span 2;
+  }
+
+  .research-home__hero-calendar .activity-calendar__toolbar > button:nth-last-child(-n + 2) {
+    grid-column: span 3;
   }
 
   .research-home__section-heading,
@@ -882,6 +957,15 @@ button.sidebar-section__toggle:focus {
     margin-inline: 0;
     min-height: 0;
     padding: 0 0 3rem;
+  }
+
+  .research-home__intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-home__hero-calendar {
+    border-color: var(--border);
+    justify-self: start;
   }
 
   .site-stage .research-home__intro h1,
