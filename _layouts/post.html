@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include site-header.html %}  <!-- 包含网站头部 -->
-
 <main class="main  container" id="main-content">  <!-- 主内容容器 -->
 
   <article class="article  article--post  content  typeset">  <!-- 文章容器 -->
@@ -29,5 +27,3 @@ layout: default
   {% if page.aside == true %}{% include site-aside.html align="left" %}{% endif %}  <!-- 如果页面有侧边栏，则包含侧边栏内容 -->
 
 </main>
-
-{% include site-footer.html %}  <!-- 包含网站底部 -->

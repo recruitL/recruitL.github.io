@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include site-header.html %} <!-- 引入头部导航栏 -->
-
 <!-- 主体内容区域 -->
 <main class="main  container" id="main-content">
 
@@ -63,8 +61,4 @@ layout: default
 
   </div>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}  <!-- 如果页面有侧边栏，则引入侧边栏 -->
-
 </main>
-
-{% include site-footer.html %}  <!-- 引入页脚 -->

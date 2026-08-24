@@ -1,0 +1,22 @@
+{% assign mobile_lang = page.lang | default: site.lang | downcase %}
+{% if mobile_lang == "en" %}
+  {% assign mobile_home = "/en/" %}
+  {% assign mobile_search = "/en/search/" %}
+  {% assign mobile_menu_label = "Open navigation" %}
+  {% assign mobile_search_label = "Search" %}
+{% else %}
+  {% assign mobile_home = "/" %}
+  {% assign mobile_search = "/search/" %}
+  {% assign mobile_menu_label = "打开导航" %}
+  {% assign mobile_search_label = "搜索" %}
+{% endif %}
+
+<header class="mobile-header" data-mobile-header>
+  <button class="mobile-header__button" type="button" data-sidebar-open aria-expanded="false" aria-controls="site-sidebar" aria-label="{{ mobile_menu_label }}">
+    {% include icon.html id="menu" decorative=true %}
+  </button>
+  <a class="mobile-header__identity" href="{{ mobile_home | relative_url }}">{{ site.title }}</a>
+  <a class="mobile-header__search" href="{{ mobile_search | relative_url }}" aria-label="{{ mobile_search_label }}">
+    {% include icon.html id="search" decorative=true %}
+  </a>
+</header>

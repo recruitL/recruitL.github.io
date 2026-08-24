@@ -1,0 +1,127 @@
+{% assign sidebar_lang = page.lang | default: site.lang | downcase %}
+{% if sidebar_lang == "en" %}
+  {% assign sidebar_key = "en" %}
+{% else %}
+  {% assign sidebar_key = "zh" %}
+{% endif %}
+{% assign sidebar_nav = site.data.site_navigation[sidebar_key] %}
+{% assign current_url = page.url | default: "/" %}
+{% assign research_is_current = false %}
+{% if page.layout == "research_topic" or current_url contains "/research/" %}
+  {% assign research_is_current = true %}
+{% endif %}
+{% assign content_is_current = false %}
+{% for item in sidebar_nav.content %}
+  {% if item.active_prefix and current_url contains item.active_prefix %}
+    {% assign content_is_current = true %}
+  {% endif %}
+  {% if item.active_layout and page.layout == item.active_layout %}
+    {% assign content_is_current = true %}
+  {% endif %}
+{% endfor %}
+
+<aside class="site-sidebar" id="site-sidebar" data-site-sidebar aria-label="{{ sidebar_nav.labels.navigation }}">
+  <div class="site-sidebar__inner">
+    <header class="site-sidebar__identity">
+      <a class="sidebar-identity" href="{{ sidebar_nav.home_url | relative_url }}" aria-label="{{ site.title }} home">
+        {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="">{% endif %}
+        <span>
+          <strong>{{ site.title }}</strong>
+          <small>{{ sidebar_nav.identity_note }}</small>
+        </span>
+      </a>
+      <button class="sidebar-close" type="button" data-sidebar-close aria-label="{{ sidebar_nav.labels.close }}">
+        {% include icon.html id="close" decorative=true %}
+      </button>
+    </header>
+
+    <nav class="site-sidebar__navigation" aria-label="{{ sidebar_nav.labels.navigation }}">
+      <div class="sidebar-direct">
+        {% for item in sidebar_nav.direct %}
+          {% assign direct_is_current = false %}
+          {% unless item.url contains "#" %}
+            {% if item.url == current_url %}{% assign direct_is_current = true %}{% endif %}
+          {% endunless %}
+          <a class="sidebar-row sidebar-link{% if direct_is_current %} is-current{% endif %}" href="{{ item.url | relative_url }}"{% if direct_is_current %} aria-current="page"{% endif %}>
+            <span class="sidebar-row__icon" aria-hidden="true">{% include icon.html id=item.icon decorative=true %}</span>
+            <span class="sidebar-row__label">{{ item.title }}</span>
+            <span class="sidebar-row__trailing" aria-hidden="true"></span>
+          </a>
+        {% endfor %}
+      </div>
+
+      <section class="sidebar-section{% if research_is_current %} has-current-page{% endif %}" data-sidebar-section="research">
+        <button class="sidebar-row sidebar-section__toggle" type="button" aria-expanded="true" aria-controls="sidebar-section-research-{{ sidebar_key }}" data-sidebar-toggle>
+          <span class="sidebar-row__icon sidebar-row__chevron" aria-hidden="true">{% include icon.html id="chevron" decorative=true %}</span>
+          <span class="sidebar-row__label">{{ sidebar_nav.labels.research }}</span>
+          <span class="sidebar-row__trailing" aria-hidden="true"></span>
+        </button>
+        <ul class="sidebar-section__items" id="sidebar-section-research-{{ sidebar_key }}">
+          {% assign research_topics = site.data.research_topics.topics | sort: "order" %}
+          {% for topic in research_topics %}
+            {% assign topic_url = "/research/" | append: topic.slug | append: "/" %}
+            {% assign topic_is_current = false %}
+            {% if page.topic_slug == topic.slug or current_url == topic_url %}{% assign topic_is_current = true %}{% endif %}
+            <li>
+              <a class="sidebar-row sidebar-link{% if topic_is_current %} is-current{% endif %}" href="{{ topic_url | relative_url }}"{% if topic_is_current %} aria-current="page"{% endif %}>
+                <span class="sidebar-row__icon" aria-hidden="true">{% include icon.html id="research" decorative=true %}</span>
+                <span class="sidebar-row__label">{{ topic.short_title | default: topic.title }}</span>
+                <span class="sidebar-row__trailing" aria-hidden="true"></span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="sidebar-section{% if content_is_current %} has-current-page{% endif %}" data-sidebar-section="content">
+        <button class="sidebar-row sidebar-section__toggle" type="button" aria-expanded="true" aria-controls="sidebar-section-content-{{ sidebar_key }}" data-sidebar-toggle>
+          <span class="sidebar-row__icon sidebar-row__chevron" aria-hidden="true">{% include icon.html id="chevron" decorative=true %}</span>
+          <span class="sidebar-row__label">{{ sidebar_nav.labels.content }}</span>
+          <span class="sidebar-row__trailing" aria-hidden="true"></span>
+        </button>
+        <ul class="sidebar-section__items" id="sidebar-section-content-{{ sidebar_key }}">
+          {% for item in sidebar_nav.content %}
+            {% assign item_is_current = false %}
+            {% if item.active_prefix and current_url contains item.active_prefix %}{% assign item_is_current = true %}{% endif %}
+            {% if item.active_layout and page.layout == item.active_layout %}{% assign item_is_current = true %}{% endif %}
+            <li>
+              <a class="sidebar-row sidebar-link{% if item_is_current %} is-current{% endif %}" href="{{ item.url | relative_url }}"{% if item_is_current %} aria-current="page"{% endif %}>
+                <span class="sidebar-row__icon" aria-hidden="true">{% include icon.html id=item.icon decorative=true %}</span>
+                <span class="sidebar-row__label">{{ item.title }}</span>
+                <span class="sidebar-row__trailing" aria-hidden="true"></span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="sidebar-section" data-sidebar-section="profiles">
+        <button class="sidebar-row sidebar-section__toggle" type="button" aria-expanded="true" aria-controls="sidebar-section-profiles-{{ sidebar_key }}" data-sidebar-toggle>
+          <span class="sidebar-row__icon sidebar-row__chevron" aria-hidden="true">{% include icon.html id="chevron" decorative=true %}</span>
+          <span class="sidebar-row__label">{{ sidebar_nav.labels.profiles }}</span>
+          <span class="sidebar-row__trailing" aria-hidden="true"></span>
+        </button>
+        <ul class="sidebar-section__items" id="sidebar-section-profiles-{{ sidebar_key }}">
+          {% for item in site.data.site_navigation.profiles %}
+            <li>
+              <a class="sidebar-row sidebar-link" href="{{ item.url }}">
+                <span class="sidebar-row__icon" aria-hidden="true">{% include icon.html id=item.icon decorative=true %}</span>
+                <span class="sidebar-row__label">{{ item.title }}</span>
+                <span class="sidebar-row__trailing" aria-hidden="true">{% include icon.html id="external" decorative=true %}</span>
+                <span class="visually-hidden">{{ sidebar_nav.labels.external }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </nav>
+
+    <footer class="site-sidebar__footer">
+      {% include language-switch.html class="language-switch--sidebar" label=sidebar_nav.labels.language %}
+      <div class="sidebar-footer__meta">
+        <span>&copy; {{ site.title }} {{ site.time | date: '%Y' }}</span>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </div>
+    </footer>
+  </div>
+</aside>

@@ -1,0 +1,104 @@
+zh:
+  home_url: /
+  identity_note: 理论物理 · 科学计算
+  labels:
+    navigation: 站点导航
+    research: 研究
+    content: 内容
+    profiles: 学术主页
+    language: 语言切换
+    close: 关闭导航
+    external: 外部链接
+  direct:
+    - title: 首页
+      url: /
+      icon: home
+    - title: 近期动态
+      url: /#home-updates
+      icon: updates
+    - title: 搜索
+      url: /search/
+      icon: search
+  content:
+    - title: 论文日报
+      url: /papers/
+      icon: papers
+      active_prefix: /papers/
+    - title: 研究简报
+      url: /research-briefing/
+      icon: briefing
+      active_prefix: /research-briefing/
+    - title: 代码库
+      url: /code/
+      icon: code
+      active_prefix: /code/
+    - title: 博客
+      url: /blog/
+      icon: blog
+      active_prefix: /blog/
+      active_layout: post
+    - title: 学术活动
+      url: /activities/
+      icon: activities
+      active_prefix: /activities/
+
+en:
+  home_url: /en/
+  identity_note: Theoretical physics · Scientific computing
+  labels:
+    navigation: Site navigation
+    research: Research
+    content: Content
+    profiles: Academic profiles
+    language: Language switch
+    close: Close navigation
+    external: External link
+  direct:
+    - title: Home
+      url: /en/
+      icon: home
+    - title: Recent updates
+      url: /en/#home-updates
+      icon: updates
+    - title: Search
+      url: /en/search/
+      icon: search
+  content:
+    - title: Paper Watch
+      url: /papers/
+      icon: papers
+      active_prefix: /papers/
+    - title: Research Briefing
+      url: /research-briefing/
+      icon: briefing
+      active_prefix: /research-briefing/
+    - title: Code
+      url: /en/code/
+      icon: code
+      active_prefix: /en/code/
+    - title: Blog
+      url: /en/blog/
+      icon: blog
+      active_prefix: /en/blog/
+      active_layout: post
+    - title: Activities
+      url: /en/activities/
+      icon: activities
+      active_prefix: /en/activities/
+
+profiles:
+  - title: GitHub
+    url: https://github.com/recruitL
+    icon: github
+  - title: Email
+    url: mailto:shenglong@ucas.ac.cn
+    icon: email
+  - title: INSPIRE-HEP
+    url: https://inspirehep.net/authors/2761677?ui-citation-summary=true
+    icon: inspire
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=zDxt9_kAAAAJ&hl=zh-TW&authuser=1
+    icon: google-scholar
+  - title: ORCID
+    url: https://orcid.org/0009-0009-0163-2724
+    icon: orcid
