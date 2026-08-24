@@ -421,8 +421,8 @@ button.sidebar-section__toggle:focus {
 
 .research-home__hero-calendar {
   align-self: start;
-  background: color-mix(in srgb, var(--ink-rich) 32%, transparent);
-  border: 1px solid color-mix(in srgb, var(--surface-strong) 28%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 20%, transparent);
+  border: 1px solid color-mix(in srgb, var(--surface-strong) 22%, transparent);
   box-sizing: border-box;
   color: var(--surface-strong);
   justify-self: end;
@@ -442,7 +442,7 @@ button.sidebar-section__toggle:focus {
 }
 
 .research-home__hero-calendar .activity-calendar__header span {
-  color: color-mix(in srgb, var(--surface-strong) 74%, transparent);
+  color: color-mix(in srgb, var(--surface-strong) 66%, transparent);
 }
 
 .research-home__hero-calendar .activity-calendar__toolbar button {
@@ -461,8 +461,8 @@ button.sidebar-section__toggle:focus {
 
 .research-home__hero-calendar .activity-calendar__toolbar input,
 .research-home__hero-calendar .activity-calendar__toolbar select {
-  background: color-mix(in srgb, var(--ink-rich) 46%, transparent);
-  border: 1px solid color-mix(in srgb, var(--surface-strong) 42%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--surface-strong) 32%, transparent);
   color: var(--surface-strong);
   color-scheme: dark;
 }
@@ -474,35 +474,36 @@ button.sidebar-section__toggle:focus {
 
 .research-home__hero-calendar .activity-calendar th,
 .research-home__hero-calendar .activity-calendar td {
-  border-color: color-mix(in srgb, var(--surface-strong) 28%, transparent);
+  border-color: color-mix(in srgb, var(--surface-strong) 20%, transparent);
   color: var(--surface-strong);
 }
 
 .research-home__hero-calendar .activity-calendar th {
-  background: color-mix(in srgb, var(--ink-rich) 58%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 36%, transparent);
 }
 
 .research-home__hero-calendar .activity-calendar td {
-  background: color-mix(in srgb, var(--ink-rich) 18%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 7%, transparent);
 }
 
 .research-home__hero-calendar .activity-calendar__blank {
-  background: color-mix(in srgb, var(--ink-rich) 34%, transparent);
+  background: color-mix(in srgb, var(--ink-rich) 14%, transparent);
 }
 
 .research-home__hero-calendar .activity-calendar__has-event {
-  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  background: transparent;
 }
 
 .research-home__hero-calendar .activity-calendar a {
-  background: color-mix(in srgb, var(--accent) 78%, transparent);
-  color: var(--surface-strong);
+  background: transparent;
+  color: color-mix(in srgb, var(--accent) 52%, var(--surface-strong));
+  font-weight: 700;
 }
 
 .research-home__hero-calendar .activity-calendar a:hover,
 .research-home__hero-calendar .activity-calendar a:focus {
-  background: var(--accent-dark);
-  color: var(--surface-strong);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: color-mix(in srgb, var(--accent) 42%, var(--surface-strong));
 }
 
 .research-home__hero-calendar .activity-calendar__today {
