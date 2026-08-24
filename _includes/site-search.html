@@ -29,10 +29,19 @@
   const emptyResultsText = searchRoot ? searchRoot.dataset.emptyResults : 'No related content found';
 
   const pages = [];
+  searchRoot.setAttribute('aria-busy', 'true');
 
   fetch(endpoint)
     .then(blob => blob.json())
-    .then(data => pages.push(...data))
+    .then(data => {
+      pages.push(...data);
+      searchRoot.setAttribute('aria-busy', 'false');
+      if (field.value) displayResults.call(field);
+    })
+    .catch(error => {
+      searchRoot.setAttribute('aria-busy', 'false');
+      console.error('Search index failed to load.', error);
+    })
 
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
@@ -62,7 +71,7 @@
   const field = document.querySelector('#search');
   const resultsList = document.querySelector('#list');
 
-  field.addEventListener('keyup', displayResults);
+  field.addEventListener('input', displayResults);
 
   field.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
