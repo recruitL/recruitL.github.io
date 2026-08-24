@@ -7,10 +7,12 @@ excerpt: ""
 ---
 
 <header class="research-home__intro">
-  <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
-  <h1>Tracing gravity through computation.</h1>
-  <p class="research-home__lead">This is recruitL's open research atlas: a place to follow questions, methods, and code across gravitation and relativistic astrophysics.</p>
-  <p class="research-home__summary">My current interests include gravitation, relativistic astrophysics, numerical computation, and reproducing methods from papers. The site serves both as a public research entry point and a searchable, reproducible record of work in progress.</p>
+  <div class="research-home__intro-inner">
+    <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
+    <h1>Tracing gravity through computation.</h1>
+    <p class="research-home__lead">This is recruitL's open research atlas: a place to follow questions, methods, and code across gravitation and relativistic astrophysics.</p>
+    <p class="research-home__summary">My current interests include gravitation, relativistic astrophysics, numerical computation, and reproducing methods from papers. The site serves both as a public research entry point and a searchable, reproducible record of work in progress.</p>
+  </div>
 </header>
 
 {% assign research_topics = site.data.research_topics.topics | sort: "order" %}

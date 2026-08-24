@@ -381,7 +381,7 @@ button.sidebar-section__toggle:focus {
 }
 
 .home-main {
-  padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(4rem, 9vw, 7rem);
+  padding: 0 0 clamp(4rem, 9vw, 7rem);
 }
 
 .home-content {
@@ -389,9 +389,28 @@ button.sidebar-section__toggle:focus {
 }
 
 .research-home__intro {
+  --hero-overlay-strong: color-mix(in srgb, var(--ink-rich) 82%, transparent);
+  --hero-overlay-middle: color-mix(in srgb, var(--ink-rich) 66%, transparent);
+  --hero-overlay-light: color-mix(in srgb, var(--ink-rich) 28%, transparent);
+  align-items: center;
+  background-image:
+    linear-gradient(90deg, var(--hero-overlay-strong) 0%, var(--hero-overlay-middle) 52%, var(--hero-overlay-light) 100%),
+    url("/assets/images/home/activity-mountains.jpg");
+  background-position: center 48%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: 1px solid var(--border-strong);
+  box-sizing: border-box;
+  display: flex;
+  margin-inline: calc(-1 * var(--page-gutter));
+  max-width: none;
+  min-height: clamp(34rem, 72vh, 47rem);
+  padding: clamp(4.5rem, 9vw, 7rem) var(--page-gutter);
+}
+
+.research-home__intro-inner {
   max-width: var(--reading-width);
-  padding-bottom: clamp(3rem, 7vw, 5.5rem);
+  width: 100%;
 }
 
 .typeset .research-home__kicker,
@@ -406,25 +425,31 @@ button.sidebar-section__toggle:focus {
 }
 
 .site-stage .research-home__intro h1 {
-  color: var(--text-primary);
+  color: var(--surface-strong);
   font-family: var(--font-serif);
   font-size: clamp(2.65rem, 6vw, 5rem);
   letter-spacing: -.045em;
   line-height: .98;
   margin: var(--space-5) 0 var(--space-6);
   max-width: 12ch;
+  text-shadow: 0 2px 18px color-mix(in srgb, var(--ink-rich) 28%, transparent);
+}
+
+.typeset .research-home__intro .research-home__kicker {
+  color: color-mix(in srgb, var(--accent-muted) 72%, var(--surface-strong));
 }
 
 .typeset .research-home__lead {
-  color: var(--text-primary);
+  color: color-mix(in srgb, var(--surface-strong) 95%, transparent);
   font-family: var(--font-serif);
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   line-height: 1.55;
   margin: 0 0 var(--space-4);
+  text-shadow: 0 1px 12px color-mix(in srgb, var(--ink-rich) 30%, transparent);
 }
 
 .typeset .research-home__summary {
-  color: var(--text-secondary);
+  color: color-mix(in srgb, var(--surface-strong) 84%, transparent);
   line-height: var(--line-height-relaxed);
   margin: 0;
   max-width: 62ch;
@@ -744,7 +769,7 @@ button.sidebar-section__toggle:focus {
   }
 
   .home-main {
-    padding-top: 3.5rem;
+    padding-top: 0;
   }
 
   .typeset [id] {
@@ -782,6 +807,18 @@ button.sidebar-section__toggle:focus {
 
   .site-stage .research-home__intro h1 {
     font-size: clamp(2.45rem, 13vw, 3.5rem);
+  }
+
+  .research-home__intro {
+    --hero-overlay-strong: color-mix(in srgb, var(--ink-rich) 84%, transparent);
+    --hero-overlay-light: color-mix(in srgb, var(--ink-rich) 58%, transparent);
+    background-image:
+      linear-gradient(90deg, var(--hero-overlay-strong) 0%, var(--hero-overlay-light) 100%),
+      url("/assets/images/home/activity-mountains.jpg");
+    background-position: 56% center;
+    min-height: auto;
+    padding-bottom: 4.5rem;
+    padding-top: 4rem;
   }
 
   .research-home__section-heading,
@@ -837,5 +874,24 @@ button.sidebar-section__toggle:focus {
   .site-stage .main > .article.content {
     max-width: none;
     width: 100%;
+  }
+
+  .research-home__intro {
+    background: none;
+    color: var(--text-primary);
+    margin-inline: 0;
+    min-height: 0;
+    padding: 0 0 3rem;
+  }
+
+  .site-stage .research-home__intro h1,
+  .typeset .research-home__lead,
+  .typeset .research-home__summary {
+    color: var(--text-primary);
+    text-shadow: none;
+  }
+
+  .typeset .research-home__intro .research-home__kicker {
+    color: var(--accent-dark);
   }
 }

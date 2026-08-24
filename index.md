@@ -7,10 +7,12 @@ excerpt: ""
 ---
 
 <header class="research-home__intro">
-  <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
-  <h1>探索引力，以计算抵达。</h1>
-  <p class="research-home__lead">这里是 recruitL 的开放研究入口：沿着问题、方法和代码，记录对引力与相对论天体物理的持续探索。</p>
-  <p class="research-home__summary">主要关注引力、相对论天体物理、数值计算和论文复现。网站既面向同行与读者，也作为一份持续生长、可检索、可复现的个人研究地图。</p>
+  <div class="research-home__intro-inner">
+    <p class="research-home__kicker">Theoretical physics · Scientific computing</p>
+    <h1>探索引力，以计算抵达。</h1>
+    <p class="research-home__lead">这里是 recruitL 的开放研究入口：沿着问题、方法和代码，记录对引力与相对论天体物理的持续探索。</p>
+    <p class="research-home__summary">主要关注引力、相对论天体物理、数值计算和论文复现。网站既面向同行与读者，也作为一份持续生长、可检索、可复现的个人研究地图。</p>
+  </div>
 </header>
 
 {% assign research_topics = site.data.research_topics.topics | sort: "order" %}
