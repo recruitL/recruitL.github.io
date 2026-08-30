@@ -53,5 +53,11 @@ wide: true
       <td data-label="状态">收录个人制作的 Codex 动画宠物，首个角色为“伊轻舞”</td>
       <td data-label="资料"><a href="https://github.com/recruitL/codex-pets">宠物资源</a></td>
     </tr>
+    <tr>
+      <td data-label="仓库"><strong><a href="https://github.com/recruitL/plugins">plugins</a></strong></td>
+      <td data-label="方向">个人插件合集</td>
+      <td data-label="状态">按 Zotero、Obsidian 和 Edge 分层整理插件；当前收录 Obsidian Research Dashboard</td>
+      <td data-label="资料"><a href="https://github.com/recruitL/plugins">插件合集</a></td>
+    </tr>
   </tbody>
 </table>

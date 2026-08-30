@@ -53,5 +53,11 @@ This page organizes public repositories, experiment scripts, paper reproduction 
       <td data-label="Status">Collects custom animated Codex pets, beginning with Yi Qingwu</td>
       <td data-label="Resources"><a href="https://github.com/recruitL/codex-pets">Pet assets</a></td>
     </tr>
+    <tr>
+      <td data-label="Repository"><strong><a href="https://github.com/recruitL/plugins">plugins</a></strong></td>
+      <td data-label="Focus">Personal plugin collection</td>
+      <td data-label="Status">Organizes plugins by Zotero, Obsidian, and Edge; currently includes Obsidian Research Dashboard</td>
+      <td data-label="Resources"><a href="https://github.com/recruitL/plugins">Plugin collection</a></td>
+    </tr>
   </tbody>
 </table>
