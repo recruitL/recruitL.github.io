@@ -1,28 +1,28 @@
 {
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30 08:27 CST",
-  "window": "2026-08-29 00:00 至 2026-08-31 00:00 Asia/Shanghai",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31 08:39 CST",
+  "window": "2026-08-30 00:00 至 2026-09-01 00:00 Asia/Shanghai",
   "counts": {},
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "arXiv GW/compact related",
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "arXiv AI radar",
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "Nature RSS",
       "ok": true,
-      "count": 0
+      "count": 2
     },
     {
       "source": "Science RSS",
@@ -52,17 +52,17 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "Science Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Physical Review Letters Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Living Reviews in Relativity Crossref",
@@ -76,8 +76,8 @@
     }
   ],
   "total_papers": 0,
-  "total_review_candidates": 0,
-  "report_path": "/papers/2026-08-30/",
-  "review_path": "_paper_reviews/2026-08-30.md",
+  "total_review_candidates": 3,
+  "report_path": "/papers/2026-08-31/",
+  "review_path": "_paper_reviews/2026-08-31.md",
   "papers": []
 }
