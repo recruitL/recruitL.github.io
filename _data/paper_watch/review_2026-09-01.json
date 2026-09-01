@@ -78,12 +78,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 19,
-  "total_review_candidates": 29,
-  "report_path": "/papers/2026-09-01/",
   "review_path": "_paper_reviews/2026-09-01.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "doi:10.1103/dy3h-65ty",
       "title": "Pitching cosmic curveballs: Environmental effects on extreme-mass-ratio inspirals with spinning secondaries",
       "authors": [
@@ -117,6 +115,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/w6fl-nx59",
       "title": "Experimental Multipartite Entanglement Detection with Minimal-Size Correlations",
       "authors": [
@@ -149,6 +148,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/ydjj-6r9l",
       "title": "Collinear $p$-Wave Magnetism and Hidden Orbital Ferrimagnetism",
       "authors": [
@@ -181,6 +181,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/zbxv-vtq8",
       "title": "Kinetic Kagome Magnetism: From Self-Trapping RVB Polarons to Semiclassical Correlations",
       "authors": [
@@ -213,6 +214,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/hgfn-k4ql",
       "title": "Colloidal Suspensions Can Have Nonzero Angles of Repose below the Minimal Value for Athermal Frictionless Particles",
       "authors": [
@@ -245,6 +247,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "doi:10.1103/lch5-7zp4",
       "title": "Insulating out-of-plane transport in anisotropic metals: the case of Sr 2 RuO 4 and related layered oxides",
       "authors": [
@@ -274,6 +277,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "doi:10.1103/dz8h-v27h",
       "title": "Reversible to irreversible transitions in pattern-forming systems with cyclic interactions",
       "authors": [
@@ -303,6 +307,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "doi:10.1103/zbxv-vtq8",
       "title": "Kinetic Kagome Magnetism: From Self-Trapping RVB Polarons to Semiclassical Correlations",
       "authors": [
@@ -335,6 +340,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "doi:10.1103/ctp9-k77q",
       "title": "Quantum criticality from spectral collapse in the two-photon Rabi model",
       "authors": [
@@ -364,6 +370,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "doi:10.1103/hgfn-k4ql",
       "title": "Colloidal Suspensions Can Have Nonzero Angles of Repose below the Minimal Value for Athermal Frictionless Particles",
       "authors": [
@@ -395,6 +402,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "doi:10.1103/f939-mjhj",
       "title": "From the gravitational Compton amplitude to black hole perturbation theory",
       "authors": [
@@ -424,6 +432,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "doi:10.1103/rvlj-fmf9",
       "title": "Nested hyperedges promote the onset of collective transitions but suppress explosive behavior",
       "authors": [
@@ -453,6 +462,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "doi:10.1103/rbyz-h78n",
       "title": "Solubility enhanced surfactant-induced flow in air-liquid-air sheets",
       "authors": [
@@ -482,6 +492,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "doi:10.1103/bvrv-g659",
       "title": "Unexpected large relative strong phase and search for isospin breaking and C P asymmetries in J / ψ → K * ( 892 ) K ‾",
       "authors": [
@@ -511,6 +522,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "doi:10.1103/w6fl-nx59",
       "title": "Experimental Multipartite Entanglement Detection with Minimal-Size Correlations",
       "authors": [
@@ -547,6 +559,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "doi:10.1103/7mv6-4g91",
       "title": "Hierarchical time crystals",
       "authors": [
@@ -576,6 +589,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "doi:10.1103/l681-pr7z",
       "title": "Crosstalk and Oersted field interference resolve the hidden spin-wave puzzle in hematite",
       "authors": [
@@ -605,6 +619,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "doi:10.1103/ydjj-6r9l",
       "title": "Collinear p -Wave Magnetism and Hidden Orbital Ferrimagnetism",
       "authors": [
@@ -635,6 +650,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "doi:10.1103/56yd-sfks",
       "title": "Interplay between evolutionary and epidemic time scales challenges the outcome of control policies",
       "authors": [
@@ -660,6 +676,306 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "https://www.nature.com/articles/d41586-026-02642-x",
+      "title": "Scale of snakebites estimated globally",
+      "authors": [
+        "Mary Abraham"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02642-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "https://www.nature.com/articles/d41586-026-02543-z",
+      "title": "What’s your lab’s archetype? The answer could inform how you use AI",
+      "authors": [
+        "Jenna Ahart"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02543-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "https://www.nature.com/articles/d41586-026-02685-0",
+      "title": "Order from disorder: do we need a new law of physics?",
+      "authors": [
+        "Graham Shields"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02685-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "https://www.nature.com/articles/d41586-026-02669-0",
+      "title": "The leap second is dead. Long live the leap hour?",
+      "authors": [
+        "Elizabeth Gibney"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02669-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "https://www.nature.com/articles/d41586-026-02687-y",
+      "title": "Why are rich people so pessimistic? What the numbers say",
+      "authors": [
+        "Florence Gaub"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02687-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/d41586-026-02687-y",
+      "title": "Why are rich people so pessimistic? What the numbers say",
+      "authors": [
+        "Florence Gaub"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02687-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02687-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/d41586-026-02642-x",
+      "title": "Scale of snakebites estimated globally",
+      "authors": [
+        "Mary Abraham"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02642-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02642-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-02669-0",
+      "title": "The leap second is dead. Long live the leap hour?",
+      "authors": [
+        "Elizabeth Gibney"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02669-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02669-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-02543-z",
+      "title": "What’s your lab’s archetype? The answer could inform how you use AI",
+      "authors": [
+        "Jenna Ahart"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02543-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02543-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02685-0",
+      "title": "Order from disorder: do we need a new law of physics?",
+      "authors": [
+        "Graham Shields"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02685-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-08-31T08:00:00+08:00",
+      "updated": "2026-08-31T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02685-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
