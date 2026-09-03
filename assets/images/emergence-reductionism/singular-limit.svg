@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">有限系统与热力学极限中的相变</title>
+  <desc id="desc">左侧展示有限粒子数下光滑的自由能曲线逐渐变尖，右侧展示热力学极限中的非解析尖点。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#102033" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#49645f"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="700" rx="28" fill="#f7f4ed"/>
+  <text x="600" y="55" text-anchor="middle" fill="#102033" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="30" font-weight="700">奇异极限：每个有限系统都光滑，极限却可以不光滑</text>
+  <text x="600" y="87" text-anchor="middle" fill="#526964" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="17">示意曲线表示控制参数 t 附近的自由能密度；纵横比例不对应具体模型</text>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="125" width="500" height="420" rx="24" fill="#ffffff"/>
+    <rect x="646" y="125" width="500" height="420" rx="24" fill="#ffffff"/>
+  </g>
+
+  <text x="304" y="165" text-anchor="middle" fill="#0d4f49" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="22" font-weight="700">有限 N：解析、但越来越尖锐</text>
+  <text x="896" y="165" text-anchor="middle" fill="#74381e" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="22" font-weight="700">N → ∞：出现严格非解析点</text>
+
+  <g stroke="#a9bbb7" stroke-width="2">
+    <path d="M105 485 H510"/>
+    <path d="M105 485 V205"/>
+    <path d="M697 485 H1102"/>
+    <path d="M697 485 V205"/>
+  </g>
+  <g fill="#526964" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="15">
+    <text x="500" y="514">t</text>
+    <text x="113" y="221">f(t)</text>
+    <text x="1092" y="514">t</text>
+    <text x="705" y="221">f(t)</text>
+  </g>
+  <g stroke="#d5dfdc" stroke-width="1.5" stroke-dasharray="6 7">
+    <path d="M304 205 V485"/>
+    <path d="M896 205 V485"/>
+  </g>
+
+  <path d="M125 438 C218 426 253 286 304 282 C355 286 390 426 488 438" fill="none" stroke="#91b8b1" stroke-width="5"/>
+  <path d="M125 438 C225 425 270 250 304 247 C338 250 383 425 488 438" fill="none" stroke="#4f9187" stroke-width="5"/>
+  <path d="M125 438 C230 424 284 220 304 218 C324 220 378 424 488 438" fill="none" stroke="#177f75" stroke-width="5"/>
+  <g fill="#0d4f49" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="15">
+    <text x="150" y="300">N₁</text>
+    <text x="178" y="266">N₂</text>
+    <text x="206" y="232">N₃ &gt; N₂ &gt; N₁</text>
+  </g>
+
+  <path d="M718 438 L896 212 L1081 438" fill="none" stroke="#b85f36" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="896" cy="212" r="10" fill="#f2b56b" stroke="#74381e" stroke-width="3"/>
+  <text x="916" y="238" fill="#74381e" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="16" font-weight="700">非解析点 t = 0</text>
+  <text x="896" y="468" text-anchor="middle" fill="#604538" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="16">Lee–Yang 零点在极限中逼近实轴</text>
+
+  <path d="M554 335 H630" fill="none" stroke="#49645f" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="592" y="316" text-anchor="middle" fill="#36514c" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="16" font-weight="700">取极限</text>
+
+  <rect x="93" y="588" width="1014" height="72" rx="19" fill="#102033"/>
+  <text x="600" y="618" text-anchor="middle" fill="#ffffff" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="19" font-weight="700">关键不是“无限系统才真实”，而是极限组织了有限系统的尖锐跨越与有限尺寸标度</text>
+  <text x="600" y="645" text-anchor="middle" fill="#dce9e6" font-family="Inter, Noto Sans SC, PingFang SC, sans-serif" font-size="16">严格相变、有限尺寸近似与实验可观测效应必须同时讨论</text>
+</svg>
