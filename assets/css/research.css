@@ -553,7 +553,19 @@ ol.briefing-archive > li.briefing-archive__item p {
 /* Individual briefing */
 .research-briefing {
   max-width: var(--reading-wide, 52rem);
+  min-width: 0;
   width: 100%;
+}
+
+.research-briefing .briefing-equation {
+  font-family: var(--font-mono, monospace);
+  line-height: 1.55;
+  margin: 1rem 0;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .briefing-heading {
