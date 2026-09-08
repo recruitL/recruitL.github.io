@@ -1,0 +1,502 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08 08:28 CST",
+  "window": "2026-09-07 00:00 至 2026-09-09 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "Science Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-09-08.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "https://www.nature.com/articles/s41586-026-11103-4",
+      "title": "Author Correction: AhR inhibition promotes axon regeneration via a stress–growth switch",
+      "authors": [
+        "Dalia Halawani",
+        "Yiqun Wang",
+        "Jiaxi Li",
+        "Daniel Halperin",
+        "Haofei Ni",
+        "Molly Estill",
+        "Aarthi Ramakrishnan",
+        "Li Shen",
+        "Arthur Sefiani",
+        "Cédric G. Geoffroy",
+        "Roland H. Friedel",
+        "Hongyan Zou"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11103-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "https://www.nature.com/articles/s41586-026-11094-2",
+      "title": "Author Correction: A mouse brain stereotaxic topographic atlas with isotropic 1-μm resolution",
+      "authors": [
+        "Zhao Feng",
+        "Xiangning Li",
+        "Yue Luo",
+        "Xin Liu",
+        "Ben Long",
+        "Tao Jiang",
+        "Xueyan Jia",
+        "Xiaowei Chen",
+        "Jie Luo",
+        "Xiaokang Chai",
+        "Zhen Wang",
+        "Miao Ren",
+        "Xin Lu",
+        "Gang Yao",
+        "Mengting Zhao",
+        "Yuxin Li",
+        "Zhixiang Liu",
+        "Hong Ni",
+        "Chuhao Dou",
+        "Shengda Bao",
+        "Shicheng Yang",
+        "Zoutao Zhang",
+        "Jiandong Zhou",
+        "Lingyi Cai",
+        "Qi Zhang",
+        "Ayizuohere Tudi",
+        "Chaozhen Tan",
+        "Zhengchao Xu",
+        "Siqi Chen",
+        "Wenxiang Ding",
+        "Wenjuan Shi",
+        "Anan Li",
+        "Hong-wei Dong",
+        "Hui Gong",
+        "Qingming Luo"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11094-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "https://www.nature.com/articles/d41586-026-02805-w",
+      "title": "Probing the proteome at cellular scale",
+      "authors": [
+        "Michael Eisenstein"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02805-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "https://www.nature.com/articles/d41586-026-02470-z",
+      "title": "The secret life of a cell-cycle gatekeeper of breast cancer",
+      "authors": [
+        "Cristina Guarducci",
+        "Luca Malorni"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02470-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "https://www.nature.com/articles/d41586-026-02808-7",
+      "title": "Isaac Newton’s remarkable year — and the plagiarism accusations that followed",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02808-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "https://www.nature.com/articles/d41586-026-02822-9",
+      "title": "Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days",
+      "authors": [
+        "Davide Castelvecchi"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02822-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "doi:10.1038/s41586-026-11094-2",
+      "title": "Author Correction: A mouse brain stereotaxic topographic atlas with isotropic 1-μm resolution",
+      "authors": [
+        "Zhao Feng",
+        "Xiangning Li",
+        "Yue Luo",
+        "Xin Liu",
+        "Ben Long",
+        "Tao Jiang",
+        "Xueyan Jia",
+        "Xiaowei Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11094-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11094-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "doi:10.1038/d41586-026-02808-7",
+      "title": "Isaac Newton’s remarkable year — and the plagiarism accusations that followed",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02808-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02808-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "doi:10.1038/d41586-026-02805-w",
+      "title": "Probing the proteome at cellular scale",
+      "authors": [
+        "Michael Eisenstein"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02805-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02805-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "doi:10.1038/d41586-026-02822-9",
+      "title": "Anthropic AI ‘formalizes’ proof of Fermat’s last theorem in just 11 days",
+      "authors": [
+        "Davide Castelvecchi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02822-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02822-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "doi:10.1038/s41586-026-11103-4",
+      "title": "Author Correction: AhR inhibition promotes axon regeneration via a stress–growth switch",
+      "authors": [
+        "Dalia Halawani",
+        "Yiqun Wang",
+        "Jiaxi Li",
+        "Daniel Halperin",
+        "Haofei Ni",
+        "Molly Estill",
+        "Aarthi Ramakrishnan",
+        "Li Shen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11103-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11103-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "doi:10.1038/d41586-026-02470-z",
+      "title": "The secret life of a cell-cycle gatekeeper of breast cancer",
+      "authors": [
+        "Cristina Guarducci",
+        "Luca Malorni"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02470-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-07T08:00:00+08:00",
+      "updated": "2026-09-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02470-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
