@@ -78,12 +78,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 17,
-  "total_review_candidates": 30,
-  "report_path": "/papers/2026-09-12/",
   "review_path": "_paper_reviews/2026-09-12.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/8v59-c52b",
       "title": "Circumstellar Medium of Supernovae as New Probes for Feebly Interacting Particles",
       "authors": [
@@ -122,6 +120,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/gg3l-cghb",
       "title": "All Steerable Quantum Correlations Can Provide Thermodynamic Advantages in Cooling",
       "authors": [
@@ -154,6 +153,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/9xmv-s7wp",
       "title": "Noise-Symmetry Optimization of Quantum Error-Corrected Metrology",
       "authors": [
@@ -186,6 +186,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/nqmq-8zsl",
       "title": "Experimental Observation of Dynamical Phase Transitions in a Dephased Photonic Quantum Walk",
       "authors": [
@@ -218,6 +219,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/9bys-f6s6",
       "title": "Equivariant Localization for Higher Derivative Supergravity",
       "authors": [
@@ -250,6 +252,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "http://link.aps.org/doi/10.1103/y1nh-1b82",
       "title": "Measurements of $Z$-Boson Pair Entanglement in Decays of Higgs Bosons at the ATLAS Experiment",
       "authors": [
@@ -281,6 +284,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "http://link.aps.org/doi/10.1103/q72k-vdtp",
       "title": "First Energy-Scan Measurement of ${e}^{+}{e}^{−}→{K}^{+}{K}^{−}$ around the $ψ(2S)$ Resonance",
       "authors": [
@@ -313,6 +317,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "http://link.aps.org/doi/10.1103/6bv2-ybsg",
       "title": "Uncharted Logarithmic Structures in QCD Transverse-Energy Flow",
       "authors": [
@@ -345,6 +350,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "http://link.aps.org/doi/10.1103/yfjc-r69d",
       "title": "Generalized Hydrodynamics of Bloch Oscillations in the Absence of a Lattice",
       "authors": [
@@ -377,6 +383,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/dv32-v967",
       "title": "Subangstrom Free-Electron Laser Operation with Undulator Deflection Parameter Reaching the Subunity Regime",
       "authors": [
@@ -409,6 +416,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "http://link.aps.org/doi/10.1103/g98c-463s",
       "title": "Charge-$2e$ Superconductivity from a Disordered Pair Density Wave",
       "authors": [
@@ -441,6 +449,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "http://link.aps.org/doi/10.1103/tsw6-sdhk",
       "title": "Phonons Reflect Dynamic Spin-State Order in ${\\mathrm{LaCoO}}_{3}$",
       "authors": [
@@ -473,6 +482,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "http://link.aps.org/doi/10.1103/2q9c-45cg",
       "title": "Slip-Driven $B1−B2$ Phase Transition in Shock-Compressed KCl",
       "authors": [
@@ -505,6 +515,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "http://link.aps.org/doi/10.1103/xf8k-4r35",
       "title": "Controllable Quantum Phase Transitions and Frustrated Spin Responses in Multiferroic FeS Nanotubes",
       "authors": [
@@ -537,6 +548,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "http://link.aps.org/doi/10.1103/mwl6-8nzl",
       "title": "Coexisting Spin, Vibrational, and Orbital Excitations in Conductance Spectra",
       "authors": [
@@ -569,6 +581,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "http://link.aps.org/doi/10.1103/161m-526h",
       "title": "Mechanical Sensing of Metamagnetic Tricriticality in Two-Dimensional ${\\text{CrI}}_{3}$",
       "authors": [
@@ -601,6 +614,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "http://link.aps.org/doi/10.1103/xskm-5w1g",
       "title": "Spin-to-Charge Conversion Driven by Inverse Chiral-Induced Spin Selectivity",
       "authors": [
@@ -629,6 +643,399 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "https://www.nature.com/articles/d41586-026-02893-8",
+      "title": "Briefing Chat: The Bunsen burner myth that turns out to be just hot air",
+      "authors": [
+        "Shamini Bundell",
+        "Nick Petrić Howe"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02893-8",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "https://www.nature.com/articles/d41586-026-02892-9",
+      "title": "NSF moves to overhaul funding approach in line with White House priorities",
+      "authors": [
+        "Dan Garisto"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02892-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "https://www.nature.com/articles/d41586-026-02883-w",
+      "title": "People trust scientists seen to be 'on their side', UK study find",
+      "authors": [
+        "Chris Simms"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02883-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "https://www.nature.com/articles/d41586-026-02763-3",
+      "title": "El Niño goes viral — and scientists learn what makes people care about the climate",
+      "authors": [
+        "Dhruv Shenai"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02763-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "https://www.nature.com/articles/d41586-026-02827-4",
+      "title": "Successful early-career scientists rely on network of mentors",
+      "authors": [
+        "Mohana Basu"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02827-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "https://www.nature.com/articles/d41586-026-02828-3",
+      "title": "Osteoporosis affects millions: could modified cells rebuild their bones?",
+      "authors": [
+        "Elie Dolgin"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02828-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1038/d41586-026-02893-8",
+      "title": "Briefing Chat: The Bunsen burner myth that turns out to be just hot air",
+      "authors": [
+        "Shamini Bundell",
+        "Nick Petrić Howe"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02893-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02893-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/d41586-026-02883-w",
+      "title": "People trust scientists seen to be 'on their side', UK study find",
+      "authors": [
+        "Chris Simms"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02883-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02883-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/d41586-026-02827-4",
+      "title": "Successful early-career scientists rely on network of mentors",
+      "authors": [
+        "Mohana Basu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02827-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02827-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-02763-3",
+      "title": "El Niño goes viral — and scientists learn what makes people care about the climate",
+      "authors": [
+        "Dhruv Shenai"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02763-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02763-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-02892-9",
+      "title": "NSF moves to overhaul funding approach in line with White House priorities",
+      "authors": [
+        "Dan Garisto"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02892-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02892-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02828-3",
+      "title": "Osteoporosis affects millions: could modified cells rebuild their bones?",
+      "authors": [
+        "Elie Dolgin"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02828-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02828-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "doi:10.1126/science.ael8642",
+      "title": "Ban bets on unfinished clinical trials",
+      "authors": [
+        "Y. Tony Yang",
+        "Aaron S. Kesselheim"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1126/science.ael8642",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-11T08:00:00+08:00",
+      "updated": "2026-09-11T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.ael8642",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
