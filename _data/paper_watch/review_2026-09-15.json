@@ -78,12 +78,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 45,
-  "total_review_candidates": 66,
-  "report_path": "/papers/2026-09-15/",
   "review_path": "_paper_reviews/2026-09-15.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/yknv-rhw9",
       "title": "Constraints on Solar Reflected Dark Matter from XENON1T and XENONnT Data",
       "authors": [
@@ -122,6 +120,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "doi:10.1103/yknv-rhw9",
       "title": "Constraints on Solar Reflected Dark Matter from XENON1T and XENONnT Data",
       "authors": [
@@ -163,6 +162,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/czfy-dzkd",
       "title": "Essay: Semiconductor Sources of Large-Scale Photonic Entanglement for Science and Technology",
       "authors": [
@@ -195,6 +195,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/bvkl-8pq2",
       "title": "High-Order Dynamical Decoupling in the Weak-Coupling Regime",
       "authors": [
@@ -227,6 +228,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/k9k1-6281",
       "title": "Experimental Asynchronous Measurement-Device-Independent Quantum Cryptographic Conferencing",
       "authors": [
@@ -259,6 +261,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "http://link.aps.org/doi/10.1103/f3nk-5lt9",
       "title": "Measurement of Charged-Particle Production in $\\sqrt{{s}_{\\mathrm{NN}}}=9.62\\text{ }\\text{ }\\mathrm{TeV}$ Proton-Oxygen Collisions as a Probe of Cosmic-Ray Air Showers with the ATLAS Detector",
       "authors": [
@@ -291,6 +294,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "http://link.aps.org/doi/10.1103/3l7y-kngf",
       "title": "Probing Magnetic Hysteresis at Amorphous Glass Interfaces via Quadrupolar-Enhanced $^{21}\\mathrm{Ne}$ Spin Relaxation",
       "authors": [
@@ -323,6 +327,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "http://link.aps.org/doi/10.1103/9dhz-dxc8",
       "title": "Motion-Induced Directionality of Collective Emission in a Nonchiral Waveguide",
       "authors": [
@@ -355,6 +360,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "http://link.aps.org/doi/10.1103/p4qp-wnhr",
       "title": "Orbit-Resolved Imaging of Paired Resonances in a Wave-Chaotic Microcavity",
       "authors": [
@@ -387,6 +393,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/yfzv-49t8",
       "title": "Aerosol Generation by the Splashing of Low Viscosity Drops Impacting Liquid Layers",
       "authors": [
@@ -419,6 +426,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "http://link.aps.org/doi/10.1103/ld98-qv7p",
       "title": "Disorder-Driven Enhancement of Coulomb Repulsion Governs the Superconducting Dome in Ionic-Liquid-Gated Quasi-2D Materials",
       "authors": [
@@ -451,6 +459,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "http://link.aps.org/doi/10.1103/pwzn-m4d2",
       "title": "Unconventional Anisotropic Charge Dynamics in Bulk $1T\\text{−}{\\mathrm{TaS}}_{2}$ Induced by Interlayer Dimerization",
       "authors": [
@@ -483,6 +492,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "http://link.aps.org/doi/10.1103/vmhd-jn5y",
       "title": "Extending Topological Bound on Quantum Weight beyond Symmetry-Protected Topological Phases",
       "authors": [
@@ -515,6 +525,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "http://link.aps.org/doi/10.1103/hylp-trxp",
       "title": "Magnetic Skyrmion Interacting with Optical Skyrmion",
       "authors": [
@@ -547,6 +558,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "http://link.aps.org/doi/10.1103/xybk-9c9l",
       "title": "Nanoscale Mapping of Magnetic Orientations with Complex X-Ray Magnetic Linear Dichroism",
       "authors": [
@@ -579,6 +591,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "http://link.aps.org/doi/10.1103/nk3g-crbw",
       "title": "Effective Residual Interaction Kernel Approach for Optical Spectra",
       "authors": [
@@ -611,6 +624,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "http://link.aps.org/doi/10.1103/h1ht-vsrn",
       "title": "Nonlinear Optical Probing of Ferroic Octupolar Order Parameter in Collinear Altermagnet",
       "authors": [
@@ -643,6 +657,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "http://link.aps.org/doi/10.1103/8gx2-rbns",
       "title": "Balancing Information and Dissipation with Partially Observed Fluctuating Signals",
       "authors": [
@@ -675,6 +690,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "http://link.aps.org/doi/10.1103/rvcn-f52z",
       "title": "Orientation Reconstruction of Proteins using Coulomb Explosions",
       "authors": [
@@ -707,6 +723,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "doi:10.1103/lh7v-r983",
       "title": "Exact coherent structures as building blocks of turbulence on spatially extended domains",
       "authors": [
@@ -736,6 +753,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "doi:10.1103/nk3g-crbw",
       "title": "Effective Residual Interaction Kernel Approach for Optical Spectra",
       "authors": [
@@ -767,6 +785,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "doi:10.1103/7wl9-5971",
       "title": "Micromotion area as proxy for anomalous Floquet topological systems",
       "authors": [
@@ -796,6 +815,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "doi:10.1103/8jyg-m72v",
       "title": "Quantum energetic advantage before computational advantage in Boson Sampling",
       "authors": [
@@ -825,6 +845,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "doi:10.1103/zh7p-f7tc",
       "title": "Distributed quantum simulation",
       "authors": [
@@ -854,6 +875,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "doi:10.1103/yfzv-49t8",
       "title": "Aerosol Generation by the Splashing of Low Viscosity Drops Impacting Liquid Layers",
       "authors": [
@@ -884,6 +906,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "doi:10.1103/xybk-9c9l",
       "title": "Nanoscale Mapping of Magnetic Orientations with Complex X-Ray Magnetic Linear Dichroism",
       "authors": [
@@ -920,6 +943,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "doi:10.1103/bvkl-8pq2",
       "title": "High-Order Dynamical Decoupling in the Weak-Coupling Regime",
       "authors": [
@@ -950,6 +974,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "doi:10.1103/f3nk-5lt9",
       "title": "Measurement of Charged-Particle Production in s NN = 9.62 TeV Proton-Oxygen Collisions as a Probe of Cosmic-Ray Air Showers with the ATLAS Detector",
       "authors": [
@@ -986,6 +1011,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "doi:10.1103/h1rv-bv9y",
       "title": "Emergent Andreev reflection from a lattice duality defect",
       "authors": [
@@ -1015,6 +1041,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "doi:10.1103/h1ht-vsrn",
       "title": "Nonlinear Optical Probing of Ferroic Octupolar Order Parameter in Collinear Altermagnet",
       "authors": [
@@ -1046,6 +1073,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "doi:10.1103/61hq-rs8x",
       "title": "Criticality and Universality of the Generalized Kuramoto Model",
       "authors": [
@@ -1075,6 +1103,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P032",
       "uid": "doi:10.1103/czfy-dzkd",
       "title": "Essay: Semiconductor Sources of Large-Scale Photonic Entanglement for Science and Technology",
       "authors": [
@@ -1104,6 +1133,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P033",
       "uid": "doi:10.1103/1jks-ld4b",
       "title": "Microscopic signatures of Chern number sign reversal in twisted bilayer WSe 2",
       "authors": [
@@ -1133,6 +1163,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P034",
       "uid": "doi:10.1103/ld98-qv7p",
       "title": "Disorder-Driven Enhancement of Coulomb Repulsion Governs the Superconducting Dome in Ionic-Liquid-Gated Quasi-2D Materials",
       "authors": [
@@ -1164,6 +1195,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P035",
       "uid": "doi:10.1103/vmhd-jn5y",
       "title": "Extending Topological Bound on Quantum Weight beyond Symmetry-Protected Topological Phases",
       "authors": [
@@ -1197,6 +1229,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P036",
       "uid": "doi:10.1103/y6z6-h16k",
       "title": "First-principles calculations of internal conversion processes in spin defects",
       "authors": [
@@ -1226,6 +1259,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P037",
       "uid": "doi:10.1103/tclf-b44m",
       "title": "16 O(p, γ ) 17 F reaction and the C and O isotopic ratios in red giant branch stars",
       "authors": [
@@ -1255,6 +1289,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P038",
       "uid": "doi:10.1103/hg9t-ypvf",
       "title": "Beyond the dilute instanton gas: Resurgence with exact saddles in the double well",
       "authors": [
@@ -1284,6 +1319,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P039",
       "uid": "doi:10.1103/9msw-jw53",
       "title": "Bidirectional teleportation using scrambling dynamics: A practical protocol",
       "authors": [
@@ -1313,6 +1349,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P040",
       "uid": "doi:10.1103/pwzn-m4d2",
       "title": "Unconventional Anisotropic Charge Dynamics in Bulk 1 T − TaS 2 Induced by Interlayer Dimerization",
       "authors": [
@@ -1347,6 +1384,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P041",
       "uid": "doi:10.1103/yd5k-f97m",
       "title": "Rocking, rolling, and jumping: Rigid and soft ellipsoids move in many modes",
       "authors": [
@@ -1376,6 +1414,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P042",
       "uid": "doi:10.1103/ycjj-dwh3",
       "title": "Escape from heterogeneous diffusion",
       "authors": [
@@ -1405,6 +1444,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P043",
       "uid": "doi:10.1103/k9k1-6281",
       "title": "Experimental Asynchronous Measurement-Device-Independent Quantum Cryptographic Conferencing",
       "authors": [
@@ -1440,6 +1480,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P044",
       "uid": "doi:10.1103/9dhz-dxc8",
       "title": "Motion-Induced Directionality of Collective Emission in a Nonchiral Waveguide",
       "authors": [
@@ -1474,6 +1515,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P045",
       "uid": "doi:10.1103/8gx2-rbns",
       "title": "Balancing Information and Dissipation with Partially Observed Fluctuating Signals",
       "authors": [
@@ -1501,6 +1543,675 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1103/3l7y-kngf",
+      "title": "Probing Magnetic Hysteresis at Amorphous Glass Interfaces via Quadrupolar-Enhanced Ne 21 Spin Relaxation",
+      "authors": [
+        "Xiaoping Li",
+        "Wenfeng Fan",
+        "Hang Gao",
+        "Shimiao Fan",
+        "Qi Yuan",
+        "Zhihong Wu",
+        "Wei Quan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/3l7y-kngf",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/3l7y-kngf",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "doi:10.1103/p4qp-wnhr",
+      "title": "Orbit-Resolved Imaging of Paired Resonances in a Wave-Chaotic Microcavity",
+      "authors": [
+        "Ruo-Kai Zheng",
+        "Qi-Tao Cao",
+        "Qihuang Gong",
+        "Yun-Feng Xiao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/p4qp-wnhr",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/p4qp-wnhr",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "doi:10.1103/8bxr-cfnl",
+      "title": "Contact forces in microgel suspensions",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8bxr-cfnl",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8bxr-cfnl",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "https://www.nature.com/articles/s41586-026-11124-z",
+      "title": "Encoded and non-genetic protein variants expand human functional proteome",
+      "authors": [
+        "Vyacheslav Tretyachenko",
+        "Tehila Leiman",
+        "David Morgenstern",
+        "Yishai Levin",
+        "Omer Asraf",
+        "Orna Dahan",
+        "Dvir Dahary",
+        "Yitzhak Pilpel"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11124-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "https://www.nature.com/articles/d41586-026-02908-4",
+      "title": "The roots of astrology, the mysterious nature of time and more: Books in brief",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02908-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "https://www.nature.com/articles/d41586-026-02847-0",
+      "title": "How is climate change affecting conifers and their ability to sequester carbon?",
+      "authors": [
+        "Mary Abraham"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02847-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "https://www.nature.com/articles/d41586-026-02852-3",
+      "title": "The pet trade puts reptiles and amphibians at risk: close legal gaps now",
+      "authors": [
+        "Neil M. Vora",
+        "Susan Lieberman",
+        "Sandra Altherr",
+        "Juliana Machado Ferreira",
+        "Rachel Boratto",
+        "Michèle Hamers",
+        "John E. Scanlon",
+        "Chris Walzer"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02852-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "https://www.nature.com/articles/d41586-026-02829-2",
+      "title": "Donor-funded science is rising in Brazil ― upending a long tradition",
+      "authors": [
+        "Mariana Lenharo"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02829-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "https://www.nature.com/articles/d41586-026-02895-6",
+      "title": "‘Multifunctional’ brain implant translates speech and gestures in real time",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02895-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "https://www.nature.com/articles/d41586-026-02608-z",
+      "title": "UK universities are on the brink — what is their greatest source of stress?",
+      "authors": [
+        "Elliot Yates",
+        "Jack Leeming"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02608-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "https://www.nature.com/articles/d41586-026-02851-4",
+      "title": "Fraud sealed the fate of controversial zoologist Paul Kammerer — 100 years on, his ideas deserve revisiting",
+      "authors": [
+        "Max Telford"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02851-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "https://www.nature.com/articles/d41586-026-02882-x",
+      "title": "Drug firms’ secret data supercharge AI protein models",
+      "authors": [
+        "Ewen Callaway"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02882-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "doi:10.1038/d41586-026-02608-z",
+      "title": "UK universities are on the brink — what is their greatest source of stress?",
+      "authors": [
+        "Elliot Yates",
+        "Jack Leeming"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02608-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02608-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "doi:10.1038/d41586-026-02829-2",
+      "title": "Donor-funded science is rising in Brazil ― upending a long tradition",
+      "authors": [
+        "Mariana Lenharo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02829-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02829-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "doi:10.1038/d41586-026-02852-3",
+      "title": "The pet trade puts reptiles and amphibians at risk: close legal gaps now",
+      "authors": [
+        "Neil M. Vora",
+        "Susan Lieberman",
+        "Sandra Altherr",
+        "Juliana Machado Ferreira",
+        "Rachel Boratto",
+        "Michèle Hamers",
+        "John E. Scanlon",
+        "Chris Walzer"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02852-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02852-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "doi:10.1038/s41586-026-11124-z",
+      "title": "Encoded and non-genetic protein variants expand human functional proteome",
+      "authors": [
+        "Vyacheslav Tretyachenko",
+        "Tehila Leiman",
+        "David Morgenstern",
+        "Yishai Levin",
+        "Omer Asraf",
+        "Orna Dahan",
+        "Dvir Dahary",
+        "Yitzhak Pilpel"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11124-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11124-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "doi:10.1038/d41586-026-02908-4",
+      "title": "The roots of astrology, the mysterious nature of time and more: Books in brief",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02908-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02908-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "doi:10.1038/d41586-026-02851-4",
+      "title": "Fraud sealed the fate of controversial zoologist Paul Kammerer — 100 years on, his ideas deserve revisiting",
+      "authors": [
+        "Max Telford"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02851-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02851-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "doi:10.1038/d41586-026-02895-6",
+      "title": "‘Multifunctional’ brain implant translates speech and gestures in real time",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02895-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02895-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "doi:10.1038/d41586-026-02882-x",
+      "title": "Drug firms’ secret data supercharge AI protein models",
+      "authors": [
+        "Ewen Callaway"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02882-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02882-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "doi:10.1038/d41586-026-02847-0",
+      "title": "How is climate change affecting conifers and their ability to sequester carbon?",
+      "authors": [
+        "Mary Abraham"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02847-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-14T08:00:00+08:00",
+      "updated": "2026-09-14T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02847-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
