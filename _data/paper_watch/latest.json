@@ -1,11 +1,9 @@
 {
-  "date": "2026-09-17",
-  "generated_at": "2026-09-17 08:37 CST",
-  "window": "2026-09-16 00:00 至 2026-09-18 00:00 Asia/Shanghai",
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18 08:26 CST",
+  "window": "2026-09-17 00:00 至 2026-09-19 00:00 Asia/Shanghai",
   "counts": {
-    "must-read": 2,
-    "recommended": 1,
-    "related": 33
+    "related": 14
   },
   "source_statuses": [
     {
@@ -26,22 +24,22 @@
     {
       "source": "Nature RSS",
       "ok": true,
-      "count": 45
+      "count": 8
     },
     {
       "source": "Science RSS",
       "ok": true,
-      "count": 0
+      "count": 36
     },
     {
       "source": "Physical Review Letters RSS",
       "ok": true,
-      "count": 14
+      "count": 3
     },
     {
       "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "Living Reviews in Relativity RSS",
@@ -56,17 +54,17 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 20
+      "count": 8
     },
     {
       "source": "Science Crossref",
       "ok": true,
-      "count": 0
+      "count": 20
     },
     {
       "source": "Physical Review Letters Crossref",
       "ok": true,
-      "count": 20
+      "count": 10
     },
     {
       "source": "Living Reviews in Relativity Crossref",
@@ -79,180 +77,66 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 36,
+  "total_papers": 14,
   "total_review_candidates": 80,
-  "report_path": "/papers/2026-09-17/",
-  "review_path": "_paper_reviews/2026-09-17.md",
+  "report_path": "/papers/2026-09-18/",
+  "review_path": "_paper_reviews/2026-09-18.md",
   "papers": [
     {
-      "uid": "http://link.aps.org/doi/10.1103/dy3h-65ty",
-      "title": "Pitching Cosmic Curveballs: Environmental Effects on Extreme-Mass-Ratio Inspirals with Spinning Secondaries",
+      "uid": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
+      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid $^{4}\\mathrm{He}$ Gyrometer",
       "authors": [
-        "Leif Lui, Lisa V. Drummond, and Alejandro Torres-Orjuela"
+        "Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley"
       ],
-      "abstract": "Author(s): Leif Lui, Lisa V. Drummond, and Alejandro Torres-Orjuela Much like the aerodynamic deflection of a spinning curveball, a rotating secondary in an extreme-mass-ratio inspiral (EMRI) experiences Magnus and lift forces, in addition to the standard drag force, when traversing a gaseous environment. We present the first framework that incorporates these specif… [Phys. Rev. Lett. 137, 121403] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/dy3h-65ty",
-      "source": "Physical Review Letters",
+      "abstract": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley A proposed lab-based quantum sensor could precisely measure within seconds the warping of spacetime caused by Earth’s rotation. [Phys. Rev. Lett. 137, 121404] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
       "categories": [
-        "Cosmology, Astrophysics, and Gravitation",
         "Cosmology, Astrophysics, and Gravitation"
       ],
       "doi": "",
       "journal": "Physical Review Letters",
-      "score": 99,
-      "priority": "must-read",
-      "area": "core",
+      "score": 33,
+      "priority": "related",
+      "area": "related",
       "tags": [
-        "致密双星建模",
-        "LVK/LISA/引力波观测",
         "gr-qc 相关方向"
       ],
       "noise_tags": [],
       "matched_keywords": [
-        "inspiral",
-        "LISA",
         "cosmology"
       ],
       "analysis": {
-        "zh_summary": "Author(s): Leif Lui, Lisa V.",
-        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、gr-qc 相关方向。",
-        "method_or_signal": "inspiral, LISA, cosmology",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/dy3h-65ty",
-      "title": "Pitching Cosmic Curveballs: Environmental Effects on Extreme-Mass-Ratio Inspirals with Spinning Secondaries",
-      "authors": [
-        "Leif Lui",
-        "Lisa V. Drummond",
-        "Alejandro Torres-Orjuela"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/dy3h-65ty",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/dy3h-65ty",
-      "journal": "Physical Review Letters",
-      "score": 60,
-      "priority": "must-read",
-      "area": "core",
-      "tags": [
-        "致密双星建模"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "inspiral"
-      ],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：致密双星建模。",
-        "method_or_signal": "inspiral",
-        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/2g7f-5dlb",
-      "title": "Direct Observation of Antimagnons with Inverted Dispersion",
-      "authors": [
-        "Hanchen Wang, Junfeng Hu, Wenjie Song, Artim L. Bassant, Jinlong Wang, Haishen Peng, Emir Karadža, Paul Noël, William Legrand, Richard Schlitz, Jilei Chen, Song Liu, Dapeng Yu, Jean-Philippe Ansermet, Rembert A. Duine, Pietro Gambardella, and Haiming Yu"
-      ],
-      "abstract": "Author(s): Hanchen Wang, Junfeng Hu, Wenjie Song, Artim L. Bassant, Jinlong Wang, Haishen Peng, Emir Karadža, Paul Noël, William Legrand, Richard Schlitz, Jilei Chen, Song Liu, Dapeng Yu, Jean-Philippe Ansermet, Rembert A. Duine, Pietro Gambardella, and Haiming Yu We report direct spectroscopic evidence of antimagnons, i.e., negative-energy spin waves identified by their signature inverted dispersion and left-handed precession with Brillouin light scattering (BLS) spectroscopy. We investigate an ultrathin BiYIG film with a perpendicular magnetic anisotropy th… [Phys. Rev. Lett. 137, 126703] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/2g7f-5dlb",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 48,
-      "priority": "recommended",
-      "area": "core",
-      "tags": [
-        "致密双星建模"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "precession"
-      ],
-      "analysis": {
-        "zh_summary": "Author(s): Hanchen Wang, Junfeng Hu, Wenjie Song, Artim L.",
-        "why_relevant": "匹配关注项：致密双星建模。",
-        "method_or_signal": "precession",
-        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/ftkb-pkvp",
-      "title": "Long-Lived Telecom-Heralded Single-Photon Storage in an Absorptive Spin-Rephased Quantum Memory",
-      "authors": [
-        "Alberto E. Rodríguez-Moldes",
-        "Félicien Appas",
-        "Jonathan Hänni",
-        "Jelena V. Rakonjac",
-        "Samuele Grandi",
-        "Hugues de Riedmatten"
-      ],
-      "abstract": "Long-lived storage of single photons under the form of atomic excitations is at the foundation of long-distance entanglement distribution in quantum networks. To mitigate decoherence effects induced by the environment, rephasing of the hyperfine coherences using microwave pulses have been implemented in a variety of single-emitter and ensemble-based solid-state systems. However, the demonstration of storage of single photons in an absorptive quantum memory including such a spin-rephasing mechanism remains elusive. In this Letter, we show nonclassical storage of telecom-heralded single photons in a Pr 3 + : Y 2 SiO 5 rare-earth ion doped crystal quantum memory using the atomic frequency comb spin-wave protocol combined with a XY4 spin-rephasing sequence. Long-lived atomic frequency comb photon echoes are first observed in the classical regime for storage times of up to approximately 3 ms. We then demonstrate nonclassical correlations between heralding photons and stored signal photons generated by a cavity-enhanced parametric photon-pair source for storage times of up to 180 μ s and with measured cross-correlation values as high as 4.6(4). Together with the capacity of Pr 3 + : Y 2 SiO 5 quantum memories to support highly efficient and multiplexed storage, this result represents a significant step toward scalable long-distance quantum repeater links.",
-      "url": "https://doi.org/10.1103/ftkb-pkvp",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/ftkb-pkvp",
-      "journal": "Physical Review Letters",
-      "score": 44,
-      "priority": "related",
-      "area": "core",
-      "tags": [
-        "QNM/黑洞扰动"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "echoes"
-      ],
-      "analysis": {
-        "zh_summary": "Long-lived storage of single photons under the form of atomic excitations is at the foundation of long-distance entanglement distribution in quantum networks.",
-        "why_relevant": "匹配关注项：QNM/黑洞扰动。",
-        "method_or_signal": "echoes",
+        "zh_summary": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "cosmology",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
       },
       "ai_blocked": false
     },
     {
-      "uid": "https://www.nature.com/articles/s41586-026-11044-y",
-      "title": "Reimagining research papers as interactive and reliable AI agents",
+      "uid": "doi:10.1126/science.aeg6779",
+      "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
       "authors": [
+        "Harrison G. Zhang",
+        "Peter Eckmann",
         "Jiacheng Miao",
-        "Joe R. Davis",
-        "Yaohui Zhang",
-        "Jonathan K. Pritchard",
+        "Andrew B. Mahon",
         "James Zou"
       ],
-      "abstract": "",
-      "url": "https://www.nature.com/articles/s41586-026-11044-y",
-      "source": "Nature",
+      "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, over 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell-type-specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
+      "url": "https://doi.org/10.1126/science.aeg6779",
+      "source": "Science Crossref",
       "source_kind": "journal_general",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "",
-      "journal": "Nature",
-      "score": 32,
+      "doi": "10.1126/science.aeg6779",
+      "journal": "Science",
+      "score": 24,
       "priority": "related",
       "area": "ai",
       "tags": [
@@ -260,315 +144,28 @@
       ],
       "noise_tags": [],
       "matched_keywords": [
-        "AI agent"
+        "agentic"
       ],
       "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "zh_summary": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented.",
         "why_relevant": "匹配关注项：AI/知识库/模型架构。",
-        "method_or_signal": "AI agent",
+        "method_or_signal": "agentic",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
       },
       "ai_blocked": false
     },
     {
-      "uid": "https://www.nature.com/articles/d41586-026-02880-z",
-      "title": "Turning scientific research papers into interactive AI agents",
-      "authors": [],
-      "abstract": "",
-      "url": "https://www.nature.com/articles/d41586-026-02880-z",
-      "source": "Nature",
-      "source_kind": "journal_general",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "",
-      "journal": "Nature",
-      "score": 32,
-      "priority": "related",
-      "area": "ai",
-      "tags": [
-        "AI/知识库/模型架构"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "AI agent"
-      ],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
-        "method_or_signal": "AI agent",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/4216-bgrp",
-      "title": "Structure and Classification of Matrix Product Quantum Channels",
+      "uid": "http://link.aps.org/doi/10.1103/r62x-kt5j",
+      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
       "authors": [
-        "Giorgio Stucchi, J. Ignacio Cirac, Rahul Trivedi, and Georgios Styliaris"
+        "Evie Ladbrook, Jon P. Wright, and Mark S. Senn"
       ],
-      "abstract": "Author(s): Giorgio Stucchi, J. Ignacio Cirac, Rahul Trivedi, and Georgios Styliaris We develop a framework for matrix product quantum channels, a one-dimensional tensor-network description of completely positive, trace-preserving maps. We focus on translation-invariant channels, generated by a single repeated tensor, that admit a local purification. We show that their purifying iso… [Phys. Rev. Lett. 137, 120401] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/4216-bgrp",
+      "abstract": "Author(s): Evie Ladbrook, Jon P. Wright, and Mark S. Senn Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstruct… [Phys. Rev. Lett. 137, 126504] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/r62x-kt5j",
       "source": "Physical Review Letters",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Giorgio Stucchi, J.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/drwg-dgb7",
-      "title": "Error-Correction Transitions in Finite-Depth Quantum Channels",
-      "authors": [
-        "Arman Sauliere, Guglielmo Lami, Pedro Ribeiro, Andrea De Luca, and Jacopo De Nardis"
-      ],
-      "abstract": "Author(s): Arman Sauliere, Guglielmo Lami, Pedro Ribeiro, Andrea De Luca, and Jacopo De Nardis We study error-correction protocols in which a quantum channel encodes logical information into an enlarged Hilbert space through a one-dimensional random circuit with local gates. We consider both noise acting after the encoding step and noise affecting the encoding circuit itself. Using the cohere… [Phys. Rev. Lett. 137, 120402] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/drwg-dgb7",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Arman Sauliere, Guglielmo Lami, Pedro Ribeiro, Andrea De Luca, and Jacopo De Nardis We study error-correction protocols in which a quantum channel encodes logical information into an enlarged Hilbert space through a one-dimensional random circuit with local gates.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/zhdk-kgzx",
-      "title": "Active Quantum Matter from Monitored Pure-State Dynamics",
-      "authors": [
-        "Jacob F. Steiner, Felix von Oppen, and Reinhold Egger"
-      ],
-      "abstract": "Author(s): Jacob F. Steiner, Felix von Oppen, and Reinhold Egger Quantum many-body systems coupled to out-of-equilibrium reservoirs can behave as active matter and exhibit signs of flocking. However, the resulting steady states are highly mixed and carry only weak quantum signatures. We show that signatures of active matter also arise in ensembles of pure states … [Phys. Rev. Lett. 137, 120403] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/zhdk-kgzx",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Jacob F.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/ftkb-pkvp",
-      "title": "Long-Lived Telecom-Heralded Single-Photon Storage in an Absorptive Spin-Rephased Quantum Memory",
-      "authors": [
-        "Alberto E. Rodríguez-Moldes, Félicien Appas, Jonathan Hänni, Jelena V. Rakonjac, Samuele Grandi, and Hugues de Riedmatten"
-      ],
-      "abstract": "Author(s): Alberto E. Rodríguez-Moldes, Félicien Appas, Jonathan Hänni, Jelena V. Rakonjac, Samuele Grandi, and Hugues de Riedmatten Researchers demonstrate a new quantum memory device that will enable faraway nodes in a network to coordinate in time, a key ingredient for a future quantum Internet. [Phys. Rev. Lett. 137, 120803] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/ftkb-pkvp",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Alberto E.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/j8v5-kyd6",
-      "title": "Systematic Search for Conformal Field Theories in Very Small Spaces",
-      "authors": [
-        "Xiang Li, Ting-Chun Lin, and John McGreevy"
-      ],
-      "abstract": "Author(s): Xiang Li, Ting-Chun Lin, and John McGreevy Ground states of $1+1d$ conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation. This condition is surprisingly well satisfied by ground states of quantum critical lattice models even at small system sizes. We perform a search in the space of states … [Phys. Rev. Lett. 137, 121601] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/j8v5-kyd6",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Particles and Fields",
-        "Particles and Fields"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Xiang Li, Ting-Chun Lin, and John McGreevy Ground states of $1+1d$ conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/q3m4-bcpl",
-      "title": "Factorization beyond Coherence",
-      "authors": [
-        "Thomas Becher, Patrick Hager, Matthias Neubert, and Dominik Schwienbacher"
-      ],
-      "abstract": "Author(s): Thomas Becher, Patrick Hager, Matthias Neubert, and Dominik Schwienbacher We propose a novel factorization theorem for $N$-jettiness at hadron colliders, which incorporates coherence-violating effects induced by Glauber gluons and several new momentum modes. Their interplay generates coherence-violating logarithms starting at four-loop ($N≥1$) or five-loop order ($N=0$). … [Phys. Rev. Lett. 137, 121902] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/q3m4-bcpl",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Particles and Fields",
-        "Particles and Fields"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Thomas Becher, Patrick Hager, Matthias Neubert, and Dominik Schwienbacher We propose a novel factorization theorem for $N$-jettiness at hadron colliders, which incorporates coherence-violating effects induced by Glauber gluons and several new momentum modes.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/pdby-ss2t",
-      "title": "Rydberg States with a Liquid Core",
-      "authors": [
-        "Juan Carlos Acosta Matos, P. Giannakeas, and Jan M. Rost"
-      ],
-      "abstract": "Author(s): Juan Carlos Acosta Matos, P. Giannakeas, and Jan M. Rost We develop a self-consistent approach that provides an explicit potential for a Rydberg electron whose ionic core consists of a polarizable medium, typically realized with superfluid droplets. The electron’s motion remains separable in spherical coordinates, but the radial force exerted by the dropl… [Phys. Rev. Lett. 137, 123402] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/pdby-ss2t",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Atomic, Molecular, and Optical Physics",
-        "Atomic, Molecular, and Optical Physics"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Juan Carlos Acosta Matos, P.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/ctp9-k77q",
-      "title": "Quantum Criticality from Spectral Collapse in the Two-Photon Rabi Model",
-      "authors": [
-        "Jiong Li, Jun-Ling Wang, Qing-Hu Chen, and Hai-Qing Lin"
-      ],
-      "abstract": "Author(s): Jiong Li, Jun-Ling Wang, Qing-Hu Chen, and Hai-Qing Lin Spectral collapse in the two-photon quantum Rabi model (tpQRM) has long been regarded as insufficient to establish quantum criticality because, under generic conditions, the lowest excitation gap remains finite. We show that, at a special qubit frequency, spectral collapse in the anisotropic tpQRM c… [Phys. Rev. Lett. 137, 123602] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/ctp9-k77q",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Atomic, Molecular, and Optical Physics",
-        "Atomic, Molecular, and Optical Physics"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Jiong Li, Jun-Ling Wang, Qing-Hu Chen, and Hai-Qing Lin Spectral collapse in the two-photon quantum Rabi model (tpQRM) has long been regarded as insufficient to establish quantum criticality because, under generic conditions, the lowest excitation gap remains finite.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/z4g8-2kwj",
-      "title": "Topological Flat Bands and Fractional Chern Insulators in Rashba Systems with Tunable Superlattice Potentials",
-      "authors": [
-        "Bokai Liang, Wei Qin, and Zhenyu Zhang"
-      ],
-      "abstract": "Author(s): Bokai Liang, Wei Qin, and Zhenyu Zhang Fractional Chern insulators are interaction-driven topological states that realize the lattice analog of the fractional quantum Hall effect without external magnetic fields. Here we propose a programmable platform for engineering topological flat bands by combining a Zeeman field with a tunable elec… [Phys. Rev. Lett. 137, 126604] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/z4g8-2kwj",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
       "categories": [
         "Condensed Matter and Materials",
         "Condensed Matter and Materials"
@@ -582,7 +179,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Author(s): Bokai Liang, Wei Qin, and Zhenyu Zhang Fractional Chern insulators are interaction-driven topological states that realize the lattice analog of the fractional quantum Hall effect without external magnetic fields.",
+        "zh_summary": "Author(s): Evie Ladbrook, Jon P.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -590,17 +187,17 @@
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/l681-pr7z",
-      "title": "Crosstalk and Oersted Field Interference Resolve the Hidden Spin-Wave Puzzle in Hematite",
+      "uid": "http://link.aps.org/doi/10.1103/81qf-zd3y",
+      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
       "authors": [
-        "Yihang Duan, Shangyuan Wang, and Ka Shen"
+        "Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino"
       ],
-      "abstract": "Author(s): Yihang Duan, Shangyuan Wang, and Ka Shen A recent study reporting interferencelike patterns in nonlocal spin-wave measurements on hematite [Sheng et al. , Control of spin currents by magnon interference in a canted antiferromagnet, Nat. Phys. 21 , 740 (2025) .] suggested the existence of a hidden ultrafast spin-wave mode at tens of gigahertz.… [Phys. Rev. Lett. 137, 126705] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/l681-pr7z",
+      "abstract": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior. We study the equilibrium dynamics of an infinite-range quantum Heisenberg model with random couplings, in which local magnetic moments arise from ${\\mat… [Phys. Rev. Lett. 137, 126505] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/81qf-zd3y",
       "source": "Physical Review Letters",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
       "categories": [
         "Condensed Matter and Materials",
         "Condensed Matter and Materials"
@@ -614,7 +211,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Author(s): Yihang Duan, Shangyuan Wang, and Ka Shen A recent study reporting interferencelike patterns in nonlocal spin-wave measurements on hematite [Sheng et al.",
+        "zh_summary": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -622,87 +219,21 @@
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/1yn6-5qdw",
-      "title": "Ultrafast Demagnetization Governed by Spin Fluctuations in ${\\mathrm{CaRuO}}_{3}/{\\mathrm{SrTiO}}_{3}$ Superlattice",
+      "uid": "doi:10.1103/r62x-kt5j",
+      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
       "authors": [
-        "Yu-Han Gao, Wen-Xiao Shi, Yuan-Sha Chen, Ji-Rong Sun, Qing-Lin Yang, Xu Yang, Zhuo Deng, Peng-Tao Yang, Zheng Chang, Hong-Mei Feng, Wei He, Xiang-Qun Zhang, and Zhao-Hua Cheng"
+        "Evie Ladbrook",
+        "Jon P. Wright",
+        "Mark S. Senn"
       ],
-      "abstract": "Author(s): Yu-Han Gao, Wen-Xiao Shi, Yuan-Sha Chen, Ji-Rong Sun, Qing-Lin Yang, Xu Yang, Zhuo Deng, Peng-Tao Yang, Zheng Chang, Hong-Mei Feng, Wei He, Xiang-Qun Zhang, and Zhao-Hua Cheng Contrary to expectations, the magnetization dynamics of a ferromagnet can be accelerated by increasing temperature, laser excitation, or magnetic field—a behavior that holds promise for high-speed spintronics. [Phys. Rev. Lett. 137, 126903] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/1yn6-5qdw",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Yu-Han Gao, Wen-Xiao Shi, Yuan-Sha Chen, Ji-Rong Sun, Qing-Lin Yang, Xu Yang, Zhuo Deng, Peng-Tao Yang, Zheng Chang, Hong-Mei Feng, Wei He, Xiang-Qun Zhang, and Zhao-Hua Cheng Contrary to expectations, the magnetization dynamics of a ferromagnet can be accelerated by increasing temperature, laser excitation, or magnetic field—a behavior that hold...",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/8hbn-pp39",
-      "title": "Erratum: Universal Precision Limits in General Open Quantum Systems [Phys. Rev. Lett. 136 , 190401 (2026)]",
-      "authors": [
-        "Tan Van Vu, Ryotaro Honma, and Keiji Saito"
-      ],
-      "abstract": "Author(s): Tan Van Vu, Ryotaro Honma, and Keiji Saito [Phys. Rev. Lett. 137, 129901] Published Wed Sep 16, 2026",
-      "url": "http://link.aps.org/doi/10.1103/8hbn-pp39",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T18:00:00+08:00",
-      "updated": "2026-09-16T18:00:00+08:00",
-      "categories": [],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Tan Van Vu, Ryotaro Honma, and Keiji Saito [Phys.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/1yn6-5qdw",
-      "title": "Ultrafast Demagnetization Governed by Spin Fluctuations in CaRuO 3 / SrTiO 3 Superlattice",
-      "authors": [
-        "Yu-Han Gao",
-        "Wen-Xiao Shi",
-        "Yuan-Sha Chen",
-        "Ji-Rong Sun",
-        "Qing-Lin Yang",
-        "Xu Yang",
-        "Zhuo Deng",
-        "Peng-Tao Yang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/1yn6-5qdw",
+      "abstract": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstructure of La 1.675 Eu 0.2 Sr 0.125 CuO 4 , a prototypical 1 / 8 -doped cuprate in which structural and electronic heterogeneity is well established. We reveal remarkably broad tetragonallike domain wall regions within the nominally orthorhombic crystal structure, and, upon cooling to 100 K, a fine microstructure of orthorhombiclike stripes embedded within the tetragonal matrix that has significant consequences for interpreting the interplay between structural and electronic heterogeneity in this class of materials. More broadly, this work establishes 3DXRD as a powerful approach for resolving bulk microstructures and understanding their role in emergent functionality.",
+      "url": "https://doi.org/10.1103/r62x-kt5j",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/1yn6-5qdw",
+      "doi": "10.1103/r62x-kt5j",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -711,7 +242,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "zh_summary": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -719,19 +250,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/vhwf-vg84",
-      "title": "Universal closed form for dynamical Love numbers of black holes",
+      "uid": "doi:10.1103/4cvy-mym8",
+      "title": "Topological defects control dynamic crossover in glass-forming liquids",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/vhwf-vg84",
+      "url": "https://doi.org/10.1103/4cvy-mym8",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/vhwf-vg84",
+      "doi": "10.1103/4cvy-mym8",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -748,50 +279,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/8hbn-pp39",
-      "title": "Erratum: Universal Precision Limits in General Open Quantum Systems [Phys. Rev. Lett. 136 , 190401 (2026)]",
-      "authors": [
-        "Tan Van Vu",
-        "Ryotaro Honma",
-        "Keiji Saito"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/8hbn-pp39",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/8hbn-pp39",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/c2yn-qqv9",
-      "title": "Dissipative acousto-mechanical parametric interface between high-overtone acoustics and flexural phonons",
+      "uid": "doi:10.1103/7zzj-78fv",
+      "title": "Criticality on Rényi defects at (2+1)d O(3) quantum critical points",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/c2yn-qqv9",
+      "url": "https://doi.org/10.1103/7zzj-78fv",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/c2yn-qqv9",
+      "doi": "10.1103/7zzj-78fv",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -808,50 +308,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/zhdk-kgzx",
-      "title": "Active Quantum Matter from Monitored Pure-State Dynamics",
-      "authors": [
-        "Jacob F. Steiner",
-        "Felix von Oppen",
-        "Reinhold Egger"
-      ],
-      "abstract": "Quantum many-body systems coupled to out-of-equilibrium reservoirs can behave as active matter and exhibit signs of flocking. However, the resulting steady states are highly mixed and carry only weak quantum signatures. We show that signatures of active matter also arise in ensembles of pure states undergoing monitored quantum dynamics. We consider a spinful Luttinger liquid subject to measurement processes that shuffle spin-up particles to the left and spin-down particles to the right. For weak monitoring strengths and ferromagnetic spin interactions, we find power-law quantum correlations between spin density and charge current, which we identify as a hallmark of active quantum matter. The monitoring plays a dual role, generating the quantum active correlations for weak strengths while driving a Berezinskii-Kosterlitz-Thouless phase transition to a short-range correlated state at larger strengths.",
-      "url": "https://doi.org/10.1103/zhdk-kgzx",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/zhdk-kgzx",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Quantum many-body systems coupled to out-of-equilibrium reservoirs can behave as active matter and exhibit signs of flocking.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/15lg-dl56",
-      "title": "Robustness-runtime tradeoff for quantum state transfer",
+      "uid": "doi:10.1103/r8fj-4t94",
+      "title": "Unconventional superconductivity from lattice quantum disorder",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/15lg-dl56",
+      "url": "https://doi.org/10.1103/r8fj-4t94",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/15lg-dl56",
+      "doi": "10.1103/r8fj-4t94",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -868,146 +337,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/z4g8-2kwj",
-      "title": "Topological Flat Bands and Fractional Chern Insulators in Rashba Systems with Tunable Superlattice Potentials",
-      "authors": [
-        "Bokai Liang",
-        "Wei Qin",
-        "Zhenyu Zhang"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/z4g8-2kwj",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/z4g8-2kwj",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/q3m4-bcpl",
-      "title": "Factorization beyond Coherence",
-      "authors": [
-        "Thomas Becher",
-        "Patrick Hager",
-        "Matthias Neubert",
-        "Dominik Schwienbacher"
-      ],
-      "abstract": "We propose a novel factorization theorem for N -jettiness at hadron colliders, which incorporates coherence-violating effects induced by Glauber gluons and several new momentum modes. Their interplay generates coherence-violating logarithms starting at four-loop ( N ≥ 1 ) or five-loop order ( N = 0 ). We calculate the anomalous dimensions required for the resummation of coherence-violating logarithms and establish a general framework for the systematic treatment of coherence violation. Our findings imply that most existing factorization formulas for global LHC observables must be revised.",
-      "url": "https://doi.org/10.1103/q3m4-bcpl",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/q3m4-bcpl",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "We propose a novel factorization theorem for N -jettiness at hadron colliders, which incorporates coherence-violating effects induced by Glauber gluons and several new momentum modes.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/4216-bgrp",
-      "title": "Structure and Classification of Matrix Product Quantum Channels",
-      "authors": [
-        "Giorgio Stucchi",
-        "J. Ignacio Cirac",
-        "Rahul Trivedi",
-        "Georgios Styliaris"
-      ],
-      "abstract": "We develop a framework for matrix product quantum channels, a one-dimensional tensor-network description of completely positive, trace-preserving maps. We focus on translation-invariant channels, generated by a single repeated tensor, that admit a local purification. We show that their purifying isometry can always be implemented by a constant-depth brickwork quantum circuit, implying that such channels generate only short-range correlations when applied on product states. In contrast to the unitary setting, where one-dimensional quantum cellular automata (in one-to-one correspondence with matrix product unitaries) carry a nontrivial index, we prove that all locally purified channels belong to a single phase, that is, they can be continuously deformed into one another. Then, we extend the framework to a broader class of translation-invariant channels capable of generating long-range entanglement and show that these remain deterministically implementable in constant depth using two rounds of measurements and feedforward.",
-      "url": "https://doi.org/10.1103/4216-bgrp",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/4216-bgrp",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "We develop a framework for matrix product quantum channels, a one-dimensional tensor-network description of completely positive, trace-preserving maps.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/ctp9-k77q",
-      "title": "Quantum Criticality from Spectral Collapse in the Two-Photon Rabi Model",
-      "authors": [
-        "Jiong Li",
-        "Jun-Ling Wang",
-        "Qing-Hu Chen",
-        "Hai-Qing Lin"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/ctp9-k77q",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/ctp9-k77q",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/3p2x-yjyd",
-      "title": "Step-edge anomaly in topological metals",
+      "uid": "doi:10.1103/ngfq-f3t7",
+      "title": "First amplitude analysis of D 0 → K − π 0 e + ν e and observation of D 0 → K 2 * ( 1430 ) − e + ν e",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/3p2x-yjyd",
+      "url": "https://doi.org/10.1103/ngfq-f3t7",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/3p2x-yjyd",
+      "doi": "10.1103/ngfq-f3t7",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -1024,21 +366,21 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/j8v5-kyd6",
-      "title": "Systematic Search for Conformal Field Theories in Very Small Spaces",
+      "uid": "doi:10.1103/81qf-zd3y",
+      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
       "authors": [
-        "Xiang Li",
-        "Ting-Chun Lin",
-        "John McGreevy"
+        "Hossein Hosseinabadi",
+        "Subir Sachdev",
+        "Jamir Marino"
       ],
-      "abstract": "Ground states of 1 + 1 d conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation. This condition is surprisingly well satisfied by ground states of quantum critical lattice models even at small system sizes. We perform a search in the space of states of very small systems (4 qubits and 4 qutrits) and examine the states that satisfy this condition. By reconstructing a local Hamiltonian from each state, we are able to identify many of these solutions with known CFTs; others are gapped fixed points or involve large relevant perturbations, and others are CFTs we have not yet identified. These ideas are also useful for identifying continuous quantum phase transitions in a given family of Hamiltonians and for identifying the nature of the critical theory in small systems.",
-      "url": "https://doi.org/10.1103/j8v5-kyd6",
+      "abstract": "",
+      "url": "https://doi.org/10.1103/81qf-zd3y",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/j8v5-kyd6",
+      "doi": "10.1103/81qf-zd3y",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -1047,7 +389,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Ground states of 1 + 1 d conformal field theories (CFTs) satisfy a local entropic condition called the vector fixed point equation.",
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -1055,19 +397,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/wlcl-c61b",
-      "title": "Next-to-next-to-next-to-leading order QCD corrections to photon-pair production",
+      "uid": "doi:10.1103/d843-3bvb",
+      "title": "Huge symmetric elastoresistance in the Kondo lattice YbRh 2 Si 2",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/wlcl-c61b",
+      "url": "https://doi.org/10.1103/d843-3bvb",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/wlcl-c61b",
+      "doi": "10.1103/d843-3bvb",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -1084,23 +426,22 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/drwg-dgb7",
-      "title": "Error-Correction Transitions in Finite-Depth Quantum Channels",
+      "uid": "doi:10.1103/q3v9-rjm9",
+      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid He 4 Gyrometer",
       "authors": [
-        "Arman Sauliere",
-        "Guglielmo Lami",
-        "Pedro Ribeiro",
-        "Andrea De Luca",
-        "Jacopo De Nardis"
+        "Kai-Isaak Ellers",
+        "Marios Christodoulou",
+        "K. C. Schwab",
+        "K. Birgitta Whaley"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/drwg-dgb7",
+      "url": "https://doi.org/10.1103/q3v9-rjm9",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/drwg-dgb7",
+      "doi": "10.1103/q3v9-rjm9",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -1117,117 +458,48 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/l681-pr7z",
-      "title": "Crosstalk and Oersted Field Interference Resolve the Hidden Spin-Wave Puzzle in Hematite",
-      "authors": [
-        "Yihang Duan",
-        "Shangyuan Wang",
-        "Ka Shen"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/l681-pr7z",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/l681-pr7z",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/2g7f-5dlb",
-      "title": "Direct Observation of Antimagnons with Inverted Dispersion",
-      "authors": [
-        "Hanchen Wang",
-        "Junfeng Hu",
-        "Wenjie Song",
-        "Artim L. Bassant",
-        "Jinlong Wang",
-        "Haishen Peng",
-        "Emir Karadža",
-        "Paul Noël"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/2g7f-5dlb",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/2g7f-5dlb",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/pdby-ss2t",
-      "title": "Rydberg States with a Liquid Core",
-      "authors": [
-        "Juan Carlos Acosta Matos",
-        "P. Giannakeas",
-        "Jan M. Rost"
-      ],
-      "abstract": "We develop a self-consistent approach that provides an explicit potential for a Rydberg electron whose ionic core consists of a polarizable medium, typically realized with superfluid droplets. The electron’s motion remains separable in spherical coordinates, but the radial force exerted by the droplet breaks degeneracy of the angular momentum states nonperturbatively. The ensuing electron spectrum reveals intriguing properties dependent on droplet size and electron excitation. Deviations of the polarizable medium from the continuous spherical distribution can be taken into account as a perturbation of this redefined Rydberg dynamics. We discuss specific but paradigmatic examples for superfluid helium and also propose a way to probe droplet properties, including its possible crystallized fraction through stimulated transitions of the Rydberg electron.",
-      "url": "https://doi.org/10.1103/pdby-ss2t",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/pdby-ss2t",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "We develop a self-consistent approach that provides an explicit potential for a Rydberg electron whose ionic core consists of a polarizable medium, typically realized with superfluid droplets.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/vdp3-dcht",
-      "title": "Wilson-loop-ideal bands and general idealization",
+      "uid": "doi:10.1103/g549-tkdc",
+      "title": "Non-uniform thermal conductivity in nanoscale multiple hotspot systems",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/vdp3-dcht",
+      "url": "https://doi.org/10.1103/g549-tkdc",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-16T08:00:00+08:00",
-      "updated": "2026-09-16T08:00:00+08:00",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/vdp3-dcht",
+      "doi": "10.1103/g549-tkdc",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/6jm3-jyrl",
+      "title": "Search for H → c c ‾ and measurement of H → b b ‾ in vector-boson fusion production with the ATLAS detector",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/6jm3-jyrl",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/6jm3-jyrl",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",

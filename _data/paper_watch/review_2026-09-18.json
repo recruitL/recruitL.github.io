@@ -1,0 +1,2592 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18 08:26 CST",
+  "window": "2026-09-17 00:00 至 2026-09-19 00:00 Asia/Shanghai",
+  "counts": {
+    "related": 14
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 36
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "blocked by Cloudflare challenge"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-09-18.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
+      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid $^{4}\\mathrm{He}$ Gyrometer",
+      "authors": [
+        "Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley"
+      ],
+      "abstract": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley A proposed lab-based quantum sensor could precisely measure within seconds the warping of spacetime caused by Earth’s rotation. [Phys. Rev. Lett. 137, 121404] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
+      "categories": [
+        "Cosmology, Astrophysics, and Gravitation"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 33,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "cosmology"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "cosmology",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "doi:10.1126/science.aeg6779",
+      "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+      "authors": [
+        "Harrison G. Zhang",
+        "Peter Eckmann",
+        "Jiacheng Miao",
+        "Andrew B. Mahon",
+        "James Zou"
+      ],
+      "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, over 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell-type-specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
+      "url": "https://doi.org/10.1126/science.aeg6779",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aeg6779",
+      "journal": "Science",
+      "score": 24,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "agentic"
+      ],
+      "analysis": {
+        "zh_summary": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "agentic",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "http://link.aps.org/doi/10.1103/r62x-kt5j",
+      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
+      "authors": [
+        "Evie Ladbrook, Jon P. Wright, and Mark S. Senn"
+      ],
+      "abstract": "Author(s): Evie Ladbrook, Jon P. Wright, and Mark S. Senn Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstruct… [Phys. Rev. Lett. 137, 126504] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/r62x-kt5j",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Evie Ladbrook, Jon P.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "http://link.aps.org/doi/10.1103/81qf-zd3y",
+      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
+      "authors": [
+        "Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino"
+      ],
+      "abstract": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior. We study the equilibrium dynamics of an infinite-range quantum Heisenberg model with random couplings, in which local magnetic moments arise from ${\\mat… [Phys. Rev. Lett. 137, 126505] Published Thu Sep 17, 2026",
+      "url": "http://link.aps.org/doi/10.1103/81qf-zd3y",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T18:00:00+08:00",
+      "updated": "2026-09-17T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "doi:10.1103/r62x-kt5j",
+      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
+      "authors": [
+        "Evie Ladbrook",
+        "Jon P. Wright",
+        "Mark S. Senn"
+      ],
+      "abstract": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstructure of La 1.675 Eu 0.2 Sr 0.125 CuO 4 , a prototypical 1 / 8 -doped cuprate in which structural and electronic heterogeneity is well established. We reveal remarkably broad tetragonallike domain wall regions within the nominally orthorhombic crystal structure, and, upon cooling to 100 K, a fine microstructure of orthorhombiclike stripes embedded within the tetragonal matrix that has significant consequences for interpreting the interplay between structural and electronic heterogeneity in this class of materials. More broadly, this work establishes 3DXRD as a powerful approach for resolving bulk microstructures and understanding their role in emergent functionality.",
+      "url": "https://doi.org/10.1103/r62x-kt5j",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/r62x-kt5j",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "doi:10.1103/4cvy-mym8",
+      "title": "Topological defects control dynamic crossover in glass-forming liquids",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4cvy-mym8",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/4cvy-mym8",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "doi:10.1103/7zzj-78fv",
+      "title": "Criticality on Rényi defects at (2+1)d O(3) quantum critical points",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/7zzj-78fv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/7zzj-78fv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "doi:10.1103/r8fj-4t94",
+      "title": "Unconventional superconductivity from lattice quantum disorder",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/r8fj-4t94",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/r8fj-4t94",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "doi:10.1103/ngfq-f3t7",
+      "title": "First amplitude analysis of D 0 → K − π 0 e + ν e and observation of D 0 → K 2 * ( 1430 ) − e + ν e",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ngfq-f3t7",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ngfq-f3t7",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "doi:10.1103/81qf-zd3y",
+      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
+      "authors": [
+        "Hossein Hosseinabadi",
+        "Subir Sachdev",
+        "Jamir Marino"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/81qf-zd3y",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/81qf-zd3y",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "doi:10.1103/d843-3bvb",
+      "title": "Huge symmetric elastoresistance in the Kondo lattice YbRh 2 Si 2",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/d843-3bvb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/d843-3bvb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "doi:10.1103/q3v9-rjm9",
+      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid He 4 Gyrometer",
+      "authors": [
+        "Kai-Isaak Ellers",
+        "Marios Christodoulou",
+        "K. C. Schwab",
+        "K. Birgitta Whaley"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/q3v9-rjm9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/q3v9-rjm9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "doi:10.1103/g549-tkdc",
+      "title": "Non-uniform thermal conductivity in nanoscale multiple hotspot systems",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/g549-tkdc",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/g549-tkdc",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1103/6jm3-jyrl",
+      "title": "Search for H → c c ‾ and measurement of H → b b ‾ in vector-boson fusion production with the ATLAS detector",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/6jm3-jyrl",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/6jm3-jyrl",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adv1295?af=r",
+      "title": "Ancient DNA unveils distinctive ancestries in the Bronze and Iron Ages of East Tianshan",
+      "authors": [
+        "Chao Ning, Ke Wang, Tianyi Wang, Jian Ma, Xue Zhao, Tongyuan Xi, Yongqiang Wang, Peng Cao, Shizhu Gao, Xiaotian Feng, Wanglin Hu, Xiaolin Wang,, Fan Zhang, Meng Ren, Xiyan Wu, Feng Liu, Xue Zhang, Jiangsong Zhu, Chunxiang Li, Qingyan Dai, Zhihao Dang, Ruowei Yang, Yunpeng Tang, Wanjing Ping, Vikas Kumar, Wenying Li, Bo Wang, Jianxin Wang, Dong Wei, Zhongzhi Nie, E. Andrew Bennett, Yinqiu Cui, Qiaomei Fu"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adv1295?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ady6372?af=r",
+      "title": "Multi-organelle signatures map cell-state diversity and metabolic adaptation in tissues",
+      "authors": [
+        "Raghabendra Adhikari, Alexander Hillsley, Alana Dowdell Johnson, Shihong Max Gao, Isabel Espinosa-Medina, Jan Funke, Daniel Feliciano"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady6372?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aec4071?af=r",
+      "title": "Atmospheric methane lifetime during the Last Glacial Maximum was reduced owing to dust-mediated chlorine chemistry",
+      "authors": [
+        "Daphne Meidan, Carlos A. Cuevas, Julián Villamayor, Rafael P. Fernandez, Nicolás J. Cosentino, Samuel Albani, Natalie M. Mahowald, Andrea Spolaor, Juan Pablo Corella, Michaela Mühl, Jennifer Campos Ayala, Markus Grimmer, Jochen Schmitt, Hubertus Fischer, Alfonso Saiz-Lopez"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec4071?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aec7230?af=r",
+      "title": "Splenic regulation of systemic platelet activation state",
+      "authors": [
+        "Lisa Laun, Alexander Leunig, Felix Zhang, Sezer Akgöl, Dario Rossaro, Matthias P. Fabritius, Afra Anjum, Lennart Kreutz, Nathalie Mackert, Gabriel H.M. Araujo, Shaan Mahameed, Craig Balmforth, Marie-Louise Hoffknecht, Magdalena Mader, Konstantin Hoffmann, Justus Reittinger, Johanna Knechtel, Nellie M. Kwabla, Maité Mulkers, Michael Schmid, Jean Solarz, Hannah Niederdorfer, Raphael Escaig, Robin Dewender, Heiko Schulz, Frederick Klauschen, Konstantin Stark, Florian Gaertner, David E. Newby, Bernhard Nieswandt, Filip K. Swirski, Zoltan Nagy, Alexandra Mazharian, Rainer Kaiser, Yotis A. Senis, Steffen Massberg, Leo Nicolai"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec7230?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aec6129?af=r",
+      "title": "An expert-level generalist AI for abdominal CT diagnosis",
+      "authors": [
+        "Qi Zhang, Jianpeng Zhang, Weiwei Cao, Zilin Lu, Wanxing Chang, Haonan Ding, Cao Chen, Zhi Li, Xing Xue, Sinuo Wang, Shaoteng Zhang, Yutong Xie, Yong Xia, Qi Wu, Zhongyi Shui, Xi Li, Zhilin Zheng, Yanjie Zhou, Tony C.W. Mok, Yingda Xia, Hongkan Wang, Xianghua Ye, Tao Ma, Jie Peng, Xiaoguang Wang, Jian Ding, Yuming Gao, Huazhen Ye, Yiping Liu, Dongjie Chen, Zhaomin Ni, Jianwen Ning, Wei Zhang, Jian Liu, Chaohui Yu, Shenghong Ju, Jianfeng Zhang, Wenbo Xiao, Ling Zhang, Tingbo Liang"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec6129?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aec0473?af=r",
+      "title": "Germline EGFR T790M mutation and lung cancer risk",
+      "authors": [
+        "Jaclyn LoPiccolo, Steven Micheletti, Jing Shi, Wei Wang, Shubham Saini, Keng-Han Lin, Wanwan Xu, Pierre Fontanillas, 23andMe Research Team‡, Diane R. Koeller, Helen Yatzus, Victoria G. Williamson, Jose A. Avila, Raphael B. Liautaud, Noah D. Fields, Allison Harper, Virginia Kotait, Ericka Izzo, Andrew Ciupek, Courtney A. Granville, Ryan L. Collins, Judy E. Garber, David C. Christiani, Stella Aslibekyan, Julie M. Granka, Alexander Gusev, Pasi A. JänneA. Auton, R. K. Bell, K. K. Bond, Z. Cochinwala, S. Das, K. de Brito, E. DelloRusso, C. Eijsbouts, S. L. Elson, C. German, J. M. Granka, B. Hicks, D. A. Hinds, R. Jabal, A. Khan, M. J. Kmiecik, A. Kwong, Y. Liang, K-H. Lin, M. H. McIntyre, S. Saini, A. J. Shastri, J. Shi, S. Shringarpure, Q. J. Su, V. Tran, J. Y. Tung, C. H. Weldon, W. Xu"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec0473?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ael6948?af=r",
+      "title": "Escaping a downward spiral for science and public accountability",
+      "authors": [
+        "Shobita Parthasarathy"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael6948?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T15:00:00+08:00",
+      "updated": "2026-09-17T15:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aej4194?af=r",
+      "title": "The indomitable Stephen Hawking",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1191-1191, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej4194?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1191-1191, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aek5942?af=r",
+      "title": "Climate unrest comes to a fictionalized France",
+      "authors": [
+        "Priya Dames"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1192-1192, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek5942?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1192-1192, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx5917?af=r",
+      "title": "Nuclear tests at Mt. Mantap have reactivated intraplate faults",
+      "authors": [
+        "Xingli Fan, Kwang-Hee Kim, Su Young Kang, Lanbo Liu, Jie Song, Yujin Sohn, Hyeong-Tae Jou, Qi-Fu Chen, Le Li, Lian-Feng Zhao, Yuan Wang, Tianyao Hao"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1209-1212, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx5917?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1209-1212, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adz6688?af=r",
+      "title": "Transcriptome-based classification in mice with ASD-risk mutations",
+      "authors": [
+        "Junyeop Daniel Roh, Yukyung Jun, Heesu Jeon, Junyoung Kim, Yunho Yi, Minji Kim, Heejin Cho, Yusang Oh, Heera Moon, Jinkyeong Kim, Seongbin Kim, Jeseung Ryu, Muwon Kang, Jisoo Kim, Yeonghyeon Kim, Yewon Jung, Taesun Yoo, Hyoseon Oh, Hyosang Kim, Chunmei Jin, Yeji Yang, Gahyeon Choi, Sunjoo Ahn, Jin Young Kim, Hyojin Kang, Mihyun Bae, Eunjoon Kim"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1250-1257, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz6688?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1250-1257, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adz9952?af=r",
+      "title": "Fast, continuous, and coherent atom reloading in a neutral-atom qubit array",
+      "authors": [
+        "Yiyi Li, Yicheng Bao, Michael Peper, Chenyuan Li, Jeff D. Thompson"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1213-1216, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz9952?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1213-1216, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aei0498?af=r",
+      "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas",
+      "authors": [
+        "Peter H. Yoon, Kenneth J. Loi, Zeyuan Terry Zhang, Trevor A. Docter, Santiago C. Lopez, Conner J. Langeberg, Muhammad Moez Ur-Rehman, Kamakshi Vohra, Zehan Zhou, Isabel Esain-Garcia, Marena I. Trinidad, Honglue Shi, Ron Boger, Peter Y. Wang, Benjamin A. Adler, Stephen G. Brohawn, Jennifer A. Doudna"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1230-1235, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei0498?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1230-1235, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aei3472?af=r",
+      "title": "VIPR RNA-guided DNA recognition by noncontiguous geometric triplex formation",
+      "authors": [
+        "Peter H. Yoon, Trevor A. Docter, Zeyuan Terry Zhang, Kenneth Loi, Santiago C. Lopez, Luis E. Valentin-Alvarado, Owen T. Tuck, Stephen G. Brohawn, Jennifer A. Doudna"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1236-1240, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei3472?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1236-1240, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adz0521?af=r",
+      "title": "Extreme loss suppression in an ultracold molecular gas with widely tunable dipolar interactions",
+      "authors": [
+        "Weijun Yuan, Siwei Zhang, Niccolò Bigagli, Haneul Kwak, Claire Warner, Tijs Karman, Ian Stevenson, Sebastian Will"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1226-1229, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz0521?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1226-1229, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeh7535?af=r",
+      "title": "Quantum jumps of sound",
+      "authors": [
+        "Takuma Makihara, Erik Szakiel, Matthew P. Maksymowych, Oliver A. Hitchcock, Kaveh Pezeshki, Rachel G. Gruenke-Freudenstein, Mihir Pendharkar, Shannon P. Harvey, David I. Schuster, Amir H. Safavi-Naeini"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1217-1220, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh7535?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1217-1220, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aeg3946?af=r",
+      "title": "Disorder-promoted stability",
+      "authors": [
+        "Arthur N. Montanari, Pietro Zanin, Adilson E. Motter"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1241-1249, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeg3946?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1241-1249, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.adx9928?af=r",
+      "title": "Protecting tropical forests is more cost-effective for biodiversity and climate than restoration",
+      "authors": [
+        "Leonardo S. Miranda, James R. Thomson, Joice Ferreira, Toby A. Gardner, Erika Berenguer, Alexander C. Lees, Ralph Mac Nally, Luiz E. O. C. Aragão, Pedro H. S. Brancalion, Silvio F. B. Ferraz, Rachael D. Garrett, Paulo G. Molin, Nárgila G. Moura, Sâmia S. Nunes, Luke Parry, Juliana M. Silveira, Ima C. G. Vieira, Cecilia Viana, Jos Barlow"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1221-1225, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx9928?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1221-1225, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4011?af=r",
+      "title": "In Other Journals",
+      "authors": [
+        "Corinne Simonti, and Jesse Smith, Corinne Simonti, Yevgeniya Nusinovich, Priscilla N. Kelly, Bianca Lopez, Jelena Stajic, Michael A. Funk, and Sumin Jin"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1202-1202, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4011?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1202-1202, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4012?af=r",
+      "title": "A seismic shift",
+      "authors": [
+        "Daniela C. Molina Palacios"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1262-1262, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4012?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1262-1262, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aek3832?af=r",
+      "title": "In search of past genetics",
+      "authors": [
+        "Stephen Chanock"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1190-1190, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek3832?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1190-1190, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ael3062?af=r",
+      "title": "Parsing heterogeneity in autism spectrum disorder",
+      "authors": [
+        "Jacqueline M. Martín and Daniel H. Geschwind"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1188-1189, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael3062?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1188-1189, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aek9090?af=r",
+      "title": "Noise and diversity can boost stability",
+      "authors": [
+        "Raissa M. D’Souza"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1185-1186, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek9090?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1185-1186, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ael0758?af=r",
+      "title": "A viral origin for RNA-guided immunity",
+      "authors": [
+        "Jack P. K. Bravo"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1187-1188, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael0758?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1187-1188, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aek6854?af=r",
+      "title": "Free inquiry depends on freedom of movement",
+      "authors": [
+        "J. Nathan Matias, Rebekah Tromble, and Sarah T. Roberts"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1193-1194, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek6854?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1193-1194, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aek9555?af=r",
+      "title": "Prevent a drone e-waste crisis",
+      "authors": [
+        "Beibei Yan, Xuan Wang, Shengquan Zhou, and Guanyi Chen"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1194-1194, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek9555?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1194-1194, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.ael2468?af=r",
+      "title": "Alberta’s ill-advised black bear hunting",
+      "authors": [
+        "Gilbert Proulx and Paul Paquet"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1193-1193, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael2468?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1193-1193, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4439?af=r",
+      "title": "OpenAI leap triggers ‘existential crisis’ in math",
+      "authors": [
+        "Celina Zhao"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1172-1173, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4439?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1172-1173, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4440?af=r",
+      "title": "Alarming report on AI and bioweapons divides scientists",
+      "authors": [
+        "Jocelyn Kaiser"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1174-1175, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4440?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1174-1175, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4441?af=r",
+      "title": "New platform could broaden conference poster audience",
+      "authors": [
+        "Jeffrey Brainard"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1175-1176, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4441?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1175-1176, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4443?af=r",
+      "title": "Social science studies often breach participants’ privacy",
+      "authors": [
+        "Jeffrey Brainard"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1178-1179, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4443?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1178-1179, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4444?af=r",
+      "title": "Future forests",
+      "authors": [
+        "Katie Langin"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1180-1184, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4444?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1180-1184, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4442?af=r",
+      "title": "In water fight, California to spend billions on ‘visionary’ plan to boost fish habitat",
+      "authors": [
+        "Erik Stokstad"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1177-1178, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4442?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1177-1178, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem2760?af=r",
+      "title": "Biodiversity science’s missing species",
+      "authors": [
+        "Charles C. Davis"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1170-1170, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem2760?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1170-1170, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aed7991?af=r",
+      "title": "Geopolitical tensions with the US accelerate Chinese firms’ leveraging of science",
+      "authors": [
+        "Junhan Wang, Xibao Li, and Yanbo Wang"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1196-1199, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed7991?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1196-1199, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem4010?af=r",
+      "title": "In Science Journals",
+      "authors": [
+        "Michael Funk, and Stella M. Hurtley, Angela Hessler, Jelena Stajic, Ian S. Osborne, Bianca Lopez, Christiana N. Fogg, Karin Leder, Sarah H. Ross, Corinne Simonti, Jesse Smith, Yevgeniya Nusinovich, Priscilla N. Kelly, Yury Suleymanov, Mattia Maroso, Di Jiang, and John Foley"
+      ],
+      "abstract": "Science, Volume 393, Issue 6817, Page 1200-1202, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem4010?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T14:00:11+08:00",
+      "updated": "2026-09-17T14:00:11+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6817, Page 1200-1202, September 2026.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "https://www.nature.com/articles/s41586-026-11134-x",
+      "title": "Author Correction: Genomic deletion of malic enzyme 2 confers collateral lethality in pancreatic cancer",
+      "authors": [
+        "Prasenjit Dey",
+        "Joelle Baddour",
+        "Florian Muller",
+        "Chia Chin Wu",
+        "Huamin Wang",
+        "Wen-Ting Liao",
+        "Zangdao Lan",
+        "Alina Chen",
+        "Tony Gutschner",
+        "Yaan Kang",
+        "Jason Fleming",
+        "Nikunj Satani",
+        "Di Zhao",
+        "Abhinav Achreja",
+        "Lifeng Yang",
+        "Jiyoon Lee",
+        "Edward Chang",
+        "Giannicola Genovese",
+        "Andrea Viale",
+        "Haoqiang Ying",
+        "Giulio Draetta",
+        "Anirban Maitra",
+        "Y. Alan Wang",
+        "Deepak Nagrath",
+        "Ronald A. DePinho"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11134-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "https://www.nature.com/articles/d41586-026-02898-3",
+      "title": "Mercury is shrinking with age — faster than thought",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02898-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "https://www.nature.com/articles/d41586-026-02896-5",
+      "title": "Schoolhouse meals serve up an income bump",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02896-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "https://www.nature.com/articles/d41586-026-02913-7",
+      "title": "How fast are you ageing? Ask AI",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02913-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "https://www.nature.com/articles/d41586-026-02621-2",
+      "title": "Exclusive: New evidence for hidden chambers beyond Tutankhamun’s tomb",
+      "authors": [
+        "Jo Marchant"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02621-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "https://www.nature.com/articles/d41586-026-02911-9",
+      "title": "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02911-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "https://www.nature.com/articles/d41586-026-02954-y",
+      "title": "How a team of AIs discovered a promising lung-cancer drug",
+      "authors": [
+        "Ewen Callaway"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02954-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "https://www.nature.com/articles/d41586-026-02910-w",
+      "title": "Who gets credit in the AI era? OpenAI maths bombshell sparks debate",
+      "authors": [
+        "Davide Castelvecchi"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02910-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "doi:10.1038/d41586-026-02896-5",
+      "title": "Schoolhouse meals serve up an income bump",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02896-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02896-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "doi:10.1038/s41586-026-11134-x",
+      "title": "Author Correction: Genomic deletion of malic enzyme 2 confers collateral lethality in pancreatic cancer",
+      "authors": [
+        "Prasenjit Dey",
+        "Joelle Baddour",
+        "Florian Muller",
+        "Chia Chin Wu",
+        "Huamin Wang",
+        "Wen-Ting Liao",
+        "Zangdao Lan",
+        "Alina Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11134-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11134-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "doi:10.1038/d41586-026-02621-2",
+      "title": "Exclusive: New evidence for hidden chambers beyond Tutankhamun’s tomb",
+      "authors": [
+        "Jo Marchant"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02621-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02621-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "doi:10.1038/d41586-026-02910-w",
+      "title": "Who gets credit in the AI era? OpenAI maths bombshell sparks debate",
+      "authors": [
+        "Davide Castelvecchi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02910-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02910-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "doi:10.1038/d41586-026-02913-7",
+      "title": "How fast are you ageing? Ask AI",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02913-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02913-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "doi:10.1038/d41586-026-02898-3",
+      "title": "Mercury is shrinking with age — faster than thought",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02898-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02898-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "doi:10.1038/d41586-026-02954-y",
+      "title": "How a team of AIs discovered a promising lung-cancer drug",
+      "authors": [
+        "Ewen Callaway"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02954-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02954-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "doi:10.1038/d41586-026-02911-9",
+      "title": "Take a risk or play it safe? Neuronal tug-of-war helps the brain decide",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02911-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02911-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P067",
+      "uid": "doi:10.1126/science.adz0521",
+      "title": "Extreme loss suppression in an ultracold molecular gas with widely tunable dipolar interactions",
+      "authors": [
+        "Weijun Yuan",
+        "Siwei Zhang",
+        "Niccolò Bigagli",
+        "Haneul Kwak",
+        "Claire Warner",
+        "Tijs Karman",
+        "Ian Stevenson",
+        "Sebastian Will"
+      ],
+      "abstract": "Ultracold dipolar molecules hold great promise for the creation of exotic quantum states of matter, but the realization of long-lived molecular bulk samples with strong dipole-dipole interactions has remained challenging. In this work, we realized a collisionally stable gas of ultracold ground state molecules with a lifetime of several seconds. Utilizing double-microwave dressing, we achieved an extreme suppression of inelastic two- and three-body losses by factors of more than 10,000 and 1000, respectively. We found that losses remained suppressed across a wide range of dipole-dipole interactions, allowing the continuous tuning of the dipolar length from −21,000 to 12,000 a 0 , where a 0 is the Bohr radius. Combined with the recent realization of Bose-Einstein condensation of dipolar molecules, our findings open the door to the exploration of strongly dipolar quantum liquids.",
+      "url": "https://doi.org/10.1126/science.adz0521",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.adz0521",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Ultracold dipolar molecules hold great promise for the creation of exotic quantum states of matter, but the realization of long-lived molecular bulk samples with strong dipole-dipole interactions has remained challenging.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P068",
+      "uid": "doi:10.1126/science.adz6688",
+      "title": "Transcriptome-based classification in mice with ASD-risk mutations",
+      "authors": [
+        "Junyeop Daniel Roh",
+        "Yukyung Jun",
+        "Heesu Jeon",
+        "Junyoung Kim",
+        "Yunho Yi",
+        "Minji Kim",
+        "Heejin Cho",
+        "Yusang Oh"
+      ],
+      "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with a strong genetic component. Large-scale human genetic studies have identified >1200 ASD-risk genes. We report a sex-balanced atlas of 1008 prefrontal RNA sequencing (RNA-seq) profiles from 17 mouse lines carrying ASD-risk mutations. Our analysis identified two opposing transcriptomic states. The two groups differed in sex bias, regional specificity, developmental stability, cell type remodeling, and responses to fluoxetine and lithium. Single-nucleus RNA-seq revealed broader cell type remodeling in group 1 than in group 2, and cell type–specific modules showed reciprocal associations that mirrored bulk transcriptomic signatures. The framework classifies independent mouse lines and identifies subgroups with conserved synaptic directionality, supporting molecular stratification.",
+      "url": "https://doi.org/10.1126/science.adz6688",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.adz6688",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with a strong genetic component.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P069",
+      "uid": "doi:10.1126/science.aek5942",
+      "title": "Climate unrest comes to a fictionalized France The Hunger of Those Who Built It Wendy Waring Stelliform Press, 2026. 370 pp.",
+      "authors": [
+        "Priya Dames"
+      ],
+      "abstract": "Insiders and dissidents pursue different paths to environmental justice in near-future Paris",
+      "url": "https://doi.org/10.1126/science.aek5942",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aek5942",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Insiders and dissidents pursue different paths to environmental justice in near-future Paris",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P070",
+      "uid": "doi:10.1126/science.aej4194",
+      "title": "The indomitable Stephen Hawking Hawking Graham Farmelo Bantam, 2026. 608 pp.",
+      "authors": [
+        "Andrew Robinson"
+      ],
+      "abstract": "The physicist’s first authorized biography paints an incisive portrait of the audacious scientist",
+      "url": "https://doi.org/10.1126/science.aej4194",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aej4194",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The physicist’s first authorized biography paints an incisive portrait of the audacious scientist",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P071",
+      "uid": "doi:10.1126/science.aec7230",
+      "title": "Splenic regulation of systemic platelet activation state",
+      "authors": [
+        "Lisa Laun",
+        "Alexander Leunig",
+        "Felix Zhang",
+        "Sezer Akgöl",
+        "Dario Rossaro",
+        "Matthias P. Fabritius",
+        "Afra Anjum",
+        "Lennart Kreutz"
+      ],
+      "abstract": "Platelets are essential to prevent blood loss and to orchestrate inflammation. Thrombotic complications of vascular disease and hyperresponsive platelets are associated with adverse outcomes, yet physiological mechanisms counteracting systemic platelet activation are poorly defined. In mice, we found that the spleen filters activated platelets in thrombotic and inflammatory conditions, limiting pathology by maintaining platelet quiescence. Glycoprotein VI–dependent activation of platelets initiated by extracellular matrix components in the splenic red pulp was counterbalanced by G6b-B–immunoreceptor tyrosine-based inhibitory motif signaling triggered by perlecan in quiescent platelets, allowing them to recirculate. By contrast, threshold activation signals in preactivated platelets could override inhibition, leading to splenic capture through inside-out signaling and β1-integrin engagement. Thus, the spleen acts as a modulator of platelet responsiveness and thrombo-inflammatory risk.",
+      "url": "https://doi.org/10.1126/science.aec7230",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aec7230",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Platelets are essential to prevent blood loss and to orchestrate inflammation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P072",
+      "uid": "doi:10.1126/science.aei0498",
+      "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas",
+      "authors": [
+        "Peter H. Yoon",
+        "Kenneth J. Loi",
+        "Zeyuan Terry Zhang",
+        "Trevor A. Docter",
+        "Santiago C. Lopez",
+        "Conner J. Langeberg",
+        "Muhammad Moez Ur-Rehman",
+        "Kamakshi Vohra"
+      ],
+      "abstract": "CRISPR-Cas provides RNA-mediated adaptive immunity, but how its first RNA-guided effector arose is unclear. In this study, we report the discovery of Viral Interference Programmable Repeat (VIPR) systems consisting of a Vipr protein ancestral to the earliest CRISPR-Cas effectors and VIPR RNAs (vrRNAs) comprising alternating GGY/NN motifs. Unlike canonical guide RNAs that pair with target nucleic acids through contiguous complementarity, vrRNAs recognize double-stranded DNA through a noncontiguous code in which the variable NN dinucleotides collectively specify a gapped target sequence. Natural vrRNA targets suggest that VIPR systems act against competing phages, and we demonstrate programmable phage defense by redirecting the complex for transcriptional repression. These results suggest that adaptive immunity originated from ancient warfare between viruses, revealing a previously unidentified logic for encoding information in sequence.",
+      "url": "https://doi.org/10.1126/science.aei0498",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aei0498",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "CRISPR-Cas provides RNA-mediated adaptive immunity, but how its first RNA-guided effector arose is unclear.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P073",
+      "uid": "doi:10.1126/science.aeh7535",
+      "title": "Quantum jumps of sound",
+      "authors": [
+        "Takuma Makihara",
+        "Erik Szakiel",
+        "Matthew P. Maksymowych",
+        "Oliver A. Hitchcock",
+        "Kaveh Pezeshki",
+        "Rachel G. Gruenke-Freudenstein",
+        "Mihir Pendharkar",
+        "Shannon P. Harvey"
+      ],
+      "abstract": "Quantum mechanics predicts that a vibrating object’s energy comes in discrete packets, yet no measurement of its position reveals this discreteness. Resolving individual energy levels requires a qualitatively different measurement, one coupling to the resonator’s energy rather than its displacement. We use a superconducting qubit dispersively coupled to a nanomechanical resonator to perform repeated quantum nondemolition measurements of the phonon number. An aligned transfer-print technique integrating the qubit and resonator yields a mechanical lifetime of T 1 = 2.1 milliseconds and a dispersive shift of 2 χ / 2 π = 328 kilohertz per phonon. We heralded single-phonon states with 85% fidelity and observed quantum jumps between the resonator’s first excited state and ground state. These discontinuous transitions are a striking manifestation of quantum mechanics in a massive, vibrating object.",
+      "url": "https://doi.org/10.1126/science.aeh7535",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aeh7535",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Quantum mechanics predicts that a vibrating object’s energy comes in discrete packets, yet no measurement of its position reveals this discreteness.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P074",
+      "uid": "doi:10.1126/science.aec4071",
+      "title": "Atmospheric methane lifetime during the Last Glacial Maximum was reduced owing to dust-mediated chlorine chemistry",
+      "authors": [
+        "Daphne Meidan",
+        "Carlos A. Cuevas",
+        "Julián Villamayor",
+        "Rafael P. Fernandez",
+        "Nicolás J. Cosentino",
+        "Samuel Albani",
+        "Natalie M. Mahowald",
+        "Andrea Spolaor"
+      ],
+      "abstract": "Atmospheric methane (CH 4 ) plays a central role in Earth’s climate, yet the drivers of its decline during the high-dust conditions of glacial periods, such as the Last Glacial Maximum (LGM), remain uncertain. Previous explanations imply source-driven changes, assuming an atmospheric lifetime comparable to that of present day. Recent work shows that interactions between mineral dust and sea salt aerosols produce CH 4 -removing chlorine radicals. In this work, we show that during the LGM, CH 4 lifetime shortened to 7.8 years, 20% lower than that of present day. Chlorine contributed ~15% of global CH 4 loss, fourfold that of present day. Our results reproduce ice core CH 4 isotopic evidence, demonstrating that stronger-than-assumed atmospheric sinks can explain CH 4 variability without invoking substantial source changes, highlighting the overlooked role of chlorine chemistry in the glacial CH 4 budget.",
+      "url": "https://doi.org/10.1126/science.aec4071",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aec4071",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Atmospheric methane (CH 4 ) plays a central role in Earth’s climate, yet the drivers of its decline during the high-dust conditions of glacial periods, such as the Last Glacial Maximum (LGM), remain uncertain.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P075",
+      "uid": "doi:10.1126/science.aem4012",
+      "title": "A seismic shift",
+      "authors": [
+        "Daniela C. Molina Palacios"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1126/science.aem4012",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aem4012",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P076",
+      "uid": "doi:10.1126/science.adx5917",
+      "title": "Nuclear tests at Mt. Mantap have reactivated intraplate faults",
+      "authors": [
+        "Xingli Fan",
+        "Kwang-Hee Kim",
+        "Su Young Kang",
+        "Lanbo Liu",
+        "Jie Song",
+        "Yujin Sohn",
+        "Hyeong-Tae Jou",
+        "Qi-Fu Chen"
+      ],
+      "abstract": "Underground nuclear explosions typically produce short-lived seismic sequences that decay rapidly after testing ceases. By contrast, seismicity near the Punggye-ri nuclear test site at Mt. Mantap in the Democratic People’s Republic of Korea has persisted and intensified for years after the final large-yield explosion in 2017, evolving from diffuse activity to spatially organized distribution along fault-controlled structures. Analysis of 17 years of continuous waveform data reveals a progressive increase in seismicity and delayed reactivation of shallow faults. Earthquakes cluster beneath asymmetric topography, indicating progressive stress redistribution within a critically stressed crustal volume. These observations challenge conventional expectations, showing that under specific geological conditions, underground nuclear testing can drive multiyear fault reactivation and extend posttest seismicity well beyond the immediate aftermath of an explosion.",
+      "url": "https://doi.org/10.1126/science.adx5917",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.adx5917",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Underground nuclear explosions typically produce short-lived seismic sequences that decay rapidly after testing ceases.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P077",
+      "uid": "doi:10.1126/science.aem4442",
+      "title": "In water fight, California to spend billions on ‘visionary’ plan to boost fish habitat",
+      "authors": [
+        "Erik Stokstad"
+      ],
+      "abstract": "Skeptics of strategy for the beleaguered San Francisco Bay delta region question whether it will work without allocating more water for nature",
+      "url": "https://doi.org/10.1126/science.aem4442",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aem4442",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Skeptics of strategy for the beleaguered San Francisco Bay delta region question whether it will work without allocating more water for nature",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P078",
+      "uid": "doi:10.1126/science.aek9555",
+      "title": "Prevent a drone e-waste crisis",
+      "authors": [
+        "Beibei Yan",
+        "Xuan Wang",
+        "Shengquan Zhou",
+        "Guanyi Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1126/science.aek9555",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aek9555",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P079",
+      "uid": "doi:10.1126/science.ael0758",
+      "title": "A viral origin for RNA-guided immunity",
+      "authors": [
+        "Jack P. K. Bravo"
+      ],
+      "abstract": "Ancient viral warfare could be at the root of modern class 1 CRISPR bacterial defense systems",
+      "url": "https://doi.org/10.1126/science.ael0758",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.ael0758",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Ancient viral warfare could be at the root of modern class 1 CRISPR bacterial defense systems",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P080",
+      "uid": "doi:10.1126/science.adv1295",
+      "title": "Ancient DNA unveils distinctive ancestries in the Bronze and Iron Ages of East Tianshan",
+      "authors": [
+        "Chao Ning",
+        "Ke Wang",
+        "Tianyi Wang",
+        "Jian Ma",
+        "Xue Zhao",
+        "Tongyuan Xi",
+        "Yongqiang Wang",
+        "Peng Cao"
+      ],
+      "abstract": "The East Tianshan Mountains occupy a key corridor between Central and East Asia, but their population history remains poorly understood. Here we report genome-wide data from 135 ancient individuals from 11 archaeological sites. We identify a previously unrecognized Bronze Age admixture between populations related to Yellow River millet farmers and steppe pastoralists associated with the Chemurchek culture. In contrast, we find little genetic contribution from contemporaneous middle-to-late Bronze Age steppe pastoralists, despite their eastward expansion across the Eurasian Steppe. By the Iron Age, regional populations had become more heterogeneous, incorporating additional eastern and steppe-related sources while retaining variable contributions from Early Bronze Age groups. These results reveal sustained demographic interactions in eastern Central Asia nearly 1800 years preceding the establishment of the historic Silk Road.",
+      "url": "https://doi.org/10.1126/science.adv1295",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-17T08:00:00+08:00",
+      "updated": "2026-09-17T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.adv1295",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The East Tianshan Mountains occupy a key corridor between Central and East Asia, but their population history remains poorly understood.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
