@@ -1,0 +1,559 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19 08:24 CST",
+  "window": "2026-09-18 00:00 至 2026-09-20 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": false,
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "blocked by Cloudflare challenge"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-09-19.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "https://www.nature.com/articles/d41586-026-02897-4",
+      "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02897-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "https://www.nature.com/articles/d41586-026-02984-6",
+      "title": "Briefing Chat: Evidence mounts for hidden chambers beyond Tutankhamun's tomb",
+      "authors": [
+        "Benjamin Thompson",
+        "Elizabeth Gibney"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02984-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "https://www.nature.com/articles/d41586-026-02919-1",
+      "title": "Europe pushes for space independence amid geopolitical rifts",
+      "authors": [
+        "Jonathan O’Callaghan"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02919-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "https://www.nature.com/articles/d41586-026-02184-2",
+      "title": "How research funding took me out of the lab and into leadership",
+      "authors": [
+        "Anna Sandak"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02184-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "https://www.nature.com/articles/d41586-026-02945-z",
+      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+      "authors": [
+        "Rachel Fieldhouse"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02945-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "https://www.nature.com/articles/d41586-026-02943-1",
+      "title": "How to make a brain: new experiments challenge existing picture",
+      "authors": [
+        "Lynne Peeples"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02943-1",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "https://www.nature.com/articles/d41586-026-02922-6",
+      "title": "AI cracked the Navier–Stokes challenge. What does that mean for physics?",
+      "authors": [
+        "Nicola Jones"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02922-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "https://www.nature.com/articles/d41586-026-02946-y",
+      "title": "Chinese companies doubled down on science after US tech restrictions",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02946-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "doi:10.1038/d41586-026-02946-y",
+      "title": "Chinese companies doubled down on science after US tech restrictions",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02946-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02946-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "doi:10.1038/d41586-026-02922-6",
+      "title": "AI cracked the Navier–Stokes challenge. What does that mean for physics?",
+      "authors": [
+        "Nicola Jones"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02922-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02922-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "doi:10.1038/d41586-026-02945-z",
+      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
+      "authors": [
+        "Rachel Fieldhouse"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02945-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02945-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "doi:10.1038/d41586-026-02919-1",
+      "title": "Europe pushes for space independence amid geopolitical rifts",
+      "authors": [
+        "Jonathan O’Callaghan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02919-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02919-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "doi:10.1038/d41586-026-02984-6",
+      "title": "Briefing Chat: Evidence mounts for hidden chambers beyond Tutankhamun's tomb",
+      "authors": [
+        "Benjamin Thompson",
+        "Elizabeth Gibney"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02984-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02984-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1038/d41586-026-02184-2",
+      "title": "How research funding took me out of the lab and into leadership",
+      "authors": [
+        "Anna Sandak"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02184-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02184-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "doi:10.1038/d41586-026-02897-4",
+      "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02897-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02897-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "doi:10.1038/d41586-026-02943-1",
+      "title": "How to make a brain: new experiments challenge existing picture",
+      "authors": [
+        "Lynne Peeples"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02943-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-18T08:00:00+08:00",
+      "updated": "2026-09-18T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02943-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}

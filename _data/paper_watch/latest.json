@@ -1,10 +1,8 @@
 {
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18 08:26 CST",
-  "window": "2026-09-17 00:00 至 2026-09-19 00:00 Asia/Shanghai",
-  "counts": {
-    "related": 14
-  },
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19 08:24 CST",
+  "window": "2026-09-18 00:00 至 2026-09-20 00:00 Asia/Shanghai",
+  "counts": {},
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
@@ -29,17 +27,17 @@
     {
       "source": "Science RSS",
       "ok": true,
-      "count": 36
+      "count": 0
     },
     {
       "source": "Physical Review Letters RSS",
       "ok": true,
-      "count": 3
+      "count": 0
     },
     {
       "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "source": "Living Reviews in Relativity RSS",
@@ -59,17 +57,17 @@
     {
       "source": "Science Crossref",
       "ok": true,
-      "count": 20
+      "count": 0
     },
     {
       "source": "Physical Review Letters Crossref",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Living Reviews in Relativity Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "OpenAI analysis",
@@ -77,443 +75,9 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 14,
-  "total_review_candidates": 80,
-  "report_path": "/papers/2026-09-18/",
-  "review_path": "_paper_reviews/2026-09-18.md",
-  "papers": [
-    {
-      "uid": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
-      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid $^{4}\\mathrm{He}$ Gyrometer",
-      "authors": [
-        "Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley"
-      ],
-      "abstract": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K. C. Schwab, and K. Birgitta Whaley A proposed lab-based quantum sensor could precisely measure within seconds the warping of spacetime caused by Earth’s rotation. [Phys. Rev. Lett. 137, 121404] Published Thu Sep 17, 2026",
-      "url": "http://link.aps.org/doi/10.1103/q3v9-rjm9",
-      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T18:00:00+08:00",
-      "updated": "2026-09-17T18:00:00+08:00",
-      "categories": [
-        "Cosmology, Astrophysics, and Gravitation"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 33,
-      "priority": "related",
-      "area": "related",
-      "tags": [
-        "gr-qc 相关方向"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "cosmology"
-      ],
-      "analysis": {
-        "zh_summary": "Author(s): Kai-Isaak Ellers, Marios Christodoulou, K.",
-        "why_relevant": "匹配关注项：gr-qc 相关方向。",
-        "method_or_signal": "cosmology",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1126/science.aeg6779",
-      "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
-      "authors": [
-        "Harrison G. Zhang",
-        "Peter Eckmann",
-        "Jiacheng Miao",
-        "Andrew B. Mahon",
-        "James Zou"
-      ],
-      "abstract": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented. We introduce the Virtual Biotech, an organization of artificial intelligence (AI) agents modeled on a drug-development company, with agentic divisions spanning target discovery, safety assessment, modality selection, and clinical development. We demonstrate its utility at three drug-development decision points. First, over 37,000 agents annotated outcomes from 55,984 trials and found that drugs targeting cell-type-specific genes were 48% more likely to reach market with 32% fewer adverse events. Second, it integrated multimodal evidence to propose a therapeutic strategy in lung cancer. Third, it analyzed a terminated ulcerative colitis trial and inferred potential mechanisms of failure. These results demonstrate that human-guided multi-agent systems can conduct transparent, multiscale analyses to inform therapeutic-development decisions.",
-      "url": "https://doi.org/10.1126/science.aeg6779",
-      "source": "Science Crossref",
-      "source_kind": "journal_general",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1126/science.aeg6779",
-      "journal": "Science",
-      "score": 24,
-      "priority": "related",
-      "area": "ai",
-      "tags": [
-        "AI/知识库/模型架构"
-      ],
-      "noise_tags": [],
-      "matched_keywords": [
-        "agentic"
-      ],
-      "analysis": {
-        "zh_summary": "Drug development requires evidence integration across biological scales and modalities, but relevant tools are fragmented.",
-        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
-        "method_or_signal": "agentic",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/r62x-kt5j",
-      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
-      "authors": [
-        "Evie Ladbrook, Jon P. Wright, and Mark S. Senn"
-      ],
-      "abstract": "Author(s): Evie Ladbrook, Jon P. Wright, and Mark S. Senn Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstruct… [Phys. Rev. Lett. 137, 126504] Published Thu Sep 17, 2026",
-      "url": "http://link.aps.org/doi/10.1103/r62x-kt5j",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T18:00:00+08:00",
-      "updated": "2026-09-17T18:00:00+08:00",
-      "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Evie Ladbrook, Jon P.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "http://link.aps.org/doi/10.1103/81qf-zd3y",
-      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
-      "authors": [
-        "Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino"
-      ],
-      "abstract": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior. We study the equilibrium dynamics of an infinite-range quantum Heisenberg model with random couplings, in which local magnetic moments arise from ${\\mat… [Phys. Rev. Lett. 137, 126505] Published Thu Sep 17, 2026",
-      "url": "http://link.aps.org/doi/10.1103/81qf-zd3y",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T18:00:00+08:00",
-      "updated": "2026-09-17T18:00:00+08:00",
-      "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Hossein Hosseinabadi, Subir Sachdev, and Jamir Marino A central question in frustrated quantum magnets is how quantum fluctuations destabilize spin-glass order and promote quantum spin-liquid behavior.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/r62x-kt5j",
-      "title": "Giant Domain Walls and Intrinsic Heterogeneity in 214 Cuprate Superconductors",
-      "authors": [
-        "Evie Ladbrook",
-        "Jon P. Wright",
-        "Mark S. Senn"
-      ],
-      "abstract": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging. Here we employ scanning three-dimensional x-ray diffraction (3DXRD) to resolve the bulk microstructure of La 1.675 Eu 0.2 Sr 0.125 CuO 4 , a prototypical 1 / 8 -doped cuprate in which structural and electronic heterogeneity is well established. We reveal remarkably broad tetragonallike domain wall regions within the nominally orthorhombic crystal structure, and, upon cooling to 100 K, a fine microstructure of orthorhombiclike stripes embedded within the tetragonal matrix that has significant consequences for interpreting the interplay between structural and electronic heterogeneity in this class of materials. More broadly, this work establishes 3DXRD as a powerful approach for resolving bulk microstructures and understanding their role in emergent functionality.",
-      "url": "https://doi.org/10.1103/r62x-kt5j",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/r62x-kt5j",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Structural phase transitions generate complex microstructures that often govern material functionality, yet directly resolving their three-dimensional organization in bulk samples remains challenging.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/4cvy-mym8",
-      "title": "Topological defects control dynamic crossover in glass-forming liquids",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/4cvy-mym8",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/4cvy-mym8",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/7zzj-78fv",
-      "title": "Criticality on Rényi defects at (2+1)d O(3) quantum critical points",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/7zzj-78fv",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/7zzj-78fv",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/r8fj-4t94",
-      "title": "Unconventional superconductivity from lattice quantum disorder",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/r8fj-4t94",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/r8fj-4t94",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/ngfq-f3t7",
-      "title": "First amplitude analysis of D 0 → K − π 0 e + ν e and observation of D 0 → K 2 * ( 1430 ) − e + ν e",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/ngfq-f3t7",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/ngfq-f3t7",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/81qf-zd3y",
-      "title": "Crossover to Sachdev-Ye-Kitaev Criticality in an Infinite-Range Quantum Heisenberg Spin Glass",
-      "authors": [
-        "Hossein Hosseinabadi",
-        "Subir Sachdev",
-        "Jamir Marino"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/81qf-zd3y",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/81qf-zd3y",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/d843-3bvb",
-      "title": "Huge symmetric elastoresistance in the Kondo lattice YbRh 2 Si 2",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/d843-3bvb",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/d843-3bvb",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/q3v9-rjm9",
-      "title": "Quantum Sensing of Gravitational Frame Dragging with a Superfluid He 4 Gyrometer",
-      "authors": [
-        "Kai-Isaak Ellers",
-        "Marios Christodoulou",
-        "K. C. Schwab",
-        "K. Birgitta Whaley"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/q3v9-rjm9",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/q3v9-rjm9",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/g549-tkdc",
-      "title": "Non-uniform thermal conductivity in nanoscale multiple hotspot systems",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/g549-tkdc",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/g549-tkdc",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/6jm3-jyrl",
-      "title": "Search for H → c c ‾ and measurement of H → b b ‾ in vector-boson fusion production with the ATLAS detector",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/6jm3-jyrl",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-17T08:00:00+08:00",
-      "updated": "2026-09-17T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/6jm3-jyrl",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    }
-  ]
+  "total_papers": 0,
+  "total_review_candidates": 16,
+  "report_path": "/papers/2026-09-19/",
+  "review_path": "_paper_reviews/2026-09-19.md",
+  "papers": []
 }
