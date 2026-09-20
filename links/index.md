@@ -169,6 +169,7 @@ aside: true
       <a class="resource-card resource-card--collab" href="https://instaboard.app/"><span class="resource-card__tag">协作</span><strong>Instaboard</strong><span>多人协作的实时可视化白板。</span></a>
       <a class="resource-card resource-card--collab" href="https://www.ventoy.net/cn/"><span class="resource-card__tag">启动盘</span><strong>Ventoy</strong><span>开源多系统启动 U 盘工具，支持直接启动 ISO/WIM/IMG/VHD(x)/EFI。</span></a>
       <a class="resource-card resource-card--learn" href="https://zh.d2l.ai/"><span class="resource-card__tag">教材</span><strong>动手学深度学习</strong><span>深度学习中文教材。</span></a>
+      <a class="resource-card resource-card--learn" href="https://thedankoe.com/letters/you-can-learn-anything-in-2-weeks/"><span class="resource-card__tag">学习方法</span><strong>You Can Learn Anything in 2 Weeks</strong><span>围绕具体目标拆解技能，通过技术堆叠、持续实践和专注快速建立可用能力。</span></a>
     </div>
   </section>
 </div>

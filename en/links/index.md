@@ -169,6 +169,7 @@ This page collects long-lived academic websites, data catalogs, software, and re
       <a class="resource-card resource-card--collab" href="https://instaboard.app/"><span class="resource-card__tag">Collaboration</span><strong>Instaboard</strong><span>Live collaborative visual board.</span></a>
       <a class="resource-card resource-card--collab" href="https://www.ventoy.net/cn/"><span class="resource-card__tag">Boot USB</span><strong>Ventoy</strong><span>Open-source multiboot USB tool for directly booting ISO/WIM/IMG/VHD(x)/EFI files.</span></a>
       <a class="resource-card resource-card--learn" href="https://zh.d2l.ai/"><span class="resource-card__tag">Textbook</span><strong>Dive into Deep Learning</strong><span>Chinese deep-learning textbook.</span></a>
+      <a class="resource-card resource-card--learn" href="https://thedankoe.com/letters/you-can-learn-anything-in-2-weeks/"><span class="resource-card__tag">Learning</span><strong>You Can Learn Anything in 2 Weeks</strong><span>A practical note on goal-driven learning, technique stacking, deliberate practice, and focused execution.</span></a>
     </div>
   </section>
 </div>
