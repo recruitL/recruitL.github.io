@@ -77,12 +77,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 13,
-  "total_review_candidates": 29,
-  "report_path": "/papers/2026-09-22/",
   "review_path": "_paper_reviews/2026-09-22.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/hlx7-frmx",
       "title": "Proof of Conservation Laws in Gravitational Scattering: Tails and Breaking of Peeling",
       "authors": [
@@ -119,6 +117,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/pl26-g6vy",
       "title": "Certifying Ergotropy under Partial Information",
       "authors": [
@@ -151,6 +150,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/7mv6-4g91",
       "title": "Hierarchical Time Crystals",
       "authors": [
@@ -183,6 +183,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/v2ms-wmz1",
       "title": "Framework for Robust Quantum Speedups in Practical Correlated Electronic Structure and Dynamics",
       "authors": [
@@ -215,6 +216,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/zp4k-2t92",
       "title": "Fully Charm-Tetraquark Production at Hadronic Collisions with Gluon Radiation Effects",
       "authors": [
@@ -247,6 +249,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "http://link.aps.org/doi/10.1103/t3bt-m431",
       "title": "Experimental Evidence of Kelvin-Wave Turbulence along a Vortex Core",
       "authors": [
@@ -279,6 +282,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "http://link.aps.org/doi/10.1103/4zdv-1ryx",
       "title": "Exact Anomalous Current Fluctuations in Quantum Many-Body Dynamics",
       "authors": [
@@ -311,6 +315,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "http://link.aps.org/doi/10.1103/sfxm-n236",
       "title": "Quantum Oscillation and Topology Change of the Uncondensed Landau Fermi Surface in Superconducting ${\\mathrm{CeCoIn}}_{5}$",
       "authors": [
@@ -343,6 +348,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "http://link.aps.org/doi/10.1103/96h3-z6r8",
       "title": "Anyon Superfluid in Trilayer Quantum Hall Systems",
       "authors": [
@@ -375,6 +381,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/djw2-myk2",
       "title": "Observation of Vectorial Phase Singularities at Zero-Eigenvalue Exceptional Points",
       "authors": [
@@ -407,6 +414,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "http://link.aps.org/doi/10.1103/4c9s-gslh",
       "title": "Evidence for Magnon-Assisted Exciton Radiation in a Layered Antiferromagnetic Semiconductor",
       "authors": [
@@ -439,6 +447,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "http://link.aps.org/doi/10.1103/g83n-r4hs",
       "title": "Active Brownian Dynamics in Channels: First-Passage and Spatiotemporal Properties via Siegmund Duality",
       "authors": [
@@ -471,6 +480,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "http://link.aps.org/doi/10.1103/zykj-2361",
       "title": "Beyond the Tip: Lattice Dynamics, Seams, and the Mechanism of Microtubule Fracture",
       "authors": [
@@ -499,6 +509,518 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "https://www.nature.com/articles/s41586-026-11160-9",
+      "title": "Chemist-aligned retrosynthesis by ensembling diverse inductive bias models",
+      "authors": [
+        "Krzysztof Maziarz",
+        "Guoqing Liu",
+        "Felix Pultar",
+        "John Gardner",
+        "Tobias Gensch",
+        "Jean Helie",
+        "Hubert Misztela",
+        "Austin Tripp",
+        "Junren Li",
+        "Aleksei Kornev",
+        "Piotr Gaiński",
+        "Holger Hoefling",
+        "Mike Fortunato",
+        "Rishi Gupta",
+        "Andrew Baxter",
+        "Darren L. Poole",
+        "Jennifer M. Elward",
+        "Adrian Krzyzanowski",
+        "Peter Pogány",
+        "Stephen D. Pickett",
+        "Ian D. Wall",
+        "Christopher M. Bishop",
+        "Philip G. Humphreys",
+        "James A. Lumley",
+        "Mario P. Wiesenfeldt",
+        "Marwin H. S. Segler"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11160-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "https://www.nature.com/articles/d41586-026-02932-4",
+      "title": "Six principles for supporting academic freedom in universities",
+      "authors": [
+        "Sarah de Rijcke"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02932-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "https://www.nature.com/articles/d41586-026-02928-0",
+      "title": "Losing your way of life to climate change matters — and we need a way to measure it",
+      "authors": [
+        "Manasi Kumar"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02928-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "https://www.nature.com/articles/d41586-026-02987-3",
+      "title": "Edible batteries power medical devices in the body",
+      "authors": [
+        "Katherine Bourzac"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02987-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "https://www.nature.com/articles/d41586-026-02890-x",
+      "title": "China punishes prominent academics exposed by research sleuth",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02890-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "https://www.nature.com/articles/d41586-026-02931-5",
+      "title": "AI co-scientists are revolutionizing how research is done",
+      "authors": [
+        "Elie Dolgin"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02931-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "https://www.nature.com/articles/d41586-026-02441-4",
+      "title": "How do I change labs gracefully during my PhD?",
+      "authors": [
+        "N. G. Boeck"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02441-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "https://www.nature.com/articles/d41586-026-02981-9",
+      "title": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02981-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1038/d41586-026-02932-4",
+      "title": "Six principles for supporting academic freedom in universities",
+      "authors": [
+        "Sarah de Rijcke"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02932-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02932-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1038/d41586-026-02981-9",
+      "title": "'Epigenetic' editing is here: gene-tagging technique banishes hepatitis B virus",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02981-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02981-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1038/s41586-026-11160-9",
+      "title": "Chemist-aligned retrosynthesis by ensembling diverse inductive bias models",
+      "authors": [
+        "Krzysztof Maziarz",
+        "Guoqing Liu",
+        "Felix Pultar",
+        "John Gardner",
+        "Tobias Gensch",
+        "Jean Helie",
+        "Hubert Misztela",
+        "Austin Tripp"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11160-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11160-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/d41586-026-02890-x",
+      "title": "China punishes prominent academics exposed by research sleuth",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02890-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02890-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/d41586-026-02931-5",
+      "title": "AI co-scientists are revolutionizing how research is done",
+      "authors": [
+        "Elie Dolgin"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02931-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02931-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-02928-0",
+      "title": "Losing your way of life to climate change matters — and we need a way to measure it",
+      "authors": [
+        "Manasi Kumar"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02928-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02928-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-02441-4",
+      "title": "How do I change labs gracefully during my PhD?",
+      "authors": [
+        "N. G. Boeck"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02441-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02441-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02987-3",
+      "title": "Edible batteries power medical devices in the body",
+      "authors": [
+        "Katherine Bourzac"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02987-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-21T08:00:00+08:00",
+      "updated": "2026-09-21T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02987-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
