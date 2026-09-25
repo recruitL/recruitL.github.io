@@ -1,9 +1,10 @@
 {
-  "date": "2026-09-24",
-  "generated_at": "2026-09-24 08:33 CST",
-  "window": "2026-09-23 00:00 至 2026-09-25 00:00 Asia/Shanghai",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25 08:36 CST",
+  "window": "2026-09-24 00:00 至 2026-09-26 00:00 Asia/Shanghai",
   "counts": {
-    "related": 17
+    "recommended": 1,
+    "related": 24
   },
   "source_statuses": [
     {
@@ -23,13 +24,13 @@
     },
     {
       "source": "Nature RSS",
-      "ok": true,
-      "count": 54
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
     },
     {
       "source": "Science RSS",
       "ok": true,
-      "count": 0
+      "count": 40
     },
     {
       "source": "Physical Review Letters RSS",
@@ -54,17 +55,17 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 20
+      "count": 6
     },
     {
       "source": "Science Crossref",
       "ok": true,
-      "count": 0
+      "count": 20
     },
     {
       "source": "Physical Review Letters Crossref",
       "ok": true,
-      "count": 14
+      "count": 20
     },
     {
       "source": "Living Reviews in Relativity Crossref",
@@ -77,26 +78,234 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 17,
+  "total_papers": 25,
   "total_review_candidates": 80,
-  "report_path": "/papers/2026-09-24/",
-  "review_path": "_paper_reviews/2026-09-24.md",
+  "report_path": "/papers/2026-09-25/",
+  "review_path": "_paper_reviews/2026-09-25.md",
   "papers": [
     {
-      "uid": "http://link.aps.org/doi/10.1103/n7tv-p5bp",
-      "title": "Algorithmic Quantum Simulations of Quantum Thermodynamics",
+      "uid": "doi:10.1103/fpnh-n3m5",
+      "title": "Probing extragalactic ultralight axion dark matter with decade-long blazar optical polarimetry of 1ES 1959+650",
       "authors": [
-        "Yangsen Ye et al."
+        "Anonymous"
       ],
-      "abstract": "Author(s): Yangsen Ye et al. A method to compute thermodynamic properties of spin systems is demonstrated in quantum hardware. [Phys. Rev. Lett. 137, 130603] Published Wed Sep 23, 2026",
-      "url": "http://link.aps.org/doi/10.1103/n7tv-p5bp",
+      "abstract": "",
+      "url": "https://doi.org/10.1103/fpnh-n3m5",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/fpnh-n3m5",
+      "journal": "Physical Review Letters",
+      "score": 55,
+      "priority": "recommended",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "dark matter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/nhl7-9j9z",
+      "title": "Neutrino emissivity in Δ -direct-Urca processes inside neutron stars",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/nhl7-9j9z",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/nhl7-9j9z",
+      "journal": "Physical Review Letters",
+      "score": 35,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aem6544?af=r",
+      "title": "Why AI agents invent their own language if you let them chat",
+      "authors": [
+        "Tom Howarth"
+      ],
+      "abstract": "Science, Volume 393, Issue 6818, Page 1286-1287, September 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aem6544?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-09-24T14:00:04+08:00",
+      "updated": "2026-09-24T14:00:04+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Science",
+      "score": 32,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AI agent"
+      ],
+      "analysis": {
+        "zh_summary": "Science, Volume 393, Issue 6818, Page 1286-1287, September 2026.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "AI agent",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1038/d41586-026-03024-z",
+      "title": "AI agent hacks government website for first time: why this breach matters",
+      "authors": [
+        "Mohana Basu",
+        "Rachel Fieldhouse"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03024-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03024-z",
+      "journal": "Nature",
+      "score": 32,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AI agent"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "AI agent",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/5pvf-mcr1",
+      "title": "Possible Solution to the Gallium Anomaly Moving beyond the Leptonic Wave-Function Factorization",
+      "authors": [
+        "M. Cadeddu, N. Cargioli, F. Dordei, L. Ferro, C. Giunti, and M. Pitzalis"
+      ],
+      "abstract": "Author(s): M. Cadeddu, N. Cargioli, F. Dordei, L. Ferro, C. Giunti, and M. Pitzalis A decades-old neutrino mystery might be solved not by undiscovered physics but by improved calculations. [Phys. Rev. Lett. 137, 131805] Published Thu Sep 24, 2026",
+      "url": "http://link.aps.org/doi/10.1103/5pvf-mcr1",
       "source": "Physical Review Letters",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T18:00:00+08:00",
-      "updated": "2026-09-23T18:00:00+08:00",
+      "published": "2026-09-24T18:00:00+08:00",
+      "updated": "2026-09-24T18:00:00+08:00",
       "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
+        "Particles and Fields",
+        "Particles and Fields"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 30,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): M.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/5pvf-mcr1",
+      "title": "Possible Solution to the Gallium Anomaly Moving beyond the Leptonic Wave-Function Factorization",
+      "authors": [
+        "M. Cadeddu",
+        "N. Cargioli",
+        "F. Dordei",
+        "L. Ferro",
+        "C. Giunti",
+        "M. Pitzalis"
+      ],
+      "abstract": "For over 30 years, a ∼ 20 % deficit, now exceeding 5 σ , has persisted between measured and predicted neutrino capture rates on Ga 71 , as observed in radioactive source experiments (namely GALLEX, SAGE, and more recently BEST) using Cr 51 and Ar 37 . This long-standing discrepancy, referred to as the gallium anomaly, has posed a significant challenge to our understanding of both experimental methods and theoretical predictions. In this Letter, we revisit the theoretical calculation of the neutrino capture cross section by moving beyond the standard treatment of the leptonic wave functions, revealing limitations in the commonly used factorization approach based on the detailed balance principle. Incorporating phenomenologically constrained Gamow-Teller transition densities, able to correctly reproduce the precisely measured half-life of Ge 71 , we find that the revised cross section can be significantly reduced, potentially resolving the gallium anomaly without invoking new physics.",
+      "url": "https://doi.org/10.1103/5pvf-mcr1",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/5pvf-mcr1",
+      "journal": "Physical Review Letters",
+      "score": 30,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "For over 30 years, a ∼ 20 % deficit, now exceeding 5 σ , has persisted between measured and predicted neutrino capture rates on Ga 71 , as observed in radioactive source experiments (namely GALLEX, SAGE, and more recently BEST) using Cr 51 and Ar 37 .",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/cxm9-mr48",
+      "title": "Precision Studies and Searches for $CP$ Asymmetries in the Inclusive Decay ${\\mathrm{Λ}}_{c}^{+}→\\mathrm{Λ}X$",
+      "authors": [
+        "M. Ablikim et al. (BESIII Collaboration)"
+      ],
+      "abstract": "Author(s): M. Ablikim et al. (BESIII Collaboration) Based on ${e}^{+}{e}^{−}$ annihilation data collected with the BESIII detector at center-of-mass energies from 4.600 to 4.699 GeV, corresponding to an integrated luminosity of $4.5\\text{ }\\text{ }{\\mathrm{fb}}^{−1}$, we present the first measurement of the longitudinal polarization of $\\mathrm{Λ}$ h… [Phys. Rev. Lett. 137, 131902] Published Thu Sep 24, 2026",
+      "url": "http://link.aps.org/doi/10.1103/cxm9-mr48",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T18:00:00+08:00",
+      "updated": "2026-09-24T18:00:00+08:00",
+      "categories": [
+        "Particles and Fields",
+        "Particles and Fields"
       ],
       "doi": "",
       "journal": "Physical Review Letters",
@@ -107,7 +316,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Author(s): Yangsen Ye et al.",
+        "zh_summary": "Author(s): M.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -115,20 +324,20 @@
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/j9m4-386b",
-      "title": "Hidden Zeeman Field in Odd-Parity Magnets: An Ideal Platform for Topological Superconductivity",
+      "uid": "http://link.aps.org/doi/10.1103/19kq-mf8c",
+      "title": "Anisotropic Subdiffusion in the Cytoplasm of Living Cells",
       "authors": [
-        "Xun-Jiang Luo, Zi-Ting Sun, Xilin Feng, Mingliang Tian, and K. T. Law"
+        "Aranyak Sarkar, Pooja Yadav, and Matthias Weiss"
       ],
-      "abstract": "Author(s): Xun-Jiang Luo, Zi-Ting Sun, Xilin Feng, Mingliang Tian, and K. T. Law Odd-parity magnets (OPMs) have emerged as a fundamental class of unconventional magnetism, characterized by time-reversal-preserving nonrelativistic spin splitting (NSS). Despite growing interest, the fundamental understanding of OPMs remains critically incomplete, as previous studies have focused e… [Phys. Rev. Lett. 137, 136003] Published Wed Sep 23, 2026",
-      "url": "http://link.aps.org/doi/10.1103/j9m4-386b",
+      "abstract": "Author(s): Aranyak Sarkar, Pooja Yadav, and Matthias Weiss The cytoplasm of eukaryotic cells is a complex fluid that harbors a variety of membrane-enveloped organelles with distinct spatial distributions and duties. Peroxisomes, for example, are vesicular entities with radii in the sub-micron range, dispersed all over the cytoplasm to provide oxidative reac… [Phys. Rev. Lett. 137, 138402] Published Thu Sep 24, 2026",
+      "url": "http://link.aps.org/doi/10.1103/19kq-mf8c",
       "source": "Physical Review Letters",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T18:00:00+08:00",
-      "updated": "2026-09-23T18:00:00+08:00",
+      "published": "2026-09-24T18:00:00+08:00",
+      "updated": "2026-09-24T18:00:00+08:00",
       "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
+        "Polymers, Chemical Physics, Soft Matter, and Biological Physics",
+        "Polymers, Chemical Physics, Soft Matter, and Biological Physics"
       ],
       "doi": "",
       "journal": "Physical Review Letters",
@@ -139,7 +348,7 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Author(s): Xun-Jiang Luo, Zi-Ting Sun, Xilin Feng, Mingliang Tian, and K.",
+        "zh_summary": "Author(s): Aranyak Sarkar, Pooja Yadav, and Matthias Weiss The cytoplasm of eukaryotic cells is a complex fluid that harbors a variety of membrane-enveloped organelles with distinct spatial distributions and duties.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
@@ -147,87 +356,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/6f1z-dvc6",
-      "title": "Intertwined Charge Stripes and Majorana Zero Modes in an Iron-Based Superconductor",
-      "authors": [
-        "Yu Liu, Li-Xuan Wei, Qiang-Jun Cheng, Zhenhua Zhu, Xin-Yu Shi, Cong-Cong Lou, Yong-Wei Wang, Ze-Xian Deng, Ming-Qiang Ren, Dong E. Liu, Ziqiang Wang, Xu-Cun Ma, Jin-Feng Jia, Qi-Kun Xue, and Can-Li Song"
-      ],
-      "abstract": "Author(s): Yu Liu, Li-Xuan Wei, Qiang-Jun Cheng, Zhenhua Zhu, Xin-Yu Shi, Cong-Cong Lou, Yong-Wei Wang, Ze-Xian Deng, Ming-Qiang Ren, Dong E. Liu, Ziqiang Wang, Xu-Cun Ma, Jin-Feng Jia, Qi-Kun Xue, and Can-Li Song In type-II superconductors, magnetic fields modulate the amplitude and phase of the superconducting order parameter, forming quantized vortices where superconductivity is locally suppressed and exotic bound states or competing electronic orders emerge. Using spectroscopic-imaging scanning tunneling … [Phys. Rev. Lett. 137, 136505] Published Wed Sep 23, 2026",
-      "url": "http://link.aps.org/doi/10.1103/6f1z-dvc6",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T18:00:00+08:00",
-      "updated": "2026-09-23T18:00:00+08:00",
-      "categories": [
-        "Condensed Matter and Materials",
-        "Condensed Matter and Materials"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Yu Liu, Li-Xuan Wei, Qiang-Jun Cheng, Zhenhua Zhu, Xin-Yu Shi, Cong-Cong Lou, Yong-Wei Wang, Ze-Xian Deng, Ming-Qiang Ren, Dong E.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/6f1z-dvc6",
-      "title": "Intertwined Charge Stripes and Majorana Zero Modes in an Iron-Based Superconductor",
-      "authors": [
-        "Yu Liu",
-        "Li-Xuan Wei",
-        "Qiang-Jun Cheng",
-        "Zhenhua Zhu",
-        "Xin-Yu Shi",
-        "Cong-Cong Lou",
-        "Yong-Wei Wang",
-        "Ze-Xian Deng"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/6f1z-dvc6",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/6f1z-dvc6",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/gz26-8ryj",
-      "title": "Compositional proofreading through critical self-tuning",
+      "uid": "doi:10.1103/lh2x-jn4m",
+      "title": "Nonequilibrium equation of state for a turbulent 2D Bose gas",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/gz26-8ryj",
+      "url": "https://doi.org/10.1103/lh2x-jn4m",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/gz26-8ryj",
+      "doi": "10.1103/lh2x-jn4m",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -244,54 +385,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/991b-9jp2",
-      "title": "Braking Protons at the Electron-Ion Collider: From Invisible Meson Decay to New Physics Searches",
-      "authors": [
-        "Reuven Balkin",
-        "Ta’el Coren",
-        "Alexander Jentsch",
-        "Hongkai Liu",
-        "Maksym Ovchynnikov",
-        "Yotam Soreq",
-        "Sokratis Trifinopoulos"
-      ],
-      "abstract": "We investigate the sensitivity of the Electron-Ion Collider (EIC) to invisible final states in coherent exclusive electroproduction. The characteristic signal is a forward proton with reduced energy and little additional detector activity. Using the excellent particle detection capabilities and kinematics reconstruction at the EIC, we argue that backgrounds can be strongly suppressed. While our analysis applies to various states, we specifically focus on vector and pseudoscalar particles: (i) neutral mesons [ P = π 0 , η ( ′ ) , V = ρ 0 , ω , ϕ ], whose invisible standard model decays are extremely suppressed, and (ii) gluon-coupled axionlike particles (ALPs) decaying invisibly to a dark sector. With the baseline detector and a conservative residual-background estimate, the EIC can improve the sensitivity to invisible η , η ′ , ω , and ϕ decays by factors of about 4–40 and probe invisible ρ 0 decays for the first time. With further background reduction and optimized detector performance, the projected sensitivity may reach branching fractions as small as 4 × 10 − 11 . In addition, under the same conditions, the EIC would directly probe invisibly decaying ALPs with the couplings up to f a ∼ 10 5 GeV and masses in the range 0.1–2 GeV.",
-      "url": "https://doi.org/10.1103/991b-9jp2",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/991b-9jp2",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "We investigate the sensitivity of the Electron-Ion Collider (EIC) to invisible final states in coherent exclusive electroproduction.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/y1dt-3lqd",
-      "title": "Multirobust control pulses designed by iterative quantum Kolmogorov-Arnold-Moser algorithm",
+      "uid": "doi:10.1103/7931-lsqk",
+      "title": "Contamination-free resolution of Cantor spectra and magic-angle localization in moiré quasicrystals and aperiodic media",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/y1dt-3lqd",
+      "url": "https://doi.org/10.1103/7931-lsqk",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/y1dt-3lqd",
+      "doi": "10.1103/7931-lsqk",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -308,19 +414,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/ph91-6pg2",
-      "title": "Quantum simulation of Motzkin spin chains with Rydberg atoms",
+      "uid": "doi:10.1103/2ypb-byqq",
+      "title": "Revealing the nature of the charge density wave order of ErTe 3 via Raman scattering under anisotropic strain",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/ph91-6pg2",
+      "url": "https://doi.org/10.1103/2ypb-byqq",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/ph91-6pg2",
+      "doi": "10.1103/2ypb-byqq",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -337,52 +443,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/j9m4-386b",
-      "title": "Hidden Zeeman Field in Odd-Parity Magnets: An Ideal Platform for Topological Superconductivity",
-      "authors": [
-        "Xun-Jiang Luo",
-        "Zi-Ting Sun",
-        "Xilin Feng",
-        "Mingliang Tian",
-        "K. T. Law"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/j9m4-386b",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/j9m4-386b",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/6327-7256",
-      "title": "Altermagnetism in folded iron chain systems",
+      "uid": "doi:10.1103/3m8q-k1cq",
+      "title": "Transient alignment of distinct l -doubling populations via centrifugal distortion pre-compensation",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/6327-7256",
+      "url": "https://doi.org/10.1103/3m8q-k1cq",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/6327-7256",
+      "doi": "10.1103/3m8q-k1cq",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -399,55 +472,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/drzq-lfn5",
-      "title": "Observation of Time-Reversal Symmetry Breaking in the Type-I Superconductor YbSb 2",
-      "authors": [
-        "Anshu Kataria",
-        "Shashank Srivastava",
-        "Dibyendu Samanta",
-        "Pushpendra Yadav",
-        "Poulami Manna",
-        "Suhani Sharma",
-        "Priya Mishra",
-        "Joel Barker"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/drzq-lfn5",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/drzq-lfn5",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/2vg9-34y9",
-      "title": "Bag Parameters for Heavy Meson Lifetimes from a Lattice QCD Calculation at the SU ( 3 ) F -symmetric Point",
+      "uid": "doi:10.1103/f1dk-yk6g",
+      "title": "Quasi-linear theory of fast flavor instabilities",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/2vg9-34y9",
+      "url": "https://doi.org/10.1103/f1dk-yk6g",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/2vg9-34y9",
+      "doi": "10.1103/f1dk-yk6g",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -464,19 +501,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/gny7-xz9s",
-      "title": "Chiral Casimir-Polder force from chiral anomaly purely governed by electric-dipole response",
+      "uid": "doi:10.1103/yscq-npz8",
+      "title": "Particle correlations in jets",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/gny7-xz9s",
+      "url": "https://doi.org/10.1103/yscq-npz8",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/gny7-xz9s",
+      "doi": "10.1103/yscq-npz8",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -493,55 +530,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/n7tv-p5bp",
-      "title": "Algorithmic Quantum Simulations of Quantum Thermodynamics",
-      "authors": [
-        "Yangsen Ye",
-        "Jue Nan",
-        "Dong Chen",
-        "Torsten V. Zache",
-        "Qingling Zhu",
-        "Yiming Zhang",
-        "Yuan Li",
-        "Xiawei Chen"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/n7tv-p5bp",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/n7tv-p5bp",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/26bx-yqbd",
-      "title": "Exact solution of two-dimensional Palatini Gauss-Bonnet theory on a strip",
+      "uid": "doi:10.1103/4smy-6w2n",
+      "title": "Entangling ions with engineered light gradients",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/26bx-yqbd",
+      "url": "https://doi.org/10.1103/4smy-6w2n",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/26bx-yqbd",
+      "doi": "10.1103/4smy-6w2n",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -558,19 +559,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/z156-xk5y",
-      "title": "First search for quirks at the LHC with FASER",
+      "uid": "doi:10.1103/ynk4-sj21",
+      "title": "Page curve for local-operator entanglement from free probability",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/z156-xk5y",
+      "url": "https://doi.org/10.1103/ynk4-sj21",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/z156-xk5y",
+      "doi": "10.1103/ynk4-sj21",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -587,19 +588,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/nwyq-3t1f",
-      "title": "Three-dimensional topological ferroelectrics",
+      "uid": "doi:10.1103/54t2-pmf8",
+      "title": "Bose polarons as relativistic Unruh-DeWitt detectors: Entanglement harvesting from Bose-Einstein condensates",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/nwyq-3t1f",
+      "url": "https://doi.org/10.1103/54t2-pmf8",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-09-23T08:00:00+08:00",
-      "updated": "2026-09-23T08:00:00+08:00",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/nwyq-3t1f",
+      "doi": "10.1103/54t2-pmf8",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -609,6 +610,247 @@
       "matched_keywords": [],
       "analysis": {
         "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/vc5l-ts6m",
+      "title": "Observation of Kondo effect in rhombohedral graphene superlattices",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/vc5l-ts6m",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vc5l-ts6m",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/l9xq-8z1d",
+      "title": "Precision isotope-shift measurement of the 1 S 0 ↔ 3 P 2 transition and a multi-transition King-plot consistency test",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/l9xq-8z1d",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/l9xq-8z1d",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/w5l7-jc9r",
+      "title": "Kinetic pathway for electron energization during strong guide-field magnetic reconnection",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/w5l7-jc9r",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/w5l7-jc9r",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/cxm9-mr48",
+      "title": "Precision Studies and Searches for C P Asymmetries in the Inclusive Decay Λ c + → Λ X",
+      "authors": [
+        "M. Ablikim",
+        "M. N. Achasov",
+        "P. Adlarson",
+        "X. C. Ai",
+        "C. S. Akondi",
+        "R. Aliberti",
+        "A. Amoroso",
+        "Q. An"
+      ],
+      "abstract": "Based on e + e − annihilation data collected with the BESIII detector at center-of-mass energies from 4.600 to 4.699 GeV, corresponding to an integrated luminosity of 4.5 fb − 1 , we present the first measurement of the longitudinal polarization of Λ hyperon produced in the inclusive decay Λ c + → Λ X , where X denotes any allowed final states. The polarizations are determined to be P Λ = − 0.393 ± 0.05 5 stat ± 0.02 0 syst and P Λ ¯ = 0.288 ± 0.05 6 stat ± 0.01 7 syst . A search for C P violation is performed using an asymmetry constructed from the Λ polarization and the Λ → p π − decay asymmetry parameter, and A C P pol = 0.15 ± 0.1 2 stat ± 0.0 3 syst was obtained. Furthermore, an updated measurement of the absolute branching fraction is reported as B ( Λ c + → Λ X ) = ( 38.07 ± 0.3 8 stat ± 0.4 9 syst ) % , representing a fourfold precision improvement over the previous BESIII measurement. A search for C P violation in the decay rate yields A C P dir = ( 1.5 ± 1.0 stat ± 1.0 syst ) % . No evidence for C P violation is observed in this inclusive charm baryon decay. The subscripts ‘stat’ and ‘syst’ denote statistical and systematic uncertainties, respectively.",
+      "url": "https://doi.org/10.1103/cxm9-mr48",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/cxm9-mr48",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Based on e + e − annihilation data collected with the BESIII detector at center-of-mass energies from 4.600 to 4.699 GeV, corresponding to an integrated luminosity of 4.5 fb − 1 , we present the first measurement of the longitudinal polarization of Λ hyperon produced in the inclusive decay Λ c + → Λ X , where X denotes any allowed final states.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/f92d-w6fn",
+      "title": "Superparamagnetism in an interacting nanomagnet array: A tale of three temperatures",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/f92d-w6fn",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/f92d-w6fn",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/ftsj-hlsw",
+      "title": "Orbitally tuned composite-fermion pairing transitions in bilayer graphene",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ftsj-hlsw",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ftsj-hlsw",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/b28p-yb2t",
+      "title": "Beyond the Born-Oppenheimer time-dependent density functional theory",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/b28p-yb2t",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/b28p-yb2t",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/19kq-mf8c",
+      "title": "Anisotropic Subdiffusion in the Cytoplasm of Living Cells",
+      "authors": [
+        "Aranyak Sarkar",
+        "Pooja Yadav",
+        "Matthias Weiss"
+      ],
+      "abstract": "The cytoplasm of eukaryotic cells is a complex fluid that harbors a variety of membrane-enveloped organelles with distinct spatial distributions and duties. Peroxisomes, for example, are vesicular entities with radii in the sub-micron range, dispersed all over the cytoplasm to provide oxidative reaction vessels across the cell. Here, we have tracked peroxisomes as biologically relevant tracer particles to explore the local structure of the cytoplasm. Focusing on the vast majority of (sub)diffusively moving peroxisomes, we show that these display a significant motion anisotropy even in the absence of intact actin filaments and microtubules or when the endoplasmic reticulum (ER) is disrupted. In untreated cells, the local preference direction aligns with a global axis that correlates with the cell’s long axis; disrupting the cytoskeleton or the ER progressively randomizes this alignment. Altogether, our data indicate that the cytoplasm features a weak nematic substructure rather than being an isotropic fluid.",
+      "url": "https://doi.org/10.1103/19kq-mf8c",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-09-24T08:00:00+08:00",
+      "updated": "2026-09-24T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/19kq-mf8c",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The cytoplasm of eukaryotic cells is a complex fluid that harbors a variety of membrane-enveloped organelles with distinct spatial distributions and duties.",
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
