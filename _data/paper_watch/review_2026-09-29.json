@@ -77,12 +77,10 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 34,
-  "total_review_candidates": 46,
-  "report_path": "/papers/2026-09-29/",
   "review_path": "_paper_reviews/2026-09-29.md",
-  "papers": [
+  "candidates": [
     {
+      "review_id": "P001",
       "uid": "http://link.aps.org/doi/10.1103/tjrz-slnm",
       "title": "Atom-Photon Entanglement with a Single Trapped Cesium Atom",
       "authors": [
@@ -115,6 +113,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P002",
       "uid": "http://link.aps.org/doi/10.1103/g4lh-56r1",
       "title": "Optimal Shadow Estimation with Minimal Measurement Settings",
       "authors": [
@@ -147,6 +146,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P003",
       "uid": "http://link.aps.org/doi/10.1103/vrxp-zkbs",
       "title": "Observation of a ${B}_{c}^{*+}$ Meson with the ATLAS Detector",
       "authors": [
@@ -178,6 +178,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P004",
       "uid": "http://link.aps.org/doi/10.1103/ll3f-l5xv",
       "title": "Observation of Nuclear Suppression in Coherent $\\mathrm{ϒ}(1\\mathrm{S})$ Photoproduction off Heavy Nuclei at the LHC",
       "authors": [
@@ -210,6 +211,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P005",
       "uid": "http://link.aps.org/doi/10.1103/g27z-2kd3",
       "title": "Complete Reflection of Nonlinear Electromagnetic Waves in Underdense Pair Plasmas Enabled by Dynamically Formed Bragg-like Structures",
       "authors": [
@@ -242,6 +244,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P006",
       "uid": "http://link.aps.org/doi/10.1103/8rnn-n6tq",
       "title": "Switching between Spin and Orbital Hall Currents in a Single System via Ferrovalley Order",
       "authors": [
@@ -274,6 +277,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P007",
       "uid": "http://link.aps.org/doi/10.1103/rzdx-3xgj",
       "title": "Quantum-Geometry-Enabled Landau-Zener Tunneling in Singular Flat Bands",
       "authors": [
@@ -306,6 +310,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P008",
       "uid": "http://link.aps.org/doi/10.1103/h98c-37gv",
       "title": "$\\mathrm{SU}(N)$ Quantum Spin Model with Weak and Strong First-Order Transitions from Néel to Valence-Bond Solid",
       "authors": [
@@ -338,6 +343,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P009",
       "uid": "http://link.aps.org/doi/10.1103/sp3h-pkqx",
       "title": "Cooperative Quantum Optical Effects of Moiré Exciton Superlattices",
       "authors": [
@@ -370,6 +376,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P010",
       "uid": "http://link.aps.org/doi/10.1103/jtkh-9lz5",
       "title": "Singular Basins in Multiscale Systems: Tunneling between Stable States",
       "authors": [
@@ -402,6 +409,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P011",
       "uid": "doi:10.1103/vz71-r52l",
       "title": "Unveiling high-energy ultrafast responses driven by Fermi-level gap opening in charge-density waves",
       "authors": [
@@ -431,6 +439,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P012",
       "uid": "doi:10.1103/45dj-n19c",
       "title": "Universal relaxation speedup in nonequilibrium quantum many-body systems through transient resetting",
       "authors": [
@@ -460,6 +469,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P013",
       "uid": "doi:10.1103/b8b7-scc5",
       "title": "Interacting Chern insulator transition on the sphere: Revealing the Gross-Neveu-Yukawa criticality",
       "authors": [
@@ -489,6 +499,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P014",
       "uid": "doi:10.1103/sp3h-pkqx",
       "title": "Cooperative Quantum Optical Effects of Moiré Exciton Superlattices",
       "authors": [
@@ -520,6 +531,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P015",
       "uid": "doi:10.1103/4lcf-657x",
       "title": "Most degenerate chiral doublet bands in nuclei",
       "authors": [
@@ -549,6 +561,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P016",
       "uid": "doi:10.1103/cx1p-thwd",
       "title": "Quantum Monte Carlo studies of U(1) lattice gauge models of Kondo breakdown",
       "authors": [
@@ -578,6 +591,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P017",
       "uid": "doi:10.1103/3qlc-bqv9",
       "title": "Experimental tomography of quantum many-body Hamiltonians in solids via thermalization",
       "authors": [
@@ -607,6 +621,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P018",
       "uid": "doi:10.1103/g8gh-vsyq",
       "title": "Fate of an impurity strongly interacting with a thermal Bose gas",
       "authors": [
@@ -636,6 +651,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P019",
       "uid": "doi:10.1103/6jd1-s1b3",
       "title": "Quantum sensing using geometrical phase in qubit-oscillator systems",
       "authors": [
@@ -665,6 +681,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P020",
       "uid": "doi:10.1103/l34q-m644",
       "title": "Electrically switchable bright-dark excitons in ferrovalley bilayers",
       "authors": [
@@ -694,6 +711,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P021",
       "uid": "doi:10.1103/xzzd-glq5",
       "title": "Realization of a synthetic Hall torus with a topological charge pump in a spinor Bose-Einstein condensate",
       "authors": [
@@ -723,6 +741,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P022",
       "uid": "doi:10.1103/vrxp-zkbs",
       "title": "Observation of a B c * + Meson with the ATLAS Detector",
       "authors": [
@@ -759,6 +778,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P023",
       "uid": "doi:10.1103/g27z-2kd3",
       "title": "Complete Reflection of Nonlinear Electromagnetic Waves in Underdense Pair Plasmas Enabled by Dynamically Formed Bragg-like Structures",
       "authors": [
@@ -790,6 +810,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P024",
       "uid": "doi:10.1103/rzdx-3xgj",
       "title": "Quantum-Geometry-Enabled Landau-Zener Tunneling in Singular Flat Bands",
       "authors": [
@@ -820,6 +841,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P025",
       "uid": "doi:10.1103/nmsz-9p3k",
       "title": "Millisecond-coherent 2D nuclear shells around V B − defects in hBN",
       "authors": [
@@ -849,6 +871,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P026",
       "uid": "doi:10.1103/8rnn-n6tq",
       "title": "Switching between Spin and Orbital Hall Currents in a Single System via Ferrovalley Order",
       "authors": [
@@ -882,6 +905,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P027",
       "uid": "doi:10.1103/jtkh-9lz5",
       "title": "Singular Basins in Multiscale Systems: Tunneling between Stable States",
       "authors": [
@@ -914,6 +938,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P028",
       "uid": "doi:10.1103/xkht-64kc",
       "title": "Interferometric readout of momentum-space topology in a programmable dissipative photonic circuit",
       "authors": [
@@ -943,6 +968,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P029",
       "uid": "doi:10.1103/ll3f-l5xv",
       "title": "Observation of Nuclear Suppression in Coherent ϒ ( 1 S ) Photoproduction off Heavy Nuclei at the LHC",
       "authors": [
@@ -979,6 +1005,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P030",
       "uid": "doi:10.1103/ghn4-2m7c",
       "title": "Linear ensemble-constrained quantum Monte Carlo: From dilute fermi gas to flat-band ferromagnetism",
       "authors": [
@@ -1008,6 +1035,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P031",
       "uid": "doi:10.1103/g4lh-56r1",
       "title": "Optimal Shadow Estimation with Minimal Measurement Settings",
       "authors": [
@@ -1039,6 +1067,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P032",
       "uid": "doi:10.1103/tjrz-slnm",
       "title": "Atom-Photon Entanglement with a Single Trapped Cesium Atom",
       "authors": [
@@ -1073,6 +1102,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P033",
       "uid": "doi:10.1103/h98c-37gv",
       "title": "SU ( N ) Quantum Spin Model with Weak and Strong First-Order Transitions from Néel to Valence-Bond Solid",
       "authors": [
@@ -1103,6 +1133,7 @@
       "ai_blocked": false
     },
     {
+      "review_id": "P034",
       "uid": "doi:10.1103/5cyh-2mqf",
       "title": "No-go theorem for Gaussian quantum repeaters from fractional extendibility",
       "authors": [
@@ -1128,6 +1159,368 @@
         "why_relevant": "匹配关注项：来源优先级。",
         "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "https://www.nature.com/articles/d41586-026-03004-3",
+      "title": "China now leads the world in trials for next-gen CAR-T therapies",
+      "authors": [
+        "Rachel Fieldhouse"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03004-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "https://www.nature.com/articles/d41586-026-02959-7",
+      "title": "Stephen Hawking biography explores an ‘exceptionally clear, uncluttered mind’",
+      "authors": [
+        "Neil Turok"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02959-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "https://www.nature.com/articles/d41586-026-02964-w",
+      "title": "Bigger than CRISPR? A guide to the latest genome editors",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02964-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "https://www.nature.com/articles/d41586-026-02962-y",
+      "title": "Vaping in childhood has bigger health risks than we’d thought",
+      "authors": [
+        "William D. Carroll",
+        "Francis J. Gilchrist"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02962-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "https://www.nature.com/articles/d41586-026-03043-w",
+      "title": "Old hearts age backwards: transplanted organs adjust to host's biological age",
+      "authors": [
+        "Chris Simms"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03043-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "https://www.nature.com/articles/d41586-026-02277-y",
+      "title": "Paid to peer review: firms are paying researchers to assess manuscripts for journals",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02277-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "doi:10.1038/d41586-026-03004-3",
+      "title": "China now leads the world in trials for next-gen CAR-T therapies",
+      "authors": [
+        "Rachel Fieldhouse"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03004-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03004-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "doi:10.1038/d41586-026-02277-y",
+      "title": "Paid to peer review: firms are paying researchers to assess manuscripts for journals",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02277-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02277-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "doi:10.1038/d41586-026-02959-7",
+      "title": "Stephen Hawking biography explores an ‘exceptionally clear, uncluttered mind’",
+      "authors": [
+        "Neil Turok"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02959-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02959-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "doi:10.1038/d41586-026-02964-w",
+      "title": "Bigger than CRISPR? A guide to the latest genome editors",
+      "authors": [
+        "Heidi Ledford"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02964-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02964-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "doi:10.1038/d41586-026-02962-y",
+      "title": "Vaping in childhood has bigger health risks than we’d thought",
+      "authors": [
+        "William D. Carroll",
+        "Francis J. Gilchrist"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02962-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02962-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "doi:10.1038/d41586-026-03043-w",
+      "title": "Old hearts age backwards: transplanted organs adjust to host's biological age",
+      "authors": [
+        "Chris Simms"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03043-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-09-28T08:00:00+08:00",
+      "updated": "2026-09-28T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03043-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
       },
       "ai_blocked": false
     }
