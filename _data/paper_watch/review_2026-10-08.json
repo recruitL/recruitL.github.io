@@ -1,0 +1,1227 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08 10:04 CST",
+  "window": "2026-10-07 00:00 至 2026-10-09 00:00 Asia/Shanghai",
+  "counts": {
+    "related": 16
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": false,
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "Nature RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "Science Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 12
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-10-08.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "doi:10.1038/s41586-026-11084-4",
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "authors": [
+        "L. Toscani De Col",
+        "T. Riebner",
+        "I. Morawetz",
+        "F. Schneider",
+        "N. Sempelmann",
+        "J. Schlachet-Lépinay",
+        "F. Schaden",
+        "M. Bartokos"
+      ],
+      "abstract": "Abstract The laser-accessible nuclear transition in the thorium-229 isotope has been identified as a candidate for realizing an optical nuclear clock 1 that might outperform current optical clocks based on electron-shell transitions in atoms or ions 2 . It is expected to be more robust against external perturbations 3,4 and to provide enhanced sensitivity in clock-based tests of the fundamental principles of physics 5,6 . Here we realize a thorium-229 nuclear clock by stabilizing a continuous-wave laser to the 148-nm nuclear transition with rapid feedback based on absorption spectroscopy 7 . The thorium-229 nuclei are embedded in a millimetre-sized, room-temperature calcium fluoride crystal. A subharmonic of the 148-nm radiation is continuously compared with a Yb + single-ion clock. The nuclear clock shows a shot-noise-limited fractional frequency instability of $$3\\times 1{0}^{-12}/\\sqrt{\\tau /{\\rm{s}}}$$ 3 × 1 0 − 12 / τ / s where τ is the averaging time, approaching 10 −15 instabilities over 1 day of operation. Improvements to the instability by several orders of magnitude are projected for future devices. We use the nuclear clock to constrain models of ultralight dark matter by searching for periodic fluctuations and slow drifts in the nuclear transition energy, on timescales between 20 s and 1 day. Benefitting from the enhanced sensitivity of the thorium-229 transition, these constraints compete with the best atomic clocks concerning dark matter coupling to photons and go beyond previous measurements regarding coupling to the strong force.",
+      "url": "https://doi.org/10.1038/s41586-026-11084-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11084-4",
+      "journal": "Nature",
+      "score": 33,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "Abstract The laser-accessible nuclear transition in the thorium-229 isotope has been identified as a candidate for realizing an optical nuclear clock 1 that might outperform current optical clocks based on electron-shell transitions in atoms or ions 2 .",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "dark matter",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "http://link.aps.org/doi/10.1103/g2hh-pk9h",
+      "title": "Heralded Generation of a Three-Mode NOON State",
+      "authors": [
+        "Sukhjit P. Singh, Elnaz Bazzazi, Diego N. Bernal-García, Simon J. U. White, Hassan Jamal Latief, Alison Goldingay, Sven Rogge, Sergei Slussarenko, Farzad Ghafari, Emanuele Polino, and Nora Tischler"
+      ],
+      "abstract": "Author(s): Sukhjit P. Singh, Elnaz Bazzazi, Diego N. Bernal-García, Simon J. U. White, Hassan Jamal Latief, Alison Goldingay, Sven Rogge, Sergei Slussarenko, Farzad Ghafari, Emanuele Polino, and Nora Tischler Entangled states of photons form the foundation of quantum communication, computation, and metrology. Yet their generation remains fundamentally constrained: in the absence of intrinsic photon-photon interactions, the generation of such states is inherently probabilistic rather than deterministic. T… [Phys. Rev. Lett. 137, 150802] Published Wed Oct 07, 2026",
+      "url": "http://link.aps.org/doi/10.1103/g2hh-pk9h",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T18:00:00+08:00",
+      "updated": "2026-10-07T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Sukhjit P.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "http://link.aps.org/doi/10.1103/pgkx-8t5c",
+      "title": "Energy- and Momentum-Resolved Single-Shot Yield Fluctuations in Bright-Squeezed-Vacuum-Driven Atomic Strong-Field Ionization",
+      "authors": [
+        "Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu"
+      ],
+      "abstract": "Author(s): Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu When intense quantum light knocks electrons out of atoms, the statistics of the light can be transferred to the electrons. [Phys. Rev. Lett. 137, 153201] Published Wed Oct 07, 2026",
+      "url": "http://link.aps.org/doi/10.1103/pgkx-8t5c",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T18:00:00+08:00",
+      "updated": "2026-10-07T18:00:00+08:00",
+      "categories": [
+        "Atomic, Molecular, and Optical Physics",
+        "Atomic, Molecular, and Optical Physics"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu When intense quantum light knocks electrons out of atoms, the statistics of the light can be transferred to the electrons.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "http://link.aps.org/doi/10.1103/c2yn-qqv9",
+      "title": "Dissipative Acousto-Mechanical Parametric Interface between High-Overtone Acoustics and Flexural Phonons",
+      "authors": [
+        "Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A. Sillanpää, and Tiefu Li"
+      ],
+      "abstract": "Author(s): Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A. Sillanpää, and Tiefu Li A novel hybrid acousto-mechanical system demonstrates the highest-to-date coupling between a high-overtone bulk acoustic wave resonator and low-frequency flexural modes in a suspended silicon nitride membrane. [Phys. Rev. Lett. 137, 153602] Published Wed Oct 07, 2026",
+      "url": "http://link.aps.org/doi/10.1103/c2yn-qqv9",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T18:00:00+08:00",
+      "updated": "2026-10-07T18:00:00+08:00",
+      "categories": [
+        "Atomic, Molecular, and Optical Physics",
+        "Atomic, Molecular, and Optical Physics"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "doi:10.1103/gwj5-2932",
+      "title": "Chiral entangled-state generation through dissipative quantum dynamics",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/gwj5-2932",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/gwj5-2932",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "doi:10.1103/mfzh-6ssx",
+      "title": "Three-dimensional optical knots from intensity caustics",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/mfzh-6ssx",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/mfzh-6ssx",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "doi:10.1103/175v-l7v9",
+      "title": "Cavity solitons on a 50-site array of time-multiplexed resonators",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/175v-l7v9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/175v-l7v9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "doi:10.1103/c2yn-qqv9",
+      "title": "Dissipative Acousto-Mechanical Parametric Interface between High-Overtone Acoustics and Flexural Phonons",
+      "authors": [
+        "Xun Ji",
+        "Huanying Sun",
+        "Longhao Wu",
+        "Qichun Liu",
+        "Yulong Liu",
+        "Mika A. Sillanpää",
+        "Tiefu Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/c2yn-qqv9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/c2yn-qqv9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "doi:10.1103/pgkx-8t5c",
+      "title": "Energy- and Momentum-Resolved Single-Shot Yield Fluctuations in Bright-Squeezed-Vacuum-Driven Atomic Strong-Field Ionization",
+      "authors": [
+        "Haodong Liu",
+        "Xiaoxiao Long",
+        "Peizeng Li",
+        "Yunquan Liu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/pgkx-8t5c",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/pgkx-8t5c",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "doi:10.1103/bp24-s332",
+      "title": "Available energy and ground states of convective hydrodynamic and hydromagnetic instabilities",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/bp24-s332",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/bp24-s332",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "doi:10.1103/hyz3-3kxh",
+      "title": "Framing anomaly in lattice Chern-Simons-Maxwell theory",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/hyz3-3kxh",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/hyz3-3kxh",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "doi:10.1103/jrp2-wcgm",
+      "title": "Search for light-mass fractionally charged particles in space with DAMPE the experiment",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/jrp2-wcgm",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/jrp2-wcgm",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "doi:10.1103/xkvt-xvqm",
+      "title": "Experimental subdiffraction source discrimination enabled by spatial demultiplexing and single-photon detectors",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/xkvt-xvqm",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/xkvt-xvqm",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1103/r7s2-rsgb",
+      "title": "High-density ultracold neutron source for low-energy particle physics experiments",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/r7s2-rsgb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/r7s2-rsgb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "doi:10.1103/y95w-7ztb",
+      "title": "Lower limit on the double-alpha decay of 224 Ra",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/y95w-7ztb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/y95w-7ztb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "doi:10.1103/g2hh-pk9h",
+      "title": "Heralded Generation of a Three-Mode NOON State",
+      "authors": [
+        "Sukhjit P. Singh",
+        "Elnaz Bazzazi",
+        "Diego N. Bernal-García",
+        "Simon J. U. White",
+        "Hassan Jamal Latief",
+        "Alison Goldingay",
+        "Sven Rogge",
+        "Sergei Slussarenko"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/g2hh-pk9h",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/g2hh-pk9h",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "doi:10.1038/d41586-026-02968-6",
+      "title": "Semiconductors pushed into insulator territory",
+      "authors": [
+        "Hironori Okumura"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02968-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02968-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "doi:10.1038/s41586-026-10858-0",
+      "title": "Hydrogen bonding in water under extreme confinement",
+      "authors": [
+        "Xintong Xu",
+        "Matthias Kuehne",
+        "Harrison A. Walker",
+        "De-Liang Bao",
+        "Xin Jin",
+        "Yu-Ming Tu",
+        "Cody L. Ritt",
+        "Joel Martis"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-10858-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-10858-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "doi:10.1038/s41586-026-11127-w",
+      "title": "Alveolar stem cells transdifferentiate to drive bronchiolar regeneration",
+      "authors": [
+        "Kuo Liu",
+        "Zixin Liu",
+        "Xinfeng Meng",
+        "Muxue Tang",
+        "Fanglin Di",
+        "Zhongxiao Wang",
+        "Chenfei Li",
+        "Shan Yang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11127-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11127-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "doi:10.1038/s41586-026-11066-6",
+      "title": "A preinvasive regulatory T cell axis for lung cancer interception",
+      "authors": [
+        "Samuel Gamble",
+        "Zoe E. Whiteman",
+        "Claudia Peinador-Marín",
+        "Marta Lebrusant-Fernandez",
+        "Abigail Y. L. Shurr",
+        "Andrei Enica",
+        "Teerapon Sahwangarrom",
+        "Seng Kuong Anakin Ung"
+      ],
+      "abstract": "Abstract Late-stage non-small cell lung cancer (NSCLC) is rarely curable 1 , underscoring a need to intervene earlier in the disease process. Growing evidence suggests that antitumour T cell responses are mounted but become progressively dysregulated during early tumorigenesis 2,3 . Tracking and targeting preinvasive T cell regulation may inform new approaches to detect and intercept lung cancer development. Here we explore how the T cell network is remodelled during NSCLC development via multi-omic, cross-tissue immune profiling in patients with preinvasive lung lesions surveilled by autofluorescence bronchoscopy and computed tomography (CT) imaging. Effector regulatory CD4 + T cells (eT reg cells) expressing basic leucine zipper ATF-like transcription factor (BATF) accumulated in high-grade premalignant airway lesions and were clonally related to circulating eT reg cells. Circulating eT reg cells were increasingly elevated during preinvasive progression, enabling lung tumorigenesis to be tracked through analysis of peripheral blood. Emergence of this clonally coordinated eT reg cell circuit defined rapid progression in patients with early-stage NSCLC detected during CT screening. In mice, carcinogen-driven lung tumorigenesis triggered an analogous preinvasive eT reg cell axis across the blood, airways and draining lymph nodes (dLNs). This culminated in an expansion of lung BATF + T reg cells and T reg cell-rich peribronchial immature tertiary lymphoid structures (iTLSs). Immune interception via phosphoinositide 3-kinase-δ (PI3Kδ) inhibition abrogated formation of T reg cell-rich iTLSs, reduced circulating and pulmonary T reg cells, increased local conventional type 1 dendritic cells (cDC1s) and reduced lung tumour incidence and size. These data reveal a conserved eT reg cell network that emerges across tissues during early pulmonary tumorigenesis and provide a theranostic framework to track and target preinvasive immune regulation for lung cancer interception.",
+      "url": "https://doi.org/10.1038/s41586-026-11066-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11066-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract Late-stage non-small cell lung cancer (NSCLC) is rarely curable 1 , underscoring a need to intervene earlier in the disease process.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "doi:10.1038/d41586-026-02983-7",
+      "title": "Why we must advocate for proper care on the frontlines of the Ebola outbreak",
+      "authors": [
+        "Melissa Hobson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02983-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02983-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1038/d41586-026-02864-z",
+      "title": "Blend",
+      "authors": [
+        "E. J. Kavounas"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02864-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02864-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1038/s41586-026-11129-8",
+      "title": "Structural basis for regulating lipopolysaccharide transmembrane transport",
+      "authors": [
+        "Rebecca J. Taylor",
+        "Karanbir S. Pahil",
+        "Alessio Caruso",
+        "Bailey Plaman",
+        "Stephen A. Early",
+        "Sebastian J. Rowe",
+        "Vadim Baidin",
+        "Andrew Wilson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11129-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11129-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1038/d41586-026-02985-5",
+      "title": "Why sound, strong science alone isn’t enough in pandemic preparedness",
+      "authors": [
+        "Melissa Hobson"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02985-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02985-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/d41586-026-02836-3",
+      "title": "How we ditched presentations and embraced silence in our lab meetings",
+      "authors": [
+        "Manuel Spitschan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02836-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02836-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/s41586-026-11153-8",
+      "title": "tRNA dosage regulates lineage dependency and resistance in prostate cancer",
+      "authors": [
+        "Yeon Soo Kim",
+        "Sonali Arora",
+        "Dave Young",
+        "Ava Tsou",
+        "Amy Shiuan",
+        "Cynthia L. Wladyka",
+        "Dmytro Rudoy",
+        "Jin Yeong Kim"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11153-8",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11153-8",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-02934-2",
+      "title": "How to control where semiconductor crystals start growing",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02934-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02934-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1038/d41586-026-03127-7",
+      "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
+      "authors": [
+        "Bianca Nogrady"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03127-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03127-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1038/d41586-026-02999-z",
+      "title": "A guide to Nature Index tables",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02999-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02999-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "doi:10.1038/s41586-026-11105-2",
+      "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+      "authors": [
+        "Alexander Yakushev",
+        "Jadambaa Khuyagbaatar",
+        "Christoph E. Düllmann",
+        "Valeria Pershina",
+        "Matthias Schädel",
+        "Jochen Ballof",
+        "Pavel Bartl",
+        "Michael Block"
+      ],
+      "abstract": "Abstract The seventh row of the periodic table of the elements has been completed with the discovery of the five heaviest elements from flerovium (Fl, Z = 114) through oganesson (Og, Z = 118) 1 . Chemical properties of the superheavy elements (SHE, Z ≥ 104) are unique owing to the strong influence of relativistic effects on their valence electron shells 2 . The stability of the metal–ligand bonding in carbonyl complexes is a property that is predicted to be affected by such effects 3,4 . Here we present an experimental gas chromatography study on the stability of the Sg(CO) 6 complex. The measured formation yields of Sg(CO) 6 and W(CO) 6 enabled determining the first bond dissociation energy (FBDE) of Sg(CO) 6 , which is 4(2) kJ mol −1 lower than that of W(CO) 6 and corresponds to a value of 188(9) kJ mol −1 . Thus, the trend of increasing FBDE values of hexacarbonyls within group 6 of the periodic table is reversed from W to Sg. Our result agrees with state-of-the-art theoretical calculations, which predict a decrease in the FBDE from W(CO) 6 to Sg(CO) 6 owing to the relativistic destabilization of the 6d atomic orbitals (AOs) in Sg (ref. 4 ). Also, the adsorption enthalpy value of Sg(CO) 6 on gold of $${45}_{-6}^{+4}\\,{\\rm{kJ}}\\,{{\\rm{mol}}}^{-1}$$ 45 − 6 + 4 kJ mol − 1 is reported.",
+      "url": "https://doi.org/10.1038/s41586-026-11105-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11105-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Abstract The seventh row of the periodic table of the elements has been completed with the discovery of the five heaviest elements from flerovium (Fl, Z = 114) through oganesson (Og, Z = 118) 1 .",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "doi:10.1038/s41586-026-11085-3",
+      "title": "A 7-eV bandgap semiconductor based on silicon-doped α-(AlxGa1−x)2O3",
+      "authors": [
+        "Jacob Steele",
+        "Debaditya Bhattacharya",
+        "Kazuki Nomoto",
+        "Naomi A. Pieczulewski",
+        "Preston Sorensen",
+        "Viet-Anh Ha",
+        "Nick Pant",
+        "Ihit Shukla"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11085-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11085-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "doi:10.1038/s41586-026-11106-1",
+      "title": "Prehistoric global migration of vanishing gut microbes with humans",
+      "authors": [
+        "Matthew M. Carter",
+        "Zhiru Liu",
+        "Matthew R. Olm",
+        "Melanie Martin",
+        "Daniel D. Sprockett",
+        "Parsa Ghadermazi",
+        "Benjamin C. Trumble",
+        "Hillard Kaplan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11106-1",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11106-1",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "doi:10.1038/d41586-026-03060-9",
+      "title": "Nuclear clocks tick for the first time",
+      "authors": [
+        "Akio Kawasaki"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03060-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03060-9",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "doi:10.1038/s41586-026-11116-z",
+      "title": "Cryo-EM structure of a methanogen nitrogenase–PII protein supercomplex",
+      "authors": [
+        "Rajnandani Kashyap",
+        "Thomas M. Deere",
+        "Ahmed Dhamad",
+        "Melissa Chanderban",
+        "Monika Tokmina-Lukaszewska",
+        "Brian Bothner",
+        "Daniel J. Lessner",
+        "Edwin Antony"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11116-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11116-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "doi:10.1038/d41586-026-03072-5",
+      "title": "Genome accessibility reveals disease risk that gene expression misses",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03072-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-10-07T08:00:00+08:00",
+      "updated": "2026-10-07T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03072-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
