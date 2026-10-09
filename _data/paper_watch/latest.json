@@ -1,40 +1,41 @@
 {
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08 10:04 CST",
-  "window": "2026-10-07 00:00 至 2026-10-09 00:00 Asia/Shanghai",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09 10:16 CST",
+  "window": "2026-10-08 00:00 至 2026-10-10 00:00 Asia/Shanghai",
   "counts": {
-    "related": 16
+    "recommended": 1,
+    "related": 15
   },
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
       "ok": false,
-      "error": "HTTP Error 429: Unknown Error"
+      "error": "The read operation timed out"
     },
     {
       "source": "arXiv GW/compact related",
       "ok": false,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "source": "arXiv AI radar",
       "ok": false,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "source": "Nature RSS",
-      "ok": false,
-      "error": "not well-formed (invalid token): line 14, column 4"
+      "ok": true,
+      "count": 10
     },
     {
       "source": "Science RSS",
       "ok": true,
-      "count": 0
+      "count": 34
     },
     {
       "source": "Physical Review Letters RSS",
       "ok": true,
-      "count": 3
+      "count": 0
     },
     {
       "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
@@ -54,7 +55,7 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 20
+      "count": 10
     },
     {
       "source": "Science Crossref",
@@ -64,7 +65,7 @@
     {
       "source": "Physical Review Letters Crossref",
       "ok": true,
-      "count": 12
+      "count": 15
     },
     {
       "source": "Living Reviews in Relativity Crossref",
@@ -78,100 +79,93 @@
     }
   ],
   "total_papers": 16,
-  "total_review_candidates": 35,
-  "report_path": "/papers/2026-10-08/",
-  "review_path": "_paper_reviews/2026-10-08.md",
+  "total_review_candidates": 69,
+  "report_path": "/papers/2026-10-09/",
+  "review_path": "_paper_reviews/2026-10-09.md",
   "papers": [
     {
-      "uid": "doi:10.1038/s41586-026-11084-4",
-      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "uid": "doi:10.1103/4rvc-zcp1",
+      "title": "Designing a low-loss high-reflectivity mirror for gravitational-wave detectors by combining a dielectric metasurface and a multilayer stack",
       "authors": [
-        "L. Toscani De Col",
-        "T. Riebner",
-        "I. Morawetz",
-        "F. Schneider",
-        "N. Sempelmann",
-        "J. Schlachet-Lépinay",
-        "F. Schaden",
-        "M. Bartokos"
+        "Anonymous"
       ],
-      "abstract": "Abstract The laser-accessible nuclear transition in the thorium-229 isotope has been identified as a candidate for realizing an optical nuclear clock 1 that might outperform current optical clocks based on electron-shell transitions in atoms or ions 2 . It is expected to be more robust against external perturbations 3,4 and to provide enhanced sensitivity in clock-based tests of the fundamental principles of physics 5,6 . Here we realize a thorium-229 nuclear clock by stabilizing a continuous-wave laser to the 148-nm nuclear transition with rapid feedback based on absorption spectroscopy 7 . The thorium-229 nuclei are embedded in a millimetre-sized, room-temperature calcium fluoride crystal. A subharmonic of the 148-nm radiation is continuously compared with a Yb + single-ion clock. The nuclear clock shows a shot-noise-limited fractional frequency instability of $$3\\times 1{0}^{-12}/\\sqrt{\\tau /{\\rm{s}}}$$ 3 × 1 0 − 12 / τ / s where τ is the averaging time, approaching 10 −15 instabilities over 1 day of operation. Improvements to the instability by several orders of magnitude are projected for future devices. We use the nuclear clock to constrain models of ultralight dark matter by searching for periodic fluctuations and slow drifts in the nuclear transition energy, on timescales between 20 s and 1 day. Benefitting from the enhanced sensitivity of the thorium-229 transition, these constraints compete with the best atomic clocks concerning dark matter coupling to photons and go beyond previous measurements regarding coupling to the strong force.",
-      "url": "https://doi.org/10.1038/s41586-026-11084-4",
-      "source": "Nature Crossref",
-      "source_kind": "journal_general",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4rvc-zcp1",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1038/s41586-026-11084-4",
-      "journal": "Nature",
-      "score": 33,
-      "priority": "related",
-      "area": "related",
+      "doi": "10.1103/4rvc-zcp1",
+      "journal": "Physical Review Letters",
+      "score": 52,
+      "priority": "recommended",
+      "area": "core",
       "tags": [
-        "gr-qc 相关方向",
-        "天文/高能相关"
+        "LVK/LISA/引力波观测"
       ],
       "noise_tags": [],
       "matched_keywords": [
-        "dark matter"
+        "gravitational-wave"
       ],
       "analysis": {
-        "zh_summary": "Abstract The laser-accessible nuclear transition in the thorium-229 isotope has been identified as a candidate for realizing an optical nuclear clock 1 that might outperform current optical clocks based on electron-shell transitions in atoms or ions 2 .",
-        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
-        "method_or_signal": "dark matter",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测。",
+        "method_or_signal": "gravitational-wave",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
       },
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/g2hh-pk9h",
-      "title": "Heralded Generation of a Three-Mode NOON State",
+      "uid": "https://www.science.org/doi/abs/10.1126/science.aen0169?af=r",
+      "title": "An AI agent emailed hundreds of researchers for help. It told us why",
       "authors": [
-        "Sukhjit P. Singh, Elnaz Bazzazi, Diego N. Bernal-García, Simon J. U. White, Hassan Jamal Latief, Alison Goldingay, Sven Rogge, Sergei Slussarenko, Farzad Ghafari, Emanuele Polino, and Nora Tischler"
+        "Celina Zhao"
       ],
-      "abstract": "Author(s): Sukhjit P. Singh, Elnaz Bazzazi, Diego N. Bernal-García, Simon J. U. White, Hassan Jamal Latief, Alison Goldingay, Sven Rogge, Sergei Slussarenko, Farzad Ghafari, Emanuele Polino, and Nora Tischler Entangled states of photons form the foundation of quantum communication, computation, and metrology. Yet their generation remains fundamentally constrained: in the absence of intrinsic photon-photon interactions, the generation of such states is inherently probabilistic rather than deterministic. T… [Phys. Rev. Lett. 137, 150802] Published Wed Oct 07, 2026",
-      "url": "http://link.aps.org/doi/10.1103/g2hh-pk9h",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T18:00:00+08:00",
-      "updated": "2026-10-07T18:00:00+08:00",
-      "categories": [
-        "Quantum Information, Science, and Technology",
-        "Quantum Information, Science, and Technology"
-      ],
+      "abstract": "Science, Volume 394, Issue 6820, Page 157-159, October 2026.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aen0169?af=R",
+      "source": "Science",
+      "source_kind": "journal_general",
+      "published": "2026-10-08T14:00:09+08:00",
+      "updated": "2026-10-08T14:00:09+08:00",
+      "categories": [],
       "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
+      "journal": "Science",
+      "score": 32,
       "priority": "related",
-      "area": "related",
-      "tags": [],
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
       "noise_tags": [],
-      "matched_keywords": [],
+      "matched_keywords": [
+        "AI agent"
+      ],
       "analysis": {
-        "zh_summary": "Author(s): Sukhjit P.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
+        "zh_summary": "Science, Volume 394, Issue 6820, Page 157-159, October 2026.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "AI agent",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
       },
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/pgkx-8t5c",
-      "title": "Energy- and Momentum-Resolved Single-Shot Yield Fluctuations in Bright-Squeezed-Vacuum-Driven Atomic Strong-Field Ionization",
+      "uid": "doi:10.1103/ph91-6pg2",
+      "title": "Quantum Simulation of Motzkin Spin Chains with Rydberg Atoms",
       "authors": [
-        "Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu"
+        "Kaustav Mukherjee",
+        "Hatem Barghathi",
+        "Adrian Del Maestro",
+        "Rick Mukherjee"
       ],
-      "abstract": "Author(s): Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu When intense quantum light knocks electrons out of atoms, the statistics of the light can be transferred to the electrons. [Phys. Rev. Lett. 137, 153201] Published Wed Oct 07, 2026",
-      "url": "http://link.aps.org/doi/10.1103/pgkx-8t5c",
-      "source": "Physical Review Letters",
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ph91-6pg2",
+      "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T18:00:00+08:00",
-      "updated": "2026-10-07T18:00:00+08:00",
-      "categories": [
-        "Atomic, Molecular, and Optical Physics",
-        "Atomic, Molecular, and Optical Physics"
-      ],
-      "doi": "",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ph91-6pg2",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -180,59 +174,27 @@
       "noise_tags": [],
       "matched_keywords": [],
       "analysis": {
-        "zh_summary": "Author(s): Haodong Liu, Xiaoxiao Long, Peizeng Li, and Yunquan Liu When intense quantum light knocks electrons out of atoms, the statistics of the light can be transferred to the electrons.",
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
         "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
+        "method_or_signal": "Physical Review Letters Crossref",
         "suggested_action": "相关性中等，适合保留链接后续筛选。"
       },
       "ai_blocked": false
     },
     {
-      "uid": "http://link.aps.org/doi/10.1103/c2yn-qqv9",
-      "title": "Dissipative Acousto-Mechanical Parametric Interface between High-Overtone Acoustics and Flexural Phonons",
-      "authors": [
-        "Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A. Sillanpää, and Tiefu Li"
-      ],
-      "abstract": "Author(s): Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A. Sillanpää, and Tiefu Li A novel hybrid acousto-mechanical system demonstrates the highest-to-date coupling between a high-overtone bulk acoustic wave resonator and low-frequency flexural modes in a suspended silicon nitride membrane. [Phys. Rev. Lett. 137, 153602] Published Wed Oct 07, 2026",
-      "url": "http://link.aps.org/doi/10.1103/c2yn-qqv9",
-      "source": "Physical Review Letters",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T18:00:00+08:00",
-      "updated": "2026-10-07T18:00:00+08:00",
-      "categories": [
-        "Atomic, Molecular, and Optical Physics",
-        "Atomic, Molecular, and Optical Physics"
-      ],
-      "doi": "",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "Author(s): Xun Ji, Huanying Sun, Longhao Wu, Qichun Liu, Yulong Liu, Mika A.",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/gwj5-2932",
-      "title": "Chiral entangled-state generation through dissipative quantum dynamics",
+      "uid": "doi:10.1103/7bz2-nmb9",
+      "title": "Building far-from-equilibrium effective field theories using shift symmetries",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/gwj5-2932",
+      "url": "https://doi.org/10.1103/7bz2-nmb9",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/gwj5-2932",
+      "doi": "10.1103/7bz2-nmb9",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -249,19 +211,158 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/mfzh-6ssx",
-      "title": "Three-dimensional optical knots from intensity caustics",
+      "uid": "doi:10.1103/ktcr-x2b5",
+      "title": "Strong-Field-Driven Intermolecular Coulombic Decay in NO Dimers",
+      "authors": [
+        "Jiujiang Wang",
+        "Yinsong Tang",
+        "Xintai Hao",
+        "Xiaorui Xue",
+        "Jiaqi Zhou",
+        "Xueguang Ren",
+        "Xiaoqing Hu",
+        "Yong Wu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ktcr-x2b5",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ktcr-x2b5",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/ldw3-5x6p",
+      "title": "Melting Temperature of Bismuth to 55 GPa Using Synchrotron X-Ray Phase Contrast Imaging",
+      "authors": [
+        "Bernhard Massani",
+        "Emma Ehrenreich-Petersen",
+        "Rachel Husband",
+        "Daniel Campbell",
+        "Thea Engler",
+        "Timofey Fedotenko",
+        "Nico Giordano",
+        "Konstantin Glazyrin"
+      ],
+      "abstract": "The melting temperature of elemental bismuth under high pressure has been measured to 55 GPa using synchrotron x-ray phase-contrast imaging in the laser-heated diamond anvil cell. Imaging of solid-liquid interface formation, combined with radiometric temperature and x-ray diffraction measurements, reveals a pronounced reduction in melting boundary slope in Bi-V with pressure. The unusually steep initial slope is attributed to low configurational entropy of melting, arising from structural ordering and coordination matching in the cool liquid, while slope reduction is driven by entropy increase correlated with significant liquid structure changes with rising pressure and temperature. The data rule out kinetic effects on melting in shock compression experiments and demonstrate the need for improved theoretical phase diagrams.",
+      "url": "https://doi.org/10.1103/ldw3-5x6p",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ldw3-5x6p",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The melting temperature of elemental bismuth under high pressure has been measured to 55 GPa using synchrotron x-ray phase-contrast imaging in the laser-heated diamond anvil cell.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/nh3x-gr87",
+      "title": "Low-Rank Inversion for Single-Node 10,000-Atom Plane-Wave GW Calculations",
+      "authors": [
+        "Zhengbang Zhou",
+        "Huanhuan Ma",
+        "Wentiao Wu",
+        "Weiguo Gao",
+        "Jinlong Yang",
+        "Meiyue Shao",
+        "Wei Hu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/nh3x-gr87",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/nh3x-gr87",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/m3pf-j37b",
+      "title": "Symmetric Mass Generation as a Multicritical Point with Enhanced Symmetry",
+      "authors": [
+        "Sandip Maiti",
+        "Debasish Banerjee",
+        "Shailesh Chandrasekharan",
+        "Marina K. Marinkovic"
+      ],
+      "abstract": "We explore the phase diagram of a lattice fermion model that exhibits three distinct phases: a massless fermion phase, a massive fermion phase with spontaneous symmetry breaking induced by a fermion bilinear condensate, and a massive fermion phase with symmetric mass generation. Using the fermion-bag Monte Carlo method on large cubical lattices, we find evidence for traditional second-order critical points separating the first two and the latter two phases. Remarkably, these critical points appear to merge at a multicritical point with enhanced symmetry when the symmetry breaking parameter is tuned to zero, giving rise to the recently discovered direct second-order transition between the massless and symmetric massive fermion phases.",
+      "url": "https://doi.org/10.1103/m3pf-j37b",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/m3pf-j37b",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We explore the phase diagram of a lattice fermion model that exhibits three distinct phases: a massless fermion phase, a massive fermion phase with spontaneous symmetry breaking induced by a fermion bilinear condensate, and a massive fermion phase with symmetric mass generation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/vdtk-mps3",
+      "title": "Parton distribution functions from large-momentum expansion of current-current correlators",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/mfzh-6ssx",
+      "url": "https://doi.org/10.1103/vdtk-mps3",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/mfzh-6ssx",
+      "doi": "10.1103/vdtk-mps3",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -278,19 +379,52 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/175v-l7v9",
-      "title": "Cavity solitons on a 50-site array of time-multiplexed resonators",
+      "uid": "doi:10.1103/d843-3bvb",
+      "title": "Huge Symmetric Elastoresistance in the Kondo Lattice YbRh 2 Si 2",
+      "authors": [
+        "Soumendra Nath Panja",
+        "Jacques G. Pontanel",
+        "Julian Kaiser",
+        "Anton Jesche",
+        "Philipp Gegenwart"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/d843-3bvb",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/d843-3bvb",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/pmld-l9gm",
+      "title": "Bulk photovoltaics for multiparameter sensing in a single micrometer-scale ferroelectric semiconductor detector",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/175v-l7v9",
+      "url": "https://doi.org/10.1103/pmld-l9gm",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/175v-l7v9",
+      "doi": "10.1103/pmld-l9gm",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -307,86 +441,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/c2yn-qqv9",
-      "title": "Dissipative Acousto-Mechanical Parametric Interface between High-Overtone Acoustics and Flexural Phonons",
-      "authors": [
-        "Xun Ji",
-        "Huanying Sun",
-        "Longhao Wu",
-        "Qichun Liu",
-        "Yulong Liu",
-        "Mika A. Sillanpää",
-        "Tiefu Li"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/c2yn-qqv9",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/c2yn-qqv9",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/pgkx-8t5c",
-      "title": "Energy- and Momentum-Resolved Single-Shot Yield Fluctuations in Bright-Squeezed-Vacuum-Driven Atomic Strong-Field Ionization",
-      "authors": [
-        "Haodong Liu",
-        "Xiaoxiao Long",
-        "Peizeng Li",
-        "Yunquan Liu"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/pgkx-8t5c",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/pgkx-8t5c",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/bp24-s332",
-      "title": "Available energy and ground states of convective hydrodynamic and hydromagnetic instabilities",
+      "uid": "doi:10.1103/vl6b-y5gz",
+      "title": "When liquids form membranes: Entropy-dominated bending dynamics in coacervate vesicles",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/bp24-s332",
+      "url": "https://doi.org/10.1103/vl6b-y5gz",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/bp24-s332",
+      "doi": "10.1103/vl6b-y5gz",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -403,19 +470,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/hyz3-3kxh",
-      "title": "Framing anomaly in lattice Chern-Simons-Maxwell theory",
+      "uid": "doi:10.1103/wg2x-z2vm",
+      "title": "Exploring noisy quantum thermodynamical processes via the depolarizing-channel approximation",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/hyz3-3kxh",
+      "url": "https://doi.org/10.1103/wg2x-z2vm",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/hyz3-3kxh",
+      "doi": "10.1103/wg2x-z2vm",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -432,19 +499,53 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/jrp2-wcgm",
-      "title": "Search for light-mass fractionally charged particles in space with DAMPE the experiment",
+      "uid": "doi:10.1103/nmk6-924g",
+      "title": "Exponential Entanglement Advantage in Sensing Correlated Noise",
+      "authors": [
+        "Yu-Xin Wang",
+        "Jacob Bringewatt",
+        "Alireza Seif",
+        "Anthony J. Brady",
+        "Changhun Oh",
+        "Alexey V. Gorshkov"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/nmk6-924g",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/nmk6-924g",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "doi:10.1103/bmbj-sycw",
+      "title": "Adiabatic preparation of a fractional quantum Hall fluid by coherently pumping atoms from a Bose-Einstein condensate",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/jrp2-wcgm",
+      "url": "https://doi.org/10.1103/bmbj-sycw",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/jrp2-wcgm",
+      "doi": "10.1103/bmbj-sycw",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
@@ -461,113 +562,19 @@
       "ai_blocked": false
     },
     {
-      "uid": "doi:10.1103/xkvt-xvqm",
-      "title": "Experimental subdiffraction source discrimination enabled by spatial demultiplexing and single-photon detectors",
+      "uid": "doi:10.1103/6866-9gsl",
+      "title": "Superconducting qutrit link beyond the qubit limit",
       "authors": [
         "Anonymous"
       ],
       "abstract": "",
-      "url": "https://doi.org/10.1103/xkvt-xvqm",
+      "url": "https://doi.org/10.1103/6866-9gsl",
       "source": "Physical Review Letters Crossref",
       "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
+      "published": "2026-10-08T08:00:00+08:00",
+      "updated": "2026-10-08T08:00:00+08:00",
       "categories": [],
-      "doi": "10.1103/xkvt-xvqm",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/r7s2-rsgb",
-      "title": "High-density ultracold neutron source for low-energy particle physics experiments",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/r7s2-rsgb",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/r7s2-rsgb",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/y95w-7ztb",
-      "title": "Lower limit on the double-alpha decay of 224 Ra",
-      "authors": [
-        "Anonymous"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/y95w-7ztb",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/y95w-7ztb",
-      "journal": "Physical Review Letters",
-      "score": 18,
-      "priority": "related",
-      "area": "related",
-      "tags": [],
-      "noise_tags": [],
-      "matched_keywords": [],
-      "analysis": {
-        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
-        "why_relevant": "匹配关注项：来源优先级。",
-        "method_or_signal": "Physical Review Letters Crossref",
-        "suggested_action": "相关性中等，适合保留链接后续筛选。"
-      },
-      "ai_blocked": false
-    },
-    {
-      "uid": "doi:10.1103/g2hh-pk9h",
-      "title": "Heralded Generation of a Three-Mode NOON State",
-      "authors": [
-        "Sukhjit P. Singh",
-        "Elnaz Bazzazi",
-        "Diego N. Bernal-García",
-        "Simon J. U. White",
-        "Hassan Jamal Latief",
-        "Alison Goldingay",
-        "Sven Rogge",
-        "Sergei Slussarenko"
-      ],
-      "abstract": "",
-      "url": "https://doi.org/10.1103/g2hh-pk9h",
-      "source": "Physical Review Letters Crossref",
-      "source_kind": "journal_physics",
-      "published": "2026-10-07T08:00:00+08:00",
-      "updated": "2026-10-07T08:00:00+08:00",
-      "categories": [],
-      "doi": "10.1103/g2hh-pk9h",
+      "doi": "10.1103/6866-9gsl",
       "journal": "Physical Review Letters",
       "score": 18,
       "priority": "related",
