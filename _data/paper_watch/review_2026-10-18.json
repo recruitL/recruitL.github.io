@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18 08:06 CST",
+  "window": "2026-10-17 00:00 至 2026-10-19 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": false,
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": false,
+      "error": "HTTP Error 429: Unknown Error"
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-10-18.md",
+  "candidates": []
+}
