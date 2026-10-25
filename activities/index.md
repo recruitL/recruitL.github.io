@@ -23,6 +23,21 @@ leaflet_map: true
 
   <article
     class="activity-news__item"
+    id="conference-2026-cps-fall-meeting"
+    data-activity-start="2026-10-22"
+    data-activity-end="2026-10-25"
+    data-activity-title="中国物理学会2026秋季学术会议"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-10-22 至 2026-10-25</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="活动类型" role="img"></span>
+      <p><span class="activity-news__title">中国物理学会2026秋季学术会议</span>，湖南·长沙。</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-new-horizons-for-psi"
     data-activity-start="2026-08-24"
     data-activity-end="2026-08-28"

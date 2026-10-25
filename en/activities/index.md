@@ -23,6 +23,21 @@ This page organizes academic conferences, invited talks, and related records.
 
   <article
     class="activity-news__item"
+    id="conference-2026-cps-fall-meeting"
+    data-activity-start="2026-10-22"
+    data-activity-end="2026-10-25"
+    data-activity-title="2026 Fall Meeting of the Chinese Physical Society"
+    data-activity-kind="event"
+  >
+    <div class="activity-news__date">2026-10-22 to 2026-10-25</div>
+    <div class="activity-news__body">
+      <span class="activity-icon" aria-label="Activity type" role="img"></span>
+      <p><span class="activity-news__title">2026 Fall Meeting of the Chinese Physical Society</span>, Changsha, Hunan.</p>
+    </div>
+  </article>
+
+  <article
+    class="activity-news__item"
     id="conference-2026-new-horizons-for-psi"
     data-activity-start="2026-08-24"
     data-activity-end="2026-08-28"
