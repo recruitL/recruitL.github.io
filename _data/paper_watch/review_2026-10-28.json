@@ -1,0 +1,3128 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28 09:27 CST",
+  "window": "2026-10-27 00:00 至 2026-10-29 00:00 Asia/Shanghai",
+  "counts": {
+    "must-read": 15,
+    "recommended": 14,
+    "related": 13,
+    "ai-news": 3
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 32
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 55
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 35
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 24
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-10-28.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "arxiv:2610.36728v1",
+      "title": "Improved constraints on higher-derivative effective field theory extensions of general relativity with GW230627_015337",
+      "authors": [
+        "Tao Zhu"
+      ],
+      "abstract": "Gravitational-wave (GW) observations of binary black holes provide a powerful probe of general relativity (GR) in the strong-field regime. In effective field theory (EFT) extensions of GR, higher-curvature operators modify the binary dynamics and introduce corrections to the inspiral phase. In this work, we consider two parity-even cubic-curvature couplings and one quartic-curvature coupling, whose leading phase corrections enter at 5PN, 6PN, and 8PN order, respectively. We incorporate these corrections into the individual multipoles of the \\texttt{SEOBNRv5HM\\_ROM} waveform using the flexible theory-independent framework, allowing higher-order modes and the full inspiral-merger-ringdown signal to be used in the analysis. We first perform a Fisher-matrix analysis of 92 binary-black-hole events selected from a parent sample of 273 events in the public LIGO-Virgo-KAGRA catalogs. GW230627\\_015337 provides the tightest forecast constraints on all three EFT couplings and is therefore selected for a full Bayesian analysis. The posterior distributions are consistent with GR, with all three couplings consistent with zero at 90\\% credibility. The corresponding one-sided 90\\% upper limits on the characteristic length scales are \\(17.1\\), \\(11.1\\), and \\(18.3\\,\\mathrm{km}\\). The log Bayes factors of the three EFT models relative to GR range from \\(-5.49\\) to \\(-2.51\\), favoring GR under the adopted priors. These bounds probe higher-curvature length scales at the level of \\(10\\)--\\(20\\,\\mathrm{km}\\) and are numerically tighter than representative previous inspiral and ringdown constraints, although differences in the models and analysis assumptions should be taken into account.",
+      "url": "https://arxiv.org/abs/2610.36728v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T14:48:04+08:00",
+      "updated": "2026-10-27T14:48:04+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 150,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "LVK/LISA/引力波观测",
+        "QNM/黑洞扰动",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "binary black hole",
+        "EOBNR",
+        "inspiral",
+        "merger",
+        "ringdown",
+        "LIGO",
+        "Virgo",
+        "KAGRA",
+        "gravitational-wave",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "Gravitational-wave (GW) observations of binary black holes provide a powerful probe of general relativity (GR) in the strong-field regime.",
+        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、QNM/黑洞扰动、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "binary black hole, EOBNR, inspiral, merger, ringdown, LIGO",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "arxiv:2610.36177v1",
+      "title": "All Dark Matter as Primordial Black Holes: a Gravitational-Wave Test",
+      "authors": [
+        "A. Ianniccari",
+        "A. J. Iovino",
+        "G. Perna",
+        "D. Perrone",
+        "A. Riotto"
+      ],
+      "abstract": "We propose a novel test for the hypothesis that the dark matter of the Universe is composed entirely by asteroidal-mass primordial black holes. It relies on detecting the stochastic gravitational-wave background generated by the coalescence onto rapidly spinning supermassive astrophysical black holes of the light primordial black holes accumulated in spherically symmetric spikes. We discuss the scenarios in which the signal can be observed by the future space-based gravitational-wave observatories LISA and DECIGO.",
+      "url": "https://arxiv.org/abs/2610.36177v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T03:12:08+08:00",
+      "updated": "2026-10-27T03:12:08+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 109,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LISA",
+        "gravitational-wave",
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "We propose a novel test for the hypothesis that the dark matter of the Universe is composed entirely by asteroidal-mass primordial black holes.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "LISA, gravitational-wave, dark matter",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "arxiv:2610.36128v1",
+      "title": "Landau singularity of the K3 maximal cut in black-hole scattering at fifth post-Minkowskian order",
+      "authors": [
+        "Matthew D. Schwartz"
+      ],
+      "abstract": "Modeling the gravitational waves from merging black holes requires precise calculations of the two-body problem. The post-Minkowskian expansion of black-hole scattering, in powers of Newton's constant, now stands at fifth order, four loops. At this order one part of the deflection diverges when the black holes pass at about 94 percent of the speed of light. The divergence is known to come from periods of a K3 surface, which has a node at this speed. We show that the node lies on the integration contour of the K3 maximal cut, which makes this speed a Landau singularity of the cut. Requiring the divergence to cancel, without introducing new infinities, has been shown to fix the memory contribution, named for the permanent displacement that the waves leave in test masses, up to one constant. We derive the leading coefficients of its boundary integrals in closed form. We obtain both results from maximal cuts and boundary limits, without an integration-by-parts reduction of the full four-loop integrand. We also continue the K3 and Calabi--Yau periods of these integrals to the energies of bound orbits, as in the inspiral before a merger.",
+      "url": "https://arxiv.org/abs/2610.36128v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:37:14+08:00",
+      "updated": "2026-10-27T02:37:14+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 102,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "post-minkowskian",
+        "inspiral",
+        "merger",
+        "gravitational wave",
+        "singularity"
+      ],
+      "analysis": {
+        "zh_summary": "Modeling the gravitational waves from merging black holes requires precise calculations of the two-body problem.",
+        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、gr-qc 相关方向。",
+        "method_or_signal": "post-minkowskian, inspiral, merger, gravitational wave, singularity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "doi:10.1103/xftt-2n6t",
+      "title": "Modeling direct waves in binary black hole ringdowns",
+      "authors": [
+        "Richard Dyer",
+        "Adrian Ka-Wai Chung",
+        "Christopher J. Moore"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/xftt-2n6t",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/xftt-2n6t",
+      "journal": "Physical Review Letters",
+      "score": 100,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "QNM/黑洞扰动"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "binary black hole",
+        "ringdown"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：致密双星建模、QNM/黑洞扰动。",
+        "method_or_signal": "binary black hole, ringdown",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "arxiv:2610.36037v1",
+      "title": "Semi-agnostic inspiral modeling: the massless scalar case at leading post-Newtonian order",
+      "authors": [
+        "Dario Rossi",
+        "Leonardo Gualtieri",
+        "Thomas P. Sotiriou"
+      ],
+      "abstract": "We introduce a semi-agnostic modeling framework for black hole binary inspirals beyond general relativity that fixes the field content without selecting a particular theory. We expand in the post-Newtonian order and in powers of $l/L$, where $l$ is the characteristic length-scale that controls deviations from General Relativity and $L$ is the characteristic length-scale of the system. We focus on the case of a massless scalar field coupled with the metric, at leading post-Newtonian order. Taking into account the scaling with $l/L$ of both the interaction terms and the quantities that characterise the sources, we find that the inspiral can be described in terms of a small number of universal parameters. Such a parametrisation is suitable for obtaining combined bounds from multiple sources and performing searches for specific fields.",
+      "url": "https://arxiv.org/abs/2610.36037v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:02+08:00",
+      "updated": "2026-10-27T02:00:02+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 95,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "post-newtonian",
+        "inspiral",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "We introduce a semi-agnostic modeling framework for black hole binary inspirals beyond general relativity that fixes the field content without selecting a particular theory.",
+        "why_relevant": "匹配关注项：致密双星建模、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "post-newtonian, inspiral, general relativity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "arxiv:2610.36087v1",
+      "title": "A gaussian-process reconstruction of gravitational-wave friction from dark standard sirens",
+      "authors": [
+        "Michele Mancarella",
+        "Viola De Renzis",
+        "Alessandro Agapito"
+      ],
+      "abstract": "Standard sirens provide a direct probe of the cosmic distance-redshift relation and therefore a powerful test of whether gravitational waves (GWs) propagate as predicted by general relativity on cosmological scales. In many extensions of general relativity, GW propagation is modified by an anomalous friction term, which alters the amplitude evolution and leads to a GW luminosity distance that differs from its electromagnetic counterpart. In this work, we develop a non-parametric reconstruction of this anomalous friction from dark standard sirens. We reconstruct its redshift dependence, encoded in the friction function $α_M(z)$, with a Gaussian process (GP) and derive the corresponding GW-to-EM luminosity-distance ratio $Ξ(z)$ by integration, explicitly retaining the relation between the local friction modification and its accumulated effect on the observed distance, while enforcing a monotonic and invertible GW luminosity distance. We apply the method to the GWTC-5.0 catalog, jointly inferring the source population, modified propagation, and background cosmological parameters. We find no evidence for departures from GR, with $α_M=0$ and $Ξ=1$ consistent with the posterior over the redshift range probed by the catalog. The result is stable under variations of the GP kernel, smoothness and amplitude priors, resolution prescription, and likelihood treatment. We further introduce function-space diagnostics for comparing flexible and parametric reconstructions, including prior calibration, prior-to-posterior contraction, common summaries of propagation-population degeneracies, and principal-component analysis. These tools make explicit which features are informed by the data and which are imposed by the function-space prior, providing a framework for interpretable non-parametric tests of gravitational-wave propagation.",
+      "url": "https://arxiv.org/abs/2610.36087v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:09:33+08:00",
+      "updated": "2026-10-27T02:09:33+08:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 89,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational-wave",
+        "gravitational wave",
+        "standard siren",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "Standard sirens provide a direct probe of the cosmic distance-redshift relation and therefore a powerful test of whether gravitational waves (GWs) propagate as predicted by general relativity on cosmological scales.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "gravitational-wave, gravitational wave, standard siren, general relativity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "arxiv:2610.35836v1",
+      "title": "Characteristic gluing to extremal Kerr horizons and the third law of black hole thermodynamics in vacuum",
+      "authors": [
+        "Stefan Czimek"
+      ],
+      "abstract": "We prove a non-perturbative, non-axisymmetric characteristic gluing theorem for the Einstein vacuum equations: every Boyer-Lindquist sphere in the domain of outer communication of a Kerr black hole, in particular every symmetry sphere of a Schwarzschild exterior, can be glued along a single outgoing null hypersurface to a horizon sphere of an extremal Kerr black hole of sufficiently large mass. The gluing is exact at both ends and matches the full sphere data, including the transversal curvature. This proves a conjecture of Kehle and Unger in the extremal case. We first raise the angular momentum to the extremal value by rotating shear pulses of non-axisymmetric gravitational radiation, and then damp the incoming data exponentially along a long non-expanding neck. At the degenerate target horizon we invert the linearised problem at all angular frequencies, using a factorisation of a fourth-order angular operator into an angular Teukolsky-Starobinsky product. As an application, we construct one-ended asymptotically flat vacuum initial data whose maximal development contains an exactly Schwarzschild apparent horizon and, at a later advanced time, an exactly extremal Kerr event horizon. This is the first rigorous counterexample to the third law of black hole thermodynamics in vacuum, and proves a second conjecture of Kehle and Unger.",
+      "url": "https://arxiv.org/abs/2610.35836v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T01:52:47+08:00",
+      "updated": "2026-10-27T01:52:47+08:00",
+      "categories": [
+        "math.AP",
+        "gr-qc",
+        "math-ph",
+        "math.DG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 82,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "QNM/黑洞扰动",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "Teukolsky",
+        "black hole thermodynamics"
+      ],
+      "analysis": {
+        "zh_summary": "We prove a non-perturbative, non-axisymmetric characteristic gluing theorem for the Einstein vacuum equations: every Boyer-Lindquist sphere in the domain of outer communication of a Kerr black hole, in particular every symmetry sphere of a Schwarzschild exterior, can be glued along a single outgoing null hypersurface to a horizon sphere of an extremal Kerr...",
+        "why_relevant": "匹配关注项：QNM/黑洞扰动、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "Teukolsky, black hole thermodynamics",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "doi:10.1103/sc1g-hj7w",
+      "title": "Conservative binary dynamics to third post-Minkowskian order beyond General Relativity",
+      "authors": [
+        "Gabriel Luz Almeida",
+        "Yuchen Du",
+        "Zhengwen Liu",
+        "Hongbin Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/sc1g-hj7w",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/sc1g-hj7w",
+      "journal": "Physical Review Letters",
+      "score": 80,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "post-minkowskian",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：致密双星建模、gr-qc 相关方向。",
+        "method_or_signal": "post-minkowskian, general relativity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "arxiv:2610.35776v1",
+      "title": "Tidal contributions to neutron star orbital precession around Sgr $A^*$",
+      "authors": [
+        "H Lalrinfela",
+        "P. C. Lalremruati",
+        "Zodinmawia",
+        "N Malsawmtluangi"
+      ],
+      "abstract": "We investigate tidal contributions to the orbital precession of neutron stars around the supermassive black hole Sgr A*, using stellar configurations described by the Tolman - Oppenheimer - Volkoff equations. We examine the dependence of tidal precession on stellar compactness, pericentre distance, and the quadrupolar tidal Love number $k_2$, and compare its magnitude with general relativistic orbital precession. The calculated tidal angular shift decreases strongly with increasing pericentre distance and, for the stellar configurations considered, with increasing compactness. Larger Love numbers enhance the tidal contribution. This behaviour reflects the strong dependence of tidal precession on the stellar-radius-to-pericentre-distance ratio, $(R/r_p)^5$. Despite the enhancement during closer encounters, the predicted tidal shifts remain extremely small, reaching approximately $3.5 \\times 10^{-18},μas$ within the displayed parameter range. The ratio of tidal to general relativistic precession spans approximately $10^{-33}$ - $10^{-28}$, indicating that relativistic precession overwhelmingly dominates. Our results suggest that direct detection of the neutron-star tidal contribution through orbital precession around Sgr A* would be exceptionally challenging under the assumptions of the adopted model.",
+      "url": "https://arxiv.org/abs/2610.35776v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T01:16:52+08:00",
+      "updated": "2026-10-27T01:16:52+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.GA",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 78,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "precession"
+      ],
+      "analysis": {
+        "zh_summary": "We investigate tidal contributions to the orbital precession of neutron stars around the supermassive black hole Sgr A*, using stellar configurations described by the Tolman - Oppenheimer - Volkoff equations.",
+        "why_relevant": "匹配关注项：致密双星建模。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "precession",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "arxiv:2610.36162v1",
+      "title": "On the Interpretation of Tests of the Horizon Area Law",
+      "authors": [
+        "Selma Vangstein",
+        "Christopher J. Moore"
+      ],
+      "abstract": "This Letter investigates gravitational-wave tests of the horizon area law. Although they provide a striking consistency check of general relativity (GR), these tests rely on models that assume GR, making their interpretation inherently model dependent. We show with a specific example---simulations of merging boson stars---that exotic compact objects can mimic merging black holes and pass an area-law test at a confidence as high as $\\sim 92\\%$ despite not even having event horizons.",
+      "url": "https://arxiv.org/abs/2610.36162v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T03:00:17+08:00",
+      "updated": "2026-10-27T03:00:17+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 75,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational-wave",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "This Letter investigates gravitational-wave tests of the horizon area law.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "gravitational-wave, general relativity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "arxiv:2610.36160v1",
+      "title": "How particle physics stops ultra-relativistic bubbles and shapes their gravitational waves",
+      "authors": [
+        "Alessandro Strumia"
+      ],
+      "abstract": "The gravitational-wave spectrum produced by ultra-relativistic bubbles in a first-order cosmological phase transition can be approximated in terms of their energy density as a function of bubble size. Bubble collisions and post-collision classical evolution negligibly change it. The dominant energy loss is particle scattering, often in the Landau--Pomeranchuk--Migdal regime. So the GW spectrum depends on the particle-physics coupling (interpolating between the `envelope' and `bulk flow' limits), on the interaction type (gauge, Yukawa, scalar quartic, ...), and on whether particle number is conserved. Finally, we consider broken global symmetries, which give a mixture of `elastic' and `inelastic' collisions.",
+      "url": "https://arxiv.org/abs/2610.36160v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T03:00:01+08:00",
+      "updated": "2026-10-27T03:00:01+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 72,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational-wave",
+        "gravitational wave"
+      ],
+      "analysis": {
+        "zh_summary": "The gravitational-wave spectrum produced by ultra-relativistic bubbles in a first-order cosmological phase transition can be approximated in terms of their energy density as a function of bubble size.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "gravitational-wave, gravitational wave",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "arxiv:2610.36033v1",
+      "title": "Can inflationary axion fluctuations dominate over misalignment?",
+      "authors": [
+        "Seung J. Lee",
+        "Sarunas Verner",
+        "Bingrong Yu"
+      ],
+      "abstract": "The relic abundance of light stable axion dark matter is usually set by misalignment. We study whether the inflationary fluctuations of the axion can dominate instead, and we follow the modes analytically through an instantaneous transition from de Sitter expansion to radiation domination, neglecting the axion mass during inflation and keeping it afterward. Since the energy density is quadratic in the field, a fluctuation-dominated abundance carries an isocurvature perturbation even when the mean displacement vanishes. For a canonical minimally coupled axion the spectrum is scale invariant, and fluctuation-dominated dark matter exceeds the Planck isocurvature limit by about eight orders of magnitude. An inflaton-dependent kinetic function or a nonminimal coupling to the Ricci scalar tilts the spectrum blue, moving the fluctuation power from CMB scales to small scales. Imposing the Planck limit at the pivot scale, we find that fluctuation-dominated dark matter with a constant kinetic slope requires the spectral tilt $n_η-1\\gtrsim0.27$ and the axion mass $m_η \\gtrsim200 \\rm{GeV}$ at $H_I=10^{10}\\rm{GeV}$, and $n_η-1\\gtrsim0.34$ and $m_η\\gtrsim4.5\\,$keV at $H_I=10^{13}\\rm{GeV}$. A kinetic function with a running slope lowers these masses to $1.4~\\rm{GeV}$ and $0.7\\,$eV, respectively. For the QCD axion, whose oscillations start late, we estimate that any single power-law spectrum blue enough to satisfy the pivot limit gives too little fluctuation abundance, and misalignment dominates.",
+      "url": "https://arxiv.org/abs/2610.36033v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:00+08:00",
+      "updated": "2026-10-27T02:00:00+08:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 72,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "inflation",
+        "dark matter",
+        "de Sitter"
+      ],
+      "analysis": {
+        "zh_summary": "The relic abundance of light stable axion dark matter is usually set by misalignment.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "inflation, dark matter, de Sitter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "arxiv:2610.36486v1",
+      "title": "Three-flavor neutrino Boltzmann transport and flavor instabilities in long-lived neutron-star merger remnants",
+      "authors": [
+        "Harry Ho-Yin Ng",
+        "Jiabao Liu",
+        "Arthur Offermans",
+        "Shoichi Yamada",
+        "Elias R. Most",
+        "Luciano Rezzolla"
+      ],
+      "abstract": "Binary neutron-star (BNS) mergers are multimessenger sources whose kilonova emission and nucleosynthesis depend sensitively on neutrino microphysics and flavor conversion. Most BNS merger simulations assume $μ$-$τ$ neutrino degeneracy in a two-flavor treatment. We investigate the fast flavor instability (FFI) and the collisional flavor instability (CFI) in long-lived BNS merger remnants using axisymmetric general-relativistic three-flavor Boltzmann neutrino transport with a comprehensive treatment of muons and muonic interactions, following a handoff from 3D grey moment-based simulations. Our simulations largely reproduce the parent 3D simulations, recovering trapped weak equilibrium in the core, muonic non-equilibrium in the semitransparent outer disk due to prolonged demuonization, and cold weak equilibrium in transparent regions. Linear stability analysis reveals strong and widespread CFI in all three flavor sectors, including narrow resonance-like structures. Muonic interactions reshape the FFI distribution, shifting the $eτ$-sector instability toward denser disk regions compared with the extended FFI outside the disk in the two-flavor model, while disk demuonization produces a strong $ν_μ$ excess and one-sided muon-lepton-number angular distributions that suppress FFI in the $eμ$ and $μτ$ sectors. Local three-flavor quantum kinetic equation (QKE) calculations reveal nonlinear coupling among flavor sectors that excites coherence even in an initially stable sector. Diagonal collisional repopulation is decisive for the nonlinear evolution and asymptotic flavor populations, and neglecting it overestimates flavor equilibration. We establish the necessity of three-flavor transport from both classical and quantum perspectives, and underscore the importance of consistently coupling flavor conversion with diagonal collisional repopulation in future CFI subgrid models.",
+      "url": "https://arxiv.org/abs/2610.36486v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T09:43:36+08:00",
+      "updated": "2026-10-27T09:43:36+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 71,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "merger",
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Binary neutron-star (BNS) mergers are multimessenger sources whose kilonova emission and nucleosynthesis depend sensitively on neutrino microphysics and flavor conversion.",
+        "why_relevant": "匹配关注项：致密双星建模、天文/高能相关。",
+        "method_or_signal": "merger, neutrino",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "arxiv:2610.36752v1",
+      "title": "Relativistic N-body simulations with mass-varying neutrinos",
+      "authors": [
+        "Øyvind Christiansen",
+        "Julian Adamek",
+        "Mainak Baidya",
+        "Vitor da Fonseca",
+        "Eric V. Linder",
+        "David F. Mota"
+      ],
+      "abstract": "Recent cosmological data provide weak hints for smaller masses than what is required by neutrino-oscillation experiments, motivating investigations into variation of the neutrino masses with cosmic time. Here we study a model where the neutrinos couple to a quintessence field that acts as dark energy. We compute structure formation using fully dynamical and relativistic N-body and lattice simulations, with nonlinear field evolution and a weak-field metric expansion. Similar to previous studies, we find the generic appearance of neutrino lumps, but observe them to be highly dynamical and spinning. We study several models where the effective dark energy, including nonlinear effects of the scalar field on the cosmic expansion, can show phantom crossing. The relativistic physics available in our simulation framework can help distinguish such models from LCDM, through observations of neutrino and dark energy properties, and slip between the gravitational potentials due to anisotropic stress. The rich phenomenology offered by mass-varying neutrinos motivates further exploration and development of the simulation techniques.",
+      "url": "https://arxiv.org/abs/2610.36752v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T15:08:45+08:00",
+      "updated": "2026-10-27T15:08:45+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 68,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark energy",
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Recent cosmological data provide weak hints for smaller masses than what is required by neutrino-oscillation experiments, motivating investigations into variation of the neutrino masses with cosmic time.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "dark energy, neutrino",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "arxiv:2610.36591v1",
+      "title": "Warm inflation beyond the Gaussian limit: primordial black holes and induced gravitational waves",
+      "authors": [
+        "Mayukh R. Gangopadhyay",
+        "Nilanjana Kumar"
+      ],
+      "abstract": "In warm inflation, the primordial fluctuations are driven by random kicks from a hot radiation bath. Two features of these kicks matter: how long the bath remembers them, which shapes the power spectrum, and how their strengths are spread, which controls the rare, extreme fluctuations. In this paper, we investigate how primordial black holes and the accompanying induced gravitational waves can be used to discriminate between these two features. We use a simple model inspired by warm inflation, in which independent kicks of random strength add up to a narrow peak in the power spectrum. At leading order, the induced gravitational wave depends only on the power spectrum and is therefore insensitive to how the kicks are distributed. However, the black holes are very sensitive to these rare large fluctuations. Hence, two baths can yield the same gravitational wave signal while forming black holes at very different rates. A modest kurtosis range of 0.1 to 0.3 enhances black-hole formation by factors of ten to a million at fixed gravitational-wave amplitude, the larger factors for the rarer black holes. Counting peaks rather than all points, or widening the spectrum, lowers the enhancement by at most a factor of about four. In general a change in the power affects both phenomena, while the kurtosis affects only the black hole production.",
+      "url": "https://arxiv.org/abs/2610.36591v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T11:50:48+08:00",
+      "updated": "2026-10-27T11:50:48+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 68,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational-wave",
+        "gravitational wave",
+        "inflation"
+      ],
+      "analysis": {
+        "zh_summary": "In warm inflation, the primordial fluctuations are driven by random kicks from a hot radiation bath.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测、gr-qc 相关方向。",
+        "method_or_signal": "gravitational-wave, gravitational wave, inflation",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "arxiv:2610.36101v1",
+      "title": "Phase-Twist Instability in a Coprecessing Neutrino Plasma",
+      "authors": [
+        "Damiano F. G. Fiorillo",
+        "Dwaipayan Mukherjee",
+        "Basudeb Dasgupta",
+        "Georg G. Raffelt"
+      ],
+      "abstract": "Dense neutrino plasmas support collective flavor motion. We derive the first explicit dispersion relation about a flavor-nondiagonal background, focusing on the coprecession solution underlying spectral-split formation during the prompt neutrino burst of an electron-capture supernova. We show that slow phase modulations are unstable Goldstone modes, causing the coprecession plane to wobble with increasing amplitude. The instability emerges in the hydrodynamic limit, governed by conservation laws and without resolving flavor-precession resonances. Coprecessing neutrino plasmas resemble magnetized plasmas: a coherent flavor field drives flavor isospins to precess, and the phase-twist instability is the flavor analog of the firehose instability.",
+      "url": "https://arxiv.org/abs/2610.36101v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:16:41+08:00",
+      "updated": "2026-10-27T02:16:41+08:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 61,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "precession",
+        "supernova",
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Dense neutrino plasmas support collective flavor motion.",
+        "why_relevant": "匹配关注项：致密双星建模、天文/高能相关。",
+        "method_or_signal": "precession, supernova, neutrino",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "arxiv:2610.36923v1",
+      "title": "Self-gravitating Schrödinger--Poisson Solitons in Curved Spacetime",
+      "authors": [
+        "Kei-ichi Maeda"
+      ],
+      "abstract": "We formulate a description of self-gravitating Schrödinger--Poisson (SP) solitons in curved spacetime using a local inertial frame centered on the soliton. In the weak-field and non-relativistic regime, the effect of the background spacetime is incorporated into the SP equations through an effective tidal potential determined by the spacetime curvature. We apply this framework to a soliton moving along a circular equatorial geodesic around a Kerr black hole. The tidal field contains stationary and time-dependent quadrupolar components, which induce a deformation of the soliton and an associated mass quadrupole moment. We formulate the quadrupolar response in terms of the tidal deformability and the dimensionless Love number. We then estimate the gravitational radiation associated with the rotating deformed soliton and evaluate the corresponding characteristic strain for representative soliton sizes and orbital radii. A comparison with representative sensitivity curves of planned space-based gravitational-wave detectors identifies parameter regimes in which the estimated characteristic strain may lie within their sensitivity ranges. Our framework provides a systematic basis for investigating the tidal response of self-gravitating bosonic solitons in black-hole spacetimes and their potential gravitational-wave signatures.",
+      "url": "https://arxiv.org/abs/2610.36923v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T17:50:08+08:00",
+      "updated": "2026-10-27T17:50:08+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 60,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "LVK/LISA/引力波观测"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "gravitational-wave"
+      ],
+      "analysis": {
+        "zh_summary": "We formulate a description of self-gravitating Schrödinger--Poisson (SP) solitons in curved spacetime using a local inertial frame centered on the soliton.",
+        "why_relevant": "匹配关注项：LVK/LISA/引力波观测。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "gravitational-wave",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "arxiv:2610.36730v1",
+      "title": "Impact of deformation parameters on the greybody factor and Joule-Thomson expansions of Schwarzschild-AdS black hole",
+      "authors": [
+        "Faisal Javed",
+        "A. Eid",
+        "Arfa Waseem",
+        "Jiafeng Guo",
+        "Abdelmalek Bouzenada",
+        "Sulaman Shaukat",
+        "Farruh Atamurotov",
+        "N. Mustapha"
+      ],
+      "abstract": "This paper investigates the greybody factor and Joule-Thomson expansion of deformed Schwarzschild-AdS black hole models. We constructed the Klein-Gordon equation into a Schrödinger-like wave equation using tortoise coordinates and derived the exact effective potential. Also, we analyzed its behavior under varying physical parameters, including deformation parameters, mass and angular momentum. In this case, our results illustrate that increasing the deformation parameter enhances the effective potential, significantly impacting the absorption and scattering of massless scalar fields. It is noted that the Schwarzschild black hole effective potential is greatly increased when the deformation parameter is present. Near the event horizon, we found that waves behave differently, with higher-frequency waves more easily penetrating potential obstacles and lower-frequency waves bouncing off them. Furthermore, we investigated the thermodynamic characteristics of black holes using the Joule-Thomson expansion, detecting isenthalpic curves that indicate heating and cooling zones controlled by pressure and temperature changes. In this context, we tested the influence of deformation black hole parameters; the isenthalpic curves are enhanced by increasing the deformation parameters and the black hole mass.",
+      "url": "https://arxiv.org/abs/2610.36730v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T14:49:21+08:00",
+      "updated": "2026-10-27T14:49:21+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 56,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "This paper investigates the greybody factor and Joule-Thomson expansion of deformed Schwarzschild-AdS black hole models.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "AdS",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "arxiv:2610.36137v1",
+      "title": "Non-Perturbative Approach to Gravitational Particle Production in the Inflation-Kination Transition: Surveying a Wide Range of the Parameter Space",
+      "authors": [
+        "Amirsalar Nikandish",
+        "Shiva Rostam Zadeh",
+        "Nematollah Riazi"
+      ],
+      "abstract": "In this study, we investigate the gravitational particle production (GPP) as a natural reheating channel in time-dependent backgrounds. We focus on reheating in an inflation-kination background. To maintain generality across inflationary models, we use a continuous scale-factor function that produces this transition and has been proposed in the literature. In this scenario, the gravitational reheating channel arises from the gravitational excitation of a superheavy spectator scalar field with Ricci-matter gravitational coupling. Besides all the perturbative approaches, a recently proposed non-perturbative one that uses the notion of the adiabatic vacuum has also been applied to the case of superheavy particles. Although the effect of the mass of the field on the reheating temperature has been investigated, the impact of the non-conformal values of the gravitational coupling constant on the GPP rate is not considered. Hence, we modify the non-perturbative approach in such a way that both effects can be traced. Three parameters affect the reheating temperature in this case: the bare mass of the field, the gravitational coupling constant, and the transition time. In this paper, the effect of each of these parameters alone on the resultant reheating temperature, as well as the combined effects of these parameters, is studied. Taking into account all involved parameters and surveying a wide range of the 3D parameter space, the highest reheating temperature possible is obtained. All of the aforementioned investigations are done based on numerical calculations, and we obtain that the highest possible reheating temperature is quite sufficient for the universe to enter the Hot Big-Bang era. For the sake of completeness, we study the GPP in such a transition using an analytical method in an independent, parallel, solvable model. This analysis is presented only as a mathematical tool.",
+      "url": "https://arxiv.org/abs/2610.36137v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:45:34+08:00",
+      "updated": "2026-10-27T02:45:34+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 56,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "inflation"
+      ],
+      "analysis": {
+        "zh_summary": "In this study, we investigate the gravitational particle production (GPP) as a natural reheating channel in time-dependent backgrounds.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "inflation",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "arxiv:2610.36063v1",
+      "title": "Fresh Look at Shift Symmetric Modified Gravity",
+      "authors": [
+        "Rodrigo Calderon",
+        "Eric V. Linder"
+      ],
+      "abstract": "Shift symmetric Horndeski gravity can be a simple, well posed theory with protection against quantum corrections. Overturning conventional thought that such a theory cannot cross the phantom divide ($w=-1$) we present both analytic and numerical proof that it can. We carry out a detailed dynamical systems analysis showing the evolution of ghost free and stable regions within the model family, identify the fixed point and dynamical attractor structure, and derive the interaction of the $w=-1$ curve with these phase space structures. This reveals two mechanisms for cosmologies crossing the phantom divide while preserving shift symmetry.",
+      "url": "https://arxiv.org/abs/2610.36063v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:14+08:00",
+      "updated": "2026-10-27T02:00:14+08:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 56,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "modified gravity"
+      ],
+      "analysis": {
+        "zh_summary": "Shift symmetric Horndeski gravity can be a simple, well posed theory with protection against quantum corrections.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "modified gravity",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "arxiv:2610.36898v1",
+      "title": "The Disordered Universe 2025: Open Effective Field Theories",
+      "authors": [
+        "Alessandro Fumagalli",
+        "Francesco Paronetto",
+        "Leonardo Stanzani",
+        "Mattia Varrone",
+        "Lucas Vicente García-Consuegra",
+        "Thomas Colas",
+        "Paolo Benincasa",
+        "Guilherme Leite Pimentel"
+      ],
+      "abstract": "Effective field theories (EFTs) offer a powerful method to unify diverse models under a small set of control parameters, allowing systematic expansions around well-established theories. While these techniques were traditionally developed for particle physics experiments with clean, isolated initial states, realistic macroscopic environments are often noisy and dissipative. Recognising the limitations of traditional EFTs has recently sparked intense progress at the interface of high-energy physics and condensed matter. These developments motivate a new approach to gravitation and cosmology, one that models the gravitational sector as evolving in the presence of an unobservable medium. Open Effective Field Theories provide a systematic, controllable framework for this endeavour. This chapter presents this versatile framework and illustrates how the Schwinger-Keldysh formalism captures the influence of unknown environments, manifesting as dissipation and noise, on observational probes. These notes are based on a series of lectures held during the La Ricotta Summer School \"The Disordered Universe 2025\" from 21 July to 1 August 2025.",
+      "url": "https://arxiv.org/abs/2610.36898v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T17:30:56+08:00",
+      "updated": "2026-10-27T17:30:56+08:00",
+      "categories": [
+        "cond-mat.stat-mech",
+        "gr-qc",
+        "hep-th",
+        "quant-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "cosmology"
+      ],
+      "analysis": {
+        "zh_summary": "Effective field theories (EFTs) offer a powerful method to unify diverse models under a small set of control parameters, allowing systematic expansions around well-established theories.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "cosmology",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "arxiv:2610.36863v1",
+      "title": "Primordial black holes from a type-IIB/F theory inflaton potential",
+      "authors": [
+        "Chitrak Sarkar",
+        "Amitava Choudhuri",
+        "Buddhadeb Ghosh"
+      ],
+      "abstract": "We study the possibility of the formation of primordial black holes (PBHs) using an inflaton potential constructed by stabilizing all Kähler moduli employing both the perturbative and non-perturbative corrections in the large volume scenario in type-IIB/F string theory. We further introduce a small perturbation in one of the Kähler moduli that modifies the existing potential in the field space. The effective correction in the moduli space is made by introducing a localised Gaussian bump, which induces an ultra-slow-roll feature in the inflaton potential during the early cosmological inflation. The evolution of the amplitude of the curvature power spectrum is solved numerically by using the Mukhanov-Sasaki equation, with Bunch-Davies initial conditions. The inclusion of the Gaussian bump produces a sustainable enhancement in the amplitude of curvature power spectra around $k\\sim 1.12 \\times 10^{9} Mpc^{-1}$ for the formation of PBHs. The abundance of PBHs ($f_{PBH}$) is calculated using the Press-Schechter formalism for different values of critical density contrast and presented in the background of contemporary $f_{PBH}$ bounds and checked for viability with existing microlensing bounds, corresponding to a mass value $10^{-6}M_\\odot$ for $δ$ threshold value $δ_c=0.439$. The Hawking temperature and evaporation time are also determined for these black holes and found to be of the order of $2.78\\times 10^{-15}$ GeV and $8.5\\times10^{38}$ Gyr, respectively. The enhancement of curvature power spectra lies in the sensitivity region of the SKA observations, suggesting an indication that scalar-induced gravity waves may be probed in future observations.",
+      "url": "https://arxiv.org/abs/2610.36863v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T17:00:58+08:00",
+      "updated": "2026-10-27T17:00:58+08:00",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "inflation"
+      ],
+      "analysis": {
+        "zh_summary": "We study the possibility of the formation of primordial black holes (PBHs) using an inflaton potential constructed by stabilizing all Kähler moduli employing both the perturbative and non-perturbative corrections in the large volume scenario in type-IIB/F string theory.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "inflation",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "arxiv:2610.36735v1",
+      "title": "The Wess-Zumino Action of the Conformal Anomaly",
+      "authors": [
+        "Emil Mottola"
+      ],
+      "abstract": "The complete Wess-Zumino (WZ) action and stress-energy tensor (SET) of the conformal anomaly in both two and four dimensions is given. This local effective action is expressed in terms of a single scalar Nambu-Goldstone `conformalon' field $\\varphi$, parametrizing the local abelian Weyl group of conformal transformations that act transitively on the spacetime metric. Satisfying WZ consistency, and equipped with a variational principle for $\\varphi$ that determines the conformal transformation $g_{μν}\\!\\to\\!g_{μν}e^{-\\varphi}$ to an associated spacetime with no anomaly, the WZ action resolves the conformal gauge fixing ambiguity of earlier methods of `integrating the anomaly.' In $D\\!=\\!2$ the WZ action is the local form of the Polyakov action, whose massless $\\varphi$ propagator describes a correlated two-particle scalar intermediate state in the SET polarization function $\\langle TT\\rangle$. The imaginary part of this polarization obeys a UV finite sum rule, becoming a Dirac $δ$-function at zero energy for conformal quantum fields, demonstrating the infrared origin of the anomaly, while the real part becomes the light cone propagator of $\\varphi$. Although the $\\Box R$ term in $D\\!=\\!4$ corresponds to a cohomologically trivial cocycle, it also arises from the IR limit of massless quantum fields, independently of UV physics, and contributes to the WZ action for low energy gravity. Analogous to the WZ action for pseudo-Goldstone mesons in low energy QCD from the axial anomaly, the WZ action for the conformal anomaly provides a Nambu-Goldstone scalar field for macroscopic gravity, in addition to the metric of classical general relativity.",
+      "url": "https://arxiv.org/abs/2610.36735v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T14:53:21+08:00",
+      "updated": "2026-10-27T14:53:21+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "The complete Wess-Zumino (WZ) action and stress-energy tensor (SET) of the conformal anomaly in both two and four dimensions is given.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "general relativity",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "arxiv:2610.36695v1",
+      "title": "Reconstruction of the Riemann tensor from causal order and element counts",
+      "authors": [
+        "Nathan Madsen"
+      ],
+      "abstract": "A causal set is a locally finite partially ordered set. Causal set theory proposes such discrete structures as a basis for spacetime physics. Connecting this description with continuum physics requires recovering the geometric quantities used in general relativity and controlling the errors introduced by discreteness. Here, with dimension and sampling density specified, we construct approximate normal coordinates, estimate parallel transport, and recover the full Riemann tensor from causal order and element counts. For samples embedded in a fixed smooth spacetime and satisfying stated uniform counting assumptions, we prove a uniform curvature error bound that tends to zero as the sampling density increases.",
+      "url": "https://arxiv.org/abs/2610.36695v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T14:12:47+08:00",
+      "updated": "2026-10-27T14:12:47+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "A causal set is a locally finite partially ordered set.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "general relativity",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "arxiv:2610.36562v1",
+      "title": "Testing Conformal Weyl Gravity with Plasma Modified Black Hole Shadows and EHT Constraints",
+      "authors": [
+        "Zhichen Guan",
+        "Connor McMillin",
+        "Owen Gartlan",
+        "William Horner",
+        "Leo Rodriguez",
+        "Shanshan Rodriguez"
+      ],
+      "abstract": "We study the shadows of a charged rotating de Sitter solution in fourth order conformal Weyl gravity (CWG) immersed in plasma and analyze the joint charge-plasma constraints. Our main goal is to distinguish observational effects caused by the dispersive plasma environment from those caused by the underlying gravitational theory. Within a separable Hamilton-Jacobi plasma model, we derive the radial and angular photon potentials, the equatorial finite-distance deflection angle, and the finite-observer shadow boundary due to the asymptotically non-flat nature of the CWG spacetime. Our results separate two effects. Increasing the plasma strength generally reduces the shadow radius, the signed deflection angle, and the energy emission peak in both CWG and GR. Charge ($q$) produces a stronger theory dependence: for the representative parameters studied, increasing $q$ enlarges the CWG shadow but reduces the GR shadow. The lensing behavior independently supports the geometry-dependent response found from the photon region and shadow observables. We further compare the finite observer dimensionless shadow radius with EHT-inferred size intervals for Sgr~A$^*$ and M87$^*$. Our results indicate that plasma effects can mimic part of the shadow size shift, but the distinct charge response of CWG offers a potential observational route for separating conformal gravity signatures from environmental propagation effects.",
+      "url": "https://arxiv.org/abs/2610.36562v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T11:09:13+08:00",
+      "updated": "2026-10-27T11:09:13+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "de Sitter"
+      ],
+      "analysis": {
+        "zh_summary": "We study the shadows of a charged rotating de Sitter solution in fourth order conformal Weyl gravity (CWG) immersed in plasma and analyze the joint charge-plasma constraints.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "de Sitter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "arxiv:2610.36228v1",
+      "title": "Non-minimal $α$-attractor magnetogenesis with potential dependent couplings",
+      "authors": [
+        "Antonino G. Marino",
+        "Tommaso Mengoni"
+      ],
+      "abstract": "We investigate inflationary magnetogenesis driven by a non conformal coupling in the case of large-field $α$-attractor inspired models. We introduce potential-dependent electromagnetic coupling functions $f(φ)$ that reproduce the scaling $f\\propto a^p$ during slow roll. Starting from Starobinsky inflation, we analytically derive explicit couplings for $(E)$-model and $(T)$-model potentials. We then study how these functions affect electromagnetic amplification in the regime of non-minimal coupling between the inflaton field and the Ricci scalar $φ^2 R$. In particular, we compare different values for the coupling strength $ξ$, accounting for electromagnetic backreaction and Schwinger pair production through the gradient expansion formalism. Our numerical results show that the non-minimal coupling affects the evolution of the electromagnetic sector and the resulting magnetic-field amplitude. We find that, within the analyzed configurations, minimally coupled and $ξ>0$ scenarios are compatible with the adopted CMB constraints, yielding conditional present-day magnetic-field estimates of order $10^{-23}$ G.",
+      "url": "https://arxiv.org/abs/2610.36228v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T04:07:18+08:00",
+      "updated": "2026-10-27T04:07:18+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "inflation"
+      ],
+      "analysis": {
+        "zh_summary": "We investigate inflationary magnetogenesis driven by a non conformal coupling in the case of large-field $α$-attractor inspired models.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "inflation",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "arxiv:2610.36166v1",
+      "title": "The Symbiosis of Vainshtein and Chameleon Screening",
+      "authors": [
+        "Sergi Sirera",
+        "Tessa Baker",
+        "Clare Burrage",
+        "James Hallam",
+        "Krishna Naidoo"
+      ],
+      "abstract": "We present the first study of coexisting Vainshtein and Chameleon screening in cosmic structures. Screening hides fifth forces locally, keeping modified gravity viable. Realistic dark-energy models can activate several mechanisms at once, yet this interplay has been overlooked. We find that (i) the Chameleon resolves the long-standing Galileon void pathology; (ii) it suppresses or eliminates the Vainshtein radius around massive sources; and (iii) the Vainshtein term shrinks the Chameleon's screened core. These effects reshape the observable signatures central to cosmological tests of gravity.",
+      "url": "https://arxiv.org/abs/2610.36166v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T03:00:44+08:00",
+      "updated": "2026-10-27T03:00:44+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "modified gravity"
+      ],
+      "analysis": {
+        "zh_summary": "We present the first study of coexisting Vainshtein and Chameleon screening in cosmic structures.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "modified gravity",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "arxiv:2610.36049v1",
+      "title": "Dark Matter Coherent Freeze-Out Mechanism: A Comprehensive Analysis",
+      "authors": [
+        "Steven Ferrante",
+        "Lillian Luo",
+        "Maxim Perelstein",
+        "Bingrong Yu"
+      ],
+      "abstract": "Both Weakly-Interacting Massive Particle (WIMP) and Axion-Like Particle (ALP) are attractive particle dark matter candidates. In this paper we consider a scenario in which both WIMP and ALP are present. The two species interact via a non-derivative quadratic coupling modeled on the axion-nucleon interaction in QCD. We show that even a small (Planck-suppressed) coupling can drastically modify the cosmological history of both species. In the very early Universe, the ALP field acquires a vacuum expectation value, and the system undergoes an inverse phase transition at a temperature around or below the weak scale. WIMPs may remain in equilibrium far beyond the usual freeze-out time, eventually decoupling via a novel \"coherent freeze-out\" mechanism. WIMP annihilation cross sections several orders of magnitude above the canonical thermal target value can be consistent with the observed relic density in the coherent freeze-out scenario. At the same time, coherent oscillations of the ALP field do not begin until after the phase transition, and the initial conditions for these oscillations are set by the thermal physics of the phase transition. The ALP relic density is then predicted unambiguously in terms of the WIMP mass and coupling. We term this scenario \"ALP miracle\", since the observed relic density is obtained when these parameters are around their natural values, the weak and the Planck scale. The ALP miracle scenario prefers the ALP mass above about $10^{-3}\\,\\mathrm{eV}$, far larger than other popular ALP dark matter models. The ALP miracle parameter space overlaps with a currently allowed region of the QCD axion band, a large fraction of which is expected to be probed by the proposed IAXO experiment.",
+      "url": "https://arxiv.org/abs/2610.36049v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:04+08:00",
+      "updated": "2026-10-27T02:00:04+08:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 49,
+      "priority": "recommended",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "Both Weakly-Interacting Massive Particle (WIMP) and Axion-Like Particle (ALP) are attractive particle dark matter candidates.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "dark matter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "arxiv:2610.36044v1",
+      "title": "An open EFT for dark matter searches with matter-wave interferometers",
+      "authors": [
+        "Leonardo Badurina",
+        "Kathryn M. Zurek"
+      ],
+      "abstract": "Matter-wave interferometers (MWIs) are a genuine quantum probe of dark matter (DM), being sensitive to DM-induced phase shifts and loss of contrast. Treating the interferometer as an open quantum system and the dark sector as its environment, we derive an open EFT to study these signatures using the Schwinger-Keldysh formalism. Starting from a microscopic theory, we derive the interferometer's effective action, which we then project onto the many-body worldline sectors relevant for atom interferometers and MWIs employing mesoscopic objects, i.e., composite-particle interferometers (CPIs). This construction clarifies the heavy-probe limit and organizes phase shifts and decoherence as distinct real-time components of the influence action: the retarded kernel controls the causal response of the environment, while the Keldysh kernel controls environmental fluctuations and hence loss of contrast. At leading order, these kernels reduce to: (i) DM bubble diagrams in the case of four-point interactions, and (ii) dressed in-medium mediator propagators in the case of long-range interactions, where the dressing is provided by the DM environment. Within this framework, we study the signatures of elastic spin-independent sub-GeV DM scattering off nucleons and find that: (i) owing to Bose enhancements below the DM wave-particle boundary, ambitious CPIs could probe Higgs-portal DM with mass below 1 eV in an unexplored region of model space; (ii) for DM coupled to nucleons via a light hadrophilic scalar, the DM background can drive the mediator's in-medium mass tachyonic over much of parameter space; outside these regions, CPIs could probe provide powerful probes of light DM.",
+      "url": "https://arxiv.org/abs/2610.36044v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:03+08:00",
+      "updated": "2026-10-27T02:00:03+08:00",
+      "categories": [
+        "hep-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 49,
+      "priority": "recommended",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "Matter-wave interferometers (MWIs) are a genuine quantum probe of dark matter (DM), being sensitive to DM-induced phase shifts and loss of contrast.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "dark matter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "arxiv:2610.36062v1",
+      "title": "Late reheating in the era of precision cosmology",
+      "authors": [
+        "Kensuke Akita",
+        "Oleksii Ihnatenko",
+        "Maksym Ovchynnikov"
+      ],
+      "abstract": "We study the minimum cosmic reheating temperature allowed by recent measurements of primordial nuclear abundances and of the cosmic microwave background. We find that reheating by decays of a light particle into electrons and neutrinos is compatible with both at temperatures around 0.4 MeV, an order of magnitude below the bound for purely electromagnetic channels. This scenario has implications for cosmology and laboratory searches. For example, nearly standard neutrino radiation can coexist with a smaller active neutrino mass density at unchanged physical masses, by up to a factor of five for normal ordering. The weaker suppression of clustering changes matter power at the percent level, which forthcoming galaxy surveys and lensing measurements may probe. Late reheating also suppresses sterile neutrino production at mixings within the projected reach of laboratory experiments.",
+      "url": "https://arxiv.org/abs/2610.36062v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:11+08:00",
+      "updated": "2026-10-27T02:00:11+08:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 44,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "cosmology",
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "We study the minimum cosmic reheating temperature allowed by recent measurements of primordial nuclear abundances and of the cosmic microwave background.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "cosmology, neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "arxiv:2610.36161v1",
+      "title": "Asymmetric Reheating of a Dark Sector",
+      "authors": [
+        "Catarina Cosme",
+        "João G. Rosa",
+        "Inês Sequeira"
+      ],
+      "abstract": "We study asymmetric post-inflationary reheating in a framework with two sequestered MSSM-like sectors (the ``visible'' and ``dark'' sectors) with different supersymmetry-breaking scales, with dark matter corresponding to the lightest dark baryons. In this setup, independent Affleck-Dine dynamics in the two sectors offers a natural explanation for the comparable abundances of visible and dark matter. We relate the resulting temperature hierarchy to the inflaton's partial decay widths in different kinematical regimes, where it may decay into dark sector particles via 2-, 3- or 4-body processes. The latter case yields the most asymmetric reheating scenario, and we discuss the implications of this regime for the dark sector's thermal history, namely regarding the corresponding strong and weak interactions. While in this kinematical regime the contribution of light dark sector degrees of freedom to $ΔN_{\\rm eff}$ is negligible, we show that it increases significantly in the regime where 3-body decays are possible, particularly near the threshold for dark Higgs pair-production where $ΔN_{\\rm eff}^{\\max} \\simeq 0.078$. The current combined BBN+CMB+BAO bound leaves only a narrow allowed interval of the 2-body decay regime immediately above threshold, while next-generation CMB experiments could probe slightly below it.",
+      "url": "https://arxiv.org/abs/2610.36161v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T03:00:07+08:00",
+      "updated": "2026-10-27T03:00:07+08:00",
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 41,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "inflation",
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "We study asymmetric post-inflationary reheating in a framework with two sequestered MSSM-like sectors (the ``visible'' and ``dark'' sectors) with different supersymmetry-breaking scales, with dark matter corresponding to the lightest dark baryons.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "inflation, dark matter",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "arxiv:2610.36915v1",
+      "title": "Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG",
+      "authors": [
+        "Parv Khatri",
+        "Harshul Jain",
+        "Mehak Kapoor",
+        "Tanya Sah"
+      ],
+      "abstract": "When the sources retrieved for a query disagree, the right response depends on why they disagree: a question with several valid answers, a contested topic, stale information and a false source each call for different behaviour. Cattan et al. (2025) showed that telling a generator the conflict type improves its responses by about 24 points, but that predicting the type is hard even for frontier LLMs. We study whether typed decision models, which return probabilities over fixed options in a single forward pass instead of generating text, can do this classification fast and cheaply. Using the CONFLICTS benchmark and the original paper's prompt verbatim, we evaluate all 11 decision models served by one commercial inference gateway, from 7 providers, against Gemini models on identical inputs. Asked directly, the decision models reach 50.0--67.0% accuracy; 10 of the 11 match or exceed Gemini 2.5 Flash, the paper's model (61.3%), at 4--39x lower billed cost (2 were free) and 2.6--6.0x lower latency. The current Gemini 3.8 Flash (70.0%) is significantly more accurate than 8 of them, but sending each decision model's least confident quarter of queries to it gives a cascade statistically tied with it for 8 of the 11, at 25--37% of its cost. End to end, answers generated with the types of 10 of the 11 follow the expected behaviour as often as with the LLM's types. Decomposing the taxonomy into yes/no questions lowers accuracy for every model, and a repair fitted on one model does not transfer. Pre-specified diagnostics show that dates play no measurable role and that sensitivity to source order varies widely between models. Decision models detect a planted false source less reliably than the LLM as hard labels, but their probabilities still separate planted from clean sources. We release code, prompts and all model outputs at https://github.com/Parv17k/decision-models-conflict-typing.",
+      "url": "https://arxiv.org/abs/2610.36915v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:43:21+08:00",
+      "updated": "2026-10-27T17:43:21+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM",
+        "RAG"
+      ],
+      "analysis": {
+        "zh_summary": "When the sources retrieved for a query disagree, the right response depends on why they disagree: a question with several valid answers, a contested topic, stale information and a false source each call for different behaviour.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM, RAG",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "arxiv:2610.36881v1",
+      "title": "RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction",
+      "authors": [
+        "Xinyue Jiang",
+        "Tong Li",
+        "Shiceng Zhang",
+        "Ke Chen",
+        "Zhu Xiao"
+      ],
+      "abstract": "Channel state information (CSI) prediction forecasts future channel states from historical observations, supporting transceiver design and resource allocation with reduced measurement overhead. However, existing deep learning predictors mainly encode channel knowledge in model parameters, which can limit their ability to represent diverse patterns of channel dynamics across scenes. In this paper, we propose RAG-CSI, a retrieval-enhanced Transformer framework that augments prediction with relevant historical channel knowledge. Specifically, we construct a global--local CSI knowledge store containing representative observations across scenes and historical observations from the current serving scene. We further develop joint state--dynamics retrieval (JSDR), which jointly characterizes channel states, phase dynamics, and amplitude dynamics to retrieve relevant CSI sequences. A Transformer predictor then uses cross-attention to fuse the retrieved knowledge with the current CSI history and predict future CSI with limited additional model parameters. Experiments on a multi-scene CSI dataset show overall improvements exceeding 10\\% across all five evaluation metrics over the best baseline for each metric, including a 15.42\\% reduction in normalized mean squared error.",
+      "url": "https://arxiv.org/abs/2610.36881v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:19:16+08:00",
+      "updated": "2026-10-27T17:19:16+08:00",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "RAG",
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Channel state information (CSI) prediction forecasts future channel states from historical observations, supporting transceiver design and resource allocation with reduced measurement overhead.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "RAG, transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "doi:10.1103/6524-bj1x",
+      "title": "Local Obstructions to Trapped-Region Escape in Modified Gravity",
+      "authors": [
+        "Francisco S. N. Lobo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/6524-bj1x",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/6524-bj1x",
+      "journal": "Physical Review Letters",
+      "score": 38,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "modified gravity"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "modified gravity",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "arxiv:2610.36937v1",
+      "title": "JevRec: Linguistic Encoding with Jev-like Decision Modeling for LLM-based Generative Recommendation",
+      "authors": [
+        "Qiyong Zhong",
+        "Jiajie Su",
+        "Ming Yang",
+        "Li Zhang"
+      ],
+      "abstract": "Generative recommendation (GR) represents items as semantic identifiers (SIDs) and autoregressively generates the next item's SID from interaction history. However, most methods assign the same SID length to all items despite highly unequal interaction frequencies. This uniform design repeatedly incurs the cost of fine-grained codes for popular items, while shortening codes to reduce this cost also compresses the semantic representations of long-tail items. Inspired by the compact forms of frequent expressions in natural language, we propose JevRec to encode items as variable-length words and generate the next item from interaction context. Linguistic encoding retains frequency-dependent semantic prefixes from shared codebooks, producing shorter SIDs for popular items and richer descriptions for long-tail items. Yet predicting a sequence-level length and generating token-level content impose different optimization requirements that may conflict under a shared output head. Our Jev-like decision modeling component therefore predicts a length distribution with a dedicated head and generates content conditioned on length through a separate head while sharing the interaction-history representation. Experiments on three public datasets show that JevRec outperforms all compared baselines across the evaluated recommendation metrics. Further analyses show lower training and inference time than TIGER and reduced gradient conflict between length and content prediction.",
+      "url": "https://arxiv.org/abs/2610.36937v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:59:44+08:00",
+      "updated": "2026-10-27T17:59:44+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Generative recommendation (GR) represents items as semantic identifiers (SIDs) and autoregressively generates the next item's SID from interaction history.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "arxiv:2610.36814v1",
+      "title": "Realistic neutron stars in the constant-Q branch of f(Q) gravity",
+      "authors": [
+        "Debadri Bhattacharjee",
+        "Pradip Kumar Chattopadhyay",
+        "P. H. R. S. Moraes"
+      ],
+      "abstract": "We investigate the hydrostatic equilibrium and global structure of neutron stars within symmetric teleparallel gravity, where gravitational interactions are mediated by the non-metricity scalar $Q$. Working within the metric-affine formulation, we adopt the regular, constant-$Q$ branch ($Q = Q_*$) of $f(Q)$ gravity, which preserves regularity at the stellar centre while maintaining explicit dependence on the non-linear functional form through $f(Q_*)$ and its derivatives. We propose three novel non-linear $f(Q)$ extensions: (i) a Born-Infeld-inspired model, (ii) a Hu--Sawicki analogue, and (iii) a Tsujikawa-inspired model. Incorporating state-of-the-art realistic unified equations of state, namely GPPVA(DD2) and SLy4, we numerically solve the modified Tolman-Oppenheimer-Volkoff equations and evaluate stellar stability via the Harrison-Zel'dovich-Novikov criterion. The Born-Infeld and Hu-Sawicki analogues smoothly recover the general relativistic limit as their control parameters increase, predicting stellar radii for low-mass objects ($M < 2.0\\,M_\\odot$) that match observational constraints from X-ray binaries and GW170817; however, their maximum masses remain capped below $2.43\\,M_\\odot$ (DD2) and $2.06\\,M_\\odot$ (SLy4). Conversely, the Tsujikawa-inspired model significantly stiffens the effective gravitational coupling, accommodating massive compact objects up to $\\sim 3.36\\,M_\\odot$ and offering a viable physical origin for the $2.59_{-0.09}^{+0.08}\\,M_\\odot$ secondary object in GW190814, albeit at the expense of overpredicting radii for typical low-mass neutron stars. These contrasting behaviours demonstrate a key phenomenological complementarity between maximum mass and radius bounds within the constant-$Q$ framework, highlighting the utility of multimessenger observations in constraining non-linear non-metricity gravity.",
+      "url": "https://arxiv.org/abs/2610.36814v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T16:17:50+08:00",
+      "updated": "2026-10-27T16:17:50+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We investigate the hydrostatic equilibrium and global structure of neutron stars within symmetric teleparallel gravity, where gravitational interactions are mediated by the non-metricity scalar $Q$.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "arxiv:2610.36796v1",
+      "title": "Novel topological subclasses of a magnetic black hole in causal nonlinear electrodynamics",
+      "authors": [
+        "Qi-Qi Liang",
+        "De-jiang Yin",
+        "Yu-Die Wan",
+        "Zheng-Wen Long"
+      ],
+      "abstract": "By treating black-hole states as topological defects in thermodynamic parameter space, we investigate a static, asymptotically flat magnetic black holes in Einstein gravity coupled to causal nonlinear electrodynamics. Using the generalized off-shell free energy and Duan's $φ$-mapping topological current theory, we analyze the physical single-horizon sector in the canonical ensemble. We identify four representative defect-curve profiles, including realizations of the conjectured $W^{0+\\leftrightarrow1-}$ class and $\\overline{W}^{1-}$ subclass, as well as a new thermodynamic topological subclass, $\\overline{W}^{0+\\leftrightarrow1-}$. This new subclass features paired generation and annihilation points, with unstable innermost and outermost branches. As the auxiliary inverse temperature increases, the system evolves from two equilibrium states to three and then back to one, with an unstable small-black-hole defect entering through the physical lower boundary and changing the global topological number from $W=0$ to $W=-1$. This boundary-induced change signals a thermodynamic topological phase transition. These results show that the same inverse-temperature endpoint behavior and winding-number sequence from small to large black holes can accompany different defect evolution, highlighting the role of the physical horizon boundary in thermodynamic topological classification. More broadly, this causal nonlinear-electrodynamics black-hole family provides a setting for discovering further defect structures and thermodynamic topological phase transitions.",
+      "url": "https://arxiv.org/abs/2610.36796v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T15:59:22+08:00",
+      "updated": "2026-10-27T15:59:22+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "By treating black-hole states as topological defects in thermodynamic parameter space, we investigate a static, asymptotically flat magnetic black holes in Einstein gravity coupled to causal nonlinear electrodynamics.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "arxiv:2610.36611v1",
+      "title": "Quark mixing and CP violation due to torsional interaction",
+      "authors": [
+        "Arnab Chakraborty",
+        "Amitabha Lahiri"
+      ],
+      "abstract": "The dynamics of fermions in spacetime generates torsion, ultimately leading to a current-current interaction independent of gravity. This torsional four-fermion interaction is generically chiral and non-universal and may have observable consequences. Furthermore, the fermion basis in which this torsional interaction is diagonal may be different from the mass basis and the flavor basis. We work out the structure of the quark sector, where new CKM-like matrices appear as a result of diagonalizing the torsional interaction. CP violation is modified in general due to the appearance of additional phases. We also consider various processes which are affected by it such as kaon decays in particular and show that even when the torsional interaction is taken to be diagonal in the flavor basis, flavor-changing processes are still affected due to the non-universality of the torsional coupling constants. Finally, we discuss rephasing invariants in the presence of the torsional interaction and show how the Jarlskog invariant is modified even when the torsion basis is aligned with the flavor basis.",
+      "url": "https://arxiv.org/abs/2610.36611v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T12:13:05+08:00",
+      "updated": "2026-10-27T12:13:05+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The dynamics of fermions in spacetime generates torsion, ultimately leading to a current-current interaction independent of gravity.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "arxiv:2610.36271v1",
+      "title": "The Disordered Universe 2025: Analytic Properties of Amplitudes and Correlators",
+      "authors": [
+        "Mattia Capuano",
+        "Chandramouli Chowdhury",
+        "Chantelle Esper",
+        "Alessandro Palazio",
+        "Jonah Stalknecht",
+        "Yong Sheng Yap",
+        "Andrew J. McLeod",
+        "Paolo Benincasa",
+        "Guilherme Leite Pimentel"
+      ],
+      "abstract": "These lectures provide an introduction to modern techniques for studying the analytic properties of loop-level scattering amplitudes and correlation functions in perturbative quantum field theory. We begin by developing the ideas behind Landau analysis, which identifies the location and nature of kinematic singularities in Feynman integrals (the universal building blocks that contribute to perturbative amplitudes and correlators). We then show how fundamental principles such as unitarity and causality constrain the analytic structure of Feynman integrals, and develop methods for working out some of these constraints in practice. Finally, we connect these observations to the properties of iterated integrals and their symbol calculus, to show how bootstrap methods can be used to determine the functional form of Feynman integrals from just knowledge of their analytic structure. These notes are based on a series of lectures held during the La Ricotta Summer School \"The Disordered Universe 2025\" from 21~July to 1~August~2025.",
+      "url": "https://arxiv.org/abs/2610.36271v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T04:47:07+08:00",
+      "updated": "2026-10-27T04:47:07+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th",
+        "math-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "These lectures provide an introduction to modern techniques for studying the analytic properties of loop-level scattering amplitudes and correlation functions in perturbative quantum field theory.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "arxiv:2610.36129v1",
+      "title": "Unified Dynamics of Black-Hole Interiors: From Geometric to Scalar-Kinetic Dominance",
+      "authors": [
+        "Fu-Guo Yang"
+      ],
+      "abstract": "We identify a unified dynamical picture connecting small-amplitude scalar input at the event horizon to scalar--Kasner interiors. Within boundary-supported stationary families, area contraction drives the transition from geometric to scalar kinetic dominance. For the Schwarzschild-like branch, contraction suppresses the relative curvature contribution, so the scalar kinetic term becomes dominant while the gradient remains small. For the Kerr--Newman-like branch, the scalar gradient is strongly amplified as area contraction carries the solution toward the would-be Cauchy-horizon zero, followed by a narrow transition to scalar kinetic dominance. Cancellation between the kinetic and geometric terms produces a positive minimum of a metric diagnostic, explaining inner-horizon loss dynamically. Fully coupled numerical solutions for the Schwarzschild-like branch and four-dimensional stationary axisymmetric Kerr--Newman interiors, including the Reissner--Nordström and Kerr limits, support this picture. Area contraction provides the common physical mechanism, while the would-be Cauchy-horizon zero determines the strength of gradient amplification and the localization of the transition.",
+      "url": "https://arxiv.org/abs/2610.36129v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:38:42+08:00",
+      "updated": "2026-10-27T02:38:42+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We identify a unified dynamical picture connecting small-amplitude scalar input at the event horizon to scalar--Kasner interiors.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "arxiv:2610.36123v1",
+      "title": "Improved Gauge Conditions for Large Expansion Cosmological Models",
+      "authors": [
+        "Fan Zhang",
+        "Lee Lindblom"
+      ],
+      "abstract": "This study develops a new gauge condition for performing long duration numerical evolutions of Einstein's equation on cosmological spacetimes with non-trivial spatial topologies. This new gauge makes it possible to perform reliable numerical evolutions on these manifolds in which the spatial volumes become more than one million times larger. This new condition was tested for this study by evolving homogeneous and isotropic initial data on exemplar manifolds with three spatial topologies: Sixth-Turn space, the lens space L(5,2), and the Seifert fiber space SFS[S2:(2,1)(2,1)(2,-1)].",
+      "url": "https://arxiv.org/abs/2610.36123v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:32:57+08:00",
+      "updated": "2026-10-27T02:32:57+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "This study develops a new gauge condition for performing long duration numerical evolutions of Einstein's equation on cosmological spacetimes with non-trivial spatial topologies.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "arxiv:2610.36085v1",
+      "title": "Scalarized Einstein-Maxwell black holes in external scalar fields",
+      "authors": [
+        "Lang Cheng",
+        "Guangzhou Guo",
+        "Yuhan Li",
+        "Peng Wang"
+      ],
+      "abstract": "We construct static black holes in Einstein-Maxwell-scalar theory under prescribed external scalar fields, mapping their existence domain and determining how their scalar charges vary with the external field. Focusing on solutions with positive scalar charge, we find that a positive external field induces scalar charge in Reissner-Nordström (RN) black holes below the zero-source scalarization threshold and extends the allowed charge-to-mass range. A negative external field instead introduces a finite lower existence boundary and permits distinct black holes under identical external conditions. Coupling these isolated responses through the leading companion-generated scalar fields, we find mutual scalar induction in binaries whose components are RN black holes in isolation. For binaries with scalar charges of the same sign, their scalar charges need not increase as the separation decreases, while some binaries with opposite scalar charges admit multiple equilibria and cannot continue along their original equilibrium branches to smaller separations.",
+      "url": "https://arxiv.org/abs/2610.36085v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:09:23+08:00",
+      "updated": "2026-10-27T02:09:23+08:00",
+      "categories": [
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We construct static black holes in Einstein-Maxwell-scalar theory under prescribed external scalar fields, mapping their existence domain and determining how their scalar charges vary with the external field.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "arxiv:2610.36064v1",
+      "title": "Axionic Quintessence in Heterotic String Theory",
+      "authors": [
+        "David Andriot",
+        "Margherita Putti",
+        "Leo Veissiere"
+      ],
+      "abstract": "We investigate axionic quintessence in heterotic string compactifications. Starting from the ten-dimensional theory, we derive the four-dimensional axion effective action, including gauge couplings and non-perturbative potentials, and identify the curvature terms that can correct it. We examine the geometric requirements for ultralight axions generated by exponentially suppressed worldsheet instantons, finding significant restrictions through an exploratory scan of toric Calabi-Yau hypersurfaces. In an illustrative K3-fibred setup, the minimal benchmark also encounters a tension with the positivity of the one-loop corrected gauge kinetic functions. Aligned worldsheet-instanton contributions provide a way to alleviate this tension and yield an ultralight axion with a phenomenologically relevant decay constant. Our analysis also identifies lower-action instantons whose contributions must be controlled to preserve the ultralight axion. We then study the resulting class of quintessence potentials and qualitatively compare their late-time cosmological solutions with observationally preferred ranges.",
+      "url": "https://arxiv.org/abs/2610.36064v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:15+08:00",
+      "updated": "2026-10-27T02:00:15+08:00",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We investigate axionic quintessence in heterotic string compactifications.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "arxiv:2610.36036v1",
+      "title": "Attractors and initial-condition sensitivity in Horndeski cosmologies",
+      "authors": [
+        "Yulia A. Ageeva",
+        "Andrey K. Sharofeev"
+      ],
+      "abstract": "We study whether nearby homogeneous cosmological histories approach or move away from the Genesis and contracting solutions. We also determine how an uncertainty in the scalar velocity at a later stage affects the inferred initial velocity. In the Genesis models, including the gravitational dynamics can substantially change this relation. We find that convergence of homogeneous solutions can occur even around backgrounds with unstable perturbations, and therefore attraction of the background is not sufficient to establish that a cosmological solution is physically viable. In the contracting model, one power-law solution attracts nearby trajectories, whereas another repels them. The strength of these effects depends on how the cosmological state is parametrized. Their evolution through the subsequent bounce is not considered here.",
+      "url": "https://arxiv.org/abs/2610.36036v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:01+08:00",
+      "updated": "2026-10-27T02:00:01+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We study whether nearby homogeneous cosmological histories approach or move away from the Genesis and contracting solutions.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv GW/compact related, arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "arxiv:2610.36028v1",
+      "title": "Cusp regularization with spin structures and gravitational anomalies",
+      "authors": [
+        "Elisa Tabor",
+        "Cynthia Yan"
+      ],
+      "abstract": "The family of $SL(2,\\mathbb Z)$ black holes has an accumulation point corresponding to a cusped geometry, which causes the sum over black holes to diverge. We extend cusp regularization to the sum over geometries compatible with a fixed boundary spin structure. For $c_L=c_R$, including the cusp as a counterterm cancels the leading divergence for each of the three even boundary spin structures. The required subtraction is the same in all three sectors and is two thirds of the bosonic one. We further show that gravitational anomalies cause cancellations between black hole contributions, removing the leading cusp divergence except at $c_L-c_R=0,\\pm24$ in pure gravity and $c_L-c_R=0,\\pm12$ in $\\mathcal N=(1,1)$ supergravity. We also derive the spin structure dependent anomaly phases responsible for these cancellations.",
+      "url": "https://arxiv.org/abs/2610.36028v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:00+08:00",
+      "updated": "2026-10-27T02:00:00+08:00",
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The family of $SL(2,\\mathbb Z)$ black holes has an accumulation point corresponding to a cusped geometry, which causes the sum over black holes to diverge.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "arxiv:2610.36023v1",
+      "title": "Formation and Charge Relaxation of Julia-Zee Dyons in Classical Lattice Simulations",
+      "authors": [
+        "Masaki Yamada"
+      ],
+      "abstract": "We demonstrate the formation and subsequent evolution of Julia--Zee dyons in $(3+1)$-dimensional classical lattice simulations of an $\\mathrm{SU}(2)\\to\\mathrm{U}(1)$ symmetry-breaking model in an expanding background. The gauge and Higgs fields are prepared thermally, subjected to an ultraviolet filter, and evolved through a mass quench and subsequent expansion. Classical dyons can carry continuous electric charge, and we find charge magnitudes exceeding four times the electric charge unit $g$. Their measured electric-charge magnitudes tend to decrease during the subsequent evolution, consistent with charge exchange with the surrounding fields. At late times, the magnetic monopoles persist while the number of dyons and their observed charge range decrease, with only a few identified dyons remaining at the end of the simulations.",
+      "url": "https://arxiv.org/abs/2610.36023v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-10-27T02:00:00+08:00",
+      "updated": "2026-10-27T02:00:00+08:00",
+      "categories": [
+        "hep-ph",
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We demonstrate the formation and subsequent evolution of Julia--Zee dyons in $(3+1)$-dimensional classical lattice simulations of an $\\mathrm{SU}(2)\\to\\mathrm{U}(1)$ symmetry-breaking model in an expanding background.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "arxiv:2610.36045v1",
+      "title": "Local Measures in Odd de Sitter",
+      "authors": [
+        "Guilherme L. Pimentel",
+        "Nicole Righi",
+        "Behrang Tafreshi"
+      ],
+      "abstract": "We show that massless theories in odd-dimensional de Sitter space have very simple measures---the modulus squared of the late-time wavefunctional---at tree level. They are local functionals; in particular, all wavefunction coefficients vanish at separated positions. All the usual singularities of nonlocal wavefunctions in even dimensions only affect the phase in the odd dimensional case. Hence a closed formula can be written for any number of points. We focus on three examples: the non-linear sigma model, Yang-Mills theory and General Relativity, from dimensions three to seven.",
+      "url": "https://arxiv.org/abs/2610.36045v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:03+08:00",
+      "updated": "2026-10-27T02:00:03+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 34,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "general relativity",
+        "de Sitter"
+      ],
+      "analysis": {
+        "zh_summary": "We show that massless theories in odd-dimensional de Sitter space have very simple measures---the modulus squared of the late-time wavefunctional---at tree level.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "general relativity, de Sitter",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "arxiv:2610.36918v1",
+      "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
+      "authors": [
+        "Mingyu Zhang",
+        "Zixu Li",
+        "Zhiheng Fu",
+        "Zhiwei Chen",
+        "Jinhe Bi",
+        "Yupeng Hu"
+      ],
+      "abstract": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve memories based on their relevance to the current query and use them as contextual evidence. However, relevance alone does not characterize how a memory contributes to task solving: the same memory may serve different roles across tasks, such as directly supporting the answer or linking to complementary memories with weaker semantic relevance but necessary information. We therefore reframe agent memory systems as Task-Oriented Role-Adaptive Workspaces, where memories are selected and organized by their task-oriented roles and relations. Based on this view, we propose TrawMem, which organizes interaction histories into local threads and constructs task-oriented workspaces by assigning roles and jointly selecting complementary memories. Experiments on LoCoMo and MemGallery with four open- and closed-source backbones show consistent improvements over representative memory systems, with macro-F1 gains of 2.23-3.14 points. On LoCoMo, TrawMem improves the LLM-Judge score over SimpleMem by 4.07 and 4.31 percentage points on Qwen3.5-9B and DeepSeek-V4-Flash, respectively, while requiring approximately 12.8% and 5.1% fewer context tokens, respectively.",
+      "url": "https://arxiv.org/abs/2610.36918v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:46:15+08:00",
+      "updated": "2026-10-27T17:46:15+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve memories based on their relevance to the current query and use them as contextual evidence.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "arxiv:2610.36849v1",
+      "title": "When All Rollouts Fail: Policy-Compatible Joint Decoding for Hard-Problem Reasoning",
+      "authors": [
+        "Zehao Wang",
+        "Hanzhu Chen",
+        "Runquan Gui",
+        "Zhe Wang",
+        "Lin Yang"
+      ],
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) derives its learning signal from binary rewards via on-policy exploration and becomes a powerful paradigm for improving the reasoning of large language models. Yet it faces a learning cliff on problems beyond model's current ability: when every rollout fails, the samples reveal nothing about a correct solution, and group-relative estimators (e.g., GRPO, RLOO) collapse the update to zero advantage. Expert trajectories offer a remedy, but they are incompatible with the current policy and often lie in the student's low-probability regions, so the surviving updates demand large parameter shifts and decay into surface-level imitation rather than transferable reasoning. We argue that a useful learning signal on hard problems must be both verifiably correct and sufficiently compatible with the current policy. We propose Policy-Compatible Reinforcement Learning (PICO), which performs distribution-constrained joint decoding: expert data guides decoding at the token level while preserving the student's relative token probabilities, and a dynamic top-k mechanism confines the sampling distribution under a finite divergence budget, yielding trajectories that are verified and policy-compatible by construction. These trajectories are optimized jointly with on-policy rollouts under a mixed-behavior objective that mitigates their distribution mismatch via importance sampling. Experiments across reasoning diverse datasets and agentic benchmarks demonstrate that PICO consistently outperforms standard RLVR and prior off-policy baselines.",
+      "url": "https://arxiv.org/abs/2610.36849v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T16:47:35+08:00",
+      "updated": "2026-10-27T16:47:35+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "agentic"
+      ],
+      "analysis": {
+        "zh_summary": "Reinforcement Learning with Verifiable Rewards (RLVR) derives its learning signal from binary rewards via on-policy exploration and becomes a powerful paradigm for improving the reasoning of large language models.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, agentic",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "arxiv:2610.36906v1",
+      "title": "Phenomenology of strangeness-changing two-body currents in antineutrino scattering",
+      "authors": [
+        "Jarosalw A. Nowak"
+      ],
+      "abstract": "Antineutrinos produce hyperons without kaons through Cabibbo-suppressed quasi-elastic scattering on a single nucleon. A two-body current acting on a correlated nucleon pair, nubar [NN] -> l+ Y N', gives the same hyperons plus a second nucleon. A companion paper constructs this current without fixing its size. StrangeMC, the only generator with the channel, set it to a flat 15% of the quasi-elastic hyperon cross section. We determine the ratio f = sigma_2p2h/sigma_QE of the two-body to the quasi-elastic hyperon cross section on carbon versus antineutrino energy, and the detector signatures of two-body events. The strange two-body current and its non-strange counterpart are computed on the same nucleon pair. Their ratio is converted into f with the Valencia non-strange 2p2h and quasi-elastic cross sections for carbon, assuming that nuclear effects missing from the pair are common to both. Under this assumption f rises from 0.14 at 0.6 GeV to 0.20-0.22 at 2-5 GeV. Averaged over the Booster antineutrino spectra it is 0.15-0.17, close to the 15% placeholder, which StrangeMC now replaces with f(E). The largest evaluated uncertainty comes from separating the two-body current from one-body production followed by rescattering: across the separation prescriptions explored, f at 1 GeV ranges from 0.12 to 0.22. Interference with one-body production is not calculated and could be as large as the two-body rate. In a simulated SBND antineutrino-mode exposure on argon with the carbon f, two-body events are about 11% of events that produce a strange hadron. They supply more than a quarter of the kaon-less Sigma+ events used to tag hyperon charge exchange, partly as Sigma+ made at the weak vertex. They reconstruct 12-30% low in energy under the quasi-elastic hypothesis. After final-state interactions half of them have a proton above 40 MeV at the vertex, against a fifth of quasi-elastic events.",
+      "url": "https://arxiv.org/abs/2610.36906v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T17:36:50+08:00",
+      "updated": "2026-10-27T17:36:50+08:00",
+      "categories": [
+        "nucl-th",
+        "hep-ex",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Antineutrinos produce hyperons without kaons through Cabibbo-suppressed quasi-elastic scattering on a single nucleon.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "arxiv:2610.36103v1",
+      "title": "Dynamical constraints on the companion mass from pulsar timing and cyclotron line confirmation in the SFXT IGR J16418-4532",
+      "authors": [
+        "Ashwin Devaraj",
+        "Rahul Sharma",
+        "Ketan Rikame",
+        "Biswajit Paul"
+      ],
+      "abstract": "Supergiant Fast X-ray Transients (SFXTs) show extreme X-ray variability on timescales of minutes to hours, driven by accretion processes that remain poorly understood. IGR J16418-4532 is an intermediate SFXT with detected X-ray pulsations and a candidate cyclotron line, making it a key system for probing neutron-star accretion and magnetic fields in this class. We analysed a 148 ks NuSTAR observation and archival RXTE observations, using epoch folding to search for pulsations while correcting photon arrival times for a range of trial $a_x \\sin i$ values, and performed phase-averaged spectroscopy with several continuum models. We detect coherent pulsations at $P_{\\rm spin} = 1208.67 \\pm 0.04$ s (NuSTAR) and $1209.4178 \\pm 0.0084$ s (RXTE/PCA). The pulse detection depends clearly on the assumed projected semi-major axis and is most significant for $a_x \\sin i = 55.1 \\pm 3.5$ lt-s (NuSTAR) and $51.3 \\pm 2.6$ lt-s (RXTE/PCA). Sliding-window pulse profiles show the orbital delay in the uncorrected data, which is fully removed after orbital correction. The inferred orbital parameters constrain the companion mass and radius to $\\sim$12-18 $M_\\odot$ and $\\sim$13-16 $R_\\odot$. This is the first constraint on the binary mass function of an SFXT obtained from the orbital motion of the neutron star. The spectrum shows a robust cyclotron absorption line at $\\sim$50 keV, independent of the continuum model, implying $B \\approx 5 \\times 10^{12}$ G. Optimising pulse detection with trial $a_x \\sin i$ corrections, rather than modelling pulse arrival-time delays, offers a route to dynamical mass measurements in other SFXTs whose variable pulse profiles limit conventional timing techniques.",
+      "url": "https://arxiv.org/abs/2610.36103v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:17:35+08:00",
+      "updated": "2026-10-27T02:17:35+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "pulsar"
+      ],
+      "analysis": {
+        "zh_summary": "Supergiant Fast X-ray Transients (SFXTs) show extreme X-ray variability on timescales of minutes to hours, driven by accretion processes that remain poorly understood.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "pulsar",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "arxiv:2610.36948v1",
+      "title": "Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models",
+      "authors": [
+        "XinYu Piao",
+        "Myunghoon Ryu",
+        "Joongheon Kim",
+        "Jong-Kook Kim"
+      ],
+      "abstract": "A large language model maintains conversational content in an external storage that is outside the model and grows as the dialogue continues. This work assumes an environment where a language model has no external memory and no prior knowledge of the future question or its answer. The motivation is to research whether a dialogue can be stored in the model parameters and later answer a question about it. This work proposes self-keyed in-parameter memorization (SKIM), a closed-form method in which the model generates its own questions about each dialogue turn and writes those questions into its parameters as the keys that later retrieve the turn's content. Generating many varied questions for each turn allows a later user question to match one even when phrased differently, and its answer is recalled from the parameters alone. Evaluated on five language models, SKIM recalls most stored dialogue turns from later user questions, and it answers from the model parameters without any external storage.",
+      "url": "https://arxiv.org/abs/2610.36948v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T18:10:11+08:00",
+      "updated": "2026-10-27T18:10:11+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "A large language model maintains conversational content in an external storage that is outside the model and grows as the dialogue continues.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "arxiv:2610.36929v1",
+      "title": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
+      "authors": [
+        "Saifullah Saifullah",
+        "David Dembinsky",
+        "Stefan Agne",
+        "Andreas Dengel",
+        "Sheraz Ahmed"
+      ],
+      "abstract": "Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language tasks, explainable AI (XAI) research tailored to multimodal document understanding has received little attention. To address this gap, we present \\ourframework{}, the first comprehensive explainability framework that adapts existing XAI methods and evaluation metrics to the multimodal (text, layout, and image) document understanding context, while introducing efficient multi-target adaptations of both methods and metrics for domain-specific tasks such as semantic entity recognition. Using \\ourframework{}, we systematically evaluate 13 XAI methods across 3 document understanding tasks, 8 datasets, 4 models, and 17 evaluation metrics, and find that only a few methods perform consistently across all evaluation criteria, with Occlusion emerging as the most faithful and interpretable method overall. Through a dedicated meta-evaluation, we observe moderate to strong agreement among several faithfulness and complexity metrics while identifying certain ones that produce unreliable results. Finally, through multiple dataset-wide diagnostic analyses, we uncover key insights into model behavior, including the contribution of individual modalities across tasks and labels, spatial attribution patterns around target entities, and potential dataset biases. Overall, this work serves as both a benchmark and a practical guide for future XAI research in multimodal document understanding. To support reproducibility, we publicly release our code at https://github.com/saifullah3396/docxeval/.",
+      "url": "https://arxiv.org/abs/2610.36929v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:53:21+08:00",
+      "updated": "2026-10-27T17:53:21+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "arxiv:2610.36877v1",
+      "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
+      "authors": [
+        "Bingchao Wang",
+        "Yongcheng Jing",
+        "Shunyu Liu",
+        "Chengyu Wang",
+        "Jun Huang",
+        "Jie Yang",
+        "Wei Liu",
+        "Dacheng Tao"
+      ],
+      "abstract": "Mobile GUI agents are typically fine-tuned 7B-scale vision-language models (VLMs) that generate each action as text. However, these VLMs decode every action token by token, and even agents that score candidate actions keep a large language model or VLM in the loop, making them slow and memory-hungry. To address these issues, we propose GUI-JEPA, to our knowledge the first decoder-free GUI agent policy built on a Joint-Embedding Predictive Architecture (JEPA), which selects actions in the latent space of a JEPA encoder pretrained on unlabelled GUI screenshots. Its action- and region-conditioned latent predictor turns the screen latent into one latent per candidate action, letting lightweight heads score all candidates against the instruction in a single batched pass, without decoding a token. We further show that the scorer relies on this latent pathway and that the predictor is trained for the decision itself: a randomly initialised predictor does just as well as one pretrained on screen dynamics. On AndroidControl, GUI-JEPA is 2.8-4.0x faster on the same GPU than a Qwen2.5-VL-7B agent we fine-tune with the same inputs, while reaching 86-92% of its in-distribution accuracy with 6% of its parameters. Code is available at https://github.com/bcwang-sjtu/GUI-JEPA",
+      "url": "https://arxiv.org/abs/2610.36877v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T17:17:51+08:00",
+      "updated": "2026-10-27T17:17:51+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model"
+      ],
+      "analysis": {
+        "zh_summary": "Mobile GUI agents are typically fine-tuned 7B-scale vision-language models (VLMs) that generate each action as text.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "arxiv:2610.36857v1",
+      "title": "Evaluating AlphaEarth Embeddings for Crop Classification: Separability, Temporal Dynamics, and Cross-Regional Transferability",
+      "authors": [
+        "Priyanka Goyal",
+        "Maitreyee Sar",
+        "Adway Mitra",
+        "Manjira Sinha"
+      ],
+      "abstract": "Earth Observation (EO)-based agricultural monitoring is shifting from pixel-level spectral analysis toward representation-driven modeling, yet systematic evaluation of learned representations across spatial, temporal, and domain-generalization dimensions remains limited. Geospatial foundation models generate high-dimensional embeddings encoding spatio-temporal land-surface properties, but their utility for agricultural applications remains insufficiently understood. This study presents a representation-agnostic evaluation framework integrating geometric separability, temporal dynamics, spatial robustness, and cross-regional generalisation. A 64-dimensional AlphaEarth embedding space is benchmarked against Sentinel-2 reflectance, NDVI-derived phenology, and harmonic features using field-scale data from the Conterminous United States (CONUS; 2017-2023) and Northern India (2021). Traditional features achieve strong linear separability (Fisher ratio), while embeddings provide superior distribution-aware separation -- Bhattacharyya and Mahalanobis distances up to an order of magnitude higher for spectrally similar pairs (e.g. Corn/Soybeans: 3.9 vs. 0.10). Embeddings uniquely capture multi-year crop rotation dynamics, reaching a separability ratio of 1.784 versus a maximum of 1.003 across all engineered features, and exhibit lower residual spatial autocorrelation of errors (mean Moran's $I \\approx 0.17$). However, harmonic and NDVI features show stronger cross-continental transferability (US $\\to$ India Macro F1: 0.493 vs. 0.326 for embeddings), reflecting better distributional alignment. The combined feature space yields balanced performance, supporting hybrid modeling. These findings reveal a fundamental trade-off between representational richness and cross-region transferability, providing a structured framework for feature selection in large-scale crop classification.",
+      "url": "https://arxiv.org/abs/2610.36857v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T16:53:02+08:00",
+      "updated": "2026-10-27T16:53:02+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "foundation model"
+      ],
+      "analysis": {
+        "zh_summary": "Earth Observation (EO)-based agricultural monitoring is shifting from pixel-level spectral analysis toward representation-driven modeling, yet systematic evaluation of learned representations across spatial, temporal, and domain-generalization dimensions remains limited.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "foundation model",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "arxiv:2610.36848v1",
+      "title": "Evolving Agent Teams",
+      "authors": [
+        "Shiyi Cao",
+        "Ziming Mao",
+        "Dacheng Li",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "abstract": "The rapid progress of software engineering agents drives interest in applying them to open-ended problems such as GPU kernel optimization. However, we find that existing coding agents converge to local optima on real-world, expert-written kernels (e.g., FlashInfer). We introduce Evolving Agent Teams, a multi-agent framework that escapes such local optima. It features (1) a central supervisor that diagnoses each local optimum and restructures a team of agents; and (2) a persistent file system that comprises a learning document, an evolution history, and per-team artifacts, grounding restructuring with accumulated experience. Under a matched token budget, Evolving Agent Teams consistently outperforms strong coding-agent baselines. With an extended token budget, Evolving Agent Teams generates a CUDA kernel that reaches 1.2x mean speedup over the production FlashInfer MLA paged decode kernel from scratch and wins on 36 of 47 production workloads from FlashInfer-Bench (0.86-0.99x on the remaining 11). It also demonstrates superior performance on tasks such as KDA prefill on AMD MI350X (3.01x over vLLM) and NVIDIA B200 (3.44x over FlashKDA), MoE expert-offload serving on Apple silicon (30.3 tokens/s decode for Qwen3.8-Flash-Next in MLX 4-bit on a 48 GB M4 Pro), and RoboDojo robot manipulation (62.1 on held-out seeds vs. 55.3 for the best leaderboard entry). Code is available at https://github.com/caoshiyi/EAT.",
+      "url": "https://arxiv.org/abs/2610.36848v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-10-27T16:46:21+08:00",
+      "updated": "2026-10-27T16:46:21+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "MoE"
+      ],
+      "analysis": {
+        "zh_summary": "The rapid progress of software engineering agents drives interest in applying them to open-ended problems such as GPU kernel optimization.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "MoE",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "arxiv:2610.36845v1",
+      "title": "Wilson loops of Chern-Simons-matter Theories with one parameter and Picard-Fuchs equations",
+      "authors": [
+        "Takao Suyama"
+      ],
+      "abstract": "Extending our previous work, we investigate Wilson loops of flavored Chern-Simons theory and ABJ theory by the use of Picard-Fuchs equations. The singularity structure of the equations is analyzed in detail, and local solutions around the singularities are determined. Each theory has one parameter, and the parameter dependence of the Wilson loops is also determined. In flavored Chern-Simons theory, we find an interesting phase transition. For $n$-times-wound Wilson loops, we determine their $n$-dependence by using a recursion relation obtained in our previous work.",
+      "url": "https://arxiv.org/abs/2610.36845v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T16:41:55+08:00",
+      "updated": "2026-10-27T16:41:55+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 27,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "singularity"
+      ],
+      "analysis": {
+        "zh_summary": "Extending our previous work, we investigate Wilson loops of flavored Chern-Simons theory and ABJ theory by the use of Picard-Fuchs equations.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "singularity",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "arxiv:2610.36057v1",
+      "title": "The Fate of 1/4-BPS States in the D1-D5 CFT",
+      "authors": [
+        "Suzanne Bintanja",
+        "Amey P. Gaikwad",
+        "Dikshant Rathore"
+      ],
+      "abstract": "We consider the 1/4-BPS operators in the D1-D5 system on AdS$_3\\times S^3\\times T^4$. We evaluate the anomalous dimensions of low-lying sectors in conformal perturbation theory around Sym$^N(T^4)$ exactly in $N$. All anomalous dimensions are consistent with recombination of the short multiplets into long ones and take a particularly simple form. We show that at finite $N$ and at first nontrivial order in the deformation, for the sectors we consider, the BPS density of states agrees with that of the supergravity point. To the order in conformal perturbation theory we consider, this confirms that not all states that can get lifted do get lifted.",
+      "url": "https://arxiv.org/abs/2610.36057v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:06+08:00",
+      "updated": "2026-10-27T02:00:06+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 27,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "We consider the 1/4-BPS operators in the D1-D5 system on AdS$_3\\times S^3\\times T^4$.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "arxiv:2610.36074v1",
+      "title": "CROMA: a GPU-accelerated Fokker--Planck solver for modeling non-thermal emission in post-processing cosmological simulations",
+      "authors": [
+        "Kosuke Nishiwaki",
+        "Claudio Gheller",
+        "Gianfranco Brunetti",
+        "Katsuaki Asano"
+      ],
+      "abstract": "Numerical modeling of cosmic-ray (CR) spectra and the resulting non-thermal emission is important for understanding the physical mechanisms of CR acceleration and transport in astrophysical environments. Galaxy clusters and cosmic filaments provide particularly important environments for studying these processes, where shocks, turbulence, magnetic fields, and CRs jointly shape diffuse synchrotron emission. Spectrally resolved modeling of CRs, including cooling, re-acceleration, and hadronic interactions, requires solving time-dependent Fokker--Planck (FP) equations. An increasing number of studies employ FP solvers coupled with magnetohydrodynamical (MHD) simulations to follow the evolution of CRs in dynamically evolving environments. We present a new C/C++-based FP solver with GPU acceleration for post-processing outputs from cosmological MHD simulations. The code evolves CR proton and electron spectra along Lagrangian tracer trajectories and consistently includes re-acceleration and secondary-particle production processes. With the Chang--Cooper finite-difference scheme, the FP equation for each tracer is reduced to an independent tridiagonal system, which is solved on NVIDIA GPUs using a CUDA implementation of the parallel cyclic reduction (PCR) algorithm. The code uses sub-stepping between tracer snapshots, with the timestep constrained by the relevant CR cooling or re-acceleration timescale, and a batching algorithm that groups tracers with similar sub-stepping patterns for efficient execution. We find that the GPU acceleration increases the per-node throughput by a factor of $\\approx$10 on the Leonardo Booster system operated by CINECA. The fast FP solver is useful for high-resolution simulations dedicated to comparison with next-generation radio observations and future multi-messenger applications combining radio, gamma-ray, and high-energy neutrino observations.",
+      "url": "https://arxiv.org/abs/2610.36074v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:02:41+08:00",
+      "updated": "2026-10-27T02:02:41+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 26,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "multi-messenger",
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Numerical modeling of cosmic-ray (CR) spectra and the resulting non-thermal emission is important for understanding the physical mechanisms of CR acceleration and transport in astrophysical environments.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "multi-messenger, neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P060",
+      "uid": "arxiv:2610.36282v1",
+      "title": "Reconstruction of very inclined air showers with radio data and application to the first GRANDProto300 cosmic-ray candidates",
+      "authors": [
+        "Marion Guelfand",
+        "Valentin Decoene",
+        "Olivier Martineau",
+        "Simon Prunet",
+        "Sebastian Castro-Isern",
+        "Nathan Lebas"
+      ],
+      "abstract": "Radio detection of very inclined extensive air showers (EAS) offers a promising way to study ultra-high-energy cosmic rays (UHECRs) and neutrinos above $10^{17}$ eV. We present a method to reconstruct the arrival direction and energy of EAS with zenith angles above $60^\\circ$, applicable in principle to upward-going neutrino-induced showers. The approach combines a point-source-like description of the radio wavefront with the Angular Distribution Function (ADF), a phenomenological model describing the angular pattern of electric field amplitudes in the 50-200 MHz band. On realistic cosmic-ray simulations, we achieve better than $0.07^\\circ$ resolution on arrival direction and ~15\\% on primary energy. Applied directly to voltage traces, this method allows efficient cosmic-ray selection with accurate direction reconstruction and first-order energy estimation. We illustrate the method on the first cosmic-ray candidates detected by the GRANDProto300 prototype of GRAND, validating its detection principle and paving the way for high-precision neutrino searches.",
+      "url": "https://arxiv.org/abs/2610.36282v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T05:07:25+08:00",
+      "updated": "2026-10-27T05:07:25+08:00",
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 24,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Radio detection of very inclined extensive air showers (EAS) offers a promising way to study ultra-high-energy cosmic rays (UHECRs) and neutrinos above $10^{17}$ eV.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P061",
+      "uid": "arxiv:2610.36060v1",
+      "title": "Hybrid seesaw from $SU(2)_1 \\times SU(2)_2 \\times U(1)_Y$",
+      "authors": [
+        "Antonio Herrero-Brocal",
+        "Javier Perez-Soler",
+        "Avelino Vicente"
+      ],
+      "abstract": "We study neutrino mass generation in a model based on the $SU(3)_c \\times SU(2)_1 \\times SU(2)_2 \\times U(1)_Y$ gauge symmetry, in which the Standard Model $SU(2)_L$ arises at low energies as the diagonal subgroup of the two $SU(2)$ factors. The symmetry is enlarged with a global $U(1)_{B-L}$ symmetry, spontaneously broken by the vacuum expectation value of a scalar bidoublet. Light neutrino masses are generated at tree level through a hybrid of the type-III, inverse and linear seesaw mechanisms. A distinctive feature of the construction is the existence of a Nambu-Goldstone boson, the majoron, which transforms non-trivially under the original gauge symmetry while being mostly singlet under the Standard Model gauge group. We explore the phenomenological consequences of this setup, including electroweak precision constraints, the production of the nearly degenerate $W'$ and $Z'$ bosons at colliders and lepton flavor violating decays with a majoron in the final state. The latter constitute the most promising signature of the model.",
+      "url": "https://arxiv.org/abs/2610.36060v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-10-27T02:00:08+08:00",
+      "updated": "2026-10-27T02:00:08+08:00",
+      "categories": [
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 24,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "We study neutrino mass generation in a model based on the $SU(3)_c \\times SU(2)_1 \\times SU(2)_2 \\times U(1)_Y$ gauge symmetry, in which the Standard Model $SU(2)_L$ arises at low energies as the diagonal subgroup of the two $SU(2)$ factors.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P062",
+      "uid": "doi:10.1103/2wth-x2m7",
+      "title": "Instability as a quantum resource",
+      "authors": [
+        "Goni Yoeli",
+        "Gilad Gour"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/2wth-x2m7",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/2wth-x2m7",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P063",
+      "uid": "doi:10.1103/vth5-lzjn",
+      "title": "Enhancing superconductivity using thermal bosons",
+      "authors": [
+        "Ekaterina Vlasiuk",
+        "Manfred Salmhofer",
+        "Eugene Demler",
+        "Richard Schmidt"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/vth5-lzjn",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vth5-lzjn",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P064",
+      "uid": "doi:10.1103/mrqx-4nlv",
+      "title": "Hierarchical Lorentz mirror model: Normal transport and a universal 2/3 mean-variance law",
+      "authors": [
+        "Raphaël Lefevere",
+        "Hal Tasaki"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/mrqx-4nlv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/mrqx-4nlv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P065",
+      "uid": "doi:10.1103/99gj-qpbv",
+      "title": "Walk-on-Spheres solution to heterogeneous transport phenomena",
+      "authors": [
+        "Henrique B. N. Monteiro",
+        "Daniel M. Tartakovsky"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/99gj-qpbv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/99gj-qpbv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P066",
+      "uid": "doi:10.1103/bp24-s332",
+      "title": "Available Energy and Ground States of Convective Hydrodynamic and Hydromagnetic Instabilities",
+      "authors": [
+        "Kaixuan Fan",
+        "Yao Zhou"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/bp24-s332",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/bp24-s332",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P067",
+      "uid": "doi:10.1103/fnnn-n593",
+      "title": "Excitonic-superconducting coexistence and emergent nematic superconductivity driven by spontaneous symmetry breaking",
+      "authors": [
+        "Fei Yang",
+        "Ruigang Li",
+        "Junwei Liu",
+        "Binghai Yan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/fnnn-n593",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/fnnn-n593",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P068",
+      "uid": "doi:10.1103/5yxg-sgn1",
+      "title": "A unified theory of deterministic magnetic switching",
+      "authors": [
+        "Xizhi Fu",
+        "Lei Han",
+        "Xi Liu",
+        "Cheng Song",
+        "Junwei Liu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/5yxg-sgn1",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/5yxg-sgn1",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P069",
+      "uid": "doi:10.1103/3jqj-6ldy",
+      "title": "Excitonic Stark Response Induced by Quantum Capacitance in van der Waals Heterostructures",
+      "authors": [
+        "Xiangzhi Hong",
+        "Yongkang Jian",
+        "Yang Chen",
+        "Rukai Cang",
+        "Yuanlong Guo",
+        "Takashi Taniguchi",
+        "Kenji Watanabe",
+        "Baigeng Wang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/3jqj-6ldy",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/3jqj-6ldy",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P070",
+      "uid": "doi:10.1103/hg9t-ypvf",
+      "title": "Beyond the Dilute Instanton Gas: Resurgence with Exact Saddles in the Double Well",
+      "authors": [
+        "Aurélien Dersy",
+        "Matthew D. Schwartz"
+      ],
+      "abstract": "The path-integral approach to the double well has long been limited by the dilute instanton gas approximation. We show that if the finite Euclidean-time structure is taken seriously by using exact saddles, the dilute gas can be sidestepped, allowing the partition function and energy levels to be computed systematically. At each instanton order, the full resurgent structure—which saddles contribute, what asymptotic growth is expected, and how ambiguities cancel—is encoded in a finite-dimensional Picard-Lefschetz contour integral over the quasizero modes with a clear geometric interpretation. Working at finite T is essential: the dilute instanton gas can only access the ground-state splitting, whereas the exact finite- T computation systematically produces the nonperturbative energy splittings for all excited states, including their full dependence on the level number. The key ingredients—Weierstrass elliptic functions for the saddles, Lamé operators for the fluctuations, and Picard-Fuchs equations for the periods—form a coherent mathematical framework that both overlaps and complements that of exact WKB.",
+      "url": "https://doi.org/10.1103/hg9t-ypvf",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/hg9t-ypvf",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The path-integral approach to the double well has long been limited by the dilute instanton gas approximation.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P071",
+      "uid": "doi:10.1103/4wrm-gr4b",
+      "title": "Two-fluid effects in Z-pinch ablation characterized by unified Bayesian inversion",
+      "authors": [
+        "Bowen Zhu",
+        "Jian Wu",
+        "Wei Wang",
+        "Yuanbo Lu",
+        "Zhiyuan Jiang",
+        "Zhiyin Deng",
+        "Delong Xiao",
+        "Zhigang Liu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4wrm-gr4b",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/4wrm-gr4b",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P072",
+      "uid": "doi:10.1103/9msw-jw53",
+      "title": "Bidirectional Teleportation Using Scrambling Dynamics: A Practical Protocol",
+      "authors": [
+        "Amit Vikram",
+        "Edwin Chaparro",
+        "Muhammad Miskeen Khan",
+        "Andrew Lucas",
+        "Chris Akers",
+        "Ana Maria Rey"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/9msw-jw53",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/9msw-jw53",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P073",
+      "uid": "doi:10.1103/qdtc-ff2z",
+      "title": "Can every set of incompatible measurements lead to genuine multipartite steering?",
+      "authors": [
+        "Lucas E. A. Porto",
+        "Lucas Tendick",
+        "Daniel Cavalcanti",
+        "Roope Uola",
+        "Marco Túlio Quintino"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/qdtc-ff2z",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/qdtc-ff2z",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P074",
+      "uid": "doi:10.1103/yk31-1s6y",
+      "title": "Experimental bounds on phonon tunneling across nanoscale vacuum gaps",
+      "authors": [
+        "Sai C. Yelishala",
+        "Mohammad Habibi",
+        "Yunxuan Zhu",
+        "Longji Cui"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/yk31-1s6y",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/yk31-1s6y",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P075",
+      "uid": "doi:10.1103/4v66-y755",
+      "title": "Interaction-induced sign reversal of the orbital magnetic susceptibility in Chern insulators",
+      "authors": [
+        "Ke Huang",
+        "Xiao Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4v66-y755",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/4v66-y755",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P076",
+      "uid": "doi:10.1103/ty6g-l159",
+      "title": "Squirming in viscoplastic fluid",
+      "authors": [
+        "Jesse J. Taylor-West",
+        "Andrew J. Hogg",
+        "Duncan R. Hewitt"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ty6g-l159",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ty6g-l159",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P077",
+      "uid": "doi:10.1103/ycjj-dwh3",
+      "title": "Escape from Heterogeneous Diffusion",
+      "authors": [
+        "Hwai-Ray Tung",
+        "Sean D. Lawley"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/ycjj-dwh3",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/ycjj-dwh3",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P078",
+      "uid": "doi:10.1103/8f4c-tnqz",
+      "title": "Collective hard core interactions leave multiscale signatures in number fluctuation spectra",
+      "authors": [
+        "Eleanor K. R. Mackay",
+        "Anna Drummond Young",
+        "Alice L. Thorneywork",
+        "Adam Carter",
+        "Sophie Marbach"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8f4c-tnqz",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8f4c-tnqz",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P079",
+      "uid": "doi:10.1103/jbt9-4d85",
+      "title": "Energy and momentum relaxation through the Curie temperature in an itinerant ferromagnet",
+      "authors": [
+        "Rishi Bhandia",
+        "Tim Priessnitz",
+        "Jiahao Liang",
+        "Ksenia S. Rabinovich",
+        "Ralph Romero",
+        "Kota Katsumi",
+        "Thi Thu Huong Tran",
+        "Georg Christiani"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/jbt9-4d85",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/jbt9-4d85",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P080",
+      "uid": "doi:10.1103/nn4l-qvyj",
+      "title": "Spontaneous Parity Breaking in Quantum Antiferromagnets on the Triangular Lattice",
+      "authors": [
+        "Songtai Lv",
+        "Yuchen Meng",
+        "Haiyuan Zou"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/nn4l-qvyj",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-10-27T08:00:00+08:00",
+      "updated": "2026-10-27T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/nn4l-qvyj",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
