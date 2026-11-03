@@ -1,8 +1,11 @@
 {
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02 09:34 CST",
-  "window": "2026-11-01 00:00 至 2026-11-03 00:00 Asia/Shanghai",
-  "counts": {},
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03 11:29 CST",
+  "window": "2026-11-02 00:00 至 2026-11-04 00:00 Asia/Shanghai",
+  "counts": {
+    "must-read": 1,
+    "related": 4
+  },
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
@@ -22,7 +25,7 @@
     {
       "source": "Nature RSS",
       "ok": true,
-      "count": 0
+      "count": 11
     },
     {
       "source": "Science RSS",
@@ -32,12 +35,12 @@
     {
       "source": "Physical Review Letters RSS",
       "ok": true,
-      "count": 0
+      "count": 5
     },
     {
       "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "Living Reviews in Relativity RSS",
@@ -52,7 +55,7 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 0
+      "count": 11
     },
     {
       "source": "Science Crossref",
@@ -75,9 +78,177 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 0,
-  "total_review_candidates": 0,
-  "report_path": "/papers/2026-11-02/",
-  "review_path": "_paper_reviews/2026-11-02.md",
-  "papers": []
+  "total_papers": 5,
+  "total_review_candidates": 27,
+  "report_path": "/papers/2026-11-03/",
+  "review_path": "_paper_reviews/2026-11-03.md",
+  "papers": [
+    {
+      "uid": "http://link.aps.org/doi/10.1103/5z5g-shly",
+      "title": "Nanohertz Gravitational-Wave Constraints on Supermassive Binary Black Holes at Cosmic Dawn",
+      "authors": [
+        "Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N. D. Ramesh Bhat, Jacob Cardinal Tremblay, Małgorzata Curyło, Valentina Di Marco, George Hobbs, Wenhua Ling, Rami F. Mandow, Richard N. Manchester, Saurav Mishra, Daniel J. Reardon, Sparrow Roch, Christopher J. Russell, Ryan M. Shannon, Jingbo Wang, Shuangqiang Wang, and Andrew Zic (PPTA Collaboration)"
+      ],
+      "abstract": "Author(s): Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N. D. Ramesh Bhat, Jacob Cardinal Tremblay, Małgorzata Curyło, Valentina Di Marco, George Hobbs, Wenhua Ling, Rami F. Mandow, Richard N. Manchester, Saurav Mishra, Daniel J. Reardon, Sparrow Roch, Christopher J. Russell, Ryan M. Shannon, Jingbo Wang, Shuangqiang Wang, and Andrew Zic (PPTA Collaboration) Researchers have used radio observations of rapidly spinning neutron stars to search for signals from supermassive black hole pairs at the dawn of galaxy formation. [Phys. Rev. Lett. 137, 191401] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/5z5g-shly",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Cosmology, Astrophysics, and Gravitation"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 109,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "binary black hole",
+        "gravitational-wave",
+        "cosmology"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N.",
+        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、gr-qc 相关方向。",
+        "method_or_signal": "binary black hole, gravitational-wave, cosmology",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/wg2x-z2vm",
+      "title": "Exploring Noisy Quantum Thermodynamical Processes via the Depolarizing-Channel Approximation",
+      "authors": [
+        "Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad"
+      ],
+      "abstract": "Author(s): Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place. In particular, quantum thermodynamical protocols for cooling can be significantly affected, potentially altering both their performance and efficiency. Analy… [Phys. Rev. Lett. 137, 190401] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/wg2x-z2vm",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/jm3g-t1kv",
+      "title": "Breakdown of Fluctuational Electrodynamics in the Extreme Near Field",
+      "authors": [
+        "Philippe Ben-Abdallah"
+      ],
+      "abstract": "Author(s): Philippe Ben-Abdallah Fluctuational electrodynamics relies on the assumption that thermal fluctuations in distinct bodies are statistically independent. It is shown that this approximation ceases to be valid in the extreme near-field regime, where hybridization of surface phonon polaritons across nanometric vacuum gaps g… [Phys. Rev. Lett. 137, 196301] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/jm3g-t1kv",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Philippe Ben-Abdallah Fluctuational electrodynamics relies on the assumption that thermal fluctuations in distinct bodies are statistically independent.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/p38y-wyrj",
+      "title": "Spinless Charged Excitation at the Interface between a Conventional Topological Insulator and a Topological Mott Insulator",
+      "authors": [
+        "Cesar A. Gallegos, Andrew J. Millis, and Steven R. White"
+      ],
+      "abstract": "Author(s): Cesar A. Gallegos, Andrew J. Millis, and Steven R. White We investigate the interface separating two topologically distinct insulating phases of matter using extensive density-matrix renormalization group calculations to study the triangular-lattice Hofstadter-Hubbard model with a spatially varying interaction strength, chosen to realize both integer quan… [Phys. Rev. Lett. 137, 196501] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/p38y-wyrj",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Cesar A.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "http://link.aps.org/doi/10.1103/5kfl-11m1",
+      "title": "Nonlinear Phononic Slidetronics",
+      "authors": [
+        "Pooja Rani and Dominik M. Juraschek"
+      ],
+      "abstract": "Author(s): Pooja Rani and Dominik M. Juraschek Layered van der Waals ferroelectrics are conventionally switched by sliding the different layers between stacking orders with opposing electric polarizations. Ultrashort laser pulses have been proposed to launch shear modes and induce switching, with often unfeasible large pulse energies, however. H… [Phys. Rev. Lett. 137, 196901] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/5kfl-11m1",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Pooja Rani and Dominik M.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    }
+  ]
 }

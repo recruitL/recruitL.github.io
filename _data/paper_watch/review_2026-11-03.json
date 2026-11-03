@@ -1,0 +1,926 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03 11:29 CST",
+  "window": "2026-11-02 00:00 至 2026-11-04 00:00 Asia/Shanghai",
+  "counts": {
+    "must-read": 1,
+    "related": 4
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-11-03.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "http://link.aps.org/doi/10.1103/5z5g-shly",
+      "title": "Nanohertz Gravitational-Wave Constraints on Supermassive Binary Black Holes at Cosmic Dawn",
+      "authors": [
+        "Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N. D. Ramesh Bhat, Jacob Cardinal Tremblay, Małgorzata Curyło, Valentina Di Marco, George Hobbs, Wenhua Ling, Rami F. Mandow, Richard N. Manchester, Saurav Mishra, Daniel J. Reardon, Sparrow Roch, Christopher J. Russell, Ryan M. Shannon, Jingbo Wang, Shuangqiang Wang, and Andrew Zic (PPTA Collaboration)"
+      ],
+      "abstract": "Author(s): Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N. D. Ramesh Bhat, Jacob Cardinal Tremblay, Małgorzata Curyło, Valentina Di Marco, George Hobbs, Wenhua Ling, Rami F. Mandow, Richard N. Manchester, Saurav Mishra, Daniel J. Reardon, Sparrow Roch, Christopher J. Russell, Ryan M. Shannon, Jingbo Wang, Shuangqiang Wang, and Andrew Zic (PPTA Collaboration) Researchers have used radio observations of rapidly spinning neutron stars to search for signals from supermassive black hole pairs at the dawn of galaxy formation. [Phys. Rev. Lett. 137, 191401] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/5z5g-shly",
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields, Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Cosmology, Astrophysics, and Gravitation"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 109,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "LVK/LISA/引力波观测",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "binary black hole",
+        "gravitational-wave",
+        "cosmology"
+      ],
+      "analysis": {
+        "zh_summary": "Author(s): Yiqin Chen, Shi-Yi Zhao, Xingjiang Zhu, N.",
+        "why_relevant": "匹配关注项：致密双星建模、LVK/LISA/引力波观测、gr-qc 相关方向。",
+        "method_or_signal": "binary black hole, gravitational-wave, cosmology",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "http://link.aps.org/doi/10.1103/wg2x-z2vm",
+      "title": "Exploring Noisy Quantum Thermodynamical Processes via the Depolarizing-Channel Approximation",
+      "authors": [
+        "Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad"
+      ],
+      "abstract": "Author(s): Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place. In particular, quantum thermodynamical protocols for cooling can be significantly affected, potentially altering both their performance and efficiency. Analy… [Phys. Rev. Lett. 137, 190401] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/wg2x-z2vm",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Quantum Information, Science, and Technology",
+        "Quantum Information, Science, and Technology"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, and Pharnam Bakhshinezhad Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "http://link.aps.org/doi/10.1103/jm3g-t1kv",
+      "title": "Breakdown of Fluctuational Electrodynamics in the Extreme Near Field",
+      "authors": [
+        "Philippe Ben-Abdallah"
+      ],
+      "abstract": "Author(s): Philippe Ben-Abdallah Fluctuational electrodynamics relies on the assumption that thermal fluctuations in distinct bodies are statistically independent. It is shown that this approximation ceases to be valid in the extreme near-field regime, where hybridization of surface phonon polaritons across nanometric vacuum gaps g… [Phys. Rev. Lett. 137, 196301] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/jm3g-t1kv",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Philippe Ben-Abdallah Fluctuational electrodynamics relies on the assumption that thermal fluctuations in distinct bodies are statistically independent.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "http://link.aps.org/doi/10.1103/p38y-wyrj",
+      "title": "Spinless Charged Excitation at the Interface between a Conventional Topological Insulator and a Topological Mott Insulator",
+      "authors": [
+        "Cesar A. Gallegos, Andrew J. Millis, and Steven R. White"
+      ],
+      "abstract": "Author(s): Cesar A. Gallegos, Andrew J. Millis, and Steven R. White We investigate the interface separating two topologically distinct insulating phases of matter using extensive density-matrix renormalization group calculations to study the triangular-lattice Hofstadter-Hubbard model with a spatially varying interaction strength, chosen to realize both integer quan… [Phys. Rev. Lett. 137, 196501] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/p38y-wyrj",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Cesar A.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "http://link.aps.org/doi/10.1103/5kfl-11m1",
+      "title": "Nonlinear Phononic Slidetronics",
+      "authors": [
+        "Pooja Rani and Dominik M. Juraschek"
+      ],
+      "abstract": "Author(s): Pooja Rani and Dominik M. Juraschek Layered van der Waals ferroelectrics are conventionally switched by sliding the different layers between stacking orders with opposing electric polarizations. Ultrashort laser pulses have been proposed to launch shear modes and induce switching, with often unfeasible large pulse energies, however. H… [Phys. Rev. Lett. 137, 196901] Published Mon Nov 02, 2026",
+      "url": "http://link.aps.org/doi/10.1103/5kfl-11m1",
+      "source": "Physical Review Letters",
+      "source_kind": "journal_physics",
+      "published": "2026-11-02T18:00:00+08:00",
+      "updated": "2026-11-02T18:00:00+08:00",
+      "categories": [
+        "Condensed Matter and Materials",
+        "Condensed Matter and Materials"
+      ],
+      "doi": "",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Author(s): Pooja Rani and Dominik M.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "https://www.nature.com/articles/d41586-026-03480-7",
+      "title": "Chinese PhD students in clinical medicine can graduate without a thesis — more degrees to follow",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03480-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-03T08:00:00+08:00",
+      "updated": "2026-11-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "doi:10.1038/d41586-026-03480-7",
+      "title": "Chinese PhD students in clinical medicine can graduate without a thesis — more degrees to follow",
+      "authors": [
+        "Xiaoying You"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03480-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-03T08:00:00+08:00",
+      "updated": "2026-11-03T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03480-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "https://www.nature.com/articles/s41586-026-11350-5",
+      "title": "Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+      "authors": [
+        "Thomas L. Li",
+        "John D. Blair",
+        "Taesun Yoo",
+        "Gerald A. Grant",
+        "Dirk Hockemeyer",
+        "Brenda E. Porter",
+        "Helen S. Bateup"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11350-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "https://www.nature.com/articles/d41586-026-03387-3",
+      "title": "Measles made a stealthy return as another virus took the spotlight",
+      "authors": [],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03387-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "https://www.nature.com/articles/d41586-026-03506-0",
+      "title": "Earth’s resources sustain humanity — but they come at a high price",
+      "authors": [
+        "Richard Schiffman"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03506-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "https://www.nature.com/articles/d41586-026-03485-2",
+      "title": "What tech entrepreneurs can teach scientists about failure",
+      "authors": [
+        "Dom Byrne"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03485-2",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "https://www.nature.com/articles/d41586-026-03346-y",
+      "title": "Iranian scientists in the United States face major upheaval",
+      "authors": [
+        "Sophia Chen"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03346-y",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "https://www.nature.com/articles/d41586-026-03509-x",
+      "title": "Five overlooked steps to identify new epidemics, fast",
+      "authors": [
+        "Serge Tonen-Wolyec",
+        "Laurent Belec"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03509-x",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "https://www.nature.com/articles/d41586-026-03511-3",
+      "title": "Meet Neuropixels: how probes that track hundreds of brain cells at once are revolutionizing neuroscience",
+      "authors": [
+        "Diana Kwon"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03511-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "https://www.nature.com/articles/d41586-026-02465-w",
+      "title": "In Indonesia, PhD students blow the whistle on bad supervision",
+      "authors": [
+        "Dyna Rochmyaningsih"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02465-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "https://www.nature.com/articles/d41586-026-03507-z",
+      "title": "How researchers debunked ‘race science’: ‘a triumph of scientific self-correction’",
+      "authors": [
+        "David Silverberg"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03507-z",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "https://www.nature.com/articles/d41586-026-03564-4",
+      "title": "‘A perfect scientist, a perfect mum’: researchers mourn two biologists’ deaths in Spanish train crash",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03564-4",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "doi:10.1038/d41586-026-03507-z",
+      "title": "How researchers debunked ‘race science’: ‘a triumph of scientific self-correction’",
+      "authors": [
+        "David Silverberg"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03507-z",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03507-z",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "doi:10.1038/d41586-026-03564-4",
+      "title": "‘A perfect scientist, a perfect mum’: researchers mourn two biologists’ deaths in Spanish train crash",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03564-4",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03564-4",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "doi:10.1038/s41586-026-11350-5",
+      "title": "Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+      "authors": [
+        "Thomas L. Li",
+        "John D. Blair",
+        "Taesun Yoo",
+        "Gerald A. Grant",
+        "Dirk Hockemeyer",
+        "Brenda E. Porter",
+        "Helen S. Bateup"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11350-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11350-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "doi:10.1038/d41586-026-03387-3",
+      "title": "Measles made a stealthy return as another virus took the spotlight",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03387-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03387-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1038/d41586-026-03511-3",
+      "title": "Meet Neuropixels: how probes that track hundreds of brain cells at once are revolutionizing neuroscience",
+      "authors": [
+        "Diana Kwon"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03511-3",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03511-3",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1038/d41586-026-03485-2",
+      "title": "What tech entrepreneurs can teach scientists about failure",
+      "authors": [
+        "Dom Byrne"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03485-2",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03485-2",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1038/d41586-026-03509-x",
+      "title": "Five overlooked steps to identify new epidemics, fast",
+      "authors": [
+        "Serge Tonen-Wolyec",
+        "Laurent Belec"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03509-x",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03509-x",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1038/d41586-026-03506-0",
+      "title": "Earth’s resources sustain humanity — but they come at a high price",
+      "authors": [
+        "Richard Schiffman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03506-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03506-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1038/d41586-026-02465-w",
+      "title": "In Indonesia, PhD students blow the whistle on bad supervision",
+      "authors": [
+        "Dyna Rochmyaningsih"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02465-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02465-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1038/d41586-026-03346-y",
+      "title": "Iranian scientists in the United States face major upheaval",
+      "authors": [
+        "Sophia Chen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03346-y",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-02T08:00:00+08:00",
+      "updated": "2026-11-02T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03346-y",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
