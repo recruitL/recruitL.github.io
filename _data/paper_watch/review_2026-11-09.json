@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09 09:45 CST",
+  "window": "2026-11-08 00:00 至 2026-11-10 00:00 Asia/Shanghai",
+  "counts": {},
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-11-09.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "doi:10.1126/science.aeh5267",
+      "title": "Melting and resistivity of iron at Earth core conditions using pulsed Joule heating",
+      "authors": [
+        "Zachary M. Geballe",
+        "Jing Yang",
+        "Vasilije V. Dobrosavljevic",
+        "Francesca Miozzi",
+        "Nathan Sime",
+        "Suzy M. Vitale",
+        "Peter E. Driscoll",
+        "Peter E. van Keken"
+      ],
+      "abstract": "The melting temperature and electrical resistivity of iron at high pressure are essential for understanding Earth’s core. Here we use a new high-pressure method – microsecond pulsed Joule heating in diamond anvil cells – to identify melting and measure resistivity of solid and liquid iron. More than 300 reproducible melting measurements indicate a surprisingly shallow melting curve, reaching 6 K/GPa and 4160 ± 80 K at 200 GPa. Extrapolating in pressure and iron alloy composition, and combining with our 76 μ Ω cm measurement of liquid iron’s resistivity, we infer a relatively cold core-mantle boundary (3430 K) with a low adiabatic outer core heat flow (9.8 TW). This suggests thermal convection alone could have powered the geodynamo prior to inner core formation and that today’s lowermost mantle is fully solid.",
+      "url": "https://doi.org/10.1126/science.aeh5267",
+      "source": "Science Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-08T08:00:00+08:00",
+      "updated": "2026-11-08T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1126/science.aeh5267",
+      "journal": "Science",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The melting temperature and electrical resistivity of iron at high pressure are essential for understanding Earth’s core.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Science Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
