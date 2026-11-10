@@ -1,0 +1,2144 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10 12:10 CST",
+  "window": "2026-11-09 00:00 至 2026-11-11 00:00 Asia/Shanghai",
+  "counts": {
+    "recommended": 1,
+    "related": 34,
+    "ai-news": 2
+  },
+  "source_statuses": [
+    {
+      "source": "arXiv gr-qc",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "arXiv GW/compact related",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "arXiv AI radar",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "Nature RSS",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "Science RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "PRL Editors' Suggestions: Cosmology/Astrophysics/Gravitation + Particles/Fields RSS",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Living Reviews in Relativity RSS",
+      "ok": false,
+      "error": "not well-formed (invalid token): line 14, column 4"
+    },
+    {
+      "source": "PRL Highlights: Cosmology/Astrophysics/Gravitation + Particles/Fields HTML",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Nature Crossref",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "Science Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "Physical Review Letters Crossref",
+      "ok": true,
+      "count": 28
+    },
+    {
+      "source": "Living Reviews in Relativity Crossref",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "OpenAI analysis",
+      "ok": false,
+      "error": "skipped: OPENAI_API_KEY not set or --no-ai"
+    }
+  ],
+  "review_path": "_paper_reviews/2026-11-10.md",
+  "candidates": [
+    {
+      "review_id": "P001",
+      "uid": "arxiv:2611.11495v1",
+      "title": "Smooth Rigidity Near Extremal Horizons",
+      "authors": [
+        "Ye Zhou"
+      ],
+      "abstract": "The Einstein equations constrain the transverse Taylor series at a degenerate Killing horizon, but even complete knowledge of that series need not determine a smooth spacetime: a nonzero difference can vanish to every order at the horizon. We show that this ambiguity disappears when the limiting metric on the space of Killing orbits admits a spacelike graph over a compact horizon section. In dimensions $d\\geq4$, smooth vacuum Einstein germs with the same marked transverse jets are then locally isometric on a two-sided neighborhood of the whole section. The proof combines a terminal wave-map gauge with energy estimates on the orbit cylinder and yields a finite weighted matching criterion. For unwarped horizons with positive-Einstein sections, a condition on the full Lichnerowicz spectrum reduces the smooth classification to parallel first transverse data. All such data have convergent multiwarped Einstein realizations, including examples whose sections have negative sectional-curvature directions. We also obtain a finite-regularity version for round sections. The continuation argument extends to four-dimensional Einstein--Maxwell theory and gives smooth charged-Nariai rigidity. Finally, rotating Nariai data admit the required spacelike graph throughout the regular branch; an all-order tensor estimate yields smooth Kerr--de Sitter or rotating-Nariai rigidity for $a^2/r_0^2\\leq1/8$, without assuming ambient axial symmetry.",
+      "url": "https://arxiv.org/abs/2611.11495v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-11-09T00:48:47+08:00",
+      "updated": "2026-11-09T00:48:47+08:00",
+      "categories": [
+        "gr-qc",
+        "math-ph",
+        "math.DG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 51,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "de Sitter"
+      ],
+      "analysis": {
+        "zh_summary": "The Einstein equations constrain the transverse Taylor series at a degenerate Killing horizon, but even complete knowledge of that series need not determine a smooth spacetime: a nonzero difference can vanish to every order at the horizon.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "de Sitter",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P002",
+      "uid": "doi:10.1103/pppb-9sm1",
+      "title": "Dark-Matter-Induced Nuclear Deexcitation at the Short-Baseline Near Detector with Ab Initio Nuclear Theory",
+      "authors": [
+        "Bhaskar Dutta",
+        "Debopam Goswami",
+        "Baishan Hu",
+        "Wei-Chih Huang",
+        "Vishvas Pandey"
+      ],
+      "abstract": "We explore the sensitivity of the short-baseline near detector (SBND) experiment to light dark matter using MeV-scale electromagnetic activity. Inelastic scattering of dark matter with argon nuclei can excite nuclear states that subsequently deexcite via the emission of MeV-scale photons, producing localized low-energy “blip” signatures in a liquid argon time projection chamber. We perform state-of-the-art nuclear calculations, including all relevant argon excited states with energies up to 18 MeV, to provide reliable predictions for these signals. After accounting for relevant backgrounds, we find that SBND can probe previously unexplored regions of parameter space for light dark matter.",
+      "url": "https://doi.org/10.1103/pppb-9sm1",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/pppb-9sm1",
+      "journal": "Physical Review Letters",
+      "score": 45,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向",
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark matter"
+      ],
+      "analysis": {
+        "zh_summary": "We explore the sensitivity of the short-baseline near detector (SBND) experiment to light dark matter using MeV-scale electromagnetic activity.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向、天文/高能相关。",
+        "method_or_signal": "dark matter",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P003",
+      "uid": "arxiv:2611.11491v1",
+      "title": "CallCleaner: Lightweight Bioacoustic Denoising from an Audio Foundation Model",
+      "authors": [
+        "Michael Xie",
+        "Gašper Beguš",
+        "Morris Alper"
+      ],
+      "abstract": "Many studies of animal vocalizations require clean recordings, but animals are usually recorded in the field, with background noise from weather, vehicles, and other animals. Animal vocalization denoising is challenged by the scarcity of clean training data and the extreme diversity of animal vocalizations. Classical spectral gates leave residual noise, especially without voice activity detection (VAD), while detector-free neural denoisers designed for bioacoustics remove less noise. We show that a general-purpose source separation foundation model, SAM-Audio, removes more noise than either of these types of methods, when used without training and prompted with time spans from a simple animal VAD. To turn this heavy method into a practical tool, we distill it into CallCleaner, a 19M-parameter denoiser that needs no detector and runs ~90x faster than real time on a laptop CPU. We find that SI-SDR has limited utility in our setting as it penalizes regenerated output and conflates noise removal with call fidelity, a trade-off our separate metrics reveal. CallCleaner leaves 11 dB less noise around the call than Biodenoising, the leading neural bioacoustic denoiser with public weights, and among fast, CPU-capable systems it pushes the Pareto frontier of noise removal vs. call fidelity, without requiring a detector. We release code and weights for CallCleaner, which enables fast, private, local denoising of single-caller recordings without specialized hardware.",
+      "url": "https://arxiv.org/abs/2611.11491v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:34:06+08:00",
+      "updated": "2026-11-09T00:34:06+08:00",
+      "categories": [
+        "eess.AS",
+        "cs.LG",
+        "cs.SD"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "foundation model"
+      ],
+      "analysis": {
+        "zh_summary": "Many studies of animal vocalizations require clean recordings, but animals are usually recorded in the field, with background noise from weather, vehicles, and other animals.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "foundation model",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P004",
+      "uid": "arxiv:2611.11487v1",
+      "title": "THEATRON: A Benchmark for Evaluating Persona Persistence in Long-Horizon LLM Decision-Making",
+      "authors": [
+        "Yuyan Wang",
+        "Yuechen Jiang",
+        "Zhiwei Liu",
+        "Jimin Huang",
+        "Sophia Ananiadou"
+      ],
+      "abstract": "Existing evaluations often test persona expression rather than whether persona information persists in extended decision-making. We introduce THEATRON, a controlled benchmark that uses financial replay to evaluate persona persistence in long-horizon sequential decision-making. In these environments, models conditioned on fixed behavioral-finance personas observe shared daily market evidence and trajectory-specific account-state feedback and make sequential decisions over multi-month trajectories. We evaluate Zero-Shot, One-Shot, and Chain-of-Thought persona injection across four LLMs, using cumulative-return and action trajectories to diagnose within-persona stability, cross-persona separability, and action collapse. Persona conditioning produces systematic behavioral shifts beyond a no-persona baseline, and persona-level separation generally exceeds the variation induced by semantically equivalent descriptions. Nevertheless, these shifts do not reliably form coherent persona-specific policies: apparently stable separation can arise from stereotyped action collapse, while diverse policies can exhibit noisy trajectory switching. These findings expose a gap between observable persona-induced behavior and persistent, context-sensitive persona-conditioned decision policies. Code and benchmark data are publicly available at: https://github.com/yuyan12138/theatron",
+      "url": "https://arxiv.org/abs/2611.11487v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:29:09+08:00",
+      "updated": "2026-11-09T00:29:09+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Existing evaluations often test persona expression rather than whether persona information persists in extended decision-making.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P005",
+      "uid": "doi:10.1103/j57s-pp4y",
+      "title": "Complementarity between neutrino neutral-current and charged-current events in the search for new physics",
+      "authors": [
+        "Julia Gehrlein",
+        "Jaime Hoefken Zink",
+        "Pedro A. N. Machado",
+        "João Paulo Pinheiro"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/j57s-pp4y",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/j57s-pp4y",
+      "journal": "Physical Review Letters",
+      "score": 35,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P006",
+      "uid": "arxiv:2611.11470v1",
+      "title": "GOPR-CAD: Graph-of-Operations Progressive Reasoning for CAD Generation",
+      "authors": [
+        "Yitian Pang",
+        "Yifan Li",
+        "Xiaowei Yue",
+        "Li Zheng"
+      ],
+      "abstract": "Generating accurate CAD models requires substantial engineering expertise and careful control of geometry, topology, and mechanical constraints. Text-to-CAD aims to simplify this process, but current LLM-based methods often generate CAD programs directly. Language models remain unreliable when producing long code while coordinating coupled geometric, topological, and dimensional constraints. Consequently, executable programs may still produce structurally incorrect models, which execution rate and rendered appearance may fail to reveal. To address these limitations, we propose GOPR-CAD, an agentic Text-to-CAD pipeline based on Graph-of-Operations Progressive Reasoning. A language model acts as a decision agent over encapsulated CAD operations and progressively constructs an executable operation graph, which a deterministic compiler converts into the final CAD model. This separation requires no additional training and supports different language models. To evaluate structural fidelity, we construct MHCAD, a benchmark of 300 standard mechanical part requirements derived from Machinery's Handbook. Their explicit structures enable reference-free STEP/B-rep evaluation. GOPR-CAD achieves 82.7% Structural Yield on MHCAD, and 87.2% Structural Yield on an external CADPrompt subset.",
+      "url": "https://arxiv.org/abs/2611.11470v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:07:56+08:00",
+      "updated": "2026-11-09T00:07:56+08:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM",
+        "agentic"
+      ],
+      "analysis": {
+        "zh_summary": "Generating accurate CAD models requires substantial engineering expertise and careful control of geometry, topology, and mechanical constraints.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM, agentic",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P007",
+      "uid": "arxiv:2611.11469v1",
+      "title": "RealEmbedBench: Benchmarking LLMs on Real-World Application-Layer Embedded Software Tasks",
+      "authors": [
+        "Yujun Huang",
+        "Yuwei Zhang",
+        "Yi Zhou",
+        "Shanshan Wu",
+        "Xiang Chen",
+        "Lina Gong"
+      ],
+      "abstract": "Large language models (LLMs) perform well on general coding tasks, but their capabilities in application-layer embedded software development remain underexplored. Existing embedded benchmarks primarily focus on hardware-in-the-loop validation in simulated environments. We introduce RealEmbedBench, a benchmark of 5,142 samples covering three application-layer tasks: code generation and completion, state machine modeling and implementation, and cross-OS code translation. We evaluate six representative LLMs and find substantial performance differences across tasks and models. Project context, especially the local code window, significantly affects code generation and completion. Models perform reasonably well at state machine modeling but struggle to translate these models into executable code. Cross-OS translation performance varies substantially by direction. Translation from Harmony to RT-Thread is particularly challenging, with an average pass rate of 0.1667. These findings suggest that developers should consider local code context when using LLMs for code generation and completion and select models according to the translation direction. They also motivate the use of more real-world state machine implementation data in LLM training to narrow the gap between modeling and executable code.",
+      "url": "https://arxiv.org/abs/2611.11469v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:05:31+08:00",
+      "updated": "2026-11-09T00:05:31+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Large language models (LLMs) perform well on general coding tasks, but their capabilities in application-layer embedded software development remain underexplored.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P008",
+      "uid": "arxiv:2611.11474v1",
+      "title": "Machine learning assisted $ν/\\barν$ discrimination in atmospheric neutrino events for CPV sensitivity in a 20-kton liquid scintillator detector",
+      "authors": [
+        "Dek Hao Liew",
+        "Mohammad Nizam",
+        "Shu Tian Eu",
+        "Siew Yan Hoh"
+      ],
+      "abstract": "Atmospheric neutrinos span a broad range of energies and baselines, offering a complementary probe of leptonic CP violation. However, a JUNO-like liquid scintillator detector without a magnetic field cannot directly separate neutrino and antineutrino interactions, reducing CP violation sensitivity. This study investigates whether machine learning based statistical separation can improve CP violation sensitivity in a 20-kton detector. $ν_μ$ and $ν_e$ charged current events are generated with GENIE (using Honda flux) in a JUNO-like detector geometry and are reweighted using OscProb three flavor oscillation probabilities incorporating Earth matter effects and NuFIT parameters. Detector response is approximated by smearing lepton and hadronic energies, neutrino direction, and neutron multiplicity. Logistic regression, XGBoost, and multilayer perceptron (MLP) classifiers are trained on inelasticity, neutron multiplicity, and charged lepton energy, with XGBoost selected for the analysis. CP violation sensitivity is evaluated for a 200 kton-year exposure using a Poisson likelihood with systematic nuisance parameters and marginalization over five oscillation parameters within their respective $3σ$ ranges. XGBoost achieves an area under the receiver operating characteristic curve (AUC) of approximately 0.83 for both flavor samples. Under the square root approximation, peak CP violation sensitivity improves from 1.49 $σ$ to 1.96 $σ$ for normal mass ordering and from 1.14 $σ$ to 1.61 $σ$ for inverted mass ordering. Machine learning based statistical neutrino-antineutrino separation can recover part of the CP violation sensitivity lost in charge blind detectors. These preliminary results motivate further studies incorporating validated detector response and systematic uncertainties.",
+      "url": "https://arxiv.org/abs/2611.11474v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-11-09T00:13:04+08:00",
+      "updated": "2026-11-09T00:13:04+08:00",
+      "categories": [
+        "hep-ex",
+        "hep-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "neutrino"
+      ],
+      "analysis": {
+        "zh_summary": "Atmospheric neutrinos span a broad range of energies and baselines, offering a complementary probe of leptonic CP violation.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "neutrino",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P009",
+      "uid": "arxiv:2611.11486v1",
+      "title": "MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection",
+      "authors": [
+        "Moussa Moussaoui",
+        "Tarik Houichime",
+        "Abdelghani Souhar",
+        "Abdelalim Sadiq"
+      ],
+      "abstract": "We present MicroSim, a system for binary code similarity detection that represents each function as a graph built from IDA Pro Hex-Rays microcode and compares such graphs with a contrastive Siamese graph neural network (GNN). We evaluate on the TREX cross-optimization benchmark, a corpus of 849,072 function-level microcode graphs spanning optimization levels -O0 through -O3, under a strict class-disjoint split in which no function key is shared between train and test. Under this protocol, MicroSim reaches 0.9972 area under the receiver operating characteristic curve (ROC-AUC) and 0.9762 Matthews correlation coefficient (MCC), outperforming Gemini (0.9332 ROC-AUC), SAFE (0.9752), and jTrans (0.9740) retrained on the same split, as well as a structure-free Bag-of-Words (BoW) baseline (0.9484). We analyze the gap between pair classification and ranked retrieval in graph transformers, showing that Cross-domain Similarity Local Scaling (CSLS) under unified tie-resolved evaluation raises GraphGPS mean reciprocal rank (MRR) from 0.2542 to 0.2559 (R@1 = 0.1639, R@10 = 0.4561), strictly satisfying the theoretical MRR upper bound. Finally, over 5 seeds with equal compute, the pairwise cosine-embedding loss attains a slightly higher ROC-AUC (Δ = -0.0256, 95% confidence interval [-0.3282, +0.2770]), whereas the supervised-contrastive information noise-contrastive estimation (InfoNCE) loss is significantly better on thresholded classification and ranked retrieval.",
+      "url": "https://arxiv.org/abs/2611.11486v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:28:10+08:00",
+      "updated": "2026-11-09T00:28:10+08:00",
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "We present MicroSim, a system for binary code similarity detection that represents each function as a graph built from IDA Pro Hex-Rays microcode and compares such graphs with a contrastive Siamese graph neural network (GNN).",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P010",
+      "uid": "https://www.nature.com/articles/d41586-026-02903-9",
+      "title": "What postdoc ads ask for and what they leave unsaid",
+      "authors": [
+        "Wenhuan Xu"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02903-9",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 26,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P011",
+      "uid": "doi:10.1038/d41586-026-02903-9",
+      "title": "What postdoc ads ask for and what they leave unsaid",
+      "authors": [
+        "Wenhuan Xu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02903-9",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02903-9",
+      "journal": "Nature",
+      "score": 26,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P012",
+      "uid": "doi:10.1103/lmlm-2mxw",
+      "title": "Deconfined Quantum Critical Point in a Dissipative Spin-1/2 Chain",
+      "authors": [
+        "Longye Lu",
+        "Shifeng Cui",
+        "Wenan Guo"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/lmlm-2mxw",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/lmlm-2mxw",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P013",
+      "uid": "doi:10.1103/2hcb-wyvc",
+      "title": "Topology-controlled breakdown of mechanical isotropy in nanoporous metals",
+      "authors": [
+        "Carlos J. Ruestes",
+        "Javier Segurado"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/2hcb-wyvc",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/2hcb-wyvc",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P014",
+      "uid": "doi:10.1103/dlh5-6ffv",
+      "title": "Colossal terahertz magnetoresistance from magnetic polarons in EuZn 2 P 2",
+      "authors": [
+        "E. Marulanda",
+        "M. Dutra",
+        "N. M. Kawahala",
+        "E. D. Stefanato",
+        "G. G. Vasques",
+        "J. Munevar",
+        "M. A. Avila",
+        "F. G. G. Hernandez"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/dlh5-6ffv",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/dlh5-6ffv",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P015",
+      "uid": "doi:10.1103/gg78-7mg3",
+      "title": "Finite-bias Coulomb blockade thermometry",
+      "authors": [
+        "Omid Sharifi Sedeh",
+        "Christian P. Scheller",
+        "Maryam Taghilou",
+        "Henok Weldeyesus",
+        "Taras Patlatiuk",
+        "Matthias Gramich",
+        "Jukka P. Pekola",
+        "Dominik M. Zumbühl"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/gg78-7mg3",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/gg78-7mg3",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P016",
+      "uid": "doi:10.1103/g32f-j6q2",
+      "title": "Hydrodynamics of the Viscous Electron Fluid in Cadmium",
+      "authors": [
+        "Xiaodong Guo",
+        "Xiaokang Li",
+        "Benoît Fauqué",
+        "Alaska Subedi",
+        "Lingxiao Zhao",
+        "Zengwei Zhu",
+        "Kamran Behnia"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/g32f-j6q2",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/g32f-j6q2",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P017",
+      "uid": "doi:10.1103/vltf-1bh9",
+      "title": "Trapped surface as a cosmic censor",
+      "authors": [
+        "Hideo Furugori",
+        "Daisuke Yoshida",
+        "Kaho Yoshimura"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/vltf-1bh9",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vltf-1bh9",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P018",
+      "uid": "doi:10.1103/zp43-9p3y",
+      "title": "Density-wave order enhances the phonon thermal Hall effect in a trilayer nickelate",
+      "authors": [
+        "Qiaochao Xiang",
+        "Enkang Zhang",
+        "Xiaokang Li",
+        "Xiaodong Guo",
+        "Mengfei Zhu",
+        "Jun Zhao",
+        "Guang-Ming Zhang",
+        "Liang Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/zp43-9p3y",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/zp43-9p3y",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P019",
+      "uid": "doi:10.1103/zmky-pr37",
+      "title": "High-purity entanglement mediated by magnons despite weak coupling",
+      "authors": [
+        "Sanchar Sharma"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/zmky-pr37",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/zmky-pr37",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P020",
+      "uid": "doi:10.1103/8ncv-2mcx",
+      "title": "Gate-based readout and cooling of neutral atoms",
+      "authors": [
+        "Richard Bing-Shiun Tsai",
+        "Lewis R. B. Picard",
+        "Xiangkai Sun",
+        "Yuan Le",
+        "Kon H. Leung",
+        "Manuel Endres"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/8ncv-2mcx",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/8ncv-2mcx",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P021",
+      "uid": "doi:10.1103/g9x1-wnnd",
+      "title": "Atomistic Simulation of Subcritical Crack Growth in Glass in Vacuum",
+      "authors": [
+        "Swati Gupta",
+        "Mark A. Wilson",
+        "Scott J. Grutzik",
+        "Derek H. Warner"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/g9x1-wnnd",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/g9x1-wnnd",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P022",
+      "uid": "doi:10.1103/683f-3qxt",
+      "title": "Proposal of quantum arrival-time measurement with a Bose-Einstein condensate",
+      "authors": [
+        "Pascal Naidon",
+        "Lucas Happ",
+        "Denis Boiron"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/683f-3qxt",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/683f-3qxt",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P023",
+      "uid": "doi:10.1103/phl4-j4gs",
+      "title": "Decoherence-resilient distributed quantum sensing beyond the standard quantum limit",
+      "authors": [
+        "Dong-Hyun Kim",
+        "Ilhwan Kim",
+        "Yosep Kim",
+        "Seongjin Hong",
+        "Yong-Su Kim",
+        "Kwang Jo Lee",
+        "Changhyoup Lee",
+        "Hyang-Tag Lim"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/phl4-j4gs",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/phl4-j4gs",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P024",
+      "uid": "doi:10.1103/kny3-9tsz",
+      "title": "Direct comparison of multi-ion optical clocks based on 40 Ca + and 88 Sr +",
+      "authors": [
+        "Yosef Sokolik",
+        "Roee Ozeri",
+        "Nitzan Akerman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/kny3-9tsz",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/kny3-9tsz",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P025",
+      "uid": "doi:10.1103/yhmm-fwgy",
+      "title": "Enhanced viscous adhesion using deformable structure",
+      "authors": [
+        "Mary Williams",
+        "Thomas Desmedt",
+        "Fabian Brau",
+        "Pascal Damman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/yhmm-fwgy",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/yhmm-fwgy",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P026",
+      "uid": "doi:10.1103/t87j-1ngl",
+      "title": "Intracycle Interference in Strong-Field Photoemission from a Tungsten Needle Tip",
+      "authors": [
+        "Timo Wirth",
+        "Jonas Heimerl",
+        "Stefan Meier",
+        "Peter Hommelhoff"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/t87j-1ngl",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/t87j-1ngl",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P027",
+      "uid": "doi:10.1103/w2f2-syng",
+      "title": "Sound propagation in striped supersolid gases at zero temperature",
+      "authors": [
+        "Elena Poli",
+        "Giovanni I. Martone",
+        "Sandro Stringari",
+        "Alessio Recati"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/w2f2-syng",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/w2f2-syng",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P028",
+      "uid": "doi:10.1103/vdk8-2llh",
+      "title": "Two distinct types of free O-H groups at the water-air interface",
+      "authors": [
+        "Chun-Chieh Yu",
+        "Xianglong Du",
+        "Hyuga Kato",
+        "Kuo-Yang Chiang",
+        "Tatsuhiko Ohto",
+        "Johannes Hunger",
+        "Mischa Bonn",
+        "Fujie Tang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/vdk8-2llh",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/vdk8-2llh",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P029",
+      "uid": "doi:10.1103/13wt-lzjm",
+      "title": "Observing Bell inequality violation beyond the qubit bound in a spinor Bose-Einstein condensate",
+      "authors": [
+        "Wenxin Xu",
+        "Junshuang Hu",
+        "Guillem Müller-Rigat",
+        "Xinwei Li",
+        "Qi Liu",
+        "Matteo Fadel",
+        "Li You"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/13wt-lzjm",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/13wt-lzjm",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P030",
+      "uid": "doi:10.1103/23c1-33d4",
+      "title": "Geometric confinement enhances bacterial transport by accelerating surface-bulk exchange",
+      "authors": [
+        "Rui He",
+        "Yaocai Liu",
+        "Rongjing Zhang",
+        "Junhua Yuan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/23c1-33d4",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/23c1-33d4",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P031",
+      "uid": "doi:10.1103/b8qp-v38m",
+      "title": "First-Principles Effective Mass in the Three-Dimensional Uniform Electron Gas",
+      "authors": [
+        "Pengcheng Hou",
+        "Daniel Cerkoney",
+        "Zhiyi Li",
+        "Tao Wang",
+        "Xiansheng Cai",
+        "Lei Wang",
+        "Gabriel Kotliar",
+        "Youjin Deng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/b8qp-v38m",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/b8qp-v38m",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P032",
+      "uid": "doi:10.1103/9fgl-n9b7",
+      "title": "Unconventional strong-to-weak coupling transition of an organic exciton mirror in a microcavity",
+      "authors": [
+        "Christoph Bennenhei",
+        "Lukas Lackner",
+        "Moritz Gittinger",
+        "Falk Eilenberger",
+        "Marvin F. Schumacher",
+        "Arne Lützen",
+        "Ivan Shelykh",
+        "Christoph Lienau"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/9fgl-n9b7",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/9fgl-n9b7",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P033",
+      "uid": "doi:10.1103/kj1q-h9pw",
+      "title": "Terahertz Switching of Two-dimensional Antiferromagnetic Order",
+      "authors": [
+        "Chenyu Wang",
+        "En Wang",
+        "Yaxian Wang",
+        "Sheng Meng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/kj1q-h9pw",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/kj1q-h9pw",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P034",
+      "uid": "doi:10.1103/dm26-5l3l",
+      "title": "Facilitated relaxation overrides energetic pathways in a multiphase square-kagome artificial spin ice",
+      "authors": [
+        "Wen-Cheng Yue",
+        "Zixiong Yuan",
+        "Peiyuan Huang",
+        "Ziao Wang",
+        "Hangyu Liu",
+        "Tianyu Li",
+        "Nuo-Zhou Yang",
+        "Jingyue Gao"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/dm26-5l3l",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/dm26-5l3l",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P035",
+      "uid": "doi:10.1103/f92d-w6fn",
+      "title": "Superparamagnetism in an Interacting Nanomagnet Array: A Tale of Three Temperatures",
+      "authors": [
+        "Anthony Hurben",
+        "Ioan-Augustin Chioar",
+        "Cristiano Nisoli",
+        "Peter Schiffer"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/f92d-w6fn",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/f92d-w6fn",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P036",
+      "uid": "doi:10.1103/j2x1-tlq7",
+      "title": "Universal Criticality of Entropy Production in Chemical Reaction Networks",
+      "authors": [
+        "Kyota Tamano",
+        "Keiji Saito"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/j2x1-tlq7",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/j2x1-tlq7",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P037",
+      "uid": "doi:10.1103/h8zh-qlw5",
+      "title": "Extensive mixed-state entanglement in kinetically constrained superradiance",
+      "authors": [
+        "Lucas Winter",
+        "Jan Kumlin",
+        "Thomas Pohl",
+        "Andreas Nunnenkamp"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/h8zh-qlw5",
+      "source": "Physical Review Letters Crossref",
+      "source_kind": "journal_physics",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1103/h8zh-qlw5",
+      "journal": "Physical Review Letters",
+      "score": 18,
+      "priority": "related",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Physical Review Letters Crossref",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P038",
+      "uid": "arxiv:2611.11472v1",
+      "title": "Short-range dynamics of $X(3872)$ and $T_{cc}(3875)^+$ in a coupled-channel framework",
+      "authors": [
+        "Fang-Zheng Peng",
+        "Li-Sheng Geng",
+        "Ju-Jun Xie"
+      ],
+      "abstract": "We study the short-range dynamics in the coupled-channel description of the $S$-wave $D \\bar{D}^*$ and $DD^*$ systems for $X(3872)$ and $T_{cc}(3875)^+$, respectively. Contact interactions are related through scalar- and vector-meson exchange saturation, while pion exchange is included explicitly with its local term subtracted. The coupled Lippmann-Schwinger equations incorporate the self-energy of the unstable $D^*$ mesons, thereby accounting for the three-body $D \\bar{D} π$ ($D Dπ$) dynamics. Fixing the contact interaction from the $T_{cc}(3875)^+$ pole, we trace the predicted $X(3872)$ pole as the local magnetic dipole term from vector-meson exchange is varied. Retaining this term in full produces the shallowest poles, which remain approximately $5$--$12~\\mathrm{MeV}$ below the observed $X(3872)$ mass. It is found that the pion exchange has a moderate effect on the binding energy and a stronger effect on the isospin violation for the $X(3872)$ state. The residual tension between the pure-molecular bound descriptions of $X(3872)$ and $T_{cc}(3875)^+$ is analyzed with the Feshbach projection. This analysis indicates a $DD^*$ interaction weaker than that implied by the purely molecular fits, and shows that the $T_{cc}(3875)^+$ state instead arises from the mixing of the $DD^{*}$ channel with a compact $cc\\bar{u}\\bar{d}$ state. We further examine the spatial structure using Born--Oppenheimer effective field theory. For separation radii of $0.5$--$1.5~\\mathrm{fm}$, the combined charmonium and short-distance tetraquark weight in $X(3872)$ is $3.0$--$9.7\\%$, while the short-distance weight in $T_{cc}(3875)^+$ is $1.3$--$14.4\\%$. These results favor retaining the local vector-exchange contribution within the saturation framework and motivate a joint treatment of molecular and compact dynamics for the $T_{cc}(3875)^+$.",
+      "url": "https://arxiv.org/abs/2611.11472v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-11-09T00:12:11+08:00",
+      "updated": "2026-11-09T00:12:11+08:00",
+      "categories": [
+        "hep-ph",
+        "nucl-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 12,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We study the short-range dynamics in the coupled-channel description of the $S$-wave $D \\bar{D}^*$ and $DD^*$ systems for $X(3872)$ and $T_{cc}(3875)^+$, respectively.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv GW/compact related",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P039",
+      "uid": "arxiv:2611.11497v1",
+      "title": "TID System for Speech-COSER Challenge 2026: ASR Track",
+      "authors": [
+        "Fernando López",
+        "Jordi Luque"
+      ],
+      "abstract": "We describe the system submitted by Telefónica Innovación Digital to the Speech-COSER Challenge 2026, which features spontaneous speech from elderly speakers recorded in rural Spain. For ASR, we perform CTC-based pseudo-forced alignment scores audio-text match quality to guide a two-stage LoRA curriculum, followed by post-hoc magnitude pruning of the LoRA matrices to enhance generalization. An ensemble of seven systems combined via ROVER achieves 36.25\\% unnormalized and 22.17\\% normalized WER.",
+      "url": "https://arxiv.org/abs/2611.11497v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:50:34+08:00",
+      "updated": "2026-11-09T00:50:34+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We describe the system submitted by Telefónica Innovación Digital to the Speech-COSER Challenge 2026, which features spontaneous speech from elderly speakers recorded in rural Spain.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P040",
+      "uid": "arxiv:2611.11494v1",
+      "title": "Regret without Optimal-Arm Feedback under Reward-Dependent Delays",
+      "authors": [
+        "Zhong Han"
+      ],
+      "abstract": "We study stochastic bandits with reward-dependent delays, possibly infinite, whose reports omit the originating round. For each $c\\in[0,1)$, Balanced Historical Optimism (BHO) has a delay term controlled by the largest suboptimal-arm quantile at level $1-cΔ_i$, without requiring optimal-arm reports. Lower bounds give an inverse-square slack cost in the logarithmic statistical regime and linear minimax regret at $c=1$. A family with growing $K$ forces worst-case regret $Ω(G\\log K)$ for every learner, where $G=\\max_iΔ_i h_i$ is the largest gap-weighted suboptimal cutoff. Pending-triggered balance preserves BHO's weighted-cutoff bound for $c<1$ and attains the historical-greedy exploration coefficient with deterministic rewards, a unique optimum and fixed bounded delays. Gap-weighted comparisons and experiments show when shared waiting helps and what balanced exploration costs.",
+      "url": "https://arxiv.org/abs/2611.11494v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:44:42+08:00",
+      "updated": "2026-11-09T00:44:42+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "We study stochastic bandits with reward-dependent delays, possibly infinite, whose reports omit the originating round.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P041",
+      "uid": "arxiv:2611.11493v1",
+      "title": "Learning through Capacity Awareness to Minimize Hospital Readmissions",
+      "authors": [
+        "Lydia T. Liu",
+        "Kara Schechtman",
+        "Pengyi Shi",
+        "Angela Zhou"
+      ],
+      "abstract": "Predictive algorithms are increasingly used to guide hospital discharge decisions, yet these models can exhibit censoring bias for vulnerable patients due to insufficient historical data or past discharge decisions. When biased readmission risk predictors are used to inform discharges, the training data generated by discharge decisions may perpetuate similar biases when predictors are re-trained, leading to a vicious cycle. We extend a queueing-based Markov decision process for hospital discharge to incorporate periodically retrained readmission risk predictors. Our key insight is that cost-optimal, \"capacity-aware\" operational decision policies can naturally diversify the lengths of stay at which patient outcomes are observed, enabling consistent estimation of readmission risk without explicit fairness constraints. We prove that repeated retraining under discharge-up-to policies converges to unbiased risk estimates under well-specification. In synthetic experiments and calibrated simulations based on patient-level data from a partner hospital, we find that where commonly used threshold-on-risk policies can remain persistently biased, discharge-up-to policies reduce learning error over status quo decision policies (such as thresholding on risk) by 24%-25%. These improvements to estimation also mitigate some forms of bias, reducing readmission cost disparities (adjusted for baseline risk differences between demographic groups) by 38%-63%. Our results demonstrate how capacity-aware decision policies can improve both predictive performance and fairness by addressing censoring bias.",
+      "url": "https://arxiv.org/abs/2611.11493v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:42:50+08:00",
+      "updated": "2026-11-09T00:42:50+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.CY",
+        "stat.AP",
+        "stat.ML"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Predictive algorithms are increasingly used to guide hospital discharge decisions, yet these models can exhibit censoring bias for vulnerable patients due to insufficient historical data or past discharge decisions.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P042",
+      "uid": "arxiv:2611.11481v1",
+      "title": "One-Shot Hierarchical Federated Clustering for Distributed Non-IID Biomedical Data Analysis",
+      "authors": [
+        "Shenghong Cai",
+        "Yiqun Zhang"
+      ],
+      "abstract": "In multi-institutional biomedical data analysis, comprehensive disease profiles are often fragmented across different data silos. Furthermore, local data distributions typically exhibit varying levels of granularity or even complex nested structures. Although Hierarchical Clustering (HC) is a powerful tool for exploring such data topologies, its cumbersome recursive process incurs prohibitive computational overhead and renders it highly susceptible to privacy leakage. This paper, therefore, introduces an efficient one-shot hierarchical FC framework that performs client-end (institutions) distribution exploration and server-end distribution aggregation through one-way prototype-level communication from clients to the server. Although the designed one-shot prototype transmission guarantees minimal computational overhead and mitigates privacy risks, it inevitably incurs information loss. To counteract this, a multi-granular competitive learning mechanism is proposed on the server to fuse the clusterlets, effectively maximizing the retention and mining of global distribution topologies under limited, one-way communication constraints. It turns out that the complex cluster distributions across clients can be efficiently explored, and extensive experiments comparing state-of-the-art methods on public datasets demonstrate the superiority of the proposed framework in balancing robust clustering, privacy preservation, and computational efficiency.",
+      "url": "https://arxiv.org/abs/2611.11481v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:22:50+08:00",
+      "updated": "2026-11-09T00:22:50+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "In multi-institutional biomedical data analysis, comprehensive disease profiles are often fragmented across different data silos.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P043",
+      "uid": "arxiv:2611.11477v1",
+      "title": "Robust and Private Swarm Learning via Zero-Knowledge Validator Admission and Consensus Aggregation",
+      "authors": [
+        "Marco Arazzi",
+        "Mert Cihangiroglu",
+        "Antonino Nocera"
+      ],
+      "abstract": "Swarm Learning improves resilience and removes the need for a single trusted coordinator by distributing model aggregation and validation across participating nodes. However, it also delegates the validation of model updates to peers whose private data may be biased, unrepresentative, or adversarial, and existing Swarm Learning protocols generally do not attest that data, leaving decentralized validation as an attack surface. We present a robust, privacy-preserving Swarm Learning framework that makes verifiable data quality the condition for admission to the learning task. A validator joins only after a zero-knowledge attestation proves, without revealing any raw sample, that a reference model ran correctly on its private data. The attested outputs also yield a label-free class profile, so the network assembles a collectively IID validator pool from individually skewed validators as accurately as an oracle with the true labels (total-variation distance to uniform 0.025, against 0.021 for the oracle and 0.21 for random selection). Admitted validators score client updates and, through a Tendermint-style Byzantine Fault Tolerant consensus, agree on a gradient mask and a quality-derived aggregation weight for each submission, replacing dataset-size weighting with a quality-aware signal. Adapting the cut-layer idea of Split Learning, a challenge-based audit lets peers re-verify that a mask was computed on the attested data without an expensive end-to-end zero-knowledge proof. Across four benchmarks under non-IID partitions the framework matches FedAvg on clean data; under a gradient-scaling attack that collapses FedAvg to random chance, it retains 94% of clean accuracy on CIFAR-100 and over 99% on FashionMNIST, where FedAvg achieves only 2.1% and 11%. The result is a private, robust, and auditable foundation for decentralized learning.",
+      "url": "https://arxiv.org/abs/2611.11477v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:15:20+08:00",
+      "updated": "2026-11-09T00:15:20+08:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "Swarm Learning improves resilience and removes the need for a single trusted coordinator by distributing model aggregation and validation across participating nodes.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P044",
+      "uid": "arxiv:2611.11471v1",
+      "title": "Saidzoda-CA-EmbeddingGemma-300M: One Small Embedder for Tajik, Kazakh, Uzbek and Kyrgyz",
+      "authors": [
+        "Tohir Saidzoda",
+        "Nekruz Maxudov",
+        "Bedil Karimov",
+        "Abubakr Abdullozoda",
+        "Amin Jalilov",
+        "Jonibek Kishvarov",
+        "Rahmonali Sharipov",
+        "Mariyamkhon Shodyeva"
+      ],
+      "abstract": "The small open embedder EmbeddingGemma-300M, used as released, finds the right passage first for only 51.7% to 60.8% of Belebele questions in Tajik, Kazakh, Uzbek and Kyrgyz. We present Saidzoda-CA-EmbeddingGemma-300M, one model for all four languages. It is our Tajik fine-tune of EmbeddingGemma-300M, trained for one more epoch on 279,904 pairs: questions in Kazakh, Uzbek and Kyrgyz that our own language model wrote about source passages, a Tajik refresher, and English and Russian replay. On Belebele, recall@1 rises by 14.4 to 26.0 points in each language, to between 75.2% and 77.7%. Against single-language models trained with the same settings, the one model stays within 2.8 points at recall@1 in Kazakh, Uzbek and Tajik, with overlapping recall@10 intervals, though it also had more training. It keeps the Tajik law recall@10 of its starting point (92.2 against 92.4) but loses 4.4 points of law recall@1. A model trained on one of these languages also improves the others on Belebele, but less than training on them. The model still trails the 560M XLM-RoBERTa embedders on Kazakh, Uzbek and Kyrgyz Belebele: the better of multilingual-e5-large-instruct and BGE-M3, used as released, is 9.4 to 10.2 points ahead at recall@1. Our scores of those released models agree with the published MTEB results within 2.4 points. Russian and English recall@1 fall by 3.0 and 4.2 points.",
+      "url": "https://arxiv.org/abs/2611.11471v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-09T00:08:23+08:00",
+      "updated": "2026-11-09T00:08:23+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 10,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "The small open embedder EmbeddingGemma-300M, used as released, finds the right passage first for only 51.7% to 60.8% of Belebele questions in Tajik, Kazakh, Uzbek and Kyrgyz.",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "arXiv AI radar",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P045",
+      "uid": "https://www.nature.com/articles/d41586-026-03588-w",
+      "title": "He spent a year on ‘Mars’: NASA science officer emerges from mock mission",
+      "authors": [
+        "Kaia Glickman"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03588-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P046",
+      "uid": "https://www.nature.com/articles/d41586-026-03628-5",
+      "title": "The super El Niño is more than a climate shock – it’s a health one, too",
+      "authors": [
+        "Eoin McLaughlin",
+        "Matthias Beck"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03628-5",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P047",
+      "uid": "https://www.nature.com/articles/d41586-026-03654-3",
+      "title": "How to make failure your friend and teacher in science",
+      "authors": [
+        "Dom Byrne"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03654-3",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P048",
+      "uid": "https://www.nature.com/articles/d41586-026-03626-7",
+      "title": "Carlo Rovelli says fundamental physics is overrated",
+      "authors": [
+        "Chris Stokel-Walker"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03626-7",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P049",
+      "uid": "https://www.nature.com/articles/d41586-026-03631-w",
+      "title": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
+      "authors": [
+        "James Dinneen"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03631-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P050",
+      "uid": "https://www.nature.com/articles/s41586-026-11375-w",
+      "title": "Author Correction: Histone H3 trimethylation at lysine 36 guides m 6 A RNA modification co-transcriptionally",
+      "authors": [
+        "Huilin Huang",
+        "Hengyou Weng",
+        "Keren Zhou",
+        "Tong Wu",
+        "Boxuan Simen Zhao",
+        "Mingli Sun",
+        "Zhenhua Chen",
+        "Xiaolan Deng",
+        "Gang Xiao",
+        "Franziska Auer",
+        "Lars Klemm",
+        "Huizhe Wu",
+        "Zhixiang Zuo",
+        "Xi Qin",
+        "Yunzhu Dong",
+        "Yile Zhou",
+        "Hanjun Qin",
+        "Shu Tao",
+        "Juan Du",
+        "Jun Liu",
+        "Zhike Lu",
+        "Hang Yin",
+        "Ana Mesquita",
+        "Celvie L. Yuan",
+        "Yueh-Chiang Hu",
+        "Wenju Sun",
+        "Rui Su",
+        "Lei Dong",
+        "Chao Shen",
+        "Chenying Li",
+        "Ying Qing",
+        "Xi Jiang",
+        "Xiwei Wu",
+        "Miao Sun",
+        "Jun-Lin Guan",
+        "Lianghu Qu",
+        "Minjie Wei",
+        "Markus Müschen",
+        "Gang Huang",
+        "Chuan He",
+        "Jianhua Yang",
+        "Jianjun Chen"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/s41586-026-11375-w",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P051",
+      "uid": "https://www.nature.com/articles/d41586-026-03627-6",
+      "title": "AI has transformed maths — this is how we got here",
+      "authors": [
+        "Anil Ananthaswamy"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-03627-6",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P052",
+      "uid": "https://www.nature.com/articles/d41586-026-02998-0",
+      "title": "How academic freedom is changing around the world — by the numbers",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://www.nature.com/articles/d41586-026-02998-0",
+      "source": "Nature",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P053",
+      "uid": "doi:10.1038/d41586-026-03627-6",
+      "title": "AI has transformed maths — this is how we got here",
+      "authors": [
+        "Anil Ananthaswamy"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03627-6",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03627-6",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P054",
+      "uid": "doi:10.1038/d41586-026-03628-5",
+      "title": "The super El Niño is more than a climate shock – it’s a health one, too",
+      "authors": [
+        "Eoin McLaughlin",
+        "Matthias Beck"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03628-5",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03628-5",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P055",
+      "uid": "doi:10.1038/d41586-026-03626-7",
+      "title": "Carlo Rovelli says fundamental physics is overrated",
+      "authors": [
+        "Chris Stokel-Walker"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03626-7",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03626-7",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P056",
+      "uid": "doi:10.1038/d41586-026-03631-w",
+      "title": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
+      "authors": [
+        "James Dinneen"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03631-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03631-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P057",
+      "uid": "doi:10.1038/d41586-026-03588-w",
+      "title": "He spent a year on ‘Mars’: NASA science officer emerges from mock mission",
+      "authors": [
+        "Kaia Glickman"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-03588-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-03588-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P058",
+      "uid": "doi:10.1038/s41586-026-11375-w",
+      "title": "Author Correction: Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally",
+      "authors": [
+        "Huilin Huang",
+        "Hengyou Weng",
+        "Keren Zhou",
+        "Tong Wu",
+        "Boxuan Simen Zhao",
+        "Mingli Sun",
+        "Zhenhua Chen",
+        "Xiaolan Deng"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41586-026-11375-w",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/s41586-026-11375-w",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "review_id": "P059",
+      "uid": "doi:10.1038/d41586-026-02998-0",
+      "title": "How academic freedom is changing around the world — by the numbers",
+      "authors": [
+        "Miryam Naddaf"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/d41586-026-02998-0",
+      "source": "Nature Crossref",
+      "source_kind": "journal_general",
+      "published": "2026-11-09T08:00:00+08:00",
+      "updated": "2026-11-09T08:00:00+08:00",
+      "categories": [],
+      "doi": "10.1038/d41586-026-02998-0",
+      "journal": "Nature",
+      "score": 6,
+      "priority": "watch",
+      "area": "related",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "该条目暂未提供摘要，建议从标题、来源和 DOI 链接判断是否需要进一步阅读。",
+        "why_relevant": "匹配关注项：来源优先级。",
+        "method_or_signal": "Nature Crossref",
+        "suggested_action": "低优先级，暂作背景观察。"
+      },
+      "ai_blocked": false
+    }
+  ]
+}
