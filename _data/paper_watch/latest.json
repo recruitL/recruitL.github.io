@@ -1,28 +1,33 @@
 {
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16 10:15 CST",
-  "window": "2026-11-15 00:00 至 2026-11-17 00:00 Asia/Shanghai",
-  "counts": {},
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17 12:34 CST",
+  "window": "2026-11-16 00:00 至 2026-11-18 00:00 Asia/Shanghai",
+  "counts": {
+    "must-read": 1,
+    "recommended": 1,
+    "ai-news": 10,
+    "related": 9
+  },
   "source_statuses": [
     {
       "source": "arXiv gr-qc",
       "ok": true,
-      "count": 0
+      "count": 3
     },
     {
       "source": "arXiv GW/compact related",
-      "ok": false,
-      "error": "HTTP Error 429: Unknown Error"
+      "ok": true,
+      "count": 7
     },
     {
       "source": "arXiv AI radar",
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": true,
+      "count": 35
     },
     {
       "source": "Nature RSS",
-      "ok": false,
-      "error": "not well-formed (invalid token): line 14, column 4"
+      "ok": true,
+      "count": 10
     },
     {
       "source": "Science RSS",
@@ -52,22 +57,22 @@
     {
       "source": "Nature Crossref",
       "ok": true,
-      "count": 0
+      "count": 9
     },
     {
       "source": "Science Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Physical Review Letters Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Living Reviews in Relativity Crossref",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "OpenAI analysis",
@@ -75,9 +80,868 @@
       "error": "skipped: OPENAI_API_KEY not set or --no-ai"
     }
   ],
-  "total_papers": 0,
-  "total_review_candidates": 0,
-  "report_path": "/papers/2026-11-16/",
-  "review_path": "_paper_reviews/2026-11-16.md",
-  "papers": []
+  "total_papers": 21,
+  "total_review_candidates": 63,
+  "report_path": "/papers/2026-11-17/",
+  "review_path": "_paper_reviews/2026-11-17.md",
+  "papers": [
+    {
+      "uid": "arxiv:2611.20210v1",
+      "title": "A Gravitomagnetic Bootstrap: from Newtonian gravity to general relativity via localizing rotational and conformal symmetries",
+      "authors": [
+        "David Wallace"
+      ],
+      "abstract": "Newtonian gravity, in the light of the Equivalence Principle, is best understood as a localization of Galilean inertial structure --- or at least, of the part of Galilean inertial structure that defines rectilinear acceleration. I consider what kind of theory can be constructed if we also localize rotational inertia and spatial and temporal scales. The resultant theory, given weak assumptions, is unique up to a constant with the dimensions of velocity and an overall sign. For an appropriate choice of these, it coincides with the first post-Newtonian approximation to general relativity, so that this construction gives a method to bootstrap from Newtonian gravity to general relativity without explicitly presupposing special relativity.",
+      "url": "https://arxiv.org/abs/2611.20210v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-11-16T03:15:44+08:00",
+      "updated": "2026-11-16T03:15:44+08:00",
+      "categories": [
+        "physics.hist-ph",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 86,
+      "priority": "must-read",
+      "area": "core",
+      "tags": [
+        "致密双星建模",
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "post-newtonian",
+        "general relativity"
+      ],
+      "analysis": {
+        "zh_summary": "Newtonian gravity, in the light of the Equivalence Principle, is best understood as a localization of Galilean inertial structure --- or at least, of the part of Galilean inertial structure that defines rectilinear acceleration.",
+        "why_relevant": "匹配关注项：致密双星建模、gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "post-newtonian, general relativity",
+        "suggested_action": "优先精读，并检查方法、近似和可复现材料。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20168v1",
+      "title": "Casimir-like wormholes",
+      "authors": [
+        "Mauricio Cataldo"
+      ],
+      "abstract": "We investigate spherically symmetric spacetimes sourced by matter with energy density $ρ\\propto 1/r^{4}$ and equation of state $p_r = ωρ$. We derive the most general solution of Einstein's equations for this class of sources, obtaining black holes, naked singularities and traversable wormholes, parametrized by the integration constants and $ω$. We show that only two classes of matter can support traversable wormholes: Casimir-type matter with $ω> 0$ and phantom matter with $ω< -1$, while quintessence and conventional dark energy are excluded by the flare-out condition. For the Casimir value $ω= 3$, the transverse pressure approaches $p_t \\to -ρ$ near the central singularity, so the full algebraic structure of the Casimir stress-energy tensor, $ρ\\propto -1/r^{4}$, $p_r = 3ρ$, $p_t = -ρ$, is not imposed but emerges from Einstein's equations. Treating the amplitude of the energy density as a free classical parameter, we obtain wormholes with throat radii from microscopic to astrophysical scales. These Casimir-like configurations share the functional form of the Casimir tensor but are not generated by the physical Casimir effect; Garattini's Planck-scale Casimir wormhole is recovered when the quantum Casimir energy scale is imposed. The total amount of exotic matter is finite for arbitrary $ω$ and scales linearly with the throat radius. Analyzing the traveler's acceleration, tidal forces and transit times, we show that radial free fall satisfies all human traversability conditions for $r_0 \\gtrsim 10^{8}$ m. Finally, embedding diagrams illustrate three geometric regimes depending on $ω$.",
+      "url": "https://arxiv.org/abs/2611.20168v1",
+      "source": "arXiv GW/compact related, arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-11-16T02:15:08+08:00",
+      "updated": "2026-11-16T02:15:08+08:00",
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "doi": "10.1088/1361-6382/aebade",
+      "journal": "arXiv",
+      "score": 53,
+      "priority": "recommended",
+      "area": "core",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "dark energy",
+        "singularity"
+      ],
+      "analysis": {
+        "zh_summary": "We investigate spherically symmetric spacetimes sourced by matter with energy density $ρ\\propto 1/r^{4}$ and equation of state $p_r = ωρ$.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "dark energy, singularity",
+        "suggested_action": "建议扫读摘要和结论，必要时加入阅读列表。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20174v1",
+      "title": "Weights & Caches: LLMs Can Program Tabular Foundation Models",
+      "authors": [
+        "Shi Bin Hoo",
+        "Magnus Buehler",
+        "Omar Swelam",
+        "Frank Hutter",
+        "Lennart Purucker"
+      ],
+      "abstract": "Neural networks are typically programmed through optimization, rather than by explicitly specifying their computations. Recent work on weight-space programming suggests that large language models (LLMs) can instead reason about and manipulate neural-network weights directly. In this work, we show that LLMs can directly program statistical computations in tabular foundation models (TFMs), whose parameters enable inference across different datasets. We investigate three complementary settings using GPT-6 Astra, without gradient-based optimization. First, Astra directly programs nanoTabPFN from zero-initialized weights, achieving a mean ROC AUC of 0.849 across 20 TabArena datasets, compared to 0.876 for a pretrained baseline. Second, Astra diagnoses and repairs a signed-product regression failure in pretrained TabPFN-3.5, restoring near-perfect predictions on held-out synthetic datasets while preserving performance on TabArena-Lite, with only a 0.08% average relative increase in error. Third, it writes KV-cache-editing programs that steer TabPFN-3.5's predictions on unseen synthetic datasets, demonstrating transformations such as reversing linear trends and converting sine waves into approximate square waves, without modifying model weights. Together, our findings suggest that LLM-driven programming could complement gradient-based optimization across TFMs' development and usage, while offering a new way to investigate and intervene in their internal computations.",
+      "url": "https://arxiv.org/abs/2611.20174v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:25:19+08:00",
+      "updated": "2026-11-16T02:25:19+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 40,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM",
+        "foundation model"
+      ],
+      "analysis": {
+        "zh_summary": "Neural networks are typically programmed through optimization, rather than by explicitly specifying their computations.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM, foundation model",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20140v1",
+      "title": "Can AI Judge You? An Empirical Audit of Deployment Readiness in LLM-assisted Hiring Systems",
+      "authors": [
+        "Spandan Roy",
+        "Subhabrata Majumdar",
+        "Soudeep Deb"
+      ],
+      "abstract": "Delegating resume screening to large language models (LLMs) requires organizations to establish whether they can distinguish candidates by relevant qualifications while allowing only authorized users to change screening rules or approve exceptions. To this end, we develop a system architecture that separates candidate evidence, evaluation, permission controls, and assessment record, and empirically examine two complementary dimensions of its deployment readiness. First, we assess its operational readiness on four LLMs using a controlled experiment on 210 resumes across 14 job roles and six decision interfaces. Second, we assess its compliance readiness by testing how it handles unauthorized user requests and instructions embedded in resumes. We find that operational performance depends on the choice of evaluation interface: scalar scores generally distinguish qualification changes better than simple pass/fail judgments, while comparative judgments are sensitive to presentation order. Explicit permission rules and separation of resume content from instructions reduce unauthorized compliance, to a varying degree of effectiveness across LLMs and usage contexts. Finally, we find that LLM evaluators often diverge between their decisions and offered justifications. Going beyond simply evaluating LLMs for hiring tasks, our framework supports an audit of a fully configured resume evaluation system to enable its deployment decision.",
+      "url": "https://arxiv.org/abs/2611.20140v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T01:16:09+08:00",
+      "updated": "2026-11-16T01:16:09+08:00",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Delegating resume screening to large language models (LLMs) requires organizations to establish whether they can distinguish candidates by relevant qualifications while allowing only authorized users to change screening rules or approve exceptions.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20119v1",
+      "title": "CECAR: Cache & Expert Co-Aware Routing Accelerates On-Device Inference of MoE LLMs",
+      "authors": [
+        "Byeongju Kim",
+        "Hoonki Lee",
+        "Byungjun Kim",
+        "Inyul Ra",
+        "Yongjin Kim",
+        "Yongseong Lee",
+        "Sangyeob Kim"
+      ],
+      "abstract": "Despite growing interest in on-device LLM deployment, large-scale Mixture-of-Experts (MoE) models remain impractical on resource-constrained devices, as sparse expert activation still requires all expert weights to be memory-resident. To address this, we identify three key observations for on-device MoE inference: (a) cache hit rates are fundamentally bounded even under Belady's optimal policy; (b) these bounds are insufficient for low-latency on-device inference; and (c) prior cache-aware routing based on binary cache presence can induce routing instability. Based on these insights, we propose CECAR (Cache & Expert Co-Aware Routing), a MoE inference system that jointly considers expert routing and cache management. Unlike prior cache-aware routing methods, CECAR uses an ML-based cache policy to predict the expected reuse distance of each expert and prioritizes routing and execution toward experts with smaller predicted reuse distances. On the Qwen3-30B-A3B model, CECAR achieves 12.5 tokens/s on a consumer-grade GPU with only 16 GB of VRAM, where non-resident experts are fetched from SSD, delivering a 4.5x speedup over conventional MoE inference and exceeding the decode speed of baselines that keep the entire model fully resident in DRAM. Code is available at https://github.com/hoonki2002/CECAR.",
+      "url": "https://arxiv.org/abs/2611.20119v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T00:47:29+08:00",
+      "updated": "2026-11-16T00:47:29+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 38,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM",
+        "MoE"
+      ],
+      "analysis": {
+        "zh_summary": "Despite growing interest in on-device LLM deployment, large-scale Mixture-of-Experts (MoE) models remain impractical on resource-constrained devices, as sparse expert activation still requires all expert weights to be memory-resident.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM, MoE",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20203v1",
+      "title": "Radar Panoptic Transformer: Semantic-Guided Mask Queries for Dynamic Scene Understanding",
+      "authors": [
+        "Mayank Mayank",
+        "Bharanidhar Duraisamy",
+        "Rohit Mohan",
+        "Abhinav Valada"
+      ],
+      "abstract": "Automotive radar provides long-range sensing and direct Doppler velocity measurements, but its sparse and non-uniformly sampled point clouds pose significant challenges for panoptic segmentation. Dynamic objects often yield only a few detections amid a dominant static background, providing limiting the geometric cues for separating object instances. We propose \\emph{Radar Panoptic Transformer (RPT)}, an end-to-end point-based network that incorporates radar-adaptive feature extraction with semantic-guided mask prediction. Its backbone aggregates pose-aligned temporal context through grouped vector attention and learns per-point neighborhood radii conditioned on range, azimuth, and radar cross section (RCS). Point-wise semantic predictions initialize queries at likely foreground detections and guide masked cross-attention through query-point class agreement, producing instance masks without geometric clustering. An auxiliary RCS-consistency loss matches instance-level statistics between predicted and annotated instances. RPT achieves state-of-the-art performance on RadarScenes with $71.6\\%$ mIoU and $82.2\\%$ PQ. We further evaluate RPT on MAN TruckScenes, where it outperforms the evaluated baselines in a long-range, full-surround radar setting with sensing ranges up to $230\\,\\mathrm{m}$. RPT achieves real-time end-to-end inference at $31$\\,Hz on RadarScenes, exceeding the sensor frame rate.",
+      "url": "https://arxiv.org/abs/2611.20203v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:59:54+08:00",
+      "updated": "2026-11-16T02:59:54+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Automotive radar provides long-range sensing and direct Doppler velocity measurements, but its sparse and non-uniformly sampled point clouds pose significant challenges for panoptic segmentation.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20200v1",
+      "title": "Energy-flow bubbles at the Schwarzschild horizon and their Regge-pole clock",
+      "authors": [
+        "Maciej Janowicz",
+        "Arkadiusz Orłowski"
+      ],
+      "abstract": "For a circularly polarized plane wave scattered by a Schwarzschild black hole, the time-averaged energy flow on the side of the horizon facing the wave contains small, sealed recirculation cells. In the main family, pairs of zero circles are born on the axis and slide into the horizon in periodic frequency windows; at higher frequencies further cells appear off the axis. We map the cells for $κ=ωr_s/c\\le10$ and show that each is the interference of a background integral with the leading photon-sphere Regge surface wave. A cell can die only at a zero of the circularly polarized field on the horizon, and all sixteen measured deaths are such zeros. A parabolic-cylinder analysis at the top of the potential barrier reduces this to a phase condition with a constant $π/4$ and no fitted parameter; recorded before the measurement, it predicted eight deaths in $6\\leκ\\le10$ to within 0.012 in $κ$. Electromagnetic duality makes the core of each main-family cell a circle of linear polarization; inside such a cell, flow lines lie on nested tori and close into torus knots of one chirality.",
+      "url": "https://arxiv.org/abs/2611.20200v1",
+      "source": "arXiv gr-qc",
+      "source_kind": "arxiv_core",
+      "published": "2026-11-16T02:54:08+08:00",
+      "updated": "2026-11-16T02:54:08+08:00",
+      "categories": [
+        "math-ph",
+        "gr-qc"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "related",
+      "area": "core",
+      "tags": [],
+      "noise_tags": [],
+      "matched_keywords": [],
+      "analysis": {
+        "zh_summary": "For a circularly polarized plane wave scattered by a Schwarzschild black hole, the time-averaged energy flow on the side of the horizon facing the wave contains small, sealed recirculation cells.",
+        "why_relevant": "匹配关注项：来源优先级。 这是 gr-qc 每日新增或更新条目。",
+        "method_or_signal": "arXiv gr-qc",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20196v1",
+      "title": "DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics",
+      "authors": [
+        "Jiahang Liu",
+        "Wenbo Zhang",
+        "Junsong Wang",
+        "Zhenzhi Ying",
+        "Siqi Hou",
+        "Naohiko Sugita",
+        "Liming Shu"
+      ],
+      "abstract": "Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. However, individual sensing modalities may be insufficient for reliable estimation under varying operating conditions. We present a finger-unencumbered multimodal framework for continuous regression of 20 hand joint angles from egocentric RGB images and 128-channel forearm high-density surface electromyography (HD-sEMG). The framework combines a Vision Transformer-based visual encoder, a Transformer-based EMG encoder, and a degree of freedom (DoF) query Transformer fusion decoder. To account for the varying informativeness of visual and EMG cues across joint DoFs and input conditions, the decoder assigns a separate learnable query to each DoF, enabling DoF-specific and context-adaptive fusion of the two modalities. The framework was evaluated on synchronized multimodal data from 10 participants. Averaged across participants, the proposed fusion model achieved a mean coefficient of determination ($R^2$) of $0.88$ and a mean absolute error (MAE) of $2.80^\\circ$, compared with $0.82$ and $3.21^\\circ$ for the vision-only model and $0.68$ and $5.13^\\circ$ for the EMG-only model. It also outperformed the evaluated representative unimodal baselines and alternative fusion designs. DoF-wise analyses showed larger fusion gains for visually ambiguous joints and viewing conditions, while synthetic visual occlusion demonstrated greater robustness than vision-only estimation. These results highlight the complementary value of egocentric vision and forearm HD-sEMG for capturing fine-grained human hand kinematics, with potential applications in human demonstration acquisition and dexterous robot learning.",
+      "url": "https://arxiv.org/abs/2611.20196v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:48:34+08:00",
+      "updated": "2026-11-16T02:48:34+08:00",
+      "categories": [
+        "cs.CV",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20195v1",
+      "title": "How Specification Explicitness Shapes Failure in LLM-Generated Code",
+      "authors": [
+        "Elmira Onagh",
+        "Maleknaz Nayebi"
+      ],
+      "abstract": "When LLMs turn requirements into code, every underspecified constraint becomes behavior that the model must decide during generation. We test when specifications move beyond structure and begin to control generated behavior. In a controlled experiment, 72 participants implemented and revised Python tasks with an LLM under three levels of specification explicitness. The results show a clear break between lightweight structure and explicit behavioral obligations. Lightweight structure reduced hidden-test failures by only 8.7%. Requiring participants to specify constraints, invariants, negative requirements, edge cases, tie-breaking rules, and exception handling cut failures by 47.2% and reduced the number of distinct failure modes by 20.5%. The largest drops were in failure modes tied to implicit obligations. Invariant violations fell by 66.1%, and unsupported assumptions fell by 59.5%. After a requirement change, specifications with explicit behavioral obligations produced regressions in more submissions, but each affected submission lost less previously correct behavior. Explicit specifications also changed how developers judged generated code. Without explicit obligations, participants overestimated generated-code correctness by about 23 percentage points. With explicit obligations, they produced better code but judged it more cautiously. Thus, the lesson is sharper than \"better specifications help.\" Lightweight structure barely helped, while explicit behavioral obligations nearly halved failures, made regressions shallower, and improved calibration.",
+      "url": "https://arxiv.org/abs/2611.20195v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:45:44+08:00",
+      "updated": "2026-11-16T02:45:44+08:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "When LLMs turn requirements into code, every underspecified constraint becomes behavior that the model must decide during generation.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20156v1",
+      "title": "Risk-certified prompt optimization for LLM-as-a-judge guardrails",
+      "authors": [
+        "Hussein Jawad",
+        "Alexandre Landeau",
+        "Guy Fleury Iradukunda",
+        "Paul Beaumont",
+        "Théodore Rezel",
+        "Sofiane Schaack",
+        "Nicolas J-B. Brunel"
+      ],
+      "abstract": "LLM-as-a-judge guardrails are often controlled primarily through system prompts, yet standard prompt optimization methods target average performance rather than explicit safety constraints. This paper studies system-prompt selection as a constrained optimization problem: maximize benign pass rate while keeping the missed-attack rate below a user-specified level α with finite-sample statistical control. The framework combines LLM-based judging, automatic prompt generation, and distribution-free risk certification. This work instantiates it in two procedures: CPS and CRISP. CPS generates a fixed pool of prompts from training data, then certifies candidates on a held-out evaluation set using simultaneous upper confidence bounds and selects the certified prompt with the highest benign utility. CRISP instead integrates risk feedback into an adaptive search, using hard example-guided rewriting and a reusable-holdout interface to steer generation toward the feasible utility frontier. Experiments on four datasets covering prompt injection, system-prompt leakage, and sensitive-information disclosure show that risk-certified selection consistently respects the target missed-attack level on heldout tests, while utility improves as the permitted risk is relaxed. CRISP is especially useful when fixed-pool search fails to produce certifiable high-utility candidates.",
+      "url": "https://arxiv.org/abs/2611.20156v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T01:45:49+08:00",
+      "updated": "2026-11-16T01:45:49+08:00",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "LLM-as-a-judge guardrails are often controlled primarily through system prompts, yet standard prompt optimization methods target average performance rather than explicit safety constraints.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20150v1",
+      "title": "Symmetry Fingerprinting with Geometric Learnable Invariants Transformers",
+      "authors": [
+        "Bart M. N. Smets",
+        "Gijs Bellaard",
+        "Pieter Wils"
+      ],
+      "abstract": "Geometric deep learning has made available a large variety of structurally equivariant neural network architectures, meaning a particular transformation of their input causes a predictable transformation of their output. But structural equivariance is a very strong inductive bias that can limit performance if chosen poorly. In contrast, choosing an architecture with low geometric bias necessitates data augmentation to obtain correct behavior; extending the training process. We propose a novel neural network architecture that is soft equivariant; we select a set of symmetry groups and during training the network will become equivariant only to those symmetry groups that are appropriate given the training data. After training we can inspect the network to obtain a symmetry fingerprint that will tell us exactly which symmetries ended up being relevant and to what degree. We show how our architecture and the fingerprinting process work in the case of an image classification task.",
+      "url": "https://arxiv.org/abs/2611.20150v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T01:34:56+08:00",
+      "updated": "2026-11-16T01:34:56+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Geometric deep learning has made available a large variety of structurally equivariant neural network architectures, meaning a particular transformation of their input causes a predictable transformation of their output.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20114v1",
+      "title": "A plug-in energy-balance freezing module for transformer frost nowcasting without leaf-sensor inputs",
+      "authors": [
+        "Juyeon Kim",
+        "Chaeyeon Yi",
+        "Yun Am Seo"
+      ],
+      "abstract": "Frost protection requires local warnings where leaf-sensor inputs are unavailable. In the frost literature we surveyed, physics entered machine-learning models through inputs, numerical-model coupling, or losses, rather than model structure. We develop a transformer-compatible module that embeds leaf energy-balance physics in freezing-probability forecasts: an energy-balance temperature reference and a learned residual predict leaf temperature, which drives a multiplicative gate imposing a temperature-dependent probability cap. We mathematically prove conditional monotonicity and an alarm boundary, and test whether placing the same information in the output pathway or in attention yields different benefits. We evaluated 12 hourly leads at 19 Korean stations over five frost seasons, with and without leaf-sensor inputs. In the 2025-2026 hold-out season without these inputs, our time-token transformer (PET-E) achieved a lead-mean critical success index (CSI) of 0.516 versus 0.478 for fixed-configuration, joint-lead LightGBM, with significant gains at all 12 leads, and the fraction of alarms at observed leaf temperatures of at least 2 degrees C fell from 0.087 to 0.051 relative to the unmodified backbone. Across the hold-out and a retrospective 2024-2025 evaluation, the module reduced Brier scores and warm-surface alarm fractions in both the time-token transformer and iTransformer, with no significant CSI decrease at any lead. At held-out stations without static or leaf-sensor inputs, both module-equipped backbones exceeded LightGBM at all 12 leads (CSI 0.468 and 0.467 versus 0.437). In the time-token backbone, the temperature pathway reduced this alarm fraction in all four settings, whereas the attention prior increased CSI in three. These findings link an explicit temperature-dependent probability cap to improved forecasts and distinguish output-side from attention-based embedding.",
+      "url": "https://arxiv.org/abs/2611.20114v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T00:43:31+08:00",
+      "updated": "2026-11-16T00:43:31+08:00",
+      "categories": [
+        "stat.AP",
+        "cs.LG",
+        "physics.ao-ph"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "Frost protection requires local warnings where leaf-sensor inputs are unavailable.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20106v1",
+      "title": "Making Preemption Productive in Long-Output LLM Serving",
+      "authors": [
+        "Ziji Shi",
+        "Xinyi Wan",
+        "Chaoyi Ruan",
+        "Guangxing Huang",
+        "Min Lin",
+        "Jialin Li"
+      ],
+      "abstract": "Reasoning LLMs generate long outputs whose key--value (KV) caches occupy GPU memory for minutes. When memory fills, the server preempts requests, and a preempted request can repeatedly lose and recover its state while producing little new output. We call this behavior KV thrashing. In certain cases, existing systems leave more than a fifth of requests stalled for over a minute. Because preemption cannot be avoided without delaying admission, we ask how to make it productive. We present Stint, a serving system that preserves a preempted request's work, bounds how long it waits, and gives it fresh output after it returns. Stint stores fixed-length KV snapshots in a contiguity-first CPU pool with an exact-extent allocator, and moves them with fused K/V gather/scatter kernels and double buffering. Age-based readmission brings stalled requests back, and protection gives them a turn of fresh decoding before another preemption. Remaining-length estimates from decoding hidden states guide victim selection. On olympiad-math replays with Qwen3-32B on H200 GPUs, no request pauses for more than 50 seconds under Stint and p99 time per output token falls by 50.7\\% relative to recomputation in the same engine. The replay as a whole finishes 10.7\\% sooner (12.0\\% higher throughput), because the requests that baselines starve no longer finish last.",
+      "url": "https://arxiv.org/abs/2611.20106v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T00:32:44+08:00",
+      "updated": "2026-11-16T00:32:44+08:00",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.OS"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 36,
+      "priority": "ai-news",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Reasoning LLMs generate long outputs whose key--value (KV) caches occupy GPU memory for minutes.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "LLM",
+        "suggested_action": "作为 AI 工具/方法雷达，适合快速判断是否能迁移到论文检索或知识库流程。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20162v1",
+      "title": "On Thermodynamics of AdS Black Holes in Square-Root Nonlinear Electrodynamics",
+      "authors": [
+        "A. Belhaj",
+        "S. E. Ennadifi",
+        "M. Jemri",
+        "M. Nach"
+      ],
+      "abstract": "Inspired by exponential Maxwell models, we propose a new black hole solution in square root nonlinear electrodynamics. Using the analogy between black hole mechanics and thermodynamics, we investigate the corresponding stability, the P-v criticality and the phase transitions. As a result, we find that the obtained black hole exhibits Van der Waals behaviors without additional corrections which typically appear in universal ratio computations.",
+      "url": "https://arxiv.org/abs/2611.20162v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-11-16T02:06:09+08:00",
+      "updated": "2026-11-16T02:06:09+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 32,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "Inspired by exponential Maxwell models, we propose a new black hole solution in square root nonlinear electrodynamics.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20191v1",
+      "title": "Do We Still Need Fine-Tuned Classifiers? Swapping Typed Decision Models into 24 ACL-Venue Papers",
+      "authors": [
+        "Marek Šuppa",
+        "Jaroslav Kopčan"
+      ],
+      "abstract": "Typed Decision Models such as TypeSafe's Jev, also called System One or System 1 models, answer typed questions about an input with a probability for each option, and they need no training. Many NLP papers still fine-tune a task-specific classifier, and prompted large language models (LLMs) trail such classifiers on most text classification benchmarks. We ask how many of these fine-tuned classifiers a Typed Decision Model can replace under each paper's own evaluation, and what is needed where it cannot. We swap the predictors of 24 ACL-venue papers for Jev, keep each paper's splits, label definitions and metric, and check the results with Cloudflare's Clef, Microsoft-Decision-1 and OpenAI's GPT-6 Luna Decisions. The resulting 46 English test sets, with their questions and published scores, form the TDM-Gauntlet benchmark. With a zero-shot prompt, Jev directly replaced the paper's predictor on 12 of the 46 test sets, mostly single judgments with plain labels, but rarely where the paper's method was trained on its labels. Where Jev scored lower, we most often attributed the shortfall to an annotation convention that the label name does not state. With 500 training labels plus validation and no user-managed GPU, calibration and GEPA-style prompt optimization closed a median 72% of the gap to the paper's method, about twice what off-the-shelf GEPA closed, for a median $1.66 per search. On the same labels, fine-tuned encoders such as RoBERTa and DeBERTa closed 59%, and LoRA fine-tuning of the open LLM Qwen3.8-27B closed 97%. Fine-tuning remains the most accurate option, but a zero-shot prompt is often enough for plain labels, and prompt optimization closes most of the remaining gap.",
+      "url": "https://arxiv.org/abs/2611.20191v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:44:24+08:00",
+      "updated": "2026-11-16T02:44:24+08:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 30,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "large language model",
+        "LLM"
+      ],
+      "analysis": {
+        "zh_summary": "Typed Decision Models such as TypeSafe's Jev, also called System One or System 1 models, answer typed questions about an input with a probability for each option, and they need no training.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "large language model, LLM",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20091v1",
+      "title": "The rise and fall of 1A 1118-61: First evidence for frequency hysteresis of quasi-periodic oscillations in an X-ray pulsar",
+      "authors": [
+        "Alexander Salganik",
+        "Sergey S. Tsygankov",
+        "Sergey V. Molkov",
+        "Hua Xiao",
+        "Lingda Kong",
+        "QingChang Zhao",
+        "Long Ji",
+        "Alexander A. Mushtukov",
+        "Igor Yu. Lapshov",
+        "Alexander A. Lutovinov",
+        "Alexey Yu. Tkachenko",
+        "Hua Feng",
+        "Shuang-Nan Zhang",
+        "Xiao-Bo Li",
+        "Shu Zhang",
+        "Juri Poutanen"
+      ],
+      "abstract": "Context. Quasi-periodic oscillations (QPOs) are commonly observed in accreting X-ray pulsars (XRPs), but the physical mechanisms governing their frequency evolution remain poorly understood. Aims. We investigate the evolution of the QPO during the 2026 outburst of the Be/X-ray pulsar 1A 1118-61, focusing on its frequency-luminosity relation during the rising and declining phases of the outburst. Methods. We analyzed X-ray timing and spectral observations obtained with SRG/ART-XC, NuSTAR, and Insight-HXMT. We measured QPO centroid frequencies and amplitudes, compared their evolution during the rising and declining phases of the outburst, and examined the associated changes in the X-ray spectral shape. Results. We detected a prominent QPO with a centroid frequency ranging from approximately 37 to 114 mHz. Its frequency-luminosity relation follows two distinct branches, with QPO frequencies approximately 35% higher during the rise than during the decline at the same luminosity. The frequency evolution along both branches is consistent with Keplerian motion near the inner disk edge. The X-ray spectral shape also follows different evolutionary tracks during the rising and declining phases. Conclusions. We report the first evidence for QPO frequency hysteresis in an XRP. The observed separation between the rising and declining branches suggests that the characteristic timescale of the QPO depends not only on the instantaneous luminosity but also on the accretion history. We discuss possible implications for the disk-magnetosphere interaction.",
+      "url": "https://arxiv.org/abs/2611.20091v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-11-16T00:09:16+08:00",
+      "updated": "2026-11-16T00:09:16+08:00",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 29,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "天文/高能相关"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "pulsar"
+      ],
+      "analysis": {
+        "zh_summary": "Context.",
+        "why_relevant": "匹配关注项：天文/高能相关。",
+        "method_or_signal": "pulsar",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20187v1",
+      "title": "Cyber-Secure Wearable, Ultra-Low-Power Networked Sensors for Soldier Health Monitoring: Insights from the CAPSARII project",
+      "authors": [
+        "Luciano Bozzi",
+        "Christian Celidonio",
+        "Umberto Nuzzi",
+        "Massimo Biagini",
+        "Stefano Cherubin",
+        "Asbjørn Djupdal",
+        "Tor Andre Haugdahl",
+        "Andrea Aliverti",
+        "Alessandra Angelucci",
+        "Giovanni Agosta",
+        "Gerardo Pelosi",
+        "Paolo Belluco",
+        "Samuele Polistina",
+        "Gaia Strada",
+        "Luigi Sossi Ortega",
+        "Alexandra-Ioana Albu",
+        "Riccardo Volpi",
+        "Luigi Malagò",
+        "Michael Schneider",
+        "Xabier Eguiluz",
+        "Haritz Saiz",
+        "María Viqueria"
+      ],
+      "abstract": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support. The architecture integrates smart-textile sensing, a body/squad area mesh, edge-deployed AI on secure RISC-V microcontrollers, and cloud/federated analytics for cross-mission learning and comparative studies. Two representative use cases--pilot fatigue and warfighters operating in harsh environments--guide requirements, validation, and interface design (including HUD and haptic feedback). As an initial step toward embedded models, we benchmark stress classification on a public wearable dataset: tree-ensemble baselines achieve state-of-the-art performance for accuracy and F1 (e.g., XGBoost: $\\mathrm{Accuracy}=0.901\\!\\pm\\!0.023$, $\\mathrm{F1}=0.920\\!\\pm\\!0.019$), while a feature-based Transformer attains the highest AUC ($0.963\\!\\pm\\!0.025$), informing feature-engineering and compression choices for edge deployment. Building on these results, CAPSARII employs HW/SW co-design, model compression (pruning, quantization, distillation), and precision tuning to meet stringent energy and memory budgets; it further investigates Processing-in-Memory accelerators for future efficiency gains. A structured gap analysis highlights the remaining challenges: establishing validation standards for physiological signal quality and textile durability; achieving low-latency, scalable BAN/SAN communications under mobility and interference; and deploying hybrid lightweight/post-quantum cryptography with robust device identity and side-channel resilience on constrained endpoints. By consolidating these elements into a coherent, secure IoBT stack, CAPSARII delineates a practical roadmap from laboratory baselines to mission-ready soldier monitoring in both training and operational scenarios.",
+      "url": "https://arxiv.org/abs/2611.20187v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:41:35+08:00",
+      "updated": "2026-11-16T02:41:35+08:00",
+      "categories": [
+        "cs.ET",
+        "cs.AI",
+        "cs.AR",
+        "cs.CR",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "doi": "10.1016/j.micpro.2026.105355",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "transformer"
+      ],
+      "analysis": {
+        "zh_summary": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "transformer",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20144v1",
+      "title": "HEAMS: Holistic Evaluation of Agent Memory Systems",
+      "authors": [
+        "Chirag Goel",
+        "Jacob Lavoie",
+        "Amirhossein Naghshzan",
+        "Jordan Bannister",
+        "Marzia Nouri",
+        "Mehar Bhatia",
+        "Matt Harris",
+        "Siva Reddy",
+        "Arsène Fansi Tchango",
+        "Gaétan Marceau Caron"
+      ],
+      "abstract": "Memory systems allow AI agents to persist information across interactions, making them more personalized and more capable on long-horizon tasks. This persistence introduces new risks: stored information can be disclosed in inappropriate contexts, resist correction or deletion, be retained beyond what users desire, or be poisoned to influence later agent behaviour. Yet memory systems are typically evaluated on task performance and efficiency alone. We argue that a memory system should instead be understood as the custodian of its user's persistent information, with responsibilities that extend beyond helping an agent complete its tasks, and that it should be evaluated holistically against all such responsibilities. We present Holistic Evaluation of Agent Memory Systems (HEAMS), an open-source framework for evaluating agent memory systems in this way. First, we state the responsibilities of agent memory systems as explicit behavioural desiderata spanning performance, efficiency, security, privacy, and user sovereignty. Second, we assemble a benchmark suite that covers these desiderata and acknowledge the gaps that remain. Third, we develop MilaMem, a prototype memory system, and a governance layer that can wrap any memory system, enabling controlled study of memory system design choices. Fourth, we compare memory systems across the full HEAMS benchmark suite. We find that no memory system leads every performance benchmark, and strong performance scores may coexist with poor privacy, user-sovereignty, and security scores. Governance strongly influences results: recall policies can reduce inappropriate disclosure at a cost in helpfulness, while both recall and retention policies improve poisoning resistance. Performance and efficiency benchmarks alone therefore cannot reveal how well a memory system meets its responsibilities. Code: https://github.com/milatechtransfer/heams",
+      "url": "https://arxiv.org/abs/2611.20144v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T01:26:34+08:00",
+      "updated": "2026-11-16T01:26:34+08:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AI agent"
+      ],
+      "analysis": {
+        "zh_summary": "Memory systems allow AI agents to persist information across interactions, making them more personalized and more capable on long-horizon tasks.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "AI agent",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20109v1",
+      "title": "MT-RGCN-DTI: A Multi-Task Relational Graph Convolutional Network for Drug-Target Interaction Prediction",
+      "authors": [
+        "Dheeran Sankaran",
+        "R Yadunandan",
+        "Daniele Santoni",
+        "Nimisha Ghosh"
+      ],
+      "abstract": "Prediction of drug-target interaction (DTI) has become a very crucial part of drug discovery. With the increase in the data volume, it has become very important to improve prediction accuracy by integrating multiple data sources. In this regard, utilising multiple resources in the form of heterogeneous information network to address DTI prediction can be rewarding. In this work, we propose a heterogeneous information network based multi-task DTI prediction model which leverages the advantages of relation graph convolutional network (RGCN). To achieve this, the model employs drug-target interaction network, drug-drug similarity network and protein-protein similarity network to construct a heterogeneous information network. Moreover, we use a knowledge graph embedding scoring functions to model interactions between drug and targets, specifically DistMult and ComplEx as decoders over the learned node representations. We performed extensive experiments on multiple benchmark datasets and compared with state-of-the-art methods. We observed that the proposed model shows competitive performance, thereby confirming the effectiveness of our approach. The codes and datasets are available at https://github.com/Dheeran-S/MT-RGCN-DTI/.",
+      "url": "https://arxiv.org/abs/2611.20109v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T00:37:24+08:00",
+      "updated": "2026-11-16T00:37:24+08:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 28,
+      "priority": "related",
+      "area": "ai",
+      "tags": [
+        "AI/知识库/模型架构"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "knowledge graph"
+      ],
+      "analysis": {
+        "zh_summary": "Prediction of drug-target interaction (DTI) has become a very crucial part of drug discovery.",
+        "why_relevant": "匹配关注项：AI/知识库/模型架构。",
+        "method_or_signal": "knowledge graph",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20117v1",
+      "title": "Equivariant Localization with Electric Monodromy in M-theory",
+      "authors": [
+        "Ji-seong Chae"
+      ],
+      "abstract": "We extend equivariant localization for supersymmetric AdS$_3$ backgrounds of M-theory to solutions with nonzero electric flux periods. The associated local electric potential acquires additive monodromy, contributing to the warped volume alongside R-symmetry fixed points and outer boundaries. Using Killing-spinor identities, we relate the electric periods to magnetic flux and, for a class of compact backgrounds, the warped volume to the electric Maxwell charge. We also derive a relation between the gravitational anomaly and the electric flux. We apply these results to AdS$_3$ $\\times S^3 \\times S^3 \\times T^2$ and AdS$_3$ $\\times S^3 \\times K3 \\times S^1$, recovering their central charges and deriving the R-current levels of the former directly from eleven-dimensional supergravity. Finally, we study a noncompact half-BPS AdS$_3$ $\\times S^3\\times S^3$ geometry fibered over a periodic half-cylinder, where fixed-point, monodromy and outer-boundary contributions coexist.",
+      "url": "https://arxiv.org/abs/2611.20117v1",
+      "source": "arXiv GW/compact related",
+      "source_kind": "arxiv_related",
+      "published": "2026-11-16T00:45:12+08:00",
+      "updated": "2026-11-16T00:45:12+08:00",
+      "categories": [
+        "hep-th"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 27,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "We extend equivariant localization for supersymmetric AdS$_3$ backgrounds of M-theory to solutions with nonzero electric flux periods.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    },
+    {
+      "uid": "arxiv:2611.20180v1",
+      "title": "UrbanROI: Causal Modeling for Regional ROI Forecasting under POI Entry",
+      "authors": [
+        "Zhaoqi Zhang",
+        "Miao Xie",
+        "Linyou Cai",
+        "Qianlong Xie",
+        "Xingxing Wang",
+        "Siqiang Luo",
+        "Gao Cong"
+      ],
+      "abstract": "As urban commercial environments continue to evolve rapidly, accurately modeling the economic impact of point of interest (POI) entry is essential for supporting data-driven advertising allocation, merchant onboarding, and regional business decision-making. Existing return on investment (ROI) prediction methods mainly focus on individual ads or merchants, overlooking the interaction effects among POIs and failing to capture the causal influence of structural changes in urban commercial ecosystems. In this paper, we introduce a novel research problem -- regional ROI forecasting under POI entry, which aims to predict the future ROI trajectory of a commercial region after the introduction of a new POI by modeling temporal ROI evolution and competition-driven interactions among surrounding POIs. To address these challenges, we propose UrbanROI, an intervention-aware causal forecasting framework for region-level economic outcome prediction. UrbanROI leverages an Interaction-aware Regional Graph Module to explicitly model competitive relationships among POIs based on user request contexts, spatial proximity, and request-level commercial signals, and constructs structurally aligned treatment and control graphs to simulate factual and counterfactual regional states. Extensive experiments on large-scale real-world POI and advertising datasets demonstrate that UrbanROI consistently outperforms strong baselines in post-entry regional ROI forecasting. The results demonstrate its effectiveness in temporal economic modeling, inter-POI interaction representation, and intervention-aware forecasting, providing support for regional economic analysis and business decision-making in dynamic urban commercial systems.",
+      "url": "https://arxiv.org/abs/2611.20180v1",
+      "source": "arXiv AI radar",
+      "source_kind": "ai_radar",
+      "published": "2026-11-16T02:35:51+08:00",
+      "updated": "2026-11-16T02:35:51+08:00",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": "",
+      "journal": "arXiv",
+      "score": 25,
+      "priority": "related",
+      "area": "related",
+      "tags": [
+        "gr-qc 相关方向"
+      ],
+      "noise_tags": [],
+      "matched_keywords": [
+        "AdS"
+      ],
+      "analysis": {
+        "zh_summary": "As urban commercial environments continue to evolve rapidly, accurately modeling the economic impact of point of interest (POI) entry is essential for supporting data-driven advertising allocation, merchant onboarding, and regional business decision-making.",
+        "why_relevant": "匹配关注项：gr-qc 相关方向。",
+        "method_or_signal": "AdS",
+        "suggested_action": "相关性中等，适合保留链接后续筛选。"
+      },
+      "ai_blocked": false
+    }
+  ]
 }
