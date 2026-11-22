@@ -6,7 +6,7 @@ permalink: /papers/
 
 <section class="paper-watch-home">
 <p>这里自动汇总 gr-qc、致密双星建模、LVK/LISA、QNM、相关天文/高能方向，以及 AI/知识库方向的论文与新闻线索。</p>
-<p><strong>最新日报：</strong><a href="/papers/2026-11-21/">2026-11-21</a>，收录 45 条；批阅候选 80 条。</p>
+<p><strong>最新日报：</strong><a href="/papers/2026-11-22/">2026-11-22</a>，收录 0 条；批阅候选 1 条。</p>
 </section>
 
 ## 关注范围
@@ -18,6 +18,7 @@ permalink: /papers/
 ## 历史日报
 
 <ul class="paper-history">
+<li><a href="/papers/2026-11-22/">2026-11-22</a> <span>0 条，2026-11-22 10:19 CST</span></li>
 <li><a href="/papers/2026-11-21/">2026-11-21</a> <span>45 条，2026-11-21 11:16 CST</span></li>
 <li><a href="/papers/2026-11-20/">2026-11-20</a> <span>45 条，2026-11-20 11:28 CST</span></li>
 <li><a href="/papers/2026-11-19/">2026-11-19</a> <span>45 条，2026-11-19 11:39 CST</span></li>
@@ -77,7 +78,6 @@ permalink: /papers/
 <li><a href="/papers/2026-09-26/">2026-09-26</a> <span>32 条，2026-09-26 08:40 CST</span></li>
 <li><a href="/papers/2026-09-25/">2026-09-25</a> <span>25 条，2026-09-25 08:36 CST</span></li>
 <li><a href="/papers/2026-09-24/">2026-09-24</a> <span>17 条，2026-09-24 08:33 CST</span></li>
-<li><a href="/papers/2026-09-23/">2026-09-23</a> <span>45 条，2026-09-23 08:40 CST</span></li>
 </ul>
 
 ## 自动化
