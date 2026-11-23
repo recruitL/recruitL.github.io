@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22 10:19 CST",
-  "window": "2026-11-21 00:00 至 2026-11-23 00:00 Asia/Shanghai",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23 10:54 CST",
+  "window": "2026-11-22 00:00 至 2026-11-24 00:00 Asia/Shanghai",
   "counts": {},
   "source_statuses": [
     {
@@ -22,7 +22,7 @@
     {
       "source": "Nature RSS",
       "ok": true,
-      "count": 1
+      "count": 0
     },
     {
       "source": "Science RSS",
@@ -56,18 +56,18 @@
     },
     {
       "source": "Science Crossref",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Physical Review Letters Crossref",
       "ok": true,
       "count": 0
     },
     {
-      "source": "Physical Review Letters Crossref",
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "source": "Living Reviews in Relativity Crossref",
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "OpenAI analysis",
@@ -76,8 +76,8 @@
     }
   ],
   "total_papers": 0,
-  "total_review_candidates": 1,
-  "report_path": "/papers/2026-11-22/",
-  "review_path": "_paper_reviews/2026-11-22.md",
+  "total_review_candidates": 0,
+  "report_path": "/papers/2026-11-23/",
+  "review_path": "_paper_reviews/2026-11-23.md",
   "papers": []
 }
